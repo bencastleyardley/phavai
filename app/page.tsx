@@ -1,36 +1,56 @@
 "use client";
 import { useState } from "react";
+import { ScoreCard } from "@/components/ScoreCard";
 
 type Buckets = { pro: number; reddit: number; forum: number; youtube: number };
-type SourceItem = {
-  id: string; type: "pro" | "reddit" | "forum" | "youtube";
-  title: string; url: string; excerpt?: string;
-  sentiment: -1 | -0.5 | 0 | 0.5 | 1;
-  confidence: number; ageDays: number; credibility: number;
-};
+type TopItem = { id: string; name: string; score: number; confidence: number; buckets: Buckets };
 type ScorePayload = {
   query: string; bestPickScore: number; confidence: number;
-  buckets: Buckets; sources: SourceItem[]; notes?: string[];
+  buckets: Buckets; sources: any[]; notes?: string[];
 };
 
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [data, setData] = useState<ScorePayload | null>(null);
+  const [scoreData, setScoreData] = useState<ScorePayload | null>(null);
+  const [topData, setTopData] = useState<TopItem[] | null>(null);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [searched, setSearched] = useState<string | null>(null);
 
   async function run(e: React.FormEvent) {
     e.preventDefault();
-    setLoading(true); setErr(null); setData(null);
+    const q = query.trim();
+    if (!q) return;
+
+    setLoading(true);
+    setErr(null);
+    setScoreData(null);
+    setTopData(null);
+    setSearched(q);
+
     try {
-      const res = await fetch("/api/score", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query }),
-      });
-      const json = await res.json();
-      if (!res.ok) throw new Error(json?.error || "Request failed");
-      setData(json as ScorePayload);
+      // kick off both requests in parallel
+      const [scoreRes, topRes] = await Promise.all([
+        fetch("/api/score", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query: q }),
+        }),
+        fetch("/api/top", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ query: q }),
+        }),
+      ]);
+
+      const scoreJson = await scoreRes.json();
+      const topJson = await topRes.json();
+
+      if (!scoreRes.ok) throw new Error(scoreJson?.error || "Score request failed");
+      if (!topRes.ok) throw new Error(topJson?.error || "Top request failed");
+
+      setScoreData(scoreJson as ScorePayload);
+      setTopData(topJson.items as TopItem[]);
     } catch (e) {
       setErr(e instanceof Error ? e.message : "Unknown error");
     } finally {
@@ -40,109 +60,76 @@ export default function Home() {
 
   return (
     <main className="min-h-dvh bg-gray-50 text-gray-900">
-      <div className="mx-auto max-w-4xl p-6 space-y-6">
-        <h1 className="text-3xl font-semibold">Phavai — The Internet’s Opinion, Distilled</h1>
+      <div className="mx-auto max-w-5xl p-6 space-y-8">
+        <header className="flex items-center justify-between">
+          <h1 className="text-3xl font-semibold">Phavai — The Internet’s Opinion, Distilled</h1>
+        </header>
 
-        <form onSubmit={run} className="flex gap-3">
-          <input
-            value={query}
-            onChange={(e)=>setQuery(e.target.value)}
-            placeholder='Try: "best trail running shoes"'
-            className="flex-1 rounded-lg border bg-white px-3 py-2 outline-none focus:ring"
-          />
-          <button
-            className="rounded-lg bg-indigo-600 px-4 py-2 text-white disabled:opacity-60"
-            disabled={loading || !query.trim()}
-          >
-            {loading ? "Scoring…" : "Get Score"}
-          </button>
-        </form>
+        {/* Search */}
+        <section className="rounded-2xl bg-white shadow p-5">
+          <form onSubmit={run} className="flex gap-3">
+            <input
+              value={query}
+              onChange={(e)=>setQuery(e.target.value)}
+              placeholder='e.g., "best trail running shoes"'
+              className="flex-1 rounded-lg border bg-white px-3 py-2 outline-none focus:ring"
+            />
+            <button
+              className="rounded-lg bg-indigo-600 px-4 py-2 text-white disabled:opacity-60"
+              disabled={loading || !query.trim()}
+            >
+              {loading ? "Searching…" : "Search"}
+            </button>
+          </form>
 
-        {err && <div className="rounded-lg border border-red-200 bg-red-50 p-3 text-red-700">{err}</div>}
+          {err && <div className="mt-3 rounded-lg border border-red-200 bg-red-50 p-3 text-red-700">{err}</div>}
 
-        {data && (
-          <section className="space-y-6">
-            {/* Score card */}
-            <div className="rounded-2xl bg-white shadow p-6 flex items-center justify-between">
-              <div className="space-y-1">
+          {scoreData && (
+            <div className="mt-5 rounded-xl border p-4 flex items-center justify-between">
+              <div>
                 <div className="text-sm text-gray-500">BestPick Score</div>
-                <div className="text-5xl font-bold">{data.bestPickScore}</div>
+                <div className="text-4xl font-bold">{scoreData.bestPickScore}</div>
               </div>
               <div className="text-right">
                 <div className="text-sm text-gray-500">Confidence</div>
                 <div className="inline-flex items-center gap-2 rounded-full border px-3 py-1">
-                  <span className="text-lg font-semibold">{data.confidence}</span>
+                  <span className="text-lg font-semibold">{scoreData.confidence}</span>
                   <span className="text-xs text-gray-500">/ 100</span>
                 </div>
               </div>
             </div>
+          )}
+        </section>
 
-            {/* Buckets */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {[
-                ["Professional", data.buckets.pro],
-                ["Social (Reddit)", data.buckets.reddit],
-                ["Video (YouTube)", data.buckets.youtube],
-              ].map(([label, value]) => (
-                <div key={label as string} className="rounded-2xl bg-white shadow p-4">
-                  <div className="flex items-center justify-between text-sm mb-2">
-                    <span className="text-gray-600">{label}</span>
-                    <span className="font-semibold">{value as number}</span>
-                  </div>
-                  <div className="h-2 w-full rounded bg-gray-200 overflow-hidden">
-                    <div className="h-full" style={{ width: `${value}%` }} />
-                  </div>
-                </div>
-              ))}
-              <div className="rounded-2xl bg-white shadow p-4">
-                <div className="flex items-center justify-between text-sm mb-2">
-                  <span className="text-gray-600">Forums</span>
-                  <span className="font-semibold">{data.buckets.forum}</span>
-                </div>
-                <div className="h-2 w-full rounded bg-gray-200 overflow-hidden">
-                  <div className="h-full" style={{ width: `${data.buckets.forum}%` }} />
-                </div>
-              </div>
+        {/* Top 10 for this query */}
+        {searched && (
+          <section className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h2 className="text-xl font-semibold">Top 10 for “{searched}”</h2>
+              <span className="text-sm text-gray-500">Mocked results — wiring real sources next</span>
             </div>
 
-            {/* Sources */}
-            <div className="rounded-2xl bg-white shadow">
-              <div className="border-b px-6 py-4 font-medium">Sources ({data.sources.length})</div>
-              <ul className="divide-y">
-                {data.sources.map((s) => (
-                  <li key={s.id} className="p-6 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs rounded-full px-2 py-0.5 border">
-                          {s.type.toUpperCase()}
-                        </span>
-                        <a href={s.url} target="_blank" className="font-medium hover:underline">
-                          {s.title}
-                        </a>
-                      </div>
-                      {s.excerpt && <p className="text-sm text-gray-600 mt-1">{s.excerpt}</p>}
-                    </div>
-                    <div className="flex items-center gap-3 text-sm">
-                      <span className="rounded-full px-2 py-0.5 border">{s.sentiment > 0 ? "👍" : s.sentiment < 0 ? "👎" : "↔️"} {s.sentiment}</span>
-                      <span className="text-gray-500">age: {s.ageDays}d</span>
-                      <span className="text-gray-500">conf: {(s.confidence*100).toFixed(0)}%</span>
-                      <span className="text-gray-500">cred: {(s.credibility*100).toFixed(0)}%</span>
-                    </div>
-                  </li>
+            {loading && <div className="rounded-lg border bg-white p-4">Loading…</div>}
+
+            {topData && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                {topData.map((t, idx) => (
+                  <ScoreCard
+                    key={t.id}
+                    rank={idx + 1}
+                    name={t.name}
+                    score={t.score}
+                    confidence={t.confidence}
+                    buckets={t.buckets}
+                    onAnalyze={() => {
+                      setQuery(t.name);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
+                  />
                 ))}
-              </ul>
-            </div>
-
-            {data.notes?.length ? (
-              <div className="text-xs text-gray-500">
-                {data.notes.map((n, i) => <div key={i}>• {n}</div>)}
               </div>
-            ) : null}
+            )}
           </section>
-        )}
-
-        {!data && !loading && (
-          <p className="text-sm text-gray-500">Type a product/topic and we’ll compute a BestPick Score with transparent source weighting.</p>
         )}
       </div>
     </main>
