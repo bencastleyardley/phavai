@@ -23,7 +23,7 @@ type ScorePayload = {
   bestPickScore: number;
   confidence: number;
   buckets: Buckets;
-  sources: SourceItem[]; // <- no 'any'
+  sources: SourceItem[];
   notes?: string[];
 };
 
@@ -63,8 +63,8 @@ export default function Home() {
       const scoreJson: ScorePayload = await scoreRes.json();
       const topJson: { items: TopItem[] } = await topRes.json();
 
-      if (!scoreRes.ok) throw new Error((scoreJson as any)?.error || "Score request failed");
-      if (!topRes.ok) throw new Error((topJson as any)?.error || "Top request failed");
+      if (!scoreRes.ok) throw new Error((scoreJson as unknown as any)?.error || "Score request failed");
+      if (!topRes.ok) throw new Error((topJson as unknown as any)?.error || "Top request failed");
 
       setScoreData(scoreJson);
       setTopData(topJson.items);
