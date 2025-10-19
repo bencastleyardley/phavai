@@ -4,7 +4,7 @@
 
 /* Light, trustworthy palette + subtle improvements */
 :root {
-  /* Brand accent idea (UltraSignup green is #5CA921; keep Phavai neutral for now) */
+  /* Optional brand accent slot (HSL). Adjust later if you want brand color tokens */
   --brand: 26 86% 55%;
 }
 
@@ -12,9 +12,7 @@
   html, body {
     @apply antialiased;
   }
-  h1, h2, h3 {
-    @apply text-gray-900;
-  }
+  /* REMOVE the h1/h2/h3 @apply — inheritance handles this from body */
 }
 
 @layer components {
