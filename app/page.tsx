@@ -1,12 +1,30 @@
+// app/page.tsx
 "use client";
 import { useState } from "react";
 import { ScoreCard } from "@/components/ScoreCard";
+import type { SourceItem } from "@/lib/score";
 
 type Buckets = { pro: number; reddit: number; forum: number; youtube: number };
-type TopItem = { id: string; name: string; score: number; confidence: number; buckets: Buckets };
+
+type TopItem = {
+  id: string;
+  name: string;
+  score: number;
+  confidence: number;
+  buckets: Buckets;
+  price: number;
+  volume: number;
+  badges?: string[];
+  references?: { label: string; url: string; kind: "pro" | "reddit" | "youtube" | "buyers" }[];
+};
+
 type ScorePayload = {
-  query: string; bestPickScore: number; confidence: number;
-  buckets: Buckets; sources: any[]; notes?: string[];
+  query: string;
+  bestPickScore: number;
+  confidence: number;
+  buckets: Buckets;
+  sources: SourceItem[]; // <- no 'any'
+  notes?: string[];
 };
 
 export default function Home() {
@@ -29,7 +47,6 @@ export default function Home() {
     setSearched(q);
 
     try {
-      // kick off both requests in parallel
       const [scoreRes, topRes] = await Promise.all([
         fetch("/api/score", {
           method: "POST",
@@ -43,14 +60,15 @@ export default function Home() {
         }),
       ]);
 
-      const scoreJson = await scoreRes.json();
-      const topJson = await topRes.json();
+      const scoreJson: ScorePayload = await scoreRes.json();
+      const topJson: { items: TopItem[] } = await topRes.json();
 
-      if (!scoreRes.ok) throw new Error(scoreJson?.error || "Score request failed");
-      if (!topRes.ok) throw new Error(topJson?.error || "Top request failed");
+      if (!scoreRes.ok) throw new Error((scoreJson as any)?.error || "Score request failed");
+      if (!topRes.ok) throw new Error((topJson as any)?.error || "Top request failed");
 
-      setScoreData(scoreJson as ScorePayload);
-      setTopData(topJson.items as TopItem[]);
+      setScoreData(scoreJson);
+      setTopData(topJson.items);
+      window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (e) {
       setErr(e instanceof Error ? e.message : "Unknown error");
     } finally {
@@ -70,7 +88,7 @@ export default function Home() {
           <form onSubmit={run} className="flex gap-3">
             <input
               value={query}
-              onChange={(e)=>setQuery(e.target.value)}
+              onChange={(e) => setQuery(e.target.value)}
               placeholder='e.g., "best trail running shoes"'
               className="flex-1 rounded-lg border bg-white px-3 py-2 outline-none focus:ring"
             />
@@ -82,7 +100,11 @@ export default function Home() {
             </button>
           </form>
 
-          {err && <div className="mt-3 rounded-lg border border-red-200 bg-red-50 p-3 text-red-700">{err}</div>}
+          {err && (
+            <div className="mt-3 rounded-lg border border-red-200 bg-red-50 p-3 text-red-700">
+              {err}
+            </div>
+          )}
 
           {scoreData && (
             <div className="mt-5 rounded-xl border p-4 flex items-center justify-between">
@@ -121,6 +143,9 @@ export default function Home() {
                     score={t.score}
                     confidence={t.confidence}
                     buckets={t.buckets}
+                    price={t.price}
+                    badges={t.badges}
+                    references={t.references}
                     onAnalyze={() => {
                       setQuery(t.name);
                       window.scrollTo({ top: 0, behavior: "smooth" });
