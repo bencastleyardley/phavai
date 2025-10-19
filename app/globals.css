@@ -1,7 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* app/globals.css */
+@import "tailwindcss";
 
-:root { color-scheme: light dark; }
-html, body, #__next { height: 100%; }
-body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+:root {
+  --brand: #0f172a; /* slate-900 */
+  --accent: #5ca921; /* UltraSignup brand color you like */
+}
+
+html, body { height: 100%; }
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}

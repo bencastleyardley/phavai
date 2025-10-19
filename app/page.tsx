@@ -1,162 +1,124 @@
 // app/page.tsx
 "use client";
-import { useState } from "react";
-import { ScoreCard } from "@/components/ScoreCard";
-import type { SourceItem } from "@/lib/score";
 
-type Buckets = { pro: number; reddit: number; forum: number; youtube: number };
+import { useMemo, useState } from "react";
+import TileCard from "@/components/TileCard";
+import type { Tile } from "@/types/domain";
+import { runAnalyze } from "@/lib/analyze";
 
-type TopItem = {
-  id: string;
-  name: string;
-  score: number;
-  confidence: number;
-  buckets: Buckets;
-  price: number;
-  volume: number;
-  badges?: string[];
-  references?: { label: string; url: string; kind: "pro" | "reddit" | "youtube" | "buyers" }[];
-};
-
-type ScorePayload = {
-  query: string;
-  bestPickScore: number;
-  confidence: number;
-  buckets: Buckets;
-  sources: SourceItem[];
-  notes?: string[];
-};
-
-export default function Home() {
+export default function HomePage() {
   const [query, setQuery] = useState("");
-  const [scoreData, setScoreData] = useState<ScorePayload | null>(null);
-  const [topData, setTopData] = useState<TopItem[] | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [err, setErr] = useState<string | null>(null);
-  const [searched, setSearched] = useState<string | null>(null);
+  const [tiles, setTiles] = useState<Tile[]>([
+    {
+      id: "1",
+      title: "Laptop: Best Value Under $1000",
+      buckets: ["Performance", "Battery", "Value"],
+      price: "$799–$999",
+      badges: ["Editor’s Choice"],
+      references: ["Reddit", "YouTube", "Published Reviews"],
+    },
+    {
+      id: "2",
+      title: "Wireless ANC Headphones",
+      buckets: ["Sound", "Comfort", "Features"],
+      price: "$249–$399",
+      badges: ["Top Rated"],
+      references: ["Reddit", "YouTube", "Published Reviews"],
+    },
+    {
+      id: "3",
+      title: "Trail Running Shoe (Neutral)",
+      buckets: ["Fit", "Grip", "Durability"],
+      price: "$139–$189",
+      badges: ["Runner Favorite"],
+      references: ["Reddit", "YouTube", "Published Reviews"],
+    },
+  ]);
 
-  async function run(e: React.FormEvent) {
-    e.preventDefault();
-    const q = query.trim();
-    if (!q) return;
+  const hasLoading = useMemo(() => tiles.some(t => t.isLoading), [tiles]);
 
-    setLoading(true);
-    setErr(null);
-    setScoreData(null);
-    setTopData(null);
-    setSearched(q);
-
+  const handleAnalyze = async (tile: Tile) => {
+    setTiles(prev =>
+      prev.map(t => (t.id === tile.id ? { ...t, isLoading: true, error: null } : t))
+    );
     try {
-      const [scoreRes, topRes] = await Promise.all([
-        fetch("/api/score", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ query: q }),
-        }),
-        fetch("/api/top", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ query: q }),
-        }),
-      ]);
-
-      const scoreJson: ScorePayload = await scoreRes.json();
-      const topJson: { items: TopItem[] } = await topRes.json();
-
-      if (!scoreRes.ok) throw new Error((scoreJson as unknown as any)?.error || "Score request failed");
-      if (!topRes.ok) throw new Error((topJson as unknown as any)?.error || "Top request failed");
-
-      setScoreData(scoreJson);
-      setTopData(topJson.items);
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    } catch (e) {
-      setErr(e instanceof Error ? e.message : "Unknown error");
-    } finally {
-      setLoading(false);
+      const q =
+        query.trim() ||
+        tile.title ||
+        "Popular consumer product with enough reviews to analyze";
+      const result = await runAnalyze(q);
+      setTiles(prev =>
+        prev.map(t =>
+          t.id === tile.id ? { ...t, isLoading: false, analysis: result } : t
+        )
+      );
+    } catch (e: any) {
+      setTiles(prev =>
+        prev.map(t =>
+          t.id === tile.id
+            ? { ...t, isLoading: false, error: e?.message || "Failed to analyze." }
+            : t
+        )
+      );
     }
-  }
+  };
+
+  const addTile = () => {
+    const title = query.trim();
+    if (!title) return;
+    const id = String(Date.now());
+    const newTile: Tile = {
+      id,
+      title,
+      buckets: ["Performance", "Design", "Value"],
+      price: "—",
+      badges: ["New"],
+      references: ["Reddit", "YouTube", "Published Reviews"],
+    };
+    setTiles(prev => [newTile, ...prev]);
+    setQuery("");
+  };
 
   return (
-    <main className="min-h-dvh bg-gray-50 text-gray-900">
-      <div className="mx-auto max-w-5xl p-6 space-y-8">
-        <header className="flex items-center justify-between">
-          <h1 className="text-3xl font-semibold">Phavai — The Internet’s Opinion, Distilled</h1>
-        </header>
+    <main className="pb-16">
+      <header className="bg-white/70 backdrop-blur border-b">
+        <div className="container py-8">
+          <h1 className="text-4xl font-semibold tracking-tight">
+            The Internet’s Opinion, Distilled
+          </h1>
+          <p className="mt-2 text-gray-600">
+            One trusted score with transparent reasoning — built from reviews, forums, and videos.
+          </p>
 
-        {/* Search */}
-        <section className="rounded-2xl bg-white shadow p-5">
-          <form onSubmit={run} className="flex gap-3">
+          <div className="mt-6 flex gap-2">
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder='e.g., "best trail running shoes"'
-              className="flex-1 rounded-lg border bg-white px-3 py-2 outline-none focus:ring"
+              placeholder="Try: 'Best ultralight laptop 14-inch' or 'Trail shoe for wide feet'"
+              className="flex-1 rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-black/10"
             />
             <button
-              className="rounded-lg bg-indigo-600 px-4 py-2 text-white disabled:opacity-60"
-              disabled={loading || !query.trim()}
+              onClick={addTile}
+              className="rounded-xl bg-black text-white text-sm px-5 hover:bg-gray-800 transition disabled:opacity-50"
+              disabled={!query.trim() || hasLoading}
             >
-              {loading ? "Searching…" : "Search"}
+              Add
             </button>
-          </form>
+          </div>
+        </div>
+      </header>
 
-          {err && (
-            <div className="mt-3 rounded-lg border border-red-200 bg-red-50 p-3 text-red-700">
-              {err}
-            </div>
-          )}
+      <section className="container mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {tiles.map((tile) => (
+          <TileCard key={tile.id} tile={tile} onAnalyze={handleAnalyze} />
+        ))}
+      </section>
 
-          {scoreData && (
-            <div className="mt-5 rounded-xl border p-4 flex items-center justify-between">
-              <div>
-                <div className="text-sm text-gray-500">BestPick Score</div>
-                <div className="text-4xl font-bold">{scoreData.bestPickScore}</div>
-              </div>
-              <div className="text-right">
-                <div className="text-sm text-gray-500">Confidence</div>
-                <div className="inline-flex items-center gap-2 rounded-full border px-3 py-1">
-                  <span className="text-lg font-semibold">{scoreData.confidence}</span>
-                  <span className="text-xs text-gray-500">/ 100</span>
-                </div>
-              </div>
-            </div>
-          )}
-        </section>
-
-        {/* Top 10 for this query */}
-        {searched && (
-          <section className="space-y-4">
-            <div className="flex items-center justify-between">
-              <h2 className="text-xl font-semibold">Top 10 for “{searched}”</h2>
-              <span className="text-sm text-gray-500">Mocked results — wiring real sources next</span>
-            </div>
-
-            {loading && <div className="rounded-lg border bg-white p-4">Loading…</div>}
-
-            {topData && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {topData.map((t, idx) => (
-                  <ScoreCard
-                    key={t.id}
-                    rank={idx + 1}
-                    name={t.name}
-                    score={t.score}
-                    confidence={t.confidence}
-                    buckets={t.buckets}
-                    price={t.price}
-                    badges={t.badges}
-                    references={t.references}
-                    onAnalyze={() => {
-                      setQuery(t.name);
-                      window.scrollTo({ top: 0, behavior: "smooth" });
-                    }}
-                  />
-                ))}
-              </div>
-            )}
-          </section>
-        )}
-      </div>
+      <footer className="container mt-16 text-xs text-gray-500">
+        <div className="border-t pt-6">
+          Built with care. Scores are synthesized estimates; always review sources.
+        </div>
+      </footer>
     </main>
   );
 }
