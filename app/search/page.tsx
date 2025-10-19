@@ -1,5 +1,6 @@
 // app/search/page.tsx
 import React from "react";
+import SearchResults from "@/components/SearchResults";
 
 type SearchPageProps = {
   searchParams?: { q?: string };
@@ -17,7 +18,7 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
           <input
             name="q"
             defaultValue={query}
-            placeholder="Search a product (e.g., 'best trail running shoes')"
+            placeholder="Search a product (e.g., “best trail running shoes 2025”)"
             className="w-full rounded-xl border px-4 py-3 outline-none"
           />
           <button
@@ -29,7 +30,7 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
         </form>
       </div>
 
-      <section className="mt-10">
+      <section className="mt-10 space-y-4">
         {!query && (
           <p className="text-sm text-gray-500">
             Enter a query to see top products and Phavai’s distilled score.
@@ -37,22 +38,12 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
         )}
 
         {!!query && (
-          <div className="space-y-4">
+          <>
             <h2 className="text-xl font-semibold">
               Results for: <span className="font-mono">{query}</span>
             </h2>
-
-            {/* TODO (Day 2): call your analyze API here and render:
-                - Top picks with “Best Overall” / “Best Value”
-                - BestPick Score + confidence + sources
-                - Badges (price, weight, durability, etc.)
-            */}
-            <div className="rounded-2xl border p-6">
-              <p className="text-sm text-gray-600">
-                Analysis pipeline placeholder — wiring up next.
-              </p>
-            </div>
-          </div>
+            <SearchResults query={query} />
+          </>
         )}
       </section>
     </main>
