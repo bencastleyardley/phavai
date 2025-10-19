@@ -1,18 +1,26 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Phavai — The Internet’s Opinion, Distilled",
+  title: "Phavai — The internet’s opinion, distilled",
   description:
-    "Phavai aggregates public sentiment into one trusted, transparent score.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+    "Phavai turns unstructured reviews into a single, transparent score with confidence and sources.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" className="h-full bg-gray-50">
-      <body className="min-h-full antialiased text-gray-900">{children}</body>
+    <html lang="en" className="h-full">
+      <body className={`${inter.className} min-h-full bg-gray-50 text-gray-900`}>
+        {children}
+      </body>
     </html>
   );
 }

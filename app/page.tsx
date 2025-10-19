@@ -27,17 +27,32 @@ const tiles = [
 
 export default function HomePage() {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-10">
-      <header className="mb-10">
+    <main className="mx-auto max-w-6xl px-4 py-12">
+      <header className="mb-8">
         <h1 className="text-4xl font-semibold tracking-tight">Phavai</h1>
         <p className="mt-2 text-gray-600">
           The internet’s opinion, distilled. Click a tile or search directly to
           see transparent scores, confidence, and sources.
         </p>
+
+        {/* Search bar that goes to /search */}
+        <form className="mt-6 flex gap-2" action="/search" method="get">
+          <input
+            name="q"
+            placeholder='Try: "best trail running shoes 2025"'
+            className="w-full rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-gray-300"
+          />
+          <button
+            type="submit"
+            className="rounded-xl px-5 py-3 border font-medium hover:shadow transition"
+          >
+            Search
+          </button>
+        </form>
       </header>
 
       <section>
-        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {tiles.map((t) => (
             <TileCard
               key={t.title}
@@ -48,6 +63,10 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <footer className="mt-12 text-xs text-gray-500">
+        Built with care. Scores are synthesized estimates; always review sources.
+      </footer>
     </main>
   );
 }

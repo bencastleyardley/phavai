@@ -1,13 +1,31 @@
-/* app/globals.css */
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Light, trustworthy palette + subtle improvements */
 :root {
-  --brand: #0f172a; /* slate-900 */
-  --accent: #5ca921; /* UltraSignup brand color you like */
+  /* Brand accent idea (UltraSignup green is #5CA921; keep Phavai neutral for now) */
+  --brand: 26 86% 55%;
 }
 
-html, body { height: 100%; }
+@layer base {
+  html, body {
+    @apply antialiased;
+  }
+  h1, h2, h3 {
+    @apply text-gray-900;
+  }
+}
 
-.container {
-  @apply max-w-6xl mx-auto px-4;
+@layer components {
+  /* Reusable “card” surface */
+  .card {
+    @apply rounded-2xl border bg-white shadow-sm hover:shadow transition;
+  }
+  .btn {
+    @apply rounded-xl border px-4 py-2 text-sm hover:shadow transition;
+  }
+  .input {
+    @apply w-full rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-gray-300;
+  }
 }

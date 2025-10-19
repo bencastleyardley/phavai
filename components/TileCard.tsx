@@ -13,14 +13,10 @@ export default function TileCard({
 }) {
   const href = `/search?q=${encodeURIComponent(query)}`;
   return (
-    <Link
-      href={href}
-      className="block rounded-2xl border p-5 hover:shadow transition"
-      prefetch={false}
-    >
+    <Link href={href} className="block card p-6" prefetch={false}>
       <div className="text-lg font-semibold">{title}</div>
-      {subtitle && <div className="text-sm text-gray-500 mt-1">{subtitle}</div>}
-      <div className="mt-3 text-xs underline">Explore →</div>
+      {subtitle && <div className="mt-1 text-sm text-gray-500">{subtitle}</div>}
+      <div className="mt-4 text-xs underline">Explore →</div>
     </Link>
   );
 }
