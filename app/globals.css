@@ -2,28 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Light, trustworthy palette + subtle improvements */
+/* Keep it minimal and v4-safe. No @apply rules here. */
 :root {
-  /* Optional brand accent slot (HSL). Adjust later if you want brand color tokens */
-  --brand: 26 86% 55%;
+  color-scheme: light;
 }
-
-@layer base {
-  html, body {
-    @apply antialiased;
-  }
-  /* REMOVE the h1/h2/h3 @apply — inheritance handles this from body */
-}
-
-@layer components {
-  /* Reusable “card” surface */
-  .card {
-    @apply rounded-2xl border bg-white shadow-sm hover:shadow transition;
-  }
-  .btn {
-    @apply rounded-xl border px-4 py-2 text-sm hover:shadow transition;
-  }
-  .input {
-    @apply w-full rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-gray-300;
-  }
+html, body {
+  height: 100%;
 }

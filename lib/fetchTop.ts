@@ -1,4 +1,3 @@
-// lib/fetchTop.ts
 export type SourceMix = { type: "reddit" | "youtube" | "review" | "other"; count: number };
 export type PickItem = {
   rank: number;
@@ -6,17 +5,13 @@ export type PickItem = {
   url?: string;
   image?: string;
   price?: string;
-  score: number;        // 0-100
-  confidence: number;   // 0-1
+  score: number;
+  confidence: number;
   badge?: "Best Overall" | "Best Value" | null;
   highlights?: string[];
   sources?: SourceMix[];
 };
-
-export type TopResponse = {
-  query: string;
-  picks: PickItem[];
-};
+export type TopResponse = { query: string; picks: PickItem[] };
 
 const mock: TopResponse = {
   query: "best trail running shoes 2025",
@@ -75,15 +70,11 @@ export async function fetchTopPicks(query: string): Promise<TopResponse> {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ query }),
     });
-
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = (await res.json()) as TopResponse;
-
-    // Light validation
     if (!data?.picks || !Array.isArray(data.picks)) throw new Error("Bad data shape");
     return data;
   } catch {
-    // Fallback so UI always shows something
     return { ...mock, query };
   }
 }

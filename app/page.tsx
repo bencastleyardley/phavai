@@ -1,28 +1,11 @@
-// app/page.tsx
 import React from "react";
 import TileCard from "@/components/TileCard";
 
 const tiles = [
-  {
-    title: "Trail Running Shoes",
-    query: "best trail running shoes 2025",
-    subtitle: "Top picks & value buys",
-  },
-  {
-    title: "Treadmills for Small Spaces",
-    query: "best compact treadmill 2025",
-    subtitle: "Quiet, foldable, under $1,000",
-  },
-  {
-    title: "Budget Smartwatches",
-    query: "best budget gps running watch",
-    subtitle: "Accurate GPS without the $$$",
-  },
-  {
-    title: "Everyday Headphones",
-    query: "best wireless noise cancelling headphones 2025",
-    subtitle: "Comfy fit, great battery life",
-  },
+  { title: "Trail Running Shoes", query: "best trail running shoes 2025", subtitle: "Top picks & value buys" },
+  { title: "Treadmills for Small Spaces", query: "best compact treadmill 2025", subtitle: "Quiet, foldable, under $1,000" },
+  { title: "Budget Smartwatches", query: "best budget gps running watch", subtitle: "Accurate GPS without the $$$" },
+  { title: "Everyday Headphones", query: "best wireless noise cancelling headphones 2025", subtitle: "Comfy fit, great battery life" },
 ];
 
 export default function HomePage() {
@@ -35,7 +18,6 @@ export default function HomePage() {
           see transparent scores, confidence, and sources.
         </p>
 
-        {/* Search bar that goes to /search */}
         <form className="mt-6 flex gap-2" action="/search" method="get">
           <input
             name="q"
@@ -44,7 +26,7 @@ export default function HomePage() {
           />
           <button
             type="submit"
-            className="rounded-xl px-5 py-3 border font-medium hover:shadow transition"
+            className="rounded-xl border px-5 py-3 font-medium hover:shadow transition"
           >
             Search
           </button>
@@ -54,12 +36,7 @@ export default function HomePage() {
       <section>
         <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {tiles.map((t) => (
-            <TileCard
-              key={t.title}
-              title={t.title}
-              query={t.query}
-              subtitle={t.subtitle}
-            />
+            <TileCard key={t.title} title={t.title} query={t.query} subtitle={t.subtitle} />
           ))}
         </div>
       </section>
