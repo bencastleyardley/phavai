@@ -1,68 +1,94 @@
 // app/api/analyze/route.ts
 import { NextResponse } from "next/server";
 
-type Item = {
+type Source = "reddit" | "youtube" | "web";
+
+export type Item = {
   id: string;
-  source: "reddit" | "youtube" | "web";
+  source: Source;
   title: string;
   url: string;
   author?: string;
+  thumbnail?: string;
   snippet?: string;
-  views?: number;
-  upvotes?: number;
   publishedAt?: string;
+  upvotes?: number;
+  views?: number;
   score: number; // pre-score from /api/search
+};
+
+type CompactForLLM = {
+  title: string;
+  url: string;
+  source: Source;
+  snippet: string;
+  views: number;
+  upvotes: number;
+  publishedAt: string;
+  preScore: number;
+};
+
+type LLMItem = {
+  title?: string;
+  url?: string;
+  product?: string;
+  pros?: string[];
+  cons?: string[];
+  verdict?: string;
+  bestPickScore?: number;
+};
+
+type EnrichedItem = Item & {
+  product: string;
+  pros: string[];
+  cons: string[];
+  verdict: string;
+  bestPickScore: number;
 };
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-async function analyzeWithOpenAI(items: Item[], query: string) {
-  if (!OPENAI_API_KEY) {
-    // No key? Return pass-through with light, safe defaults.
-    return items.map((it) => ({
-      ...it,
-      bestPickScore: it.score,
-      pros: [],
-      cons: [],
-      verdict: "Sources collected. Add OPENAI_API_KEY for pros/cons & verdict.",
-    }));
-  }
+function clamp(n: number, min: number, max: number) {
+  return Math.max(min, Math.min(max, n));
+}
 
-  // Compact the payload for the model
-  const compact = items.map((it) => ({
+function compactItems(items: Item[]): CompactForLLM[] {
+  return items.map((it) => ({
     title: it.title,
     url: it.url,
     source: it.source,
-    snippet: it.snippet?.slice(0, 400) ?? "",
+    snippet: (it.snippet ?? "").slice(0, 400),
     views: it.views ?? 0,
     upvotes: it.upvotes ?? 0,
     publishedAt: it.publishedAt ?? "",
     preScore: it.score,
   }));
+}
+
+async function callOpenAI(items: Item[], query: string): Promise<LLMItem[]> {
+  if (!OPENAI_API_KEY) return [];
 
   const prompt = `
-You are ranking products for the query: "${query}".
-You get mixed sources (reddit, youtube, pro reviews). Task:
-1) For EACH item, infer product name/model (be concise).
-2) Derive 2-4 bullet Pros and 1-3 bullet Cons from the snippets/metadata (no hallucinations).
-3) Compute a refined 0–100 "BestPick Score" that:
-   - Starts from preScore (signal quality)
-   - Adds points for consistent positive sentiment across sources
-   - Slightly boosts recency and credible sources
-4) Write a one-sentence "Verdict" for each item.
-Return strict JSON: [{title, url, product, pros[], cons[], verdict, bestPickScore}]
-If information is missing, leave fields minimal—DO NOT invent specs or quotes.
+You are ranking products for the query: "${query}" using mixed sources (reddit/youtube/pro reviews).
+For EACH item, do the following strictly based on provided snippets/metadata (no invention):
+1) Infer a concise product name/model in "product".
+2) Provide 2–4 Pros and 1–3 Cons (short bullets).
+3) Compute a refined 0–100 "bestPickScore" that starts from "preScore", rewarding consistent positive signals and recency.
+4) Write a one-sentence "verdict".
+
+Return JSON as: { "items": [ { "title": "...", "url": "...", "product": "...", "pros": ["..."], "cons": ["..."], "verdict": "...", "bestPickScore": 87 } ] }
+If unsure, leave arrays empty and keep bestPickScore close to preScore.
 `;
 
   const body = {
     model: "gpt-4o-mini",
     temperature: 0.3,
     messages: [
-      { role: "system", content: "Be precise, avoid speculation, and prefer trustworthy sourcing." },
+      { role: "system", content: "Be precise, avoid speculation, and never invent specs or quotes." },
       { role: "user", content: prompt },
-      { role: "user", content: JSON.stringify(compact) },
+      { role: "user", content: JSON.stringify(compactItems(items)) },
     ],
-    response_format: { type: "json_object" },
+    response_format: { type: "json_object" as const },
   };
 
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -75,65 +101,138 @@ If information is missing, leave fields minimal—DO NOT invent specs or quotes.
   });
 
   if (!res.ok) {
-    const fail = await res.text();
-    console.error("OpenAI error:", fail);
-    return items.map((it) => ({
-      ...it,
-      bestPickScore: it.score,
-      pros: [],
-      cons: [],
-      verdict: "Analysis unavailable (OpenAI error).",
-    }));
+    console.error("OpenAI error:", await res.text());
+    return [];
   }
 
   const data = await res.json();
-  // The model returns a JSON object; we'll expect { items: [...] } or just an array
-  let parsed: any;
+  let parsed: any = {};
   try {
     parsed = JSON.parse(data.choices?.[0]?.message?.content ?? "{}");
-  } catch {
-    parsed = {};
+  } catch (e) {
+    console.error("JSON parse error from OpenAI:", e);
+  }
+  const arr: LLMItem[] = Array.isArray(parsed?.items) ? parsed.items : [];
+  return arr;
+}
+
+function safeBaseFromLLMOrItems(
+  r: LLMItem,
+  items: Item[],
+  idx: number
+): Item {
+  // Try to find the original by exact (title|url), then by url, then by title.
+  const exact = items.find((i) => i.title === r.title && i.url === r.url);
+  if (exact) return exact;
+
+  if (r.url) {
+    const byUrl = items.find((i) => i.url === r.url);
+    if (byUrl) return byUrl;
   }
 
-  const arr: any[] = Array.isArray(parsed) ? parsed : parsed.items || [];
+  if (r.title) {
+    const byTitle = items.find((i) => i.title === r.title);
+    if (byTitle) return byTitle;
+  }
 
-  // join back onto originals by url/title
-  const map = new Map(items.map((i) => [`${i.title}|${i.url}`, i]));
-  const enriched = arr.map((r) => {
-    const key = `${r.title}|${r.url}`;
-    const base = map.get(key) || items.find((i) => i.url === r.url) || {};
-    return {
-      ...base,
-      product: r.product || base.title,
-      pros: r.pros || [],
-      cons: r.cons || [],
-      verdict: r.verdict || "",
-      bestPickScore: typeof r.bestPickScore === "number" ? Math.max(0, Math.min(100, r.bestPickScore)) : base.score,
-    };
-  });
+  // Fallback base if we can’t match: still return a fully-typed item
+  return {
+    id: `fallback_${idx}`,
+    source: "web",
+    title: r.title || "Untitled",
+    url: r.url || "",
+    score: 50,
+  };
+}
 
-  // Fallback in case of mismatch
-  if (!enriched.length) {
-    return items.map((it) => ({
+async function analyzeWithOpenAI(items: Item[], query: string): Promise<EnrichedItem[]> {
+  // If no key, just pass-through
+  if (!OPENAI_API_KEY) {
+    return items.map<EnrichedItem>((it) => ({
+      ...it,
+      product: it.title,
+      pros: [],
+      cons: [],
+      verdict: "Add OPENAI_API_KEY for pros/cons & verdict.",
+      bestPickScore: clamp(it.score, 0, 100),
+    }));
+  }
+
+  const llmItems = await callOpenAI(items, query);
+
+  // If the LLM returned nothing usable, pass-through
+  if (!llmItems.length) {
+    return items.map<EnrichedItem>((it) => ({
       ...it,
       product: it.title,
       pros: [],
       cons: [],
       verdict: "",
-      bestPickScore: it.score,
+      bestPickScore: clamp(it.score, 0, 100),
     }));
   }
 
-  // Sort by refined score
-  enriched.sort((a, b) => (b.bestPickScore ?? 0) - (a.bestPickScore ?? 0));
+  // Merge LLM output back onto originals—SAFELY TYPED
+  const enriched: EnrichedItem[] = llmItems.map((r, i) => {
+    const base: Item = safeBaseFromLLMOrItems(r, items, i);
+
+    const bestPickScore =
+      typeof r.bestPickScore === "number" ? clamp(r.bestPickScore, 0, 100) : clamp(base.score, 0, 100);
+
+    return {
+      ...base,
+      product: r.product || base.title,
+      pros: Array.isArray(r.pros) ? r.pros : [],
+      cons: Array.isArray(r.cons) ? r.cons : [],
+      verdict: r.verdict || "",
+      bestPickScore,
+    };
+  });
+
+  // Ensure at least 10 sorted by score (fill from originals if needed)
+  const fillSet = new Set(enriched.map((e) => e.id));
+  for (const it of items) {
+    if (enriched.length >= 10) break;
+    if (!fillSet.has(it.id)) {
+      enriched.push({
+        ...it,
+        product: it.title,
+        pros: [],
+        cons: [],
+        verdict: "",
+        bestPickScore: clamp(it.score, 0, 100),
+      });
+    }
+  }
+
+  enriched.sort((a, b) => b.bestPickScore - a.bestPickScore);
   return enriched.slice(0, 10);
 }
 
 export async function POST(req: Request) {
-  const { items, query } = await req.json();
-  if (!Array.isArray(items) || !query) {
-    return NextResponse.json({ error: "Provide {items, query}" }, { status: 400 });
+  try {
+    const { items, query } = await req.json();
+    if (!Array.isArray(items) || !query) {
+      return NextResponse.json({ error: "Provide {items, query}" }, { status: 400 });
+    }
+    const typedItems: Item[] = items.map((i: any) => ({
+      id: String(i.id),
+      source: (i.source as Source) ?? "web",
+      title: String(i.title ?? "Untitled"),
+      url: String(i.url ?? ""),
+      author: i.author,
+      thumbnail: i.thumbnail,
+      snippet: i.snippet,
+      publishedAt: i.publishedAt,
+      upvotes: typeof i.upvotes === "number" ? i.upvotes : undefined,
+      views: typeof i.views === "number" ? i.views : undefined,
+      score: typeof i.score === "number" ? i.score : 50,
+    }));
+
+    const enriched = await analyzeWithOpenAI(typedItems, String(query));
+    return NextResponse.json({ query, items: enriched });
+  } catch (e) {
+    console.error(e);
+    return NextResponse.json({ error: "Analyze failed" }, { status: 500 });
   }
-  const enriched = await analyzeWithOpenAI(items, query);
-  return NextResponse.json({ query, items: enriched });
 }
