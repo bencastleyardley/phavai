@@ -18,9 +18,9 @@ export default function SearchToolbar() {
   return (
     <div className="mb-4 flex items-center gap-3 text-sm">
       <span className="text-gray-600">Sort:</span>
-      <button className={btn(sort === "score")} onClick={() => set("sort", "score")}>Score</button>
-      <button className={btn(sort === "confidence")} onClick={() => set("sort", "confidence")}>Confidence</button>
-      <button className={btn(sort === "price")} onClick={() => set("sort", "price")}>Price</button>
+      <button className={btn(sort === "score")} onClick={() => set("sort","score")}>Score</button>
+      <button className={btn(sort === "confidence")} onClick={() => set("sort","confidence")}>Confidence</button>
+      <button className={btn(sort === "price")} onClick={() => set("sort","price")}>Price</button>
     </div>
   );
 }

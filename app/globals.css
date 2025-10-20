@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Keep it minimal and v4-safe. No @apply rules here. */
-:root {
-  color-scheme: light;
-}
-html, body {
-  height: 100%;
-}
+/* Keep v4-safe: no @apply here */
+:root { color-scheme: light; }
+html, body { height: 100%; }

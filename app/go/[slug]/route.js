@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { resolveAffiliate } from "@/lib/affiliate";
 
-// Clean redirect: /go/<slug> -> affiliate URL
 export function GET(_req, { params }) {
   const slug = params?.slug || "";
   const url = resolveAffiliate(slug);

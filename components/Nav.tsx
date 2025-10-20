@@ -21,25 +21,19 @@ export default function Nav() {
             placeholder='Search (e.g., "best budget treadmill")'
             className="w-full rounded-xl border px-4 py-3 outline-none focus:ring-2 focus:ring-gray-300"
           />
-          <button
-            className="rounded-xl border px-4 py-2 text-sm hover:shadow transition"
-            type="submit"
-          >
-            Search
-          </button>
+          <button type="submit" className="rounded-xl border px-4 py-2 text-sm hover:shadow transition">Search</button>
         </form>
 
         <nav className="ml-4 hidden sm:flex gap-3 text-sm">
-          <Link href="/how-it-works" className={linkCls(pathname, "/how-it-works")}>How it works</Link>
-          <Link href="/about" className={linkCls(pathname, "/about")}>About</Link>
-          <Link href="/disclosures" className={linkCls(pathname, "/disclosures")}>Disclosures</Link>
+          <Link href="/how-it-works" className={linkCls(pathname,"/how-it-works")}>How it works</Link>
+          <Link href="/about" className={linkCls(pathname,"/about")}>About</Link>
+          <Link href="/disclosures" className={linkCls(pathname,"/disclosures")}>Disclosures</Link>
         </nav>
       </div>
     </header>
   );
 }
-
-function linkCls(path: string | null, href: string) {
+function linkCls(path: string|null, href:string) {
   const active = path === href;
   return `px-2 py-1 rounded-md ${active ? "bg-gray-100" : "hover:bg-gray-50"}`;
 }

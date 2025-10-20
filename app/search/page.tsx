@@ -3,24 +3,41 @@ import type { Metadata } from "next";
 import SearchResults from "@/components/SearchResults";
 import SearchToolbar from "@/components/SearchToolbar";
 
-type SearchPageProps = { searchParams?: { q?: string } };
+/**
+ * NOTE: Do not define a custom SearchPageProps type.
+ * Next.js 15.5's PageProps validator is strict; letting it infer here avoids the "Promise<any>" mismatch.
+ */
+export async function generateMetadata({ searchParams }: any): Promise<Metadata> {
+  const raw = searchParams?.q;
+  const q =
+    typeof raw === "string" ? raw :
+    Array.isArray(raw) ? raw[0] ?? "" :
+    "";
 
-export async function generateMetadata({ searchParams }: SearchPageProps): Promise<Metadata> {
-  const q = (searchParams?.q ?? "").trim();
   const title = q ? `Best picks for “${q}” — Phavai` : "Search — Phavai";
   const description = q
     ? `Transparent picks for “${q}” with scores, confidence, and sources.`
     : "Search products with transparent scores, confidence, and sources.";
+
   return {
     title,
     description,
-    openGraph: { title, description, url: q ? `/search?q=${encodeURIComponent(q)}` : "/search", siteName: "Phavai" },
+    openGraph: {
+      title,
+      description,
+      url: q ? `/search?q=${encodeURIComponent(q)}` : "/search",
+      siteName: "Phavai",
+    },
     twitter: { card: "summary_large_image", title, description },
   };
 }
 
-export default function SearchPage({ searchParams }: SearchPageProps) {
-  const query = (searchParams?.q ?? "").trim();
+export default function SearchPage({ searchParams }: any) {
+  const raw = searchParams?.q;
+  const query =
+    typeof raw === "string" ? raw :
+    Array.isArray(raw) ? raw[0] ?? "" :
+    "";
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
@@ -56,6 +73,7 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
               Results for: <span className="font-mono">{query}</span>
             </h2>
 
+            {/* Components that use useSearchParams are wrapped in Suspense */}
             <Suspense fallback={null}>
               <SearchToolbar />
             </Suspense>
