@@ -1,0 +1,92 @@
+[
+  {
+    "brand": "Hoka",
+    "model": "Torrent 3",
+    "price": 130,
+    "published": 4.5,
+    "reddit": 4.4,
+    "youtube": 4.4,
+    "social": 4.2,
+    "bestPick": 4.38,
+    "badges": ["Best Overall"],
+    "links": {
+      "published": [{"title": "Pro review", "url": "https://example.com/hoka-torrent-3"}],
+      "reddit": [{"title": "Women’s fit thread", "url": "https://example.com/reddit-torrent-3"}],
+      "youtube": [{"title": "Performance review", "url": "https://example.com/youtube-torrent-3"}],
+      "social": [{"title": "IG roundup", "url": "https://example.com/ig-torrent-3"}]
+    },
+    "lastSampled": "2025-10-01"
+  },
+  {
+    "brand": "Saucony",
+    "model": "Xodus Ultra 3",
+    "price": 170,
+    "published": 4.3,
+    "reddit": 4.2,
+    "youtube": 4.2,
+    "social": 4.1,
+    "bestPick": 4.20,
+    "badges": ["Best for Distance"],
+    "links": {
+      "published": [{"title": "Outside review", "url": "https://example.com/outside-xodus-ultra-3"}],
+      "reddit": [{"title": "Ultra use cases", "url": "https://example.com/reddit-xodus-ultra-3"}],
+      "youtube": [{"title": "100K test", "url": "https://example.com/youtube-xodus-ultra-3"}],
+      "social": [{"title": "Community clips", "url": "https://example.com/social-xodus-ultra-3"}]
+    },
+    "lastSampled": "2025-10-01"
+  },
+  {
+    "brand": "Nike",
+    "model": "Pegasus Trail 5",
+    "price": 150,
+    "published": 4.1,
+    "reddit": 4.0,
+    "youtube": 4.0,
+    "social": 4.0,
+    "bestPick": 4.03,
+    "badges": [],
+    "links": {
+      "published": [{"title": "Pro review", "url": "https://example.com/peg-trail-5"}],
+      "reddit": [{"title": "Fit feedback", "url": "https://example.com/reddit-peg5"}],
+      "youtube": [{"title": "Review", "url": "https://example.com/youtube-peg5"}],
+      "social": [{"title": "Roundup", "url": "https://example.com/social-peg5"}]
+    },
+    "lastSampled": "2025-10-01"
+  },
+  {
+    "brand": "Brooks",
+    "model": "Caldera 7",
+    "price": 170,
+    "published": 4.2,
+    "reddit": 4.1,
+    "youtube": 4.0,
+    "social": 4.0,
+    "bestPick": 4.08,
+    "badges": ["Max Cushion"],
+    "links": {
+      "published": [{"title": "Lab review", "url": "https://example.com/brooks-caldera-7"}],
+      "reddit": [{"title": "Caldera comfort", "url": "https://example.com/reddit-caldera-7"}],
+      "youtube": [{"title": "Review", "url": "https://example.com/youtube-caldera-7"}],
+      "social": [{"title": "Clips", "url": "https://example.com/social-caldera-7"}]
+    },
+    "lastSampled": "2025-10-01"
+  },
+  {
+    "brand": "Altra",
+    "model": "Timp 5",
+    "price": 155,
+    "published": 4.0,
+    "reddit": 4.1,
+    "youtube": 3.9,
+    "social": 3.9,
+    "bestPick": 3.98,
+    "badges": ["Zero Drop"],
+    "links": {
+      "published": [{"title": "Tech breakdown", "url": "https://example.com/altra-timp-5"}],
+      "reddit": [{"title": "Women’s sizing", "url": "https://example.com/reddit-timp-5"}],
+      "youtube": [{"title": "Trail test", "url": "https://example.com/youtube-timp-5"}],
+      "social": [{"title": "Community", "url": "https://example.com/social-timp-5"}]
+    },
+    "lastSampled": "2025-10-01"
+  }
+]
