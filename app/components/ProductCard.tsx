@@ -1,9 +1,13 @@
+"use client";
 import React from "react";
-import type { Product, SourceLink } from "@/lib/types";
+import type { Product, SourceLink } from "@/types/product";
 
 function badgeColor(name: string) {
-  if (name.toLowerCase().includes("overall")) return "bg-emerald-600 text-white";
-  if (name.toLowerCase().includes("value")) return "bg-amber-600 text-white";
+  const n = name.toLowerCase();
+  if (n.includes("overall")) return "bg-emerald-600 text-white";
+  if (n.includes("value")) return "bg-amber-600 text-white";
+  if (n.includes("distance")) return "bg-indigo-600 text-white";
+  if (n.includes("cushion")) return "bg-sky-700 text-white";
   return "bg-slate-800 text-slate-100";
 }
 
@@ -20,9 +24,14 @@ function LinkList({ label, items }: { label: string; items: SourceLink[] }) {
     <div className="mt-3">
       <div className="text-xs uppercase tracking-wide text-slate-400">{label}</div>
       <ul className="mt-1 space-y-1">
-        {items.slice(0,3).map((l, i) => (
+        {items.slice(0, 3).map((l, i) => (
           <li key={i}>
-            <a href={l.url} className="underline decoration-dotted underline-offset-2 hover:opacity-80">
+            <a
+              href={l.url}
+              className="underline decoration-dotted underline-offset-2 hover:opacity-80"
+              rel="nofollow noopener"
+              target="_blank"
+            >
               {l.title}
             </a>
           </li>
@@ -34,7 +43,7 @@ function LinkList({ label, items }: { label: string; items: SourceLink[] }) {
 
 export default function ProductCard({ p, index }: { p: Product; index: number }) {
   return (
-    <article className="rounded-2xl border border-slate-200/20 bg-white/80 backdrop-blur p-4 shadow-sm hover:shadow-md transition">
+    <article className="rounded-2xl border border-slate-200/30 bg-white/80 backdrop-blur p-4 shadow-sm hover:shadow-md transition">
       <header className="flex items-start justify-between gap-4">
         <div>
           <div className="text-xs text-slate-500">#{index + 1}</div>
@@ -54,7 +63,9 @@ export default function ProductCard({ p, index }: { p: Product; index: number })
       {p.badges?.length ? (
         <div className="mt-2 flex flex-wrap gap-2">
           {p.badges.map((b) => (
-            <span key={b} className={`px-2 py-1 rounded-full text-xs ${badgeColor(b)}`}>{b}</span>
+            <span key={b} className={`px-2 py-1 rounded-full text-xs ${badgeColor(b)}`}>
+              {b}
+            </span>
           ))}
         </div>
       ) : null}

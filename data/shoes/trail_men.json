@@ -11,50 +11,53 @@
     "badges": ["Best Overall"],
     "links": {
       "published": [
-        {"title": "Outdoor Gear Lab review", "url": "https://example.com/hoka-speedgoat-6-ogl"},
-        {"title": "Believe in the Run review", "url": "https://example.com/bitr-speedgoat-6"}
+        {"title": "Believe in the Run — Review", "url": "https://believeintherun.com/shoe-reviews/hoka-speedgoat-6-review/"},
+        {"title": "OutdoorGearLab — Tested", "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-men/hoka-speedgoat-6"},
+        {"title": "RunRepeat — Lab Review", "url": "https://runrepeat.com/hoka-speedgoat-6"}
       ],
       "reddit": [
-        {"title": "r/trailrunning discussion", "url": "https://example.com/reddit-speedgoat-6"}
+        {"title": "r/trailrunning — SG6 sizing & grip threads", "url": "https://www.reddit.com/r/trailrunning/search/?q=Speedgoat%206&restrict_sr=1&sort=new"}
       ],
       "youtube": [
-        {"title": "In-depth video review", "url": "https://example.com/youtube-speedgoat-6"}
+        {"title": "Multi-tester SG6 review (RTR/YouTube)", "url": "https://www.youtube.com/results?search_query=Hoka+Speedgoat+6+review"}
       ],
       "social": [
-        {"title": "IG roundup", "url": "https://example.com/ig-speedgoat-6"}
+        {"title": "Instagram tag #speedgoat6", "url": "https://www.instagram.com/explore/tags/speedgoat6/"}
       ]
     },
-    "lastSampled": "2025-10-01"
+    "lastSampled": "2025-10-21"
   },
   {
     "brand": "Saucony",
     "model": "Peregrine 14",
     "price": 140,
     "published": 4.4,
-    "reddit": 4.3,
+    "reddit": 4.2,
     "youtube": 4.2,
     "social": 4.1,
-    "bestPick": 4.25,
+    "bestPick": 4.23,
     "badges": ["Best Value"],
     "links": {
       "published": [
-        {"title": "Outside review", "url": "https://example.com/outside-peregrine-14"}
+        {"title": "OutdoorGearLab — Tested", "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-men/saucony-peregrine-14"},
+        {"title": "RoadTrailRun — Multi-tester", "url": "https://www.roadtrailrun.com/2024/06/saucony-peregrine-14-multi-tester.html"},
+        {"title": "RunRepeat — Lab Review", "url": "https://runrepeat.com/saucony-peregrine-14"}
       ],
       "reddit": [
-        {"title": "Owners thread", "url": "https://example.com/reddit-peregrine-14"}
+        {"title": "r/trailrunning — P14 owners thread", "url": "https://www.reddit.com/r/trailrunning/search/?q=Peregrine%2014&restrict_sr=1&sort=new"}
       ],
       "youtube": [
-        {"title": "First look", "url": "https://example.com/youtube-peregrine-14"}
+        {"title": "YouTube round-up (first looks & long term)", "url": "https://www.youtube.com/results?search_query=Saucony+Peregrine+14+review"}
       ],
       "social": [
-        {"title": "TikTok roundup", "url": "https://example.com/tiktok-peregrine-14"}
+        {"title": "Instagram tag #peregrine14", "url": "https://www.instagram.com/explore/tags/peregrine14/"}
       ]
     },
-    "lastSampled": "2025-10-01"
+    "lastSampled": "2025-10-21"
   },
   {
     "brand": "Nike",
-    "model": "Zegama 2",
+    "model": "ZoomX Zegama 2",
     "price": 180,
     "published": 4.2,
     "reddit": 4.0,
@@ -63,30 +66,47 @@
     "bestPick": 4.08,
     "badges": [],
     "links": {
-      "published": [{"title": "Pro review", "url": "https://example.com/pro-zegama-2"}],
-      "reddit": [{"title": "Sizing Q&A", "url": "https://example.com/reddit-zegama-2"}],
-      "youtube": [{"title": "Durability test", "url": "https://example.com/youtube-zegama-2"}],
-      "social": [{"title": "Community notes", "url": "https://example.com/social-zegama-2"}]
+      "published": [
+        {"title": "RoadTrailRun — Review", "url": "https://www.roadtrailrun.com/2024/04/nike-zoomx-zegama-2-review-vibram.html"}
+      ],
+      "reddit": [
+        {"title": "r/trailrunning — Zegama 2 impressions", "url": "https://www.reddit.com/r/trailrunning/search/?q=Zegama%202&restrict_sr=1&sort=new"}
+      ],
+      "youtube": [
+        {"title": "YouTube reviews & durability tests", "url": "https://www.youtube.com/results?search_query=Nike+Zegama+2+review"}
+      ],
+      "social": [
+        {"title": "News: Zegama 2 deal write-up", "url": "https://www.advnture.com/news/i-love-the-bounce-and-grip-of-the-nike-zegama-2-trail-runners-and-theyre-a-massive-50-percent-off-at-rei-right-now"}
+      ]
     },
-    "lastSampled": "2025-10-01"
+    "lastSampled": "2025-10-21"
   },
   {
     "brand": "Brooks",
     "model": "Cascadia 18",
     "price": 140,
-    "published": 4.3,
-    "reddit": 4.1,
+    "published": 4.2,
+    "reddit": 4.0,
     "youtube": 4.0,
     "social": 4.0,
-    "bestPick": 4.10,
+    "bestPick": 4.05,
     "badges": [],
     "links": {
-      "published": [{"title": "Lab test", "url": "https://example.com/brooks-cascadia-18"}],
-      "reddit": [{"title": "Trail feel thread", "url": "https://example.com/reddit-cascadia-18"}],
-      "youtube": [{"title": "Review", "url": "https://example.com/youtube-cascadia-18"}],
-      "social": [{"title": "Roundup", "url": "https://example.com/social-cascadia-18"}]
+      "published": [
+        {"title": "Believe in the Run — Review", "url": "https://believeintherun.com/shoe-reviews/brooks-cascadia-18-review/"},
+        {"title": "Outdoor Prolink — Long-term test", "url": "https://blog.outdoorprolink.com/proview-brooks-running-mens-cascadia-18-trail-runner/"}
+      ],
+      "reddit": [
+        {"title": "r/trailrunning — Cascadia discussions", "url": "https://www.reddit.com/r/trailrunning/search/?q=Cascadia%2018&restrict_sr=1&sort=new"}
+      ],
+      "youtube": [
+        {"title": "YouTube reviews", "url": "https://www.youtube.com/results?search_query=Brooks+Cascadia+18+review"}
+      ],
+      "social": [
+        {"title": "Instagram tag #cascadia18", "url": "https://www.instagram.com/explore/tags/cascadia18/"}
+      ]
     },
-    "lastSampled": "2025-10-01"
+    "lastSampled": "2025-10-21"
   },
   {
     "brand": "Altra",
@@ -99,11 +119,73 @@
     "bestPick": 4.05,
     "badges": ["Zero Drop"],
     "links": {
-      "published": [{"title": "Tech breakdown", "url": "https://example.com/altra-lp8"}],
-      "reddit": [{"title": "LP8 megathread", "url": "https://example.com/reddit-lp8"}],
-      "youtube": [{"title": "Trail test", "url": "https://example.com/youtube-lp8"}],
-      "social": [{"title": "Community clips", "url": "https://example.com/social-lp8"}]
+      "published": [
+        {"title": "iRunFar — Review", "url": "https://www.irunfar.com/altra-lone-peak-8-review"},
+        {"title": "RunRepeat — Lab & teardown", "url": "https://runrepeat.com/altra-lone-peak-8"}
+      ],
+      "reddit": [
+        {"title": "r/trailrunning — LP8 megathread", "url": "https://www.reddit.com/r/trailrunning/search/?q=Lone%20Peak%208&restrict_sr=1&sort=new"}
+      ],
+      "youtube": [
+        {"title": "YouTube reviews & trail tests", "url": "https://www.youtube.com/results?search_query=Altra+Lone+Peak+8+review"}
+      ],
+      "social": [
+        {"title": "Instagram tag #lonepeak8", "url": "https://www.instagram.com/explore/tags/lonepeak8/"}
+      ]
     },
-    "lastSampled": "2025-10-01"
+    "lastSampled": "2025-10-21"
+  },
+  {
+    "brand": "Topo Athletic",
+    "model": "MTN Racer 3",
+    "price": 160,
+    "published": 4.3,
+    "reddit": 4.1,
+    "youtube": 4.1,
+    "social": 4.0,
+    "bestPick": 4.13,
+    "badges": [],
+    "links": {
+      "published": [
+        {"title": "RoadTrailRun — Multi-tester", "url": "https://www.roadtrailrun.com/2023/04/topo-athletic-mtn-racer-3-multi-tester.html"}
+      ],
+      "reddit": [
+        {"title": "r/trailrunning — MTN Racer feedback", "url": "https://www.reddit.com/r/trailrunning/search/?q=MTN%20Racer%203&restrict_sr=1&sort=new"}
+      ],
+      "youtube": [
+        {"title": "YouTube round-up", "url": "https://www.youtube.com/results?search_query=Topo+MTN+Racer+3+review"}
+      ],
+      "social": [
+        {"title": "Instagram tag #mtnracer3", "url": "https://www.instagram.com/explore/tags/mtnracer3/"}
+      ]
+    },
+    "lastSampled": "2025-10-21"
+  },
+  {
+    "brand": "Salomon",
+    "model": "Sense Ride 5",
+    "price": 140,
+    "published": 4.2,
+    "reddit": 4.0,
+    "youtube": 4.1,
+    "social": 4.0,
+    "bestPick": 4.08,
+    "badges": ["Great All-Rounder"],
+    "links": {
+      "published": [
+        {"title": "iRunFar — Review", "url": "https://www.irunfar.com/salomon-sense-ride-5-review"},
+        {"title": "Switchback Travel — Review", "url": "https://www.switchbacktravel.com/reviews/salomon-sense-ride-5"}
+      ],
+      "reddit": [
+        {"title": "r/trailrunning — SR5 owners", "url": "https://www.reddit.com/r/trailrunning/search/?q=Sense%20Ride%205&restrict_sr=1&sort=new"}
+      ],
+      "youtube": [
+        {"title": "YouTube reviews", "url": "https://www.youtube.com/results?search_query=Salomon+Sense+Ride+5+review"}
+      ],
+      "social": [
+        {"title": "Instagram tag #senseride5", "url": "https://www.instagram.com/explore/tags/senseride5/"}
+      ]
+    },
+    "lastSampled": "2025-10-21"
   }
 ]
