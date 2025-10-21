@@ -1,0 +1,125 @@
+{
+  "trail_running_shoes": [
+    {
+      "rank": 1,
+      "title": "La Sportiva Prodigio",
+      "price": "$199",
+      "score": 92,
+      "confidence": 0.84,
+      "badge": "Best Overall",
+      "highlights": ["Fast but stable", "Excellent wet-rock grip", "Durable upper"],
+      "sources": [{"type":"review","count":8},{"type":"reddit","count":12},{"type":"youtube","count":5}]
+    },
+    {
+      "rank": 2,
+      "title": "Saucony Peregrine",
+      "price": "$140",
+      "score": 88,
+      "confidence": 0.81,
+      "badge": "Best Value",
+      "highlights": ["All-rounder", "Protective rock plate", "Broad fit range"],
+      "sources": [{"type":"review","count":6},{"type":"reddit","count":10},{"type":"youtube","count":4}]
+    },
+    {
+      "rank": 3,
+      "title": "HOKA Speedgoat",
+      "price": "$155",
+      "score": 86,
+      "confidence": 0.79,
+      "highlights": ["Ultra-distance cushioning", "Vibram grip", "Secure heel"],
+      "sources": [{"type":"review","count":7},{"type":"reddit","count":9},{"type":"youtube","count":4}]
+    }
+  ],
+  "compact_treadmills": [
+    {
+      "rank": 1,
+      "title": "Horizon T101",
+      "price": "$649",
+      "score": 89,
+      "confidence": 0.8,
+      "badge": "Best Value",
+      "highlights": ["Folds small", "Quiet motor", "Good warranty"],
+      "sources": [{"type":"review","count":6},{"type":"reddit","count":7},{"type":"youtube","count":3}]
+    },
+    {
+      "rank": 2,
+      "title": "Echelon Stride",
+      "price": "$999",
+      "score": 87,
+      "confidence": 0.78,
+      "highlights": ["Auto-fold", "Compact profile", "Decent cushioning"],
+      "sources": [{"type":"review","count":5},{"type":"reddit","count":6},{"type":"youtube","count":4}]
+    },
+    {
+      "rank": 3,
+      "title": "NordicTrack T 6.5 S",
+      "price": "$799",
+      "score": 85,
+      "confidence": 0.76,
+      "highlights": ["iFit content", "Solid build", "Good incline range"],
+      "sources": [{"type":"review","count":6},{"type":"reddit","count":6},{"type":"youtube","count":4}]
+    }
+  ],
+  "budget_running_watches": [
+    {
+      "rank": 1,
+      "title": "COROS PACE 3",
+      "price": "$229",
+      "score": 90,
+      "confidence": 0.82,
+      "badge": "Best Overall",
+      "highlights": ["Long battery life", "Dual-frequency GPS", "Lightweight"],
+      "sources": [{"type":"review","count":7},{"type":"reddit","count":11},{"type":"youtube","count":6}]
+    },
+    {
+      "rank": 2,
+      "title": "Garmin Forerunner 55",
+      "price": "$199",
+      "score": 86,
+      "confidence": 0.8,
+      "badge": "Best Value",
+      "highlights": ["Accurate GPS", "Beginner-friendly coaching", "Reliable ecosystem"],
+      "sources": [{"type":"review","count":8},{"type":"reddit","count":9},{"type":"youtube","count":5}]
+    },
+    {
+      "rank": 3,
+      "title": "Amazfit Bip 3 Pro",
+      "price": "$69",
+      "score": 78,
+      "confidence": 0.7,
+      "highlights": ["Very cheap", "OK GPS", "Simple app"],
+      "sources": [{"type":"review","count":5},{"type":"reddit","count":7},{"type":"youtube","count":3}]
+    }
+  ],
+  "everyday_headphones": [
+    {
+      "rank": 1,
+      "title": "Sony WH-1000XM5",
+      "price": "$399",
+      "score": 93,
+      "confidence": 0.86,
+      "badge": "Best Overall",
+      "highlights": ["Class-leading ANC", "Comfortable fit", "Great app"],
+      "sources": [{"type":"review","count":12},{"type":"reddit","count":15},{"type":"youtube","count":8}]
+    },
+    {
+      "rank": 2,
+      "title": "Bose QuietComfort 45",
+      "price": "$329",
+      "score": 88,
+      "confidence": 0.83,
+      "badge": "Best Value",
+      "highlights": ["Very comfy", "Strong ANC", "Travel-friendly"],
+      "sources": [{"type":"review","count":10},{"type":"reddit","count":12},{"type":"youtube","count":7}]
+    },
+    {
+      "rank": 3,
+      "title": "Sennheiser Momentum 4",
+      "price": "$349",
+      "score": 87,
+      "confidence": 0.8,
+      "highlights": ["Detail-rich sound", "Epic battery life", "Solid ANC"],
+      "sources": [{"type":"review","count":9},{"type":"reddit","count":10},{"type":"youtube","count":6}]
+    }
+  ]
+}
