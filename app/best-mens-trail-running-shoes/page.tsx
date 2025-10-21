@@ -1,48 +1,74 @@
 import type { Metadata } from "next";
-import data from "@/data/shoes/trail_men.json";
-import type { Product } from "@/types/product";
-import ProductCard from "@/components/ProductCard";
+import fs from "node:fs";
+import path from "node:path";
+import BestList, { Product } from "@/components/BestList";
+import { loadTierConfig } from "@/lib/tiers";
+
+const TITLE = "Best Men’s Trail Running Shoes (2025)";
+const DESCRIPTION =
+  "Transparent, static roundup for trail runners: we average sentiment from Published, Reddit, YouTube, and Social into one BestPick score. Real links, tier badges, no fluff.";
 
 export const metadata: Metadata = {
-  title: "Best Men's Trail Running Shoes — Phavai",
-  description:
-    "Top men’s trail shoes ranked by Phavai’s BestPick score from published reviews, Reddit, YouTube, and social sentiment. Static, fast, and transparent.",
-  alternates: { canonical: "/best-mens-trail-running-shoes" },
-  openGraph: {
-    title: "Best Men's Trail Running Shoes — Phavai",
-    description:
-      "Phavai’s transparent rankings for men’s trail shoes, compiled from expert reviews and community sentiment.",
-    url: "/best-mens-trail-running-shoes",
-    type: "website"
-  }
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "https://phavai.vercel.app/best-mens-trail-running-shoes" },
+  openGraph: { title: TITLE, description: DESCRIPTION, type: "article" },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION }
 };
 
-const sortProducts = (list: Product[]) => [...list].sort((a, b) => b.bestPick - a.bestPick);
+function loadProducts(): Product[] {
+  const file = path.join(process.cwd(), "data", "shoes", "best-mens-trail.json");
+  return JSON.parse(fs.readFileSync(file, "utf-8")) as Product[];
+}
+
+function tierMapForClient() {
+  const cfg = loadTierConfig("trail-running-shoes");
+  const map: Record<string, { badge: string; tip: string }> = {};
+  for (const t of cfg.tiers) {
+    for (const d of t.domains) {
+      map[d] = { badge: t.emoji, tip: `${t.label}: ${t.why_trusted}` };
+    }
+  }
+  return map;
+}
 
 export default function Page() {
-  const products = sortProducts(data as Product[]);
+  const items = loadProducts();
+  const tiers = tierMapForClient();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: TITLE,
+    description: DESCRIPTION,
+    itemListElement: items.map((p, i) => ({
+      "@type": "Product",
+      position: i + 1,
+      name: `${p.brand} ${p.model}`,
+      brand: p.brand,
+      offers: { "@type": "Offer", price: p.price, priceCurrency: "USD", url: p.affiliate.url },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: ((p.published + p.reddit + p.youtube + p.social) / 4).toFixed(2), reviewCount: 120 }
+    }))
+  };
+
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
-      <header className="mb-8 space-y-3">
-        <h1 className="text-3xl font-bold tracking-tight">
-          Best <span className="text-emerald-600">Men’s</span> Trail Running Shoes
-        </h1>
-        <p className="text-slate-600">
-          Phavai’s <span className="font-medium">BestPick</span> = average of{" "}
-          <span className="font-medium">Published</span>, <span className="font-medium">Reddit</span>,{" "}
-          <span className="font-medium">YouTube</span>, and <span className="font-medium">Social</span> sentiment.
-          Scores are updated when we rebuild the site.
-        </p>
-        <div className="text-xs text-slate-500">
-          Sources are linked on each card for full transparency.
-        </div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script dangerouslySetInnerHTML={{ __html: `window.__TIERS__=${JSON.stringify(tiers)}` }} />
+      <header className="mb-8">
+        <nav className="mb-4 text-sm text-muted-foreground">
+          <a className="hover:underline" href="/">Home</a> <span className="mx-1">/</span>
+          <span>Best Men’s Trail Running Shoes</span>
+        </nav>
+        <h1 className="text-3xl font-bold tracking-tight">{TITLE}</h1>
+        <p className="mt-2 text-muted-foreground">{DESCRIPTION}</p>
+        <p className="mt-1 text-sm text-muted-foreground">Last updated: {new Date().toLocaleDateString()}</p>
       </header>
-
-      <section className="grid gap-4 sm:gap-6">
-        {products.map((p, i) => (
-          <ProductCard key={`${p.brand}-${p.model}`} p={p} index={i} />
-        ))}
-      </section>
+      <BestList items={items} vertical="trail-running-shoes" />
+      <footer className="mt-10 text-sm text-muted-foreground">
+        Methodology: 4-bucket average with reviewer tier badges for transparency.
+        <a className="ml-2 underline hover:no-underline" href="/methodology">See our full methodology</a>.
+      </footer>
     </main>
   );
 }

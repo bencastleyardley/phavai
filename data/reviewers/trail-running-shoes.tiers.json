@@ -1,0 +1,42 @@
+{
+  "vertical": "trail-running-shoes",
+  "tiers": [
+    {
+      "tier": 1,
+      "label": "Tier 1",
+      "emoji": "🥇",
+      "why_trusted": "Expert, test-based reviews with demonstrated field depth and editorial rigor.",
+      "domains": [
+        "believeintherun.com",
+        "irunfar.com",
+        "roadtrailrun.com",
+        "outdoorgearlab.com",
+        "doctorsofrunning.com"
+      ]
+    },
+    {
+      "tier": 2,
+      "label": "Tier 2",
+      "emoji": "🥈",
+      "why_trusted": "Lab-backed aggregators and specialist outlets with consistent methodology.",
+      "domains": [
+        "runrepeat.com",
+        "meta-endurance.com",
+        "cleverhiker.com",
+        "runtothefinish.com"
+      ]
+    },
+    {
+      "tier": 3,
+      "label": "Tier 3",
+      "emoji": "🥉",
+      "why_trusted": "Credible blogs, deals/press, and community resources.",
+      "domains": [
+        "leave-the-road-and.run",
+        "advnture.com",
+        "people.com",
+        "runninglabstore.com"
+      ]
+    }
+  ]
+}
