@@ -1,0 +1,69 @@
+[
+  {
+    "brand": "HOKA",
+    "model": "Tecton X 3",
+    "badge": "Best Overall",
+    "priceHint": "$225 MSRP",
+    "category": "trail-running",
+    "gender": "women",
+    "image": "/images/shoes/tectonx3.jpg",
+    "bestPick": 89,
+    "scores": { "published": 90, "reddit": 86, "youtube": 90, "social": 88 },
+    "sources": {
+      "published": [
+        {
+          "title": "Believe in the Run — Review",
+          "url": "https://believeintherun.com/shoe-reviews/hoka-tecton-x-3/",
+          "domain": "believeintherun.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "youtube": [
+        {
+          "title": "Carbon plate on trail — review",
+          "url": "https://www.youtube.com/watch?v=example10",
+          "domain": "youtube.com",
+          "lastSampled": "2025-10-15"
+        }
+      ]
+    },
+    "affiliates": [
+      {
+        "retailer": "Running Warehouse",
+        "url": "https://www.runningwarehouse.com/s.html?searchtext=tecton%20x%203"
+      }
+    ]
+  },
+  {
+    "brand": "Brooks",
+    "model": "Cascadia 18",
+    "badge": "Best Value",
+    "priceHint": "$140 MSRP",
+    "category": "trail-running",
+    "gender": "women",
+    "image": "/images/shoes/cascadia18.jpg",
+    "bestPick": 84,
+    "scores": { "published": 82, "reddit": 85, "youtube": 82, "social": 86 },
+    "sources": {
+      "published": [
+        {
+          "title": "OutdoorGearLab review",
+          "url": "https://www.outdoorgearlab.com/reviews/running/trail-running-shoes/brooks-cascadia",
+          "domain": "outdoorgearlab.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "reddit": [
+        {
+          "title": "Cascadia vs Peregrine thread",
+          "url": "https://www.reddit.com/r/trailrunning/comments/example11",
+          "domain": "reddit.com",
+          "lastSampled": "2025-10-15"
+        }
+      ]
+    },
+    "affiliates": [
+      { "retailer": "REI", "url": "https://www.rei.com/search?q=cascadia%2018" }
+    ]
+  }
+]
