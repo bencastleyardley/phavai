@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import fs from "node:fs";
 import path from "node:path";
-import BestList, { Product } from "@/components/BestList";
+import BestList, { type Product } from "@/components/BestList";
 import { loadTierConfig } from "@/lib/tiers";
 
-const TITLE = "Best Men’s Trail Running Shoes (2025)";
+const TITLE = "Best Mens Trail Running Shoes (2025)";
 const DESCRIPTION =
-  "Transparent, static roundup for trail runners: we average sentiment from Published, Reddit, YouTube, and Social into one BestPick score. Real links, tier badges, no fluff.";
+  "Transparent, static roundup: we average Published, Reddit, YouTube, and Social into one BestPick score. Real links, tier badges, no fluff.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -24,11 +24,7 @@ function loadProducts(): Product[] {
 function tierMapForClient() {
   const cfg = loadTierConfig("trail-running-shoes");
   const map: Record<string, { badge: string; tip: string }> = {};
-  for (const t of cfg.tiers) {
-    for (const d of t.domains) {
-      map[d] = { badge: t.emoji, tip: `${t.label}: ${t.why_trusted}` };
-    }
-  }
+  for (const t of cfg.tiers) for (const d of t.domains) map[d] = { badge: t.emoji, tip: `${t.label}: ${t.why_trusted}` };
   return map;
 }
 
@@ -46,8 +42,7 @@ export default function Page() {
       position: i + 1,
       name: `${p.brand} ${p.model}`,
       brand: p.brand,
-      offers: { "@type": "Offer", price: p.price, priceCurrency: "USD", url: p.affiliate.url },
-      aggregateRating: { "@type": "AggregateRating", ratingValue: ((p.published + p.reddit + p.youtube + p.social) / 4).toFixed(2), reviewCount: 120 }
+      offers: { "@type": "Offer", price: p.price, priceCurrency: "USD", url: p.affiliate.url }
     }))
   };
 
@@ -56,18 +51,14 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script dangerouslySetInnerHTML={{ __html: `window.__TIERS__=${JSON.stringify(tiers)}` }} />
       <header className="mb-8">
-        <nav className="mb-4 text-sm text-muted-foreground">
-          <a className="hover:underline" href="/">Home</a> <span className="mx-1">/</span>
-          <span>Best Men’s Trail Running Shoes</span>
-        </nav>
         <h1 className="text-3xl font-bold tracking-tight">{TITLE}</h1>
         <p className="mt-2 text-muted-foreground">{DESCRIPTION}</p>
         <p className="mt-1 text-sm text-muted-foreground">Last updated: {new Date().toLocaleDateString()}</p>
       </header>
       <BestList items={items} vertical="trail-running-shoes" />
       <footer className="mt-10 text-sm text-muted-foreground">
-        Methodology: 4-bucket average with reviewer tier badges for transparency.
-        <a className="ml-2 underline hover:no-underline" href="/methodology">See our full methodology</a>.
+        Methodology: 4-bucket average with reviewer tier badges for transparency.{" "}
+        <a className="underline hover:no-underline" href="/methodology">See our full methodology</a>.
       </footer>
     </main>
   );
