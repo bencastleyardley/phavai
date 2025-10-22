@@ -1,7 +1,4 @@
-import Link from "next/link";
-
-// Home (server component). Uses Link for INTERNAL routes only.
-// For EXTERNAL URLs we use <a>, which avoids typedRoutes type errors.
+// Home (server component). Uses plain <a> for all links to avoid typedRoutes issues.
 
 export default function Page() {
   const updated = new Date().toLocaleDateString();
@@ -13,18 +10,9 @@ export default function Page() {
   ] as const;
 
   const externalResources = [
-    {
-      url: "https://believeintherun.com/",
-      label: "Believe in the Run (review source)"
-    },
-    {
-      url: "https://www.irunfar.com/",
-      label: "iRunFar (review source)"
-    },
-    {
-      url: "https://runrepeat.com/",
-      label: "RunRepeat (lab/aggregator)"
-    }
+    { url: "https://believeintherun.com/", label: "Believe in the Run (review source)" },
+    { url: "https://www.irunfar.com/", label: "iRunFar (review source)" },
+    { url: "https://runrepeat.com/", label: "RunRepeat (lab/aggregator)" }
   ] as const;
 
   return (
@@ -43,13 +31,13 @@ export default function Page() {
         {/* Primary CTAs (internal) */}
         <div className="mt-6 flex flex-wrap gap-3">
           {internalPages.map((it) => (
-            <Link
+            <a
               key={it.href}
               href={it.href}
               className="inline-flex items-center rounded-lg border px-4 py-2 font-medium hover:bg-accent"
             >
               {it.label}
-            </Link>
+            </a>
           ))}
         </div>
       </section>
@@ -79,7 +67,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Example external resources (ALWAYS use <a> for external) */}
+      {/* Example external resources */}
       <section className="mt-10">
         <h3 className="text-lg font-semibold">Some Sources We Track</h3>
         <div className="mt-3 flex flex-wrap gap-2">
@@ -101,9 +89,9 @@ export default function Page() {
       {/* Footer */}
       <footer className="mt-12 text-sm text-muted-foreground">
         © {new Date().getFullYear()} Phavai. Affiliate links may earn us a commission.{" "}
-        <Link href="/methodology" className="underline hover:no-underline">
+        <a href="/methodology" className="underline hover:no-underline">
           Learn how we score and choose sources
-        </Link>
+        </a>
         .
       </footer>
     </main>

@@ -1,0 +1,135 @@
+[
+  {
+    "brand": "Saucony",
+    "model": "Peregrine 14",
+    "badge": "Best Overall",
+    "priceHint": "$140 MSRP",
+    "category": "trail-running",
+    "gender": "men",
+    "image": "/images/shoes/peregrine14.jpg",
+    "bestPick": 88,
+    "scores": { "published": 90, "reddit": 86, "youtube": 88, "social": 88 },
+    "sources": {
+      "published": [
+        {
+          "title": "OutdoorGearLab review",
+          "url": "https://www.outdoorgearlab.com/reviews/running/trail-running-shoes/saucony-peregrine",
+          "domain": "outdoorgearlab.com",
+          "lastSampled": "2025-10-15"
+        },
+        {
+          "title": "Believe in the Run — Review",
+          "url": "https://believeintherun.com/shoe-reviews/saucony-peregrine-14/",
+          "domain": "believeintherun.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "reddit": [
+        {
+          "title": "Peregrine 14 long-term impressions",
+          "url": "https://www.reddit.com/r/trailrunning/comments/example1",
+          "domain": "reddit.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "youtube": [
+        {
+          "title": "Video review and fit tips",
+          "url": "https://www.youtube.com/watch?v=example1",
+          "domain": "youtube.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "social": [
+        {
+          "title": "Freetrail IG post",
+          "url": "https://www.instagram.com/p/example1/",
+          "domain": "instagram.com",
+          "lastSampled": "2025-10-15"
+        }
+      ]
+    },
+    "affiliates": [
+      {
+        "retailer": "Running Warehouse",
+        "url": "https://www.runningwarehouse.com/s.html?searchtext=peregrine%2014"
+      },
+      {
+        "retailer": "REI",
+        "url": "https://www.rei.com/search?q=peregrine%2014"
+      }
+    ]
+  },
+  {
+    "brand": "HOKA",
+    "model": "Speedgoat 6",
+    "badge": "Editor’s Choice",
+    "priceHint": "$155 MSRP",
+    "category": "trail-running",
+    "gender": "men",
+    "image": "/images/shoes/speedgoat6.jpg",
+    "bestPick": 86,
+    "scores": { "published": 88, "reddit": 82, "youtube": 85, "social": 88 },
+    "sources": {
+      "published": [
+        {
+          "title": "Believe in the Run — Review",
+          "url": "https://believeintherun.com/shoe-reviews/hoka-speedgoat-6/",
+          "domain": "believeintherun.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "reddit": [
+        {
+          "title": "Speedgoat vs Mafate discussion",
+          "url": "https://www.reddit.com/r/trailrunning/comments/example2",
+          "domain": "reddit.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "youtube": [
+        {
+          "title": "Speedgoat 6 full review",
+          "url": "https://www.youtube.com/watch?v=example2",
+          "domain": "youtube.com",
+          "lastSampled": "2025-10-15"
+        }
+      ]
+    },
+    "affiliates": [
+      { "retailer": "REI", "url": "https://www.rei.com/search?q=speedgoat%206" }
+    ]
+  },
+  {
+    "brand": "Nike",
+    "model": "Zegama 2",
+    "badge": "Best Value",
+    "priceHint": "$160 MSRP (often on sale)",
+    "category": "trail-running",
+    "gender": "men",
+    "image": "/images/shoes/zegama2.jpg",
+    "bestPick": 82,
+    "scores": { "published": 80, "reddit": 84, "youtube": 82, "social": 82 },
+    "sources": {
+      "published": [
+        {
+          "title": "RunRepeat summary",
+          "url": "https://runrepeat.com/nike-zegama-2",
+          "domain": "runrepeat.com",
+          "lastSampled": "2025-10-15"
+        }
+      ],
+      "reddit": [
+        {
+          "title": "Zegama 2 durability thread",
+          "url": "https://www.reddit.com/r/trailrunning/comments/example3",
+          "domain": "reddit.com",
+          "lastSampled": "2025-10-15"
+        }
+      ]
+    },
+    "affiliates": [
+      { "retailer": "Nike", "url": "https://www.nike.com/w?q=zegama%202" }
+    ]
+  }
+]

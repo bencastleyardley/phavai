@@ -1,55 +1,51 @@
-import type { Metadata } from "next";
-import fs from "node:fs";
-import path from "node:path";
-import BestList, { type Product } from "@/components/BestList";
+// app/best-womens-trail-running-shoes/page.tsx
+import { getReviewerTiers, getTrailWomens } from "@/app/lib/data";
+import { itemListJsonLd, productJsonLd } from "@/app/lib/schema";
+import ProductCard from "@/app/components/cards/ProductCard";
 
-const TITLE = "Best Women’s Trail Running Shoes (2025)";
-const DESCRIPTION =
-  "Trusted, static roundup: averaged sentiment from Published, Reddit, YouTube, and Social into one BestPick score.";
+export const dynamic = "error"; // SSG only
 
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: "https://phavai.vercel.app/best-womens-trail-running-shoes" },
-  openGraph: { title: TITLE, description: DESCRIPTION, type: "article" },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION }
+export const metadata = {
+  title: "Best Women's Trail Running Shoes (2025) — Phavai",
+  description:
+    "Static, trust-first review aggregator with transparent citations and BestPick scoring.",
 };
 
-function loadProducts(): Product[] {
-  const file = path.join(process.cwd(), "data", "shoes", "best-womens-trail.json");
-  return JSON.parse(fs.readFileSync(file, "utf-8")) as Product[];
-}
-
-export default function Page() {
-  const items = loadProducts();
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: TITLE,
-    description: DESCRIPTION,
-    itemListElement: items.map((p, i) => ({
-      "@type": "Product",
-      position: i + 1,
-      name: `${p.brand} ${p.model}`,
-      brand: p.brand,
-      offers: { "@type": "Offer", price: p.price, priceCurrency: "USD", url: p.affiliate.url }
-    }))
-  };
+export default async function Page() {
+  const [items, tiers] = await Promise.all([
+    getTrailWomens(),
+    getReviewerTiers(),
+  ]);
+  const pageUrl = "https://www.phavai.com/best-womens-trail-running-shoes";
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-10">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">{TITLE}</h1>
-        <p className="mt-2 muted">{DESCRIPTION}</p>
-        <p className="mt-1 text-sm muted">Last updated: {new Date().toLocaleDateString()}</p>
-      </header>
-      <BestList items={items} />
-      <footer className="mt-10 text-sm muted">
-        Methodology: 4-bucket average.{" "}
-        <a className="underline hover:no-underline" href="/methodology">See our full methodology</a>.
-      </footer>
+    <main className="mx-auto max-w-5xl space-y-6 p-4 md:p-8">
+      <h1 className="text-2xl font-bold">
+        Best Women’s Trail Running Shoes (2025)
+      </h1>
+      <p className="text-slate-600">
+        Scores roll up public sentiment across Published reviews, Reddit,
+        YouTube, and broader Social chatter. Sources are tiered for credibility.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: itemListJsonLd({ pageTitle: metadata.title, pageUrl, items }),
+        }}
+      />
+
+      <div className="grid gap-6">
+        {items.map((p, i) => (
+          <div key={i}>
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: productJsonLd(p, pageUrl) }}
+            />
+            <ProductCard p={p} tiers={tiers} rank={i + 1} />
+          </div>
+        ))}
+      </div>
     </main>
   );
 }

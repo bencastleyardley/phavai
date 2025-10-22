@@ -1,0 +1,10 @@
+{
+  "outdoorgearlab.com": { "tier": 1, "label": "Lab-Tested Authority" },
+  "believeintherun.com": { "tier": 1, "label": "Expert Running Review" },
+  "runrepeat.com": { "tier": 2, "label": "Meta-Review Aggregator" },
+  "freetrail.com": { "tier": 2, "label": "Community Media" },
+  "youtube.com": { "tier": 2, "label": "Creator Review" },
+  "reddit.com": { "tier": 2, "label": "Community Thread" },
+  "instagram.com": { "tier": 3, "label": "Social Post" },
+  "twitter.com": { "tier": 3, "label": "Social Post" }
+}
