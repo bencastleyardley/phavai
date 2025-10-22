@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import fs from "node:fs";
 import path from "node:path";
 import BestList, { type Product } from "@/components/BestList";
-import { loadTierConfig } from "@/lib/tiers";
 
-const TITLE = "Best Mens Trail Running Shoes (2025)";
+const TITLE = "Best Men’s Trail Running Shoes (2025)";
 const DESCRIPTION =
-  "Transparent, static roundup: we average Published, Reddit, YouTube, and Social into one BestPick score. Real links, tier badges, no fluff.";
+  "Transparent, static roundup: we average Published, Reddit, YouTube, and Social into one BestPick score. Real links, no fluff.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -21,16 +20,8 @@ function loadProducts(): Product[] {
   return JSON.parse(fs.readFileSync(file, "utf-8")) as Product[];
 }
 
-function tierMapForClient() {
-  const cfg = loadTierConfig("trail-running-shoes");
-  const map: Record<string, { badge: string; tip: string }> = {};
-  for (const t of cfg.tiers) for (const d of t.domains) map[d] = { badge: t.emoji, tip: `${t.label}: ${t.why_trusted}` };
-  return map;
-}
-
 export default function Page() {
   const items = loadProducts();
-  const tiers = tierMapForClient();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -49,15 +40,14 @@ export default function Page() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <script dangerouslySetInnerHTML={{ __html: `window.__TIERS__=${JSON.stringify(tiers)}` }} />
       <header className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">{TITLE}</h1>
-        <p className="mt-2 text-muted-foreground">{DESCRIPTION}</p>
-        <p className="mt-1 text-sm text-muted-foreground">Last updated: {new Date().toLocaleDateString()}</p>
+        <p className="mt-2 muted">{DESCRIPTION}</p>
+        <p className="mt-1 text-sm muted">Last updated: {new Date().toLocaleDateString()}</p>
       </header>
-      <BestList items={items} vertical="trail-running-shoes" />
-      <footer className="mt-10 text-sm text-muted-foreground">
-        Methodology: 4-bucket average with reviewer tier badges for transparency.{" "}
+      <BestList items={items} />
+      <footer className="mt-10 text-sm muted">
+        Methodology: 4-bucket average.{" "}
         <a className="underline hover:no-underline" href="/methodology">See our full methodology</a>.
       </footer>
     </main>
