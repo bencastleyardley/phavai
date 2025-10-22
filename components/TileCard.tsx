@@ -1,13 +1,21 @@
-"use client";
-import Link from "next/link";
+import React from "react";
 
-export default function TileCard({ title, query, subtitle }: { title: string; query: string; subtitle?: string; }) {
+interface TileCardProps {
+  query: string;
+  title: string;
+  subtitle?: string;
+}
+
+export default function TileCard({ query, title, subtitle }: TileCardProps) {
   const href = `/search?q=${encodeURIComponent(query)}`;
   return (
-    <Link href={href} prefetch={false} className="block rounded-2xl border bg-white p-6 shadow-sm transition hover:shadow">
+    <a
+      href={href}
+      className="block rounded-2xl border bg-white p-6 shadow-sm transition hover:shadow-md"
+    >
       <div className="text-lg font-semibold">{title}</div>
       {subtitle && <div className="mt-1 text-sm text-gray-500">{subtitle}</div>}
       <div className="mt-4 text-xs underline">Explore →</div>
-    </Link>
+    </a>
   );
 }
