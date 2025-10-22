@@ -1,12 +1,21 @@
-{
+﻿{
+  "version": 2,
   "headers": [
     {
       "source": "/photos/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
     },
     {
       "source": "/(.*\\.html)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, s-maxage=300" }]
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=300" }
+      ]
     }
+  ],
+  "redirects": [
+    { "source": "/best-mens-trail-running-shoes.v4.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true },
+    { "source": "/best-mens-trail-running-shoes.v5.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true }
   ]
 }
