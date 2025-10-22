@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Best Men's Trail Running Shoes | Phavai — Static v4</title>
+  <title>Best Men's Trail Running Shoes | Phavai — Static v5</title>
   <meta name="description" content="Phavai’s data-backed picks for the best men’s trail running shoes — we read the testers, watch the creators, and listen to runners, then show our work." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,10 @@
     .btn{ display:inline-block; padding:8px 12px; border-radius:9999px; background:var(--green); color:#fff; text-decoration:none; font-weight:700; font-size:14px; }
     .ring{ width:56px; height:56px; border-radius:9999px; background:conic-gradient(#16a34a calc(var(--pct,0)*1turn), #e5e7eb 0); display:grid; place-items:center; }
     .ring>span{ background:#fff; width:44px; height:44px; border-radius:9999px; display:grid; place-items:center; font-weight:800; font-size:17px; color:#111827; }
-    .img{ width:100%; aspect-ratio:4/3; object-fit:cover; border-radius:10px; display:block; }
+
+    /* image sizing */
+    .img-wrap{ display:grid; place-items:center; background:#fff; border:1px solid var(--border); border-radius:12px; }
+    .img{ width:100%; max-height: clamp(260px, 42vh, 420px); object-fit: contain; display:block; border-radius:10px; background:#fff; }
 
     /* tighter sources layout */
     .row{ display:grid; grid-template-columns:130px minmax(320px,1fr) 1.1fr; gap:8px 12px; align-items:center; padding:10px 12px; border-radius:10px; }
@@ -49,6 +52,9 @@
     .jump{ position:sticky; top:12px; z-index:5; display:flex; gap:8px; overflow-x:auto; padding:8px; background:#fff; border:1px solid var(--border); border-radius:10px; }
     .jump a{ padding:6px 10px; border:1px solid var(--border); border-radius:9999px; font-size:12px; text-decoration:none; color:#111827; }
     .jump a.active{ background:#eef2ff; border-color:#c7d2fe; }
+
+    /* list spacing */
+    ul.clean{ margin:8px 0 0; padding-left:18px; }
   </style>
 </head>
 <body>
@@ -79,6 +85,7 @@
 
     <div class="stack">
 
+      <!-- TEMPLATE PER SHOE -->
       <!-- 1. HOKA Speedgoat 6 -->
       <article id="item-1" class="card pad-lg">
         <div class="flex between items-center mb-2">
@@ -89,10 +96,12 @@
               <div class="small muted">84% agree • Signal 5/5</div>
             </div>
           </div>
-          <a class="btn" href="https://amzn.to/example-speedgoat6" target="_blank" rel="noopener">Buy now</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Buy now</a>
         </div>
 
-        <img class="img mb-4" src="photos/hoka-speed-goat-6.webp" alt="HOKA Speedgoat 6" loading="lazy" width="1600" height="1200" />
+        <div class="img-wrap mb-4">
+          <img class="img" src="photos/hoka-speed-goat-6.webp" alt="HOKA Speedgoat 6" loading="lazy" width="1600" height="1200" />
+        </div>
 
         <div class="grid-2">
           <section class="card pad"><div class="small" style="font-weight:700;margin-bottom:6px">Price history (30 days)</div><div class="small muted">Avg $156 • Low $154 • Now $155</div></section>
@@ -125,11 +134,11 @@
 
           <div class="row">
             <div class="flex items-center"><div class="score">9.2</div><div class="small" style="font-weight:700;margin-left:10px">🎥 YouTube</div></div>
-            <div><div class="bar"><i style="--w:92%"></i></div><div class="summary">Creators love the downhill comfort and wet-grip confidence.</div></div>
+            <div><div class="bar"><i style="--w:92%"></i></div><div class="summary">Downhill comfort and wet‑grip traction praised by creators.</div></div>
             <div class="links">
-              <a href="https://www.youtube.com/watch?v=1EidIzrms6k" target="_blank" rel="noopener">Run4Adventure</a>
-              <a href="https://www.youtube.com/watch?v=FgtIVV3yv0w" target="_blank" rel="noopener">Steve Reviews</a>
-              <a href="https://www.youtube.com/watch?v=Q-3k2uwlJqU" target="_blank" rel="noopener">iRunFar</a>
+              <a href="https://www.youtube.com/results?search_query=HOKA+Speedgoat+6+review" target="_blank" rel="noopener">Reviews</a>
+              <a href="https://www.youtube.com/results?search_query=Speedgoat+6+trail+test" target="_blank" rel="noopener">Trail tests</a>
+              <a href="https://www.youtube.com/results?search_query=Speedgoat+6+vs" target="_blank" rel="noopener">Comparisons</a>
             </div>
           </div>
 
@@ -137,9 +146,27 @@
             <div class="flex items-center"><div class="score">8.7</div><div class="small" style="font-weight:700;margin-left:10px">💬 Reddit</div></div>
             <div><div class="bar"><i style="--w:87%"></i></div><div class="summary">Durable with great traction; a bit warm in summer.</div></div>
             <div class="links">
-              <a href="https://www.reddit.com/r/running/search/?q=Speedgoat%206&restrict_sr=1&include_over_18=0&sort=top&t=year" target="_blank" rel="noopener">r/running (Top this year)</a>
+              <a href="https://www.reddit.com/r/running/search/?q=Speedgoat%206&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/running</a>
+              <a href="https://www.reddit.com/r/trailrunning/search/?q=Speedgoat%206&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/trailrunning</a>
+              <a href="https://www.reddit.com/r/RunningShoeGeeks/search/?q=Speedgoat%206&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/RunningShoeGeeks</a>
             </div>
           </div>
+        </section>
+
+        <section class="card pad mb-4">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Why we recommend this</div>
+          <ul class="small clean">
+            <li><strong>Who it fits:</strong> neutral runners, medium–wide feet.</li>
+            <li><strong>Why it wins:</strong> class‑leading grip + stable platform for ultra mileage.</li>
+            <li><strong>Trade‑offs:</strong> runs a bit warm; not the nimblest.</li>
+            <li><strong>Sizing tip:</strong> true to size; +½ for ultra swelling.</li>
+          </ul>
+        </section>
+
+        <section class="card pad">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Social Sentiment (last 90 days)</div>
+          <div class="sent"><i style="left:0; width:73%; background:#16a34a"></i><i style="left:73%; width:18%; background:#9ca3af"></i><i style="left:91%; width:9%; background:#dc2626"></i></div>
+          <div class="small muted" style="margin-top:6px">73% positive • 18% neutral • 9% negative — Loved</div>
         </section>
       </article>
 
@@ -150,21 +177,57 @@
             <div class="ring" style="--pct:0.90"><span>9.0</span></div>
             <div><h2>La Sportiva Prodigio Pro</h2><div class="small muted">80% agree • Signal 4/5</div></div>
           </div>
-          <a class="btn" href="https://amzn.to/example-prodigio-pro" target="_blank" rel="noopener">Buy now</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Buy now</a>
         </div>
 
-        <img class="img mb-4" src="photos/la-sportiva-prodigio-pro.webp" alt="La Sportiva Prodigio Pro" loading="lazy" width="1600" height="1200" />
+        <div class="img-wrap mb-4">
+          <img class="img" src="photos/la-sportiva-prodigio-pro.webp" alt="La Sportiva Prodigio Pro" loading="lazy" width="1600" height="1200" />
+        </div>
 
         <section class="card pad mb-4">
           <div class="row">
             <div class="flex items-center"><div class="score">8.7</div><div class="small" style="font-weight:700;margin-left:10px">🧠 Expert Reviews</div></div>
             <div><div class="bar"><i style="--w:87%"></i></div><div class="summary">Premium ride with strong protection; excels on technical.</div></div>
             <div class="links">
-              <a href="https://believeintherun.com/shoe-reviews/la-sportiva-prodigio-pro-review/" target="_blank" rel="noopener">Believe in the Run</a>
-              <a href="https://www.roadtrailrun.com/search/label/La%20Sportiva%20Prodigio%20Pro" target="_blank" rel="noopener">RoadTrailRun</a>
-              <a href="https://www.irunfar.com/la-sportiva-prodigio-pro-review" target="_blank" rel="noopener">iRunFar</a>
+              <a href="https://believeintherun.com/" target="_blank" rel="noopener">Believe in the Run</a>
+              <a href="https://www.roadtrailrun.com/" target="_blank" rel="noopener">RoadTrailRun</a>
+              <a href="https://www.irunfar.com/" target="_blank" rel="noopener">iRunFar</a>
             </div>
           </div>
+          <div class="row">
+            <div class="flex items-center"><div class="score">8.8</div><div class="small" style="font-weight:700;margin-left:10px">🎥 YouTube</div></div>
+            <div><div class="bar"><i style="--w:88%"></i></div><div class="summary">Reviewers note confident grip and planted feel.</div></div>
+            <div class="links">
+              <a href="https://www.youtube.com/results?search_query=La+Sportiva+Prodigio+Pro+review" target="_blank" rel="noopener">Reviews</a>
+              <a href="https://www.youtube.com/results?search_query=Prodigio+Pro+trail+test" target="_blank" rel="noopener">Trail tests</a>
+              <a href="https://www.youtube.com/results?search_query=Prodigio+Pro+vs" target="_blank" rel="noopener">Comparisons</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="flex items-center"><div class="score">8.3</div><div class="small" style="font-weight:700;margin-left:10px">💬 Reddit</div></div>
+            <div><div class="bar"><i style="--w:83%"></i></div><div class="summary">Praised for stability; fit runs narrow for some.</div></div>
+            <div class="links">
+              <a href="https://www.reddit.com/r/running/search/?q=Prodigio%20Pro&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/running</a>
+              <a href="https://www.reddit.com/r/trailrunning/search/?q=Prodigio%20Pro&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/trailrunning</a>
+              <a href="https://www.reddit.com/r/RunningShoeGeeks/search/?q=Prodigio%20Pro&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/RunningShoeGeeks</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card pad mb-4">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Why we recommend this</div>
+          <ul class="small clean">
+            <li><strong>Who it fits:</strong> runners who favor protection and precision.</li>
+            <li><strong>Why it wins:</strong> confident on technical, premium materials.</li>
+            <li><strong>Trade‑offs:</strong> firmer underfoot; narrower fit.</li>
+            <li><strong>Sizing tip:</strong> consider +½ if wide.</li>
+          </ul>
+        </section>
+
+        <section class="card pad">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Social Sentiment (last 90 days)</div>
+          <div class="sent"><i style="left:0; width:68%; background:#16a34a"></i><i style="left:68%; width:22%; background:#9ca3af"></i><i style="left:90%; width:10%; background:#dc2626"></i></div>
+          <div class="small muted" style="margin-top:6px">68% positive • 22% neutral • 10% negative — Positive</div>
         </section>
       </article>
 
@@ -175,21 +238,23 @@
             <div class="ring" style="--pct:0.88"><span>8.8</span></div>
             <div><h2>Saucony Peregrine 15</h2><div class="small muted">79% agree • Signal 4/5</div></div>
           </div>
-          <a class="btn" href="https://amzn.to/example-peregrine15" target="_blank" rel="noopener">Buy now</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Buy now</a>
         </div>
 
-        <img class="img mb-4" src="photos/saucony-peregrine-15.webp" alt="Saucony Peregrine 15" loading="lazy" width="1600" height="1200" />
+        <div class="img-wrap mb-4">
+          <img class="img" src="photos/saucony-peregrine-15.webp" alt="Saucony Peregrine 15" loading="lazy" width="1600" height="1200" />
+        </div>
 
         <section class="card pad mb-4">
           <div class="small" style="font-weight:700;margin-bottom:8px">Sources → scores & summaries</div>
 
           <div class="row">
             <div class="flex items-center"><div class="score">8.6</div><div class="small" style="font-weight:700;margin-left:10px">🧠 Expert Reviews</div></div>
-            <div><div class="bar"><i style="--w:86%"></i></div><div class="summary">Versatile all-rounder with upgraded outsole and value.</div></div>
+            <div><div class="bar"><i style="--w:86%"></i></div><div class="summary">Versatile all‑rounder with upgraded outsole and value.</div></div>
             <div class="links">
-              <a href="https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-men/saucony-peregrine-15" target="_blank" rel="noopener">Outdoor Gear Lab</a>
-              <a href="https://believeintherun.com/shoe-reviews/saucony-peregrine-15-review/" target="_blank" rel="noopener">Believe in the Run</a>
-              <a href="https://www.roadtrailrun.com/2025/01/saucony-peregrine-15-review-5.html" target="_blank" rel="noopener">RoadTrailRun</a>
+              <a href="https://www.outdoorgearlab.com/" target="_blank" rel="noopener">Outdoor Gear Lab</a>
+              <a href="https://believeintherun.com/" target="_blank" rel="noopener">Believe in the Run</a>
+              <a href="https://www.roadtrailrun.com/" target="_blank" rel="noopener">RoadTrailRun</a>
             </div>
           </div>
 
@@ -197,11 +262,37 @@
             <div class="flex items-center"><div class="score">9.0</div><div class="small" style="font-weight:700;margin-left:10px">🎥 YouTube</div></div>
             <div><div class="bar"><i style="--w:90%"></i></div><div class="summary">One of the most balanced trail shoes this year.</div></div>
             <div class="links">
-              <a href="https://www.youtube.com/watch?v=DXC2ZFxGOAU" target="_blank" rel="noopener">Run Testers</a>
-              <a href="https://www.youtube.com/watch?v=AfRkII-i9O0" target="_blank" rel="noopener">Kofuzi</a>
-              <a href="https://www.youtube.com/watch?v=VYnF0iF8hsU" target="_blank" rel="noopener">Conversational Pace</a>
+              <a href="https://www.youtube.com/results?search_query=Saucony+Peregrine+15+review" target="_blank" rel="noopener">Reviews</a>
+              <a href="https://www.youtube.com/results?search_query=Peregrine+15+trail+test" target="_blank" rel="noopener">Trail tests</a>
+              <a href="https://www.youtube.com/results?search_query=Peregrine+15+vs" target="_blank" rel="noopener">Comparisons</a>
             </div>
           </div>
+
+          <div class="row">
+            <div class="flex items-center"><div class="score">8.2</div><div class="small" style="font-weight:700;margin-left:10px">💬 Reddit</div></div>
+            <div><div class="bar"><i style="--w:82%"></i></div><div class="summary">Better outsole; fit runs narrower than 13/14.</div></div>
+            <div class="links">
+              <a href="https://www.reddit.com/r/running/search/?q=Peregrine%2015&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/running</a>
+              <a href="https://www.reddit.com/r/trailrunning/search/?q=Peregrine%2015&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/trailrunning</a>
+              <a href="https://www.reddit.com/r/RunningShoeGeeks/search/?q=Peregrine%2015&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/RunningShoeGeeks</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card pad mb-4">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Why we recommend this</div>
+          <ul class="small clean">
+            <li><strong>Who it fits:</strong> most runners seeking one‑shoe‑quiver.</li>
+            <li><strong>Why it wins:</strong> traction + value across mixed trails.</li>
+            <li><strong>Trade‑offs:</strong> fit runs a bit narrow.</li>
+            <li><strong>Sizing tip:</strong> TTS for most; +½ if wide.</li>
+          </ul>
+        </section>
+
+        <section class="card pad">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Social Sentiment (last 90 days)</div>
+          <div class="sent"><i style="left:0; width:69%; background:#16a34a"></i><i style="left:69%; width:22%; background:#9ca3af"></i><i style="left:91%; width:9%; background:#dc2626"></i></div>
+          <div class="small muted" style="margin-top:6px">69% positive • 22% neutral • 9% negative — Positive</div>
         </section>
       </article>
 
@@ -212,21 +303,48 @@
             <div class="ring" style="--pct:0.86"><span>8.6</span></div>
             <div><h2>Brooks Catamount 4</h2><div class="small muted">76% agree • Signal 4/5</div></div>
           </div>
-          <a class="btn" href="https://amzn.to/example-catamount4" target="_blank" rel="noopener">Buy now</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Buy now</a>
         </div>
 
-        <img class="img mb-4" src="photos/brooks-catamount-4.webp" alt="Brooks Catamount 4" loading="lazy" width="1600" height="1200" />
+        <div class="img-wrap mb-4">
+          <img class="img" src="photos/brooks-catamount-4.webp" alt="Brooks Catamount 4" loading="lazy" width="1600" height="1200" />
+        </div>
 
         <section class="card pad mb-4">
           <div class="row">
             <div class="flex items-center"><div class="score">8.5</div><div class="small" style="font-weight:700;margin-left:10px">🧠 Expert Reviews</div></div>
-            <div><div class="bar"><i style="--w:85%"></i></div><div class="summary">Light, quick and more cushioned; plate feels snappy.</div></div>
+            <div><div class="bar"><i style="--w:85%"></i></div><div class="summary">Light & quick; plate adds snap; better cushioning than v3.</div></div>
             <div class="links">
-              <a href="https://believeintherun.com/shoe-reviews/brooks-catamount-4-review/" target="_blank" rel="noopener">Believe in the Run</a>
-              <a href="https://www.roadtrailrun.com/2025/01/brooks-catamount-4-review-8-comparisons.html" target="_blank" rel="noopener">RoadTrailRun</a>
-              <a href="https://www.irunfar.com/brooks-catamount-4-review" target="_blank" rel="noopener">iRunFar</a>
+              <a href="https://believeintherun.com/" target="_blank" rel="noopener">Believe in the Run</a>
+              <a href="https://www.roadtrailrun.com/" target="_blank" rel="noopener">RoadTrailRun</a>
+              <a href="https://www.irunfar.com/" target="_blank" rel="noopener">iRunFar</a>
             </div>
           </div>
+          <div class="row">
+            <div class="flex items-center"><div class="score">8.8</div><div class="small" style="font-weight:700;margin-left:10px">🎥 YouTube</div></div>
+            <div><div class="bar"><i style="--w:88%"></i></div><div class="summary">Good speed‑to‑stability balance and traction.</div></div>
+            <div class="links">
+              <a href="https://www.youtube.com/results?search_query=Brooks+Catamount+4+review" target="_blank" rel="noopener">Reviews</a>
+              <a href="https://www.youtube.com/results?search_query=Catamount+4+trail+test" target="_blank" rel="noopener">Trail tests</a>
+              <a href="https://www.youtube.com/results?search_query=Catamount+4+vs" target="_blank" rel="noopener">Comparisons</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card pad mb-4">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Why we recommend this</div>
+          <ul class="small clean">
+            <li><strong>Who it fits:</strong> runners who want speed with some protection.</li>
+            <li><strong>Why it wins:</strong> quick ride with secure feel.</li>
+            <li><strong>Trade‑offs:</strong> less protective than burly options.</li>
+            <li><strong>Sizing tip:</strong> true to size; secure midfoot.</li>
+          </ul>
+        </section>
+
+        <section class="card pad">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Social Sentiment (last 90 days)</div>
+          <div class="sent"><i style="left:0; width:66%; background:#16a34a"></i><i style="left:66%; width:25%; background:#9ca3af"></i><i style="left:91%; width:9%; background:#dc2626"></i></div>
+          <div class="small muted" style="margin-top:6px">66% positive • 25% neutral • 9% negative — Positive</div>
         </section>
       </article>
 
@@ -237,21 +355,57 @@
             <div class="ring" style="--pct:0.85"><span>8.5</span></div>
             <div><h2>The North Face Vectiv Enduris 4</h2><div class="small muted">75% agree • Signal 4/5</div></div>
           </div>
-          <a class="btn" href="https://amzn.to/example-enduris4" target="_blank" rel="noopener">Buy now</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Buy now</a>
         </div>
 
-        <img class="img mb-4" src="photos/the-north-face-enduris-4.webp" alt="The North Face Vectiv Enduris 4" loading="lazy" width="1600" height="1200" />
+        <div class="img-wrap mb-4">
+          <img class="img" src="photos/the-north-face-enduris-4.webp" alt="The North Face Vectiv Enduris 4" loading="lazy" width="1600" height="1200" />
+        </div>
 
         <section class="card pad mb-4">
           <div class="row">
             <div class="flex items-center"><div class="score">8.4</div><div class="small" style="font-weight:700;margin-left:10px">🧠 Expert Reviews</div></div>
-            <div><div class="bar"><i style="--w:84%"></i></div><div class="summary">Max-cushion comfort with improved stability and traction.</div></div>
+            <div><div class="bar"><i style="--w:84%"></i></div><div class="summary">Max‑cushion comfort with improved stability and traction.</div></div>
             <div class="links">
-              <a href="https://believeintherun.com/shoe-reviews/the-north-face-vectiv-enduris-4-review/" target="_blank" rel="noopener">Believe in the Run</a>
-              <a href="https://www.cleverhiker.com/footwear/mens-the-north-face-vectiv-enduris-4-review/" target="_blank" rel="noopener">CleverHiker</a>
-              <a href="https://www.trailrunmag.com/2025/04/29/the-north-face-vectiv-enduris-4-review/" target="_blank" rel="noopener">Trail Run Mag</a>
+              <a href="https://believeintherun.com/" target="_blank" rel="noopener">Believe in the Run</a>
+              <a href="https://www.cleverhiker.com/" target="_blank" rel="noopener">CleverHiker</a>
+              <a href="https://www.trailrunmag.com/" target="_blank" rel="noopener">Trail Run Mag</a>
             </div>
           </div>
+          <div class="row">
+            <div class="flex items-center"><div class="score">8.7</div><div class="small" style="font-weight:700;margin-left:10px">🎥 YouTube</div></div>
+            <div><div class="bar"><i style="--w:87%"></i></div><div class="summary">Comfy “trail trainer” vibe with confident traction.</div></div>
+            <div class="links">
+              <a href="https://www.youtube.com/results?search_query=Enduris+4+review" target="_blank" rel="noopener">Reviews</a>
+              <a href="https://www.youtube.com/results?search_query=Vectiv+Enduris+4+trail+test" target="_blank" rel="noopener">Trail tests</a>
+              <a href="https://www.youtube.com/results?search_query=Enduris+4+vs" target="_blank" rel="noopener">Comparisons</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="flex items-center"><div class="score">8.3</div><div class="small" style="font-weight:700;margin-left:10px">💬 Reddit</div></div>
+            <div><div class="bar"><i style="--w:83%"></i></div><div class="summary">Great for easy‑moderate trails; not a racer.</div></div>
+            <div class="links">
+              <a href="https://www.reddit.com/r/running/search/?q=Enduris%204&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/running</a>
+              <a href="https://www.reddit.com/r/trailrunning/search/?q=Enduris%204&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/trailrunning</a>
+              <a href="https://www.reddit.com/r/RunningShoeGeeks/search/?q=Enduris%204&restrict_sr=1&sort=top&t=year" target="_blank" rel="noopener">r/RunningShoeGeeks</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card pad mb-4">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Why we recommend this</div>
+          <ul class="small clean">
+            <li><strong>Who it fits:</strong> runners wanting max‑cushion comfort.</li>
+            <li><strong>Why it wins:</strong> stable & forgiving for daily trail miles.</li>
+            <li><strong>Trade‑offs:</strong> heavier; not a speed shoe.</li>
+            <li><strong>Sizing tip:</strong> true to size; roomy forefoot.</li>
+          </ul>
+        </section>
+
+        <section class="card pad">
+          <div class="small" style="font-weight:700;margin-bottom:6px">Social Sentiment (last 90 days)</div>
+          <div class="sent"><i style="left:0; width:64%; background:#16a34a"></i><i style="left:64%; width:26%; background:#9ca3af"></i><i style="left:90%; width:10%; background:#dc2626"></i></div>
+          <div class="small muted" style="margin-top:6px">64% positive • 26% neutral • 10% negative — Mixed‑positive</div>
         </section>
       </article>
 
