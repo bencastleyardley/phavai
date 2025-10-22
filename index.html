@@ -1,0 +1,220 @@
+@'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phavai — The internet’s gear reviews, finally in one honest score.</title>
+  <meta name="description" content="From pros to parents, we average what the internet really thinks. Phavai distills expert tests, creator opinions, Reddit threads, and real-world chatter into one transparent, trusted score." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Phavai — One honest score from the internet’s reviews" />
+  <meta property="og:description" content="From pros to parents, we average what the internet really thinks." />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/ebfbee/166534.png&text=Phavai" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Phavai — One honest score from the internet’s reviews" />
+  <meta name="twitter:description" content="From pros to parents, we average what the internet really thinks." />
+  <meta name="twitter:image" content="https://dummyimage.com/1200x630/ebfbee/166534.png&text=Phavai" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{ --bg:#f6f7f8; --ink:#111827; --muted:#6b7280; --border:#e5e7eb; --green:#166534; --card:#fff; }
+    *{ box-sizing:border-box } html,body{ margin:0 } body{ font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; color:var(--ink); background:var(--bg) }
+    .section{ max-width:1100px; margin:0 auto; padding:24px 18px }
+    .hero{ background:linear-gradient(180deg,#f0fdf4 0%,#ffffff 60%); border-bottom:1px solid var(--border) }
+    .header{ display:flex; align-items:center; justify-content:space-between; gap:10px }
+    .brand{ font-weight:800; font-size:22px; letter-spacing:-.01em; text-decoration:none; color:var(--ink) }
+    .nav{ display:flex; gap:10px; align-items:center; font-size:14px }
+    .link{ color:var(--ink); text-decoration:none } .link:hover{ text-decoration:underline }
+    .btn{ display:inline-block; padding:10px 14px; border-radius:9999px; background:var(--green); color:#fff; text-decoration:none; font-weight:700; font-size:14px }
+    .btn-outline{ display:inline-block; padding:10px 14px; border-radius:9999px; border:1px solid var(--border); color:var(--green); background:#fff; text-decoration:none; font-weight:700; font-size:14px }
+
+    /* Categories dropdown (CSS-only) */
+    .dropdown{ position:relative }
+    .drop-btn{ display:inline-flex; align-items:center; gap:6px; padding:8px 10px; border-radius:10px; border:1px solid var(--border); text-decoration:none; color:var(--ink); background:#fff }
+    .drop-menu{ position:absolute; top:110%; left:0; background:#fff; border:1px solid var(--border); border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,.08); padding:8px; display:none; min-width:180px; z-index:10 }
+    .dropdown:hover .drop-menu{ display:block }
+    .drop-item{ display:block; padding:8px 10px; border-radius:8px; color:var(--ink); text-decoration:none; font-size:14px }
+    .drop-item:hover{ background:#f3f4f6 }
+
+    /* Hero copy */
+    .title{ font-size:clamp(28px,4.5vw,44px); margin:14px 0 8px; font-weight:800; letter-spacing:-.01em }
+    .sub{ font-size:clamp(16px,2.2vw,19px); margin:0 }
+    .support{ font-size:14px; color:var(--muted); margin-top:8px }
+    .hero-ctas{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px }
+
+    /* Cards & grids */
+    .card{ background:var(--card); border:1px solid var(--border); border-radius:12px; box-shadow:0 1px 3px rgba(0,0,0,.06); padding:14px }
+    .headline{ font-size:18px; font-weight:800; margin:0 0 10px }
+    .meta{ color:var(--muted); font-size:13px }
+    .img{ width:100%; height:160px; object-fit:cover; border-radius:10px; display:block }
+
+    .pillars{ display:grid; gap:10px; grid-template-columns:1fr }
+    @media(min-width:800px){ .pillars{ grid-template-columns:repeat(3,1fr) } }
+    .pill-icon{ width:26px; height:26px; display:inline-grid; place-items:center; border-radius:8px; background:#ecfdf5; color:var(--green); font-weight:800; margin-right:8px }
+    .pillar h3{ margin:0 0 6px; font-size:16px; font-weight:800 } .pillar p{ margin:0; font-size:14px; color:var(--muted) }
+
+    .start-grid{ display:grid; grid-template-columns:1fr; gap:12px }
+    @media(min-width:900px){ .start-grid{ grid-template-columns:repeat(3,1fr) } }
+    .start-card{ text-decoration:none; color:inherit } .start-card:hover{ transform:translateY(-1px); transition:transform .15s ease }
+
+    .method{ display:grid; gap:12px; grid-template-columns:1fr }
+    @media(min-width:900px){ .method{ grid-template-columns:repeat(3,1fr) } }
+    .badge{ display:inline-block; padding:4px 8px; background:#ecfdf5; color:var(--green); border-radius:9999px; font-size:12px; font-weight:700 }
+    .method h3{ margin:0 0 6px; font-size:16px; font-weight:800 } .method p{ margin:0; font-size:14px; color:var(--muted) }
+
+    footer{ border-top:1px solid var(--border); padding:20px 0; color:var(--muted); font-size:13px }
+    .footer-grid{ display:grid; grid-template-columns:1fr; gap:10px }
+    @media(min-width:800px){ .footer-grid{ grid-template-columns:1fr auto; align-items:center } }
+    .foot-links a{ color:var(--ink); text-decoration:none; margin-left:12px } .foot-links a:hover{ text-decoration:underline }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Nav -->
+  <header class="hero">
+    <div class="section">
+      <div class="header">
+        <a class="brand" href="#">Phavai</a>
+        <nav class="nav">
+          <div class="dropdown">
+            <a href="#" class="drop-btn">Categories ▾</a>
+            <div class="drop-menu" role="menu" aria-label="Categories">
+              <a class="drop-item" href="best-mens-trail-running-shoes.v4.html">Trail</a>
+              <a class="drop-item" href="#">Hike</a>
+              <a class="drop-item" href="#">Run</a>
+              <a class="drop-item" href="#">Tech</a>
+              <a class="drop-item" href="#">Fitness</a>
+              <a class="drop-item" href="#">Travel</a>
+            </div>
+          </div>
+          <a class="link" href="#method">Methodology</a>
+          <a class="link" href="#about">About</a>
+        </nav>
+      </div>
+
+      <!-- Hero copy -->
+      <div style="display:grid; grid-template-columns:1fr; gap:14px; margin-top:18px;">
+        <h1 class="title">The internet’s gear reviews, finally in one honest score.</h1>
+        <p class="sub"><strong>From pros to parents, we average what the internet really thinks.</strong></p>
+        <p class="support">We turn thousands of opinions into one clear answer — and we show our work.</p>
+        <div class="hero-ctas">
+          <a href="best-mens-trail-running-shoes.v4.html" class="btn">Explore Top Picks</a>
+          <a href="#method" class="btn-outline">How we score</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Value Pillars -->
+  <section class="section">
+    <div class="pillars">
+      <div class="card pillar">
+        <div><span class="pill-icon">✓</span><h3 style="display:inline;">Transparent</h3></div>
+        <p>Every number cites its source. See expert tests, creator videos, Reddit threads, and social feedback.</p>
+      </div>
+      <div class="card pillar">
+        <div><span class="pill-icon">🧠</span><h3 style="display:inline;">Balanced</h3></div>
+        <p>Pros, creators, and real users all count — weighted for quality to prevent hype from skewing results.</p>
+      </div>
+      <div class="card pillar">
+        <div><span class="pill-icon">📈</span><h3 style="display:inline;">Dynamic</h3></div>
+        <p>Scores refresh as the conversation evolves. New reviews and updates shift the consensus in real time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Here -->
+  <section class="section">
+    <h2 class="headline">Start Here</h2>
+    <div class="start-grid">
+      <a class="card start-card" href="best-mens-trail-running-shoes.v4.html">
+        <img class="img" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1600&auto=format&fit=crop" alt="Trail running shoes on rocky path" />
+        <div style="margin-top:8px; font-weight:800;">Best Men’s Trail Running Shoes</div>
+        <div class="meta">Grip tested, miles proven.</div>
+      </a>
+      <a class="card start-card" href="#">
+        <img class="img" src="https://images.unsplash.com/photo-1542060748-10c28b62716a?q=80&w=1600&auto=format&fit=crop" alt="Hiking rain jacket in the wild" />
+        <div style="margin-top:8px; font-weight:800;">Best Hiking Rain Jackets</div>
+        <div class="meta">Stay dry without overheating.</div>
+      </a>
+      <a class="card start-card" href="#">
+        <img class="img" src="https://images.unsplash.com/photo-1503342217505-b0a15cf70489?q=80&w=1600&auto=format&fit=crop" alt="Trail runner with headlamp at dusk" />
+        <div style="margin-top:8px; font-weight:800;">Best Backpacking Headlamps</div>
+        <div class="meta">Brightness vs. weight, solved.</div>
+      </a>
+      <a class="card start-card" href="#">
+        <img class="img" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1600&auto=format&fit=crop" alt="Dumbbells in a gym" />
+        <div style="margin-top:8px; font-weight:800;">Best Adjustable Dumbbells</div>
+        <div class="meta">Home-gym workhorses that last.</div>
+      </a>
+      <a class="card start-card" href="#">
+        <img class="img" src="https://images.unsplash.com/photo-1498049794561-7780e7231661?q=80&w=1600&auto=format&fit=crop" alt="Modern tech desk" />
+        <div style="margin-top:8px; font-weight:800;">Best Noise-Cancelling Headphones</div>
+        <div class="meta">Focus on the work, not the noise.</div>
+      </a>
+      <a class="card start-card" href="#">
+        <img class="img" src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1600&auto=format&fit=crop" alt="Travel backpack on an airport floor" />
+        <div style="margin-top:8px; font-weight:800;">Best Carry-On Travel Backpacks</div>
+        <div class="meta">Fit, pockets, and comfort, sorted.</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Our Method -->
+  <section class="section" id="method">
+    <h2 class="headline">Our Method</h2>
+    <div class="method">
+      <div class="card">
+        <span class="badge">BestPick</span>
+        <h3>One honest score</h3>
+        <p>Weighted average of quality sources — 40% Expert • 25% YouTube • 25% Reddit • 10% Social — to reflect overall performance.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Consensus</span>
+        <h3>How much people agree</h3>
+        <p>Measures alignment between sources (not just the score itself). Higher consensus = broad agreement.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Signal</span>
+        <h3>Strength of evidence</h3>
+        <p>Shows how robust and fresh the data is — the number of sources, recency, and diversity across channels.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Phavai -->
+  <section class="section" id="about">
+    <h2 class="headline">About Phavai</h2>
+    <div class="card">
+      <p style="margin:0; font-size:15px; line-height:1.6;">
+        Phavai was built to make sense of the noise. From expert testers to everyday parents, we aggregate every review,
+        rating, and Reddit thread to reveal <strong>what the internet really thinks</strong> — one honest score at a time.
+        We show our sources and keep scores fresh as new voices join the conversation.
+      </p>
+      <div style="margin-top:10px;">
+        <a href="#method" class="btn-outline">Learn how Phavai works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="section footer-grid">
+      <div>© 2025 Phavai • <em>Averaging what the internet really thinks.</em></div>
+      <div class="foot-links">
+        <a href="#about">About</a>
+        <a href="#method">Methodology</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+'@ | Set-Content -NoNewline -Path .\index.html
