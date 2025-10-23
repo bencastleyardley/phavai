@@ -1,18 +1,99 @@
 {
   "slug": "best-mens-trail-running-shoes",
   "title": "Best Men's Trail Running Shoes",
-  "description": "Phavai’s data-backed picks for the best men's trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.",
-  "ogImage": "/photos/hoka-speed-goat-6.webp",
+  "description": "Phavaiâ€™s data-backed picks for the best men's trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.",
+  "ogImage": "/photos/hoka-speedgoat-6.webp",
   "year": "2025",
   "items": [
-    { "rank": 1, "name": "HOKA Speedgoat 6", "image": "/photos/hoka-speed-goat-6.webp", "score": 9.4, "agree": "84%", "signal": 5,
-      "specs": {"weight":"~10.3 oz","drop":"6 mm","lugs":"4–5 mm","stack":"38/32 mm","width":"Medium (+ Wide)","surface":"Technical","bestFor":"Ultras • rough terrain"},
-      "price": {"avg":156, "low":154, "now":155}
+    {
+      "rank": 1,
+      "name": "HOKA Speedgoat 6",
+      "image": "/photos/hoka-speedgoat-6.webp",
+      "score": 9.4,
+      "agree": "84%",
+      "signal": 5,
+      "specs": {
+        "weight": "~10.3 oz",
+        "drop": "6 mm",
+        "lugs": "4â€“5 mm",
+        "stack": "38/32 mm",
+        "width": "Medium (+ Wide)",
+        "surface": "Technical",
+        "bestFor": "Ultras â€¢ rough terrain"
+      },
+      "price": { "avg": 156, "low": 154, "now": 155 }
     },
-    { "rank": 2, "name": "La Sportiva Prodigio Pro", "image": "/photos/la-sportiva-prodigio-pro.webp", "score": 9.0, "agree": "80%", "signal": 4,
-      "specs": {"weight":"~10.6 oz","drop":"6 mm","lugs":"4.5–5 mm","stack":"36/30 mm","width":"Narrow–Medium","surface":"Technical/Mountain","bestFor":"Technical ultras • mountain trails"},
-      "price": {"avg":189, "low":179, "now":185}
+    {
+      "rank": 2,
+      "name": "La Sportiva Prodigio Pro",
+      "image": "/photos/la-sportiva-prodigio-pro.webp",
+      "score": 9.0,
+      "agree": "80%",
+      "signal": 4,
+      "specs": {
+        "weight": "~10.6 oz",
+        "drop": "6 mm",
+        "lugs": "4.5â€“5 mm",
+        "stack": "36/30 mm",
+        "width": "Narrowâ€“Medium",
+        "surface": "Technical/Mountain",
+        "bestFor": "Technical ultras â€¢ mountain trails"
+      },
+      "price": { "avg": 189, "low": 179, "now": 185 }
+    },
+    {
+      "rank": 3,
+      "name": "Saucony Peregrine 15",
+      "image": "/photos/saucony-peregrine-15.webp",
+      "score": 8.8,
+      "agree": "79%",
+      "signal": 4,
+      "specs": {
+        "weight": "~10.1 oz",
+        "drop": "4 mm",
+        "lugs": "5 mm",
+        "stack": "28/24 mm",
+        "width": "Narrowâ€“Medium",
+        "surface": "Technical",
+        "bestFor": "One-shoe quiver â€¢ value"
+      },
+      "price": { "avg": 129, "low": 119, "now": 125 }
+    },
+    {
+      "rank": 4,
+      "name": "Brooks Catamount 4",
+      "image": "/photos/brooks-catamount-4.webp",
+      "score": 8.7,
+      "agree": "76%",
+      "signal": 4,
+      "specs": {
+        "weight": "~9.6 oz",
+        "drop": "6 mm",
+        "lugs": "4 mm",
+        "stack": "32/26 mm",
+        "width": "Medium",
+        "surface": "Technical",
+        "bestFor": "Tempo trail â€¢ race-leaning"
+      },
+      "price": { "avg": 169, "low": 159, "now": 165 }
+    },
+    {
+      "rank": 5,
+      "name": "The North Face Vectiv Enduris 4",
+      "image": "/photos/north-face-vectiv-enduris-4.webp",
+      "score": 8.5,
+      "agree": "75%",
+      "signal": 4,
+      "specs": {
+        "weight": "~10.5 oz",
+        "drop": "6 mm",
+        "lugs": "4â€“5 mm",
+        "stack": "37/31 mm",
+        "width": "Mediumâ€“Roomy",
+        "surface": "All-day trainer",
+        "bestFor": "Comfort miles â€¢ daily long runs"
+      },
+      "price": { "avg": 149, "low": 139, "now": 145 }
     }
-    /* add the other 3 the same way */
   ]
 }
