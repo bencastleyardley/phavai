@@ -2,87 +2,37 @@
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot; /&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;
 &lt;title&gt;Best Men&apos;s Trail Running Shoes | Phavai&lt;/title&gt;
-&lt;meta name=&quot;description&quot; content=&quot;Phavai&rdquo;&trade;s data-backed picks for the best men&apos;s trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.&quot; /&gt;
-&lt;link rel=&quot;icon&quot; href=&quot;/favicon.ico&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Our data-backed picks for every trail &mdash; from race-day rockets to all-day tanks.&quot; /&gt;
 &lt;style&gt;
 :root {
---green:#10b981;
---gray:#6b7280;
---bg:#f9fafb;
---white:#fff;
---border:#e5e7eb;
---shadow:0 2px 6px rgba(0,0,0,.05);
+--green:#16a34a; --gray:#6b7280; --bg:#f9fafb; --border:#e5e7eb; --red:#ef4444;
 }
-body {
-margin:0;
-font-family:Inter,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Arial,sans-serif;
-background:var(--bg);
-color:#111827;
-line-height:1.6;
-}
-.container {
-max-width:1080px;
-margin:0 auto;
-padding:32px 16px;
-}
-h1 { font-size:2rem; margin-bottom:1rem; }
-p.lede { font-weight:500; color:var(--gray); margin-bottom:2rem; }
-.card {
-background:var(--white);
-border:1px solid var(--border);
-border-radius:16px;
-box-shadow:var(--shadow);
-padding:24px;
-margin-bottom:24px;
-}
-.card img {
-width:100%;
-max-width:480px;
-border-radius:12px;
-display:block;
-margin:12px auto;
-}
-.header {
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-.score {
-background:var(--green);
-color:#fff;
-border-radius:999px;
-font-weight:700;
-padding:4px 10px;
-font-size:.9rem;
-}
-.specs {
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
-gap:4px 16px;
-margin-top:8px;
-font-size:.9rem;
-}
-.specs div b { display:block; color:#111827; }
-.price {
-font-size:.9rem;
-color:var(--gray);
-margin-top:4px;
-}
-footer {
-text-align:center;
-padding:40px 0;
-font-size:.9rem;
-color:var(--gray);
-}
+body{font-family:Inter,system-ui,Roboto,sans-serif;background:var(--bg);color:#111827;margin:0;}
+.container{max-width:1080px;margin:auto;padding:24px;}
+h1{font-size:1.9rem;margin-bottom:.5rem;}
+.lede{color:var(--gray);font-size:1rem;margin-bottom:2rem;}
+.card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:24px;box-shadow:0 2px 6px rgba(0,0,0,.05);}
+.card img{width:100%;max-width:480px;margin:0 auto;display:block;border-radius:12px;}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;}
+.score{background:var(--green);color:#fff;border-radius:999px;padding:3px 10px;font-weight:700;}
+.price,.specs{font-size:.9rem;color:var(--gray);}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 16px;margin-top:8px;}
+.specs b{color:#111827;display:block;}
+.section-title{font-weight:600;margin-top:24px;margin-bottom:8px;}
+.bar{background:var(--border);height:8px;border-radius:4px;overflow:hidden;margin:4px 0;}
+.bar i{display:block;height:100%;background:var(--green);}
+.sentiment{display:flex;align-items:center;gap:8px;font-size:.9rem;}
+.pill{background:var(--border);border-radius:999px;padding:4px 10px;font-size:.85rem;}
+footer{text-align:center;font-size:.85rem;color:var(--gray);margin-top:40px;}
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&quot;container&quot;&gt;
-&lt;a href=&quot;/&quot; style=&quot;color:var(--green);text-decoration:none;font-size:.85rem;&quot;&gt;Phavai&lt;/a&gt;
+&lt;a href=&quot;/&quot; style=&quot;text-decoration:none;color:var(--green);font-size:.85rem;&quot;&gt;Phavai &rsaquo; Trail Running&lt;/a&gt;
 &lt;h1&gt;Best Men&apos;s Trail Running Shoes&lt;/h1&gt;
-&lt;p class=&quot;lede&quot;&gt;Phavai&rdquo;&trade;s data-backed picks for the best men&apos;s trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.&lt;/p&gt;
+&lt;p class=&quot;lede&quot;&gt;Our data-backed picks for every trail &mdash; from race-day rockets to all-day tanks.&lt;/p&gt;
 
 &lt;div class=&quot;card&quot;&gt;
 &lt;div class=&quot;header&quot;&gt;
@@ -90,106 +40,65 @@ color:var(--gray);
 &lt;span class=&quot;score&quot;&gt;9.4&lt;/span&gt;
 &lt;/div&gt;
 &lt;img src=&quot;/photos/hoka-speedgoat-6.webp&quot; alt=&quot;HOKA Speedgoat 6&quot;&gt;
-&lt;div class=&quot;price&quot;&gt;
-&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
-Avg $156 &bull; Low $154 &bull; Now $155
-&lt;/div&gt;
+&lt;div class=&quot;price&quot;&gt;&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;Avg $156 &bull; Low $154 &bull; Now $155&lt;/div&gt;
 &lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.3 oz&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4&rdquo;&ldquo;5 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 38/32 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Medium (+ Wide)&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Ultras &bull; rough terrain&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt;~10.3 oz&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt;6 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt;4&ndash;5 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt;38/32 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Width&lt;/b&gt;Medium (+ Wide)&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt;Technical&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt;Ultras &bull; rough terrain&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section-title&quot;&gt;Sources &rarr; scores &amp; summaries&lt;/div&gt;
+
+&lt;div class=&quot;sentiment&quot;&gt;
+&lt;span&gt;&lt;b&gt;Expert&lt;/b&gt;&lt;/span&gt;
+&lt;div class=&quot;bar&quot; style=&quot;width:150px&quot;&gt;&lt;i style=&quot;width:89%&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;span&gt;Grip and stability for long-haul comfort.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sentiment&quot;&gt;
+&lt;span&gt;&lt;b&gt;YouTube&lt;/b&gt;&lt;/span&gt;
+&lt;div class=&quot;bar&quot; style=&quot;width:150px&quot;&gt;&lt;i style=&quot;width:92%&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;span&gt;Praised for wet-grip traction by creators.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;sentiment&quot;&gt;
+&lt;span&gt;&lt;b&gt;Reddit&lt;/b&gt;&lt;/span&gt;
+&lt;div class=&quot;bar&quot; style=&quot;width:150px&quot;&gt;&lt;i style=&quot;width:87%&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;span&gt;Users note warmer upper, stiffer feel than v5.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;section-title&quot;&gt;Why we recommend this&lt;/div&gt;
+&lt;ul style=&quot;margin-top:0;padding-left:20px;font-size:.9rem;color:#111827;&quot;&gt;
+
+&lt;li&gt;Neutral runners, medium&ndash;wide feet.&lt;/li&gt;
+
+&lt;li&gt;Stable platform for ultra mileage.&lt;/li&gt;
+
+&lt;li&gt;Some find it stiffer than SG5.&lt;/li&gt;
+
+&lt;li&gt;True to size; +&half; if wide.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;div class=&quot;section-title&quot;&gt;Social Sentiment (last 90 days)&lt;/div&gt;
+&lt;div class=&quot;bar&quot;&gt;&lt;i style=&quot;width:73%;&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class=&quot;small muted&quot;&gt;73% positive &bull; 18% neutral &bull; 9% negative &mdash; Loved&lt;/div&gt;
+&lt;div style=&quot;margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;&quot;&gt;
+
+&lt;span class=&quot;pill&quot;&gt;&ldquo;Grip monster&rdquo;&lt;/span&gt;
+
+&lt;span class=&quot;pill&quot;&gt;&ldquo;Stable on descents&rdquo;&lt;/span&gt;
+
+&lt;span class=&quot;pill&quot;&gt;&ldquo;Runs warm&rdquo;&lt;/span&gt;
+
+&lt;span class=&quot;pill&quot;&gt;&ldquo;Stiffer than v5&rdquo;&lt;/span&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;card&quot;&gt;
-&lt;div class=&quot;header&quot;&gt;
-&lt;h2&gt;La Sportiva Prodigio Pro&lt;/h2&gt;
-&lt;span class=&quot;score&quot;&gt;9.0&lt;/span&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/photos/la-sportiva-prodigio-pro.webp&quot; alt=&quot;La Sportiva Prodigio Pro&quot;&gt;
-&lt;div class=&quot;price&quot;&gt;
-&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
-Avg $189 &bull; Low $179 &bull; Now $185
-&lt;/div&gt;
-&lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.6 oz&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4.5&rdquo;&ldquo;5 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 36/30 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Narrow&rdquo;&ldquo;Medium&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical/Mountain&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Technical ultras &bull; mountain trails&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-&lt;div class=&quot;header&quot;&gt;
-&lt;h2&gt;Saucony Peregrine 15&lt;/h2&gt;
-&lt;span class=&quot;score&quot;&gt;8.8&lt;/span&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/photos/saucony-peregrine-15.webp&quot; alt=&quot;Saucony Peregrine 15&quot;&gt;
-&lt;div class=&quot;price&quot;&gt;
-&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
-Avg $129 &bull; Low $119 &bull; Now $125
-&lt;/div&gt;
-&lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.1 oz&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 4 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 5 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 28/24 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Narrow&rdquo;&ldquo;Medium&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; One-shoe quiver &bull; value&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-&lt;div class=&quot;header&quot;&gt;
-&lt;h2&gt;Brooks Catamount 4&lt;/h2&gt;
-&lt;span class=&quot;score&quot;&gt;8.7&lt;/span&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/photos/brooks-catamount-4.webp&quot; alt=&quot;Brooks Catamount 4&quot;&gt;
-&lt;div class=&quot;price&quot;&gt;
-&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
-Avg $169 &bull; Low $159 &bull; Now $165
-&lt;/div&gt;
-&lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~9.6 oz&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 32/26 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Medium&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Tempo trail &bull; race-leaning&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;card&quot;&gt;
-&lt;div class=&quot;header&quot;&gt;
-&lt;h2&gt;The North Face Vectiv Enduris 4&lt;/h2&gt;
-&lt;span class=&quot;score&quot;&gt;8.5&lt;/span&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/photos/north-face-vectiv-enduris-4.webp&quot; alt=&quot;The North Face Vectiv Enduris 4&quot;&gt;
-&lt;div class=&quot;price&quot;&gt;
-&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
-Avg $149 &bull; Low $139 &bull; Now $145
-&lt;/div&gt;
-&lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.5 oz&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4&rdquo;&ldquo;5 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 37/31 mm&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Medium&rdquo;&ldquo;Roomy&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; All-day trainer&lt;/div&gt;
-&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Comfort miles &bull; daily long runs&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;footer&gt;&copy; 2025 Phavai &middot; Data-backed product insights for runners&lt;/footer&gt;
+&lt;footer&gt;&copy; 2025 Phavai &middot; Trusted data for runners&lt;/footer&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;

@@ -2,112 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title><%= title %> | Phavai</title>
   <meta name="description" content="<%= description %>" />
-  <link rel="icon" href="/favicon.ico" />
   <style>
     :root {
-      --green:#10b981;
-      --gray:#6b7280;
-      --bg:#f9fafb;
-      --white:#fff;
-      --border:#e5e7eb;
-      --shadow:0 2px 6px rgba(0,0,0,.05);
+      --green:#16a34a; --gray:#6b7280; --bg:#f9fafb; --border:#e5e7eb; --red:#ef4444;
     }
-    body {
-      margin:0;
-      font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-      background:var(--bg);
-      color:#111827;
-      line-height:1.6;
-    }
-    .container {
-      max-width:1080px;
-      margin:0 auto;
-      padding:32px 16px;
-    }
-    h1 { font-size:2rem; margin-bottom:1rem; }
-    p.lede { font-weight:500; color:var(--gray); margin-bottom:2rem; }
-    .card {
-      background:var(--white);
-      border:1px solid var(--border);
-      border-radius:16px;
-      box-shadow:var(--shadow);
-      padding:24px;
-      margin-bottom:24px;
-    }
-    .card img {
-      width:100%;
-      max-width:480px;
-      border-radius:12px;
-      display:block;
-      margin:12px auto;
-    }
-    .header {
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-    }
-    .score {
-      background:var(--green);
-      color:#fff;
-      border-radius:999px;
-      font-weight:700;
-      padding:4px 10px;
-      font-size:.9rem;
-    }
-    .specs {
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
-      gap:4px 16px;
-      margin-top:8px;
-      font-size:.9rem;
-    }
-    .specs div b { display:block; color:#111827; }
-    .price {
-      font-size:.9rem;
-      color:var(--gray);
-      margin-top:4px;
-    }
-    footer {
-      text-align:center;
-      padding:40px 0;
-      font-size:.9rem;
-      color:var(--gray);
-    }
+    body{font-family:Inter,system-ui,Roboto,sans-serif;background:var(--bg);color:#111827;margin:0;}
+    .container{max-width:1080px;margin:auto;padding:24px;}
+    h1{font-size:1.9rem;margin-bottom:.5rem;}
+    .lede{color:var(--gray);font-size:1rem;margin-bottom:2rem;}
+    .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:24px;box-shadow:0 2px 6px rgba(0,0,0,.05);}
+    .card img{width:100%;max-width:480px;margin:0 auto;display:block;border-radius:12px;}
+    .header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;}
+    .score{background:var(--green);color:#fff;border-radius:999px;padding:3px 10px;font-weight:700;}
+    .price,.specs{font-size:.9rem;color:var(--gray);}
+    .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 16px;margin-top:8px;}
+    .specs b{color:#111827;display:block;}
+    .section-title{font-weight:600;margin-top:24px;margin-bottom:8px;}
+    .bar{background:var(--border);height:8px;border-radius:4px;overflow:hidden;margin:4px 0;}
+    .bar i{display:block;height:100%;background:var(--green);}
+    .sentiment{display:flex;align-items:center;gap:8px;font-size:.9rem;}
+    .pill{background:var(--border);border-radius:999px;padding:4px 10px;font-size:.85rem;}
+    footer{text-align:center;font-size:.85rem;color:var(--gray);margin-top:40px;}
   </style>
 </head>
 <body>
   <div class="container">
-    <a href="/" style="color:var(--green);text-decoration:none;font-size:.85rem;">Phavai</a>
+    <a href="/" style="text-decoration:none;color:var(--green);font-size:.85rem;">Phavai › Trail Running</a>
     <h1><%= title %></h1>
     <p class="lede"><%= description %></p>
 
-    <% items.forEach(function(item){ %>
+    <% items.forEach(item => { %>
       <div class="card">
         <div class="header">
           <h2><%= item.name %></h2>
           <span class="score"><%= item.score.toFixed(1) %></span>
         </div>
         <img src="<%= item.image %>" alt="<%= item.name %>">
-        <div class="price">
-          <b>Price history (30 days)</b><br>
-          Avg $<%= item.price.avg %> • Low $<%= item.price.low %> • Now $<%= item.price.now %>
-        </div>
+        <div class="price"><b>Price history (30 days)</b><br>Avg $<%= item.price.avg %> • Low $<%= item.price.low %> • Now $<%= item.price.now %></div>
+
         <div class="specs">
-          <div><b>Weight</b> <%= item.specs.weight %></div>
-          <div><b>Drop</b> <%= item.specs.drop %></div>
-          <div><b>Lugs</b> <%= item.specs.lugs %></div>
-          <div><b>Stack</b> <%= item.specs.stack %></div>
-          <div><b>Width</b> <%= item.specs.width %></div>
-          <div><b>Surface</b> <%= item.specs.surface %></div>
-          <div><b>Best for</b> <%= item.specs.bestFor %></div>
+          <div><b>Weight</b><%= item.specs.weight %></div>
+          <div><b>Drop</b><%= item.specs.drop %></div>
+          <div><b>Lugs</b><%= item.specs.lugs %></div>
+          <div><b>Stack</b><%= item.specs.stack %></div>
+          <div><b>Width</b><%= item.specs.width %></div>
+          <div><b>Surface</b><%= item.specs.surface %></div>
+          <div><b>Best for</b><%= item.specs.bestFor %></div>
+        </div>
+
+        <div class="section-title">Sources → scores & summaries</div>
+        <% item.scores.forEach(s => { %>
+          <div class="sentiment">
+            <span><b><%= s.source %></b></span>
+            <div class="bar" style="width:150px"><i style="width:<%= s.value*10 %>%"></i></div>
+            <span><%= s.comment %></span>
+          </div>
+        <% }) %>
+
+        <div class="section-title">Why we recommend this</div>
+        <ul style="margin-top:0;padding-left:20px;font-size:.9rem;color:#111827;">
+          <% item.reasons.forEach(r => { %>
+            <li><%= r %></li>
+          <% }) %>
+        </ul>
+
+        <div class="section-title">Social Sentiment (last 90 days)</div>
+        <div class="bar"><i style="width:<%= item.social.positive %>%;"></i></div>
+        <div class="small muted"><%= item.social.summary %></div>
+        <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;">
+          <% item.social.pills.forEach(p => { %>
+            <span class="pill"><%= p %></span>
+          <% }) %>
         </div>
       </div>
     <% }) %>
 
-    <footer>© <%= year %> Phavai · Data-backed product insights for runners</footer>
+    <footer>© <%= year %> Phavai · Trusted data for runners</footer>
   </div>
 </body>
 </html>
