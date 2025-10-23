@@ -1,0 +1,18 @@
+﻿{
+  "slug": "best-mens-trail-running-shoes",
+  "title": "Best Men's Trail Running Shoes",
+  "description": "Phavai’s data-backed picks for the best men's trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.",
+  "ogImage": "/photos/hoka-speed-goat-6.webp",
+  "year": "2025",
+  "items": [
+    { "rank": 1, "name": "HOKA Speedgoat 6", "image": "/photos/hoka-speed-goat-6.webp", "score": 9.4, "agree": "84%", "signal": 5,
+      "specs": {"weight":"~10.3 oz","drop":"6 mm","lugs":"4–5 mm","stack":"38/32 mm","width":"Medium (+ Wide)","surface":"Technical","bestFor":"Ultras • rough terrain"},
+      "price": {"avg":156, "low":154, "now":155}
+    },
+    { "rank": 2, "name": "La Sportiva Prodigio Pro", "image": "/photos/la-sportiva-prodigio-pro.webp", "score": 9.0, "agree": "80%", "signal": 4,
+      "specs": {"weight":"~10.6 oz","drop":"6 mm","lugs":"4.5–5 mm","stack":"36/30 mm","width":"Narrow–Medium","surface":"Technical/Mountain","bestFor":"Technical ultras • mountain trails"},
+      "price": {"avg":189, "low":179, "now":185}
+    }
+    /* add the other 3 the same way */
+  ]
+}
