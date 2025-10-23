@@ -1,0 +1,28 @@
+{
+  "name": "phavai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.mjs",
+    "normalize": "node scripts/normalize-html.mjs best-mens-trail-running-shoes.html",
+    "deploy": "npm run build && npm run normalize && vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencastleyardley/phavai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencastleyardley/phavai/issues"
+  },
+  "homepage": "https://github.com/bencastleyardley/phavai#readme",
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "he": "^1.2.0"
+  }
+}
