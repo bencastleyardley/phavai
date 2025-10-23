@@ -1,3 +1,6 @@
 ﻿User-agent: *
 Allow: /
 Sitemap: https://www.phavai.com/sitemap.xml
+# Hide reference pages
+User-agent: *
+Disallow: /reference/
