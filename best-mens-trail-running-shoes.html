@@ -2,201 +2,194 @@
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot; /&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;Best Men&apos;s Trail Running Shoes | Phavai&lt;/title&gt;
-&lt;meta name=&quot;description&quot; content=&quot;Phavai&rdquo;&trade;s data-backed picks for the best men&apos;s trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.&quot;&gt;
-&lt;link rel=&quot;canonical&quot; href=&quot;https://www.phavai.com/best-mens-trail-running-shoes.html&quot;&gt;
-&lt;meta property=&quot;og:title&quot; content=&quot;Best Men&apos;s Trail Running Shoes | Phavai&quot;&gt;
-&lt;meta property=&quot;og:description&quot; content=&quot;Phavai&rdquo;&trade;s data-backed picks for the best men&apos;s trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.&quot;&gt;
-&lt;meta property=&quot;og:image&quot; content=&quot;https://www.phavai.com/photos/hoka-speedgoat-6.webp&quot;&gt;
-&lt;meta property=&quot;og:type&quot; content=&quot;website&quot;&gt;
-&lt;link rel=&quot;icon&quot; href=&quot;/favicon.ico&quot;&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Phavai&rdquo;&trade;s data-backed picks for the best men&apos;s trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.&quot; /&gt;
+&lt;link rel=&quot;icon&quot; href=&quot;/favicon.ico&quot; /&gt;
 &lt;style&gt;
-/* keep your existing CSS here; omitted for brevity */
-body{font-family:Inter,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Arial,sans-serif}
-.links a + a::before{content:&quot;\2022&quot;; margin:0 6px; color:#cbd5e1}
+:root {
+--green:#10b981;
+--gray:#6b7280;
+--bg:#f9fafb;
+--white:#fff;
+--border:#e5e7eb;
+--shadow:0 2px 6px rgba(0,0,0,.05);
+}
+body {
+margin:0;
+font-family:Inter,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Arial,sans-serif;
+background:var(--bg);
+color:#111827;
+line-height:1.6;
+}
+.container {
+max-width:1080px;
+margin:0 auto;
+padding:32px 16px;
+}
+h1 { font-size:2rem; margin-bottom:1rem; }
+p.lede { font-weight:500; color:var(--gray); margin-bottom:2rem; }
+.card {
+background:var(--white);
+border:1px solid var(--border);
+border-radius:16px;
+box-shadow:var(--shadow);
+padding:24px;
+margin-bottom:24px;
+}
+.card img {
+width:100%;
+max-width:480px;
+border-radius:12px;
+display:block;
+margin:12px auto;
+}
+.header {
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.score {
+background:var(--green);
+color:#fff;
+border-radius:999px;
+font-weight:700;
+padding:4px 10px;
+font-size:.9rem;
+}
+.specs {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+gap:4px 16px;
+margin-top:8px;
+font-size:.9rem;
+}
+.specs div b { display:block; color:#111827; }
+.price {
+font-size:.9rem;
+color:var(--gray);
+margin-top:4px;
+}
+footer {
+text-align:center;
+padding:40px 0;
+font-size:.9rem;
+color:var(--gray);
+}
 &lt;/style&gt;
-&lt;!-- Plausible (optional, lightweight analytics) --&gt;
-&lt;!-- &lt;script defer data-domain=&quot;phavai.com&quot; src=&quot;https://plausible.io/js/script.js&quot;&gt;&lt;/script&gt; --&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;header class=&quot;site-header&quot;&gt;
-&lt;nav&gt;
-&lt;a href=&quot;/&quot;&gt;Phavai&lt;/a&gt;
-&lt;a href=&quot;/best-mens-trail-running-shoes.html&quot;&gt;Trail Shoes&lt;/a&gt;
-&lt;!-- add other categories --&gt;
-&lt;/nav&gt;
-&lt;/header&gt;
-&lt;main class=&quot;container&quot;&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;a href=&quot;/&quot; style=&quot;color:var(--green);text-decoration:none;font-size:.85rem;&quot;&gt;Phavai&lt;/a&gt;
 &lt;h1&gt;Best Men&apos;s Trail Running Shoes&lt;/h1&gt;
-&lt;p class=&quot;lede&quot;&gt;&lt;b&gt;Our data-backed picks for every trail &mdash; from race-day rockets to all-day tanks.&lt;/b&gt;&lt;/p&gt;
+&lt;p class=&quot;lede&quot;&gt;Phavai&rdquo;&trade;s data-backed picks for the best men&apos;s trail running shoes. We combine experts, YouTube, Reddit, and social sentiment.&lt;/p&gt;
 
-&lt;!-- Your existing card layout goes here (image, price box, specs, sources, why we recommend, social sentiment).
-Use EJS to inject item.* values --&gt;
-&lt;section class=&quot;card&quot;&gt;
-&lt;div class=&quot;card-head&quot;&gt;
-&lt;span class=&quot;badge&quot;&gt;9.4&lt;/span&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;
 &lt;h2&gt;HOKA Speedgoat 6&lt;/h2&gt;
+&lt;span class=&quot;score&quot;&gt;9.4&lt;/span&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/photos/hoka-speedgoat-6.webp&quot; alt=&quot;HOKA Speedgoat 6&quot; width=&quot;1120&quot; height=&quot;630&quot; loading=&quot;lazy&quot; /&gt;
-&lt;div class=&quot;grid&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Price history (30 days)&lt;/div&gt;
-&lt;div class=&quot;small&quot;&gt;Avg &lt;b&gt;$156&lt;/b&gt; &bull; Low &lt;b&gt;$154&lt;/b&gt; &bull; Now &lt;b&gt;$155&lt;/b&gt;&lt;/div&gt;
+&lt;img src=&quot;/photos/hoka-speedgoat-6.webp&quot; alt=&quot;HOKA Speedgoat 6&quot;&gt;
+&lt;div class=&quot;price&quot;&gt;
+&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
+Avg $156 &bull; Low $154 &bull; Now $155
 &lt;/div&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Specs&lt;/div&gt;
 &lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;Weight &lt;b&gt;~10.3 oz&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Drop &lt;b&gt;6 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Lugs &lt;b&gt;4&rdquo;&ldquo;5 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Stack &lt;b&gt;38/32 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Width &lt;b&gt;Medium (+ Wide)&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Surface &lt;b&gt;Technical&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Best for &lt;b&gt;Ultras &bull; rough terrain&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.3 oz&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4&rdquo;&ldquo;5 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 38/32 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Medium (+ Wide)&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Ultras &bull; rough terrain&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- keep your sources, why we recommend, social sentiment blocks --&gt;
-&lt;/section&gt;
 
-&lt;!-- Your existing card layout goes here (image, price box, specs, sources, why we recommend, social sentiment).
-Use EJS to inject item.* values --&gt;
-&lt;section class=&quot;card&quot;&gt;
-&lt;div class=&quot;card-head&quot;&gt;
-&lt;span class=&quot;badge&quot;&gt;9&lt;/span&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;
 &lt;h2&gt;La Sportiva Prodigio Pro&lt;/h2&gt;
+&lt;span class=&quot;score&quot;&gt;9.0&lt;/span&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/photos/la-sportiva-prodigio-pro.webp&quot; alt=&quot;La Sportiva Prodigio Pro&quot; width=&quot;1120&quot; height=&quot;630&quot; loading=&quot;lazy&quot; /&gt;
-&lt;div class=&quot;grid&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Price history (30 days)&lt;/div&gt;
-&lt;div class=&quot;small&quot;&gt;Avg &lt;b&gt;$189&lt;/b&gt; &bull; Low &lt;b&gt;$179&lt;/b&gt; &bull; Now &lt;b&gt;$185&lt;/b&gt;&lt;/div&gt;
+&lt;img src=&quot;/photos/la-sportiva-prodigio-pro.webp&quot; alt=&quot;La Sportiva Prodigio Pro&quot;&gt;
+&lt;div class=&quot;price&quot;&gt;
+&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
+Avg $189 &bull; Low $179 &bull; Now $185
 &lt;/div&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Specs&lt;/div&gt;
 &lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;Weight &lt;b&gt;~10.6 oz&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Drop &lt;b&gt;6 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Lugs &lt;b&gt;4.5&rdquo;&ldquo;5 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Stack &lt;b&gt;36/30 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Width &lt;b&gt;Narrow&rdquo;&ldquo;Medium&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Surface &lt;b&gt;Technical/Mountain&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Best for &lt;b&gt;Technical ultras &bull; mountain trails&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.6 oz&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4.5&rdquo;&ldquo;5 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 36/30 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Narrow&rdquo;&ldquo;Medium&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical/Mountain&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Technical ultras &bull; mountain trails&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- keep your sources, why we recommend, social sentiment blocks --&gt;
-&lt;/section&gt;
 
-&lt;!-- Your existing card layout goes here (image, price box, specs, sources, why we recommend, social sentiment).
-Use EJS to inject item.* values --&gt;
-&lt;section class=&quot;card&quot;&gt;
-&lt;div class=&quot;card-head&quot;&gt;
-&lt;span class=&quot;badge&quot;&gt;8.8&lt;/span&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;
 &lt;h2&gt;Saucony Peregrine 15&lt;/h2&gt;
+&lt;span class=&quot;score&quot;&gt;8.8&lt;/span&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/photos/saucony-peregrine-15.webp&quot; alt=&quot;Saucony Peregrine 15&quot; width=&quot;1120&quot; height=&quot;630&quot; loading=&quot;lazy&quot; /&gt;
-&lt;div class=&quot;grid&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Price history (30 days)&lt;/div&gt;
-&lt;div class=&quot;small&quot;&gt;Avg &lt;b&gt;$129&lt;/b&gt; &bull; Low &lt;b&gt;$119&lt;/b&gt; &bull; Now &lt;b&gt;$125&lt;/b&gt;&lt;/div&gt;
+&lt;img src=&quot;/photos/saucony-peregrine-15.webp&quot; alt=&quot;Saucony Peregrine 15&quot;&gt;
+&lt;div class=&quot;price&quot;&gt;
+&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
+Avg $129 &bull; Low $119 &bull; Now $125
 &lt;/div&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Specs&lt;/div&gt;
 &lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;Weight &lt;b&gt;~10.1 oz&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Drop &lt;b&gt;4 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Lugs &lt;b&gt;5 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Stack &lt;b&gt;28/24 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Width &lt;b&gt;Narrow&rdquo;&ldquo;Medium&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Surface &lt;b&gt;Technical&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Best for &lt;b&gt;One-shoe quiver &bull; value&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.1 oz&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 4 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 5 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 28/24 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Narrow&rdquo;&ldquo;Medium&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; One-shoe quiver &bull; value&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- keep your sources, why we recommend, social sentiment blocks --&gt;
-&lt;/section&gt;
 
-&lt;!-- Your existing card layout goes here (image, price box, specs, sources, why we recommend, social sentiment).
-Use EJS to inject item.* values --&gt;
-&lt;section class=&quot;card&quot;&gt;
-&lt;div class=&quot;card-head&quot;&gt;
-&lt;span class=&quot;badge&quot;&gt;8.7&lt;/span&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;
 &lt;h2&gt;Brooks Catamount 4&lt;/h2&gt;
+&lt;span class=&quot;score&quot;&gt;8.7&lt;/span&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/photos/brooks-catamount-4.webp&quot; alt=&quot;Brooks Catamount 4&quot; width=&quot;1120&quot; height=&quot;630&quot; loading=&quot;lazy&quot; /&gt;
-&lt;div class=&quot;grid&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Price history (30 days)&lt;/div&gt;
-&lt;div class=&quot;small&quot;&gt;Avg &lt;b&gt;$169&lt;/b&gt; &bull; Low &lt;b&gt;$159&lt;/b&gt; &bull; Now &lt;b&gt;$165&lt;/b&gt;&lt;/div&gt;
+&lt;img src=&quot;/photos/brooks-catamount-4.webp&quot; alt=&quot;Brooks Catamount 4&quot;&gt;
+&lt;div class=&quot;price&quot;&gt;
+&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
+Avg $169 &bull; Low $159 &bull; Now $165
 &lt;/div&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Specs&lt;/div&gt;
 &lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;Weight &lt;b&gt;~9.6 oz&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Drop &lt;b&gt;6 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Lugs &lt;b&gt;4 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Stack &lt;b&gt;32/26 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Width &lt;b&gt;Medium&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Surface &lt;b&gt;Technical&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Best for &lt;b&gt;Tempo trail &bull; race-leaning&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~9.6 oz&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 32/26 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Medium&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; Technical&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Tempo trail &bull; race-leaning&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- keep your sources, why we recommend, social sentiment blocks --&gt;
-&lt;/section&gt;
 
-&lt;!-- Your existing card layout goes here (image, price box, specs, sources, why we recommend, social sentiment).
-Use EJS to inject item.* values --&gt;
-&lt;section class=&quot;card&quot;&gt;
-&lt;div class=&quot;card-head&quot;&gt;
-&lt;span class=&quot;badge&quot;&gt;8.5&lt;/span&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;header&quot;&gt;
 &lt;h2&gt;The North Face Vectiv Enduris 4&lt;/h2&gt;
+&lt;span class=&quot;score&quot;&gt;8.5&lt;/span&gt;
 &lt;/div&gt;
-&lt;img src=&quot;/photos/north-face-vectiv-enduris-4.webp&quot; alt=&quot;The North Face Vectiv Enduris 4&quot; width=&quot;1120&quot; height=&quot;630&quot; loading=&quot;lazy&quot; /&gt;
-&lt;div class=&quot;grid&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Price history (30 days)&lt;/div&gt;
-&lt;div class=&quot;small&quot;&gt;Avg &lt;b&gt;$149&lt;/b&gt; &bull; Low &lt;b&gt;$139&lt;/b&gt; &bull; Now &lt;b&gt;$145&lt;/b&gt;&lt;/div&gt;
+&lt;img src=&quot;/photos/north-face-vectiv-enduris-4.webp&quot; alt=&quot;The North Face Vectiv Enduris 4&quot;&gt;
+&lt;div class=&quot;price&quot;&gt;
+&lt;b&gt;Price history (30 days)&lt;/b&gt;&lt;br&gt;
+Avg $149 &bull; Low $139 &bull; Now $145
 &lt;/div&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;div class=&quot;small muted&quot;&gt;Specs&lt;/div&gt;
 &lt;div class=&quot;specs&quot;&gt;
-&lt;div&gt;Weight &lt;b&gt;~10.5 oz&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Drop &lt;b&gt;6 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Lugs &lt;b&gt;4&rdquo;&ldquo;5 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Stack &lt;b&gt;37/31 mm&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Width &lt;b&gt;Medium&rdquo;&ldquo;Roomy&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Surface &lt;b&gt;All-day trainer&lt;/b&gt;&lt;/div&gt;
-&lt;div&gt;Best for &lt;b&gt;Comfort miles &bull; daily long runs&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Weight&lt;/b&gt; ~10.5 oz&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Drop&lt;/b&gt; 6 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Lugs&lt;/b&gt; 4&rdquo;&ldquo;5 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Stack&lt;/b&gt; 37/31 mm&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Width&lt;/b&gt; Medium&rdquo;&ldquo;Roomy&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Surface&lt;/b&gt; All-day trainer&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Best for&lt;/b&gt; Comfort miles &bull; daily long runs&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;footer&gt;&copy; 2025 Phavai &middot; Data-backed product insights for runners&lt;/footer&gt;
 &lt;/div&gt;
-&lt;!-- keep your sources, why we recommend, social sentiment blocks --&gt;
-&lt;/section&gt;
-
-&lt;/main&gt;
-&lt;!-- ItemList JSON-LD --&gt;
-&lt;script type=&quot;application/ld+json&quot;&gt;
-{
-&quot;@context&quot;:&quot;https://schema.org&quot;,
-&quot;@type&quot;:&quot;ItemList&quot;,
-&quot;name&quot;:&quot;Best Men&apos;s Trail Running Shoes&quot;,
-&quot;itemListElement&quot;:[
-
-{ &quot;@type&quot;:&quot;ListItem&quot;, &quot;position&quot;: 1, &quot;name&quot;:&quot;HOKA Speedgoat 6&quot; },
-
-{ &quot;@type&quot;:&quot;ListItem&quot;, &quot;position&quot;: 2, &quot;name&quot;:&quot;La Sportiva Prodigio Pro&quot; },
-
-{ &quot;@type&quot;:&quot;ListItem&quot;, &quot;position&quot;: 3, &quot;name&quot;:&quot;Saucony Peregrine 15&quot; },
-
-{ &quot;@type&quot;:&quot;ListItem&quot;, &quot;position&quot;: 4, &quot;name&quot;:&quot;Brooks Catamount 4&quot; },
-
-{ &quot;@type&quot;:&quot;ListItem&quot;, &quot;position&quot;: 5, &quot;name&quot;:&quot;The North Face Vectiv Enduris 4&quot; }
-
-]
-}
-&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;

@@ -2,82 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title><%= title %> | Phavai</title>
-  <meta name="description" content="<%= description %>">
-  <link rel="canonical" href="https://www.phavai.com/<%= slug %>.html">
-  <meta property="og:title" content="<%= title %> | Phavai">
-  <meta property="og:description" content="<%= description %>">
-  <meta property="og:image" content="https://www.phavai.com<%= ogImage %>">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="/favicon.ico">
-
+  <meta name="description" content="<%= description %>" />
+  <link rel="icon" href="/favicon.ico" />
   <style>
-    /* keep your existing CSS here; omitted for brevity */
-    body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
-    .links a + a::before{content:"\2022"; margin:0 6px; color:#cbd5e1}
+    :root {
+      --green:#10b981;
+      --gray:#6b7280;
+      --bg:#f9fafb;
+      --white:#fff;
+      --border:#e5e7eb;
+      --shadow:0 2px 6px rgba(0,0,0,.05);
+    }
+    body {
+      margin:0;
+      font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:#111827;
+      line-height:1.6;
+    }
+    .container {
+      max-width:1080px;
+      margin:0 auto;
+      padding:32px 16px;
+    }
+    h1 { font-size:2rem; margin-bottom:1rem; }
+    p.lede { font-weight:500; color:var(--gray); margin-bottom:2rem; }
+    .card {
+      background:var(--white);
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      padding:24px;
+      margin-bottom:24px;
+    }
+    .card img {
+      width:100%;
+      max-width:480px;
+      border-radius:12px;
+      display:block;
+      margin:12px auto;
+    }
+    .header {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .score {
+      background:var(--green);
+      color:#fff;
+      border-radius:999px;
+      font-weight:700;
+      padding:4px 10px;
+      font-size:.9rem;
+    }
+    .specs {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+      gap:4px 16px;
+      margin-top:8px;
+      font-size:.9rem;
+    }
+    .specs div b { display:block; color:#111827; }
+    .price {
+      font-size:.9rem;
+      color:var(--gray);
+      margin-top:4px;
+    }
+    footer {
+      text-align:center;
+      padding:40px 0;
+      font-size:.9rem;
+      color:var(--gray);
+    }
   </style>
-
-  <!-- Plausible (optional, lightweight analytics) -->
-  <!-- <script defer data-domain="phavai.com" src="https://plausible.io/js/script.js"></script> -->
 </head>
 <body>
-  <header class="site-header">
-    <nav>
-      <a href="/">Phavai</a>
-      <a href="/best-mens-trail-running-shoes.html">Trail Shoes</a>
-      <!-- add other categories -->
-    </nav>
-  </header>
-
-  <main class="container">
+  <div class="container">
+    <a href="/" style="color:var(--green);text-decoration:none;font-size:.85rem;">Phavai</a>
     <h1><%= title %></h1>
-    <p class="lede"><b>Our data-backed picks for every trail — from race-day rockets to all-day tanks.</b></p>
+    <p class="lede"><%= description %></p>
 
-    <% for (const item of items) { %>
-      <!-- Your existing card layout goes here (image, price box, specs, sources, why we recommend, social sentiment).
-           Use EJS to inject item.* values -->
-      <section class="card">
-        <div class="card-head">
-          <span class="badge"><%= item.score %></span>
+    <% items.forEach(function(item){ %>
+      <div class="card">
+        <div class="header">
           <h2><%= item.name %></h2>
+          <span class="score"><%= item.score.toFixed(1) %></span>
         </div>
-        <img src="<%= item.image %>" alt="<%= item.name %>" width="1120" height="630" loading="lazy" />
-        <div class="grid">
-          <div class="box">
-            <div class="small muted">Price history (30 days)</div>
-            <div class="small">Avg <b>$<%= item.price.avg %></b> • Low <b>$<%= item.price.low %></b> • Now <b>$<%= item.price.now %></b></div>
-          </div>
-          <div class="box">
-            <div class="small muted">Specs</div>
-            <div class="specs">
-              <div>Weight <b><%= item.specs.weight %></b></div>
-              <div>Drop <b><%= item.specs.drop %></b></div>
-              <div>Lugs <b><%= item.specs.lugs %></b></div>
-              <div>Stack <b><%= item.specs.stack %></b></div>
-              <div>Width <b><%= item.specs.width %></b></div>
-              <div>Surface <b><%= item.specs.surface %></b></div>
-              <div>Best for <b><%= item.specs.bestFor %></b></div>
-            </div>
-          </div>
+        <img src="<%= item.image %>" alt="<%= item.name %>">
+        <div class="price">
+          <b>Price history (30 days)</b><br>
+          Avg $<%= item.price.avg %> • Low $<%= item.price.low %> • Now $<%= item.price.now %>
         </div>
-        <!-- keep your sources, why we recommend, social sentiment blocks -->
-      </section>
-    <% } %>
-  </main>
+        <div class="specs">
+          <div><b>Weight</b> <%= item.specs.weight %></div>
+          <div><b>Drop</b> <%= item.specs.drop %></div>
+          <div><b>Lugs</b> <%= item.specs.lugs %></div>
+          <div><b>Stack</b> <%= item.specs.stack %></div>
+          <div><b>Width</b> <%= item.specs.width %></div>
+          <div><b>Surface</b> <%= item.specs.surface %></div>
+          <div><b>Best for</b> <%= item.specs.bestFor %></div>
+        </div>
+      </div>
+    <% }) %>
 
-  <!-- ItemList JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "name":"<%= title %>",
-    "itemListElement":[
-      <% for (let i=0;i<items.length;i++){ %>
-      { "@type":"ListItem", "position": <%= i+1 %>, "name":"<%= items[i].name %>" }<%= i<items.length-1 ? "," : "" %>
-      <% } %>
-    ]
-  }
-  </script>
+    <footer>© <%= year %> Phavai · Data-backed product insights for runners</footer>
+  </div>
 </body>
 </html>
