@@ -1,0 +1,927 @@
+[
+  {
+    "slug": "best-mens-trail-running-shoes",
+    "eyebrow": "Trail running",
+    "title": "Best Men's Trail Running Shoes",
+    "description": "A transparent ranking of trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras.",
+    "audience": "Men's fit data, availability, and review signals",
+    "updated": "April 20, 2026",
+    "schemaName": "Best men's trail running shoes ranked by Phavai BestPick Score",
+    "products": [
+      {
+        "name": "HOKA Speedgoat 6",
+        "tag": "Best all-around trail shoe",
+        "image": "/photos/hoka-speed-goat-6.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=HOKA+Speedgoat+6+men",
+        "price": "$155 typical retail",
+        "bestFor": "Long runs, rocky trails, mixed technical terrain",
+        "avoidIf": "You want a very roomy forefoot or a soft, flexible ground feel.",
+        "verdict": "The Speedgoat 6 earns the top spot because expert reviews, creator testing, and runner threads converge on the same idea: it is protective, stable, and grippy enough for most trail runners.",
+        "specs": [
+          "Approx. 10.3 oz men's",
+          "6 mm drop",
+          "5 mm Vibram lugs",
+          "Max cushion"
+        ],
+        "pros": [
+          "Strong grip on wet rock and loose dirt",
+          "Protective enough for ultra-distance days",
+          "Stable platform for a high-stack shoe"
+        ],
+        "cons": [
+          "Can feel narrower than some runners expect",
+          "Less lively than true trail racing shoes"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Running Warehouse",
+            "url": "https://www.runningwarehouse.com/reviews/HOKA-shoe-reviews/hoka_speedgoat_6.html",
+            "tier": "Tier 1",
+            "score": 92,
+            "publishedAt": "2024-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Protective, stable, and durable for daily trail runs through ultra-distance efforts.",
+            "title": "HOKA Speedgoat 6 Review | Running Warehouse",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Switchback Travel",
+            "url": "https://www.switchbacktravel.com/reviews/hoka-speedgoat-6",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Nimble and responsive on technical terrain with strong traction and a watch-out for higher-volume feet.",
+            "title": "Hoka Speedgoat 6 Review | Switchback Travel",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "CleverHiker",
+            "url": "https://www.cleverhiker.com/footwear/mens-hoka-speedgoat-6-review/",
+            "tier": "Tier 1",
+            "score": 89,
+            "publishedAt": "2025-06-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Reliable hiking-running crossover with quick-drying construction and broad trail versatility.",
+            "title": "Men's HOKA Speedgoat 6 Review | CleverHiker",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Road Runner Sports YouTube",
+            "url": "https://www.youtube.com/watch?v=4sdlz7EIiUQ",
+            "tier": "Tier 2",
+            "score": 91,
+            "publishedAt": "2024-08-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review covers Speedgoat 6 comfort, traction, and trail versatility.",
+            "title": "HOKA Speedgoat 6 Review: Setting the Standard for Comfort and Traction on the Trail",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/RunningShoeGeeks thread",
+            "url": "https://www.reddit.com/r/RunningShoeGeeks/comments/1dgitzv",
+            "tier": "Tier 3",
+            "score": 89,
+            "publishedAt": "2024-06-15",
+            "evidenceType": "specific community thread",
+            "sampleSize": 24,
+            "relevance": 0.9,
+            "summary": "Specific owner thread highlights wide-foot fit, firmness, stability, and break-in impressions.",
+            "title": "HOKA Speedgoat 6 - Slow, Wide Footed First Impressions",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "La Sportiva Prodigio Pro",
+        "tag": "Best technical mountain racer",
+        "image": "/photos/la-sportiva-prodigio-pro.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=La+Sportiva+Prodigio+Pro+men",
+        "price": "$175-$190 typical retail",
+        "bestFor": "Fast mountain days, technical descents, race efforts",
+        "avoidIf": "You need a forgiving fit or a mellow daily trainer.",
+        "verdict": "The Prodigio Pro scores high because reviewers and experienced trail runners praise its control and energy on demanding terrain, while fit and durability chatter keep it just behind the Speedgoat.",
+        "specs": [
+          "Race-oriented build",
+          "6 mm drop",
+          "FriXion Red outsole",
+          "High-security upper"
+        ],
+        "pros": [
+          "Precise on rocky trails",
+          "Energetic enough for race efforts",
+          "Confidence on descents"
+        ],
+        "cons": [
+          "Fit can require careful sizing",
+          "Less forgiving for casual trail miles"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunRepeat",
+            "url": "https://runrepeat.com/la-sportiva-prodigio-pro",
+            "tier": "Tier 1",
+            "score": 93,
+            "publishedAt": "2025-06-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Lab review supports its stability, performance ride, and technical trail racing strength.",
+            "title": "La Sportiva Prodigio Pro Review | RunRepeat",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "iRunFar",
+            "url": "https://www.irunfar.com/la-sportiva-prodigio-pro-review",
+            "tier": "Tier 1",
+            "score": 92,
+            "publishedAt": "2025-09-04",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "In-depth trail review praises the light, soft, responsive ride and durable mountain-ready build.",
+            "title": "La Sportiva Prodigio Pro Review | iRunFar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Believe in the Run",
+            "url": "https://believeintherun.com/shoe-reviews/la-sportiva-prodigio-pro-review/",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2025-04-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Mountain-focused review is highly positive, with sizing and wide-foot fit as the main cautions.",
+            "title": "La Sportiva Prodigio Pro Review | Believe in the Run",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Run the Wild YouTube",
+            "url": "https://www.youtube.com/watch?v=vRQg8LpCIgE",
+            "tier": "Tier 2",
+            "score": 90,
+            "publishedAt": "2025-06-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review focuses on Prodigio Pro trail performance and race-oriented use.",
+            "title": "La Sportiva Prodigio Pro Review",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/trailrunning thread",
+            "url": "https://www.reddit.com/r/trailrunning/comments/1joyhk4/la_sportiva_prodigio_pro/",
+            "tier": "Tier 3",
+            "score": 86,
+            "publishedAt": "2025-05-01",
+            "evidenceType": "specific community thread",
+            "sampleSize": 12,
+            "relevance": 0.9,
+            "summary": "Specific community thread discusses sizing, conversion quirks, and use as a technical trail option.",
+            "title": "La Sportiva Prodigio Pro",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Brooks Catamount 4",
+        "tag": "Best fast daily trail shoe",
+        "image": "/photos/brooks-catamount-4.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=Brooks+Catamount+4+men",
+        "price": "$170 typical retail",
+        "bestFor": "Tempo trail runs, rolling singletrack, lighter race days",
+        "avoidIf": "You run sloppy mud often or prefer very soft cushioning.",
+        "verdict": "The Catamount 4 ranks as the speed-biased pick: expert reviews like its support and efficient ride, but community traction concerns keep the signal more conditional.",
+        "specs": [
+          "Approx. 9.8 oz men's",
+          "6 mm drop",
+          "TrailTack rubber",
+          "Propulsion plate"
+        ],
+        "pros": [
+          "Quick turnover feel",
+          "Comfortable for faster daily use",
+          "Breathable upper"
+        ],
+        "cons": [
+          "Not the first choice for deep mud",
+          "Less plush than max-cushion options"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "OutdoorGearLab",
+            "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-men/brooks-catamount-4",
+            "tier": "Tier 1",
+            "score": 89,
+            "publishedAt": "2025-05-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Supportive and comfortable with a redesigned traction layout for fast trail efforts.",
+            "title": "Brooks Catamount 4 Review | OutdoorGearLab",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Believe in the Run",
+            "url": "https://believeintherun.com/shoe-reviews/brooks-catamount-4-review/",
+            "tier": "Tier 1",
+            "score": 82,
+            "publishedAt": "2025-03-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Experienced review finds it decent and efficient, but less comfortable and convincing than expected.",
+            "title": "Brooks Catamount 4 Review | Believe in the Run",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Garage Gym Reviews",
+            "url": "https://www.garagegymreviews.com/equipment/brooks-catamount-4",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Frames it as a worthwhile fast trail shoe for quicker runs on uneven terrain.",
+            "title": "Brooks Catamount 4 Review | Garage Gym Reviews",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Believe in the Run YouTube",
+            "url": "https://www.youtube.com/watch?v=VBMsPU-EJyc",
+            "tier": "Tier 2",
+            "score": 86,
+            "publishedAt": "2025-03-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review evaluates the Catamount 4 as a fast trail shoe and compares the update.",
+            "title": "Brooks Catamount 4 | Full Review",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/trailrunning thread",
+            "url": "https://www.reddit.com/r/trailrunning/comments/1ozo1at/brooks_catamount_4_and_ankle_sprain/",
+            "tier": "Tier 3",
+            "score": 77,
+            "publishedAt": "2025-11-01",
+            "evidenceType": "specific community thread",
+            "sampleSize": 10,
+            "relevance": 0.9,
+            "summary": "Specific community thread raises ankle-stability and stack-height concerns while noting faster-trail appeal.",
+            "title": "Brooks Catamount 4 and ankle sprain",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Saucony Peregrine 15",
+        "tag": "Best value technical grip",
+        "image": "/photos/saucony-peregrine-15.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=Saucony+Peregrine+15+men",
+        "price": "$140 typical retail",
+        "bestFor": "Short-to-mid trail runs, mixed dirt, runners who like trail feel",
+        "avoidIf": "You need a wide toebox or max cushion underfoot.",
+        "verdict": "The Peregrine 15 remains a strong value because it keeps the line's nimble, grippy personality, but the narrower tapered forefoot is a meaningful fit warning.",
+        "specs": [
+          "Approx. 9.7 oz men's",
+          "4 mm drop",
+          "PWRTRAC outsole",
+          "Moderate cushion"
+        ],
+        "pros": [
+          "Good traction for the price",
+          "Ground-connected feel",
+          "Durable enough for regular trail use"
+        ],
+        "cons": [
+          "Narrow tapered toebox",
+          "Not ideal for ultra-distance cushioning"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunRepeat",
+            "url": "https://runrepeat.com/saucony-peregrine-15",
+            "tier": "Tier 1",
+            "score": 87,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Lab testing praises the softer midsole while flagging the narrow, tapered toebox.",
+            "title": "Saucony Peregrine 15 Review | RunRepeat",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "RoadTrailRun",
+            "url": "https://www.roadtrailrun.com/2025/01/saucony-peregrine-15-review-5.html",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Multi-comparison review highlights more cushion, comfort, flexibility, and a redesigned outsole.",
+            "title": "Saucony Peregrine 15 Review | RoadTrailRun",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Run Weekly",
+            "url": "https://www.runweekly.com/saucony-peregrine-15-review/",
+            "tier": "Tier 1",
+            "score": 82,
+            "publishedAt": "2025-10-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Positive on trail comfort and traction, with road sections and fit as limitations.",
+            "title": "Saucony Peregrine 15 Review | Run Weekly",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "The Run Testers YouTube",
+            "url": "https://www.youtube.com/watch?v=DXC2ZFxGOAU",
+            "tier": "Tier 2",
+            "score": 84,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review positions the Peregrine 15 as an all-round trail shoe with fit and ride caveats.",
+            "title": "Saucony Peregrine 15 Full Review | Still one of the best all-round trail shoes available",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/trailrunning thread",
+            "url": "https://www.reddit.com/r/trailrunning/comments/1logdqj/saucony_peregrine_15_what_have_they_done/",
+            "tier": "Tier 3",
+            "score": 73,
+            "publishedAt": "2025-07-15",
+            "evidenceType": "specific community thread",
+            "sampleSize": 16,
+            "relevance": 0.9,
+            "summary": "Specific community thread shows polarized owner sentiment around fit, blisters, outsole changes, and version changes.",
+            "title": "Saucony Peregrine 15: what have they done?",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "The North Face VECTIV Enduris 4",
+        "tag": "Best cushioned cruiser",
+        "image": "/photos/the-north-face-enduris-4.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=The+North+Face+Vectiv+Enduris+4+men",
+        "price": "$150 typical retail",
+        "bestFor": "Comfortable long trail miles, runnable dirt, newer trail runners",
+        "avoidIf": "You want maximum precision on steep, rocky technical terrain.",
+        "verdict": "The Enduris 4 is the comfort-first pick: reviews praise its improved stability and easy ride, but the evidence base is smaller than the category leaders.",
+        "specs": [
+          "Cushioned daily trainer",
+          "6 mm drop",
+          "Surface CTRL outsole",
+          "VECTIV plate"
+        ],
+        "pros": [
+          "Comfortable underfoot",
+          "More stable than older Enduris models",
+          "Good daily trail option"
+        ],
+        "cons": [
+          "Lower evidence volume",
+          "Less precise than technical mountain shoes"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Running Warehouse",
+            "url": "https://www.runningwarehouse.com/reviews/the-north-face-shoe-reviews/tnf-vectiv-enduris-4.html",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Comfortable and performance-oriented over long mountain test runs.",
+            "title": "The North Face VECTIV Enduris 4 Review | Running Warehouse",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "OutdoorGearLab",
+            "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-womens/the-north-face-vectiv-enduris-4",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2025-08-26",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Women-specific testing calls it a legitimate improvement with strong comfort, geometry, and traction.",
+            "title": "The North Face VECTIV Enduris 4 Review | OutdoorGearLab",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Trail Run Magazine",
+            "url": "https://www.trailrunmag.com/2025/04/29/the-north-face-vectiv-enduris-4-review/",
+            "tier": "Tier 1",
+            "score": 85,
+            "publishedAt": "2025-04-29",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Long-run review supports the cushioned, stable, trail-worthy positioning.",
+            "title": "The North Face VECTIV Enduris 4 Review | Trail Run Magazine",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Aaron Jarvis YouTube",
+            "url": "https://www.youtube.com/watch?v=sMhroDSaznY",
+            "tier": "Tier 2",
+            "score": 81,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review covers the Enduris 4 ride, fit, comfort, and trail-super-trainer positioning.",
+            "title": "The North Face Vectiv Enduris 4 Review! THE BEST TRAIL RUNNING SHOE.",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/ultrarunning thread",
+            "url": "https://www.reddit.com/r/ultrarunning/comments/1mb0a3d",
+            "tier": "Tier 3",
+            "score": 72,
+            "publishedAt": "2025-07-27",
+            "evidenceType": "specific community thread",
+            "sampleSize": 10,
+            "relevance": 0.9,
+            "summary": "Specific community thread compares Enduris 4 with Zegama 2 and supports its all-day comfort and stability signal.",
+            "title": "Zegama 2 or Enduris 4",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "sourceWeights": {
+      "Expert": 40,
+      "YouTube": 30,
+      "Reddit": 30
+    },
+    "sourceWeightReason": "Trail running uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Social is excluded until Phavai has a reliable API-backed collection process.",
+    "customScoring": {
+      "enabled": true,
+      "channels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ]
+    },
+    "sourcesVerifiedAt": "Apr 20, 2026"
+  },
+  {
+    "slug": "best-womens-trail-running-shoes",
+    "eyebrow": "Trail running",
+    "title": "Best Women's Trail Running Shoes",
+    "description": "A transparent ranking of trail shoes with women's fit notes, review consensus, and confidence indicators.",
+    "audience": "Women's fit data, availability, and review signals",
+    "updated": "April 20, 2026",
+    "schemaName": "Best women's trail running shoes ranked by Phavai BestPick Score",
+    "products": [
+      {
+        "name": "HOKA Speedgoat 6",
+        "tag": "Best all-around trail shoe",
+        "image": "/photos/hoka-speed-goat-6.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=HOKA+Speedgoat+6+women",
+        "price": "$155 typical retail",
+        "bestFor": "Long trail days, hiking/running crossover, technical footing",
+        "avoidIf": "You need a roomy forefoot or dislike high-stack cushioning.",
+        "verdict": "For women's trail running, the Speedgoat 6 wins on breadth of agreement: expert reviews like its protection and grip, and current women's-focused coverage still points to it as a dependable trail option.",
+        "specs": [
+          "Approx. 8.2 oz women's",
+          "6 mm drop",
+          "5 mm Vibram lugs",
+          "Wide available"
+        ],
+        "pros": [
+          "Reliable traction on uneven terrain",
+          "Good protection for long days",
+          "Works for trail running and fast hiking"
+        ],
+        "cons": [
+          "Fit can feel snug",
+          "High stack is not for every runner"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Running Warehouse",
+            "url": "https://www.runningwarehouse.com/reviews/HOKA-shoe-reviews/hoka_speedgoat_6.html",
+            "tier": "Tier 1",
+            "score": 92,
+            "publishedAt": "2024-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Protective, stable, and durable for daily trail runs through ultra-distance efforts.",
+            "title": "HOKA Speedgoat 6 Review | Running Warehouse",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Switchback Travel",
+            "url": "https://www.switchbacktravel.com/reviews/hoka-speedgoat-6",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Nimble and responsive on technical terrain with strong traction and a watch-out for higher-volume feet.",
+            "title": "Hoka Speedgoat 6 Review | Switchback Travel",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "CleverHiker",
+            "url": "https://www.cleverhiker.com/footwear/mens-hoka-speedgoat-6-review/",
+            "tier": "Tier 1",
+            "score": 89,
+            "publishedAt": "2025-06-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Reliable hiking-running crossover with quick-drying construction and broad trail versatility.",
+            "title": "Men's HOKA Speedgoat 6 Review | CleverHiker",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Road Runner Sports YouTube",
+            "url": "https://www.youtube.com/watch?v=4sdlz7EIiUQ",
+            "tier": "Tier 2",
+            "score": 90,
+            "publishedAt": "2024-08-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review covers Speedgoat 6 comfort, traction, and trail versatility.",
+            "title": "HOKA Speedgoat 6 Review: Setting the Standard for Comfort and Traction on the Trail",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/RunningShoeGeeks thread",
+            "url": "https://www.reddit.com/r/RunningShoeGeeks/comments/1dgitzv",
+            "tier": "Tier 3",
+            "score": 87,
+            "publishedAt": "2024-06-15",
+            "evidenceType": "specific community thread",
+            "sampleSize": 24,
+            "relevance": 0.9,
+            "summary": "Specific owner thread highlights wide-foot fit, firmness, stability, and break-in impressions.",
+            "title": "HOKA Speedgoat 6 - Slow, Wide Footed First Impressions",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "The North Face VECTIV Enduris 4",
+        "tag": "Best cushioned daily trainer",
+        "image": "/photos/the-north-face-enduris-4.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=The+North+Face+Vectiv+Enduris+4+women",
+        "price": "$150 typical retail",
+        "bestFor": "Comfortable daily trail miles, long cruisy runs, mixed terrain",
+        "avoidIf": "You want a low, precise, racing-flat trail feel.",
+        "verdict": "The women's-specific expert signal is stronger here than the men's page: OutdoorGearLab calls the Enduris 4 a major improvement, which lifts its confidence for runners prioritizing comfort.",
+        "specs": [
+          "Cushioned daily trainer",
+          "6 mm drop",
+          "Surface CTRL outsole",
+          "VECTIV plate"
+        ],
+        "pros": [
+          "Cushioned and approachable",
+          "Strong women's expert signal",
+          "Stable enough for longer runs"
+        ],
+        "cons": [
+          "Less source volume than category leaders",
+          "Not a sharp technical racer"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Running Warehouse",
+            "url": "https://www.runningwarehouse.com/reviews/the-north-face-shoe-reviews/tnf-vectiv-enduris-4.html",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Comfortable and performance-oriented over long mountain test runs.",
+            "title": "The North Face VECTIV Enduris 4 Review | Running Warehouse",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "OutdoorGearLab",
+            "url": "https://www.outdoorgearlab.com/reviews/shoes-and-boots/trail-running-shoes-womens/the-north-face-vectiv-enduris-4",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2025-08-26",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Women-specific testing calls it a legitimate improvement with strong comfort, geometry, and traction.",
+            "title": "The North Face VECTIV Enduris 4 Review | OutdoorGearLab",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Trail Run Magazine",
+            "url": "https://www.trailrunmag.com/2025/04/29/the-north-face-vectiv-enduris-4-review/",
+            "tier": "Tier 1",
+            "score": 85,
+            "publishedAt": "2025-04-29",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Long-run review supports the cushioned, stable, trail-worthy positioning.",
+            "title": "The North Face VECTIV Enduris 4 Review | Trail Run Magazine",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Aaron Jarvis YouTube",
+            "url": "https://www.youtube.com/watch?v=sMhroDSaznY",
+            "tier": "Tier 2",
+            "score": 84,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review covers the Enduris 4 ride, fit, comfort, and trail-super-trainer positioning.",
+            "title": "The North Face Vectiv Enduris 4 Review! THE BEST TRAIL RUNNING SHOE.",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/ultrarunning thread",
+            "url": "https://www.reddit.com/r/ultrarunning/comments/1mb0a3d",
+            "tier": "Tier 3",
+            "score": 77,
+            "publishedAt": "2025-07-27",
+            "evidenceType": "specific community thread",
+            "sampleSize": 10,
+            "relevance": 0.9,
+            "summary": "Specific community thread compares Enduris 4 with Zegama 2 and supports its all-day comfort and stability signal.",
+            "title": "Zegama 2 or Enduris 4",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Saucony Peregrine 15",
+        "tag": "Best nimble value pick",
+        "image": "/photos/saucony-peregrine-15.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=Saucony+Peregrine+15+women",
+        "price": "$140 typical retail",
+        "bestFor": "Runners who like grip, nimbleness, and a lower-to-ground feel",
+        "avoidIf": "You have a wider forefoot or want plush cushioning.",
+        "verdict": "The Peregrine 15 is still a smart value option, but Phavai lowers its confidence because fit complaints appear across expert and community sources.",
+        "specs": [
+          "Moderate cushion",
+          "4 mm drop",
+          "PWRTRAC outsole",
+          "Technical grip"
+        ],
+        "pros": [
+          "Good price-to-performance ratio",
+          "Nimble on technical trails",
+          "Useful for mixed dirt and rock"
+        ],
+        "cons": [
+          "Forefoot can feel tight",
+          "Less cushioning for very long days"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunRepeat",
+            "url": "https://runrepeat.com/saucony-peregrine-15",
+            "tier": "Tier 1",
+            "score": 87,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Lab testing praises the softer midsole while flagging the narrow, tapered toebox.",
+            "title": "Saucony Peregrine 15 Review | RunRepeat",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "RoadTrailRun",
+            "url": "https://www.roadtrailrun.com/2025/01/saucony-peregrine-15-review-5.html",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Multi-comparison review highlights more cushion, comfort, flexibility, and a redesigned outsole.",
+            "title": "Saucony Peregrine 15 Review | RoadTrailRun",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Run Weekly",
+            "url": "https://www.runweekly.com/saucony-peregrine-15-review/",
+            "tier": "Tier 1",
+            "score": 82,
+            "publishedAt": "2025-10-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Positive on trail comfort and traction, with road sections and fit as limitations.",
+            "title": "Saucony Peregrine 15 Review | Run Weekly",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "The Run Testers YouTube",
+            "url": "https://www.youtube.com/watch?v=DXC2ZFxGOAU",
+            "tier": "Tier 2",
+            "score": 83,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review positions the Peregrine 15 as an all-round trail shoe with fit and ride caveats.",
+            "title": "Saucony Peregrine 15 Full Review | Still one of the best all-round trail shoes available",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/trailrunning thread",
+            "url": "https://www.reddit.com/r/trailrunning/comments/1logdqj/saucony_peregrine_15_what_have_they_done/",
+            "tier": "Tier 3",
+            "score": 72,
+            "publishedAt": "2025-07-15",
+            "evidenceType": "specific community thread",
+            "sampleSize": 16,
+            "relevance": 0.9,
+            "summary": "Specific community thread shows polarized owner sentiment around fit, blisters, outsole changes, and version changes.",
+            "title": "Saucony Peregrine 15: what have they done?",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "name": "La Sportiva Prodigio Pro",
+        "tag": "Best race-day mountain pick",
+        "image": "/photos/la-sportiva-prodigio-pro.webp",
+        "affiliateUrl": "https://www.amazon.com/s?k=La+Sportiva+Prodigio+Pro+women",
+        "price": "$175-$190 typical retail",
+        "bestFor": "Mountain races, confident descending, experienced trail runners",
+        "avoidIf": "You want a forgiving everyday trainer or easy fit.",
+        "verdict": "This is a high-upside pick for technical runners, but its more specialized fit and use case make it less universal than the top three for most shoppers.",
+        "specs": [
+          "Race-oriented build",
+          "6 mm drop",
+          "FriXion Red outsole",
+          "Secure upper"
+        ],
+        "pros": [
+          "Excellent technical control",
+          "Fast feel on mountain terrain",
+          "Strong expert signal"
+        ],
+        "cons": [
+          "Niche fit and use case",
+          "Lower broad-consumer signal"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunRepeat",
+            "url": "https://runrepeat.com/la-sportiva-prodigio-pro",
+            "tier": "Tier 1",
+            "score": 93,
+            "publishedAt": "2025-06-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Lab review supports its stability, performance ride, and technical trail racing strength.",
+            "title": "La Sportiva Prodigio Pro Review | RunRepeat",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "iRunFar",
+            "url": "https://www.irunfar.com/la-sportiva-prodigio-pro-review",
+            "tier": "Tier 1",
+            "score": 92,
+            "publishedAt": "2025-09-04",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "In-depth trail review praises the light, soft, responsive ride and durable mountain-ready build.",
+            "title": "La Sportiva Prodigio Pro Review | iRunFar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Believe in the Run",
+            "url": "https://believeintherun.com/shoe-reviews/la-sportiva-prodigio-pro-review/",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2025-04-01",
+            "evidenceType": "hands-on expert review",
+            "sampleSize": 1,
+            "relevance": 0.95,
+            "summary": "Mountain-focused review is highly positive, with sizing and wide-foot fit as the main cautions.",
+            "title": "La Sportiva Prodigio Pro Review | Believe in the Run",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Run the Wild YouTube",
+            "url": "https://www.youtube.com/watch?v=vRQg8LpCIgE",
+            "tier": "Tier 2",
+            "score": 84,
+            "publishedAt": "2025-06-01",
+            "evidenceType": "specific video review",
+            "sampleSize": 1,
+            "relevance": 0.9,
+            "summary": "Specific video review focuses on Prodigio Pro trail performance and race-oriented use.",
+            "title": "La Sportiva Prodigio Pro Review",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "r/trailrunning thread",
+            "url": "https://www.reddit.com/r/trailrunning/comments/1joyhk4/la_sportiva_prodigio_pro/",
+            "tier": "Tier 3",
+            "score": 72,
+            "publishedAt": "2025-05-01",
+            "evidenceType": "specific community thread",
+            "sampleSize": 12,
+            "relevance": 0.9,
+            "summary": "Specific community thread discusses sizing, conversion quirks, and use as a technical trail option.",
+            "title": "La Sportiva Prodigio Pro",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "sourceWeights": {
+      "Expert": 40,
+      "YouTube": 30,
+      "Reddit": 30
+    },
+    "sourceWeightReason": "Trail running uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Social is excluded until Phavai has a reliable API-backed collection process.",
+    "customScoring": {
+      "enabled": true,
+      "channels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ]
+    },
+    "sourcesVerifiedAt": "Apr 20, 2026"
+  }
+]

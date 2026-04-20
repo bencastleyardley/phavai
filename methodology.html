@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Methodology | Phavai</title>
+  <meta name="description" content="How Phavai calculates BestPick Scores, consensus, signal strength, reviewer tiers, source weighting, and affiliate disclosure." />
+  <link rel="canonical" href="https://www.phavai.com/methodology.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Phavai Methodology" />
+  <meta property="og:description" content="A transparent explanation of how Phavai ranks products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/index.html"><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        <a href="/best-mens-trail-running-shoes.html">Men's Trail</a>
+        <a href="/best-womens-trail-running-shoes.html">Women's Trail</a>
+        <a href="/methodology.html">Methodology</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <a class="crumb" href="/index.html">Phavai / Trust</a>
+        <h1>How Phavai Scores Work</h1>
+        <p class="lede">Phavai ranks products by evidence quality, source-weighted performance, and transparent confidence indicators. Affiliate potential is not an input.</p>
+        <div class="meta-row">
+          <span class="meta-pill">BestPick: calculated from evidence items</span>
+          <span class="meta-pill">Consensus: weighted agreement across sources</span>
+          <span class="meta-pill">Signal: computed from evidence quality</span>
+          <span class="meta-pill">Source verification dates shown</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap methodology-grid">
+        <article class="text-panel">
+          <h2>Source weighting</h2>
+          <p>The BestPick Score is calculated at build time from individual evidence items. Evidence first rolls up into channel scores, then category-specific source weights roll those channels into the final score.</p>
+          <ul class="plain-list">
+            <li>Default expert reviews: 40%</li>
+            <li>Default YouTube reviews: 30%</li>
+            <li>Default Reddit sentiment: 30%</li>
+          </ul>
+          <p style="margin-top:16px">Trail running currently uses three auditable signals: 40% expert reviews, 30% YouTube reviews, and 30% Reddit sentiment. Social media is excluded until Phavai has a reliable API-backed collection process.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>Score calculation</h2>
+          <p>BestPick is not hand-entered. Each evidence item is normalized to a 0-100 score, adjusted by reviewer tier, freshness, relevance, and sample strength, then aggregated into a source channel.</p>
+          <p><strong>Channel formula:</strong> sum(evidence score x evidence quality weight) / sum(evidence quality weights).</p>
+          <p><strong>BestPick formula:</strong> sum(channel score x category channel weight) / sum(available category channel weights).</p>
+          <p>If a source channel is missing, the remaining source weights are normalized rather than filling the gap with a guess. Each evidence item also shows when Phavai last verified that source.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>User-adjustable rules</h2>
+          <p>Category pages include score-rule sliders so readers can decide how much they trust expert reviews, YouTube reviews, and Reddit sentiment. The page recalculates scores and ranking order in the browser without changing the underlying evidence, then saves the reader's scoring preference locally on that device.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>Reviewer hierarchy</h2>
+          <p>Reviewer tiers are category-specific. A trusted running-shoe lab is not automatically trusted for headphones, cookware, or office chairs.</p>
+          <ul class="plain-list">
+            <li>Tier 1: specialist publications, lab tests, deep category experts</li>
+            <li>Tier 2: credible creators, mid-tier blogs, repeat testers</li>
+            <li>Tier 3: owner sentiment from Reddit and other auditable forums</li>
+          </ul>
+        </article>
+
+        <article class="text-panel">
+          <h2>Consensus</h2>
+          <p>Consensus measures agreement between weighted channel scores. Phavai calculates the weighted standard deviation across channels, then converts that disagreement into a 0-100 agreement score. A product can have a high BestPick Score but lower consensus if experts love it and owners repeatedly flag fit, durability, or support issues.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>Signal strength</h2>
+          <p>Signal strength is computed from evidence count, channel diversity, freshness, reviewer tier quality, sample strength, and whether each channel has enough depth. Signal is shown separately from BestPick so weak evidence is visible rather than quietly hidden in the score.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>Why social is excluded</h2>
+          <p>Phavai should not score social media until the collection method is reliable, API-backed, and auditable. Excluding it for now keeps the ranking easier to reproduce and explain.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>Affiliate disclosure</h2>
+          <p>Phavai may earn commission when a reader buys through a shopping link. Those links use sponsored or nofollow attributes and do not affect the BestPick Score, ranking, or product summary.</p>
+        </article>
+
+        <article class="text-panel">
+          <h2>What would fail our standard</h2>
+          <p>A recommendation fails if it feels generic, hides meaningful tradeoffs, buries source quality, or ranks a product because the payout is better. Trust is the product.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>Phavai is built to make product decisions feel clear, not manipulated.</div>
+      <div>
+        <a href="/index.html">Home</a>
+        <a href="/best-mens-trail-running-shoes.html">Rankings</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

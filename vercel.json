@@ -16,6 +16,7 @@
     }
   ],
   "redirects": [
+    { "source": "/best-mens-trail-running-shoes-v5.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true },
     { "source": "/best-mens-trail-running-shoes.v4.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true },
     { "source": "/best-mens-trail-running-shoes.v5.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true }
   ]
