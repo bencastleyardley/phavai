@@ -527,8 +527,8 @@
         "answer": "Phavai rolls individual evidence items into Expert, YouTube, and Reddit channel scores, then applies the category weights shown on the page. The final rank also shows consensus and signal strength so shoppers can separate popularity from confidence."
       },
       {
-        "question": "Do affiliate links affect these rankings?",
-        "answer": "No. Affiliate availability is not an input in the BestPick Score. Current shopping CTAs are placeholders so the future affiliate structure is visible without monetization being active."
+        "question": "Do shopping links affect these rankings?",
+        "answer": "No. Shopping-link availability is not an input in the BestPick Score. Product links are provided for convenience, while rankings are based on evidence quality, consensus, and signal strength."
       },
       {
         "question": "Why is social media excluded?",
@@ -968,8 +968,8 @@
         "answer": "Phavai rolls individual evidence items into Expert, YouTube, and Reddit channel scores, then applies the category weights shown on the page. The final rank also shows consensus and signal strength so shoppers can separate popularity from confidence."
       },
       {
-        "question": "Do affiliate links affect these rankings?",
-        "answer": "No. Affiliate availability is not an input in the BestPick Score. Current shopping CTAs are placeholders so the future affiliate structure is visible without monetization being active."
+        "question": "Do shopping links affect these rankings?",
+        "answer": "No. Shopping-link availability is not an input in the BestPick Score. Product links are provided for convenience, while rankings are based on evidence quality, consensus, and signal strength."
       },
       {
         "question": "Why is social media excluded?",
