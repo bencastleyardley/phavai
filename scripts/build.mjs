@@ -6,9 +6,8 @@ const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 
 const DEFAULT_SOURCE_WEIGHTS = {
   Expert: 40,
-  YouTube: 20,
-  Reddit: 20,
-  Social: 20
+  YouTube: 30,
+  Reddit: 30
 };
 
 const TIER_WEIGHTS = {

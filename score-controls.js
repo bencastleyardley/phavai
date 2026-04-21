@@ -1,6 +1,6 @@
 (function () {
   const controls = document.querySelector("[data-score-controls]");
-  const list = document.querySelector(".ranking-layout > div");
+  const list = document.querySelector("[data-product-list]");
   if (!controls || !list) return;
 
   const storageKey = `phavai.scoreWeights.${location.pathname}`;

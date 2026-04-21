@@ -42,3 +42,30 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
   await expect(page.locator("[data-ranking-note]")).toContainText("Phavai default");
 });
+
+test("public pages and new review guides render complete trust sections", async ({ page }) => {
+  const reviewPages = [
+    "/best-womens-trail-running-shoes.html",
+    "/best-running-headphones.html",
+    "/best-gps-running-watches.html",
+    "/best-standing-desks.html",
+    "/best-office-chairs.html"
+  ];
+
+  for (const route of reviewPages) {
+    await page.goto(route);
+    await expect(page.locator("h1")).toBeVisible();
+    await expect(page.locator(".product").first()).toBeVisible();
+    await expect(page.locator(".comparison-table")).toBeVisible();
+    await expect(page.locator(".faq-list")).toBeVisible();
+    await expect(page.locator(".final-panel")).toBeVisible();
+    await expect(page.locator(".button.disabled").first()).toContainText("Affiliate link pending");
+    await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
+  }
+
+  for (const route of ["/about.html", "/contact.html", "/privacy.html", "/terms.html"]) {
+    await page.goto(route);
+    await expect(page.locator("h1")).toBeVisible();
+    await expect(page.locator("nav")).toContainText("Reviews");
+  }
+});

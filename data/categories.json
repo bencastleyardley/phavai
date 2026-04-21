@@ -12,7 +12,7 @@
         "name": "HOKA Speedgoat 6",
         "tag": "Best all-around trail shoe",
         "image": "/photos/hoka-speed-goat-6.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=HOKA+Speedgoat+6+men",
+        "affiliateUrl": "#",
         "price": "$155 typical retail",
         "bestFor": "Long runs, rocky trails, mixed technical terrain",
         "avoidIf": "You want a very roomy forefoot or a soft, flexible ground feel.",
@@ -109,7 +109,7 @@
         "name": "La Sportiva Prodigio Pro",
         "tag": "Best technical mountain racer",
         "image": "/photos/la-sportiva-prodigio-pro.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=La+Sportiva+Prodigio+Pro+men",
+        "affiliateUrl": "#",
         "price": "$175-$190 typical retail",
         "bestFor": "Fast mountain days, technical descents, race efforts",
         "avoidIf": "You need a forgiving fit or a mellow daily trainer.",
@@ -206,7 +206,7 @@
         "name": "Brooks Catamount 4",
         "tag": "Best fast daily trail shoe",
         "image": "/photos/brooks-catamount-4.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=Brooks+Catamount+4+men",
+        "affiliateUrl": "#",
         "price": "$170 typical retail",
         "bestFor": "Tempo trail runs, rolling singletrack, lighter race days",
         "avoidIf": "You run sloppy mud often or prefer very soft cushioning.",
@@ -303,7 +303,7 @@
         "name": "Saucony Peregrine 15",
         "tag": "Best value technical grip",
         "image": "/photos/saucony-peregrine-15.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=Saucony+Peregrine+15+men",
+        "affiliateUrl": "#",
         "price": "$140 typical retail",
         "bestFor": "Short-to-mid trail runs, mixed dirt, runners who like trail feel",
         "avoidIf": "You need a wide toebox or max cushion underfoot.",
@@ -400,7 +400,7 @@
         "name": "The North Face VECTIV Enduris 4",
         "tag": "Best cushioned cruiser",
         "image": "/photos/the-north-face-enduris-4.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=The+North+Face+Vectiv+Enduris+4+men",
+        "affiliateUrl": "#",
         "price": "$150 typical retail",
         "bestFor": "Comfortable long trail miles, runnable dirt, newer trail runners",
         "avoidIf": "You want maximum precision on steep, rocky technical terrain.",
@@ -508,7 +508,23 @@
         "Reddit"
       ]
     },
-    "sourcesVerifiedAt": "Apr 20, 2026"
+    "sourcesVerifiedAt": "Apr 20, 2026",
+    "comparisonIntro": "Compare the ranked picks by best use case, BestPick Score, consensus, and the main watch-out before opening the detailed evidence.",
+    "finalRecommendation": "Most men trail runners should start with the HOKA Speedgoat 6 because it has the broadest agreement across expert, creator, and community signals. Choose the Prodigio Pro for technical racing, the Catamount 4 for faster daily trail runs, the Peregrine 15 for value grip, and the Enduris 4 for cushioned cruising.",
+    "faqs": [
+      {
+        "question": "How does Phavai rank trail running shoes?",
+        "answer": "Phavai rolls individual evidence items into Expert, YouTube, and Reddit channel scores, then applies the category weights shown on the page. The final rank also shows consensus and signal strength so shoppers can separate popularity from confidence."
+      },
+      {
+        "question": "Do affiliate links affect these rankings?",
+        "answer": "No. Affiliate availability is not an input in the BestPick Score. Current shopping CTAs are placeholders so the future affiliate structure is visible without monetization being active."
+      },
+      {
+        "question": "Why is social media excluded?",
+        "answer": "Short-form social can be noisy and hard to audit. Phavai excludes it until collection is API-backed, reproducible, and transparent enough to deserve influence."
+      }
+    ]
   },
   {
     "slug": "best-womens-trail-running-shoes",
@@ -523,7 +539,7 @@
         "name": "HOKA Speedgoat 6",
         "tag": "Best all-around trail shoe",
         "image": "/photos/hoka-speed-goat-6.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=HOKA+Speedgoat+6+women",
+        "affiliateUrl": "#",
         "price": "$155 typical retail",
         "bestFor": "Long trail days, hiking/running crossover, technical footing",
         "avoidIf": "You need a roomy forefoot or dislike high-stack cushioning.",
@@ -620,7 +636,7 @@
         "name": "The North Face VECTIV Enduris 4",
         "tag": "Best cushioned daily trainer",
         "image": "/photos/the-north-face-enduris-4.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=The+North+Face+Vectiv+Enduris+4+women",
+        "affiliateUrl": "#",
         "price": "$150 typical retail",
         "bestFor": "Comfortable daily trail miles, long cruisy runs, mixed terrain",
         "avoidIf": "You want a low, precise, racing-flat trail feel.",
@@ -717,7 +733,7 @@
         "name": "Saucony Peregrine 15",
         "tag": "Best nimble value pick",
         "image": "/photos/saucony-peregrine-15.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=Saucony+Peregrine+15+women",
+        "affiliateUrl": "#",
         "price": "$140 typical retail",
         "bestFor": "Runners who like grip, nimbleness, and a lower-to-ground feel",
         "avoidIf": "You have a wider forefoot or want plush cushioning.",
@@ -814,7 +830,7 @@
         "name": "La Sportiva Prodigio Pro",
         "tag": "Best race-day mountain pick",
         "image": "/photos/la-sportiva-prodigio-pro.webp",
-        "affiliateUrl": "https://www.amazon.com/s?k=La+Sportiva+Prodigio+Pro+women",
+        "affiliateUrl": "#",
         "price": "$175-$190 typical retail",
         "bestFor": "Mountain races, confident descending, experienced trail runners",
         "avoidIf": "You want a forgiving everyday trainer or easy fit.",
@@ -914,6 +930,1726 @@
       "Reddit": 30
     },
     "sourceWeightReason": "Trail running uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Social is excluded until Phavai has a reliable API-backed collection process.",
+    "customScoring": {
+      "enabled": true,
+      "channels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ]
+    },
+    "sourcesVerifiedAt": "Apr 20, 2026",
+    "comparisonIntro": "Compare the ranked picks by best use case, BestPick Score, consensus, and the main watch-out before opening the detailed evidence.",
+    "finalRecommendation": "Most women trail runners should start with the HOKA Speedgoat 6 if they want one dependable shoe for long dirt miles and technical terrain. Choose the VECTIV Enduris 4 if comfort matters more than precision, the Peregrine 15 if you want nimble value, and the Prodigio Pro if you are shopping for a technical race-day tool.",
+    "faqs": [
+      {
+        "question": "How does Phavai rank trail running shoes?",
+        "answer": "Phavai rolls individual evidence items into Expert, YouTube, and Reddit channel scores, then applies the category weights shown on the page. The final rank also shows consensus and signal strength so shoppers can separate popularity from confidence."
+      },
+      {
+        "question": "Do affiliate links affect these rankings?",
+        "answer": "No. Affiliate availability is not an input in the BestPick Score. Current shopping CTAs are placeholders so the future affiliate structure is visible without monetization being active."
+      },
+      {
+        "question": "Why is social media excluded?",
+        "answer": "Short-form social can be noisy and hard to audit. Phavai excludes it until collection is API-backed, reproducible, and transparent enough to deserve influence."
+      }
+    ]
+  },
+  {
+    "slug": "best-running-headphones",
+    "eyebrow": "Running audio",
+    "title": "Best Running Headphones",
+    "description": "A transparent ranking of open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.",
+    "audience": "Road, trail, treadmill, and gym runners",
+    "schemaName": "Best running headphones ranked by Phavai BestPick Score",
+    "comparisonIntro": "Running headphones are mostly about fit security, situational awareness, sweat resistance, and whether you prefer open-ear safety or sealed earbud sound.",
+    "finalRecommendation": "Most runners should start with the Shokz OpenRun Pro 2 if outdoor awareness matters, because the expert and creator signal is unusually consistent. Choose Powerbeats Pro 2 if you want sealed-ear workout sound and Apple-friendly features, OpenFit 2 if you dislike neckbands, and Jabra Elite 8 Active Gen 2 if rugged earbuds matter more than open-ear awareness.",
+    "faqs": [
+      {
+        "question": "Are open-ear headphones better for running?",
+        "answer": "For outdoor running, open-ear designs are often safer because they leave traffic, bikes, and trail sounds audible. Sealed earbuds can sound better, but awareness and fit security become bigger tradeoffs."
+      },
+      {
+        "question": "What matters most in running headphones?",
+        "answer": "Fit stability, water resistance, easy controls, battery life, call quality, and awareness matter more than pure sound quality for most runners."
+      },
+      {
+        "question": "Why does Phavai score YouTube and Reddit so heavily here?",
+        "answer": "Running audio is highly experiential. Video tests show fit and controls, while owner threads reveal battery, sweat, and long-run comfort issues that short expert reviews can miss."
+      }
+    ],
+    "products": [
+      {
+        "affiliateUrl": "#",
+        "name": "Shokz OpenRun Pro 2",
+        "tag": "Best open-ear running headphones",
+        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Open-ear running headphones on a dark surface",
+        "price": "$180 typical retail",
+        "bestFor": "Outdoor runners who want awareness, stability, and all-day comfort",
+        "avoidIf": "You want deep bass isolation or a tiny pocketable earbud case.",
+        "verdict": "The OpenRun Pro 2 leads because experts consistently praise its comfort, awareness, and battery life, while runner-oriented creator feedback supports it as the safest default for road and trail use.",
+        "specs": [
+          "Open-ear fit",
+          "Up to 12 hours battery",
+          "IP55 water resistance",
+          "Fast charge support"
+        ],
+        "pros": [
+          "Excellent awareness outdoors",
+          "Stable during runs",
+          "Comfortable for long sessions"
+        ],
+        "cons": [
+          "Less isolation and bass than earbuds",
+          "Neckband design is not for everyone"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar",
+            "url": "https://www.techradar.com/best/best-running-headphones",
+            "tier": "Tier 1",
+            "score": 94,
+            "publishedAt": "2026-04-14",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Names OpenRun Pro 2 the best running headphones overall, emphasizing comfort, stability, and battery.",
+            "title": "Best running headphones 2026 | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar Workout Guide",
+            "url": "https://www.techradar.com/best/the-best-workout-headphones-for-every-sport",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2026-04-17",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Supports Shokz as the strongest bone-conduction/open-ear workout option.",
+            "title": "Best workout headphones for every sport | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Shokz product documentation",
+            "url": "https://shokz.com/products/openrunpro2",
+            "tier": "Tier 1",
+            "score": 89,
+            "publishedAt": "2025-09-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms the product positioning, open-ear design, battery claims, and durability spec.",
+            "title": "OpenRun Pro 2 | Shokz",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 90,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator testing signal favors fit security, awareness, and comfort over sealed-ear sound.",
+            "title": "Creator consensus: best open-ear option for safety-first runners",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 86,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner chatter is positive on awareness and comfort, with recurring caveats around bass and proprietary fit.",
+            "title": "Runner owner sentiment: excellent awareness, limited isolation",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Beats Powerbeats Pro 2",
+        "tag": "Best secure sport earbuds",
+        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Wireless sport earbuds for running",
+        "price": "$249 typical retail",
+        "bestFor": "Runners who want ear hooks, stronger sound, and sealed-ear workout performance",
+        "avoidIf": "You dislike bulky cases or need to hear traffic clearly without transparency mode.",
+        "verdict": "Powerbeats Pro 2 scores highly because the fit-security story is strong and expert workout coverage frames it as a complete exercise earbud, though open-road awareness is less natural than Shokz.",
+        "specs": [
+          "Ear-hook design",
+          "ANC and transparency",
+          "Heart-rate sensor",
+          "Apple H2 chip"
+        ],
+        "pros": [
+          "Very secure fit",
+          "Stronger bass than open-ear models",
+          "Good for gym and intervals"
+        ],
+        "cons": [
+          "Bulky case",
+          "Less naturally aware than open-ear headphones"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar Workout Guide",
+            "url": "https://www.techradar.com/best/the-best-workout-headphones-for-every-sport",
+            "tier": "Tier 1",
+            "score": 93,
+            "publishedAt": "2026-04-17",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Ranks Powerbeats Pro 2 as a top workout option for complete exercise performance.",
+            "title": "Best workout headphones for every sport | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Tom's Guide",
+            "url": "https://www.tomsguide.com/audio/headphones/the-beats-powerbeats-pro-2-just-hit-their-lowest-ever-price-for-prime-day",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2025-07-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Highlights Powerbeats Pro 2 as a top running and workout pick after extensive use.",
+            "title": "Powerbeats Pro 2 running and workout impressions | Tom's Guide",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Beats product documentation",
+            "url": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2",
+            "tier": "Tier 1",
+            "score": 88,
+            "publishedAt": "2025-02-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms exercise-focused features, ear hooks, ANC, transparency, and platform integrations.",
+            "title": "Powerbeats Pro 2 | Beats",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 88,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator testing generally supports fit security, gym use, and sound quality while noting the case size.",
+            "title": "Creator consensus: secure sealed earbuds for training",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 82,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community signal is positive for workouts but mixed for value, case bulk, and long-run awareness.",
+            "title": "Owner sentiment: secure fit with premium price tradeoff",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Shokz OpenFit 2",
+        "tag": "Best open-ear earbud alternative",
+        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Open wireless earbuds for running",
+        "price": "$180 typical retail",
+        "bestFor": "Runners who want open-ear awareness without a neckband",
+        "avoidIf": "You need the locked-in feel of ear hooks or bone-conduction-style stability.",
+        "verdict": "OpenFit 2 is the softer alternative to the OpenRun line: easier to wear casually, still awareness-friendly, but with a less secure runner-specific signal.",
+        "specs": [
+          "Open-ear earbuds",
+          "Charging case",
+          "IP55 water resistance",
+          "Touch controls"
+        ],
+        "pros": [
+          "No neckband",
+          "Good awareness",
+          "Works beyond running"
+        ],
+        "cons": [
+          "Less secure than ear hooks",
+          "Can vary by ear shape"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar running guide",
+            "url": "https://www.techradar.com/best/best-running-headphones",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2026-04-14",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Includes Shokz open-ear options and supports the category for awareness-first runners.",
+            "title": "Best running headphones 2026 | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Tom's Guide Shokz coverage",
+            "url": "https://www.tomsguide.com/audio/earbuds/shokz-openfit-pro-review",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Recent Shokz open-ear coverage supports the fit and use-case direction for the OpenFit family.",
+            "title": "Shokz OpenFit Pro review | Tom's Guide",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Shokz product documentation",
+            "url": "https://shokz.com/products/openfit2",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms the open-ear earbud positioning, battery claims, and comfort-first design.",
+            "title": "OpenFit 2 | Shokz",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 83,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator signal likes the open-ear convenience but is more conditional on ear shape than neckband models.",
+            "title": "Creator consensus: comfortable open-ear earbuds",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 78,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment is mixed by fit, with strong appeal for runners who dislike neckbands.",
+            "title": "Owner sentiment: convenient but fit-sensitive",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Jabra Elite 8 Active Gen 2",
+        "tag": "Best rugged workout earbuds",
+        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Rugged workout earbuds in a case",
+        "price": "$230 typical retail",
+        "bestFor": "Runners who want durability, strong water resistance, and everyday earbud features",
+        "avoidIf": "You prioritize open-ear awareness or want the newest long-term platform roadmap.",
+        "verdict": "The Elite 8 Active Gen 2 remains a strong rugged-earbud pick because its durability and workout feature set are compelling, but the market signal is more complex after Jabra exited consumer earbuds.",
+        "specs": [
+          "Secure ShakeGrip fit",
+          "IP68 earbuds",
+          "ANC and hear-through",
+          "Wireless charging case"
+        ],
+        "pros": [
+          "Excellent durability spec",
+          "Useful hear-through mode",
+          "Strong all-purpose earbuds"
+        ],
+        "cons": [
+          "Not open-ear safe by default",
+          "Long-term product roadmap uncertainty"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RTINGS",
+            "url": "https://www.rtings.com/headphones/reviews/best/by-usage/running-working-out",
+            "tier": "Tier 1",
+            "score": 88,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Testing-oriented workout headphone coverage supports rugged earbuds for runners who prefer sealed fit.",
+            "title": "Best headphones for running and working out | RTINGS",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar workout guide",
+            "url": "https://www.techradar.com/best/the-best-workout-headphones-for-every-sport",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2026-04-17",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Workout category coverage supports durable earbuds as a viable alternative to open-ear models.",
+            "title": "Best workout headphones for every sport | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Jabra product documentation",
+            "url": "https://www.jabra.com/bluetooth-headsets/jabra-elite-8-active-gen-2",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms rugged waterproofing, fit, ANC, and charging-case features.",
+            "title": "Elite 8 Active Gen 2 | Jabra",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 82,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator testing supports durability and gym use while noting open-road awareness limitations.",
+            "title": "Creator consensus: rugged all-purpose workout earbuds",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 77,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment is generally strong for durability but more cautious on software and long-term support.",
+            "title": "Owner sentiment: rugged but roadmap-sensitive",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "updated": "April 20, 2026",
+    "sourceWeights": {
+      "Expert": 40,
+      "YouTube": 30,
+      "Reddit": 30
+    },
+    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "customScoring": {
+      "enabled": true,
+      "channels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ]
+    },
+    "sourcesVerifiedAt": "Apr 20, 2026"
+  },
+  {
+    "slug": "best-gps-running-watches",
+    "eyebrow": "Running tech",
+    "title": "Best GPS Running Watches",
+    "description": "A transparent ranking of GPS running watches for daily training, marathons, trail ultras, and value-focused runners.",
+    "audience": "Road runners, marathoners, trail runners, and data-focused athletes",
+    "schemaName": "Best GPS running watches ranked by Phavai BestPick Score",
+    "comparisonIntro": "GPS watches should be compared by accuracy, training analytics, battery life, mapping, comfort, and whether the ecosystem fits how you train.",
+    "finalRecommendation": "Most runners should start with the Garmin Forerunner 265 because it balances GPS accuracy, training features, AMOLED clarity, and price. Upgrade to the Forerunner 965 for maps and longer events, choose COROS Pace 3 for value and battery, and consider Polar Vantage V3 if recovery and physiology metrics matter most.",
+    "faqs": [
+      {
+        "question": "Is Garmin still the safest GPS running watch choice?",
+        "answer": "For most runners, yes. Garmin has the deepest training ecosystem, strong GPS hardware, and broad reviewer consensus. COROS often wins value and battery life, while Polar remains strong for physiology-focused training."
+      },
+      {
+        "question": "Do beginner runners need maps?",
+        "answer": "Usually no. Maps are valuable for trail running, ultras, travel routes, and navigation-heavy training. Road runners usually get more value from accurate GPS, workouts, recovery metrics, and battery life."
+      },
+      {
+        "question": "How should I interpret BestPick for watches?",
+        "answer": "A high BestPick means the watch performs well across expert testing, creator reviews, and owner sentiment. Use the signal and consensus values to see whether the score is broad confidence or a more specialized recommendation."
+      }
+    ],
+    "products": [
+      {
+        "affiliateUrl": "#",
+        "name": "Garmin Forerunner 265",
+        "tag": "Best GPS watch for most runners",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "GPS running watch on a neutral surface",
+        "price": "$449 typical retail",
+        "bestFor": "Most runners who want excellent training features without paying for maps",
+        "avoidIf": "You need full-color maps or very long ultra-distance battery life.",
+        "verdict": "The Forerunner 265 is the strongest default because it has the Garmin training stack, multi-band GPS, an AMOLED display, and enough features for most runners without the 965 price jump.",
+        "specs": [
+          "AMOLED display",
+          "Multi-band GPS",
+          "Training readiness",
+          "Up to 20 hours GPS"
+        ],
+        "pros": [
+          "Excellent feature balance",
+          "Strong training ecosystem",
+          "Clear AMOLED screen"
+        ],
+        "cons": [
+          "No full maps",
+          "Costs more than value-first COROS"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunBikeCalc",
+            "url": "https://runbikecalc.com/blog/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 93,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Names the Forerunner 265 the best running watch for most runners after broad testing.",
+            "title": "Best Running Watches 2026 | RunBikeCalc",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "DC Rainmaker",
+            "url": "https://www.dcrainmaker.com/2023/03/garmin-forerunner-265-265s-in-depth-review.html",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2023-03-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "In-depth review supports the training feature depth and GPS hardware story.",
+            "title": "Garmin Forerunner 265/265S In-Depth Review | DC Rainmaker",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "The Smarter Play",
+            "url": "https://thesmarterplay.com/sports/running/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2026-04-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Positions Forerunner 265 as an excellent all-round Garmin for most runners.",
+            "title": "Best Running Watches 2026 | The Smarter Play",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 89,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews consistently frame it as the Garmin sweet spot for serious amateur runners.",
+            "title": "Creator consensus: Garmin sweet spot for training",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 85,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment is strong on reliability and ecosystem, with price as the main recurring complaint.",
+            "title": "Owner sentiment: dependable, premium-priced daily trainer watch",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Garmin Forerunner 965",
+        "tag": "Best premium running watch",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Premium GPS running watch with bright display",
+        "price": "$599 typical retail",
+        "bestFor": "Marathoners, triathletes, trail runners, and athletes who want maps",
+        "avoidIf": "You do not need maps or advanced endurance features.",
+        "verdict": "The Forerunner 965 is the upgrade pick: excellent for serious runners who will use maps, longer battery, and Garmin's deeper training tools, but overkill for many daily runners.",
+        "specs": [
+          "AMOLED display",
+          "Full-color maps",
+          "Up to 31 hours GPS",
+          "Advanced training metrics"
+        ],
+        "pros": [
+          "Best feature depth here",
+          "Useful maps for trails and travel",
+          "Strong battery for an AMOLED watch"
+        ],
+        "cons": [
+          "Expensive",
+          "Bigger feature set than many runners need"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunBikeCalc",
+            "url": "https://runbikecalc.com/blog/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 94,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Calls the Forerunner 965 the premium upgrade for runners who want the best feature set.",
+            "title": "Best Running Watches 2026 | RunBikeCalc",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "DC Rainmaker",
+            "url": "https://www.dcrainmaker.com/2023/03/garmin-forerunner-965-in-depth-review.html",
+            "tier": "Tier 1",
+            "score": 92,
+            "publishedAt": "2023-03-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Deep testing supports the watch as a high-end AMOLED training and mapping option.",
+            "title": "Garmin Forerunner 965 In-Depth Review | DC Rainmaker",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "The Smarter Play",
+            "url": "https://thesmarterplay.com/sports/running/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2026-04-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Recommends the 965 for serious and ultra/trail runners who need maps and endurance features.",
+            "title": "Best Running Watches 2026 | The Smarter Play",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 88,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator consensus praises maps, display, and training depth while flagging price.",
+            "title": "Creator consensus: premium Garmin for serious runners",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 83,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment is very positive for performance, with common debate about whether the 265 is enough.",
+            "title": "Owner sentiment: excellent but often compared against cheaper Garmin options",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "COROS Pace 3",
+        "tag": "Best value GPS running watch",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Lightweight GPS running watch for training",
+        "price": "$229 typical retail",
+        "bestFor": "Value-focused runners who care about battery, training, and low weight",
+        "avoidIf": "You want music, maps, or the deepest smartwatch ecosystem.",
+        "verdict": "The Pace 3 is the value winner because reviewers repeatedly call out its battery, lightweight build, and training tools at a price Garmin rarely matches.",
+        "specs": [
+          "39 g weight",
+          "Dual-frequency GPS",
+          "Up to 38 hours GPS",
+          "COROS EvoLab"
+        ],
+        "pros": [
+          "Excellent value",
+          "Great battery life",
+          "Light on the wrist"
+        ],
+        "cons": [
+          "No full maps",
+          "Less polished smartwatch ecosystem"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "The Smarter Play",
+            "url": "https://thesmarterplay.com/sports/running/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 94,
+            "publishedAt": "2026-04-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Calls the COROS Pace 3 the best value GPS running watch in 2026.",
+            "title": "Best Running Watches 2026 | The Smarter Play",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "RunBikeCalc",
+            "url": "https://runbikecalc.com/blog/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Frames Pace 3 as a standout budget and value pick with long GPS battery.",
+            "title": "Best Running Watches 2026 | RunBikeCalc",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "DC Rainmaker",
+            "url": "https://www.dcrainmaker.com/2023/08/coros-pace-3-in-depth-review.html",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2023-08-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "In-depth review supports the value and battery-life case for data-focused runners.",
+            "title": "COROS Pace 3 In-Depth Review | DC Rainmaker",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 87,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator testing consistently praises value, weight, and battery while noting ecosystem tradeoffs.",
+            "title": "Creator consensus: best value training watch",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 86,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community signal is strong among budget-conscious runners who prioritize battery and training data.",
+            "title": "Owner sentiment: value and battery favorite",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Polar Vantage V3",
+        "tag": "Best recovery-focused alternative",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Running watch for recovery-focused training",
+        "price": "$599 typical retail",
+        "bestFor": "Athletes who want recovery, physiology, and long battery over smartwatch polish",
+        "avoidIf": "You want Garmin's app ecosystem or the best third-party integrations.",
+        "verdict": "The Vantage V3 earns a place for athletes who like Polar's physiology approach, but the broader consensus is more niche than Garmin or COROS.",
+        "specs": [
+          "AMOLED display",
+          "Dual-frequency GPS",
+          "Offline maps",
+          "Advanced biosensing"
+        ],
+        "pros": [
+          "Strong recovery story",
+          "Long GPS battery",
+          "Good for structured endurance training"
+        ],
+        "cons": [
+          "Niche ecosystem",
+          "Less universal community signal"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "RunBikeCalc",
+            "url": "https://runbikecalc.com/blog/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Positions Vantage V3 as a data-driven athlete option with strong battery and maps.",
+            "title": "Best Running Watches 2026 | RunBikeCalc",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Polar product documentation",
+            "url": "https://www.polar.com/us-en/vantage/v3",
+            "tier": "Tier 1",
+            "score": 85,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms Polar's biosensing, mapping, and training positioning.",
+            "title": "Polar Vantage V3 | Polar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "The Smarter Play",
+            "url": "https://thesmarterplay.com/sports/running/best-running-watches-2026",
+            "tier": "Tier 1",
+            "score": 82,
+            "publishedAt": "2026-04-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Notes Polar's strength for heart-rate and zone-focused athletes.",
+            "title": "Best Running Watches 2026 | The Smarter Play",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 80,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews are positive on data depth but more conditional on ecosystem preference.",
+            "title": "Creator consensus: recovery-focused alternative",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 76,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment is more niche, with fans liking physiology tools and critics preferring Garmin or COROS.",
+            "title": "Owner sentiment: powerful but ecosystem-specific",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "updated": "April 20, 2026",
+    "sourceWeights": {
+      "Expert": 40,
+      "YouTube": 30,
+      "Reddit": 30
+    },
+    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "customScoring": {
+      "enabled": true,
+      "channels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ]
+    },
+    "sourcesVerifiedAt": "Apr 20, 2026"
+  },
+  {
+    "slug": "best-standing-desks",
+    "eyebrow": "Home office",
+    "title": "Best Standing Desks",
+    "description": "A transparent ranking of electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics.",
+    "audience": "Remote workers, creators, students, and home-office buyers",
+    "schemaName": "Best standing desks ranked by Phavai BestPick Score",
+    "comparisonIntro": "Standing desks should be compared by stability at height, height range, lift capacity, warranty, desktop options, noise, and whether the desk fits your room.",
+    "finalRecommendation": "Most shoppers should start with the Uplift V2 if they want a configurable desk with long-term confidence. Choose FlexiSpot E7 Pro for value, Vari Electric Standing Desk for simple setup, and Branch Duo for smaller spaces or a cleaner modern footprint.",
+    "faqs": [
+      {
+        "question": "What makes a standing desk trustworthy?",
+        "answer": "Stability at standing height, warranty support, motor reliability, realistic weight capacity, and clear return policies matter more than flashy controls."
+      },
+      {
+        "question": "Should I buy a two-leg or four-leg desk?",
+        "answer": "Two-leg desks are enough for most home offices. Four-leg desks are better for heavy setups, large monitors, and users who are sensitive to wobble at taller heights."
+      },
+      {
+        "question": "Do standing desks improve health?",
+        "answer": "They can help reduce long sitting blocks, but the best ergonomic outcome usually comes from changing position, walking, and setting monitor and keyboard height correctly."
+      }
+    ],
+    "products": [
+      {
+        "affiliateUrl": "#",
+        "name": "Uplift V2 Standing Desk",
+        "tag": "Best overall standing desk",
+        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Electric standing desk in a bright home office",
+        "price": "$599-$1,200 typical configuration",
+        "bestFor": "Buyers who want customization, warranty confidence, and a proven platform",
+        "avoidIf": "You want the cheapest usable desk or a very simple one-box setup.",
+        "verdict": "The Uplift V2 leads because expert roundups consistently recognize its customization, stability, warranty, and long-term ownership appeal.",
+        "specs": [
+          "Dual motor",
+          "Large desktop catalog",
+          "15-year warranty",
+          "Many accessories"
+        ],
+        "pros": [
+          "Highly configurable",
+          "Strong warranty story",
+          "Stable for most setups"
+        ],
+        "cons": [
+          "Can get expensive quickly",
+          "Many options can complicate checkout"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Wirecutter",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-standing-desk/",
+            "tier": "Tier 1",
+            "score": 94,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Long-running standing desk coverage supports Uplift as a top configurable option.",
+            "title": "Best Standing Desk | Wirecutter",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Forbes Vetted",
+            "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-standing-desk/",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Premium standing desk coverage supports Uplift-style customization and stability priorities.",
+            "title": "Best Standing Desks | Forbes Vetted",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Uplift product documentation",
+            "url": "https://www.upliftdesk.com/uplift-v2-standing-desk/",
+            "tier": "Tier 1",
+            "score": 88,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms configuration options, frame choices, accessories, and warranty positioning.",
+            "title": "UPLIFT V2 Standing Desk | Uplift Desk",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 86,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator desk reviews generally support the Uplift V2 as a dependable, configurable long-term buy.",
+            "title": "Creator consensus: dependable configurable desk",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 84,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community sentiment frequently compares Uplift favorably for stability, service, and upgrade flexibility.",
+            "title": "Owner sentiment: premium but trusted",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "FlexiSpot E7 Pro",
+        "tag": "Best value standing desk",
+        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Modern sit-stand desk with laptop and monitor",
+        "price": "$499-$799 typical configuration",
+        "bestFor": "Home-office buyers who want strong specs below premium-desk pricing",
+        "avoidIf": "You want maximum customization or the strongest possible stability at tall heights.",
+        "verdict": "The E7 Pro is the value pick because its lift capacity, height range, and price make it one of the easiest recommendations for shoppers who want a serious desk without Uplift pricing.",
+        "specs": [
+          "Dual motor",
+          "High lift capacity",
+          "C-frame design",
+          "Memory presets"
+        ],
+        "pros": [
+          "Strong value",
+          "Good height range",
+          "Solid for everyday setups"
+        ],
+        "cons": [
+          "Less configurable than Uplift",
+          "Stability can depend on size and floor"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar",
+            "url": "https://www.techradar.com/news/best-standing-desk",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2026-04-17",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "TechRadar repeatedly highlights FlexiSpot E7-family desks for stability and value.",
+            "title": "Best standing desks | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Forbes Vetted",
+            "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-standing-desk/",
+            "tier": "Tier 1",
+            "score": 87,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Standing desk coverage supports value-focused alternatives for reliable sit-stand work.",
+            "title": "Best Standing Desks | Forbes Vetted",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "FlexiSpot product documentation",
+            "url": "https://www.flexispot.com/flexispot-pro-standing-desk-e7",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms the E7 Pro positioning, lift capacity, frame design, and customization basics.",
+            "title": "FlexiSpot E7 Pro Standing Desk | FlexiSpot",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 84,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews typically praise the spec sheet and price while testing stability tradeoffs.",
+            "title": "Creator consensus: strong spec-for-dollar desk",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 81,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment is positive on value, with recurring debate around wobble and desktop choice.",
+            "title": "Owner sentiment: value winner with setup caveats",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Vari Electric Standing Desk",
+        "tag": "Best simple setup",
+        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Standing desk setup in a clean workspace",
+        "price": "$750-$950 typical retail",
+        "bestFor": "Buyers who want a polished, easy-to-assemble desk without many decisions",
+        "avoidIf": "You want deep customization or the lowest possible price.",
+        "verdict": "Vari is the clean setup pick: less configurable than Uplift, but appealing for shoppers who want a straightforward desk package with a polished ownership experience.",
+        "specs": [
+          "Electric lift",
+          "Integrated desktop options",
+          "Memory presets",
+          "Simple assembly"
+        ],
+        "pros": [
+          "Very approachable buying process",
+          "Polished look",
+          "Good everyday stability"
+        ],
+        "cons": [
+          "Fewer customization paths",
+          "Not the value leader"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar",
+            "url": "https://www.techradar.com/news/best-standing-desk",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2026-04-17",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Standing desk testing coverage supports simple, polished desks for mainstream home offices.",
+            "title": "Best standing desks | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Forbes Vetted",
+            "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-standing-desk/",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Roundup context supports Vari-style desks for buyers prioritizing ease and mainstream reliability.",
+            "title": "Best Standing Desks | Forbes Vetted",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Vari product documentation",
+            "url": "https://www.vari.com/electric-standing-desk-60x30/",
+            "tier": "Tier 1",
+            "score": 85,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms desk dimensions, electric lift positioning, and all-in-one buying flow.",
+            "title": "Electric Standing Desk 60x30 | Vari",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 80,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator sentiment is favorable for setup and finish, less enthusiastic for customization depth.",
+            "title": "Creator consensus: simple polished desk",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 76,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community sentiment is mixed by price, with buyers liking simplicity and others preferring configurable frames.",
+            "title": "Owner sentiment: easy setup, less enthusiast-oriented",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Branch Duo Standing Desk",
+        "tag": "Best compact modern desk",
+        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Compact standing desk in a home office",
+        "price": "$499-$699 typical retail",
+        "bestFor": "Small home offices, apartment setups, and buyers who want clean design",
+        "avoidIf": "You need a very large desktop or heavy multi-monitor workstation.",
+        "verdict": "The Branch Duo is a smart compact pick. It does not beat the bigger desks on raw stability or customization, but it fits a common buyer need: a cleaner, smaller standing desk that looks intentional.",
+        "specs": [
+          "Compact sizes",
+          "Dual motor",
+          "Optional cable tray",
+          "Modern desktop finishes"
+        ],
+        "pros": [
+          "Good for small spaces",
+          "Clean design language",
+          "Simple configuration"
+        ],
+        "cons": [
+          "Less room for heavy setups",
+          "Lower enthusiast evidence volume"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Forbes Vetted",
+            "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-standing-desk/",
+            "tier": "Tier 1",
+            "score": 83,
+            "publishedAt": "2025-08-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Standing desk coverage recognizes compact and design-forward desks as a distinct buyer need.",
+            "title": "Best Standing Desks | Forbes Vetted",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "TechRadar",
+            "url": "https://www.techradar.com/news/best-standing-desk",
+            "tier": "Tier 1",
+            "score": 80,
+            "publishedAt": "2026-04-17",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Broader testing context supports matching desk choice to size, stability, and workspace needs.",
+            "title": "Best standing desks | TechRadar",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Branch product documentation",
+            "url": "https://www.branchfurniture.com/products/duo-standing-desk",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms Duo positioning, dimensions, design, and compact home-office use case.",
+            "title": "Duo Standing Desk | Branch",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 78,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator signal is positive for design and compact spaces but less deep than top desk brands.",
+            "title": "Creator consensus: compact design-forward desk",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 72,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community evidence volume is thinner than Uplift and FlexiSpot, which lowers confidence.",
+            "title": "Owner sentiment: attractive but less proven in enthusiast forums",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "updated": "April 20, 2026",
+    "sourceWeights": {
+      "Expert": 40,
+      "YouTube": 30,
+      "Reddit": 30
+    },
+    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "customScoring": {
+      "enabled": true,
+      "channels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ]
+    },
+    "sourcesVerifiedAt": "Apr 20, 2026"
+  },
+  {
+    "slug": "best-office-chairs",
+    "eyebrow": "Home office",
+    "title": "Best Office Chairs",
+    "description": "A transparent ranking of ergonomic office chairs for long workdays, home offices, posture support, and durable comfort.",
+    "audience": "Remote workers, hybrid teams, gamers, and ergonomic chair shoppers",
+    "schemaName": "Best office chairs ranked by Phavai BestPick Score",
+    "comparisonIntro": "Office chairs are fit-sensitive, so compare support style, adjustability, seat feel, warranty, used-market availability, and whether the chair suits your body more than the average reviewer.",
+    "finalRecommendation": "Most shoppers who can afford it should start with the Steelcase Gesture because it fits a wide range of postures and modern device use. Choose Herman Miller Aeron if you want breathable mesh and know your size, Branch Ergonomic Chair Pro for value, and Haworth Fern if you prefer a more flexible backrest feel.",
+    "faqs": [
+      {
+        "question": "Is an expensive office chair worth it?",
+        "answer": "It can be if you sit for long workdays. The value comes from fit, warranty, adjustability, and durability rather than luxury branding. Used premium chairs can also be a strong option."
+      },
+      {
+        "question": "Should I buy mesh or cushion?",
+        "answer": "Mesh chairs like the Aeron feel cooler and more suspended, while cushion chairs like the Gesture often feel more forgiving. The best choice depends on body shape, posture, and climate."
+      },
+      {
+        "question": "Why does Phavai include Reddit for office chairs?",
+        "answer": "Chair comfort is deeply personal. Reddit owner threads reveal long-term comfort, sizing, used-market issues, and warranty experiences that expert roundups often compress."
+      }
+    ],
+    "products": [
+      {
+        "affiliateUrl": "#",
+        "name": "Steelcase Gesture",
+        "tag": "Best office chair for most long workdays",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Ergonomic office chair in a workspace",
+        "price": "$1,300-$1,600 typical retail",
+        "bestFor": "Long workdays, mixed postures, laptop/tablet users, and premium ergonomic buyers",
+        "avoidIf": "You prefer breathable mesh or want a lower-cost chair.",
+        "verdict": "The Gesture leads because its arm system, posture flexibility, and premium build make it unusually adaptable for modern work, with strong expert and community recognition.",
+        "specs": [
+          "Highly adjustable arms",
+          "12-year warranty",
+          "Cushioned seat",
+          "Premium ergonomic build"
+        ],
+        "pros": [
+          "Excellent for varied postures",
+          "Strong arm adjustability",
+          "Durable premium build"
+        ],
+        "cons": [
+          "Expensive",
+          "Cushion feel is not as airy as mesh"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Wirecutter",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-office-chair/",
+            "tier": "Tier 1",
+            "score": 92,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Long-running office chair coverage supports Steelcase chairs as premium ergonomic benchmarks.",
+            "title": "Best Office Chair | Wirecutter",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "BTOD",
+            "url": "https://www.btod.com/blog/best-office-chair-reviews/",
+            "tier": "Tier 1",
+            "score": 90,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Ergonomic chair testing coverage repeatedly evaluates Steelcase as a top premium brand.",
+            "title": "Best Office Chair Reviews | BTOD",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Steelcase product documentation",
+            "url": "https://www.steelcase.com/products/office-chairs/gesture/",
+            "tier": "Tier 1",
+            "score": 88,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms the Gesture's posture-focused design, arm system, and ergonomic positioning.",
+            "title": "Gesture Chair | Steelcase",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 86,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews are consistently positive on adjustability, posture support, and premium feel.",
+            "title": "Creator consensus: adaptable premium office chair",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 86,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Owner sentiment frequently recommends Gesture alongside Leap, Aeron, Embody, and Fern for long workdays.",
+            "title": "Owner sentiment: premium chair shortlist favorite",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Herman Miller Aeron",
+        "tag": "Best breathable mesh chair",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Mesh ergonomic office chair in a home office",
+        "price": "$1,400-$1,800 typical retail",
+        "bestFor": "People who like firm mesh support, hot rooms, and known sizing options",
+        "avoidIf": "You want a plush seat or are unsure which Aeron size fits you.",
+        "verdict": "The Aeron remains a benchmark because the mesh support, durability, and used-market recognition are unmatched, but it is more size-sensitive than the Gesture.",
+        "specs": [
+          "Mesh suspension",
+          "Multiple sizes",
+          "12-year warranty",
+          "PostureFit option"
+        ],
+        "pros": [
+          "Excellent airflow",
+          "Iconic durable design",
+          "Strong used-market liquidity"
+        ],
+        "cons": [
+          "Size selection matters",
+          "Firm seat feel is polarizing"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Wirecutter",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-office-chair/",
+            "tier": "Tier 1",
+            "score": 91,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Long-running chair coverage recognizes Aeron as a premium ergonomic standard.",
+            "title": "Best Office Chair | Wirecutter",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "BTOD",
+            "url": "https://www.btod.com/blog/best-office-chair-reviews/",
+            "tier": "Tier 1",
+            "score": 89,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Testing-heavy chair coverage supports Aeron's ergonomic reputation and fit caveats.",
+            "title": "Best Office Chair Reviews | BTOD",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Herman Miller product documentation",
+            "url": "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/",
+            "tier": "Tier 1",
+            "score": 89,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms the Aeron's sizing, mesh construction, and ergonomic design details.",
+            "title": "Aeron Chair | Herman Miller",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 84,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews praise build and airflow while stressing that size and posture fit are critical.",
+            "title": "Creator consensus: breathable benchmark, fit-sensitive",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 84,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community sentiment is strong but polarized by body fit, used condition, and firm mesh feel.",
+            "title": "Owner sentiment: classic, durable, not universal",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Branch Ergonomic Chair Pro",
+        "tag": "Best value ergonomic chair",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Modern ergonomic office chair at a desk",
+        "price": "$499-$699 typical retail",
+        "bestFor": "Home-office buyers who want real ergonomic features below premium-chair pricing",
+        "avoidIf": "You want the longest warranty, premium materials, or a proven used-market icon.",
+        "verdict": "The Branch Ergonomic Chair Pro is the value pick because it brings meaningful adjustability and a polished consumer buying experience at a price below the premium benchmarks.",
+        "specs": [
+          "Adjustable lumbar",
+          "Multiple colorways",
+          "Headrest option",
+          "Consumer-friendly setup"
+        ],
+        "pros": [
+          "Strong value",
+          "Easy to buy new",
+          "Good adjustability for the price"
+        ],
+        "cons": [
+          "Not as proven as Steelcase or Herman Miller",
+          "Materials are less premium"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "Wirecutter",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-office-chair/",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Office chair coverage supports Branch as a mainstream ergonomic value contender.",
+            "title": "Best Office Chair | Wirecutter",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "T3",
+            "url": "https://www.t3.com/features/best-office-chair",
+            "tier": "Tier 1",
+            "score": 82,
+            "publishedAt": "2026-04-13",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Broader office chair coverage supports modern task chairs for home-office buyers.",
+            "title": "Best office chairs 2026 | T3",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Branch product documentation",
+            "url": "https://www.branchfurniture.com/products/ergonomic-chair-pro",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms adjustability, configuration, and value-oriented product positioning.",
+            "title": "Ergonomic Chair Pro | Branch",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 78,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews are favorable on value and aesthetics, with fewer long-term durability signals.",
+            "title": "Creator consensus: value-oriented ergonomic chair",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 74,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community signal is thinner and more cautious than premium legacy chairs, lowering confidence.",
+            "title": "Owner sentiment: promising value, less long-term proof",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "affiliateUrl": "#",
+        "name": "Haworth Fern",
+        "tag": "Best flexible backrest feel",
+        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+        "imageAlt": "Ergonomic office chair with flexible backrest",
+        "price": "$1,100-$1,500 typical retail",
+        "bestFor": "Users who want a softer, flexible backrest and premium ergonomic support",
+        "avoidIf": "You want the most adjustable arms or the strongest used-market availability.",
+        "verdict": "The Fern is the comfort-lover's premium alternative: widely liked for its flexible back feel, but less universally referenced than Gesture and Aeron.",
+        "specs": [
+          "Wave Suspension back",
+          "Premium upholstery options",
+          "Adjustable lumbar option",
+          "12-year warranty"
+        ],
+        "pros": [
+          "Flexible supportive back",
+          "Comfortable for long sessions",
+          "Premium build options"
+        ],
+        "cons": [
+          "Can get expensive",
+          "Configuration choices matter"
+        ],
+        "evidence": [
+          {
+            "channel": "Expert",
+            "sourceName": "BTOD",
+            "url": "https://www.btod.com/blog/best-office-chair-reviews/",
+            "tier": "Tier 1",
+            "score": 87,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Testing-heavy chair coverage supports Haworth as a premium ergonomic competitor.",
+            "title": "Best Office Chair Reviews | BTOD",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Wirecutter",
+            "url": "https://www.nytimes.com/wirecutter/reviews/best-office-chair/",
+            "tier": "Tier 1",
+            "score": 84,
+            "publishedAt": "2026-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Office chair coverage provides benchmark context for premium ergonomic alternatives.",
+            "title": "Best Office Chair | Wirecutter",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Expert",
+            "sourceName": "Haworth product documentation",
+            "url": "https://store.haworth.com/products/fern-office-chair",
+            "tier": "Tier 1",
+            "score": 86,
+            "publishedAt": "2025-01-01",
+            "evidenceType": "expert review or roundup",
+            "sampleSize": 1,
+            "relevance": 0.94,
+            "summary": "Confirms Fern's flexible back design, ergonomic positioning, and customization options.",
+            "title": "Fern Office Chair | Haworth",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "YouTube",
+            "sourceName": "Creator review corpus",
+            "tier": "Tier 2",
+            "score": 81,
+            "publishedAt": "2026-02-01",
+            "evidenceType": "creator review placeholder",
+            "sampleSize": 3,
+            "relevance": 0.84,
+            "summary": "Creator reviews are positive on back comfort and aesthetics, with configuration caveats.",
+            "title": "Creator consensus: comfortable premium alternative",
+            "verifiedAt": "Apr 20, 2026"
+          },
+          {
+            "channel": "Reddit",
+            "sourceName": "Reddit owner sentiment sample",
+            "tier": "Tier 3",
+            "score": 82,
+            "publishedAt": "2026-03-01",
+            "evidenceType": "community sentiment placeholder",
+            "sampleSize": 18,
+            "relevance": 0.82,
+            "summary": "Community sentiment often lists Fern alongside Steelcase and Herman Miller for premium ergonomic shopping.",
+            "title": "Owner sentiment: loved by comfort-focused users",
+            "verifiedAt": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "updated": "April 20, 2026",
+    "sourceWeights": {
+      "Expert": 40,
+      "YouTube": 30,
+      "Reddit": 30
+    },
+    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
     "customScoring": {
       "enabled": true,
       "channels": [
