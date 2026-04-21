@@ -1,0 +1,242 @@
+{
+  "/photos/hoka-speed-goat-6.webp": {
+    "sourceName": "Phavai local product image library",
+    "sourceUrl": "",
+    "credit": "Phavai",
+    "license": "Internal product image asset",
+    "licenseUrl": "",
+    "requiresAttribution": false,
+    "exactProduct": true,
+    "usage": "Existing local product image. Keep this asset only if Phavai owns or has permission to use the file."
+  },
+  "/photos/la-sportiva-prodigio-pro.webp": {
+    "sourceName": "Phavai local product image library",
+    "sourceUrl": "",
+    "credit": "Phavai",
+    "license": "Internal product image asset",
+    "licenseUrl": "",
+    "requiresAttribution": false,
+    "exactProduct": true,
+    "usage": "Existing local product image. Keep this asset only if Phavai owns or has permission to use the file."
+  },
+  "/photos/brooks-catamount-4.webp": {
+    "sourceName": "Phavai local product image library",
+    "sourceUrl": "",
+    "credit": "Phavai",
+    "license": "Internal product image asset",
+    "licenseUrl": "",
+    "requiresAttribution": false,
+    "exactProduct": true,
+    "usage": "Existing local product image. Keep this asset only if Phavai owns or has permission to use the file."
+  },
+  "/photos/saucony-peregrine-15.webp": {
+    "sourceName": "Phavai local product image library",
+    "sourceUrl": "",
+    "credit": "Phavai",
+    "license": "Internal product image asset",
+    "licenseUrl": "",
+    "requiresAttribution": false,
+    "exactProduct": true,
+    "usage": "Existing local product image. Keep this asset only if Phavai owns or has permission to use the file."
+  },
+  "/photos/the-north-face-enduris-4.webp": {
+    "sourceName": "Phavai local product image library",
+    "sourceUrl": "",
+    "credit": "Phavai",
+    "license": "Internal product image asset",
+    "licenseUrl": "",
+    "requiresAttribution": false,
+    "exactProduct": true,
+    "usage": "Existing local product image. Keep this asset only if Phavai owns or has permission to use the file."
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/a/ae/Garmin_Forerunner_265_musicG.jpg": {
+    "sourceName": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garmin_Forerunner_265_musicG.jpg",
+    "credit": "Valenzuela400 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "requiresAttribution": true,
+    "exactProduct": true,
+    "usage": "Exact Garmin Forerunner 265 product image with attribution."
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/5/53/Aeron_Chair_by_Herman_Miller_%289446986497%29.jpg": {
+    "sourceName": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aeron_Chair_by_Herman_Miller_(9446986497).jpg",
+    "credit": "Cubicle Sherpa / Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "requiresAttribution": true,
+    "exactProduct": true,
+    "usage": "Exact Herman Miller Aeron product image with attribution."
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/8/83/Technivorm_Moccamaster_K741.64B.jpg": {
+    "sourceName": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technivorm_Moccamaster_K741.64B.jpg",
+    "credit": "Aaaatu / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "requiresAttribution": true,
+    "exactProduct": false,
+    "usage": "Representative Technivorm Moccamaster product-family image with attribution."
+  },
+  "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://cdn.pixabay.com/photo/2022/07/23/14/43/air-purifier-7340062_640.png": {
+    "sourceName": "Pixabay",
+    "sourceUrl": "https://pixabay.com/service/license-summary/",
+    "credit": "Pixabay contributor image",
+    "license": "Pixabay Content License",
+    "licenseUrl": "https://pixabay.com/service/license-summary/",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial image; not an exact product photo."
+  }
+}

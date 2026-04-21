@@ -4,6 +4,7 @@ import ejs from "ejs";
 const categories = JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, ""));
 const sections = JSON.parse(readFileSync("data/sections.json", "utf8").replace(/^\uFEFF/, ""));
 const supportingPages = JSON.parse(readFileSync("data/supporting.json", "utf8").replace(/^\uFEFF/, ""));
+const imageSources = JSON.parse(readFileSync("data/image-sources.json", "utf8").replace(/^\uFEFF/, ""));
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
@@ -144,6 +145,16 @@ function computeSignal(product, channelScores, category) {
 }
 
 function computeProductScores(product, category) {
+  const imageInfo = imageSources[product.image] ?? {
+    sourceName: "Uncataloged image",
+    sourceUrl: "",
+    credit: "",
+    license: "",
+    licenseUrl: "",
+    requiresAttribution: false,
+    exactProduct: false,
+    usage: "Image source metadata needs review before this page is treated as production-complete."
+  };
   const channelScores = buildChannelScores(product, category);
   const rawScore = weightedMean(channelScores.map((row) => ({
     score: row.score,
@@ -157,6 +168,7 @@ function computeProductScores(product, category) {
 
   return {
     ...product,
+    imageInfo,
     sourceScores: channelScores,
     rawBestPickScore: Number(rawScore.toFixed(1)),
     bestPickScore: Math.round(rawScore),

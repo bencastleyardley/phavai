@@ -110,6 +110,13 @@
             <article class="product" id="<%= id %>" data-product-name="<%= product.name %>" data-default-score="<%= product.bestPickScore %>" data-channel-scores='<%- JSON.stringify(Object.fromEntries(product.sourceScores.map((row) => [row.source, row.score]))) %>'>
               <div class="product-media">
                 <img src="<%= product.image %>" alt="<%= product.imageAlt || product.name %>" width="500" height="500" loading="<%= product.rank === 1 ? 'eager' : 'lazy' %>" />
+                <% if (product.imageInfo?.requiresAttribution) { %>
+                  <p class="image-credit">
+                    Image:
+                    <% if (product.imageInfo.sourceUrl) { %><a href="<%= product.imageInfo.sourceUrl %>" target="_blank" rel="nofollow noopener"><%= product.imageInfo.credit %></a><% } else { %><%= product.imageInfo.credit %><% } %>
+                    <% if (product.imageInfo.licenseUrl) { %> / <a href="<%= product.imageInfo.licenseUrl %>" target="_blank" rel="nofollow noopener"><%= product.imageInfo.license %></a><% } %>
+                  </p>
+                <% } %>
               </div>
               <div>
                 <span class="rank-badge">Rank <span data-rank>#<%= product.rank %></span></span>

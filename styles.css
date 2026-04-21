@@ -371,6 +371,20 @@ h1, h2, h3, p { margin-top: 0; }
   border-radius: 8px;
   background: #e8e1d3;
 }
+
+.image-credit {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.image-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .rank-badge {
   display: inline-flex;
   align-items: center;
