@@ -49,7 +49,19 @@ test("public pages and new review guides render complete trust sections", async 
     "/best-running-headphones.html",
     "/best-gps-running-watches.html",
     "/best-standing-desks.html",
-    "/best-office-chairs.html"
+    "/best-office-chairs.html",
+    "/best-hydration-packs.html",
+    "/best-trail-running-poles.html",
+    "/best-running-vests.html",
+    "/best-recovery-sandals.html",
+    "/best-webcams-for-remote-work.html",
+    "/best-desk-mats.html",
+    "/best-monitor-arms.html",
+    "/best-ergonomic-keyboards.html",
+    "/best-carry-on-luggage.html",
+    "/best-coffee-makers.html",
+    "/best-massage-guns.html",
+    "/best-air-purifiers.html"
   ];
 
   for (const route of reviewPages) {
@@ -59,13 +71,25 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".comparison-table")).toBeVisible();
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
+    await expect(page.locator("body")).toContainText("Related");
     await expect(page.locator(".button.disabled").first()).toContainText("Affiliate link pending");
     await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
+  }
+
+  for (const route of ["/outdoor.html", "/remote-work.html", "/lifestyle.html"]) {
+    await page.goto(route);
+    await expect(page.locator("h1")).toBeVisible();
+    await expect(page.locator(".category-card").first()).toBeVisible();
+    await expect(page.locator("nav")).toContainText("Outdoor");
+    await expect(page.locator("nav")).toContainText("Remote Work");
+    await expect(page.locator("nav")).toContainText("Lifestyle");
   }
 
   for (const route of ["/about.html", "/contact.html", "/privacy.html", "/terms.html"]) {
     await page.goto(route);
     await expect(page.locator("h1")).toBeVisible();
-    await expect(page.locator("nav")).toContainText("Reviews");
+    await expect(page.locator("nav")).toContainText("Outdoor");
+    await expect(page.locator("nav")).toContainText("Remote Work");
+    await expect(page.locator("nav")).toContainText("Lifestyle");
   }
 });

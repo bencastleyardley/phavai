@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "outdoor",
+    "title": "Outdoor",
+    "eyebrow": "Outdoor buying guides",
+    "description": "Trail, running, and recovery gear ranked by transparent evidence instead of generic affiliate lists.",
+    "intro": "Outdoor gear has to work in the real world: on tired legs, in bad weather, under race pressure, and across different body types. Phavai's Outdoor hub groups running, trail, hydration, recovery, and performance gear so shoppers can compare the products that actually affect training and adventure decisions.",
+    "covered": [
+      "trail running shoes",
+      "running headphones",
+      "GPS running watches",
+      "hydration packs and vests",
+      "trail poles",
+      "recovery footwear"
+    ],
+    "trust": "Outdoor recommendations are scored from expert testing, creator field reviews, and runner-owner sentiment. The goal is to expose fit caveats, durability signals, and terrain-specific tradeoffs before a shopper clicks anything.",
+    "image": "/photos/hoka-speed-goat-6.webp",
+    "metaTitle": "Outdoor Product Reviews | Phavai",
+    "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, hydration packs, running watches, headphones, poles, vests, and recovery sandals."
+  },
+  {
+    "slug": "remote-work",
+    "title": "Remote Work",
+    "eyebrow": "Remote work buying guides",
+    "description": "Home-office gear ranked for ergonomics, reliability, daily comfort, and meeting-ready performance.",
+    "intro": "Remote work gear affects posture, focus, video presence, and how a workday feels after six hours at a desk. Phavai's Remote Work hub organizes ergonomic and desk-setup recommendations around clarity: what improves daily work, what is overkill, and what tradeoffs matter before buying.",
+    "covered": [
+      "standing desks",
+      "office chairs",
+      "webcams",
+      "desk mats",
+      "monitor arms",
+      "ergonomic keyboards"
+    ],
+    "trust": "Remote Work rankings emphasize long-term comfort, warranty support, setup friction, build quality, and owner complaints that polished product pages tend to hide.",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80",
+    "metaTitle": "Remote Work Product Reviews | Phavai",
+    "metaDescription": "Remote Work buying guides from Phavai, including standing desks, office chairs, webcams, desk mats, monitor arms, and ergonomic keyboards."
+  },
+  {
+    "slug": "lifestyle",
+    "title": "Lifestyle",
+    "eyebrow": "Lifestyle buying guides",
+    "description": "Everyday products ranked for usefulness, reliability, owner satisfaction, and clear tradeoffs.",
+    "intro": "Lifestyle purchases often look simple until the details matter: luggage wheels, coffee consistency, air-cleaning capacity, or whether a recovery tool is actually usable. Phavai's Lifestyle hub brings the same transparent scoring approach to everyday products people buy repeatedly and recommend to friends.",
+    "covered": [
+      "carry-on luggage",
+      "coffee makers",
+      "massage guns",
+      "air purifiers"
+    ],
+    "trust": "Lifestyle rankings prioritize practical ownership signals: durability, maintenance cost, ease of use, recurring complaints, and whether expert praise matches real buyer sentiment.",
+    "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=1000&q=80",
+    "metaTitle": "Lifestyle Product Reviews | Phavai",
+    "metaDescription": "Lifestyle buying guides from Phavai, including carry-on luggage, coffee makers, massage guns, and air purifiers."
+  }
+]

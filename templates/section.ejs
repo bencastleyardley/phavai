@@ -1,0 +1,149 @@
+<% const ogImage = section.image.startsWith("http") ? section.image : `https://www.phavai.com${section.image}`; %>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= section.metaTitle || `${section.title} Reviews | Phavai` %></title>
+  <meta name="description" content="<%= section.metaDescription || section.description %>" />
+  <link rel="canonical" href="https://www.phavai.com/<%= section.slug %>.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= section.title %> Reviews | Phavai" />
+  <meta property="og:description" content="<%= section.description %>" />
+  <meta property="og:image" content="<%= ogImage %>" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": `${section.title} Reviews | Phavai`,
+    "description": section.description,
+    "url": `https://www.phavai.com/${section.slug}.html`,
+    "hasPart": reviews.map((review) => ({
+      "@type": "Article",
+      "headline": review.title,
+      "url": `https://www.phavai.com/${review.slug}.html`
+    }))
+  }, null, 2) %>
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/index.html"><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
+        <a class="hide-small" href="/methodology.html">Methodology</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-hero">
+      <div class="wrap page-grid">
+        <div>
+          <a class="crumb" href="/index.html">Phavai / <%= section.title %></a>
+          <h1><%= section.title %> Reviews</h1>
+          <p class="lede"><%= section.intro %></p>
+          <div class="meta-row">
+            <span class="meta-pill">Evidence-led rankings</span>
+            <span class="meta-pill"><%= reviews.length %> live buying guides</span>
+            <span class="meta-pill">Affiliate links never affect rank</span>
+          </div>
+        </div>
+        <img class="section-hero-image" src="<%= section.image %>" alt="<%= section.title %> products" width="900" height="720" />
+      </div>
+    </section>
+
+    <section class="band surface">
+      <div class="wrap page-grid">
+        <article class="text-panel">
+          <h2>What this category covers</h2>
+          <p><%= section.description %></p>
+          <ul class="plain-list">
+            <% section.covered.forEach((item) => { %>
+              <li><%= item %></li>
+            <% }) %>
+          </ul>
+        </article>
+        <aside class="text-panel">
+          <h2>Why trust Phavai here</h2>
+          <p><%= section.trust %></p>
+          <p>Every review page shows source weights, consensus, signal strength, and the main reasons a product may not be right for you.</p>
+          <a class="button secondary" href="/methodology.html">Read the methodology</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" id="guides">
+      <div class="wrap">
+        <div class="section-head">
+          <h2><%= section.title %> buying guides</h2>
+          <p>Browse by decision. Each guide is built for fast comparison, transparent scoring, and practical tradeoffs.</p>
+        </div>
+        <div class="category-grid">
+          <% reviews.forEach((review) => { %>
+            <a class="category-card" href="/<%= review.slug %>.html">
+              <img src="<%= review.products[0].image %>" alt="<%= review.title %>" width="800" height="800" />
+              <div class="category-card-body">
+                <span class="eyebrow">BestPick guide</span>
+                <h3><%= review.title %></h3>
+                <p><%= review.description %></p>
+              </div>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How Phavai keeps this useful.</h2>
+          <p>Phavai separates the score from confidence. A product can rank high but still show fit warnings, weak evidence, or tradeoffs that should change your decision.</p>
+        </div>
+        <div class="signal-grid">
+          <div class="signal">
+            <div class="weight">40</div>
+            <b>Expert review signal</b>
+            <p>Specialist reviews, hands-on tests, and category-specific source quality carry the most weight.</p>
+          </div>
+          <div class="signal">
+            <div class="weight">30</div>
+            <b>YouTube review signal</b>
+            <p>Creator testing helps reveal setup friction, fit, ergonomics, and real-world behavior.</p>
+          </div>
+          <div class="signal">
+            <div class="weight">30</div>
+            <b>Reddit owner signal</b>
+            <p>Owner sentiment highlights recurring complaints, long-term satisfaction, and buyer regrets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>Phavai organizes product decisions by category, evidence, and confidence.</div>
+      <div>
+        <a href="/index.html">Home</a>
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
+        <a href="/methodology.html">Methodology</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

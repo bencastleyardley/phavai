@@ -53,10 +53,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/index.html"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-        <a href="/index.html#rankings">Reviews</a>
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
         <a class="hide-small" href="/methodology.html">Methodology</a>
-        <a class="hide-small" href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
       </div>
     </nav>
   </header>
@@ -64,7 +64,7 @@
   <main>
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/index.html">Phavai / <%= eyebrow %></a>
+        <a class="crumb" href="/<%= section.slug %>.html">Phavai / <%= section.title %> / <%= eyebrow %></a>
         <h1><%= title %></h1>
         <p class="lede"><%= description %> Every ranking shows the source mix, consensus, and confidence behind the recommendation.</p>
         <div class="meta-row" aria-label="Page details">
@@ -246,6 +246,20 @@
             <p><%= finalRecommendation %></p>
           </section>
           <% } %>
+
+          <% if (relatedReviews?.length) { %>
+          <section class="comparison-section" aria-labelledby="related-heading">
+            <div class="section-kicker">Related <%= section.title %> guides</div>
+            <h2 id="related-heading">Keep comparing in <%= section.title %></h2>
+            <p>Phavai groups related decisions together so you can move from this guide to adjacent products without losing the scoring context.</p>
+            <div class="link-list">
+              <a href="/<%= section.slug %>.html"><span>Back to <%= section.title %></span><span>Category hub</span></a>
+              <% relatedReviews.slice(0, 5).forEach((review) => { %>
+                <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Review guide</span></a>
+              <% }) %>
+            </div>
+          </section>
+          <% } %>
         </div>
 
         <aside class="sidebar" aria-label="Ranking summary">
@@ -286,7 +300,9 @@
       <div>Phavai ranks products by evidence quality, not payout.</div>
       <div>
         <a href="/index.html">Home</a>
-        <a href="/index.html#rankings">Reviews</a>
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
         <a href="/methodology.html">Methodology</a>
         <a href="/about.html">About</a>
         <a href="/contact.html">Contact</a>

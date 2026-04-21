@@ -2,7 +2,9 @@ import { readFileSync, writeFileSync } from "node:fs";
 import ejs from "ejs";
 
 const categories = JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, ""));
+const sections = JSON.parse(readFileSync("data/sections.json", "utf8").replace(/^\uFEFF/, ""));
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
+const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 
 const DEFAULT_SOURCE_WEIGHTS = {
   Expert: 40,
@@ -162,7 +164,8 @@ function computeProductScores(product, category) {
   };
 }
 
-for (const category of categories) {
+const sectionsBySlug = new Map(sections.map((section) => [section.slug, section]));
+const builtCategories = categories.map((category) => {
   const sourceWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
   const products = category.products
     .map((product) => computeProductScores(product, { ...category, sourceWeights }))
@@ -173,11 +176,61 @@ for (const category of categories) {
     })
     .map((product, index) => ({ ...product, rank: index + 1 }));
 
+  return { ...category, section: sectionsBySlug.get(category.sectionSlug), sourceWeights, products };
+});
+
+for (const category of builtCategories) {
+  const relatedReviews = builtCategories
+    .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug)
+    .map(({ products, ...review }) => ({ ...review, products: products.slice(0, 1) }));
   const html = ejs.render(
     categoryTemplate,
-    { ...category, sourceWeights, products },
+    { ...category, allSections: sections, relatedReviews },
     { rmWhitespace: false }
   );
   writeFileSync(`${category.slug}.html`, html, "utf8");
   console.log(`Built: ${category.slug}.html`);
 }
+
+for (const section of sections) {
+  const reviews = builtCategories.filter((category) => category.sectionSlug === section.slug);
+  const html = ejs.render(
+    sectionTemplate,
+    { section, reviews, allSections: sections },
+    { rmWhitespace: false }
+  );
+  writeFileSync(`${section.slug}.html`, html, "utf8");
+  console.log(`Built: ${section.slug}.html`);
+}
+
+const staticPages = ["methodology.html", "about.html", "contact.html", "privacy.html", "terms.html"];
+const urls = [
+  { loc: "https://www.phavai.com/", changefreq: "weekly", priority: "1.0" },
+  ...sections.map((section) => ({
+    loc: `https://www.phavai.com/${section.slug}.html`,
+    changefreq: "weekly",
+    priority: "0.9"
+  })),
+  ...builtCategories.map((category) => ({
+    loc: `https://www.phavai.com/${category.slug}.html`,
+    changefreq: "weekly",
+    priority: "0.8"
+  })),
+  ...staticPages.map((page) => ({
+    loc: `https://www.phavai.com/${page}`,
+    changefreq: page === "privacy.html" || page === "terms.html" ? "yearly" : "monthly",
+    priority: page === "methodology.html" ? "0.7" : "0.5"
+  }))
+];
+
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map((url) => `  <url>
+    <loc>${url.loc}</loc>
+    <changefreq>${url.changefreq}</changefreq>
+    <priority>${url.priority}</priority>
+  </url>`).join("\n")}
+</urlset>
+`;
+writeFileSync("sitemap.xml", sitemap, "utf8");
+console.log("Built: sitemap.xml");
