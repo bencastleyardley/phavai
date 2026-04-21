@@ -1,0 +1,168 @@
+<% const ogImage = page.image.startsWith("http") ? page.image : `https://www.phavai.com${page.image}`; %>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= page.title %> | Phavai</title>
+  <meta name="description" content="<%= page.description %>" />
+  <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="<%= page.title %> | Phavai" />
+  <meta property="og:description" content="<%= page.description %>" />
+  <meta property="og:image" content="<%= ogImage %>" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": page.title,
+    "description": page.description,
+    "dateModified": page.updated,
+    "author": {
+      "@type": "Organization",
+      "name": "Phavai"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Phavai",
+      "url": "https://www.phavai.com/"
+    },
+    "mainEntityOfPage": `https://www.phavai.com/${page.slug}.html`
+  }, null, 2) %>
+  </script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.phavai.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": section.title,
+        "item": `https://www.phavai.com/${section.slug}.html`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": page.title,
+        "item": `https://www.phavai.com/${page.slug}.html`
+      }
+    ]
+  }, null, 2) %>
+  </script>
+  <% if (page.faqs?.length) { %>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": page.faqs.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  }, null, 2) %>
+  </script>
+  <% } %>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/index.html"><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
+        <a class="hide-small" href="/methodology.html">Methodology</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-hero">
+      <div class="wrap page-grid">
+        <div>
+          <a class="crumb" href="/<%= section.slug %>.html">Phavai / <%= section.title %> / <%= page.type %></a>
+          <h1><%= page.title %></h1>
+          <p class="lede"><%= page.intro %></p>
+          <div class="meta-row">
+            <span class="meta-pill"><%= page.type %></span>
+            <span class="meta-pill">Updated <%= page.updated %></span>
+            <span class="meta-pill">Supports <%= section.title %> reviews</span>
+          </div>
+        </div>
+        <img class="section-hero-image" src="<%= page.image %>" alt="<%= page.title %>" width="900" height="720" />
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap ranking-layout">
+        <article class="content-column">
+          <div class="supporting-body">
+            <% page.sections.forEach((sectionBlock) => { %>
+              <section class="text-panel">
+                <h2><%= sectionBlock.heading %></h2>
+                <p><%= sectionBlock.body %></p>
+              </section>
+            <% }) %>
+          </div>
+
+          <% if (page.faqs?.length) { %>
+          <section class="faq-section" aria-labelledby="faq-heading">
+            <div class="section-kicker">Quick answers</div>
+            <h2 id="faq-heading"><%= page.title %> FAQ</h2>
+            <div class="faq-list">
+              <% page.faqs.forEach((faq) => { %>
+                <details>
+                  <summary><%= faq.question %></summary>
+                  <p><%= faq.answer %></p>
+                </details>
+              <% }) %>
+            </div>
+          </section>
+          <% } %>
+        </article>
+
+        <aside class="sidebar">
+          <h2>Related buying guides</h2>
+          <p>Use these ranked guides when you are ready to compare specific products with BestPick Scores, consensus, and source breakdowns.</p>
+          <div class="link-list compact">
+            <% relatedReviews.forEach((review) => { %>
+              <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Review</span></a>
+            <% }) %>
+            <a href="/<%= section.slug %>.html"><span>All <%= section.title %> guides</span><span>Hub</span></a>
+          </div>
+          <p class="disclosure">Editorial guidance is written to support comparison and shopper confidence. Product rankings remain separate from outbound shopping links.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>Phavai builds topical authority through useful guides, transparent rankings, and clear methodology.</div>
+      <div>
+        <a href="/index.html">Home</a>
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
+        <a href="/editorial-standards.html">Editorial Standards</a>
+        <a href="/methodology.html">Methodology</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

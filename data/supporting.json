@@ -1,0 +1,420 @@
+[
+  {
+    "slug": "how-to-choose-trail-running-shoes",
+    "sectionSlug": "outdoor",
+    "type": "How to choose",
+    "title": "How to Choose Trail Running Shoes",
+    "description": "A practical guide to choosing trail running shoes by terrain, fit, cushioning, grip, stability, and race distance.",
+    "updated": "April 20, 2026",
+    "image": "/photos/hoka-speed-goat-6.webp",
+    "intro": "Trail running shoes are not just road shoes with lugs. The right pair depends on terrain, distance, weather, fit, and how much ground feel you want. This guide explains the decisions that matter before you compare specific ranked picks.",
+    "relatedReviewSlugs": [
+      "best-mens-trail-running-shoes",
+      "best-womens-trail-running-shoes",
+      "best-trail-running-poles"
+    ],
+    "sections": [
+      {
+        "heading": "Start with terrain",
+        "body": "Smooth dirt paths reward lighter shoes with moderate lugs. Rocky, rooty, or off-camber trails usually need more protection, a secure upper, and an outsole that grips wet rock and loose dirt. Mud-heavy routes need deeper, more widely spaced lugs."
+      },
+      {
+        "heading": "Match cushioning to distance",
+        "body": "Max-cushion shoes can protect tired legs over long efforts, but they may feel less precise on technical trails. Lower-stack shoes can feel nimble and stable, but may punish your feet during ultras or rocky descents."
+      },
+      {
+        "heading": "Treat fit as performance",
+        "body": "A trail shoe should hold your midfoot and heel securely without crushing toes on descents. Wide feet, high volume feet, and steep downhill routes make fit more important than almost any spec sheet number."
+      },
+      {
+        "heading": "Do not overbuy race tech",
+        "body": "Plated or race-focused trail shoes can be fast, but they are not always the best daily trainer. Most runners should buy the shoe that works for 80 percent of their trail miles, then add a specialized race shoe later."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I use road running shoes on trails?",
+        "answer": "Yes on dry, smooth dirt or gravel. On technical, wet, rocky, or steep trails, trail shoes are safer because they add traction, protection, and upper security."
+      },
+      {
+        "question": "How much lug depth do I need?",
+        "answer": "Around 3-4 mm works for many mixed trails. Mud, snow, and loose mountain terrain often benefit from 5 mm or deeper lugs."
+      },
+      {
+        "question": "Should trail shoes fit bigger than road shoes?",
+        "answer": "Many runners prefer a little extra toe room for descents and foot swelling, but the heel and midfoot still need to feel secure."
+      }
+    ]
+  },
+  {
+    "slug": "hydration-pack-vs-running-vest",
+    "sectionSlug": "outdoor",
+    "type": "Comparison",
+    "title": "Hydration Pack vs Running Vest: Which Should You Buy?",
+    "description": "A clear comparison of hydration packs and running vests for trail runs, marathons, ultras, hot weather, and everyday training.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
+    "intro": "Hydration packs and running vests overlap, but they solve slightly different problems. The right choice depends on how much water, clothing, nutrition, and emergency gear you carry.",
+    "relatedReviewSlugs": [
+      "best-hydration-packs",
+      "best-running-vests",
+      "best-trail-running-poles"
+    ],
+    "sections": [
+      {
+        "heading": "Choose a running vest for shorter efforts",
+        "body": "Running vests are usually lighter, closer fitting, and built around front flask access. They work well for road long runs, moderate trail runs, and races where aid stations are frequent."
+      },
+      {
+        "heading": "Choose a hydration pack for bigger days",
+        "body": "Hydration packs carry more water, layers, food, and safety gear. They are better for unsupported routes, mountain weather, long ultras, and hikes where capacity matters more than race-light feel."
+      },
+      {
+        "heading": "Flasks vs bladder is the second decision",
+        "body": "Soft flasks are easier to refill and track. Bladders carry more water with less front bulk. Many trail runners use flasks for races and add a bladder when heat or distance demands it."
+      },
+      {
+        "heading": "Fit beats capacity",
+        "body": "A 12L pack that bounces is worse than a 5L vest that disappears on your body. Load the vest before judging fit, because empty packs can feel deceptively comfortable."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can a running vest replace a hydration pack?",
+        "answer": "For many runs, yes. For mountain weather, long unsupported routes, or mandatory race kits, a larger hydration pack is often better."
+      },
+      {
+        "question": "What size should a first vest be?",
+        "answer": "A 5L vest is a good first choice for many runners. Move to 10L-15L when you need layers, extra food, or safety gear."
+      },
+      {
+        "question": "Are hydration packs only for trail running?",
+        "answer": "No. They can be useful for hiking, commuting, long road runs, and hot-weather training."
+      }
+    ]
+  },
+  {
+    "slug": "gps-running-watch-features-that-matter",
+    "sectionSlug": "outdoor",
+    "type": "Feature explainer",
+    "title": "GPS Running Watch Features That Actually Matter",
+    "description": "A plain-English guide to GPS accuracy, maps, battery life, training readiness, heart-rate sensors, and smartwatch features.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+    "intro": "GPS watch spec sheets can make every feature sound essential. Most runners need a smaller set of reliable tools: accurate distance, useful workouts, enough battery, and training feedback they will actually use.",
+    "relatedReviewSlugs": [
+      "best-gps-running-watches",
+      "best-running-headphones",
+      "best-recovery-sandals"
+    ],
+    "sections": [
+      {
+        "heading": "GPS accuracy matters more than maps for most runners",
+        "body": "Dual-frequency GPS can improve accuracy around tall buildings, trees, and mountains. Full maps are useful for trail running and travel, but road runners often get more value from reliable tracking and workouts."
+      },
+      {
+        "heading": "Battery claims need context",
+        "body": "Smartwatch battery and GPS battery are different. AMOLED displays look better but can use more power. Ultra runners should compare GPS mode estimates, not just general smartwatch claims."
+      },
+      {
+        "heading": "Training metrics are only useful if you change behavior",
+        "body": "Training readiness, recovery scores, and race predictions can help structure training, but they should not override how you feel. The best watch is the one that helps you make better weekly decisions."
+      },
+      {
+        "heading": "Ecosystem lock-in is real",
+        "body": "Garmin, COROS, Polar, and Apple each have different apps, workout builders, and data habits. Switching later can be annoying, so choose the ecosystem as much as the watch."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do beginners need a GPS running watch?",
+        "answer": "Not always, but a watch can make training easier by tracking distance, pace, intervals, and progress without carrying a phone."
+      },
+      {
+        "question": "Is wrist heart rate accurate enough?",
+        "answer": "It is good enough for many easy runs, but chest straps are still more reliable for intervals, cold weather, and highly precise heart-rate training."
+      },
+      {
+        "question": "Should I buy the newest model?",
+        "answer": "Only if the new feature solves a real need. Previous-generation watches often offer better value."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-build-ergonomic-home-office",
+    "sectionSlug": "remote-work",
+    "type": "How to choose",
+    "title": "How to Build an Ergonomic Home Office",
+    "description": "A practical guide to setting up a home office with the right chair, desk height, monitor position, keyboard, lighting, and video-call gear.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+    "intro": "The best home office is not the most expensive one. It is the setup that keeps your body supported, your screen at the right height, and your daily tools easy to use for real work.",
+    "relatedReviewSlugs": [
+      "best-office-chairs",
+      "best-standing-desks",
+      "best-monitor-arms",
+      "best-ergonomic-keyboards"
+    ],
+    "sections": [
+      {
+        "heading": "Start with chair fit",
+        "body": "A supportive chair matters more than almost any accessory. Look for seat height range, adjustable arms, lumbar support, and a seat pan that fits your body without pressure behind the knees."
+      },
+      {
+        "heading": "Set the desk to your body",
+        "body": "Your keyboard and mouse should let your shoulders relax. A standing desk helps only if the sitting and standing heights are actually correct for you."
+      },
+      {
+        "heading": "Raise the monitor before buying more gear",
+        "body": "Eye-level monitor position can reduce neck strain quickly. A monitor arm is often a better ergonomic upgrade than a second display."
+      },
+      {
+        "heading": "Fix input strain gradually",
+        "body": "Ergonomic keyboards and mice can help, but they require adjustment. Change one major input device at a time so you can tell what actually improves comfort."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should I upgrade first?",
+        "answer": "For most people, the chair and monitor height should come before premium accessories."
+      },
+      {
+        "question": "Is a standing desk necessary?",
+        "answer": "No. It is useful if it helps you change positions, but a good chair and correct monitor setup can matter more."
+      },
+      {
+        "question": "What is the biggest remote-work setup mistake?",
+        "answer": "Buying isolated products without checking desk height, monitor height, and whether the chair actually fits your body."
+      }
+    ]
+  },
+  {
+    "slug": "standing-desk-vs-office-chair-upgrade",
+    "sectionSlug": "remote-work",
+    "type": "Comparison",
+    "title": "Standing Desk vs Office Chair: Which Upgrade Matters More?",
+    "description": "A practical comparison for remote workers deciding whether to upgrade their standing desk or office chair first.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
+    "intro": "Standing desks and office chairs both affect comfort, but they do not solve the same problem. The best first upgrade depends on how you work, how long you sit, and what hurts by the end of the day.",
+    "relatedReviewSlugs": [
+      "best-standing-desks",
+      "best-office-chairs",
+      "best-desk-mats"
+    ],
+    "sections": [
+      {
+        "heading": "Upgrade the chair first if sitting hurts",
+        "body": "If your back, hips, or shoulders hurt after normal work sessions, a better chair is usually the higher-leverage upgrade. Standing all day is not the answer to a bad sitting setup."
+      },
+      {
+        "heading": "Upgrade the desk first if your height setup is wrong",
+        "body": "If your keyboard is too high, your shoulders are tense, or you want to alternate sitting and standing, a height-adjustable desk can make the whole setup more adaptable."
+      },
+      {
+        "heading": "The best setup uses movement",
+        "body": "Ergonomics is not about finding one perfect posture. It is about changing positions, taking short breaks, and making the default setup less stressful."
+      },
+      {
+        "heading": "Do not ignore monitor height",
+        "body": "A chair and desk upgrade can still fail if the monitor is too low. Monitor arms and risers are often inexpensive fixes with immediate impact."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is standing better than sitting?",
+        "answer": "Standing is not automatically better. Alternating positions and moving regularly is usually more useful than replacing sitting with all-day standing."
+      },
+      {
+        "question": "What is the budget version of this upgrade?",
+        "answer": "Start with a chair that fits, a monitor riser, and correct keyboard height before buying premium furniture."
+      },
+      {
+        "question": "Can a standing desk fix back pain?",
+        "answer": "It may help some people change posture, but persistent pain should be handled with professional advice."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-webcam-for-remote-work",
+    "sectionSlug": "remote-work",
+    "type": "How to choose",
+    "title": "How to Choose a Webcam for Remote Work",
+    "description": "A practical guide to webcam resolution, lighting, autofocus, field of view, privacy, microphones, and meeting-room reliability.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?auto=format&fit=crop&w=900&q=80",
+    "intro": "A better webcam can make remote work feel more professional, but resolution is only one part of the decision. Lighting correction, autofocus, placement, and field of view often matter more on real calls.",
+    "relatedReviewSlugs": [
+      "best-webcams-for-remote-work",
+      "best-monitor-arms",
+      "best-desk-mats"
+    ],
+    "sections": [
+      {
+        "heading": "Do not buy resolution alone",
+        "body": "4K is useful for cropping and clarity, but a good 1080p or 2K webcam with strong exposure can look better than a cheap 4K camera in a normal room."
+      },
+      {
+        "heading": "Field of view changes the room",
+        "body": "A wide field of view can show more of your office than you want. Solo workers often look best around 70-90 degrees, while group calls need wider framing."
+      },
+      {
+        "heading": "Lighting beats most camera upgrades",
+        "body": "Before spending heavily, face a window or add a soft desk light. Webcams look dramatically better when they are not fighting backlight."
+      },
+      {
+        "heading": "Privacy and mounting matter daily",
+        "body": "A privacy shutter, stable monitor mount, and easy angle adjustment make the camera less annoying over months of calls."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a webcam if my laptop has one?",
+        "answer": "If you take frequent calls, yes. A dedicated webcam usually improves angle, clarity, and consistency."
+      },
+      {
+        "question": "Are webcam microphones enough?",
+        "answer": "They work in a pinch, but a headset or dedicated microphone is usually clearer."
+      },
+      {
+        "question": "Where should the webcam sit?",
+        "answer": "Place it near eye level, centered above or near your main screen, with light coming from in front of you."
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-air-purifier",
+    "sectionSlug": "lifestyle",
+    "type": "How to choose",
+    "title": "How to Choose an Air Purifier",
+    "description": "A practical guide to choosing air purifiers by room size, CADR, noise, filters, pet hair, allergies, smoke, and maintenance cost.",
+    "updated": "April 20, 2026",
+    "image": "https://cdn.pixabay.com/photo/2022/07/23/14/43/air-purifier-7340062_640.png",
+    "intro": "Air purifiers are easy to overbuy and easy to under-size. The right choice depends on your room, fan noise tolerance, filter cost, and whether you care most about dust, allergens, smoke, or odors.",
+    "relatedReviewSlugs": [
+      "best-air-purifiers"
+    ],
+    "sections": [
+      {
+        "heading": "Size for the actual room",
+        "body": "Room coverage claims vary. Compare CADR and choose a purifier that can clean your room at a useful air-change rate without running loudly all day."
+      },
+      {
+        "heading": "Noise matters because speed matters",
+        "body": "A purifier only helps while it is moving air. If high fan speeds are too loud, you may run it on low and get less benefit. Oversizing can keep noise down."
+      },
+      {
+        "heading": "Filter cost is part of the price",
+        "body": "Cheap purifiers can become expensive if filters cost a lot or are hard to find. Check replacement frequency and availability before buying."
+      },
+      {
+        "heading": "Odor control requires carbon",
+        "body": "HEPA-style particle filters help with dust, pollen, pet dander, and smoke particles. Odor and VOC performance depends on activated carbon quality and quantity."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do air purifiers help with allergies?",
+        "answer": "They can reduce airborne particles like pollen, dust, and pet dander, especially in bedrooms, but they work best alongside cleaning and source control."
+      },
+      {
+        "question": "Should I leave an air purifier on all day?",
+        "answer": "Many people do. Continuous low or auto mode can maintain cleaner air more effectively than occasional short bursts."
+      },
+      {
+        "question": "Do I need smart features?",
+        "answer": "Not necessarily. Smart controls are convenient, but cleaning performance, noise, and filter cost matter more."
+      }
+    ]
+  },
+  {
+    "slug": "hard-shell-vs-soft-shell-carry-on",
+    "sectionSlug": "lifestyle",
+    "type": "Comparison",
+    "title": "Hard-Shell vs Soft-Shell Carry-On Luggage",
+    "description": "A practical comparison of hard-shell and soft-shell carry-ons for frequent flyers, business travel, families, and weekend trips.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=900&q=80",
+    "intro": "Hard-shell and soft-shell carry-ons can both be excellent. The better choice depends on how you pack, how often you fly, whether you need exterior pockets, and how much you care about scuffs.",
+    "relatedReviewSlugs": [
+      "best-carry-on-luggage"
+    ],
+    "sections": [
+      {
+        "heading": "Choose hard-shell for structure",
+        "body": "Hard shells protect contents well, look clean, and often resist light rain better. They can scuff, and clamshell packing requires space to open both halves."
+      },
+      {
+        "heading": "Choose soft-shell for flexibility",
+        "body": "Soft-shell bags often have exterior pockets and more forgiving packing. They can be easier for business travel, but fabric can wear or stain over time."
+      },
+      {
+        "heading": "Wheels and handles matter more than shell type",
+        "body": "A beautiful suitcase with bad wheels is a bad suitcase. Smooth wheels, a stable handle, and useful interior compression matter more over years of travel."
+      },
+      {
+        "heading": "Airline sizing is the hidden variable",
+        "body": "Some bigger carry-ons fit many domestic flights but can fail strict checks. Frequent travelers should choose size conservatively if they hate gate-check risk."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which lasts longer?",
+        "answer": "It depends on construction. Premium soft-shell and hard-shell bags can both last years; wheels, handles, and warranty support often decide longevity."
+      },
+      {
+        "question": "Which is lighter?",
+        "answer": "Either can be light. Compare actual weight rather than assuming hard or soft shell is always lighter."
+      },
+      {
+        "question": "Which is better for business travel?",
+        "answer": "Soft-shell luggage is often more convenient for quick laptop or document access, while hard-shell luggage can look cleaner and protect contents well."
+      }
+    ]
+  },
+  {
+    "slug": "coffee-maker-features-that-matter",
+    "sectionSlug": "lifestyle",
+    "type": "Feature explainer",
+    "title": "Coffee Maker Features That Actually Matter",
+    "description": "A practical guide to coffee maker features including brew temperature, carafe type, programmability, cleaning, capacity, and certification.",
+    "updated": "April 20, 2026",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+    "intro": "Coffee maker marketing can make every feature sound essential. Most daily coffee drinkers need consistent temperature, good water distribution, easy cleaning, and a carafe that fits how they drink coffee.",
+    "relatedReviewSlugs": [
+      "best-coffee-makers"
+    ],
+    "sections": [
+      {
+        "heading": "Temperature consistency drives flavor",
+        "body": "Good drip coffee depends on water temperature and even saturation. Machines that hold proper brew temperature tend to produce more consistent cups."
+      },
+      {
+        "heading": "Choose carafe type by routine",
+        "body": "Thermal carafes keep coffee hot without cooking it on a plate. Glass carafes are easy to see and clean, but hot plates can make coffee taste stale over time."
+      },
+      {
+        "heading": "Programmability is convenience, not quality",
+        "body": "Timers and brew modes are useful, but they do not fix poor extraction. Buy programmability if it fits your morning, not because it guarantees better coffee."
+      },
+      {
+        "heading": "Cleaning determines long-term taste",
+        "body": "A great coffee maker can taste bad if it is hard to descale or clean. Removable parts and simple maintenance are worth prioritizing."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does an expensive coffee maker taste better?",
+        "answer": "Often, but not always. Better machines usually control temperature and water flow better, but beans, grind, and cleaning still matter."
+      },
+      {
+        "question": "What capacity should I buy?",
+        "answer": "Buy for your normal morning, not the rare crowd. Oversized machines can be annoying if you usually brew one or two mugs."
+      },
+      {
+        "question": "Is SCA certification useful?",
+        "answer": "It is a helpful quality signal for drip machines, but it should be weighed alongside durability, usability, and cleaning."
+      }
+    ]
+  }
+]

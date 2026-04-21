@@ -72,7 +72,8 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
     await expect(page.locator("body")).toContainText("Related");
-    await expect(page.locator(".button.disabled").first()).toContainText("Affiliate link pending");
+    await expect(page.locator(".product .button").first()).toContainText("Check price");
+    await expect(page.locator(".button.disabled")).toHaveCount(0);
     await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
   }
 
@@ -91,5 +92,17 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator("nav")).toContainText("Outdoor");
     await expect(page.locator("nav")).toContainText("Remote Work");
     await expect(page.locator("nav")).toContainText("Lifestyle");
+  }
+
+  for (const route of [
+    "/editorial-standards.html",
+    "/how-to-choose-trail-running-shoes.html",
+    "/hydration-pack-vs-running-vest.html",
+    "/how-to-build-ergonomic-home-office.html",
+    "/how-to-choose-air-purifier.html"
+  ]) {
+    await page.goto(route);
+    await expect(page.locator("h1")).toBeVisible();
+    await expect(page.locator("body")).toContainText("Phavai");
   }
 });

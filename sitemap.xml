@@ -111,9 +111,59 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.phavai.com/how-to-choose-trail-running-shoes.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/hydration-pack-vs-running-vest.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/gps-running-watch-features-that-matter.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/how-to-build-ergonomic-home-office.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/standing-desk-vs-office-chair-upgrade.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/how-to-choose-webcam-for-remote-work.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/how-to-choose-air-purifier.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/hard-shell-vs-soft-shell-carry-on.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/coffee-maker-features-that-matter.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.phavai.com/methodology.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/editorial-standards.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.phavai.com/about.html</loc>

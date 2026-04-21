@@ -3,8 +3,10 @@ import ejs from "ejs";
 
 const categories = JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, ""));
 const sections = JSON.parse(readFileSync("data/sections.json", "utf8").replace(/^\uFEFF/, ""));
+const supportingPages = JSON.parse(readFileSync("data/supporting.json", "utf8").replace(/^\uFEFF/, ""));
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
+const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
 
 const DEFAULT_SOURCE_WEIGHTS = {
   Expert: 40,
@@ -165,6 +167,12 @@ function computeProductScores(product, category) {
 }
 
 const sectionsBySlug = new Map(sections.map((section) => [section.slug, section]));
+const supportBySection = new Map(
+  sections.map((section) => [
+    section.slug,
+    supportingPages.filter((page) => page.sectionSlug === section.slug)
+  ])
+);
 const builtCategories = categories.map((category) => {
   const sourceWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
   const products = category.products
@@ -185,7 +193,12 @@ for (const category of builtCategories) {
     .map(({ products, ...review }) => ({ ...review, products: products.slice(0, 1) }));
   const html = ejs.render(
     categoryTemplate,
-    { ...category, allSections: sections, relatedReviews },
+    {
+      ...category,
+      allSections: sections,
+      relatedReviews,
+      supportingPages: supportBySection.get(category.sectionSlug) ?? []
+    },
     { rmWhitespace: false }
   );
   writeFileSync(`${category.slug}.html`, html, "utf8");
@@ -196,14 +209,31 @@ for (const section of sections) {
   const reviews = builtCategories.filter((category) => category.sectionSlug === section.slug);
   const html = ejs.render(
     sectionTemplate,
-    { section, reviews, allSections: sections },
+    {
+      section,
+      reviews,
+      supportingPages: supportBySection.get(section.slug) ?? [],
+      allSections: sections
+    },
     { rmWhitespace: false }
   );
   writeFileSync(`${section.slug}.html`, html, "utf8");
   console.log(`Built: ${section.slug}.html`);
 }
 
-const staticPages = ["methodology.html", "about.html", "contact.html", "privacy.html", "terms.html"];
+for (const page of supportingPages) {
+  const section = sectionsBySlug.get(page.sectionSlug);
+  const relatedReviews = builtCategories.filter((review) => page.relatedReviewSlugs.includes(review.slug));
+  const html = ejs.render(
+    supportingTemplate,
+    { page, section, relatedReviews, allSections: sections },
+    { rmWhitespace: false }
+  );
+  writeFileSync(`${page.slug}.html`, html, "utf8");
+  console.log(`Built: ${page.slug}.html`);
+}
+
+const staticPages = ["methodology.html", "editorial-standards.html", "about.html", "contact.html", "privacy.html", "terms.html"];
 const urls = [
   { loc: "https://www.phavai.com/", changefreq: "weekly", priority: "1.0" },
   ...sections.map((section) => ({
@@ -215,6 +245,11 @@ const urls = [
     loc: `https://www.phavai.com/${category.slug}.html`,
     changefreq: "weekly",
     priority: "0.8"
+  })),
+  ...supportingPages.map((page) => ({
+    loc: `https://www.phavai.com/${page.slug}.html`,
+    changefreq: "monthly",
+    priority: "0.7"
   })),
   ...staticPages.map((page) => ({
     loc: `https://www.phavai.com/${page}`,
