@@ -152,7 +152,7 @@
         <div class="content-column">
           <p class="disclosure affiliate-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never change the order of our picks.</p>
           <div data-product-list>
-          <% products.forEach((product) => { const id = product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); const hasVideoEvidence = product.sourceScores.some((row) => row.source === "YouTube"); const evidenceChannels = product.sourceScores.map((row) => row.source).join(", "); %>
+          <% products.forEach((product) => { const id = product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); const hasVideoEvidence = product.sourceScores.some((row) => row.source === "YouTube"); %>
             <article class="product" id="<%= id %>" data-product-name="<%= product.name %>" data-default-score="<%= product.bestPickScore %>" data-channel-scores='<%- JSON.stringify(Object.fromEntries(product.sourceScores.map((row) => [row.source, row.score]))) %>'>
               <div class="product-media">
                 <img src="<%= product.image %>" alt="<%= product.imageAlt || product.name %>" width="500" height="500" loading="<%= product.rank === 1 ? 'eager' : 'lazy' %>" />
@@ -179,11 +179,50 @@
                 <p class="score-note">Based on <%= product.evidenceCount %> review and owner-feedback inputs. Custom score: <span data-raw-score><%= product.rawBestPickScore %></span>/100. Difference from the editorial default: <span data-score-delta>0</span>.</p>
 
                 <div class="product-signal-grid" aria-label="Scoring signals for <%= product.name %>">
-                  <% product.sourceScores.forEach((row) => { %>
+                  <% product.sourceScores.forEach((row) => { const signalTier = product.evidenceSummary.tiers.find((tier) => tier.label === row.source); const likeSources = signalTier?.likes.sources ?? []; const cautionSources = signalTier?.cautions.sources ?? []; %>
                     <div class="product-signal">
                       <span><%= row.source %></span>
                       <strong><%= row.score %></strong>
                       <small><%= row.weight %>% adjusted weight</small>
+                      <% if (signalTier && (likeSources.length || cautionSources.length)) { %>
+                        <details class="signal-evidence">
+                          <summary>View links</summary>
+                          <div class="signal-evidence-body">
+                            <% if (likeSources.length) { %>
+                              <section class="signal-evidence-group like-panel">
+                                <span class="source-section-label">What people like</span>
+                                <p><%= signalTier.likes.interpretation %></p>
+                                <div class="source-link-list">
+                                  <% likeSources.forEach((item, sourceIndex) => { %>
+                                    <a class="source-link <%= sourceIndex === 0 && item.is_primary_source ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                      <span><%= item.sourceLabel %><% if (sourceIndex === 0 && item.is_primary_source) { %> / Best evidence<% } %></span>
+                                      <b><%= item.title || item.sourceName %></b>
+                                      <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                                      <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
+                                    </a>
+                                  <% }) %>
+                                </div>
+                              </section>
+                            <% } %>
+                            <% if (cautionSources.length) { %>
+                              <section class="signal-evidence-group caution-panel">
+                                <span class="source-section-label">What people caution</span>
+                                <p><%= signalTier.cautions.interpretation %></p>
+                                <div class="source-link-list">
+                                  <% cautionSources.forEach((item) => { %>
+                                    <a class="source-link" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                      <span><%= item.sourceLabel %></span>
+                                      <b><%= item.title || item.sourceName %></b>
+                                      <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                                      <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
+                                    </a>
+                                  <% }) %>
+                                </div>
+                              </section>
+                            <% } %>
+                          </div>
+                        </details>
+                      <% } %>
                     </div>
                   <% }) %>
                 </div>
@@ -193,61 +232,6 @@
                     <li><%= spec %></li>
                   <% }) %>
                 </ul>
-
-                <details class="source-accordion">
-                  <summary>
-                    <span>View evidence</span>
-                    <small><%= evidenceChannels %> proof</small>
-                  </summary>
-                  <div class="source-tier-list">
-                    <% product.evidenceSummary.tiers.forEach((tier, tierIndex) => { %>
-                      <details class="source-tier" <%= tierIndex === 0 ? 'open' : '' %>>
-                        <summary>
-                          <span><%= tier.label %></span>
-                          <small><%= tier.description %></small>
-                        </summary>
-                        <div class="source-tier-body <%= !tier.likes.sources.length || !tier.cautions.sources.length ? 'single-column' : '' %>">
-                          <% if (tier.likes.sources.length) { %>
-                          <section class="source-synthesis-panel like-panel">
-                            <span class="source-section-label">What people like</span>
-                            <p><%= tier.likes.interpretation %></p>
-                            <div class="source-link-list">
-                              <% tier.likes.sources.forEach((item, sourceIndex) => { %>
-                                <a class="source-link <%= sourceIndex === 0 && item.is_primary_source ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                  <span><%= item.sourceLabel %><% if (sourceIndex === 0 && item.is_primary_source) { %> / Best evidence<% } %></span>
-                                  <b><%= item.title || item.sourceName %></b>
-                                  <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
-                                  <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
-                                </a>
-                              <% }) %>
-                            </div>
-                          </section>
-                          <% } %>
-
-                          <% if (tier.cautions.sources.length) { %>
-                          <section class="source-synthesis-panel caution-panel">
-                            <span class="source-section-label">What people caution</span>
-                            <p><%= tier.cautions.interpretation %></p>
-                            <div class="source-link-list">
-                              <% tier.cautions.sources.forEach((item) => { %>
-                                <a class="source-link" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                  <span><%= item.sourceLabel %></span>
-                                  <b><%= item.title || item.sourceName %></b>
-                                  <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
-                                  <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
-                                </a>
-                              <% }) %>
-                            </div>
-                          </section>
-                          <% } %>
-                        </div>
-                      </details>
-                    <% }) %>
-                  </div>
-                  <% if (product.internalEvidenceCount > 0) { %>
-                    <p class="source-governance-note"><%= product.internalEvidenceCount %> internal research notes stay out of the public drawer until they have exact, buyer-helpful URLs.</p>
-                  <% } %>
-                </details>
 
                 <div class="editorial-callout">
                   <strong>Why it earned this spot</strong>

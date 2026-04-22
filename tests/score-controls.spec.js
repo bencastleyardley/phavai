@@ -17,11 +17,11 @@ test("score controls recalculate, explain rank changes, and persist weights", as
 
   await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
   await expect(page.locator("body")).toContainText("Sources checked Apr 20, 2026");
-  await page.locator("#hoka-speedgoat-7 .source-accordion > summary").click();
-  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("What people like");
-  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("What people caution");
-  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("checked Apr 22, 2026");
-  await expect(page.locator("#hoka-speedgoat-7 .source-accordion > summary")).toContainText("View evidence");
+  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toHaveCount(0);
+  await page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence > summary").click();
+  await expect(page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence")).toContainText("What people like");
+  await expect(page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence")).toContainText("What people caution");
+  await expect(page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence")).toContainText("checked Apr 22, 2026");
   const quickSourceOverlap = await page.locator("#hoka-speedgoat-7").evaluate((product) => {
     const good = Array.from(product.querySelectorAll(".like-panel a")).map((link) => link.href);
     const bad = Array.from(product.querySelectorAll(".caution-panel a")).map((link) => link.href);
@@ -80,10 +80,10 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
     await expect(page.locator(".affiliate-disclosure")).toContainText("As an Amazon Associate");
-    await expect(page.locator(".source-accordion").first()).toContainText("View evidence");
-    await expect(page.locator(".source-accordion").first()).toContainText("Expert");
-    await expect(page.locator(".source-accordion").first()).toContainText("Reddit");
-    await expect(page.locator(".source-accordion").first()).toContainText("What people like");
+    await expect(page.locator(".source-accordion")).toHaveCount(0);
+    await expect(page.locator(".product .signal-evidence").first()).toContainText("View links");
+    await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("Expert");
+    await expect(page.locator(".product").first().locator(".signal-evidence").first()).toContainText("What people like");
     await expect(page.locator(".source-table")).toHaveCount(0);
     await expect(page.locator('a[href*="youtube.com/results"], a[href*="reddit.com/search"]')).toHaveCount(0);
     await expect(page.locator("body")).toContainText("Related");
@@ -96,7 +96,7 @@ test("public pages and new review guides render complete trust sections", async 
 
   await page.goto("/best-standing-desks.html");
   await expect(page.locator(".product").first()).not.toContainText("YouTube");
-  await expect(page.locator(".product").first().locator(".source-accordion > summary")).toContainText("Expert, Reddit proof");
+  await expect(page.locator(".product").first().locator(".source-accordion")).toHaveCount(0);
   await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("adjusted weight");
 
   for (const route of ["/outdoor.html", "/remote-work.html", "/lifestyle.html"]) {
