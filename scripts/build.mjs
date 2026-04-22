@@ -52,6 +52,75 @@ const SOURCE_LABELS = {
   retailer: "Retailer page"
 };
 
+const CORE_ROUNDUP_SLUGS = new Set([
+  "best-mens-trail-running-shoes",
+  "best-womens-trail-running-shoes",
+  "best-running-headphones",
+  "best-gps-running-watches",
+  "best-hydration-packs",
+  "best-trail-running-poles",
+  "best-running-vests",
+  "best-recovery-sandals",
+  "best-standing-desks",
+  "best-office-chairs",
+  "best-webcams-for-remote-work",
+  "best-desk-mats",
+  "best-monitor-arms",
+  "best-ergonomic-keyboards",
+  "best-carry-on-luggage",
+  "best-coffee-makers",
+  "best-massage-guns",
+  "best-air-purifiers"
+]);
+
+const CATEGORY_ICON_SVGS = {
+  outdoor: `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 46 24 18l10 18 7-10 15 20H8Z"/><path d="M23 28h7m11 8h6"/></svg>`,
+  "remote-work": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="14" width="40" height="28" rx="4"/><path d="M24 52h16m-8-10v10"/></svg>`,
+  lifestyle: `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="18" width="28" height="34" rx="6"/><path d="M25 18v-4h14v4M18 30h28"/></svg>`
+};
+
+const REVIEW_ICON_BY_SLUG = {
+  "best-mens-trail-running-shoes": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 41c8 2 18-4 25-16l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-6Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg>`,
+  "best-womens-trail-running-shoes": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 42c10 1 17-5 23-15l17 9c3 4 2 10-4 11H18c-4 0-7-2-7-5Z"/><path d="M28 30h8m-13 6h10"/></svg>`,
+  "best-running-headphones": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 36V28a16 16 0 0 1 32 0v8"/><rect x="10" y="34" width="10" height="16" rx="5"/><rect x="44" y="34" width="10" height="16" rx="5"/></svg>`,
+  "best-gps-running-watches": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="18" width="20" height="28" rx="8"/><path d="M26 18V8h12v10M26 46v10h12V46m-6-19v7l5 4"/></svg>`,
+  "best-hydration-packs": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg>`,
+  "best-trail-running-poles": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 8v48M40 8v48M18 18h12M34 18h12M20 56h8m8 0h8"/></svg>`,
+  "best-running-vests": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l7 16v24H15V28l7-16Z"/><path d="M25 12v40M39 12v40M25 31h14"/></svg>`,
+  "best-recovery-sandals": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 43c7-12 18-17 36-16 2 12-6 20-21 20-7 0-12-1-15-4Z"/><path d="M29 29c3 4 4 9 2 16"/></svg>`,
+  "best-standing-desks": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 26h44M16 26v28m32-28v28M20 14h24v12"/></svg>`,
+  "best-office-chairs": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 10h18l2 26H21l2-26ZM18 36h28v8H18zM32 44v12m-11 0h22"/></svg>`,
+  "best-webcams-for-remote-work": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="16" y="16" width="32" height="24" rx="8"/><circle cx="32" cy="28" r="6"/><path d="M24 50h16m-8-10v10"/></svg>`,
+  "best-desk-mats": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="18" width="40" height="28" rx="5"/><path d="M20 26h24M20 34h18"/></svg>`,
+  "best-monitor-arms": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="36" height="28" rx="4"/><path d="M46 26h8v20H34m-6-6v10"/></svg>`,
+  "best-ergonomic-keyboards": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="20" width="44" height="26" rx="5"/><path d="M18 29h4m7 0h4m7 0h4M18 37h28"/></svg>`,
+  "best-carry-on-luggage": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="16" width="28" height="36" rx="6"/><path d="M26 16v-5h12v5M24 52v4m16-4v4M28 24h8"/></svg>`,
+  "best-coffee-makers": `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 22h28v14a12 12 0 0 1-24 0V22Z"/><path d="M46 27h4a6 6 0 0 1 0 12h-4M24 12v5m8-5v5m8-5v5"/></svg>`,
+  "best-massage-guns": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="26" y="11" width="16" height="28" rx="7" transform="rotate(35 34 25)"/><path d="M23 34 13 49m29-28 9-7M44 42l6 8"/></svg>`,
+  "best-air-purifiers": `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="10" width="28" height="44" rx="8"/><path d="M25 22h14M25 30h14M25 38h14"/><circle cx="32" cy="47" r="2"/></svg>`
+};
+
+const REVIEW_ICON_RULES = [
+  [/headphone|earbud/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 36V28a16 16 0 0 1 32 0v8"/><rect x="10" y="34" width="10" height="16" rx="5"/><rect x="44" y="34" width="10" height="16" rx="5"/></svg>`],
+  [/watch|gps/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="18" width="20" height="28" rx="8"/><path d="M26 18V8h12v10M26 46v10h12V46m-6-19v7l5 4"/></svg>`],
+  [/hydration|vest|pack/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg>`],
+  [/pole/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 8v48M40 8v48M18 18h12M34 18h12M20 56h8m8 0h8"/></svg>`],
+  [/sandal|slide|recovery/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 43c7-12 18-17 36-16 2 12-6 20-21 20-7 0-12-1-15-4Z"/><path d="M29 29c3 4 4 9 2 16"/></svg>`],
+  [/desk/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 26h44M16 26v28m32-28v28M20 14h24v12"/></svg>`],
+  [/chair/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 10h18l2 26H21l2-26ZM18 36h28v8H18zM32 44v12m-11 0h22"/></svg>`],
+  [/webcam/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="16" y="16" width="32" height="24" rx="8"/><circle cx="32" cy="28" r="6"/><path d="M24 50h16m-8-10v10"/></svg>`],
+  [/mat/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="18" width="40" height="28" rx="5"/><path d="M20 26h24M20 34h18"/></svg>`],
+  [/monitor|arm/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="36" height="28" rx="4"/><path d="M46 26h8v20H34m-6-6v10"/></svg>`],
+  [/keyboard/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="20" width="44" height="26" rx="5"/><path d="M18 29h4m7 0h4m7 0h4M18 37h28"/></svg>`],
+  [/luggage|carry/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="16" width="28" height="36" rx="6"/><path d="M26 16v-5h12v5M24 52v4m16-4v4M28 24h8"/></svg>`],
+  [/coffee/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 22h28v14a12 12 0 0 1-24 0V22Z"/><path d="M46 27h4a6 6 0 0 1 0 12h-4M24 12v5m8-5v5m8-5v5"/></svg>`],
+  [/massage/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="26" y="11" width="16" height="28" rx="7" transform="rotate(35 34 25)"/><path d="M23 34 13 49m29-28 9-7M44 42l6 8"/></svg>`],
+  [/purifier|air/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="10" width="28" height="44" rx="8"/><path d="M25 22h14M25 30h14M25 38h14"/><circle cx="32" cy="47" r="2"/></svg>`],
+  [/shoe|trainer|trail|marathon/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg>`]
+];
+
+const DEFAULT_REVIEW_ICON = `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg>`;
+
 const ONE_MONTH_MS = 1000 * 60 * 60 * 24 * 30.4375;
 const SITE_LAST_MODIFIED = "2026-04-22";
 
@@ -78,6 +147,16 @@ function escapeHtml(value) {
     "\"": "&quot;",
     "'": "&#39;"
   })[char]);
+}
+
+function iconSvg(slug) {
+  return CATEGORY_ICON_SVGS[slug] ?? DEFAULT_REVIEW_ICON;
+}
+
+function reviewIconFor(category) {
+  if (REVIEW_ICON_BY_SLUG[category.slug]) return REVIEW_ICON_BY_SLUG[category.slug];
+  const haystack = `${category.title} ${category.slug}`.toLowerCase();
+  return REVIEW_ICON_RULES.find(([pattern]) => pattern.test(haystack))?.[1] ?? DEFAULT_REVIEW_ICON;
 }
 
 function parseDomain(url = "") {
@@ -233,6 +312,82 @@ function bestDisplayEvidence(evidence) {
   const nonBrandEvidence = publicEvidence.filter((item) => !["brand", "specs", "retailer"].includes(item.source_type));
   const candidates = nonBrandEvidence.length ? nonBrandEvidence : publicEvidence;
   return [...candidates].sort(publicSourceSort)[0] ?? [...evidence].sort((a, b) => b.evidenceWeight - a.evidenceWeight)[0];
+}
+
+function cleanSentence(value = "") {
+  const trimmed = String(value).trim().replace(/\s+/g, " ");
+  if (!trimmed) return "";
+  return /[.!?]$/.test(trimmed) ? trimmed : `${trimmed}.`;
+}
+
+function summarizeLikes(product) {
+  const themes = (product.positiveThemes?.length ? product.positiveThemes : product.pros ?? [])
+    .slice(0, 2)
+    .map(cleanSentence)
+    .filter(Boolean);
+
+  if (themes.length) return themes.join(" ");
+  return cleanSentence(`Best fit: ${product.bestFor}`);
+}
+
+function summarizeCautions(product) {
+  const themes = (product.cautionThemes?.length ? product.cautionThemes : product.cons ?? [])
+    .slice(0, 2)
+    .map(cleanSentence)
+    .filter(Boolean);
+
+  if (themes.length) return themes.join(" ");
+  return cleanSentence(`Skip it if ${product.avoidIf}`);
+}
+
+function sourceBucketSort(bucket) {
+  return (a, b) => {
+    if (bucket === "caution") {
+      if ((a.score ?? 100) !== (b.score ?? 100)) return (a.score ?? 100) - (b.score ?? 100);
+    }
+    return publicSourceSort(a, b);
+  };
+}
+
+function selectSourcesByType(evidence, sourceType, bucket, limit = 3) {
+  const candidates = evidence
+    .filter((item) => item.is_public && item.source_type === sourceType)
+    .filter((item) => item.url && !item.is_generic_discovery)
+    .sort(sourceBucketSort(bucket));
+
+  return candidates.slice(0, limit);
+}
+
+function buildEvidenceGroups(evidence, bucket) {
+  return [
+    {
+      label: "Expert reviews",
+      sources: selectSourcesByType(evidence, "expert", bucket, bucket === "like" ? 3 : 2)
+    },
+    {
+      label: "YouTube testing",
+      sources: selectSourcesByType(evidence, "youtube", bucket, 3)
+    },
+    {
+      label: "Reddit owner discussion",
+      sources: selectSourcesByType(evidence, "reddit", bucket, 3)
+    }
+  ].filter((group) => group.sources.length);
+}
+
+function buildEvidenceSummary(product, channelScores) {
+  const evidence = channelScores.flatMap((row) => row.evidence);
+
+  return {
+    likes: {
+      interpretation: summarizeLikes(product),
+      groups: buildEvidenceGroups(evidence, "like")
+    },
+    cautions: {
+      interpretation: summarizeCautions(product),
+      groups: buildEvidenceGroups(evidence, "caution")
+    }
+  };
 }
 
 function renderMeasurementTags() {
@@ -430,6 +585,7 @@ function computeProductScores(product, category) {
     ...normalizedProduct,
     imageInfo,
     sourceScores: channelScores,
+    evidenceSummary: buildEvidenceSummary(normalizedProduct, channelScores),
     publicEvidence: selectPublicEvidence(channelScores.flatMap((row) => row.evidence)),
     internalEvidenceCount: normalizedEvidence.filter((item) => !item.is_public).length,
     rawBestPickScore: Number(rawScore.toFixed(1)),
@@ -458,13 +614,20 @@ const builtCategories = categories.map((category) => {
     })
     .map((product, index) => ({ ...product, rank: index + 1 }));
 
-  return { ...category, section: sectionsBySlug.get(category.sectionSlug), sourceWeights, products };
+  return {
+    ...category,
+    section: sectionsBySlug.get(category.sectionSlug),
+    sourceWeights,
+    products,
+    isCoreRoundup: CORE_ROUNDUP_SLUGS.has(category.slug),
+    iconSvg: reviewIconFor(category)
+  };
 });
 
 for (const category of builtCategories) {
   const relatedReviewOrder = new Map((category.relatedReviewSlugs ?? []).map((slug, index) => [slug, index]));
   const relatedReviews = builtCategories
-    .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug)
+    .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug && review.isCoreRoundup)
     .sort((a, b) => {
       const aOrder = relatedReviewOrder.has(a.slug) ? relatedReviewOrder.get(a.slug) : 1000;
       const bOrder = relatedReviewOrder.has(b.slug) ? relatedReviewOrder.get(b.slug) : 1000;
@@ -478,7 +641,7 @@ for (const category of builtCategories) {
       ...category,
       allSections: sections,
       relatedReviews,
-      supportingPages: supportBySection.get(category.sectionSlug) ?? []
+      supportingPages: []
     },
     { rmWhitespace: false }
   );
@@ -487,13 +650,13 @@ for (const category of builtCategories) {
 }
 
 for (const section of sections) {
-  const reviews = builtCategories.filter((category) => category.sectionSlug === section.slug);
+  const reviews = builtCategories.filter((category) => category.sectionSlug === section.slug && category.isCoreRoundup);
   const html = ejs.render(
     sectionTemplate,
     {
-      section,
+      section: { ...section, iconSvg: iconSvg(section.slug) },
       reviews,
-      supportingPages: supportBySection.get(section.slug) ?? [],
+      supportingPages: [],
       sourceTrust: sourceGovernance.sections?.[section.slug],
       allSections: sections
     },

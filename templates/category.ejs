@@ -221,32 +221,58 @@
                   <% }) %>
                 </div>
 
-                <details class="evidence-panel">
-                  <summary>Why these sources</summary>
-                  <p class="evidence-intro">Best evidence appears first. Broader discovery notes stay internal unless there is an exact, useful URL worth showing publicly.</p>
-                  <div class="evidence-list premium-sources">
-                    <% product.publicEvidence.forEach((item, sourceIndex) => { %>
-                      <a class="evidence-item source-card <%= sourceIndex === 0 ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                        <span>
-                          <%= item.sourceLabel %>
-                          <% if (sourceIndex === 0) { %> / Best evidence<% } %>
-                          <% if (item.is_primary_source) { %> / Primary source<% } %>
-                        </span>
-                        <b><%= item.title || item.sourceName %></b>
-                        <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
-                        <p><%= item.evidence_note || item.summary %></p>
-                        <em><%= item.trust_reason %></em>
-                        <% if (item.source_type === "youtube" && item.video_id) { %>
-                          <small>Video ID <%= item.video_id %><% if (item.timestamp_start) { %> - starts at <%= item.timestamp_label %><% } %></small>
-                        <% } %>
-                        <% if (item.source_type === "reddit" && item.subreddit) { %>
-                          <small>r/<%= item.subreddit %> - <%= item.discussion_quality %> discussion quality - <%= item.permalink_type.replace("_", " ") %></small>
-                        <% } %>
-                      </a>
-                    <% }) %>
+                <details class="source-accordion">
+                  <summary>
+                    <span>View sources</span>
+                    <small>Upside, cautions, and proof</small>
+                  </summary>
+                  <div class="source-synthesis">
+                    <section class="source-synthesis-panel like-panel">
+                      <div>
+                        <span class="source-section-label">What people like</span>
+                        <p><%= product.evidenceSummary.likes.interpretation %></p>
+                      </div>
+                      <% product.evidenceSummary.likes.groups.forEach((group) => { %>
+                        <div class="source-group">
+                          <h3><%= group.label %></h3>
+                          <div class="source-link-list">
+                            <% group.sources.forEach((item, sourceIndex) => { %>
+                              <a class="source-link <%= sourceIndex === 0 && item.is_primary_source ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                <span><%= item.sourceLabel %><% if (sourceIndex === 0 && item.is_primary_source) { %> / Best evidence<% } %></span>
+                                <b><%= item.title || item.sourceName %></b>
+                                <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                                <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
+                              </a>
+                            <% }) %>
+                          </div>
+                        </div>
+                      <% }) %>
+                    </section>
+
+                    <section class="source-synthesis-panel caution-panel">
+                      <div>
+                        <span class="source-section-label">What people caution</span>
+                        <p><%= product.evidenceSummary.cautions.interpretation %></p>
+                      </div>
+                      <% product.evidenceSummary.cautions.groups.forEach((group) => { %>
+                        <div class="source-group">
+                          <h3><%= group.label %></h3>
+                          <div class="source-link-list">
+                            <% group.sources.forEach((item) => { %>
+                              <a class="source-link" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                <span><%= item.sourceLabel %></span>
+                                <b><%= item.title || item.sourceName %></b>
+                                <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                                <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
+                              </a>
+                            <% }) %>
+                          </div>
+                        </div>
+                      <% }) %>
+                    </section>
                   </div>
                   <% if (product.internalEvidenceCount > 0) { %>
-                    <p class="source-governance-note"><%= product.internalEvidenceCount %> additional internal research notes are excluded from public citation until they have exact, buyer-helpful URLs.</p>
+                    <p class="source-governance-note"><%= product.internalEvidenceCount %> internal research notes stay out of the public drawer until they have exact, buyer-helpful URLs.</p>
                   <% } %>
                 </details>
 

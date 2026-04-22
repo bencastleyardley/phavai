@@ -11,15 +11,7 @@
       "GPS running watches",
       "hydration packs and vests",
       "trail poles",
-      "recovery footwear",
-      "100-mile trail shoes",
-      "technical trail shoes",
-      "wide-foot trail shoes",
-      "mud trail shoes",
-      "beginner trail shoes",
-      "ultrarunning GPS watches",
-      "100K and 100-mile hydration vests",
-      "road marathon shoes"
+      "recovery footwear"
     ],
     "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner feedback that reveals what breaks down after the first few outings.",
     "matters": [
@@ -38,7 +30,7 @@
     ],
     "image": "/photos/generated/section-outdoor.svg",
     "metaTitle": "Outdoor Product Reviews | Phavai",
-    "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, long-tail running shoe picks, hydration packs, GPS watches, headphones, poles, vests, and recovery sandals."
+    "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, hydration packs, GPS watches, running headphones, poles, vests, and recovery sandals."
   },
   {
     "slug": "remote-work",
