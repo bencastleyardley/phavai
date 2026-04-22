@@ -21,11 +21,10 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("What people like");
   await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("What people caution");
   await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("checked Apr 22, 2026");
-  await expect(page.locator("#hoka-speedgoat-7 .quick-source-actions").first()).toContainText("Good");
-  await expect(page.locator("#hoka-speedgoat-7 .quick-source-actions").first()).toContainText("Bad");
+  await expect(page.locator("#hoka-speedgoat-7 .source-accordion > summary")).toContainText("View evidence");
   const quickSourceOverlap = await page.locator("#hoka-speedgoat-7").evaluate((product) => {
-    const good = Array.from(product.querySelectorAll(".quick-source-drop:not(.caution) a")).map((link) => link.href);
-    const bad = Array.from(product.querySelectorAll(".quick-source-drop.caution a")).map((link) => link.href);
+    const good = Array.from(product.querySelectorAll(".like-panel a")).map((link) => link.href);
+    const bad = Array.from(product.querySelectorAll(".caution-panel a")).map((link) => link.href);
     return good.filter((url) => bad.includes(url));
   });
   expect(quickSourceOverlap).toEqual([]);
@@ -74,21 +73,18 @@ test("public pages and new review guides render complete trust sections", async 
 
   for (const route of reviewPages) {
     await page.goto(route);
+    await expect(page.locator('link[rel="icon"][href="/favicon.svg"]')).toHaveCount(1);
     await expect(page.locator("h1")).toBeVisible();
     await expect(page.locator(".product").first()).toBeVisible();
     await expect(page.locator(".comparison-table")).toBeVisible();
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
     await expect(page.locator(".affiliate-disclosure")).toContainText("As an Amazon Associate");
-    await expect(page.locator(".source-accordion").first()).toContainText("View sources");
+    await expect(page.locator(".source-accordion").first()).toContainText("View evidence");
     await expect(page.locator(".source-accordion").first()).toContainText("Expert");
-    await expect(page.locator(".source-accordion").first()).toContainText("YouTube");
     await expect(page.locator(".source-accordion").first()).toContainText("Reddit");
     await expect(page.locator(".source-accordion").first()).toContainText("What people like");
-    const quickSourceCount = await page.locator(".quick-source-actions").count();
-    if (quickSourceCount > 0) {
-      await expect(page.locator(".quick-source-actions").first()).toContainText("Good");
-    }
+    await expect(page.locator(".source-table")).toHaveCount(0);
     await expect(page.locator('a[href*="youtube.com/results"], a[href*="reddit.com/search"]')).toHaveCount(0);
     await expect(page.locator("body")).toContainText("Related");
     await expect(page.locator(".buy-check")).toHaveCount(0);
@@ -98,10 +94,17 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
   }
 
+  await page.goto("/best-standing-desks.html");
+  await expect(page.locator(".product").first()).not.toContainText("YouTube");
+  await expect(page.locator(".product").first().locator(".source-accordion > summary")).toContainText("Expert, Reddit proof");
+  await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("adjusted weight");
+
   for (const route of ["/outdoor.html", "/remote-work.html", "/lifestyle.html"]) {
     await page.goto(route);
+    await expect(page.locator('link[rel="icon"][href="/favicon.svg"]')).toHaveCount(1);
     await expect(page.locator("h1")).toBeVisible();
     await expect(page.locator(".category-card").first()).toBeVisible();
+    await expect(page.locator(".band#guides")).toBeVisible();
     await expect(page.locator("nav")).toContainText("Outdoor");
     await expect(page.locator("nav")).toContainText("Remote Work");
     await expect(page.locator("nav")).toContainText("Lifestyle");

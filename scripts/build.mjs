@@ -604,6 +604,21 @@ function renderMeasurementTags() {
   return tags.length ? `\n  <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->\n  ${tags.join("\n  ")}\n` : "";
 }
 
+function renderSiteIdentityTags() {
+  return `\n  <!-- Phavai site identity tags: generated at build time. -->\n  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n`;
+}
+
+function injectSiteIdentityTags() {
+  const tags = renderSiteIdentityTags();
+  for (const file of readdirSync(".")) {
+    if (!file.endsWith(".html")) continue;
+    const html = readFileSync(file, "utf8");
+    const withoutOldTags = html.replace(/\n\s*<!-- Phavai site identity tags:[\s\S]*?\n(?=\s*<\/head>)/, "\n");
+    const nextHtml = withoutOldTags.replace("</head>", `${tags}</head>`);
+    if (nextHtml !== html) writeFileSync(file, nextHtml, "utf8");
+  }
+}
+
 function injectMeasurementTags() {
   const tags = renderMeasurementTags();
   for (const file of readdirSync(".")) {
@@ -658,12 +673,12 @@ function evidenceWeight(evidence, categoryUpdatedAt) {
 }
 
 function buildChannelScores(product, category) {
-  const channels = Object.keys(category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS);
-
-  return channels
+  const configuredWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
+  const channels = Object.keys(configuredWeights);
+  const rows = channels
     .map((channel) => {
       const evidence = product.evidence
-        .filter((item) => item.channel === channel)
+        .filter((item) => item.channel === channel && item.is_public)
         .map((item) => ({
           ...item,
           evidenceWeight: evidenceWeight(item, category.updated)
@@ -678,7 +693,7 @@ function buildChannelScores(product, category) {
 
       return {
         source: channel,
-        weight: category.sourceWeights?.[channel] ?? DEFAULT_SOURCE_WEIGHTS[channel],
+        weight: configuredWeights[channel],
         score: Number(score.toFixed(1)),
         evidenceCount: evidence.length,
         tier: bestTierLabel(evidence),
@@ -688,6 +703,13 @@ function buildChannelScores(product, category) {
       };
     })
     .filter(Boolean);
+
+  const activeWeightTotal = rows.reduce((total, row) => total + row.weight, 0) || 1;
+  return rows.map((row) => ({
+    ...row,
+    baseWeight: row.weight,
+    weight: Number(((row.weight / activeWeightTotal) * 100).toFixed(1))
+  }));
 }
 
 function bestTierLabel(evidence) {
@@ -704,9 +726,9 @@ function summarizeEvidence(evidence) {
 }
 
 function computeSignal(product, channelScores, category) {
-  const evidence = product.evidence ?? [];
+  const evidence = (product.evidence ?? []).filter((item) => item.is_public);
   const channelsWithEvidence = new Set(evidence.map((item) => item.channel)).size;
-  const expectedChannels = Object.keys(category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS).length;
+  const expectedChannels = Math.max(channelScores.length, 1);
   const averageFreshness = evidence.length
     ? evidence.reduce((total, item) => total + freshnessWeight(item.publishedAt, category.updated), 0) / evidence.length
     : 0;
@@ -746,15 +768,17 @@ function computeProductScores(product, category) {
   const normalizedEvidence = (product.evidence ?? []).map((item, index) => normalizeEvidenceItem(item, product, category, index));
   const normalizedProduct = { ...product, evidence: normalizedEvidence };
   const channelScores = buildChannelScores(normalizedProduct, category);
-  const rawScore = weightedMean(channelScores.map((row) => ({
+  const scoreInputs = channelScores.map((row) => ({
     score: row.score,
     weight: row.weight
-  })));
-  const disagreement = weightedStandardDeviation(channelScores.map((row) => ({
+  }));
+  const rawScore = scoreInputs.length ? weightedMean(scoreInputs) : 0;
+  const disagreement = scoreInputs.length ? weightedStandardDeviation(channelScores.map((row) => ({
     score: row.score,
     weight: row.weight
-  })), rawScore);
+  })), rawScore) : 0;
   const signal = computeSignal(product, channelScores, category);
+  const publicEvidenceCount = normalizedEvidence.filter((item) => item.is_public).length;
 
   return {
     ...normalizedProduct,
@@ -769,7 +793,7 @@ function computeProductScores(product, category) {
     bestPickScore: Math.round(rawScore),
     consensus: Math.round(clamp(100 - disagreement * 4, 0, 100)),
     signal,
-    evidenceCount: normalizedEvidence.length
+    evidenceCount: publicEvidenceCount
   };
 }
 
@@ -902,3 +926,5 @@ writeFileSync("sitemap.xml", sitemap, "utf8");
 console.log("Built: sitemap.xml");
 injectMeasurementTags();
 console.log("Built: measurement tags");
+injectSiteIdentityTags();
+console.log("Built: site identity tags");

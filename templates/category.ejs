@@ -139,7 +139,7 @@
             </div>
             <div>
               <b>Why trust the pick</b>
-              <p>The best reviews, video context, and owner feedback point to the same practical pick.</p>
+              <p>The strongest public evidence points to the same practical pick, with the tradeoffs shown before the shopping link.</p>
             </div>
           </div>
           <a class="button" href="#<%= products[0].name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") %>">Jump to the winner</a>
@@ -150,9 +150,9 @@
     <section class="band">
       <div class="wrap ranking-layout">
         <div class="content-column">
-          <p class="disclosure affiliate-disclosure">As an Amazon Associate, Phavai may earn from qualifying purchases. Retail links never change the order of our picks.</p>
+          <p class="disclosure affiliate-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never change the order of our picks.</p>
           <div data-product-list>
-          <% products.forEach((product) => { const id = product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
+          <% products.forEach((product) => { const id = product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); const hasVideoEvidence = product.sourceScores.some((row) => row.source === "YouTube"); const evidenceChannels = product.sourceScores.map((row) => row.source).join(", "); %>
             <article class="product" id="<%= id %>" data-product-name="<%= product.name %>" data-default-score="<%= product.bestPickScore %>" data-channel-scores='<%- JSON.stringify(Object.fromEntries(product.sourceScores.map((row) => [row.source, row.score]))) %>'>
               <div class="product-media">
                 <img src="<%= product.image %>" alt="<%= product.imageAlt || product.name %>" width="500" height="500" loading="<%= product.rank === 1 ? 'eager' : 'lazy' %>" />
@@ -183,7 +183,7 @@
                     <div class="product-signal">
                       <span><%= row.source %></span>
                       <strong><%= row.score %></strong>
-                      <small><%= row.weight %>% weight</small>
+                      <small><%= row.weight %>% adjusted weight</small>
                     </div>
                   <% }) %>
                 </div>
@@ -194,69 +194,10 @@
                   <% }) %>
                 </ul>
 
-                <div class="source-table" aria-label="Score breakdown by evidence type">
-                  <% product.sourceScores.forEach((row) => { const quickTier = product.evidenceSummary.tiers.find((tier) => tier.label === row.source); const quickLikeSources = quickTier?.likes.sources ?? []; const quickCautionSources = quickTier?.cautions.sources ?? []; const showQuickSources = quickTier && ["YouTube", "Reddit"].includes(row.source) && (quickLikeSources.length || quickCautionSources.length); %>
-                    <div class="source-row">
-                      <div>
-                        <b><%= row.source %></b>
-                        <small><%= row.weight %>% of default score</small>
-                      </div>
-                      <div>
-                        <b><%= row.score %>/100</b>
-                        <div class="meter" aria-hidden="true"><i style="--value:<%= row.score %>%"></i></div>
-                      </div>
-                      <div>
-                        <b>What we saw</b>
-                        <% if (row.topEvidence.is_public) { %>
-                          <small><%= row.summary %> Best public source checked <%= row.topEvidence.verifiedAt %>: <%= row.topEvidence.title || row.topEvidence.sourceName %></small>
-                        <% } else { %>
-                          <small><%= row.summary %> Internal source checked <%= row.topEvidence.verifiedAt %>; not displayed publicly until an exact citation is curated.</small>
-                        <% } %>
-                      </div>
-                      <% if (showQuickSources) { %>
-                        <div class="quick-source-actions" aria-label="<%= row.source %> good and bad source links">
-                          <% if (quickLikeSources.length) { %>
-                            <details class="quick-source-drop">
-                              <summary>Good</summary>
-                              <div class="quick-source-body">
-                                <p><%= quickTier.likes.interpretation %></p>
-                                <% quickLikeSources.slice(0, 3).forEach((item) => { %>
-                                  <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                    <span><%= item.publisher %></span>
-                                    <b><%= item.title || item.sourceName %></b>
-                                  </a>
-                                <% }) %>
-                              </div>
-                            </details>
-                          <% } %>
-                          <% if (quickCautionSources.length) { %>
-                            <details class="quick-source-drop caution">
-                              <summary>Bad</summary>
-                              <div class="quick-source-body">
-                                <p><%= quickTier.cautions.interpretation %></p>
-                                <% quickCautionSources.slice(0, 3).forEach((item) => { %>
-                                  <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                    <span><%= item.publisher %></span>
-                                    <b><%= item.title || item.sourceName %></b>
-                                  </a>
-                                <% }) %>
-                              </div>
-                            </details>
-                          <% } %>
-                        </div>
-                      <% } else if (row.topEvidence.url && row.topEvidence.is_public) { %>
-                        <a href="<%= row.topEvidence.url %>" target="_blank" rel="nofollow noopener">Read source</a>
-                      <% } else { %>
-                        <span class="source-placeholder">Internal note</span>
-                      <% } %>
-                    </div>
-                  <% }) %>
-                </div>
-
                 <details class="source-accordion">
                   <summary>
-                    <span>View sources</span>
-                    <small>Expert, YouTube, and Reddit proof</small>
+                    <span>View evidence</span>
+                    <small><%= evidenceChannels %> proof</small>
                   </summary>
                   <div class="source-tier-list">
                     <% product.evidenceSummary.tiers.forEach((tier, tierIndex) => { %>
@@ -310,7 +251,7 @@
 
                 <div class="editorial-callout">
                   <strong>Why it earned this spot</strong>
-                  <p>This pick ranks here because the best available expert reviews come first, then video testing and owner discussion help confirm the practical tradeoffs. Specs are used to verify details, not to justify a win.</p>
+                  <p>This pick ranks here because the best available expert reviews come first<%= hasVideoEvidence ? ", then video testing" : "" %> and owner discussion help confirm the practical tradeoffs. Specs are used to verify details, not to justify a win.</p>
                 </div>
 
                 <div class="two-col">

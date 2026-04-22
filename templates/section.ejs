@@ -81,6 +81,27 @@
       </div>
     </section>
 
+    <section class="band" id="guides">
+      <div class="wrap">
+        <div class="section-head">
+          <h2><%= section.title %> buying guides</h2>
+          <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
+        </div>
+        <div class="category-grid icon-card-grid">
+          <% reviews.forEach((review) => { %>
+            <a class="category-card" href="/<%= review.slug %>.html">
+              <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
+              <div class="category-card-body">
+                <span class="eyebrow">Roundup guide</span>
+                <h3><%= review.title %></h3>
+                <p><%= review.description %></p>
+              </div>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
     <section class="band surface">
       <div class="wrap page-grid">
         <article class="text-panel">
@@ -142,27 +163,6 @@
       </div>
     </section>
     <% } %>
-
-    <section class="band" id="guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2><%= section.title %> buying guides</h2>
-          <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
-        </div>
-        <div class="category-grid icon-card-grid">
-          <% reviews.forEach((review) => { %>
-            <a class="category-card" href="/<%= review.slug %>.html">
-              <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3><%= review.title %></h3>
-                <p><%= review.description %></p>
-              </div>
-            </a>
-          <% }) %>
-        </div>
-      </div>
-    </section>
 
     <% /* Supporting pages remain built for continuity, but category hubs now prioritize core roundup reviews only. */ %>
 
