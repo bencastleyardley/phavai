@@ -547,9 +547,9 @@ h1, h2, h3, p { margin-top: 0; }
 }
 .source-row {
   display: grid;
-  grid-template-columns: 92px 90px minmax(0, 1fr) auto;
+  grid-template-columns: 92px 90px minmax(0, 1fr) minmax(148px, auto);
   gap: 12px;
-  align-items: center;
+  align-items: start;
   padding: 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -585,6 +585,85 @@ h1, h2, h3, p { margin-top: 0; }
   font-size: 13px;
   font-weight: 850;
   white-space: nowrap;
+}
+.quick-source-actions {
+  display: grid;
+  gap: 7px;
+  justify-items: stretch;
+  min-width: 148px;
+}
+.quick-source-drop {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.quick-source-drop summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 34px;
+  padding: 7px 10px;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 900;
+  list-style: none;
+}
+.quick-source-drop summary::-webkit-details-marker { display: none; }
+.quick-source-drop summary::after {
+  content: "+";
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #e8f1e8;
+  color: var(--green);
+  font-size: 13px;
+  line-height: 1;
+}
+.quick-source-drop[open] summary::after {
+  content: "-";
+}
+.quick-source-drop.caution summary {
+  color: var(--amber);
+}
+.quick-source-drop.caution summary::after {
+  background: #f4eadb;
+  color: var(--amber);
+}
+.quick-source-body {
+  display: grid;
+  gap: 7px;
+  padding: 0 10px 10px;
+}
+.quick-source-body p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  white-space: normal;
+}
+.quick-source-body a {
+  display: grid;
+  gap: 2px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #f4efe4;
+  color: var(--ink);
+  white-space: normal;
+}
+.quick-source-body a span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 850;
+}
+.quick-source-body a b {
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.25;
 }
 .source-accordion {
   margin: 0 0 18px;

@@ -194,7 +194,7 @@
                 </ul>
 
                 <div class="source-table" aria-label="Score breakdown by evidence type">
-                  <% product.sourceScores.forEach((row) => { %>
+                  <% product.sourceScores.forEach((row) => { const quickTier = product.evidenceSummary.tiers.find((tier) => tier.label === row.source); const showQuickSources = quickTier && ["YouTube", "Reddit"].includes(row.source); %>
                     <div class="source-row">
                       <div>
                         <b><%= row.source %></b>
@@ -212,7 +212,34 @@
                           <small><%= row.summary %> Internal source checked <%= row.topEvidence.verifiedAt %>; not displayed publicly until an exact citation is curated.</small>
                         <% } %>
                       </div>
-                      <% if (row.topEvidence.url && row.topEvidence.is_public) { %>
+                      <% if (showQuickSources) { %>
+                        <div class="quick-source-actions" aria-label="<%= row.source %> good and bad source links">
+                          <details class="quick-source-drop">
+                            <summary>Good</summary>
+                            <div class="quick-source-body">
+                              <p><%= quickTier.likes.interpretation %></p>
+                              <% quickTier.likes.sources.slice(0, 3).forEach((item) => { %>
+                                <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                  <span><%= item.publisher %></span>
+                                  <b><%= item.title || item.sourceName %></b>
+                                </a>
+                              <% }) %>
+                            </div>
+                          </details>
+                          <details class="quick-source-drop caution">
+                            <summary>Bad</summary>
+                            <div class="quick-source-body">
+                              <p><%= quickTier.cautions.interpretation %></p>
+                              <% quickTier.cautions.sources.slice(0, 3).forEach((item) => { %>
+                                <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                  <span><%= item.publisher %></span>
+                                  <b><%= item.title || item.sourceName %></b>
+                                </a>
+                              <% }) %>
+                            </div>
+                          </details>
+                        </div>
+                      <% } else if (row.topEvidence.url && row.topEvidence.is_public) { %>
                         <a href="<%= row.topEvidence.url %>" target="_blank" rel="nofollow noopener">Read source</a>
                       <% } else { %>
                         <span class="source-placeholder">Internal note</span>
