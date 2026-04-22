@@ -3,7 +3,7 @@
     "slug": "outdoor",
     "title": "Outdoor",
     "eyebrow": "Outdoor buying guides",
-    "description": "Trail, running, and recovery gear ranked by transparent evidence instead of generic shopping lists.",
+    "description": "Trail, running, road-marathon, and recovery gear ranked by transparent evidence instead of generic shopping lists.",
     "intro": "Outdoor gear has to work in the real world: on tired legs, in bad weather, under race pressure, and across different body types. Phavai's Outdoor hub groups running, trail, hydration, recovery, and performance gear so shoppers can compare the products that actually affect training and adventure decisions.",
     "covered": [
       "trail running shoes",
@@ -11,12 +11,20 @@
       "GPS running watches",
       "hydration packs and vests",
       "trail poles",
-      "recovery footwear"
+      "recovery footwear",
+      "100-mile trail shoes",
+      "technical trail shoes",
+      "wide-foot trail shoes",
+      "mud trail shoes",
+      "beginner trail shoes",
+      "ultrarunning GPS watches",
+      "100K and 100-mile hydration vests",
+      "road marathon shoes"
     ],
     "trust": "Outdoor recommendations are scored from expert testing, creator field reviews, and runner-owner sentiment. The goal is to expose fit caveats, durability signals, and terrain-specific tradeoffs before a shopper clicks anything.",
     "image": "/photos/hoka-speed-goat-6.webp",
     "metaTitle": "Outdoor Product Reviews | Phavai",
-    "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, hydration packs, running watches, headphones, poles, vests, and recovery sandals."
+    "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, long-tail running shoe picks, hydration packs, GPS watches, headphones, poles, vests, and recovery sandals."
   },
   {
     "slug": "remote-work",

@@ -238,5 +238,15 @@
     "requiresAttribution": false,
     "exactProduct": false,
     "usage": "Open-license editorial image; not an exact product photo."
+  },
+  "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80": {
+    "sourceName": "Unsplash",
+    "sourceUrl": "https://unsplash.com/license",
+    "credit": "Unsplash community photo",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Open-license editorial road-running shoe image; not an exact product photo."
   }
 }

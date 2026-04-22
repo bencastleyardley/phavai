@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import ejs from "ejs";
 
 const categories = JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, ""));
@@ -8,6 +8,13 @@ const imageSources = JSON.parse(readFileSync("data/image-sources.json", "utf8").
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
+
+const analyticsConfig = {
+  ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID"),
+  clarityProjectId: firstEnv("PHAVAI_CLARITY_PROJECT_ID", "CLARITY_PROJECT_ID", "MICROSOFT_CLARITY_PROJECT_ID"),
+  googleSiteVerification: firstEnv("PHAVAI_GOOGLE_SITE_VERIFICATION", "GOOGLE_SITE_VERIFICATION"),
+  bingSiteVerification: firstEnv("PHAVAI_BING_SITE_VERIFICATION", "BING_SITE_VERIFICATION")
+};
 
 const DEFAULT_SOURCE_WEIGHTS = {
   Expert: 40,
@@ -25,6 +32,70 @@ const ONE_MONTH_MS = 1000 * 60 * 60 * 24 * 30.4375;
 
 function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
+}
+
+function firstEnv(...names) {
+  return names.map((name) => process.env[name]).find((value) => value && value.trim())?.trim() ?? "";
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+function renderMeasurementTags() {
+  const tags = [];
+
+  if (analyticsConfig.googleSiteVerification) {
+    tags.push(`<meta name="google-site-verification" content="${escapeHtml(analyticsConfig.googleSiteVerification)}" />`);
+  }
+
+  if (analyticsConfig.bingSiteVerification) {
+    tags.push(`<meta name="msvalidate.01" content="${escapeHtml(analyticsConfig.bingSiteVerification)}" />`);
+  }
+
+  if (analyticsConfig.ga4MeasurementId) {
+    const id = escapeHtml(analyticsConfig.ga4MeasurementId);
+    tags.push(`<script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "${id}", {
+      anonymize_ip: true,
+      transport_type: "beacon"
+    });
+  </script>`);
+  }
+
+  if (analyticsConfig.clarityProjectId) {
+    const id = escapeHtml(analyticsConfig.clarityProjectId);
+    tags.push(`<script>
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "${id}");
+  </script>`);
+  }
+
+  return tags.length ? `\n  <!-- Phavai measurement and webmaster tags: generated at build time from environment variables. -->\n  ${tags.join("\n  ")}\n` : "";
+}
+
+function injectMeasurementTags() {
+  const tags = renderMeasurementTags();
+  for (const file of readdirSync(".")) {
+    if (!file.endsWith(".html")) continue;
+    const html = readFileSync(file, "utf8");
+    const withoutOldTags = html.replace(/\n\s*<!-- Phavai measurement and webmaster tags:[\s\S]*?\n(?=\s*<\/head>)/, "\n");
+    const nextHtml = tags ? withoutOldTags.replace("</head>", `${tags}</head>`) : withoutOldTags;
+    if (nextHtml !== html) writeFileSync(file, nextHtml, "utf8");
+  }
 }
 
 function weightedMean(items) {
@@ -200,8 +271,15 @@ const builtCategories = categories.map((category) => {
 });
 
 for (const category of builtCategories) {
+  const relatedReviewOrder = new Map((category.relatedReviewSlugs ?? []).map((slug, index) => [slug, index]));
   const relatedReviews = builtCategories
     .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug)
+    .sort((a, b) => {
+      const aOrder = relatedReviewOrder.has(a.slug) ? relatedReviewOrder.get(a.slug) : 1000;
+      const bOrder = relatedReviewOrder.has(b.slug) ? relatedReviewOrder.get(b.slug) : 1000;
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      return a.title.localeCompare(b.title);
+    })
     .map(({ products, ...review }) => ({ ...review, products: products.slice(0, 1) }));
   const html = ejs.render(
     categoryTemplate,
@@ -281,3 +359,5 @@ ${urls.map((url) => `  <url>
 `;
 writeFileSync("sitemap.xml", sitemap, "utf8");
 console.log("Built: sitemap.xml");
+injectMeasurementTags();
+console.log("Built: measurement tags");
