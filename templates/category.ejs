@@ -150,6 +150,7 @@
     <section class="band">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <p class="disclosure affiliate-disclosure">As an Amazon Associate, Phavai may earn from qualifying purchases. Retail links never change the order of our picks.</p>
           <div data-product-list>
           <% products.forEach((product) => { const id = product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
             <article class="product" id="<%= id %>" data-product-name="<%= product.name %>" data-default-score="<%= product.bestPickScore %>" data-channel-scores='<%- JSON.stringify(Object.fromEntries(product.sourceScores.map((row) => [row.source, row.score]))) %>'>
@@ -331,20 +332,7 @@
                   </div>
                 </div>
 
-                <div class="buy-check">
-                  <div>
-                    <strong>Before you buy</strong>
-                    <p>Typical retail: <%= product.priceInsight.typical %>. Use this as a price-confidence checkpoint before opening the retailer page.</p>
-                  </div>
-                  <div class="price-grid" aria-label="Price checkpoints for <%= product.name %>">
-                    <span><b><%= product.priceInsight.fair %></b><small>Fair price</small></span>
-                    <span><b><%= product.priceInsight.goodDeal %></b><small>Good sale</small></span>
-                    <span><b><%= product.priceInsight.waitFor %></b><small>Strong sale</small></span>
-                    <span><b><%= product.priceInsight.high %></b><small>Be careful above</small></span>
-                  </div>
-                  <p class="price-note"><%= product.priceInsight.note %></p>
-                </div>
-                <a class="button" href="<%= product.affiliateUrl %>" target="_blank" rel="nofollow noopener sponsored">View current price</a>
+                <a class="button shopping-button" href="<%= product.affiliateUrl %>" target="_blank" rel="nofollow noopener sponsored">Check Amazon price</a>
               </div>
             </article>
           <% }) %>
@@ -424,7 +412,7 @@
           <% if (supportingPages?.length) { %>
           <section class="comparison-section" aria-labelledby="supporting-heading">
             <div class="section-kicker">Buying context</div>
-            <h2 id="supporting-heading">Learn how to choose before you buy</h2>
+            <h2 id="supporting-heading">Learn how to choose with confidence</h2>
             <p>Use these guides to understand the tradeoffs before you compare products: fit, features, durability, comfort, and the mistakes worth avoiding.</p>
             <div class="link-list">
               <% supportingPages.slice(0, 4).forEach((page) => { %>

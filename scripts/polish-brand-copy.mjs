@@ -65,7 +65,7 @@ for (const category of categories) {
     if (/earns its position as .*score blends/.test(product.verdict ?? "")) {
       const strengths = (product.pros ?? []).slice(0, 2).map((item) => item.toLowerCase());
       const strengthText = strengths.length > 1 ? `${strengths[0]} and ${strengths[1]}` : strengths[0] ?? "a strong all-around profile";
-      product.verdict = `${product.name} is the ${product.tag.toLowerCase()} for shoppers who want ${product.bestFor.toLowerCase()}. It stands out for ${strengthText}, with tradeoffs worth checking before you buy.`;
+      product.verdict = `${product.name} is the ${product.tag.toLowerCase()} for shoppers who want ${product.bestFor.toLowerCase()}. It stands out for ${strengthText}, with tradeoffs worth weighing.`;
     } else {
       product.verdict = product.verdict
         ?.replace(/earns a place/g, "belongs here")

@@ -22,6 +22,10 @@ const analyticsConfig = {
   bingSiteVerification: firstEnv("PHAVAI_BING_SITE_VERIFICATION", "BING_SITE_VERIFICATION") || DEFAULT_MEASUREMENT_CONFIG.bingSiteVerification
 };
 
+const AFFILIATE_CONFIG = {
+  amazonTrackingId: firstEnv("PHAVAI_AMAZON_TRACKING_ID", "AMAZON_ASSOCIATE_TAG", "AMAZON_TRACKING_ID") || "phavai7311-20"
+};
+
 const DEFAULT_SOURCE_WEIGHTS = {
   Expert: 40,
   YouTube: 30,
@@ -179,6 +183,24 @@ function parseDomain(url = "") {
     return new URL(url).hostname.replace(/^www\./, "");
   } catch {
     return "";
+  }
+}
+
+function withAmazonAffiliateTag(url = "") {
+  if (!url || !AFFILIATE_CONFIG.amazonTrackingId) return url;
+
+  try {
+    const parsed = new URL(url);
+    const isAmazon = /(^|\.)amazon\.com$/i.test(parsed.hostname);
+    if (!isAmazon) return url;
+
+    parsed.searchParams.set("tag", AFFILIATE_CONFIG.amazonTrackingId);
+    if (!parsed.searchParams.has("linkCode")) parsed.searchParams.set("linkCode", "ll2");
+    if (!parsed.searchParams.has("language")) parsed.searchParams.set("language", "en_US");
+    if (!parsed.searchParams.has("ref_")) parsed.searchParams.set("ref_", "as_li_ss_tl");
+    return parsed.toString();
+  } catch {
+    return url;
   }
 }
 
@@ -736,6 +758,7 @@ function computeProductScores(product, category) {
 
   return {
     ...normalizedProduct,
+    affiliateUrl: withAmazonAffiliateTag(normalizedProduct.affiliateUrl),
     imageInfo,
     priceInsight: buildPriceInsight(normalizedProduct),
     sourceScores: channelScores,

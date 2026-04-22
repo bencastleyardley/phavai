@@ -79,6 +79,7 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".comparison-table")).toBeVisible();
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
+    await expect(page.locator(".affiliate-disclosure")).toContainText("As an Amazon Associate");
     await expect(page.locator(".source-accordion").first()).toContainText("View sources");
     await expect(page.locator(".source-accordion").first()).toContainText("Expert");
     await expect(page.locator(".source-accordion").first()).toContainText("YouTube");
@@ -88,11 +89,11 @@ test("public pages and new review guides render complete trust sections", async 
     if (quickSourceCount > 0) {
       await expect(page.locator(".quick-source-actions").first()).toContainText("Good");
     }
-    await expect(page.locator(".buy-check").first()).toContainText("Before you buy");
-    await expect(page.locator(".buy-check").first()).toContainText("Good sale");
     await expect(page.locator('a[href*="youtube.com/results"], a[href*="reddit.com/search"]')).toHaveCount(0);
     await expect(page.locator("body")).toContainText("Related");
-    await expect(page.locator(".product .button").first()).toContainText("View current price");
+    await expect(page.locator(".buy-check")).toHaveCount(0);
+    await expect(page.locator(".product .shopping-button").first()).toContainText("Check Amazon price");
+    await expect(page.locator('.product .shopping-button[href*="tag=phavai7311-20"]').first()).toBeVisible();
     await expect(page.locator(".button.disabled")).toHaveCount(0);
     await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
   }
