@@ -120,6 +120,29 @@
     </section>
     <% } %>
 
+    <% if (sourceTrust) { %>
+    <section class="band surface">
+      <div class="wrap page-grid">
+        <article class="text-panel">
+          <div class="section-kicker">Source quality</div>
+          <h2>What we trust here</h2>
+          <p>Phavai favors category-specific testing first, then exact video reviews and owner discussions that reveal real-world tradeoffs.</p>
+          <div class="source-pill-list" aria-label="Trusted <%= section.title %> sources">
+            <% sourceTrust.trustedPublishers.slice(0, 9).forEach((publisher) => { %>
+              <span><%= publisher %></span>
+            <% }) %>
+          </div>
+        </article>
+        <aside class="text-panel source-rule-card">
+          <h2>Best evidence first</h2>
+          <p><strong>Tier 1:</strong> <%= sourceTrust.tierLabels.tier1 %></p>
+          <p><strong>Tier 2:</strong> <%= sourceTrust.tierLabels.tier2 %></p>
+          <p><strong>Tier 3:</strong> <%= sourceTrust.tierLabels.tier3 %></p>
+        </aside>
+      </div>
+    </section>
+    <% } %>
+
     <section class="band" id="guides">
       <div class="wrap">
         <div class="section-head">

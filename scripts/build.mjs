@@ -486,6 +486,7 @@ for (const section of sections) {
       section,
       reviews,
       supportingPages: supportBySection.get(section.slug) ?? [],
+      sourceTrust: sourceGovernance.sections?.[section.slug],
       allSections: sections
     },
     { rmWhitespace: false }

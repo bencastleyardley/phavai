@@ -616,6 +616,24 @@ h1, h2, h3, p { margin-top: 0; }
   font-size: 0.9rem;
   font-style: normal;
 }
+.source-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+.source-pill-list span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fffdf8;
+  color: var(--green);
+  font-size: 0.86rem;
+  font-weight: 850;
+  padding: 8px 10px;
+}
+.source-rule-card p {
+  margin: 10px 0 0;
+}
 .editorial-callout {
   margin: 18px 0;
   padding: 16px;
