@@ -1,4 +1,17 @@
 (function () {
+  document.addEventListener("toggle", (event) => {
+    const detail = event.target;
+    if (!(detail instanceof HTMLDetailsElement)) return;
+    if (!detail.classList.contains("quick-source-drop") || !detail.open) return;
+
+    const group = detail.closest(".quick-source-actions");
+    if (!group) return;
+
+    for (const sibling of group.querySelectorAll(".quick-source-drop[open]")) {
+      if (sibling !== detail) sibling.open = false;
+    }
+  }, true);
+
   const controls = document.querySelector("[data-score-controls]");
   const list = document.querySelector("[data-product-list]");
   if (!controls || !list) return;

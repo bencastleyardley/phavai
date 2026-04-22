@@ -277,6 +277,7 @@ function normalizeEvidenceItem(item, product, category, index) {
     evidence_note: item.evidence_note ?? item.summary ?? "",
     summary: item.summary ?? item.evidence_note ?? "",
     trust_reason: trustReasonForSource({ ...item, source_type: sourceType, source_tier: sourceTier }, category),
+    evidence_polarity: inferEvidencePolarity(item),
     is_primary_source: isPrimarySource,
     display_order: item.display_order ?? ((SOURCE_DISPLAY_ORDER[sourceType] ?? 90) + index / 100),
     is_public: isPublic,
@@ -364,10 +365,58 @@ function sourceBucketSort(bucket) {
   };
 }
 
-function selectSourcesByType(evidence, sourceType, bucket, limit = 3) {
+function sourceUrlKey(item) {
+  return String(item.url ?? "").split("#")[0].split("?si=")[0].trim().toLowerCase();
+}
+
+function inferEvidencePolarity(item) {
+  const haystack = `${item.title ?? ""} ${item.summary ?? ""} ${item.evidence_note ?? ""} ${item.evidenceType ?? ""}`.toLowerCase();
+  const score = item.score ?? 82;
+  const cautionWords = [
+    "caution",
+    "complaint",
+    "negative",
+    "drawback",
+    "issue",
+    "problem",
+    "narrow",
+    "tight",
+    "firm",
+    "sloppy",
+    "unstable",
+    "durability",
+    "delaminate",
+    "rubbing",
+    "hotspot",
+    "ankle roll",
+    "size up",
+    "sizing",
+    "disappointed",
+    "not favorite",
+    "low volume",
+    "toe box"
+  ];
+
+  if (item.evidence_polarity) return item.evidence_polarity;
+  if (score <= 78) return "caution";
+  if (score <= 83 && cautionWords.some((word) => haystack.includes(word))) return "caution";
+  if (score >= 84) return "positive";
+  return "mixed";
+}
+
+function sourceMatchesBucket(item, bucket) {
+  const polarity = item.evidence_polarity ?? inferEvidencePolarity(item);
+  if (bucket === "like") return polarity === "positive" || polarity === "mixed";
+  return polarity === "caution";
+}
+
+function selectSourcesByType(evidence, sourceType, bucket, limit = 3, options = {}) {
+  const excludeUrls = options.excludeUrls ?? new Set();
   const candidates = evidence
     .filter((item) => item.is_public && item.source_type === sourceType)
     .filter((item) => item.url && !item.is_generic_discovery)
+    .filter((item) => !excludeUrls.has(sourceUrlKey(item)))
+    .filter((item) => sourceMatchesBucket(item, bucket))
     .sort(sourceBucketSort(bucket));
 
   return candidates.slice(0, limit);
@@ -412,7 +461,10 @@ function interpretationForTier(product, sourceType, bucket) {
 function buildEvidenceTiers(product, evidence) {
   return ["expert", "youtube", "reddit"].map((sourceType) => {
     const likes = selectSourcesByType(evidence, sourceType, "like", sourceType === "expert" ? 3 : 3);
-    const cautions = selectSourcesByType(evidence, sourceType, "caution", sourceType === "expert" ? 2 : 3);
+    const usedLikeUrls = new Set(likes.map(sourceUrlKey));
+    const cautions = selectSourcesByType(evidence, sourceType, "caution", sourceType === "expert" ? 2 : 3, {
+      excludeUrls: usedLikeUrls
+    });
 
     return {
       key: sourceType,

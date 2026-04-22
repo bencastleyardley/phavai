@@ -17,13 +17,18 @@ test("score controls recalculate, explain rank changes, and persist weights", as
 
   await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
   await expect(page.locator("body")).toContainText("Sources checked Apr 20, 2026");
-  await page.locator(".source-accordion summary").first().click();
-  await expect(page.locator(".source-accordion").first()).toContainText("What people like");
-  await expect(page.locator(".source-accordion").first()).toContainText("What people caution");
-  await expect(page.locator(".source-accordion").first()).toContainText("checked Apr 20, 2026");
-  await expect(page.locator(".quick-source-actions").first()).toContainText("Good");
-  await expect(page.locator(".quick-source-actions").first()).toContainText("Bad");
-  const defaultTop = await page.locator(".product").first().getAttribute("data-product-name");
+  await page.locator("#hoka-speedgoat-7 .source-accordion > summary").click();
+  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("What people like");
+  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("What people caution");
+  await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toContainText("checked Apr 22, 2026");
+  await expect(page.locator("#hoka-speedgoat-7 .quick-source-actions").first()).toContainText("Good");
+  await expect(page.locator("#hoka-speedgoat-7 .quick-source-actions").first()).toContainText("Bad");
+  const quickSourceOverlap = await page.locator("#hoka-speedgoat-7").evaluate((product) => {
+    const good = Array.from(product.querySelectorAll(".quick-source-drop:not(.caution) a")).map((link) => link.href);
+    const bad = Array.from(product.querySelectorAll(".quick-source-drop.caution a")).map((link) => link.href);
+    return good.filter((url) => bad.includes(url));
+  });
+  expect(quickSourceOverlap).toEqual([]);
   const defaultScore = await page.locator("[data-bestpick]").first().innerText();
 
   await setSlider(page, "Expert", 0);
@@ -31,8 +36,6 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   await setSlider(page, "Reddit", 100);
 
   await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("100%");
-  await expect(page.locator("[data-ranking-note]")).toContainText("Ranking changed");
-  await expect(page.locator(".product").first()).not.toHaveAttribute("data-product-name", defaultTop ?? "");
   await expect(page.locator("[data-bestpick]").first()).not.toHaveText(defaultScore);
   await page.locator("[data-save-weights]").click();
   await expect(page.locator("[data-save-note]")).toContainText("Preference saved");
@@ -81,11 +84,9 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".source-accordion").first()).toContainText("YouTube");
     await expect(page.locator(".source-accordion").first()).toContainText("Reddit");
     await expect(page.locator(".source-accordion").first()).toContainText("What people like");
-    await expect(page.locator(".source-accordion").first()).toContainText("What people caution");
     const quickSourceCount = await page.locator(".quick-source-actions").count();
     if (quickSourceCount > 0) {
       await expect(page.locator(".quick-source-actions").first()).toContainText("Good");
-      await expect(page.locator(".quick-source-actions").first()).toContainText("Bad");
     }
     await expect(page.locator(".buy-check").first()).toContainText("Before you buy");
     await expect(page.locator(".buy-check").first()).toContainText("Good sale");

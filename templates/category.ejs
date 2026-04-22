@@ -194,7 +194,7 @@
                 </ul>
 
                 <div class="source-table" aria-label="Score breakdown by evidence type">
-                  <% product.sourceScores.forEach((row) => { const quickTier = product.evidenceSummary.tiers.find((tier) => tier.label === row.source); const showQuickSources = quickTier && ["YouTube", "Reddit"].includes(row.source); %>
+                  <% product.sourceScores.forEach((row) => { const quickTier = product.evidenceSummary.tiers.find((tier) => tier.label === row.source); const quickLikeSources = quickTier?.likes.sources ?? []; const quickCautionSources = quickTier?.cautions.sources ?? []; const showQuickSources = quickTier && ["YouTube", "Reddit"].includes(row.source) && (quickLikeSources.length || quickCautionSources.length); %>
                     <div class="source-row">
                       <div>
                         <b><%= row.source %></b>
@@ -214,30 +214,34 @@
                       </div>
                       <% if (showQuickSources) { %>
                         <div class="quick-source-actions" aria-label="<%= row.source %> good and bad source links">
-                          <details class="quick-source-drop">
-                            <summary>Good</summary>
-                            <div class="quick-source-body">
-                              <p><%= quickTier.likes.interpretation %></p>
-                              <% quickTier.likes.sources.slice(0, 3).forEach((item) => { %>
-                                <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                  <span><%= item.publisher %></span>
-                                  <b><%= item.title || item.sourceName %></b>
-                                </a>
-                              <% }) %>
-                            </div>
-                          </details>
-                          <details class="quick-source-drop caution">
-                            <summary>Bad</summary>
-                            <div class="quick-source-body">
-                              <p><%= quickTier.cautions.interpretation %></p>
-                              <% quickTier.cautions.sources.slice(0, 3).forEach((item) => { %>
-                                <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                  <span><%= item.publisher %></span>
-                                  <b><%= item.title || item.sourceName %></b>
-                                </a>
-                              <% }) %>
-                            </div>
-                          </details>
+                          <% if (quickLikeSources.length) { %>
+                            <details class="quick-source-drop">
+                              <summary>Good</summary>
+                              <div class="quick-source-body">
+                                <p><%= quickTier.likes.interpretation %></p>
+                                <% quickLikeSources.slice(0, 3).forEach((item) => { %>
+                                  <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                    <span><%= item.publisher %></span>
+                                    <b><%= item.title || item.sourceName %></b>
+                                  </a>
+                                <% }) %>
+                              </div>
+                            </details>
+                          <% } %>
+                          <% if (quickCautionSources.length) { %>
+                            <details class="quick-source-drop caution">
+                              <summary>Bad</summary>
+                              <div class="quick-source-body">
+                                <p><%= quickTier.cautions.interpretation %></p>
+                                <% quickCautionSources.slice(0, 3).forEach((item) => { %>
+                                  <a href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                    <span><%= item.publisher %></span>
+                                    <b><%= item.title || item.sourceName %></b>
+                                  </a>
+                                <% }) %>
+                              </div>
+                            </details>
+                          <% } %>
                         </div>
                       <% } else if (row.topEvidence.url && row.topEvidence.is_public) { %>
                         <a href="<%= row.topEvidence.url %>" target="_blank" rel="nofollow noopener">Read source</a>
@@ -260,7 +264,8 @@
                           <span><%= tier.label %></span>
                           <small><%= tier.description %></small>
                         </summary>
-                        <div class="source-tier-body">
+                        <div class="source-tier-body <%= !tier.likes.sources.length || !tier.cautions.sources.length ? 'single-column' : '' %>">
+                          <% if (tier.likes.sources.length) { %>
                           <section class="source-synthesis-panel like-panel">
                             <span class="source-section-label">What people like</span>
                             <p><%= tier.likes.interpretation %></p>
@@ -275,7 +280,9 @@
                               <% }) %>
                             </div>
                           </section>
+                          <% } %>
 
+                          <% if (tier.cautions.sources.length) { %>
                           <section class="source-synthesis-panel caution-panel">
                             <span class="source-section-label">What people caution</span>
                             <p><%= tier.cautions.interpretation %></p>
@@ -290,6 +297,7 @@
                               <% }) %>
                             </div>
                           </section>
+                          <% } %>
                         </div>
                       </details>
                     <% }) %>

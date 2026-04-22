@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="HOKA Speedgoat 6 product visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset=".62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity=".22"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#18181b" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="285" cy="190" r="115" fill="#2563eb" opacity=".18"/>
+  <circle cx="650" cy="310" r="155" fill="#60a5fa" opacity=".14"/>
+  <path d="M185 705c70-48 150-48 220 0" stroke="#f97316" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M635 150c44 40 92 40 136 0" stroke="#2563eb" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="185" cy="645" r="49" fill="#f97316" opacity=".22"/>
+  <circle cx="635" cy="575" r="37" fill="#60a5fa" opacity=".25"/>
+  <rect x="155" y="335" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="665" y="530" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-2 450 450) scale(0.992) translate(3.600000000000003 3.600000000000003)">
+    <path d="M205 525c70-100 120-155 205-175 70 90 157 138 280 154 44 6 66 44 45 82-28 50-134 75-280 70-116-4-215-28-250-66-18-20-19-43 0-65Z" fill="#18181b"/><path d="M300 520h310M385 425l-58 78M460 448l-55 72M535 475l-45 60" stroke="#18181b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M235 605c115 30 310 42 470 10" stroke="#f97316" stroke-width="24" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
