@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run build && npm run test:browser",
     "images": "node scripts/generate-safe-images.mjs",
+    "copy:polish": "node scripts/polish-brand-copy.mjs",
     "build": "node scripts/build.mjs",
     "test:browser": "playwright test",
     "deploy": "npm run build && vercel --prod"

@@ -3,10 +3,10 @@
     "slug": "best-mens-trail-running-shoes",
     "eyebrow": "Trail running",
     "title": "Best Men's Trail Running Shoes",
-    "description": "A transparent ranking of trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras.",
+    "description": "A practical guide to trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras.",
     "audience": "Men's fit data, availability, and review signals",
     "updated": "April 20, 2026",
-    "schemaName": "Best men's trail running shoes ranked by Phavai BestPick Score",
+    "schemaName": "Best men's trail running shoes recommended by Phavai",
     "products": [
       {
         "name": "HOKA Speedgoat 6",
@@ -509,7 +509,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "Trail running uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Social is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "Trail gear gets weighted toward specialist reviews, then balanced with creator field use and runner-owner feedback. We keep social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -519,16 +519,16 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "comparisonIntro": "Compare the ranked picks by best use case, BestPick Score, consensus, and the main watch-out before opening the detailed evidence.",
+    "comparisonIntro": "Compare the shortlist by use case, score, source agreement, evidence depth, and the main reason each pick might be wrong for you.",
     "finalRecommendation": "Most men trail runners should start with the HOKA Speedgoat 6 because it has the broadest agreement across expert, creator, and community signals. Choose the Prodigio Pro for technical racing, the Catamount 4 for faster daily trail runs, the Peregrine 15 for value grip, and the Enduris 4 for cushioned cruising.",
     "faqs": [
       {
         "question": "How does Phavai rank trail running shoes?",
-        "answer": "Phavai rolls individual evidence items into Expert, YouTube, and Reddit channel scores, then applies the category weights shown on the page. The final rank also shows consensus and signal strength so shoppers can separate popularity from confidence."
+        "answer": "Phavai blends expert reviews, creator testing, and owner feedback into a default pick order. We also show source agreement and evidence depth so you can see whether a recommendation is broadly supported or more specialized."
       },
       {
         "question": "Do shopping links affect these rankings?",
-        "answer": "No. Shopping-link availability is not an input in the BestPick Score. Product links are provided for convenience, while rankings are based on evidence quality, consensus, and signal strength."
+        "answer": "No. Retail-link availability does not influence the pick order. Product links are provided for convenience, while rankings are based on fit, evidence quality, source agreement, and real-world tradeoffs."
       },
       {
         "question": "Why is social media excluded?",
@@ -536,18 +536,18 @@
       }
     ],
     "sectionSlug": "outdoor",
-    "metaTitle": "Best Men's Trail Running Shoes Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Men's Trail Running Shoes | Phavai Buying Guide",
+    "metaDescription": "A practical guide to trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-mens-trail-running-shoes.svg"
   },
   {
     "slug": "best-womens-trail-running-shoes",
     "eyebrow": "Trail running",
     "title": "Best Women's Trail Running Shoes",
-    "description": "A transparent ranking of trail shoes with women's fit notes, review consensus, and confidence indicators.",
+    "description": "A practical guide to trail shoes with women's fit notes, fit notes, and real-world tradeoffs.",
     "audience": "Women's fit data, availability, and review signals",
     "updated": "April 20, 2026",
-    "schemaName": "Best women's trail running shoes ranked by Phavai BestPick Score",
+    "schemaName": "Best women's trail running shoes recommended by Phavai",
     "products": [
       {
         "name": "HOKA Speedgoat 6",
@@ -951,7 +951,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "Trail running uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Social is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "Trail gear gets weighted toward specialist reviews, then balanced with creator field use and runner-owner feedback. We keep social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -961,16 +961,16 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "comparisonIntro": "Compare the ranked picks by best use case, BestPick Score, consensus, and the main watch-out before opening the detailed evidence.",
+    "comparisonIntro": "Compare the shortlist by use case, score, source agreement, evidence depth, and the main reason each pick might be wrong for you.",
     "finalRecommendation": "Most women trail runners should start with the HOKA Speedgoat 6 if they want one dependable shoe for long dirt miles and technical terrain. Choose the VECTIV Enduris 4 if comfort matters more than precision, the Peregrine 15 if you want nimble value, and the Prodigio Pro if you are shopping for a technical race-day tool.",
     "faqs": [
       {
         "question": "How does Phavai rank trail running shoes?",
-        "answer": "Phavai rolls individual evidence items into Expert, YouTube, and Reddit channel scores, then applies the category weights shown on the page. The final rank also shows consensus and signal strength so shoppers can separate popularity from confidence."
+        "answer": "Phavai blends expert reviews, creator testing, and owner feedback into a default pick order. We also show source agreement and evidence depth so you can see whether a recommendation is broadly supported or more specialized."
       },
       {
         "question": "Do shopping links affect these rankings?",
-        "answer": "No. Shopping-link availability is not an input in the BestPick Score. Product links are provided for convenience, while rankings are based on evidence quality, consensus, and signal strength."
+        "answer": "No. Retail-link availability does not influence the pick order. Product links are provided for convenience, while rankings are based on fit, evidence quality, source agreement, and real-world tradeoffs."
       },
       {
         "question": "Why is social media excluded?",
@@ -978,17 +978,17 @@
       }
     ],
     "sectionSlug": "outdoor",
-    "metaTitle": "Best Women's Trail Running Shoes Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of trail shoes with women's fit notes, review consensus, and confidence indicators. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Women's Trail Running Shoes | Phavai Buying Guide",
+    "metaDescription": "A practical guide to trail shoes with women's fit notes, fit notes, and real-world tradeoffs. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-womens-trail-running-shoes.svg"
   },
   {
     "slug": "best-running-headphones",
     "eyebrow": "Running audio",
     "title": "Best Running Headphones",
-    "description": "A transparent ranking of open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.",
+    "description": "A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.",
     "audience": "Road, trail, treadmill, and gym runners",
-    "schemaName": "Best running headphones ranked by Phavai BestPick Score",
+    "schemaName": "Best running headphones recommended by Phavai",
     "comparisonIntro": "Running headphones are mostly about fit security, situational awareness, sweat resistance, and whether you prefer open-ear safety or sealed earbud sound.",
     "finalRecommendation": "Most runners should start with the Shokz OpenRun Pro 2 if outdoor awareness matters, because the expert and creator signal is unusually consistent. Choose Powerbeats Pro 2 if you want sealed-ear workout sound and Apple-friendly features, OpenFit 2 if you dislike neckbands, and Jabra Elite 8 Active Gen 2 if rugged earbuds matter more than open-ear awareness.",
     "faqs": [
@@ -1409,7 +1409,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -1420,17 +1420,17 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "outdoor",
-    "metaTitle": "Best Running Headphones Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Running Headphones | Phavai Buying Guide",
+    "metaDescription": "A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-running-headphones.svg"
   },
   {
     "slug": "best-gps-running-watches",
     "eyebrow": "Running tech",
     "title": "Best GPS Running Watches",
-    "description": "A transparent ranking of GPS running watches for daily training, marathons, trail ultras, and value-focused runners.",
+    "description": "A practical guide to GPS running watches for daily training, marathons, trail ultras, and value-focused runners.",
     "audience": "Road runners, marathoners, trail runners, and data-focused athletes",
-    "schemaName": "Best GPS running watches ranked by Phavai BestPick Score",
+    "schemaName": "Best GPS running watches recommended by Phavai",
     "comparisonIntro": "GPS watches should be compared by accuracy, training analytics, battery life, mapping, comfort, and whether the ecosystem fits how you train.",
     "finalRecommendation": "Most runners should start with the Garmin Forerunner 265 because it balances GPS accuracy, training features, AMOLED clarity, and price. Upgrade to the Forerunner 965 for maps and longer events, choose COROS Pace 3 for value and battery, and consider Polar Vantage V3 if recovery and physiology metrics matter most.",
     "faqs": [
@@ -1444,7 +1444,7 @@
       },
       {
         "question": "How should I interpret BestPick for watches?",
-        "answer": "A high BestPick means the watch performs well across expert testing, creator reviews, and owner sentiment. Use the signal and consensus values to see whether the score is broad confidence or a more specialized recommendation."
+        "answer": "A high pick score means the watch performs well across expert testing, creator reviews, and owner sentiment. Use the evidence and source-agreement values to see whether the score is broad confidence or a more specialized recommendation."
       }
     ],
     "products": [
@@ -1754,7 +1754,7 @@
         "price": "$599 typical retail",
         "bestFor": "Athletes who want recovery, physiology, and long battery over smartwatch polish",
         "avoidIf": "You want Garmin's app ecosystem or the best third-party integrations.",
-        "verdict": "The Vantage V3 earns a place for athletes who like Polar's physiology approach, but the broader consensus is more niche than Garmin or COROS.",
+        "verdict": "The Vantage V3 belongs here for athletes who like Polar's physiology approach, but the broader agreement is more niche than Garmin or COROS.",
         "specs": [
           "AMOLED display",
           "Dual-frequency GPS",
@@ -1851,7 +1851,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -1862,17 +1862,17 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "outdoor",
-    "metaTitle": "Best GPS Running Watches Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of GPS running watches for daily training, marathons, trail ultras, and value-focused runners. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best GPS Running Watches | Phavai Buying Guide",
+    "metaDescription": "A practical guide to GPS running watches for daily training, marathons, trail ultras, and value-focused runners. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-gps-running-watches.svg"
   },
   {
     "slug": "best-standing-desks",
     "eyebrow": "Home office",
     "title": "Best Standing Desks",
-    "description": "A transparent ranking of electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics.",
+    "description": "A practical guide to electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics.",
     "audience": "Remote workers, creators, students, and home-office buyers",
-    "schemaName": "Best standing desks ranked by Phavai BestPick Score",
+    "schemaName": "Best standing desks recommended by Phavai",
     "comparisonIntro": "Standing desks should be compared by stability at height, height range, lift capacity, warranty, desktop options, noise, and whether the desk fits your room.",
     "finalRecommendation": "Most shoppers should start with the Uplift V2 if they want a configurable desk with long-term confidence. Choose FlexiSpot E7 Pro for value, Vari Electric Standing Desk for simple setup, and Branch Duo for smaller spaces or a cleaner modern footprint.",
     "faqs": [
@@ -2293,7 +2293,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -2304,17 +2304,17 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "remote-work",
-    "metaTitle": "Best Standing Desks Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Standing Desks | Phavai Buying Guide",
+    "metaDescription": "A practical guide to electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-standing-desks.svg"
   },
   {
     "slug": "best-office-chairs",
     "eyebrow": "Home office",
     "title": "Best Office Chairs",
-    "description": "A transparent ranking of ergonomic office chairs for long workdays, home offices, posture support, and durable comfort.",
+    "description": "A practical guide to ergonomic office chairs for long workdays, home offices, posture support, and durable comfort.",
     "audience": "Remote workers, hybrid teams, gamers, and ergonomic chair shoppers",
-    "schemaName": "Best office chairs ranked by Phavai BestPick Score",
+    "schemaName": "Best office chairs recommended by Phavai",
     "comparisonIntro": "Office chairs are fit-sensitive, so compare support style, adjustability, seat feel, warranty, used-market availability, and whether the chair suits your body more than the average reviewer.",
     "finalRecommendation": "Most shoppers who can afford it should start with the Steelcase Gesture because it fits a wide range of postures and modern device use. Choose Herman Miller Aeron if you want breathable mesh and know your size, Branch Ergonomic Chair Pro for value, and Haworth Fern if you prefer a more flexible backrest feel.",
     "faqs": [
@@ -2735,7 +2735,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -2746,8 +2746,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "remote-work",
-    "metaTitle": "Best Office Chairs Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of ergonomic office chairs for long workdays, home offices, posture support, and durable comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Office Chairs | Phavai Buying Guide",
+    "metaDescription": "A practical guide to ergonomic office chairs for long workdays, home offices, posture support, and durable comfort. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-office-chairs.svg"
   },
   {
@@ -2758,7 +2758,7 @@
     "description": "Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort.",
     "audience": "Trail runners, hikers, marathoners, and ultrarunners",
     "updated": "April 20, 2026",
-    "schemaName": "Best Hydration Packs ranked by Phavai BestPick Score",
+    "schemaName": "Best Hydration Packs recommended by Phavai",
     "comparisonIntro": "Hydration packs should be compared by bounce, capacity, pocket layout, flask compatibility, heat management, and how they fit your torso.",
     "finalRecommendation": "Most runners should start with the Salomon ADV Skin 12 for long trail days. Choose Nathan Pinnacle 12L if Salomon fits too narrow, Osprey Duro/Dyna 15 for bigger unsupported efforts, and CamelBak Zephyr Pro if you want a more structured race-oriented pack.",
     "faqs": [
@@ -2785,7 +2785,7 @@
         "price": "$165 typical retail",
         "bestFor": "Long trail runs, ultras, and runners who want secure front storage",
         "avoidIf": "You have a broader torso or dislike snug vest-style compression.",
-        "verdict": "Salomon ADV Skin 12 earns its position as best overall hydration pack because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Salomon ADV Skin 12 is the best overall hydration pack for shoppers who want long trail runs, ultras, and runners who want secure front storage. It stands out for excellent bounce control and smart pocket layout, with tradeoffs worth checking before you buy.",
         "specs": [
           "12L capacity",
           "Soft flasks included",
@@ -2884,7 +2884,7 @@
         "price": "$200 typical retail",
         "bestFor": "Runners who want roomier fit, low bounce, and long-run storage",
         "avoidIf": "You prefer the most minimal, close-fitting race vest.",
-        "verdict": "Nathan Pinnacle 12L earns its position as best for broader fit because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Nathan Pinnacle 12L is the best for broader fit for shoppers who want runners who want roomier fit, low bounce, and long-run storage. It stands out for roomier than salomon for some runners and good storage-to-weight balance, with tradeoffs worth checking before you buy.",
         "specs": [
           "12L capacity",
           "Lightweight build",
@@ -2983,7 +2983,7 @@
         "price": "$165 typical retail",
         "bestFor": "Long days where layers, food, and extra water matter",
         "avoidIf": "You want a stripped-down race vest for short efforts.",
-        "verdict": "Osprey Duro/Dyna 15 earns its position as best for unsupported routes because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Osprey Duro/Dyna 15 is the best for unsupported routes for shoppers who want long days where layers, food, and extra water matter. It stands out for excellent capacity and stable for bigger loads, with tradeoffs worth checking before you buy.",
         "specs": [
           "15L capacity",
           "Men's and women's fits",
@@ -3082,7 +3082,7 @@
         "price": "$150-$180 typical retail",
         "bestFor": "Runners who want a more structured fit and race-day storage",
         "avoidIf": "You want the softest body-hugging vest feel.",
-        "verdict": "CamelBak Zephyr Pro earns its position as best structured race pack because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "CamelBak Zephyr Pro is the best structured race pack for shoppers who want runners who want a more structured fit and race-day storage. It stands out for structured support and good race-day access, with tradeoffs worth checking before you buy.",
         "specs": [
           "Race vest design",
           "Front flask storage",
@@ -3178,7 +3178,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -3188,8 +3188,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Hydration Packs Ranked by BestPick Score | Phavai",
-    "metaDescription": "Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Hydration Packs | Phavai Buying Guide",
+    "metaDescription": "Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-hydration-packs.svg"
   },
   {
@@ -3200,7 +3200,7 @@
     "description": "Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability.",
     "audience": "Mountain runners, ultrarunners, hikers, and fastpackers",
     "updated": "April 20, 2026",
-    "schemaName": "Best Trail Running Poles ranked by Phavai BestPick Score",
+    "schemaName": "Best Trail Running Poles recommended by Phavai",
     "comparisonIntro": "Compare poles by folded length, weight, grip system, terrain stiffness, durability, and whether fixed-length or adjustable sizing fits your routes.",
     "finalRecommendation": "Most race-focused trail runners should start with the Black Diamond Distance Carbon Z. Choose Leki Ultratrail FX.One Superlite if the glove-style grip system fits your hand, Distance Z if you want aluminum durability, and Gossamer Gear LT5 if adjustability matters for hiking and fastpacking.",
     "faqs": [
@@ -3227,7 +3227,7 @@
         "price": "$190 typical retail",
         "bestFor": "Races, steep climbs, and runners who prioritize low weight",
         "avoidIf": "You are hard on gear or want adjustable length.",
-        "verdict": "Black Diamond Distance Carbon Z earns its position as best race-day pole because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Black Diamond Distance Carbon Z is the best race-day pole for shoppers who want races, steep climbs, and runners who prioritize low weight. It stands out for very light and fast to deploy, with tradeoffs worth checking before you buy.",
         "specs": [
           "Carbon build",
           "Z-fold design",
@@ -3326,7 +3326,7 @@
         "price": "$220-$250 typical retail",
         "bestFor": "Runners who love Leki's shark grip and want race-focused speed",
         "avoidIf": "You dislike glove-style straps or want budget pricing.",
-        "verdict": "Leki Ultratrail FX.One Superlite earns its position as best grip system because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Leki Ultratrail FX.One Superlite is the best grip system for shoppers who want runners who love leki's shark grip and want race-focused speed. It stands out for secure grip interface and light and fast, with tradeoffs worth checking before you buy.",
         "specs": [
           "Folding carbon design",
           "Trail Shark grip",
@@ -3425,7 +3425,7 @@
         "price": "$140 typical retail",
         "bestFor": "Runners who want a folding pole with more aluminum durability",
         "avoidIf": "You want the lightest possible carbon race pole.",
-        "verdict": "Black Diamond Distance Z earns its position as best durable value pole because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Black Diamond Distance Z is the best durable value pole for shoppers who want runners who want a folding pole with more aluminum durability. It stands out for more durable than carbon and good price-to-performance, with tradeoffs worth checking before you buy.",
         "specs": [
           "Aluminum build",
           "Z-fold design",
@@ -3524,7 +3524,7 @@
         "price": "$195 typical retail",
         "bestFor": "Fastpackers and hikers who want adjustability with low weight",
         "avoidIf": "You need compact Z-fold storage for racing.",
-        "verdict": "Gossamer Gear LT5 earns its position as best adjustable crossover because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Gossamer Gear LT5 is the best adjustable crossover for shoppers who want fastpackers and hikers who want adjustability with low weight. It stands out for adjustable length and great hiking crossover, with tradeoffs worth checking before you buy.",
         "specs": [
           "Carbon adjustable design",
           "Two-piece telescoping",
@@ -3620,7 +3620,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -3630,8 +3630,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Trail Running Poles Ranked by BestPick Score | Phavai",
-    "metaDescription": "Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Trail Running Poles | Phavai Buying Guide",
+    "metaDescription": "Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-trail-running-poles.svg"
   },
   {
@@ -3642,7 +3642,7 @@
     "description": "Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort.",
     "audience": "Road runners, trail runners, marathoners, and first-time vest buyers",
     "updated": "April 20, 2026",
-    "schemaName": "Best Running Vests ranked by Phavai BestPick Score",
+    "schemaName": "Best Running Vests recommended by Phavai",
     "comparisonIntro": "Running vests should be compared by bounce control, phone pocket access, bottle placement, breathability, and how much storage you actually need.",
     "finalRecommendation": "Most runners should start with the Salomon ADV Skin 5 because it balances storage, fit, and bounce control. Choose Nathan Pinnacle 4L for a lighter broader-fit option, Ultimate Direction Race Vest for adjustability, and Patagonia Slope Runner if soft comfort matters more than capacity.",
     "faqs": [
@@ -3669,7 +3669,7 @@
         "price": "$145 typical retail",
         "bestFor": "Most runners who want low bounce and useful storage for 1-4 hour runs",
         "avoidIf": "You need 12L+ capacity for unsupported mountain days.",
-        "verdict": "Salomon ADV Skin 5 earns its position as best overall running vest because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Salomon ADV Skin 5 is the best overall running vest for shoppers who want most runners who want low bounce and useful storage for 1-4 hour runs. It stands out for excellent fit security and useful pocket layout, with tradeoffs worth checking before you buy.",
         "specs": [
           "5L capacity",
           "Soft flasks included",
@@ -3768,7 +3768,7 @@
         "price": "$180 typical retail",
         "bestFor": "Runners who want low weight and enough room for phone, nutrition, and flasks",
         "avoidIf": "You need a more structured pack or larger capacity.",
-        "verdict": "Nathan Pinnacle 4L earns its position as best lightweight storage because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Nathan Pinnacle 4L is the best lightweight storage for shoppers who want runners who want low weight and enough room for phone, nutrition, and flasks. It stands out for very light and good warm-weather feel, with tradeoffs worth checking before you buy.",
         "specs": [
           "4L capacity",
           "Lightweight mesh",
@@ -3867,7 +3867,7 @@
         "price": "$130 typical retail",
         "bestFor": "Runners who want more fit adjustment and accessible storage",
         "avoidIf": "You prefer the stretchy second-skin Salomon feel.",
-        "verdict": "Ultimate Direction Race Vest 6.0 earns its position as best adjustable fit because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Ultimate Direction Race Vest 6.0 is the best adjustable fit for shoppers who want runners who want more fit adjustment and accessible storage. It stands out for good adjustability and solid value, with tradeoffs worth checking before you buy.",
         "specs": [
           "Adjustable fit",
           "Front flask compatible",
@@ -3966,7 +3966,7 @@
         "price": "$169 typical retail",
         "bestFor": "Runners who want a comfortable vest for moderate trail efforts",
         "avoidIf": "You need maximum pocket volume or race-specific attachment points.",
-        "verdict": "Patagonia Slope Runner Vest earns its position as best soft comfort because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Patagonia Slope Runner Vest is the best soft comfort for shoppers who want runners who want a comfortable vest for moderate trail efforts. It stands out for comfortable fabric and clean design, with tradeoffs worth checking before you buy.",
         "specs": [
           "4L capacity",
           "Soft flask compatible",
@@ -4062,7 +4062,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -4072,8 +4072,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Running Vests Ranked by BestPick Score | Phavai",
-    "metaDescription": "Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Running Vests | Phavai Buying Guide",
+    "metaDescription": "Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-running-vests.svg"
   },
   {
@@ -4084,7 +4084,7 @@
     "description": "Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability.",
     "audience": "Runners, walkers, gym users, and anyone looking for cushioned recovery footwear",
     "updated": "April 20, 2026",
-    "schemaName": "Best Recovery Sandals ranked by Phavai BestPick Score",
+    "schemaName": "Best Recovery Sandals recommended by Phavai",
     "comparisonIntro": "Recovery sandals should be compared by cushioning, arch geometry, rocker feel, outsole durability, and whether they are comfortable enough for daily wear.",
     "finalRecommendation": "Most runners should start with OOFOS OOahh if plush impact reduction is the priority. Choose HOKA Ora 3 for a firmer rocker feel, Kane Revive for washable active recovery, and Birkenstock Arizona EVA if you want low-cost lightweight support.",
     "faqs": [
@@ -4111,7 +4111,7 @@
         "price": "$60 typical retail",
         "bestFor": "Runners who want maximum soft cushioning after hard workouts",
         "avoidIf": "You prefer a firmer platform or more locked-in fit.",
-        "verdict": "OOFOS OOahh Slide earns its position as best plush recovery slide because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "OOFOS OOahh Slide is the best plush recovery slide for shoppers who want runners who want maximum soft cushioning after hard workouts. It stands out for very soft underfoot and easy post-run comfort, with tradeoffs worth checking before you buy.",
         "specs": [
           "OOfoam cushioning",
           "Slide design",
@@ -4210,7 +4210,7 @@
         "price": "$60 typical retail",
         "bestFor": "Runners who like HOKA cushioning and a firmer recovery feel",
         "avoidIf": "You want the softest possible sandal.",
-        "verdict": "HOKA Ora Recovery Slide 3 earns its position as best rocker recovery sandal because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "HOKA Ora Recovery Slide 3 is the best rocker recovery sandal for shoppers who want runners who like hoka cushioning and a firmer recovery feel. It stands out for stable rocker feel and durable enough for daily use, with tradeoffs worth checking before you buy.",
         "specs": [
           "Dual-density geometry",
           "Rocker shape",
@@ -4309,7 +4309,7 @@
         "price": "$80 typical retail",
         "bestFor": "People who want washable recovery footwear for errands, gym, and travel",
         "avoidIf": "You want an open slide or maximum softness.",
-        "verdict": "Kane Revive earns its position as best active recovery shoe because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Kane Revive is the best active recovery shoe for shoppers who want people who want washable recovery footwear for errands, gym, and travel. It stands out for more secure than slides and easy to clean, with tradeoffs worth checking before you buy.",
         "specs": [
           "Closed-toe recovery shoe",
           "Washable",
@@ -4408,7 +4408,7 @@
         "price": "$50 typical retail",
         "bestFor": "Shoppers who want light, waterproof support at a lower price",
         "avoidIf": "You want plush foam recovery cushioning.",
-        "verdict": "Birkenstock Arizona EVA earns its position as best lightweight value because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Birkenstock Arizona EVA is the best lightweight value for shoppers who want shoppers who want light, waterproof support at a lower price. It stands out for affordable and very light, with tradeoffs worth checking before you buy.",
         "specs": [
           "EVA construction",
           "Adjustable straps",
@@ -4504,7 +4504,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -4514,8 +4514,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Recovery Sandals Ranked by BestPick Score | Phavai",
-    "metaDescription": "Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Recovery Sandals | Phavai Buying Guide",
+    "metaDescription": "Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-recovery-sandals.svg"
   },
   {
@@ -4526,7 +4526,7 @@
     "description": "Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability.",
     "audience": "Remote workers, hybrid teams, teachers, streamers, and consultants",
     "updated": "April 20, 2026",
-    "schemaName": "Best Webcams for Remote Work ranked by Phavai BestPick Score",
+    "schemaName": "Best Webcams for Remote Work recommended by Phavai",
     "comparisonIntro": "Remote-work webcams should be judged by lighting correction, field of view, autofocus, privacy shutter, software friction, and whether the camera flatters a normal desk setup.",
     "finalRecommendation": "Most remote workers should start with the Logitech MX Brio for reliable image quality and mainstream software support. Choose Obsbot Tiny 3 for tracking and presentations, Razer Kiyo Pro Ultra for low light, and Anker PowerConf C200 for value.",
     "faqs": [
@@ -4553,7 +4553,7 @@
         "price": "$199 typical retail",
         "bestFor": "Professionals who want reliable 4K image quality with mainstream software support",
         "avoidIf": "You want a budget webcam under $100.",
-        "verdict": "Logitech MX Brio earns its position as best webcam for most remote workers because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Logitech MX Brio is the best webcam for most remote workers for shoppers who want professionals who want reliable 4k image quality with mainstream software support. It stands out for excellent image clarity and strong software support, with tradeoffs worth checking before you buy.",
         "specs": [
           "4K resolution",
           "HDR support",
@@ -4652,7 +4652,7 @@
         "price": "$249-$299 typical retail",
         "bestFor": "Presenters, teachers, and creators who move around on camera",
         "avoidIf": "You want the simplest plug-and-play camera.",
-        "verdict": "Obsbot Tiny 3 earns its position as best ai-tracking webcam because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Obsbot Tiny 3 is the best ai-tracking webcam for shoppers who want presenters, teachers, and creators who move around on camera. It stands out for great tracking and strong presentation features, with tradeoffs worth checking before you buy.",
         "specs": [
           "4K PTZ camera",
           "AI tracking",
@@ -4751,7 +4751,7 @@
         "price": "$299 typical retail",
         "bestFor": "Users in dim rooms who want a large sensor and strong image control",
         "avoidIf": "You want a small unobtrusive work webcam.",
-        "verdict": "Razer Kiyo Pro Ultra earns its position as best low-light webcam because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Razer Kiyo Pro Ultra is the best low-light webcam for shoppers who want users in dim rooms who want a large sensor and strong image control. It stands out for excellent low light and camera-like image, with tradeoffs worth checking before you buy.",
         "specs": [
           "Large sensor",
           "4K capture",
@@ -4850,7 +4850,7 @@
         "price": "$60-$80 typical retail",
         "bestFor": "Budget-focused remote workers who still want a clear image",
         "avoidIf": "You want premium 4K quality or advanced tracking.",
-        "verdict": "Anker PowerConf C200 earns its position as best value webcam because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Anker PowerConf C200 is the best value webcam for shoppers who want budget-focused remote workers who still want a clear image. It stands out for strong value and better than laptop webcams, with tradeoffs worth checking before you buy.",
         "specs": [
           "2K resolution",
           "Adjustable field of view",
@@ -4946,7 +4946,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -4956,8 +4956,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Webcams for Remote Work Ranked by BestPick Score | Phavai",
-    "metaDescription": "Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Webcams for Remote Work | Phavai Buying Guide",
+    "metaDescription": "Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-webcams-for-remote-work.svg"
   },
   {
@@ -4968,7 +4968,7 @@
     "description": "Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection.",
     "audience": "Remote workers, designers, writers, gamers, and desk-setup enthusiasts",
     "updated": "April 20, 2026",
-    "schemaName": "Best Desk Mats ranked by Phavai BestPick Score",
+    "schemaName": "Best Desk Mats recommended by Phavai",
     "comparisonIntro": "Desk mats should be compared by material, stain resistance, mouse feel, keyboard sound, edge curl, and whether they match the way you work.",
     "finalRecommendation": "Most people should start with the Orbitkey Desk Mat if they want a polished all-around workspace surface. Choose Grovemade for premium materials, Logitech Studio Series for budget color and simplicity, and Knodel if you want the most coverage per dollar.",
     "faqs": [
@@ -4995,7 +4995,7 @@
         "price": "$80-$120 typical retail",
         "bestFor": "Remote workers who want a polished mat with document storage and cable control",
         "avoidIf": "You want the cheapest large mat possible.",
-        "verdict": "Orbitkey Desk Mat earns its position as best overall desk mat because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Orbitkey Desk Mat is the best overall desk mat for shoppers who want remote workers who want a polished mat with document storage and cable control. It stands out for clean design and useful cable holder, with tradeoffs worth checking before you buy.",
         "specs": [
           "Vegan leather surface",
           "Document hideaway",
@@ -5094,7 +5094,7 @@
         "price": "$70-$150 typical retail",
         "bestFor": "Design-focused workspaces that prioritize texture and premium feel",
         "avoidIf": "You need easy wipe-clean spill resistance.",
-        "verdict": "Grovemade Wool Felt Desk Pad earns its position as best premium material because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Grovemade Wool Felt Desk Pad is the best premium material for shoppers who want design-focused workspaces that prioritize texture and premium feel. It stands out for beautiful material and soft under wrists, with tradeoffs worth checking before you buy.",
         "specs": [
           "Merino wool felt",
           "Multiple sizes",
@@ -5193,7 +5193,7 @@
         "price": "$20 typical retail",
         "bestFor": "Simple home-office setups that want color and desk protection",
         "avoidIf": "You want premium materials or a very large work surface.",
-        "verdict": "Logitech Studio Series Desk Mat earns its position as best budget color mat because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Logitech Studio Series Desk Mat is the best budget color mat for shoppers who want simple home-office setups that want color and desk protection. It stands out for affordable and easy color upgrade, with tradeoffs worth checking before you buy.",
         "specs": [
           "Cloth surface",
           "Anti-slip base",
@@ -5292,7 +5292,7 @@
         "price": "$15-$30 typical retail",
         "bestFor": "People who want broad coverage for keyboard, mouse, and desk protection",
         "avoidIf": "You want a refined premium material.",
-        "verdict": "Knodel Large Desk Mat earns its position as best large value mat because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Knodel Large Desk Mat is the best large value mat for shoppers who want people who want broad coverage for keyboard, mouse, and desk protection. It stands out for lots of coverage and low cost, with tradeoffs worth checking before you buy.",
         "specs": [
           "Large surface",
           "PU leather options",
@@ -5388,7 +5388,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -5398,8 +5398,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Desk Mats Ranked by BestPick Score | Phavai",
-    "metaDescription": "Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Desk Mats | Phavai Buying Guide",
+    "metaDescription": "Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-desk-mats.svg"
   },
   {
@@ -5410,7 +5410,7 @@
     "description": "Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value.",
     "audience": "Remote workers, developers, designers, and multi-monitor desk setups",
     "updated": "April 20, 2026",
-    "schemaName": "Best Monitor Arms ranked by Phavai BestPick Score",
+    "schemaName": "Best Monitor Arms recommended by Phavai",
     "comparisonIntro": "Monitor arms should be compared by weight support, movement smoothness, clamp compatibility, cable routing, and whether they hold position without sag.",
     "finalRecommendation": "Most people should start with the Ergotron LX because it is the proven benchmark. Choose Amazon Basics Premium if it is available at the right price, Herman Miller Flo for a refined premium setup, and Fully Jarvis if you want a clean mainstream option.",
     "faqs": [
@@ -5437,7 +5437,7 @@
         "price": "$180-$220 typical retail",
         "bestFor": "Most single-monitor setups that need smooth adjustment and long-term reliability",
         "avoidIf": "You need the cheapest possible arm.",
-        "verdict": "Ergotron LX earns its position as best overall monitor arm because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Ergotron LX is the best overall monitor arm for shoppers who want most single-monitor setups that need smooth adjustment and long-term reliability. It stands out for excellent stability and smooth movement, with tradeoffs worth checking before you buy.",
         "specs": [
           "Up to 34-inch support",
           "VESA mount",
@@ -5536,7 +5536,7 @@
         "price": "$100-$150 typical retail",
         "bestFor": "Shoppers who want Ergotron-like performance at a lower price",
         "avoidIf": "You want current availability certainty or premium finish choices.",
-        "verdict": "Amazon Basics Premium Monitor Stand earns its position as best value if available because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Amazon Basics Premium Monitor Stand is the best value if available for shoppers who want shoppers who want ergotron-like performance at a lower price. It stands out for strong value and good adjustability, with tradeoffs worth checking before you buy.",
         "specs": [
           "VESA support",
           "Adjustable arm",
@@ -5635,7 +5635,7 @@
         "price": "$295 typical retail",
         "bestFor": "Design-led workspaces that want a refined arm with smooth movement",
         "avoidIf": "You want value pricing or heavy-monitor support above its range.",
-        "verdict": "Herman Miller Flo Monitor Arm earns its position as best premium design because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Herman Miller Flo Monitor Arm is the best premium design for shoppers who want design-led workspaces that want a refined arm with smooth movement. It stands out for elegant movement and premium finish, with tradeoffs worth checking before you buy.",
         "specs": [
           "Premium arm",
           "Smooth adjustment",
@@ -5734,7 +5734,7 @@
         "price": "$99-$130 typical retail",
         "bestFor": "Home-office users who want a clean, simple arm from a desk brand",
         "avoidIf": "You need the strongest heavy-display support.",
-        "verdict": "Fully Jarvis Monitor Arm earns its position as best simple mainstream arm because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Fully Jarvis Monitor Arm is the best simple mainstream arm for shoppers who want home-office users who want a clean, simple arm from a desk brand. It stands out for simple setup and clean design, with tradeoffs worth checking before you buy.",
         "specs": [
           "Single monitor arm",
           "VESA support",
@@ -5830,7 +5830,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -5840,8 +5840,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Monitor Arms Ranked by BestPick Score | Phavai",
-    "metaDescription": "Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Monitor Arms | Phavai Buying Guide",
+    "metaDescription": "Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-monitor-arms.svg"
   },
   {
@@ -5852,7 +5852,7 @@
     "description": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort.",
     "audience": "Remote workers, writers, developers, and anyone reducing typing strain",
     "updated": "April 20, 2026",
-    "schemaName": "Best Ergonomic Keyboards ranked by Phavai BestPick Score",
+    "schemaName": "Best Ergonomic Keyboards recommended by Phavai",
     "comparisonIntro": "Ergonomic keyboards are fit-sensitive. Compare split angle, tenting, wrist-rest shape, wireless needs, key layout, and how steep the learning curve will be.",
     "finalRecommendation": "Most people should start with the Logitech Ergo K860 because it is approachable and easy to adopt. Choose Kinesis Freestyle2 if you need a true split, Keychron Q11 if you want mechanical keys, and ZSA Voyager if you are ready for a programmable enthusiast board.",
     "faqs": [
@@ -5879,7 +5879,7 @@
         "price": "$130 typical retail",
         "bestFor": "People who want a gentle split layout with low learning curve",
         "avoidIf": "You want mechanical switches or fully split positioning.",
-        "verdict": "Logitech Ergo K860 earns its position as best ergonomic keyboard for most people because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Logitech Ergo K860 is the best ergonomic keyboard for most people for shoppers who want people who want a gentle split layout with low learning curve. It stands out for easy to adopt and comfortable wrist rest, with tradeoffs worth checking before you buy.",
         "specs": [
           "Curved split layout",
           "Integrated wrist rest",
@@ -5978,7 +5978,7 @@
         "price": "$90-$135 typical retail",
         "bestFor": "Users who want shoulder-width typing without going full enthusiast",
         "avoidIf": "You want premium mechanical switches or compact travel size.",
-        "verdict": "Kinesis Freestyle2 earns its position as best true split for beginners because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Kinesis Freestyle2 is the best true split for beginners for shoppers who want users who want shoulder-width typing without going full enthusiast. It stands out for real split positioning and good ergonomic upgrade path, with tradeoffs worth checking before you buy.",
         "specs": [
           "Fully split design",
           "Optional tenting",
@@ -6077,7 +6077,7 @@
         "price": "$205 typical retail",
         "bestFor": "Mechanical keyboard fans who want split typing and premium build",
         "avoidIf": "You want a simple office keyboard with quiet low-profile keys.",
-        "verdict": "Keychron Q11 earns its position as best mechanical split keyboard because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Keychron Q11 is the best mechanical split keyboard for shoppers who want mechanical keyboard fans who want split typing and premium build. It stands out for excellent build and customizable typing feel, with tradeoffs worth checking before you buy.",
         "specs": [
           "Split mechanical layout",
           "QMK/VIA support",
@@ -6176,7 +6176,7 @@
         "price": "$365 typical retail",
         "bestFor": "Power users ready for layers, thumb keys, and a compact split layout",
         "avoidIf": "You want a familiar layout or low price.",
-        "verdict": "ZSA Voyager earns its position as best programmable compact ergonomic keyboard because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "ZSA Voyager is the best programmable compact ergonomic keyboard for shoppers who want power users ready for layers, thumb keys, and a compact split layout. It stands out for extremely customizable and great for power users, with tradeoffs worth checking before you buy.",
         "specs": [
           "Column-staggered split",
           "Low-profile switches",
@@ -6272,7 +6272,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -6282,8 +6282,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Ergonomic Keyboards Ranked by BestPick Score | Phavai",
-    "metaDescription": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Ergonomic Keyboards | Phavai Buying Guide",
+    "metaDescription": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-ergonomic-keyboards.svg"
   },
   {
@@ -6294,7 +6294,7 @@
     "description": "Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality.",
     "audience": "Frequent flyers, business travelers, weekend travelers, and families",
     "updated": "April 20, 2026",
-    "schemaName": "Best Carry-On Luggage ranked by Phavai BestPick Score",
+    "schemaName": "Best Carry-On Luggage recommended by Phavai",
     "comparisonIntro": "Carry-ons should be compared by wheel quality, shell durability, usable interior space, handle wobble, warranty support, and airline-size risk.",
     "finalRecommendation": "Most travelers should start with Travelpro Platinum Elite for reliability and practical packing. Choose Briggs & Riley for lifetime-warranty confidence, Away Bigger Carry-On for a polished direct-to-consumer hard shell, and Monos Carry-On Pro if front-pocket organization matters.",
     "faqs": [
@@ -6321,7 +6321,7 @@
         "price": "$365 typical retail",
         "bestFor": "Frequent flyers who want practical organization and dependable wheels",
         "avoidIf": "You want a hard-shell minimalist look.",
-        "verdict": "Travelpro Platinum Elite 21-inch earns its position as best carry-on for most travelers because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Travelpro Platinum Elite 21-inch is the best carry-on for most travelers for shoppers who want frequent flyers who want practical organization and dependable wheels. It stands out for excellent practical layout and strong travel reputation, with tradeoffs worth checking before you buy.",
         "specs": [
           "Soft-side spinner",
           "Expandable design",
@@ -6420,7 +6420,7 @@
         "price": "$699 typical retail",
         "bestFor": "Travelers who want maximum durability and warranty confidence",
         "avoidIf": "You want a lower upfront price.",
-        "verdict": "Briggs & Riley Baseline Essential earns its position as best premium lifetime-warranty carry-on because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Briggs & Riley Baseline Essential is the best premium lifetime-warranty carry-on for shoppers who want travelers who want maximum durability and warranty confidence. It stands out for outstanding warranty and durable materials, with tradeoffs worth checking before you buy.",
         "specs": [
           "Premium soft-side build",
           "Compression system",
@@ -6519,7 +6519,7 @@
         "price": "$295 typical retail",
         "bestFor": "Travelers who want a polished hard shell and simple buying experience",
         "avoidIf": "You fly strict international carriers often.",
-        "verdict": "Away Bigger Carry-On earns its position as best hard-shell mainstream pick because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Away Bigger Carry-On is the best hard-shell mainstream pick for shoppers who want travelers who want a polished hard shell and simple buying experience. It stands out for clean design and good direct-to-consumer experience, with tradeoffs worth checking before you buy.",
         "specs": [
           "Polycarbonate shell",
           "Spinner wheels",
@@ -6618,7 +6618,7 @@
         "price": "$295 typical retail",
         "bestFor": "Laptop travelers who want a hard shell plus quick-access front storage",
         "avoidIf": "You need maximum interior capacity.",
-        "verdict": "Monos Carry-On Pro earns its position as best hard shell with front pocket because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Monos Carry-On Pro is the best hard shell with front pocket for shoppers who want laptop travelers who want a hard shell plus quick-access front storage. It stands out for laptop-friendly front pocket and premium look, with tradeoffs worth checking before you buy.",
         "specs": [
           "Polycarbonate shell",
           "Front compartment",
@@ -6714,7 +6714,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -6724,8 +6724,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Carry-On Luggage Ranked by BestPick Score | Phavai",
-    "metaDescription": "Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Carry-On Luggage | Phavai Buying Guide",
+    "metaDescription": "Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-carry-on-luggage.svg"
   },
   {
@@ -6736,7 +6736,7 @@
     "description": "Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability.",
     "audience": "Daily coffee drinkers, home offices, families, and gift buyers",
     "updated": "April 20, 2026",
-    "schemaName": "Best Coffee Makers ranked by Phavai BestPick Score",
+    "schemaName": "Best Coffee Makers recommended by Phavai",
     "comparisonIntro": "Coffee makers should be compared by flavor consistency, water temperature, carafe quality, ease of cleaning, footprint, and whether you want simplicity or control.",
     "finalRecommendation": "Most drip-coffee buyers should start with the Technivorm Moccamaster KBGV Select if budget allows. Choose Breville Precision Brewer for control, OXO Brew 9-Cup for smart everyday automation, and Ninja 12-Cup if you want value and flexibility.",
     "faqs": [
@@ -6763,7 +6763,7 @@
         "price": "$359 typical retail",
         "bestFor": "Daily drip drinkers who want simple, durable, excellent coffee",
         "avoidIf": "You need programmability or a low price.",
-        "verdict": "Technivorm Moccamaster KBGV Select earns its position as best coffee maker for most enthusiasts because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Technivorm Moccamaster KBGV Select is the best coffee maker for most enthusiasts for shoppers who want daily drip drinkers who want simple, durable, excellent coffee. It stands out for excellent brew consistency and long durability reputation, with tradeoffs worth checking before you buy.",
         "specs": [
           "40 oz capacity",
           "SCA-certified",
@@ -6862,7 +6862,7 @@
         "price": "$329 typical retail",
         "bestFor": "Coffee drinkers who want temperature, bloom, and brew-mode control",
         "avoidIf": "You want the simplest possible morning routine.",
-        "verdict": "Breville Precision Brewer earns its position as best customizable drip coffee maker because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Breville Precision Brewer is the best customizable drip coffee maker for shoppers who want coffee drinkers who want temperature, bloom, and brew-mode control. It stands out for highly flexible and good thermal carafe, with tradeoffs worth checking before you buy.",
         "specs": [
           "Multiple brew modes",
           "Thermal carafe option",
@@ -6961,7 +6961,7 @@
         "price": "$229 typical retail",
         "bestFor": "Households that want reliable drip coffee with minimal fuss",
         "avoidIf": "You want premium build or extensive brew controls.",
-        "verdict": "OXO Brew 9-Cup earns its position as best automated everyday coffee maker because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "OXO Brew 9-Cup is the best automated everyday coffee maker for shoppers who want households that want reliable drip coffee with minimal fuss. It stands out for easy to use and good consistency, with tradeoffs worth checking before you buy.",
         "specs": [
           "9-cup capacity",
           "Rainmaker shower head",
@@ -7060,7 +7060,7 @@
         "price": "$80-$100 typical retail",
         "bestFor": "Families who want affordable programmable drip coffee",
         "avoidIf": "You want specialty-grade consistency or premium materials.",
-        "verdict": "Ninja 12-Cup Programmable Brewer earns its position as best budget family coffee maker because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Ninja 12-Cup Programmable Brewer is the best budget family coffee maker for shoppers who want families who want affordable programmable drip coffee. It stands out for affordable and large capacity, with tradeoffs worth checking before you buy.",
         "specs": [
           "12-cup capacity",
           "Programmable delay brew",
@@ -7156,7 +7156,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -7166,8 +7166,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Coffee Makers Ranked by BestPick Score | Phavai",
-    "metaDescription": "Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Coffee Makers | Phavai Buying Guide",
+    "metaDescription": "Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-coffee-makers.svg"
   },
   {
@@ -7178,7 +7178,7 @@
     "description": "Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value.",
     "audience": "Runners, lifters, desk workers, and recovery-focused shoppers",
     "updated": "April 20, 2026",
-    "schemaName": "Best Massage Guns ranked by Phavai BestPick Score",
+    "schemaName": "Best Massage Guns recommended by Phavai",
     "comparisonIntro": "Massage guns should be compared by amplitude, stall force, grip comfort, noise, attachment quality, battery life, and whether you need travel size or deep-tissue power.",
     "finalRecommendation": "Most shoppers should start with Theragun Prime Plus for a premium recovery experience. Choose Hypervolt 2 Pro for smoother quiet power, Ekrin B37 for value, and Theragun Mini if portability matters most.",
     "faqs": [
@@ -7205,7 +7205,7 @@
         "price": "$299 typical retail",
         "bestFor": "People who want premium app-guided recovery and strong percussive performance",
         "avoidIf": "You want the quietest or cheapest recovery tool.",
-        "verdict": "Therabody Theragun Prime Plus earns its position as best massage gun overall because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Therabody Theragun Prime Plus is the best massage gun overall for shoppers who want people who want premium app-guided recovery and strong percussive performance. It stands out for strong recovery experience and good ergonomics, with tradeoffs worth checking before you buy.",
         "specs": [
           "Percussive therapy",
           "App routines",
@@ -7304,7 +7304,7 @@
         "price": "$329 typical retail",
         "bestFor": "Users who want smooth power and quieter operation for regular use",
         "avoidIf": "You want the most compact travel option.",
-        "verdict": "Hyperice Hypervolt 2 Pro earns its position as best quiet power because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Hyperice Hypervolt 2 Pro is the best quiet power for shoppers who want users who want smooth power and quieter operation for regular use. It stands out for smooth motor feel and strong power, with tradeoffs worth checking before you buy.",
         "specs": [
           "5 speeds",
           "Pressure sensor",
@@ -7403,7 +7403,7 @@
         "price": "$229 typical retail",
         "bestFor": "Shoppers who want strong performance without Therabody pricing",
         "avoidIf": "You want the most polished app ecosystem.",
-        "verdict": "Ekrin B37 earns its position as best value massage gun because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Ekrin B37 is the best value massage gun for shoppers who want shoppers who want strong performance without therabody pricing. It stands out for strong value and comfortable grip, with tradeoffs worth checking before you buy.",
         "specs": [
           "Angled grip",
           "Long battery life",
@@ -7502,7 +7502,7 @@
         "price": "$199 typical retail",
         "bestFor": "Travelers and casual users who want compact relief",
         "avoidIf": "You need deep tissue power for large muscle groups.",
-        "verdict": "Theragun Mini earns its position as best portable massage gun because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Theragun Mini is the best portable massage gun for shoppers who want travelers and casual users who want compact relief. It stands out for very portable and easy to pack, with tradeoffs worth checking before you buy.",
         "specs": [
           "Compact design",
           "USB-C charging",
@@ -7598,7 +7598,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -7608,8 +7608,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Massage Guns Ranked by BestPick Score | Phavai",
-    "metaDescription": "Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Massage Guns | Phavai Buying Guide",
+    "metaDescription": "Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-massage-guns.svg"
   },
   {
@@ -7620,7 +7620,7 @@
     "description": "Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction.",
     "audience": "Allergy sufferers, pet owners, apartment dwellers, families, and home-office users",
     "updated": "April 20, 2026",
-    "schemaName": "Best Air Purifiers ranked by Phavai BestPick Score",
+    "schemaName": "Best Air Purifiers recommended by Phavai",
     "comparisonIntro": "Air purifiers should be compared by CADR, room size, noise at useful fan speeds, filter replacement cost, smart features, and whether you need odor control.",
     "finalRecommendation": "Most shoppers should start with Coway Airmega AP-1512HH or Airmega 200M-style models for proven value. Choose Levoit Vital/Core models for smart value, Blueair 211i Max for larger rooms, and Winix 5500-2 if budget and odor control matter.",
     "faqs": [
@@ -7647,7 +7647,7 @@
         "price": "$180-$230 typical retail",
         "bestFor": "Bedrooms and medium rooms where proven performance and value matter",
         "avoidIf": "You need smart app control or very large-room coverage.",
-        "verdict": "Coway Airmega AP-1512HH Mighty earns its position as best overall air purifier value because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Coway Airmega AP-1512HH Mighty is the best overall air purifier value for shoppers who want bedrooms and medium rooms where proven performance and value matter. It stands out for excellent long-term reputation and strong value, with tradeoffs worth checking before you buy.",
         "specs": [
           "True HEPA filtration",
           "Eco mode",
@@ -7746,7 +7746,7 @@
         "price": "$190 typical retail",
         "bestFor": "Pet owners and smart-home users who want app control and good value",
         "avoidIf": "You want the longest expert-test track record.",
-        "verdict": "Levoit Vital 200S earns its position as best smart value purifier because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Levoit Vital 200S is the best smart value purifier for shoppers who want pet owners and smart-home users who want app control and good value. It stands out for good smart features and pet-friendly intake, with tradeoffs worth checking before you buy.",
         "specs": [
           "Smart app control",
           "Pet mode",
@@ -7845,7 +7845,7 @@
         "price": "$349 typical retail",
         "bestFor": "Living rooms and larger spaces that need more airflow",
         "avoidIf": "You want the cheapest filter replacements.",
-        "verdict": "Blueair Blue Pure 211i Max earns its position as best large-room purifier because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Blueair Blue Pure 211i Max is the best large-room purifier for shoppers who want living rooms and larger spaces that need more airflow. It stands out for strong room coverage and attractive design, with tradeoffs worth checking before you buy.",
         "specs": [
           "Large-room airflow",
           "Smart controls",
@@ -7944,7 +7944,7 @@
         "price": "$160-$200 typical retail",
         "bestFor": "Budget buyers who want HEPA filtration plus activated carbon value",
         "avoidIf": "You dislike ionizer features or want premium smart design.",
-        "verdict": "Winix 5500-2 earns its position as best budget odor-control pick because the score blends expert testing, creator usability signals, and owner sentiment rather than relying on a single reviewer's preference.",
+        "verdict": "Winix 5500-2 is the best budget odor-control pick for shoppers who want budget buyers who want hepa filtration plus activated carbon value. It stands out for strong feature set for price and good odor-control value, with tradeoffs worth checking before you buy.",
         "specs": [
           "True HEPA",
           "Washable carbon filter",
@@ -8040,7 +8040,7 @@
       "YouTube": 30,
       "Reddit": 30
     },
-    "sourceWeightReason": "This category uses three auditable evidence channels: Expert reviews at 40%, with YouTube and Reddit evenly weighted at 30% each. Broad social media is excluded until Phavai has a reliable API-backed collection process.",
+    "sourceWeightReason": "The default ranking gives expert reviews the most weight, then balances that with creator use and owner feedback. We keep broad social media out until it can be collected cleanly.",
     "customScoring": {
       "enabled": true,
       "channels": [
@@ -8050,8 +8050,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Air Purifiers Ranked by BestPick Score | Phavai",
-    "metaDescription": "Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "metaTitle": "Best Air Purifiers | Phavai Buying Guide",
+    "metaDescription": "Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
     "image": "/photos/generated/guide-best-air-purifiers.svg"
   },
   {
@@ -8062,7 +8062,7 @@
     "description": "A long-distance trail shoe ranking for 100-mile races where protection, fit security, swelling room, and late-race comfort matter more than pure speed.",
     "audience": "100-mile runners, pacers, and first-time ultra racers",
     "updated": "April 21, 2026",
-    "schemaName": "Best Trail Shoes for 100 Miles ranked by Phavai BestPick Score",
+    "schemaName": "Best Trail Shoes for 100 Miles recommended by Phavai",
     "comparisonIntro": "For 100 miles, the winning shoe is rarely the lightest. This comparison prioritizes protection, all-day fit, traction consistency, and whether runners can trust the shoe after hours of swelling and fatigue.",
     "finalRecommendation": "Most 100-mile runners should start with the HOKA Speedgoat 6 because it balances protection, grip, and familiarity. Choose the Topo Ultraventure 4 if forefoot room is the bigger risk, or the Cascadia 19 if you want a stable, traditional trail platform.",
     "faqs": [
@@ -8485,8 +8485,8 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Trail Shoes for 100 Miles Ranked by BestPick Score | Phavai",
-    "metaDescription": "Best trail shoes for 100-mile races, ranked with BestPick Scores, consensus signals, source breakdowns, pros, tradeoffs, and avoid-if guidance.",
+    "metaTitle": "Best Trail Shoes for 100 Miles | Phavai Buying Guide",
+    "metaDescription": "Best trail shoes for 100-mile races, ranked by comfort, fit security, durability, source agreement, tradeoffs, and skip-if guidance.",
     "relatedReviewSlugs": [
       "best-mens-trail-running-shoes",
       "best-womens-trail-running-shoes",
@@ -8504,7 +8504,7 @@
     "description": "A technical-terrain trail shoe ranking for rocky descents, off-camber footing, roots, and mountain routes where foothold matters as much as cushioning.",
     "audience": "Mountain runners, rocky-trail runners, and technical descent specialists",
     "updated": "April 21, 2026",
-    "schemaName": "Best Trail Shoes for Technical Trails ranked by Phavai BestPick Score",
+    "schemaName": "Best Trail Shoes for Technical Trails recommended by Phavai",
     "comparisonIntro": "Technical trails punish sloppy uppers and vague outsoles. This ranking prioritizes foothold, grip precision, downhill confidence, and protection without making the shoe feel clumsy.",
     "finalRecommendation": "Pick the La Sportiva Prodigio Pro if you want the most technical, race-ready feel. Choose the Speedgoat 6 for more cushion and broader terrain coverage, or the Peregrine 15 if you prefer a lower, grippier everyday technical shoe.",
     "faqs": [
@@ -8927,8 +8927,8 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Trail Shoes for Technical Trails Ranked by BestPick Score | Phavai",
-    "metaDescription": "Best trail shoes for technical trails, ranked by grip, foothold, protection, source consensus, and Phavai BestPick Score.",
+    "metaTitle": "Best Trail Shoes for Technical Trails | Phavai Buying Guide",
+    "metaDescription": "Best trail shoes for technical trails, ranked by grip, foothold, protection, confidence, and real terrain tradeoffs.",
     "relatedReviewSlugs": [
       "best-mens-trail-running-shoes",
       "best-trail-running-poles",
@@ -8946,7 +8946,7 @@
     "description": "A trail shoe ranking for runners who need forefoot room, swelling tolerance, or less sidewall pressure without losing heel security on uneven terrain.",
     "audience": "Wide-foot trail runners and ultra runners who need swelling room",
     "updated": "April 21, 2026",
-    "schemaName": "Best Trail Shoes for Wide Feet ranked by Phavai BestPick Score",
+    "schemaName": "Best Trail Shoes for Wide Feet recommended by Phavai",
     "comparisonIntro": "Wide-foot trail shoes need more than a big toe box. This comparison looks at forefoot room, midfoot security, downhill control, and whether the shoe still feels stable on trail.",
     "finalRecommendation": "Most wide-foot trail runners should start with the Topo Ultraventure 4 because it balances room and hold. Choose Altra Lone Peak 9 if zero-drop and maximum toe splay are priorities, or Speedgoat 6 only if the fit works for your foot.",
     "faqs": [
@@ -9369,7 +9369,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Trail Shoes for Wide Feet Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Trail Shoes for Wide Feet | Phavai Buying Guide",
     "metaDescription": "Best trail shoes for wide feet, ranked by toe-box room, heel security, trail confidence, source consensus, and Phavai BestPick Score.",
     "relatedReviewSlugs": [
       "best-trail-shoes-for-100-miles",
@@ -9388,7 +9388,7 @@
     "description": "A mud-focused trail shoe ranking for soft ground, wet grass, sloppy singletrack, and races where outsole bite matters more than road comfort.",
     "audience": "Mud-season trail runners, OCR runners, and soft-ground racers",
     "updated": "April 21, 2026",
-    "schemaName": "Best Trail Shoes for Muddy Conditions ranked by Phavai BestPick Score",
+    "schemaName": "Best Trail Shoes for Muddy Conditions recommended by Phavai",
     "comparisonIntro": "Mud changes the ranking. Shoes that are excellent on dry trail can become vague or slippery when the ground is soft, so this list weights lug pattern, upper hold, and mud-specific owner sentiment more heavily.",
     "finalRecommendation": "Choose the Salomon Speedcross 6 for most muddy trail runs. Pick the Inov-8 X-Talon Ultra 260 V2 for softer, steeper, more specialist terrain, or the Peregrine 15 if you want one shoe that can handle mud without becoming too niche.",
     "faqs": [
@@ -9811,7 +9811,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Trail Shoes for Muddy Conditions Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Trail Shoes for Muddy Conditions | Phavai Buying Guide",
     "metaDescription": "Best trail shoes for muddy conditions, ranked by outsole bite, mud shedding, fit security, and Phavai BestPick Score.",
     "relatedReviewSlugs": [
       "best-trail-shoes-for-technical-trails",
@@ -9830,7 +9830,7 @@
     "description": "A beginner-friendly trail shoe ranking for runners moving from road to dirt who need confidence, protection, and fit forgiveness without overbuying a specialist shoe.",
     "audience": "New trail runners and road runners moving onto dirt",
     "updated": "April 21, 2026",
-    "schemaName": "Best Trail Shoes for Beginners ranked by Phavai BestPick Score",
+    "schemaName": "Best Trail Shoes for Beginners recommended by Phavai",
     "comparisonIntro": "Beginner trail runners need confidence before specialization. This list prioritizes stable platforms, forgiving fits, dependable grip, and shoes that make sense across many beginner routes.",
     "finalRecommendation": "Most beginners should start with the Brooks Cascadia 19 or HOKA Speedgoat 6 depending on whether they prefer stable traditional protection or more cushion. Choose the Peregrine 15 if your trails are shorter, firmer, and more technical.",
     "faqs": [
@@ -10253,7 +10253,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Trail Shoes for Beginners Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Trail Shoes for Beginners | Phavai Buying Guide",
     "metaDescription": "Best trail shoes for beginners, ranked by comfort, stability, traction, fit forgiveness, source consensus, and BestPick Score.",
     "relatedReviewSlugs": [
       "best-mens-trail-running-shoes",
@@ -10272,7 +10272,7 @@
     "description": "A GPS watch ranking for ultrarunners who need battery confidence, navigation, training metrics, and reliable tracking across long trail races.",
     "audience": "Ultrarunners, trail racers, and long-distance hikers who train with GPS",
     "updated": "April 21, 2026",
-    "schemaName": "Best GPS Watches for Ultrarunning ranked by Phavai BestPick Score",
+    "schemaName": "Best GPS Watches for Ultrarunning recommended by Phavai",
     "comparisonIntro": "Ultrarunning watches are judged differently than everyday running watches. Battery life, navigation, button usability, GPS reliability, and whether metrics are useful deep into training matter more than smartwatch flash.",
     "finalRecommendation": "Most ultrarunners should choose the Garmin Forerunner 965 if they want maps and training depth in a lighter package. Choose COROS Pace 3 for value and battery, or Polar Vantage V3 if recovery metrics matter more than Garmin ecosystem depth.",
     "faqs": [
@@ -10695,7 +10695,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best GPS Watches for Ultrarunning Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best GPS Watches for Ultrarunning | Phavai Buying Guide",
     "metaDescription": "Best GPS watches for ultrarunning, ranked by battery, navigation, training tools, consensus, source strength, and Phavai BestPick Score.",
     "relatedReviewSlugs": [
       "best-gps-running-watches",
@@ -10714,7 +10714,7 @@
     "description": "A race-vest ranking for long ultras where storage, bounce control, flask access, pole carry, and late-race comfort decide whether a vest works.",
     "audience": "100K and 100-mile runners building a race-day kit",
     "updated": "April 21, 2026",
-    "schemaName": "Best Hydration Vests for 100K and 100 Mile Races ranked by Phavai BestPick Score",
+    "schemaName": "Best Hydration Vests for 100K and 100 Mile Races recommended by Phavai",
     "comparisonIntro": "For 100K and 100 miles, a vest is part of the race system. This list prioritizes storage organization, flask access, chafe resistance, pole carry, and whether the vest stays usable when fully loaded.",
     "finalRecommendation": "The Salomon ADV Skin 12 is the best starting point for most 100K and 100-mile runners because it balances fit, storage, and proven race use. Choose Osprey Duro/Dyna 15 if you need more pack-like capacity, or Nathan Pinnacle 12L if the fit works better on your torso.",
     "faqs": [
@@ -11137,7 +11137,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Hydration Vests for 100K and 100 Mile Races Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Hydration Vests for 100K and 100 Mile Races | Phavai Buying Guide",
     "metaDescription": "Best hydration vests for 100K and 100 mile races, ranked by storage, comfort, bounce control, source consensus, and BestPick Score.",
     "relatedReviewSlugs": [
       "best-hydration-packs",
@@ -11156,7 +11156,7 @@
     "description": "A first-marathon road shoe ranking for runners who need reliable comfort, predictable fit, and enough protection for long runs without choosing an unstable race shoe too soon.",
     "audience": "First-time marathoners and newer road runners",
     "updated": "April 21, 2026",
-    "schemaName": "Best Road Shoe for Your First Marathon ranked by Phavai BestPick Score",
+    "schemaName": "Best Road Shoe for Your First Marathon recommended by Phavai",
     "comparisonIntro": "A first marathon shoe should reduce risk. This ranking favors reliable daily trainers and stable long-run shoes over aggressive plated racers unless the runner already knows what works.",
     "finalRecommendation": "Most first-time marathoners should start with the ASICS Novablast 5 if they want a lively but still practical trainer, or Brooks Ghost 17 if they want the safest traditional feel. Saucony Ride 18 is the steady middle ground.",
     "faqs": [
@@ -11579,7 +11579,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Road Shoe for Your First Marathon Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Road Shoe for Your First Marathon | Phavai Buying Guide",
     "metaDescription": "Best road shoes for your first marathon, ranked by comfort, reliability, long-run protection, source consensus, and BestPick Score.",
     "relatedReviewSlugs": [
       "best-daily-trainers-for-marathon-training",
@@ -11598,7 +11598,7 @@
     "description": "A marathon-training daily trainer ranking for runners building weekly mileage who need durability, recovery-run comfort, long-run support, and enough versatility for workouts.",
     "audience": "Marathon runners building daily mileage",
     "updated": "April 21, 2026",
-    "schemaName": "Best Daily Trainers for Marathon Training ranked by Phavai BestPick Score",
+    "schemaName": "Best Daily Trainers for Marathon Training recommended by Phavai",
     "comparisonIntro": "Marathon training rewards consistency. This ranking weights durability, long-run comfort, easy-day feel, and whether the shoe can handle moderate workouts without forcing you into a large shoe rotation.",
     "finalRecommendation": "The ASICS Novablast 5 is the best daily trainer for most marathon builds because it is protective and versatile. Choose Saucony Ride 18 for steadier traditional training, or New Balance 1080v14 if comfort and width options matter more than pace range.",
     "faqs": [
@@ -12021,7 +12021,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Daily Trainers for Marathon Training Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Daily Trainers for Marathon Training | Phavai Buying Guide",
     "metaDescription": "Best daily trainers for marathon training, ranked by durability, long-run comfort, versatility, owner sentiment, and BestPick Score.",
     "relatedReviewSlugs": [
       "best-road-shoe-for-your-first-marathon",
@@ -12040,7 +12040,7 @@
     "description": "A marathon shoe ranking for heavier runners who need protective cushioning, stable geometry, durable foam, and confidence through long training blocks.",
     "audience": "Heavier runners training for half marathons and marathons",
     "updated": "April 21, 2026",
-    "schemaName": "Best Marathon Shoes for Heavy Runners ranked by Phavai BestPick Score",
+    "schemaName": "Best Marathon Shoes for Heavy Runners recommended by Phavai",
     "comparisonIntro": "Heavier runners often need a different marathon-shoe priority list: foam resilience, stable landings, outsole durability, and comfort late in long runs can matter more than the lightest possible race shoe.",
     "finalRecommendation": "The ASICS Gel-Nimbus 27 is the best first look for heavier marathon runners who want protection and comfort. Brooks Glycerin 22 is the premium traditional alternative, while New Balance 1080v14 makes sense when width options and softness matter most.",
     "faqs": [
@@ -12463,7 +12463,7 @@
     "sourceWeightReason": "Phavai default: expert reviews carry the most weight, while YouTube reviews and Reddit owner sentiment are evenly weighted for real-world fit, durability, and usability signals.",
     "customScoring": true,
     "sourcesVerifiedAt": "April 21, 2026",
-    "metaTitle": "Best Marathon Shoes for Heavy Runners Ranked by BestPick Score | Phavai",
+    "metaTitle": "Best Marathon Shoes for Heavy Runners | Phavai Buying Guide",
     "metaDescription": "Best marathon shoes for heavy runners, ranked by cushioning, stability, durability, owner sentiment, and Phavai BestPick Score.",
     "relatedReviewSlugs": [
       "best-daily-trainers-for-marathon-training",

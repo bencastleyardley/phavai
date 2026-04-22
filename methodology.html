@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BestPick Score Methodology | Phavai</title>
-  <meta name="description" content="How Phavai calculates BestPick Scores, source weights, consensus, signal strength, reviewer tiers, and ranking confidence." />
+  <title>How Phavai Chooses Products | Methodology</title>
+  <meta name="description" content="How Phavai chooses products using expert reviews, creator testing, owner feedback, source agreement, evidence depth, and independent retail-link rules." />
   <link rel="canonical" href="https://www.phavai.com/methodology.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="BestPick Score Methodology | Phavai" />
-  <meta property="og:description" content="A transparent explanation of how Phavai ranks products by evidence quality and confidence." />
+  <meta property="og:title" content="How Phavai Chooses Products" />
+  <meta property="og:description" content="A plain-English explanation of how Phavai turns product evidence into buying guidance." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
@@ -64,13 +64,13 @@
     <section class="page-hero">
       <div class="wrap">
         <a class="crumb" href="/index.html">Phavai / Methodology</a>
-        <h1>How BestPick Scores Work</h1>
-        <p class="lede">Phavai ranks products by evidence quality, source-weighted performance, and transparent confidence indicators. Shopping links are not scoring inputs.</p>
+        <h1>How Phavai Chooses Products</h1>
+        <p class="lede">Phavai starts with a simple question: what would we recommend to a careful shopper, and what would we need to show to make that recommendation trustworthy?</p>
         <div class="meta-row">
           <span class="meta-pill">Expert reviews: 40%</span>
-          <span class="meta-pill">YouTube reviews: 30%</span>
-          <span class="meta-pill">Reddit sentiment: 30%</span>
-          <span class="meta-pill">Social excluded until auditable</span>
+          <span class="meta-pill">Creator reviews: 30%</span>
+          <span class="meta-pill">Owner feedback: 30%</span>
+          <span class="meta-pill">Retail links never buy rank</span>
         </div>
       </div>
     </section>
@@ -78,42 +78,42 @@
     <section class="band">
       <div class="wrap methodology-grid">
         <article class="text-panel">
-          <h2>1. Evidence collection</h2>
-          <p>Each product starts with evidence items: expert reviews, creator reviews, owner sentiment, official specifications, and source verification dates. Evidence is stored as structured data so rankings can be regenerated instead of manually rearranged.</p>
+          <h2>1. Start with the buying problem</h2>
+          <p>A good pick depends on the shopper and the category. Trail shoes need fit and terrain context. Office chairs need long-day comfort. Coffee makers need consistency and cleaning reality. The guide starts there.</p>
         </article>
         <article class="text-panel">
-          <h2>2. Source tiers</h2>
-          <p>Reviewer tiers are category-specific. A specialist trail-running lab does not automatically become a trusted office-chair source. Tier 1 sources carry the strongest weighting, Tier 2 sources add real-use context, and Tier 3 sources capture owner patterns.</p>
+          <h2>2. Use category-specific sources</h2>
+          <p>A specialist trail-running lab does not automatically become a trusted office-chair source. We weigh sources by how much they know about the category and how clearly they test the product.</p>
         </article>
         <article class="text-panel">
-          <h2>3. Channel scores</h2>
-          <p>Evidence rolls up into Expert, YouTube, and Reddit channel scores. Each evidence item is adjusted for tier, freshness, relevance, and sample strength before the channel score is calculated.</p>
+          <h2>3. Blend expert, creator, and owner evidence</h2>
+          <p>Expert reviews set the strongest baseline. Creator reviews show real use, setup, fit, and annoyances. Owner feedback catches recurring praise, buyer regret, durability complaints, and support problems.</p>
           <p><strong>Channel formula:</strong> sum(evidence score x evidence quality weight) / sum(evidence quality weights).</p>
         </article>
         <article class="text-panel">
-          <h2>4. BestPick Score</h2>
-          <p>BestPick combines the active channel scores using category weights. The current default is Expert 40%, YouTube 30%, and Reddit 30%. If a channel is missing, available channels are normalized rather than filled with a guess.</p>
+          <h2>4. Calculate the pick score</h2>
+          <p>The default weighting is Expert 40%, Creator 30%, and Owner Feedback 30%. If a channel is missing, available channels are normalized rather than padded with a guess.</p>
           <p><strong>BestPick formula:</strong> sum(channel score x category channel weight) / sum(available category channel weights).</p>
         </article>
         <article class="text-panel">
-          <h2>5. Consensus</h2>
-          <p>Consensus measures agreement across weighted channel scores. A product can have a high BestPick Score but lower consensus if experts praise it while owner sentiment repeatedly flags fit, durability, or support issues.</p>
+          <h2>5. Show source agreement</h2>
+          <p>Source agreement shows whether experts, creators, and owners are pointing in the same direction. A product can score well but still deserve caution if owners repeatedly flag fit, durability, or support issues.</p>
         </article>
         <article class="text-panel">
-          <h2>6. Signal strength</h2>
-          <p>Signal strength reflects evidence count, source diversity, freshness, reviewer tier quality, sample strength, and channel depth. It is shown separately so weak evidence cannot hide behind a clean score.</p>
+          <h2>6. Show evidence depth</h2>
+          <p>Evidence depth reflects source count, source diversity, freshness, reviewer quality, sample strength, and channel depth. It is shown separately so thin evidence cannot hide behind a clean score.</p>
         </article>
         <article class="text-panel">
-          <h2>7. User-adjustable rules</h2>
-          <p>Review pages let readers adjust Expert, YouTube, and Reddit weighting in the browser. This recalculates rankings without changing the underlying evidence, making the ranking easier to challenge and personalize.</p>
+          <h2>7. Let readers tune the weighting</h2>
+          <p>Some shoppers trust expert testing most. Others care more about owner feedback. Review pages let readers adjust the weighting in the browser without changing the underlying evidence.</p>
         </article>
         <article class="text-panel">
-          <h2>8. Why social is excluded</h2>
-          <p>Broad social media can be useful, but it is noisy and hard to audit without a reliable API-backed pipeline. Phavai excludes it until collection is reproducible enough to deserve influence.</p>
+          <h2>8. Leave noisy social data out for now</h2>
+          <p>Broad social media can be useful, but it is noisy and hard to audit cleanly. Phavai leaves it out until collection is reproducible enough to deserve influence.</p>
         </article>
         <article class="text-panel">
-          <h2>9. Shopping links</h2>
-          <p>Shopping links may point to Amazon, brand stores, or other retailers for convenience. They do not affect source scores, BestPick Score, consensus, signal strength, ranking order, or product conclusions.</p>
+          <h2>9. Keep retail links separate</h2>
+          <p>Retail links may point to Amazon, brand stores, or other retailers for convenience. They do not affect pick score, source agreement, evidence depth, ranking order, or product conclusions.</p>
         </article>
       </div>
     </section>

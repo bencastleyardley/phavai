@@ -121,7 +121,7 @@
 
     const sameOrder = ranked.every((product, index) => product.name === defaultOrder[index]);
     if (sameOrder) {
-      note.textContent = "Ranking matches the Phavai default.";
+      note.textContent = "Ranking matches the Phavai editorial default.";
       return;
     }
 
@@ -184,7 +184,7 @@
       input.value = defaults[input.dataset.weightInput];
     }
     localStorage.removeItem(storageKey);
-    if (saveNote) saveNote.textContent = "Default scoring restored. No custom preference is saved.";
+    if (saveNote) saveNote.textContent = "Editorial default restored. No custom preference is saved.";
     recalculate({ persist: false });
   });
 

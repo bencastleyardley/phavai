@@ -3,8 +3,8 @@
     "slug": "outdoor",
     "title": "Outdoor",
     "eyebrow": "Outdoor buying guides",
-    "description": "Trail, running, road-marathon, and recovery gear ranked by transparent evidence instead of generic shopping lists.",
-    "intro": "Outdoor gear has to work in the real world: on tired legs, in bad weather, under race pressure, and across different body types. Phavai's Outdoor hub groups running, trail, hydration, recovery, and performance gear so shoppers can compare the products that actually affect training and adventure decisions.",
+    "description": "Trail, running, road-marathon, and recovery gear sorted by fit, terrain, comfort, durability, and real-world owner feedback.",
+    "intro": "Outdoor gear gets exposed quickly. A shoe that feels fine in the store can punish you at mile 40; a vest that looks clever can bounce for three hours. These guides focus on the decisions that matter outside: fit, terrain, weather, distance, comfort, and what experienced users keep complaining about.",
     "covered": [
       "trail running shoes",
       "running headphones",
@@ -21,7 +21,21 @@
       "100K and 100-mile hydration vests",
       "road marathon shoes"
     ],
-    "trust": "Outdoor recommendations are scored from expert testing, creator field reviews, and runner-owner sentiment. The goal is to expose fit caveats, durability signals, and terrain-specific tradeoffs before a shopper clicks anything.",
+    "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner patterns that reveal what breaks down after the first few outings.",
+    "matters": [
+      {
+        "heading": "Fit beats hype",
+        "body": "The best trail shoe or vest is the one that still feels secure when you are tired, swollen, wet, or descending."
+      },
+      {
+        "heading": "Terrain changes everything",
+        "body": "Mud, rock, road miles, heat, and ultra distances reward different compromises. We keep use case close to every recommendation."
+      },
+      {
+        "heading": "Durability is part of value",
+        "body": "A cheaper pick can become expensive if foam dies early, uppers fail, or comfort disappears halfway through a training block."
+      }
+    ],
     "image": "/photos/generated/section-outdoor.svg",
     "metaTitle": "Outdoor Product Reviews | Phavai",
     "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, long-tail running shoe picks, hydration packs, GPS watches, headphones, poles, vests, and recovery sandals."
@@ -30,8 +44,8 @@
     "slug": "remote-work",
     "title": "Remote Work",
     "eyebrow": "Remote work buying guides",
-    "description": "Home-office gear ranked for ergonomics, reliability, daily comfort, and meeting-ready performance.",
-    "intro": "Remote work gear affects posture, focus, video presence, and how a workday feels after six hours at a desk. Phavai's Remote Work hub organizes ergonomic and desk-setup recommendations around clarity: what improves daily work, what is overkill, and what tradeoffs matter before buying.",
+    "description": "Home-office gear reviewed for comfort, reliability, setup friction, meeting quality, and how it holds up through real workdays.",
+    "intro": "Remote work gear should disappear into the day. The right chair, desk, webcam, keyboard, or monitor arm makes work feel calmer; the wrong one nags at your back, your focus, or every meeting. These guides are built around daily comfort and practical upgrades, not desk-setup theater.",
     "covered": [
       "standing desks",
       "office chairs",
@@ -40,7 +54,21 @@
       "monitor arms",
       "ergonomic keyboards"
     ],
-    "trust": "Remote Work rankings emphasize long-term comfort, warranty support, setup friction, build quality, and owner complaints that polished product pages tend to hide.",
+    "trust": "We pay close attention to the things product pages gloss over: assembly, wobble, return friction, warranty support, long-session comfort, software quirks, and recurring owner complaints.",
+    "matters": [
+      {
+        "heading": "Comfort compounds",
+        "body": "Small ergonomic wins matter more when you use a product five days a week."
+      },
+      {
+        "heading": "Setup should be calm",
+        "body": "A good remote-work product should be easy to assemble, adjust, maintain, and troubleshoot."
+      },
+      {
+        "heading": "Reliability beats novelty",
+        "body": "The best upgrade is usually the one that works every day without demanding attention."
+      }
+    ],
     "image": "/photos/generated/section-remote-work.svg",
     "metaTitle": "Remote Work Product Reviews | Phavai",
     "metaDescription": "Remote Work buying guides from Phavai, including standing desks, office chairs, webcams, desk mats, monitor arms, and ergonomic keyboards."
@@ -49,15 +77,29 @@
     "slug": "lifestyle",
     "title": "Lifestyle",
     "eyebrow": "Lifestyle buying guides",
-    "description": "Everyday products ranked for usefulness, reliability, owner satisfaction, and clear tradeoffs.",
-    "intro": "Lifestyle purchases often look simple until the details matter: luggage wheels, coffee consistency, air-cleaning capacity, or whether a recovery tool is actually usable. Phavai's Lifestyle hub brings the same transparent scoring approach to everyday products people buy repeatedly and recommend to friends.",
+    "description": "Everyday products reviewed for usefulness, reliability, maintenance, owner satisfaction, and the tradeoffs you notice after purchase.",
+    "intro": "Lifestyle products often fail in small, irritating ways: luggage wheels that wobble, coffee makers that are annoying to clean, air purifiers with expensive filters, recovery tools that sit unused. These guides focus on the details people only talk about after living with the product.",
     "covered": [
       "carry-on luggage",
       "coffee makers",
       "massage guns",
       "air purifiers"
     ],
-    "trust": "Lifestyle rankings prioritize practical ownership signals: durability, maintenance cost, ease of use, recurring complaints, and whether expert praise matches real buyer sentiment.",
+    "trust": "We look for the gap between polished reviews and real ownership: upkeep, noise, storage, warranty pain, replacement costs, and whether people still like the product months later.",
+    "matters": [
+      {
+        "heading": "Daily friction matters",
+        "body": "If a product is annoying to clean, pack, refill, store, or charge, the best specs will not save it."
+      },
+      {
+        "heading": "Maintenance is part of price",
+        "body": "Filters, parts, warranty rules, and durability can change the true cost of ownership."
+      },
+      {
+        "heading": "Usefulness beats novelty",
+        "body": "The strongest lifestyle picks earn their place by being easy to recommend after the honeymoon period."
+      }
+    ],
     "image": "/photos/generated/section-lifestyle.svg",
     "metaTitle": "Lifestyle Product Reviews | Phavai",
     "metaDescription": "Lifestyle buying guides from Phavai, including carry-on luggage, coffee makers, massage guns, and air purifiers."

@@ -15,8 +15,8 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   await page.evaluate(() => localStorage.clear());
   await page.reload();
 
-  await expect(page.locator("[data-ranking-note]")).toContainText("Phavai default");
-  await expect(page.locator("body")).toContainText("Sources verified Apr 20, 2026");
+  await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
+  await expect(page.locator("body")).toContainText("Sources checked Apr 20, 2026");
   await expect(page.locator(".evidence-panel").first()).toContainText("verified Apr 20, 2026");
   const defaultTop = await page.locator(".product").first().getAttribute("data-product-name");
   const defaultScore = await page.locator("[data-bestpick]").first().innerText();
@@ -40,7 +40,7 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   await expect(page.locator('[data-weight-label="YouTube"]')).toHaveText("30%");
   await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("30%");
   await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
-  await expect(page.locator("[data-ranking-note]")).toContainText("Phavai default");
+  await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
 });
 
 test("public pages and new review guides render complete trust sections", async ({ page }) => {
@@ -72,7 +72,7 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
     await expect(page.locator("body")).toContainText("Related");
-    await expect(page.locator(".product .button").first()).toContainText("Check price");
+    await expect(page.locator(".product .button").first()).toContainText("View current price");
     await expect(page.locator(".button.disabled")).toHaveCount(0);
     await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
   }

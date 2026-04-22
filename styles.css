@@ -114,7 +114,7 @@ a { color: inherit; }
   color: white;
   background:
     linear-gradient(90deg, rgba(13, 22, 18, .88), rgba(13, 22, 18, .62) 48%, rgba(13, 22, 18, .2)),
-    url("/photos/hoka-speed-goat-6.webp") center / cover no-repeat;
+    url("/photos/generated/home-hero-visual.svg") center / cover no-repeat;
 }
 .hero-content {
   width: min(1180px, calc(100% - 32px));
@@ -372,6 +372,40 @@ h1, h2, h3, p { margin-top: 0; }
   background: #e8e1d3;
 }
 
+.answer-panel {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.6fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+}
+.answer-panel h2 {
+  margin: 6px 0 8px;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.05;
+}
+.answer-panel p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.answer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.answer-grid b {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--ink);
+  font-size: 13px;
+}
+
 .image-credit {
   margin: 8px 0 0;
   color: var(--muted);
@@ -418,6 +452,9 @@ h1, h2, h3, p { margin-top: 0; }
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
+}
+.score-box.subtle-score {
+  background: #f4efe4;
 }
 .score-box strong {
   display: block;
@@ -891,6 +928,7 @@ h1, h2, h3, p { margin-top: 0; }
   .method-steps { grid-template-columns: 1fr; }
   .methodology-grid { grid-template-columns: 1fr; }
   .page-grid { grid-template-columns: 1fr; }
+  .answer-panel, .answer-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 720px) {
@@ -900,7 +938,7 @@ h1, h2, h3, p { margin-top: 0; }
   .hero { min-height: 720px; }
   .hero-content { padding-top: 80px; }
   .hero-strip { grid-template-columns: repeat(2, 1fr); }
-  .category-grid, .signal-grid, .score-row, .product-signal-grid, .two-col { grid-template-columns: 1fr; }
+  .category-grid, .signal-grid, .score-row, .product-signal-grid, .two-col, .answer-panel, .answer-grid { grid-template-columns: 1fr; }
   .source-row {
     grid-template-columns: 1fr;
     gap: 8px;

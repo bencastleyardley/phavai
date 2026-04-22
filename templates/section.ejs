@@ -72,9 +72,9 @@
           <h1><%= section.title %> Reviews</h1>
           <p class="lede"><%= section.intro %></p>
           <div class="meta-row">
-            <span class="meta-pill">Evidence-led rankings</span>
+            <span class="meta-pill">Buyer-first picks</span>
             <span class="meta-pill"><%= reviews.length %> live buying guides</span>
-            <span class="meta-pill">Shopping links do not affect rank</span>
+            <span class="meta-pill">Retail links never buy rank</span>
           </div>
         </div>
         <img class="section-hero-image" src="<%= section.image %>" alt="<%= section.title %> products" width="900" height="720" />
@@ -93,19 +93,38 @@
           </ul>
         </article>
         <aside class="text-panel">
-          <h2>Why trust Phavai here</h2>
+          <h2>Why this category needs care</h2>
           <p><%= section.trust %></p>
-          <p>Every review page shows source weights, consensus, signal strength, and the main reasons a product may not be right for you.</p>
+          <p>Every guide keeps the ranking, the tradeoffs, and the evidence in the same view so you can move faster without buying blind.</p>
           <a class="button secondary" href="/methodology.html">Read the methodology</a>
         </aside>
       </div>
     </section>
 
+    <% if (section.matters?.length) { %>
+    <section class="band">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What matters when you shop <%= section.title %>.</h2>
+          <p>The best choice usually comes down to a few practical questions, not a spec sheet arms race.</p>
+        </div>
+        <div class="signal-grid">
+          <% section.matters.forEach((item) => { %>
+            <div class="signal">
+              <b><%= item.heading %></b>
+              <p><%= item.body %></p>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+    <% } %>
+
     <section class="band" id="guides">
       <div class="wrap">
         <div class="section-head">
           <h2><%= section.title %> buying guides</h2>
-          <p>Browse by decision. Each guide is built for fast comparison, transparent scoring, and practical tradeoffs.</p>
+          <p>Choose the guide closest to your real use case. Broad guides help you shortlist; narrow guides help you avoid the wrong compromise.</p>
         </div>
         <div class="category-grid">
           <% reviews.forEach((review) => { %>
@@ -127,7 +146,7 @@
       <div class="wrap">
         <div class="section-head">
           <h2>Learn before you compare.</h2>
-          <p>These supporting guides explain the decisions behind the rankings, from feature tradeoffs to common buying mistakes.</p>
+          <p>These guides explain the choices that make a product right or wrong before price starts doing the talking.</p>
         </div>
         <div class="link-list">
           <% supportingPages.forEach((page) => { %>
@@ -141,24 +160,24 @@
     <section class="band">
       <div class="wrap">
         <div class="section-head">
-          <h2>How Phavai keeps this useful.</h2>
-          <p>Phavai separates the score from confidence. A product can rank high but still show fit warnings, weak evidence, or tradeoffs that should change your decision.</p>
+          <h2>How Phavai keeps the picks honest.</h2>
+          <p>A product can be excellent and still be wrong for you. That is why every guide puts the winner beside fit warnings, owner complaints, and evidence quality.</p>
         </div>
         <div class="signal-grid">
           <div class="signal">
             <div class="weight">40</div>
-            <b>Expert review signal</b>
-            <p>Specialist reviews, hands-on tests, and category-specific source quality carry the most weight.</p>
+            <b>Expert reviews</b>
+            <p>Specialist testing and category expertise set the baseline.</p>
           </div>
           <div class="signal">
             <div class="weight">30</div>
-            <b>YouTube review signal</b>
-            <p>Creator testing helps reveal setup friction, fit, ergonomics, and real-world behavior.</p>
+            <b>Creator reviews</b>
+            <p>Long-form use reveals fit, setup friction, comfort, and real-world annoyances.</p>
           </div>
           <div class="signal">
             <div class="weight">30</div>
-            <b>Reddit owner signal</b>
-            <p>Owner sentiment highlights recurring complaints, long-term satisfaction, and buyer regrets.</p>
+            <b>Owner feedback</b>
+            <p>Public discussion catches repeated praise, regrets, and durability complaints.</p>
           </div>
         </div>
       </div>
@@ -167,7 +186,7 @@
 
   <footer class="site-footer">
     <div class="footer-grid">
-      <div>Phavai organizes product decisions by category, evidence, and confidence.</div>
+      <div>Phavai turns crowded product categories into clearer buying decisions.</div>
       <div>
         <a href="/index.html">Home</a>
         <% allSections.forEach((item) => { %>
