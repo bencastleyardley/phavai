@@ -1,0 +1,389 @@
+{
+  "purpose": "Master organic content map for Search Console prioritization. Planned pages are not public until they are built as complete guides.",
+  "priority_order": [
+    "Outdoor / Running / Endurance",
+    "Travel Gear",
+    "Remote Work / Home Office",
+    "Sleep",
+    "Home Fitness / Recovery",
+    "Lifestyle / Home",
+    "Pet Gear",
+    "Everyday Tech"
+  ],
+  "clusters": [
+    {
+      "name": "Outdoor / Running / Endurance",
+      "site_section": "outdoor",
+      "priority": 1,
+      "core_roundups": [
+        "Best Men's Trail Running Shoes",
+        "Best Women's Trail Running Shoes",
+        "Best Running Headphones",
+        "Best GPS Running Watches",
+        "Best Hydration Packs",
+        "Best Trail Running Poles",
+        "Best Running Vests",
+        "Best Recovery Sandals",
+        "Best Road Running Shoes",
+        "Best Daily Trainers",
+        "Best Super Shoes",
+        "Best Marathon Racing Shoes",
+        "Best Running Sunglasses",
+        "Best Running Hats",
+        "Best Running Socks",
+        "Best Running Belts",
+        "Best Handheld Water Bottles",
+        "Best Recovery Slides",
+        "Best Foam Rollers for Runners",
+        "Best Massage Guns for Runners"
+      ],
+      "use_cases": [
+        "Best Trail Shoes for 100 Miles",
+        "Best Trail Shoes for Technical Trails",
+        "Best Trail Shoes for Rocky Terrain",
+        "Best Trail Shoes for Muddy Conditions",
+        "Best Trail Shoes for Wide Feet",
+        "Best Trail Shoes for Narrow Feet",
+        "Best Trail Shoes for Beginners",
+        "Best Trail Shoes for Heel Strikers",
+        "Best Trail Shoes for Plantar Fasciitis",
+        "Best Trail Shoes for Hot Weather",
+        "Best Trail Shoes for Wet Conditions",
+        "Best Trail Shoes for Fastpacking",
+        "Best Road Shoe for Your First Marathon",
+        "Best Daily Trainers for Marathon Training",
+        "Best Marathon Shoes for Heavy Runners",
+        "Best GPS Watches for Ultrarunning",
+        "Best GPS Watch for First-Time Ultramarathoners",
+        "Best Running Vest for Hot Weather",
+        "Best Hydration Vest for 100K and 100 Mile Races",
+        "Best Headphones for Running in the Rain",
+        "Best Running Headphones for Small Ears",
+        "Best Running Sunglasses for Sweat and Bounce",
+        "Best Recovery Tools for Sore Calves",
+        "Best Recovery Tools for Marathon Training"
+      ],
+      "comparisons": [
+        "Hoka Speedgoat vs Brooks Cascadia",
+        "Hoka Speedgoat vs Salomon Speedcross",
+        "Altra Lone Peak vs Topo Athletic Pursuit",
+        "Nike Ultrafly vs Hoka Tecton X",
+        "Garmin Forerunner vs COROS Pace for Marathon Training",
+        "Garmin Epix vs Fenix for Ultrarunning",
+        "Salomon ADV Skin vs Nathan Pinnacle",
+        "Soft Flask vs Bladder for Trail Running",
+        "Carbon Plate vs No Plate for Marathon Training",
+        "Daily Trainer vs Super Shoe: What Should Most Runners Buy?"
+      ],
+      "buyer_help": [
+        "How to Choose Trail Shoes",
+        "How Much Grip Do You Actually Need in a Trail Shoe?",
+        "Trail Shoe Stack Height Explained",
+        "When to Size Up for Ultras",
+        "How to Choose a GPS Watch for Ultrarunning",
+        "How Much Battery Life Do You Really Need for a 100K or 100 Miler?",
+        "How to Choose a Running Vest",
+        "What Makes a Good 100-Mile Shoe?",
+        "Do You Need Trail Running Poles?",
+        "How to Break In New Trail Shoes",
+        "What to Look for in Marathon Training Shoes",
+        "Signs Your Running Shoes Are Dead"
+      ]
+    },
+    {
+      "name": "Travel Gear",
+      "site_section": "lifestyle",
+      "priority": 2,
+      "core_roundups": [
+        "Best Carry-On Luggage",
+        "Best Carry-On Backpacks",
+        "Best Personal Item Bags",
+        "Best Travel Pillows",
+        "Best Packing Cubes",
+        "Best Travel Adapters",
+        "Best Checked Luggage",
+        "Best Travel Toiletry Bags",
+        "Best Passport Wallets",
+        "Best Portable Chargers for Travel",
+        "Best Weekender Bags",
+        "Best Travel Backpacks for Europe"
+      ],
+      "use_cases": [
+        "Best Carry-On Luggage for Budget Airlines",
+        "Best Carry-On Backpacks for International Travel",
+        "Best Personal Item Bags That Actually Fit Under the Seat",
+        "Best Travel Pillows for Long Flights",
+        "Best Packing Cubes for One-Bag Travel",
+        "Best Travel Adapters for Frequent Travelers",
+        "Best Carry-On Luggage for Overpackers",
+        "Best Carry-On Luggage for Short Trips",
+        "Best Travel Backpacks for Women",
+        "Best Travel Backpacks for Men",
+        "Best Checked Luggage for Families",
+        "Best Portable Chargers for Long Flights"
+      ],
+      "comparisons": [
+        "Carry-On Suitcase vs Travel Backpack",
+        "Hard Shell vs Soft Shell Luggage",
+        "Away vs Travelpro Carry-On",
+        "Monos vs Samsonite",
+        "Packing Cubes vs Compression Bags",
+        "Neck Pillow vs Wrap Pillow for Flights"
+      ],
+      "buyer_help": [
+        "How to Choose Carry-On Luggage",
+        "Carry-On Size Rules That Actually Matter",
+        "What Makes a Good Personal Item Bag?",
+        "One-Bag Travel Basics",
+        "How to Pack for a Week in a Carry-On",
+        "What to Look for in a Travel Backpack",
+        "International vs Domestic Carry-On Differences"
+      ]
+    },
+    {
+      "name": "Remote Work / Home Office",
+      "site_section": "remote-work",
+      "priority": 3,
+      "core_roundups": [
+        "Best Standing Desks",
+        "Best Office Chairs",
+        "Best Webcams for Remote Work",
+        "Best Desk Mats",
+        "Best Monitor Arms",
+        "Best Ergonomic Keyboards",
+        "Best Office Chairs for Back Pain",
+        "Best Desk Lamps for Remote Work",
+        "Best USB-C Hubs for Remote Work",
+        "Best Home Office Monitors",
+        "Best Noise-Canceling Headphones for Remote Work",
+        "Best Laptop Stands",
+        "Best Footrests for Under Your Desk",
+        "Best Microphones for Video Calls"
+      ],
+      "use_cases": [
+        "Best Standing Desk for Small Spaces",
+        "Best Standing Desk for Tall People",
+        "Best Standing Desk for Short People",
+        "Best Office Chair for Tall People",
+        "Best Office Chair for Short People",
+        "Best Office Chair for Heavy People",
+        "Best Webcam for Low Light",
+        "Best Webcam for Zoom Calls",
+        "Best Monitor Arm for Ultrawide Monitors",
+        "Best Keyboard for Wrist Pain",
+        "Best Headphones for Calls in a Noisy House",
+        "Best Desk Setup for Small Apartments",
+        "Best Home Office Gear for Shared Spaces"
+      ],
+      "comparisons": [
+        "Herman Miller Aeron vs Steelcase Leap",
+        "Branch vs FlexiSpot Standing Desk",
+        "Logitech Brio vs Insta360 Link",
+        "Mechanical vs Ergonomic Keyboard for Office Work",
+        "Standing Desk vs Desk Converter",
+        "Ring Light vs Better Webcam: What Matters More?"
+      ],
+      "buyer_help": [
+        "How to Build a Better Home Office",
+        "What Actually Matters in an Office Chair",
+        "How Much Standing Desk Range Do You Need?",
+        "How to Choose a Webcam for Remote Work",
+        "What Makes a Monitor Arm Worth Buying?",
+        "Ergonomic Keyboard Basics for Normal People",
+        "The Best Home Office Upgrades Under $100"
+      ]
+    },
+    {
+      "name": "Sleep",
+      "site_section": "lifestyle",
+      "priority": 4,
+      "core_roundups": [
+        "Best Pillows for Side Sleepers",
+        "Best Cooling Mattress Toppers",
+        "Best White Noise Machines",
+        "Best Sheets for Hot Sleepers",
+        "Best Blackout Curtains",
+        "Best Humidifiers for Bedrooms",
+        "Best Weighted Blankets",
+        "Best Eye Masks for Sleep",
+        "Best Sound Machines for Babies and Adults",
+        "Best Bedside Lamps for Better Sleep"
+      ],
+      "use_cases": [
+        "Best Pillows for Neck Pain",
+        "Best Pillows for Side Sleepers with Broad Shoulders",
+        "Best Cooling Mattress Toppers for Hot Sleepers",
+        "Best White Noise Machines for Light Sleepers",
+        "Best Blackout Curtains for Apartments",
+        "Best Humidifiers for Dry Bedrooms",
+        "Best Sheets for Sweaty Sleepers",
+        "Best Weighted Blanket for Anxiety",
+        "Best Eye Mask for Side Sleepers"
+      ],
+      "comparisons": [
+        "Memory Foam Pillow vs Down Alternative",
+        "Mattress Topper vs Mattress Pad",
+        "White Noise Machine vs Fan for Sleep",
+        "Linen vs Percale Sheets for Hot Sleepers",
+        "Weighted Blanket vs Regular Blanket"
+      ],
+      "buyer_help": [
+        "How to Choose a Pillow",
+        "What Actually Helps Hot Sleepers?",
+        "Do Blackout Curtains Make a Difference?",
+        "How Humidity Affects Sleep",
+        "How to Build a Better Sleep Setup"
+      ]
+    },
+    {
+      "name": "Home Fitness / Recovery",
+      "site_section": "lifestyle",
+      "priority": 5,
+      "core_roundups": [
+        "Best Foam Rollers",
+        "Best Massage Guns",
+        "Best Compression Boots",
+        "Best Walking Pads",
+        "Best Treadmills for Apartments",
+        "Best Recovery Slides",
+        "Best Ice Bath Tubs",
+        "Best Resistance Bands",
+        "Best Adjustable Dumbbells",
+        "Best Yoga Mats"
+      ],
+      "use_cases": [
+        "Best Massage Guns for Tight Calves and Quads",
+        "Best Foam Rollers for Runners",
+        "Best Compression Boots for Recovery at Home",
+        "Best Treadmills for Small Apartments",
+        "Best Walking Pads for Under-Desk Use",
+        "Best Ice Bath Tubs for Small Spaces",
+        "Best Adjustable Dumbbells for Small Spaces",
+        "Best Yoga Mats for Sweaty Workouts"
+      ],
+      "comparisons": [
+        "Walking Pad vs Treadmill",
+        "Theragun vs Hyperice",
+        "Foam Roller vs Massage Gun",
+        "Ice Bath vs Compression Boots",
+        "Adjustable Dumbbells vs Kettlebells"
+      ],
+      "buyer_help": [
+        "What Recovery Tools Are Actually Worth Buying?",
+        "How to Choose a Walking Pad",
+        "Do Compression Boots Really Help?",
+        "What to Look for in an Apartment Treadmill",
+        "How to Build a Home Recovery Setup"
+      ]
+    },
+    {
+      "name": "Lifestyle / Home",
+      "site_section": "lifestyle",
+      "priority": 6,
+      "core_roundups": [
+        "Best Air Purifiers",
+        "Best Coffee Makers",
+        "Best Electric Kettles",
+        "Best Toaster Ovens",
+        "Best Rice Cookers",
+        "Best Water Bottles",
+        "Best Reusable Coffee Mugs",
+        "Best Everyday Backpacks",
+        "Best Lunch Boxes for Adults",
+        "Best Portable Fans"
+      ],
+      "use_cases": [
+        "Best Air Purifier for Pet Hair",
+        "Best Air Purifier for Bedrooms",
+        "Best Coffee Maker for Small Kitchens",
+        "Best Espresso Machine for Beginners",
+        "Best Electric Kettle for Pour Over",
+        "Best Toaster Oven for Apartments",
+        "Best Rice Cooker for Two People",
+        "Best Water Bottle for Travel",
+        "Best Everyday Backpack for Commuting"
+      ],
+      "comparisons": [
+        "Drip Coffee Maker vs Espresso Machine",
+        "Air Purifier vs Humidifier",
+        "Stainless Steel vs Glass Electric Kettle",
+        "Toaster Oven vs Air Fryer",
+        "Owala vs Stanley vs Hydro Flask"
+      ],
+      "buyer_help": [
+        "What Size Air Purifier Do You Need?",
+        "How to Choose a Coffee Maker",
+        "What Makes an Electric Kettle Worth Buying?",
+        "Apartment Kitchen Upgrades That Actually Help",
+        "How to Choose an Everyday Backpack"
+      ]
+    },
+    {
+      "name": "Pet Gear",
+      "site_section": "lifestyle",
+      "priority": 7,
+      "core_roundups": [
+        "Best Dog Beds",
+        "Best Pet Hair Vacuums",
+        "Best Automatic Feeders",
+        "Best Water Fountains for Cats",
+        "Best Airline-Approved Pet Carriers",
+        "Best Dog Car Seat Covers",
+        "Best Cat Litter Mats",
+        "Best Dog Crates for Apartments"
+      ],
+      "use_cases": [
+        "Best Dog Beds for Heavy Chewers",
+        "Best Pet Hair Vacuums for Apartments",
+        "Best Automatic Feeders for Multi-Cat Homes",
+        "Best Airline-Approved Pet Carriers for Small Dogs",
+        "Best Dog Car Seat Covers for SUVs",
+        "Best Water Fountain for Cats That Hate Bowls"
+      ],
+      "comparisons": [
+        "Robot Vacuum vs Stick Vacuum for Pet Hair",
+        "Soft-Sided vs Hard-Sided Pet Carrier",
+        "Raised Dog Bed vs Plush Dog Bed",
+        "Stainless Steel vs Plastic Cat Fountain"
+      ],
+      "buyer_help": [
+        "How to Choose a Dog Bed",
+        "What Actually Helps with Pet Hair at Home?",
+        "How to Pick a Pet Carrier for Flying",
+        "What Makes an Automatic Feeder Worth It?"
+      ]
+    },
+    {
+      "name": "Everyday Tech",
+      "site_section": "remote-work",
+      "priority": 8,
+      "core_roundups": [
+        "Best Noise-Canceling Headphones",
+        "Best Wireless Earbuds for Calls",
+        "Best Portable Chargers",
+        "Best Bluetooth Speakers",
+        "Best Smart Plugs",
+        "Best Streaming Devices"
+      ],
+      "use_cases": [
+        "Best Portable Charger for Travel",
+        "Best Earbuds for Zoom Calls",
+        "Best Noise-Canceling Headphones for Open Offices",
+        "Best Bluetooth Speaker for Small Rooms",
+        "Best Smart Plug for Home Office Setup"
+      ],
+      "comparisons": [
+        "AirPods Pro vs Sony WF-1000XM5",
+        "Portable Charger 10,000mAh vs 20,000mAh",
+        "Smart Plug vs Smart Power Strip",
+        "Speaker vs Soundbar for Small Apartments"
+      ],
+      "buyer_help": [
+        "How Much Portable Charger Capacity Do You Need?",
+        "What Actually Matters in Noise-Canceling Headphones?",
+        "How to Choose Earbuds for Calls",
+        "Home Tech Upgrades Worth Buying"
+      ]
+    }
+  ]
+}

@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="237" cy="222" r="115" fill="#2563eb" opacity=".18"/>
   <circle cx="698" cy="262" r="155" fill="#60a5fa" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M287 705c70-48 150-48 220 0" stroke="#f97316" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M543 150c44 40 92 40 136 0" stroke="#2563eb" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="287" cy="687" r="25" fill="#f97316" opacity=".22"/>
+  <circle cx="543" cy="617" r="37" fill="#60a5fa" opacity=".25"/>
+  <rect x="187" y="337" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="623" y="578" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-3 450 450) scale(0.9560000000000001) translate(19.79999999999997 19.79999999999997)">
     <rect x="315" y="225" width="270" height="260" rx="72" fill="#18181b"/><rect x="295" y="470" width="310" height="98" rx="42" fill="#f97316"/><path d="M450 568v92M360 695h180M325 750h250" stroke="#18181b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#18181b">Steelcase Gesture</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#18181b" opacity=".72">Best Office Chairs</text>
 </svg>

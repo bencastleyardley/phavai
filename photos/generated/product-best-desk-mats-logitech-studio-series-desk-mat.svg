@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="174" cy="159" r="115" fill="#10b981" opacity=".18"/>
   <circle cx="681" cy="279" r="155" fill="#2dd4bf" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M224 705c70-48 150-48 220 0" stroke="#facc15" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M676 150c44 40 92 40 136 0" stroke="#10b981" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="224" cy="684" r="46" fill="#facc15" opacity=".22"/>
+  <circle cx="676" cy="614" r="22" fill="#2dd4bf" opacity=".25"/>
+  <rect x="124" y="354" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="626" y="581" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(5 450 450) scale(0.9560000000000001) translate(19.79999999999997 19.79999999999997)">
     <rect x="185" y="350" width="530" height="64" rx="22" fill="#172554"/><path d="M270 414v220M630 414v220" stroke="#172554" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="350" y="220" width="200" height="118" rx="18" fill="#fff" opacity=".9"/><path d="M395 338h110" stroke="#172554" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <rect x="238" y="651" width="424" height="106" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#172554">Logitech Studio</text><text x="450" y="747" text-anchor="middle" font-size="38" font-weight="800" fill="#172554">Series Desk Mat</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#172554" opacity=".72">Best Desk Mats</text>
 </svg>

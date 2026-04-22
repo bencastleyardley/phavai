@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="191" cy="176" r="115" fill="#22c55e" opacity=".18"/>
   <circle cx="684" cy="276" r="155" fill="#22c55e" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M151 705c70-48 150-48 220 0" stroke="#fb7185" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M539 150c44 40 92 40 136 0" stroke="#22c55e" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="151" cy="671" r="43" fill="#fb7185" opacity=".22"/>
+  <circle cx="539" cy="601" r="39" fill="#22c55e" opacity=".25"/>
+  <rect x="141" y="351" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="639" y="564" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-3 450 450) scale(0.92) translate(35.99999999999998 35.99999999999998)">
     <rect x="185" y="350" width="530" height="64" rx="22" fill="#312e81"/><path d="M270 414v220M630 414v220" stroke="#312e81" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="350" y="220" width="200" height="118" rx="18" fill="#fff" opacity=".9"/><path d="M395 338h110" stroke="#312e81" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <rect x="238" y="621" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="675" text-anchor="middle" font-size="38" font-weight="800" fill="#312e81">Best Desk Mats</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#312e81" opacity=".72">remote work</text>
 </svg>

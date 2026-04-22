@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="284" cy="229" r="115" fill="#14b8a6" opacity=".18"/>
   <circle cx="711" cy="249" r="155" fill="#fb7185" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M244 705c70-48 150-48 220 0" stroke="#a3e635" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M656 150c44 40 92 40 136 0" stroke="#14b8a6" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="244" cy="644" r="24" fill="#a3e635" opacity=".22"/>
+  <circle cx="656" cy="574" r="36" fill="#fb7185" opacity=".25"/>
+  <rect x="194" y="324" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="666" y="531" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(3 450 450) scale(0.9440000000000001) translate(25.19999999999997 25.19999999999997)">
     <rect x="185" y="350" width="530" height="64" rx="22" fill="#1f2937"/><path d="M270 414v220M630 414v220" stroke="#1f2937" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="350" y="220" width="200" height="118" rx="18" fill="#fff" opacity=".9"/><path d="M395 338h110" stroke="#1f2937" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#1f2937">Anker PowerConf C200</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937" opacity=".72">Best Webcams for Remote Work</text>
 </svg>

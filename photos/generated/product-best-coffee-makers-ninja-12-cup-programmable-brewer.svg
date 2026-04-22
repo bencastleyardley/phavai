@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="173" cy="158" r="115" fill="#2563eb" opacity=".18"/>
   <circle cx="722" cy="238" r="155" fill="#60a5fa" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M223 705c70-48 150-48 220 0" stroke="#f97316" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M667 150c44 40 92 40 136 0" stroke="#2563eb" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="223" cy="683" r="45" fill="#f97316" opacity=".22"/>
+  <circle cx="667" cy="613" r="21" fill="#60a5fa" opacity=".25"/>
+  <rect x="123" y="313" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="627" y="582" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(0 450 450) scale(0.9440000000000001) translate(25.19999999999997 25.19999999999997)">
     <rect x="285" y="285" width="285" height="330" rx="48" fill="#18181b"/><path d="M570 385h40c58 0 58 112 0 112h-40M340 220c-28-42 28-60 0-102M435 220c-28-42 28-60 0-102M515 220c-28-42 28-60 0-102" stroke="#18181b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="315" y="620" width="230" height="48" rx="20" fill="#f97316"/>
   </g>
-  <rect x="238" y="651" width="424" height="106" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#18181b">Ninja 12-Cup</text><text x="450" y="747" text-anchor="middle" font-size="38" font-weight="800" fill="#18181b">Programmable Brewer</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#18181b" opacity=".72">Best Coffee Makers</text>
 </svg>

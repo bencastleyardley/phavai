@@ -53,6 +53,7 @@ const SOURCE_LABELS = {
 };
 
 const ONE_MONTH_MS = 1000 * 60 * 60 * 24 * 30.4375;
+const SITE_LAST_MODIFIED = "2026-04-22";
 
 function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
@@ -60,6 +61,13 @@ function clamp(value, min, max) {
 
 function firstEnv(...names) {
   return names.map((name) => process.env[name]).find((value) => value && value.trim())?.trim() ?? "";
+}
+
+function toIsoDate(value) {
+  if (!value) return SITE_LAST_MODIFIED;
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return SITE_LAST_MODIFIED;
+  return parsed.toISOString().slice(0, 10);
 }
 
 function escapeHtml(value) {
@@ -509,26 +517,30 @@ for (const page of supportingPages) {
 
 const staticPages = ["methodology.html", "editorial-standards.html", "about.html", "contact.html", "privacy.html", "terms.html"];
 const urls = [
-  { loc: "https://www.phavai.com/", changefreq: "weekly", priority: "1.0" },
+  { loc: "https://www.phavai.com/", changefreq: "weekly", priority: "1.0", lastmod: SITE_LAST_MODIFIED },
   ...sections.map((section) => ({
     loc: `https://www.phavai.com/${section.slug}.html`,
     changefreq: "weekly",
-    priority: "0.9"
+    priority: "0.9",
+    lastmod: SITE_LAST_MODIFIED
   })),
   ...builtCategories.map((category) => ({
     loc: `https://www.phavai.com/${category.slug}.html`,
     changefreq: "weekly",
-    priority: "0.8"
+    priority: "0.8",
+    lastmod: toIsoDate(category.updated)
   })),
   ...supportingPages.map((page) => ({
     loc: `https://www.phavai.com/${page.slug}.html`,
     changefreq: "monthly",
-    priority: "0.7"
+    priority: "0.7",
+    lastmod: toIsoDate(page.updated)
   })),
   ...staticPages.map((page) => ({
     loc: `https://www.phavai.com/${page}`,
     changefreq: page === "privacy.html" || page === "terms.html" ? "yearly" : "monthly",
-    priority: page === "methodology.html" ? "0.7" : "0.5"
+    priority: page === "methodology.html" ? "0.7" : "0.5",
+    lastmod: SITE_LAST_MODIFIED
   }))
 ];
 
@@ -536,6 +548,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((url) => `  <url>
     <loc>${url.loc}</loc>
+    <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>
   </url>`).join("\n")}

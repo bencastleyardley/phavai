@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="265" cy="170" r="115" fill="#a855f7" opacity=".18"/>
   <circle cx="710" cy="250" r="155" fill="#a3e635" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M195 705c70-48 150-48 220 0" stroke="#2dd4bf" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M585 150c44 40 92 40 136 0" stroke="#a855f7" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="195" cy="685" r="45" fill="#2dd4bf" opacity=".22"/>
+  <circle cx="585" cy="615" r="41" fill="#a3e635" opacity=".25"/>
+  <rect x="135" y="325" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="625" y="550" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-4 450 450) scale(0.9440000000000001) translate(25.19999999999997 25.19999999999997)">
     <path d="M245 525c70-110 165-162 285-155 85 5 145 55 130 122-22 98-140 170-292 180-88 6-150-12-123-147Z" fill="#3f3f46"/><path d="M370 405c35 75 78 125 160 175M420 395c-12 85-55 135-140 150" stroke="#3f3f46" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="535" cy="470" r="30" fill="#2dd4bf"/>
   </g>
-  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#3f3f46">Kane Revive</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#3f3f46" opacity=".72">Best Recovery Sandals</text>
 </svg>

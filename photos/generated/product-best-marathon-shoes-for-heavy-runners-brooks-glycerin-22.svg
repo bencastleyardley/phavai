@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="213" cy="158" r="115" fill="#2563eb" opacity=".18"/>
   <circle cx="662" cy="298" r="155" fill="#60a5fa" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M173 705c70-48 150-48 220 0" stroke="#f97316" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M547 150c44 40 92 40 136 0" stroke="#2563eb" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="173" cy="663" r="37" fill="#f97316" opacity=".22"/>
+  <circle cx="547" cy="593" r="37" fill="#60a5fa" opacity=".25"/>
+  <rect x="123" y="323" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="647" y="542" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(6 450 450) scale(0.932) translate(30.599999999999977 30.599999999999977)">
     <path d="M205 525c70-100 120-155 205-175 70 90 157 138 280 154 44 6 66 44 45 82-28 50-134 75-280 70-116-4-215-28-250-66-18-20-19-43 0-65Z" fill="#18181b"/><path d="M300 520h310M385 425l-58 78M460 448l-55 72M535 475l-45 60" stroke="#18181b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M235 605c115 30 310 42 470 10" stroke="#f97316" stroke-width="24" stroke-linecap="round" fill="none"/>
   </g>
-  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#18181b">Brooks Glycerin 22</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#18181b" opacity=".72">Best Marathon Shoes for</text><text x="450" y="848" text-anchor="middle" font-size="22" font-weight="700" fill="#18181b" opacity=".72">Heavy Runners</text>
 </svg>

@@ -102,6 +102,9 @@ function iconFor(label) {
 
 function iconSvg(type, color, accent) {
   const stroke = `stroke="${color}" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"`;
+  if (type === "home") {
+    return `<rect x="230" y="230" width="310" height="390" rx="44" fill="#fff" opacity=".88"/><rect x="285" y="185" width="310" height="390" rx="44" fill="${color}"/><rect x="335" y="255" width="190" height="28" rx="14" fill="#fff" opacity=".82"/><rect x="335" y="320" width="150" height="24" rx="12" fill="#fff" opacity=".58"/><rect x="335" y="374" width="178" height="24" rx="12" fill="#fff" opacity=".58"/><path d="M352 500l58 58 145-164" stroke="${accent}" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="610" cy="570" r="96" fill="#fff" opacity=".9"/><circle cx="610" cy="570" r="58" ${stroke}/><path d="M655 615l78 78" ${stroke}/>`;
+  }
   if (type === "watch") {
     return `<rect x="365" y="175" width="170" height="90" rx="38" fill="${accent}" opacity=".72"/><circle cx="450" cy="450" r="118" fill="#fff" opacity=".9"/><circle cx="450" cy="450" r="80" ${stroke}/><path d="M450 405v50l42 28" ${stroke}/><rect x="365" y="635" width="170" height="90" rx="38" fill="${accent}" opacity=".72"/>`;
   }
@@ -182,11 +185,11 @@ function writeVisual(path, label, context, kind, iconType = iconFor(`${label} ${
   const seed = hash(`${path}:${label}:${context}`);
   const [ink, accent, paper, highlight] = palettes[seed % palettes.length];
   const secondary = palettes[(seed + 3) % palettes.length][1];
-  const lines = wrapText(label, kind === "product" ? 21 : 24, 3);
-  const kicker = wrapText(context, 28, 2);
-  const titleY = kind === "product" ? 705 : 675;
-  const title = lines.map((line, index) => `<text x="450" y="${titleY + index * 42}" text-anchor="middle" font-size="${lines.length > 2 ? 34 : 38}" font-weight="800" fill="${ink}">${escapeXml(line)}</text>`).join("");
-  const subtitle = kicker.map((line, index) => `<text x="450" y="${820 + index * 28}" text-anchor="middle" font-size="22" font-weight="700" fill="${ink}" opacity=".72">${escapeXml(line)}</text>`).join("");
+  const scale = 0.92 + (seed % 7) * 0.012;
+  const rotate = (seed % 13) - 6;
+  const leftDot = 130 + (seed % 210);
+  const rightDot = 690 - (seed % 170);
+  const lowerDot = 620 + (seed % 90);
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="${escapeXml(`${label} ${kind} visual`)}">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
@@ -202,12 +205,15 @@ function writeVisual(path, label, context, kind, iconType = iconFor(`${label} ${
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="${170 + (seed % 120)}" cy="${155 + (seed % 80)}" r="115" fill="${highlight}" opacity=".18"/>
   <circle cx="${725 - (seed % 100)}" cy="${235 + (seed % 100)}" r="155" fill="${secondary}" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M${leftDot} 705c70-48 150-48 220 0" stroke="${accent}" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M${rightDot} 150c44 40 92 40 136 0" stroke="${highlight}" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="${leftDot}" cy="${lowerDot}" r="${22 + (seed % 28)}" fill="${accent}" opacity=".22"/>
+  <circle cx="${rightDot}" cy="${lowerDot - 70}" r="${18 + (seed % 24)}" fill="${secondary}" opacity=".25"/>
+  <rect x="${120 + (seed % 80)}" y="${310 + (seed % 50)}" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="${690 - (seed % 90)}" y="${585 - (seed % 60)}" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(${rotate} 450 450) scale(${scale}) translate(${(1 - scale) * 450} ${(1 - scale) * 450})">
     ${iconSvg(iconType, ink, accent)}
   </g>
-  <rect x="238" y="${titleY - 54}" width="424" height="${lines.length * 42 + 22}" rx="34" fill="#fff" opacity=".68"/>
-  ${title}
-  ${subtitle}
 </svg>
 `;
   writeFileSync(`.${path}`, svg, "utf8");
@@ -240,7 +246,7 @@ for (const page of supportingPages) {
 }
 
 const homeAssets = [
-  ["home-hero", "Phavai", "Trust-first reviews", "home", "product"],
+  ["home-hero", "Phavai", "Trust-first reviews", "home", "home"],
   ["home-outdoor", "Outdoor", "Running and trail gear", "home", "shoe"],
   ["home-remote-work", "Remote Work", "Desk and office gear", "home", "desk"],
   ["home-lifestyle", "Lifestyle", "Home and travel picks", "home", "luggage"]

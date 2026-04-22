@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="193" cy="218" r="115" fill="#a855f7" opacity=".18"/>
   <circle cx="662" cy="298" r="155" fill="#a3e635" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M273 705c70-48 150-48 220 0" stroke="#2dd4bf" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M637 150c44 40 92 40 136 0" stroke="#a855f7" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="273" cy="673" r="25" fill="#2dd4bf" opacity=".22"/>
+  <circle cx="637" cy="603" r="41" fill="#a3e635" opacity=".25"/>
+  <rect x="183" y="323" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="637" y="562" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-2 450 450) scale(0.9560000000000001) translate(19.79999999999997 19.79999999999997)">
     <rect x="185" y="350" width="530" height="64" rx="22" fill="#3f3f46"/><path d="M270 414v220M630 414v220" stroke="#3f3f46" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="350" y="220" width="200" height="118" rx="18" fill="#fff" opacity=".9"/><path d="M395 338h110" stroke="#3f3f46" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <rect x="238" y="621" width="424" height="106" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="675" text-anchor="middle" font-size="38" font-weight="800" fill="#3f3f46">Best Webcams for Remote</text><text x="450" y="717" text-anchor="middle" font-size="38" font-weight="800" fill="#3f3f46">Work</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#3f3f46" opacity=".72">remote work</text>
 </svg>

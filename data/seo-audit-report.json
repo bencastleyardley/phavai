@@ -1,0 +1,581 @@
+{
+  "generated_at": "2026-04-22T14:02:25.687Z",
+  "pages_checked": 47,
+  "errors": [],
+  "warnings": [],
+  "pages": [
+    {
+      "file": "about.html",
+      "title": "About Phavai | Stop Digging. Start Deciding.",
+      "description_length": 114,
+      "canonical": "https://www.phavai.com/about.html",
+      "h1": "Stop digging. Start deciding.",
+      "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "best-air-purifiers.html",
+      "title": "Best Air Purifiers | Phavai Buying Guide",
+      "description_length": 215,
+      "canonical": "https://www.phavai.com/best-air-purifiers.html",
+      "h1": "Best Air Purifiers",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-carry-on-luggage.html",
+      "title": "Best Carry-On Luggage | Phavai Buying Guide",
+      "description_length": 206,
+      "canonical": "https://www.phavai.com/best-carry-on-luggage.html",
+      "h1": "Best Carry-On Luggage",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-coffee-makers.html",
+      "title": "Best Coffee Makers | Phavai Buying Guide",
+      "description_length": 205,
+      "canonical": "https://www.phavai.com/best-coffee-makers.html",
+      "h1": "Best Coffee Makers",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-daily-trainers-for-marathon-training.html",
+      "title": "Best Daily Trainers for Marathon Training | Phavai Buying Guide",
+      "description_length": 132,
+      "canonical": "https://www.phavai.com/best-daily-trainers-for-marathon-training.html",
+      "h1": "Best Daily Trainers for Marathon Training",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-desk-mats.html",
+      "title": "Best Desk Mats | Phavai Buying Guide",
+      "description_length": 213,
+      "canonical": "https://www.phavai.com/best-desk-mats.html",
+      "h1": "Best Desk Mats",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-ergonomic-keyboards.html",
+      "title": "Best Ergonomic Keyboards | Phavai Buying Guide",
+      "description_length": 216,
+      "canonical": "https://www.phavai.com/best-ergonomic-keyboards.html",
+      "h1": "Best Ergonomic Keyboards",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-gps-running-watches.html",
+      "title": "Best GPS Running Watches | Phavai Buying Guide",
+      "description_length": 206,
+      "canonical": "https://www.phavai.com/best-gps-running-watches.html",
+      "h1": "Best GPS Running Watches",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-gps-watches-for-ultrarunning.html",
+      "title": "Best GPS Watches for Ultrarunning | Phavai Buying Guide",
+      "description_length": 136,
+      "canonical": "https://www.phavai.com/best-gps-watches-for-ultrarunning.html",
+      "h1": "Best GPS Watches for Ultrarunning",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-hydration-packs.html",
+      "title": "Best Hydration Packs | Phavai Buying Guide",
+      "description_length": 200,
+      "canonical": "https://www.phavai.com/best-hydration-packs.html",
+      "h1": "Best Hydration Packs",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-hydration-vests-for-100k-and-100-mile-races.html",
+      "title": "Best Hydration Vests for 100K and 100 Mile Races | Phavai Buying Guide",
+      "description_length": 131,
+      "canonical": "https://www.phavai.com/best-hydration-vests-for-100k-and-100-mile-races.html",
+      "h1": "Best Hydration Vests for 100K and 100 Mile Races",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-marathon-shoes-for-heavy-runners.html",
+      "title": "Best Marathon Shoes for Heavy Runners | Phavai Buying Guide",
+      "description_length": 127,
+      "canonical": "https://www.phavai.com/best-marathon-shoes-for-heavy-runners.html",
+      "h1": "Best Marathon Shoes for Heavy Runners",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-massage-guns.html",
+      "title": "Best Massage Guns | Phavai Buying Guide",
+      "description_length": 205,
+      "canonical": "https://www.phavai.com/best-massage-guns.html",
+      "h1": "Best Massage Guns",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-mens-trail-running-shoes.html",
+      "title": "Best Men&#39;s Trail Running Shoes | Phavai Buying Guide",
+      "description_length": 198,
+      "canonical": "https://www.phavai.com/best-mens-trail-running-shoes.html",
+      "h1": "Best Men&#39;s Trail Running Shoes",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-monitor-arms.html",
+      "title": "Best Monitor Arms | Phavai Buying Guide",
+      "description_length": 226,
+      "canonical": "https://www.phavai.com/best-monitor-arms.html",
+      "h1": "Best Monitor Arms",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-office-chairs.html",
+      "title": "Best Office Chairs | Phavai Buying Guide",
+      "description_length": 209,
+      "canonical": "https://www.phavai.com/best-office-chairs.html",
+      "h1": "Best Office Chairs",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-recovery-sandals.html",
+      "title": "Best Recovery Sandals | Phavai Buying Guide",
+      "description_length": 200,
+      "canonical": "https://www.phavai.com/best-recovery-sandals.html",
+      "h1": "Best Recovery Sandals",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-road-shoe-for-your-first-marathon.html",
+      "title": "Best Road Shoe for Your First Marathon | Phavai Buying Guide",
+      "description_length": 131,
+      "canonical": "https://www.phavai.com/best-road-shoe-for-your-first-marathon.html",
+      "h1": "Best Road Shoe for Your First Marathon",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-running-headphones.html",
+      "title": "Best Running Headphones | Phavai Buying Guide",
+      "description_length": 241,
+      "canonical": "https://www.phavai.com/best-running-headphones.html",
+      "h1": "Best Running Headphones",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-running-vests.html",
+      "title": "Best Running Vests | Phavai Buying Guide",
+      "description_length": 215,
+      "canonical": "https://www.phavai.com/best-running-vests.html",
+      "h1": "Best Running Vests",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-standing-desks.html",
+      "title": "Best Standing Desks | Phavai Buying Guide",
+      "description_length": 213,
+      "canonical": "https://www.phavai.com/best-standing-desks.html",
+      "h1": "Best Standing Desks",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-trail-running-poles.html",
+      "title": "Best Trail Running Poles | Phavai Buying Guide",
+      "description_length": 207,
+      "canonical": "https://www.phavai.com/best-trail-running-poles.html",
+      "h1": "Best Trail Running Poles",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-trail-shoes-for-100-miles.html",
+      "title": "Best Trail Shoes for 100 Miles | Phavai Buying Guide",
+      "description_length": 132,
+      "canonical": "https://www.phavai.com/best-trail-shoes-for-100-miles.html",
+      "h1": "Best Trail Shoes for 100 Miles",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-trail-shoes-for-beginners.html",
+      "title": "Best Trail Shoes for Beginners | Phavai Buying Guide",
+      "description_length": 126,
+      "canonical": "https://www.phavai.com/best-trail-shoes-for-beginners.html",
+      "h1": "Best Trail Shoes for Beginners",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-trail-shoes-for-muddy-conditions.html",
+      "title": "Best Trail Shoes for Muddy Conditions | Phavai Buying Guide",
+      "description_length": 117,
+      "canonical": "https://www.phavai.com/best-trail-shoes-for-muddy-conditions.html",
+      "h1": "Best Trail Shoes for Muddy Conditions",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-trail-shoes-for-technical-trails.html",
+      "title": "Best Trail Shoes for Technical Trails | Phavai Buying Guide",
+      "description_length": 116,
+      "canonical": "https://www.phavai.com/best-trail-shoes-for-technical-trails.html",
+      "h1": "Best Trail Shoes for Technical Trails",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-trail-shoes-for-wide-feet.html",
+      "title": "Best Trail Shoes for Wide Feet | Phavai Buying Guide",
+      "description_length": 133,
+      "canonical": "https://www.phavai.com/best-trail-shoes-for-wide-feet.html",
+      "h1": "Best Trail Shoes for Wide Feet",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-webcams-for-remote-work.html",
+      "title": "Best Webcams for Remote Work | Phavai Buying Guide",
+      "description_length": 208,
+      "canonical": "https://www.phavai.com/best-webcams-for-remote-work.html",
+      "h1": "Best Webcams for Remote Work",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-womens-trail-running-shoes.html",
+      "title": "Best Women&#39;s Trail Running Shoes | Phavai Buying Guide",
+      "description_length": 191,
+      "canonical": "https://www.phavai.com/best-womens-trail-running-shoes.html",
+      "h1": "Best Women&#39;s Trail Running Shoes",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "coffee-maker-features-that-matter.html",
+      "title": "Coffee Maker Features That Actually Matter | Phavai",
+      "description_length": 139,
+      "canonical": "https://www.phavai.com/coffee-maker-features-that-matter.html",
+      "h1": "Coffee Maker Features That Actually Matter",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact Phavai | Corrections, Sources, and Partnerships",
+      "description_length": 127,
+      "canonical": "https://www.phavai.com/contact.html",
+      "h1": "Help make the guides sharper.",
+      "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "editorial-standards.html",
+      "title": "Editorial Standards | Phavai",
+      "description_length": 146,
+      "canonical": "https://www.phavai.com/editorial-standards.html",
+      "h1": "Editorial Standards",
+      "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "gps-running-watch-features-that-matter.html",
+      "title": "GPS Running Watch Features That Actually Matter | Phavai",
+      "description_length": 123,
+      "canonical": "https://www.phavai.com/gps-running-watch-features-that-matter.html",
+      "h1": "GPS Running Watch Features That Actually Matter",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "hard-shell-vs-soft-shell-carry-on.html",
+      "title": "Hard-Shell vs Soft-Shell Carry-On Luggage | Phavai",
+      "description_length": 128,
+      "canonical": "https://www.phavai.com/hard-shell-vs-soft-shell-carry-on.html",
+      "h1": "Hard-Shell vs Soft-Shell Carry-On Luggage",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "how-to-build-ergonomic-home-office.html",
+      "title": "How to Build an Ergonomic Home Office | Phavai",
+      "description_length": 139,
+      "canonical": "https://www.phavai.com/how-to-build-ergonomic-home-office.html",
+      "h1": "How to Build an Ergonomic Home Office",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "how-to-choose-air-purifier.html",
+      "title": "How to Choose an Air Purifier | Phavai",
+      "description_length": 129,
+      "canonical": "https://www.phavai.com/how-to-choose-air-purifier.html",
+      "h1": "How to Choose an Air Purifier",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "how-to-choose-trail-running-shoes.html",
+      "title": "How to Choose Trail Running Shoes | Phavai",
+      "description_length": 114,
+      "canonical": "https://www.phavai.com/how-to-choose-trail-running-shoes.html",
+      "h1": "How to Choose Trail Running Shoes",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "how-to-choose-webcam-for-remote-work.html",
+      "title": "How to Choose a Webcam for Remote Work | Phavai",
+      "description_length": 127,
+      "canonical": "https://www.phavai.com/how-to-choose-webcam-for-remote-work.html",
+      "h1": "How to Choose a Webcam for Remote Work",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "hydration-pack-vs-running-vest.html",
+      "title": "Hydration Pack vs Running Vest: Which Should You Buy? | Phavai",
+      "description_length": 126,
+      "canonical": "https://www.phavai.com/hydration-pack-vs-running-vest.html",
+      "h1": "Hydration Pack vs Running Vest: Which Should You Buy?",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "index.html",
+      "title": "Phavai - Stop Digging. Start Deciding.",
+      "description_length": 117,
+      "canonical": "https://www.phavai.com/",
+      "h1": "Stop digging. Start deciding.",
+      "structured_data_types": []
+    },
+    {
+      "file": "lifestyle.html",
+      "title": "Lifestyle Product Reviews | Phavai",
+      "description_length": 112,
+      "canonical": "https://www.phavai.com/lifestyle.html",
+      "h1": "Lifestyle Reviews",
+      "structured_data_types": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "methodology.html",
+      "title": "How Phavai Chooses Products | Methodology",
+      "description_length": 108,
+      "canonical": "https://www.phavai.com/methodology.html",
+      "h1": "How Phavai Chooses Products",
+      "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "outdoor.html",
+      "title": "Outdoor Product Reviews | Phavai",
+      "description_length": 173,
+      "canonical": "https://www.phavai.com/outdoor.html",
+      "h1": "Outdoor Reviews",
+      "structured_data_types": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "privacy.html",
+      "title": "Privacy Policy | Phavai",
+      "description_length": 113,
+      "canonical": "https://www.phavai.com/privacy.html",
+      "h1": "Privacy Policy",
+      "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "remote-work.html",
+      "title": "Remote Work Product Reviews | Phavai",
+      "description_length": 138,
+      "canonical": "https://www.phavai.com/remote-work.html",
+      "h1": "Remote Work Reviews",
+      "structured_data_types": [
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "standing-desk-vs-office-chair-upgrade.html",
+      "title": "Standing Desk vs Office Chair: Which Upgrade Matters More? | Phavai",
+      "description_length": 112,
+      "canonical": "https://www.phavai.com/standing-desk-vs-office-chair-upgrade.html",
+      "h1": "Standing Desk vs Office Chair: Which Upgrade Matters More?",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "terms.html",
+      "title": "Terms of Use | Phavai",
+      "description_length": 121,
+      "canonical": "https://www.phavai.com/terms.html",
+      "h1": "Terms of Use",
+      "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    }
+  ]
+}

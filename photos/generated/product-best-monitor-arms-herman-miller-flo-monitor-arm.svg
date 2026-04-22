@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="186" cy="171" r="115" fill="#f59e0b" opacity=".18"/>
   <circle cx="709" cy="251" r="155" fill="#f97316" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M296 705c70-48 150-48 220 0" stroke="#22c55e" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M584 150c44 40 92 40 136 0" stroke="#f59e0b" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="296" cy="636" r="34" fill="#22c55e" opacity=".22"/>
+  <circle cx="584" cy="566" r="34" fill="#f97316" opacity=".25"/>
+  <rect x="136" y="326" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="674" y="569" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-2 450 450) scale(0.98) translate(9.000000000000007 9.000000000000007)">
     <rect x="185" y="215" width="360" height="230" rx="28" fill="#0f172a"/><path d="M545 330h115v260M545 585h180" stroke="#0f172a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="245" y="480" width="240" height="46" rx="18" fill="#22c55e"/><rect x="300" y="525" width="130" height="86" rx="16" fill="#0f172a"/>
   </g>
-  <rect x="238" y="651" width="424" height="106" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#0f172a">Herman Miller Flo</text><text x="450" y="747" text-anchor="middle" font-size="38" font-weight="800" fill="#0f172a">Monitor Arm</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a" opacity=".72">Best Monitor Arms</text>
 </svg>

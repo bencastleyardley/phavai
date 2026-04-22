@@ -3,8 +3,8 @@
     "slug": "outdoor",
     "title": "Outdoor",
     "eyebrow": "Outdoor buying guides",
-    "description": "Trail, running, road-marathon, and recovery gear sorted by fit, terrain, comfort, durability, and real-world owner feedback.",
-    "intro": "Outdoor gear gets exposed quickly. A shoe that feels fine in the store can punish you at mile 40; a vest that looks clever can bounce for three hours. These guides focus on the decisions that matter outside: fit, terrain, weather, distance, comfort, and what experienced users keep complaining about.",
+    "description": "Trail, running, road-marathon, and recovery gear compared by fit, terrain, comfort, durability, and owner feedback.",
+    "intro": "Outdoor shopping gets noisy fast because every runner, trail, and race asks for a different compromise. Phavai pulls the best reviews together so the right pick, the wrong-fit warnings, and the real-world proof are easier to see.",
     "covered": [
       "trail running shoes",
       "running headphones",
@@ -21,7 +21,7 @@
       "100K and 100-mile hydration vests",
       "road marathon shoes"
     ],
-    "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner patterns that reveal what breaks down after the first few outings.",
+    "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner feedback that reveals what breaks down after the first few outings.",
     "matters": [
       {
         "heading": "Fit beats hype",
@@ -44,8 +44,8 @@
     "slug": "remote-work",
     "title": "Remote Work",
     "eyebrow": "Remote work buying guides",
-    "description": "Home-office gear reviewed for comfort, reliability, setup friction, meeting quality, and how it holds up through real workdays.",
-    "intro": "Remote work gear should disappear into the day. The right chair, desk, webcam, keyboard, or monitor arm makes work feel calmer; the wrong one nags at your back, your focus, or every meeting. These guides are built around daily comfort and practical upgrades, not desk-setup theater.",
+    "description": "Home-office gear compared for comfort, reliability, setup friction, meeting quality, and real workday usefulness.",
+    "intro": "Home-office research can turn into a maze of ergonomic claims, desk-setup videos, and owner complaints. Phavai pulls the useful reviews together so it is easier to see which upgrades actually make work calmer.",
     "covered": [
       "standing desks",
       "office chairs",
@@ -77,8 +77,8 @@
     "slug": "lifestyle",
     "title": "Lifestyle",
     "eyebrow": "Lifestyle buying guides",
-    "description": "Everyday products reviewed for usefulness, reliability, maintenance, owner satisfaction, and the tradeoffs you notice after purchase.",
-    "intro": "Lifestyle products often fail in small, irritating ways: luggage wheels that wobble, coffee makers that are annoying to clean, air purifiers with expensive filters, recovery tools that sit unused. These guides focus on the details people only talk about after living with the product.",
+    "description": "Everyday products compared for usefulness, reliability, maintenance, owner satisfaction, and post-purchase tradeoffs.",
+    "intro": "Lifestyle products often fail in small, irritating ways: luggage wheels that wobble, coffee makers that are annoying to clean, air purifiers with expensive filters, recovery tools that sit unused. Phavai pulls together the reviews and buyer feedback that make those problems easier to spot before checkout.",
     "covered": [
       "carry-on luggage",
       "coffee makers",

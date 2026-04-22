@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="259" cy="164" r="115" fill="#fb7185" opacity=".18"/>
   <circle cx="656" cy="304" r="155" fill="#facc15" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M159 705c70-48 150-48 220 0" stroke="#38bdf8" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M611 150c44 40 92 40 136 0" stroke="#fb7185" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="159" cy="649" r="23" fill="#38bdf8" opacity=".22"/>
+  <circle cx="611" cy="579" r="35" fill="#facc15" opacity=".25"/>
+  <rect x="129" y="329" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="661" y="556" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(2 450 450) scale(0.932) translate(30.599999999999977 30.599999999999977)">
     <circle cx="310" cy="315" r="98" fill="#38bdf8"/><rect x="380" y="345" width="300" height="125" rx="60" fill="#111827" transform="rotate(25 380 345)"/><rect x="470" y="445" width="112" height="245" rx="46" fill="#111827" transform="rotate(25 470 445)"/><path d="M225 520c60-35 120-35 180 0" stroke="#111827" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <rect x="238" y="651" width="424" height="106" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#111827">Hyperice Hypervolt 2</text><text x="450" y="747" text-anchor="middle" font-size="38" font-weight="800" fill="#111827">Pro</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#111827" opacity=".72">Best Massage Guns</text>
 </svg>

@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="222" cy="207" r="115" fill="#10b981" opacity=".18"/>
   <circle cx="693" cy="267" r="155" fill="#2dd4bf" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M332 705c70-48 150-48 220 0" stroke="#facc15" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M548 150c44 40 92 40 136 0" stroke="#10b981" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="332" cy="672" r="42" fill="#facc15" opacity=".22"/>
+  <circle cx="548" cy="602" r="22" fill="#2dd4bf" opacity=".25"/>
+  <rect x="172" y="342" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="638" y="533" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(2 450 450) scale(0.992) translate(3.600000000000003 3.600000000000003)">
     <rect x="300" y="230" width="300" height="430" rx="52" fill="#172554"/><path d="M385 225v-45h130v45M380 310v260M450 310v260M520 310v260" stroke="#172554" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="370" cy="705" r="30" fill="#facc15"/><circle cx="530" cy="705" r="30" fill="#facc15"/>
   </g>
-  <rect x="238" y="621" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="675" text-anchor="middle" font-size="38" font-weight="800" fill="#172554">Lifestyle</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#172554" opacity=".72">Home and travel picks</text>
 </svg>

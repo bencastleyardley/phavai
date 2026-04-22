@@ -13,10 +13,13 @@
   <rect width="900" height="900" rx="72" fill="url(#grid)"/>
   <circle cx="225" cy="170" r="115" fill="#a855f7" opacity=".18"/>
   <circle cx="690" cy="270" r="155" fill="#a3e635" opacity=".14"/>
-  <g transform="translate(0 -36)">
+  <path d="M305 705c70-48 150-48 220 0" stroke="#2dd4bf" stroke-width="24" stroke-linecap="round" opacity=".34" fill="none"/>
+  <path d="M645 150c44 40 92 40 136 0" stroke="#a855f7" stroke-width="20" stroke-linecap="round" opacity=".38" fill="none"/>
+  <circle cx="305" cy="705" r="29" fill="#2dd4bf" opacity=".22"/>
+  <circle cx="645" cy="635" r="25" fill="#a3e635" opacity=".25"/>
+  <rect x="135" y="345" width="58" height="58" rx="18" fill="#fff" opacity=".48"/>
+  <rect x="605" y="530" width="72" height="72" rx="24" fill="#fff" opacity=".36"/>
+  <g transform="translate(0 14) rotate(-5 450 450) scale(0.92) translate(35.99999999999998 35.99999999999998)">
     <path d="M325 165l-80 570M575 165l80 570" stroke="#3f3f46" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M280 280h90M530 280h90M230 735h120M550 735h120" stroke="#3f3f46" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="325" cy="165" r="38" fill="#2dd4bf"/><circle cx="575" cy="165" r="38" fill="#2dd4bf"/>
   </g>
-  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
-  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#3f3f46">Gossamer Gear LT5</text>
-  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#3f3f46" opacity=".72">Best Trail Running Poles</text>
 </svg>

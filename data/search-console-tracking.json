@@ -1,0 +1,4853 @@
+{
+  "generated_at": "2026-04-22T14:01:34.260Z",
+  "purpose": "Landing-page and query map for joining Google Search Console exports with Phavai content priorities.",
+  "live_page_count": 47,
+  "planned_opportunity_count": 243,
+  "live_pages": [
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/",
+      "path": "/",
+      "title": "Stop digging. Start deciding.",
+      "page_type": "homepage",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 1,
+      "primary_query": "stop digging. start deciding.",
+      "secondary_query_patterns": [
+        "stop digging. start deciding. reviews",
+        "stop digging. start deciding. buying guide",
+        "stop digging. start deciding. recommendations"
+      ],
+      "search_intent": "brand navigation",
+      "last_updated": "2026-04-22",
+      "related_paths": [
+        "/outdoor.html",
+        "/remote-work.html",
+        "/lifestyle.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/outdoor.html",
+      "path": "/outdoor.html",
+      "title": "Outdoor Reviews",
+      "page_type": "category_hub",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 2,
+      "primary_query": "outdoor reviews",
+      "secondary_query_patterns": [
+        "outdoor reviews reviews",
+        "outdoor reviews buying guide",
+        "outdoor reviews recommendations"
+      ],
+      "search_intent": "category browsing",
+      "last_updated": "2026-04-22",
+      "related_paths": [
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-running-headphones.html",
+        "/best-gps-running-watches.html",
+        "/best-hydration-packs.html",
+        "/best-trail-running-poles.html",
+        "/best-running-vests.html",
+        "/best-recovery-sandals.html",
+        "/best-trail-shoes-for-100-miles.html",
+        "/best-trail-shoes-for-technical-trails.html",
+        "/best-trail-shoes-for-wide-feet.html",
+        "/best-trail-shoes-for-muddy-conditions.html",
+        "/best-trail-shoes-for-beginners.html",
+        "/best-gps-watches-for-ultrarunning.html",
+        "/best-hydration-vests-for-100k-and-100-mile-races.html",
+        "/best-road-shoe-for-your-first-marathon.html",
+        "/best-daily-trainers-for-marathon-training.html",
+        "/best-marathon-shoes-for-heavy-runners.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/remote-work.html",
+      "path": "/remote-work.html",
+      "title": "Remote Work Reviews",
+      "page_type": "category_hub",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 2,
+      "primary_query": "remote work reviews",
+      "secondary_query_patterns": [
+        "remote work reviews reviews",
+        "remote work reviews buying guide",
+        "remote work reviews recommendations"
+      ],
+      "search_intent": "category browsing",
+      "last_updated": "2026-04-22",
+      "related_paths": [
+        "/best-standing-desks.html",
+        "/best-office-chairs.html",
+        "/best-webcams-for-remote-work.html",
+        "/best-desk-mats.html",
+        "/best-monitor-arms.html",
+        "/best-ergonomic-keyboards.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/lifestyle.html",
+      "path": "/lifestyle.html",
+      "title": "Lifestyle Reviews",
+      "page_type": "category_hub",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 2,
+      "primary_query": "lifestyle reviews",
+      "secondary_query_patterns": [
+        "lifestyle reviews reviews",
+        "lifestyle reviews buying guide",
+        "lifestyle reviews recommendations"
+      ],
+      "search_intent": "category browsing",
+      "last_updated": "2026-04-22",
+      "related_paths": [
+        "/best-carry-on-luggage.html",
+        "/best-coffee-makers.html",
+        "/best-massage-guns.html",
+        "/best-air-purifiers.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-mens-trail-running-shoes.html",
+      "path": "/best-mens-trail-running-shoes.html",
+      "title": "Best Men's Trail Running Shoes",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best men's trail running shoes",
+      "secondary_query_patterns": [
+        "best men's trail running shoes reviews",
+        "best men's trail running shoes buying guide",
+        "best men's trail running shoes recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-womens-trail-running-shoes.html",
+      "path": "/best-womens-trail-running-shoes.html",
+      "title": "Best Women's Trail Running Shoes",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best women's trail running shoes",
+      "secondary_query_patterns": [
+        "best women's trail running shoes reviews",
+        "best women's trail running shoes buying guide",
+        "best women's trail running shoes recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-headphones.html",
+      "path": "/best-running-headphones.html",
+      "title": "Best Running Headphones",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running headphones",
+      "secondary_query_patterns": [
+        "best running headphones reviews",
+        "best running headphones buying guide",
+        "best running headphones recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-gps-running-watches.html",
+      "path": "/best-gps-running-watches.html",
+      "title": "Best GPS Running Watches",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best gps running watches",
+      "secondary_query_patterns": [
+        "best gps running watches reviews",
+        "best gps running watches buying guide",
+        "best gps running watches recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-standing-desks.html",
+      "path": "/best-standing-desks.html",
+      "title": "Best Standing Desks",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 1,
+      "primary_query": "best standing desks",
+      "secondary_query_patterns": [
+        "best standing desks reviews",
+        "best standing desks buying guide",
+        "best standing desks recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-office-chairs.html",
+      "path": "/best-office-chairs.html",
+      "title": "Best Office Chairs",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 1,
+      "primary_query": "best office chairs",
+      "secondary_query_patterns": [
+        "best office chairs reviews",
+        "best office chairs buying guide",
+        "best office chairs recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-hydration-packs.html",
+      "path": "/best-hydration-packs.html",
+      "title": "Best Hydration Packs",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best hydration packs",
+      "secondary_query_patterns": [
+        "best hydration packs reviews",
+        "best hydration packs buying guide",
+        "best hydration packs recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-trail-running-poles.html",
+      "path": "/best-trail-running-poles.html",
+      "title": "Best Trail Running Poles",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best trail running poles",
+      "secondary_query_patterns": [
+        "best trail running poles reviews",
+        "best trail running poles buying guide",
+        "best trail running poles recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-vests.html",
+      "path": "/best-running-vests.html",
+      "title": "Best Running Vests",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running vests",
+      "secondary_query_patterns": [
+        "best running vests reviews",
+        "best running vests buying guide",
+        "best running vests recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-recovery-sandals.html",
+      "path": "/best-recovery-sandals.html",
+      "title": "Best Recovery Sandals",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best recovery sandals",
+      "secondary_query_patterns": [
+        "best recovery sandals reviews",
+        "best recovery sandals buying guide",
+        "best recovery sandals recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/outdoor.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-webcams-for-remote-work.html",
+      "path": "/best-webcams-for-remote-work.html",
+      "title": "Best Webcams for Remote Work",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best webcams for remote work",
+      "secondary_query_patterns": [
+        "best webcams for remote work reviews",
+        "best webcams for remote work buying guide",
+        "best webcams for remote work recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-desk-mats.html",
+      "path": "/best-desk-mats.html",
+      "title": "Best Desk Mats",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best desk mats",
+      "secondary_query_patterns": [
+        "best desk mats reviews",
+        "best desk mats buying guide",
+        "best desk mats recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-monitor-arms.html",
+      "path": "/best-monitor-arms.html",
+      "title": "Best Monitor Arms",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best monitor arms",
+      "secondary_query_patterns": [
+        "best monitor arms reviews",
+        "best monitor arms buying guide",
+        "best monitor arms recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-ergonomic-keyboards.html",
+      "path": "/best-ergonomic-keyboards.html",
+      "title": "Best Ergonomic Keyboards",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best ergonomic keyboards",
+      "secondary_query_patterns": [
+        "best ergonomic keyboards reviews",
+        "best ergonomic keyboards buying guide",
+        "best ergonomic keyboards recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-carry-on-luggage.html",
+      "path": "/best-carry-on-luggage.html",
+      "title": "Best Carry-On Luggage",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best carry-on luggage",
+      "secondary_query_patterns": [
+        "best carry-on luggage reviews",
+        "best carry-on luggage buying guide",
+        "best carry-on luggage recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/lifestyle.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-coffee-makers.html",
+      "path": "/best-coffee-makers.html",
+      "title": "Best Coffee Makers",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best coffee makers",
+      "secondary_query_patterns": [
+        "best coffee makers reviews",
+        "best coffee makers buying guide",
+        "best coffee makers recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/lifestyle.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-massage-guns.html",
+      "path": "/best-massage-guns.html",
+      "title": "Best Massage Guns",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best massage guns",
+      "secondary_query_patterns": [
+        "best massage guns reviews",
+        "best massage guns buying guide",
+        "best massage guns recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/lifestyle.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-air-purifiers.html",
+      "path": "/best-air-purifiers.html",
+      "title": "Best Air Purifiers",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 1,
+      "primary_query": "best air purifiers",
+      "secondary_query_patterns": [
+        "best air purifiers reviews",
+        "best air purifiers buying guide",
+        "best air purifiers recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/lifestyle.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-trail-shoes-for-100-miles.html",
+      "path": "/best-trail-shoes-for-100-miles.html",
+      "title": "Best Trail Shoes for 100 Miles",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best trail shoes for 100 miles",
+      "secondary_query_patterns": [
+        "best trail shoes for 100 miles reviews",
+        "best trail shoes for 100 miles buying guide",
+        "best trail shoes for 100 miles recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-hydration-vests-for-100k-and-100-mile-races.html",
+        "/best-gps-watches-for-ultrarunning.html",
+        "/best-trail-shoes-for-wide-feet.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-trail-shoes-for-technical-trails.html",
+      "path": "/best-trail-shoes-for-technical-trails.html",
+      "title": "Best Trail Shoes for Technical Trails",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best trail shoes for technical trails",
+      "secondary_query_patterns": [
+        "best trail shoes for technical trails reviews",
+        "best trail shoes for technical trails buying guide",
+        "best trail shoes for technical trails recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-trail-running-poles.html",
+        "/best-trail-shoes-for-muddy-conditions.html",
+        "/best-trail-shoes-for-100-miles.html",
+        "/best-gps-watches-for-ultrarunning.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-trail-shoes-for-wide-feet.html",
+      "path": "/best-trail-shoes-for-wide-feet.html",
+      "title": "Best Trail Shoes for Wide Feet",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best trail shoes for wide feet",
+      "secondary_query_patterns": [
+        "best trail shoes for wide feet reviews",
+        "best trail shoes for wide feet buying guide",
+        "best trail shoes for wide feet recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-trail-shoes-for-100-miles.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-trail-shoes-for-beginners.html",
+        "/best-hydration-vests-for-100k-and-100-mile-races.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-trail-shoes-for-muddy-conditions.html",
+      "path": "/best-trail-shoes-for-muddy-conditions.html",
+      "title": "Best Trail Shoes for Muddy Conditions",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best trail shoes for muddy conditions",
+      "secondary_query_patterns": [
+        "best trail shoes for muddy conditions reviews",
+        "best trail shoes for muddy conditions buying guide",
+        "best trail shoes for muddy conditions recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-trail-shoes-for-technical-trails.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-trail-running-poles.html",
+        "/best-trail-shoes-for-beginners.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-trail-shoes-for-beginners.html",
+      "path": "/best-trail-shoes-for-beginners.html",
+      "title": "Best Trail Shoes for Beginners",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "best trail shoes for beginners",
+      "secondary_query_patterns": [
+        "best trail shoes for beginners reviews",
+        "best trail shoes for beginners buying guide",
+        "best trail shoes for beginners recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-trail-shoes-for-wide-feet.html",
+        "/best-trail-shoes-for-technical-trails.html",
+        "/best-trail-shoes-for-muddy-conditions.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-gps-watches-for-ultrarunning.html",
+      "path": "/best-gps-watches-for-ultrarunning.html",
+      "title": "Best GPS Watches for Ultrarunning",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best gps watches for ultrarunning",
+      "secondary_query_patterns": [
+        "best gps watches for ultrarunning reviews",
+        "best gps watches for ultrarunning buying guide",
+        "best gps watches for ultrarunning recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-gps-running-watches.html",
+        "/best-trail-shoes-for-100-miles.html",
+        "/best-hydration-vests-for-100k-and-100-mile-races.html",
+        "/best-trail-shoes-for-technical-trails.html",
+        "/best-running-vests.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-hydration-vests-for-100k-and-100-mile-races.html",
+      "path": "/best-hydration-vests-for-100k-and-100-mile-races.html",
+      "title": "Best Hydration Vests for 100K and 100 Mile Races",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best hydration vests for 100k and 100 mile races",
+      "secondary_query_patterns": [
+        "best hydration vests for 100k and 100 mile races reviews",
+        "best hydration vests for 100k and 100 mile races buying guide",
+        "best hydration vests for 100k and 100 mile races recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-hydration-packs.html",
+        "/best-running-vests.html",
+        "/best-trail-shoes-for-100-miles.html",
+        "/best-gps-watches-for-ultrarunning.html",
+        "/best-recovery-sandals.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-road-shoe-for-your-first-marathon.html",
+      "path": "/best-road-shoe-for-your-first-marathon.html",
+      "title": "Best Road Shoe for Your First Marathon",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best road shoe for your first marathon",
+      "secondary_query_patterns": [
+        "best road shoe for your first marathon reviews",
+        "best road shoe for your first marathon buying guide",
+        "best road shoe for your first marathon recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-daily-trainers-for-marathon-training.html",
+        "/best-marathon-shoes-for-heavy-runners.html",
+        "/best-running-headphones.html",
+        "/best-gps-running-watches.html",
+        "/best-recovery-sandals.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-daily-trainers-for-marathon-training.html",
+      "path": "/best-daily-trainers-for-marathon-training.html",
+      "title": "Best Daily Trainers for Marathon Training",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best daily trainers for marathon training",
+      "secondary_query_patterns": [
+        "best daily trainers for marathon training reviews",
+        "best daily trainers for marathon training buying guide",
+        "best daily trainers for marathon training recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-road-shoe-for-your-first-marathon.html",
+        "/best-marathon-shoes-for-heavy-runners.html",
+        "/best-gps-running-watches.html",
+        "/best-running-headphones.html",
+        "/best-recovery-sandals.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-marathon-shoes-for-heavy-runners.html",
+      "path": "/best-marathon-shoes-for-heavy-runners.html",
+      "title": "Best Marathon Shoes for Heavy Runners",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best marathon shoes for heavy runners",
+      "secondary_query_patterns": [
+        "best marathon shoes for heavy runners reviews",
+        "best marathon shoes for heavy runners buying guide",
+        "best marathon shoes for heavy runners recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 21, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-daily-trainers-for-marathon-training.html",
+        "/best-road-shoe-for-your-first-marathon.html",
+        "/best-gps-running-watches.html",
+        "/best-recovery-sandals.html",
+        "/best-running-headphones.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/how-to-choose-trail-running-shoes.html",
+      "path": "/how-to-choose-trail-running-shoes.html",
+      "title": "How to Choose Trail Running Shoes",
+      "page_type": "how_to_choose",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 4,
+      "primary_query": "how to choose trail running shoes",
+      "secondary_query_patterns": [
+        "how to choose trail running shoes reviews",
+        "how to choose trail running shoes buying guide",
+        "how to choose trail running shoes recommendations"
+      ],
+      "search_intent": "informational buyer help",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-trail-running-poles.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/hydration-pack-vs-running-vest.html",
+      "path": "/hydration-pack-vs-running-vest.html",
+      "title": "Hydration Pack vs Running Vest: Which Should You Buy?",
+      "page_type": "comparison",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 4,
+      "primary_query": "hydration pack vs running vest: which should you buy?",
+      "secondary_query_patterns": [
+        "hydration pack vs running vest: which should you buy? reviews",
+        "hydration pack vs running vest: which should you buy? buying guide",
+        "hydration pack vs running vest: which should you buy? recommendations"
+      ],
+      "search_intent": "comparison investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-hydration-packs.html",
+        "/best-running-vests.html",
+        "/best-trail-running-poles.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/gps-running-watch-features-that-matter.html",
+      "path": "/gps-running-watch-features-that-matter.html",
+      "title": "GPS Running Watch Features That Actually Matter",
+      "page_type": "feature_explainer",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 4,
+      "primary_query": "gps running watch features that actually matter",
+      "secondary_query_patterns": [
+        "gps running watch features that actually matter reviews",
+        "gps running watch features that actually matter buying guide",
+        "gps running watch features that actually matter recommendations"
+      ],
+      "search_intent": "informational buyer help",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-gps-running-watches.html",
+        "/best-running-headphones.html",
+        "/best-recovery-sandals.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/how-to-build-ergonomic-home-office.html",
+      "path": "/how-to-build-ergonomic-home-office.html",
+      "title": "How to Build an Ergonomic Home Office",
+      "page_type": "how_to_choose",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 4,
+      "primary_query": "how to build an ergonomic home office",
+      "secondary_query_patterns": [
+        "how to build an ergonomic home office reviews",
+        "how to build an ergonomic home office buying guide",
+        "how to build an ergonomic home office recommendations"
+      ],
+      "search_intent": "informational buyer help",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-office-chairs.html",
+        "/best-standing-desks.html",
+        "/best-monitor-arms.html",
+        "/best-ergonomic-keyboards.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/standing-desk-vs-office-chair-upgrade.html",
+      "path": "/standing-desk-vs-office-chair-upgrade.html",
+      "title": "Standing Desk vs Office Chair: Which Upgrade Matters More?",
+      "page_type": "comparison",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 4,
+      "primary_query": "standing desk vs office chair: which upgrade matters more?",
+      "secondary_query_patterns": [
+        "standing desk vs office chair: which upgrade matters more? reviews",
+        "standing desk vs office chair: which upgrade matters more? buying guide",
+        "standing desk vs office chair: which upgrade matters more? recommendations"
+      ],
+      "search_intent": "comparison investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-standing-desks.html",
+        "/best-office-chairs.html",
+        "/best-desk-mats.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/how-to-choose-webcam-for-remote-work.html",
+      "path": "/how-to-choose-webcam-for-remote-work.html",
+      "title": "How to Choose a Webcam for Remote Work",
+      "page_type": "how_to_choose",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 4,
+      "primary_query": "how to choose a webcam for remote work",
+      "secondary_query_patterns": [
+        "how to choose a webcam for remote work reviews",
+        "how to choose a webcam for remote work buying guide",
+        "how to choose a webcam for remote work recommendations"
+      ],
+      "search_intent": "informational buyer help",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-webcams-for-remote-work.html",
+        "/best-monitor-arms.html",
+        "/best-desk-mats.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/how-to-choose-air-purifier.html",
+      "path": "/how-to-choose-air-purifier.html",
+      "title": "How to Choose an Air Purifier",
+      "page_type": "how_to_choose",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 4,
+      "primary_query": "how to choose an air purifier",
+      "secondary_query_patterns": [
+        "how to choose an air purifier reviews",
+        "how to choose an air purifier buying guide",
+        "how to choose an air purifier recommendations"
+      ],
+      "search_intent": "informational buyer help",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-air-purifiers.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/hard-shell-vs-soft-shell-carry-on.html",
+      "path": "/hard-shell-vs-soft-shell-carry-on.html",
+      "title": "Hard-Shell vs Soft-Shell Carry-On Luggage",
+      "page_type": "comparison",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 4,
+      "primary_query": "hard-shell vs soft-shell carry-on luggage",
+      "secondary_query_patterns": [
+        "hard-shell vs soft-shell carry-on luggage reviews",
+        "hard-shell vs soft-shell carry-on luggage buying guide",
+        "hard-shell vs soft-shell carry-on luggage recommendations"
+      ],
+      "search_intent": "comparison investigation",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-carry-on-luggage.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/coffee-maker-features-that-matter.html",
+      "path": "/coffee-maker-features-that-matter.html",
+      "title": "Coffee Maker Features That Actually Matter",
+      "page_type": "feature_explainer",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 4,
+      "primary_query": "coffee maker features that actually matter",
+      "secondary_query_patterns": [
+        "coffee maker features that actually matter reviews",
+        "coffee maker features that actually matter buying guide",
+        "coffee maker features that actually matter recommendations"
+      ],
+      "search_intent": "informational buyer help",
+      "last_updated": "April 20, 2026",
+      "related_paths": [
+        "/best-coffee-makers.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/methodology.html",
+      "path": "/methodology.html",
+      "title": "methodology",
+      "page_type": "trust_or_utility",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 3,
+      "primary_query": "methodology",
+      "secondary_query_patterns": [
+        "methodology reviews",
+        "methodology buying guide",
+        "methodology recommendations"
+      ],
+      "search_intent": "trust validation",
+      "last_updated": "2026-04-22",
+      "related_paths": [],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/editorial-standards.html",
+      "path": "/editorial-standards.html",
+      "title": "editorial standards",
+      "page_type": "trust_or_utility",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 3,
+      "primary_query": "editorial standards",
+      "secondary_query_patterns": [
+        "editorial standards reviews",
+        "editorial standards buying guide",
+        "editorial standards recommendations"
+      ],
+      "search_intent": "trust validation",
+      "last_updated": "2026-04-22",
+      "related_paths": [],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/about.html",
+      "path": "/about.html",
+      "title": "about",
+      "page_type": "trust_or_utility",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 6,
+      "primary_query": "about",
+      "secondary_query_patterns": [
+        "about reviews",
+        "about buying guide",
+        "about recommendations"
+      ],
+      "search_intent": "trust validation",
+      "last_updated": "2026-04-22",
+      "related_paths": [],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/contact.html",
+      "path": "/contact.html",
+      "title": "contact",
+      "page_type": "trust_or_utility",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 6,
+      "primary_query": "contact",
+      "secondary_query_patterns": [
+        "contact reviews",
+        "contact buying guide",
+        "contact recommendations"
+      ],
+      "search_intent": "trust validation",
+      "last_updated": "2026-04-22",
+      "related_paths": [],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/privacy.html",
+      "path": "/privacy.html",
+      "title": "privacy",
+      "page_type": "trust_or_utility",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 6,
+      "primary_query": "privacy",
+      "secondary_query_patterns": [
+        "privacy reviews",
+        "privacy buying guide",
+        "privacy recommendations"
+      ],
+      "search_intent": "trust validation",
+      "last_updated": "2026-04-22",
+      "related_paths": [],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/terms.html",
+      "path": "/terms.html",
+      "title": "terms",
+      "page_type": "trust_or_utility",
+      "section_slug": "",
+      "cluster": "",
+      "priority": 6,
+      "primary_query": "terms",
+      "secondary_query_patterns": [
+        "terms reviews",
+        "terms buying guide",
+        "terms recommendations"
+      ],
+      "search_intent": "trust validation",
+      "last_updated": "2026-04-22",
+      "related_paths": [],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    }
+  ],
+  "planned_opportunities": [
+    {
+      "status": "planned",
+      "title": "Best Road Running Shoes",
+      "proposed_slug": "best-road-running-shoes",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1,
+      "primary_query": "best road running shoes",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Rocky Terrain",
+      "proposed_slug": "best-trail-shoes-for-rocky-terrain",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1,
+      "primary_query": "best trail shoes for rocky terrain",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Hoka Speedgoat vs Brooks Cascadia",
+      "proposed_slug": "hoka-speedgoat-vs-brooks-cascadia",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1,
+      "primary_query": "hoka speedgoat vs brooks cascadia",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose Trail Shoes",
+      "proposed_slug": "how-to-choose-trail-shoes",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1,
+      "primary_query": "how to choose trail shoes",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Daily Trainers",
+      "proposed_slug": "best-daily-trainers",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.01,
+      "primary_query": "best daily trainers",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Narrow Feet",
+      "proposed_slug": "best-trail-shoes-for-narrow-feet",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.01,
+      "primary_query": "best trail shoes for narrow feet",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Hoka Speedgoat vs Salomon Speedcross",
+      "proposed_slug": "hoka-speedgoat-vs-salomon-speedcross",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.01,
+      "primary_query": "hoka speedgoat vs salomon speedcross",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How Much Grip Do You Actually Need in a Trail Shoe?",
+      "proposed_slug": "how-much-grip-do-you-actually-need-in-a-trail-shoe",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.01,
+      "primary_query": "how much grip do you actually need in a trail shoe?",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Super Shoes",
+      "proposed_slug": "best-super-shoes",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.02,
+      "primary_query": "best super shoes",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Heel Strikers",
+      "proposed_slug": "best-trail-shoes-for-heel-strikers",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.02,
+      "primary_query": "best trail shoes for heel strikers",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Altra Lone Peak vs Topo Athletic Pursuit",
+      "proposed_slug": "altra-lone-peak-vs-topo-athletic-pursuit",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.02,
+      "primary_query": "altra lone peak vs topo athletic pursuit",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Trail Shoe Stack Height Explained",
+      "proposed_slug": "trail-shoe-stack-height-explained",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.02,
+      "primary_query": "trail shoe stack height explained",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Marathon Racing Shoes",
+      "proposed_slug": "best-marathon-racing-shoes",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.03,
+      "primary_query": "best marathon racing shoes",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Plantar Fasciitis",
+      "proposed_slug": "best-trail-shoes-for-plantar-fasciitis",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.03,
+      "primary_query": "best trail shoes for plantar fasciitis",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Nike Ultrafly vs Hoka Tecton X",
+      "proposed_slug": "nike-ultrafly-vs-hoka-tecton-x",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.03,
+      "primary_query": "nike ultrafly vs hoka tecton x",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "When to Size Up for Ultras",
+      "proposed_slug": "when-to-size-up-for-ultras",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.03,
+      "primary_query": "when to size up for ultras",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Sunglasses",
+      "proposed_slug": "best-running-sunglasses",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.04,
+      "primary_query": "best running sunglasses",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Hot Weather",
+      "proposed_slug": "best-trail-shoes-for-hot-weather",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.04,
+      "primary_query": "best trail shoes for hot weather",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Garmin Forerunner vs COROS Pace for Marathon Training",
+      "proposed_slug": "garmin-forerunner-vs-coros-pace-for-marathon-training",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.04,
+      "primary_query": "garmin forerunner vs coros pace for marathon training",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a GPS Watch for Ultrarunning",
+      "proposed_slug": "how-to-choose-a-gps-watch-for-ultrarunning",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.04,
+      "primary_query": "how to choose a gps watch for ultrarunning",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Hats",
+      "proposed_slug": "best-running-hats",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.05,
+      "primary_query": "best running hats",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Wet Conditions",
+      "proposed_slug": "best-trail-shoes-for-wet-conditions",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.05,
+      "primary_query": "best trail shoes for wet conditions",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Garmin Epix vs Fenix for Ultrarunning",
+      "proposed_slug": "garmin-epix-vs-fenix-for-ultrarunning",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.05,
+      "primary_query": "garmin epix vs fenix for ultrarunning",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How Much Battery Life Do You Really Need for a 100K or 100 Miler?",
+      "proposed_slug": "how-much-battery-life-do-you-really-need-for-a-100k-or-100-miler",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.05,
+      "primary_query": "how much battery life do you really need for a 100k or 100 miler?",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Socks",
+      "proposed_slug": "best-running-socks",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.06,
+      "primary_query": "best running socks",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Trail Shoes for Fastpacking",
+      "proposed_slug": "best-trail-shoes-for-fastpacking",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.06,
+      "primary_query": "best trail shoes for fastpacking",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Salomon ADV Skin vs Nathan Pinnacle",
+      "proposed_slug": "salomon-adv-skin-vs-nathan-pinnacle",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.06,
+      "primary_query": "salomon adv skin vs nathan pinnacle",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a Running Vest",
+      "proposed_slug": "how-to-choose-a-running-vest",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.06,
+      "primary_query": "how to choose a running vest",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Belts",
+      "proposed_slug": "best-running-belts",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.07,
+      "primary_query": "best running belts",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best GPS Watch for First-Time Ultramarathoners",
+      "proposed_slug": "best-gps-watch-for-first-time-ultramarathoners",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.07,
+      "primary_query": "best gps watch for first-time ultramarathoners",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Soft Flask vs Bladder for Trail Running",
+      "proposed_slug": "soft-flask-vs-bladder-for-trail-running",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.07,
+      "primary_query": "soft flask vs bladder for trail running",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Makes a Good 100-Mile Shoe?",
+      "proposed_slug": "what-makes-a-good-100-mile-shoe",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.07,
+      "primary_query": "what makes a good 100-mile shoe?",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Handheld Water Bottles",
+      "proposed_slug": "best-handheld-water-bottles",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.08,
+      "primary_query": "best handheld water bottles",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Vest for Hot Weather",
+      "proposed_slug": "best-running-vest-for-hot-weather",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.08,
+      "primary_query": "best running vest for hot weather",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Carbon Plate vs No Plate for Marathon Training",
+      "proposed_slug": "carbon-plate-vs-no-plate-for-marathon-training",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.08,
+      "primary_query": "carbon plate vs no plate for marathon training",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Do You Need Trail Running Poles?",
+      "proposed_slug": "do-you-need-trail-running-poles",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.08,
+      "primary_query": "do you need trail running poles?",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Recovery Slides",
+      "proposed_slug": "best-recovery-slides",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.09,
+      "primary_query": "best recovery slides",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Hydration Vest for 100K and 100 Mile Races",
+      "proposed_slug": "best-hydration-vest-for-100k-and-100-mile-races",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.09,
+      "primary_query": "best hydration vest for 100k and 100 mile races",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Daily Trainer vs Super Shoe: What Should Most Runners Buy?",
+      "proposed_slug": "daily-trainer-vs-super-shoe-what-should-most-runners-buy",
+      "page_type": "comparisons",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.09,
+      "primary_query": "daily trainer vs super shoe: what should most runners buy?",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Break In New Trail Shoes",
+      "proposed_slug": "how-to-break-in-new-trail-shoes",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.09,
+      "primary_query": "how to break in new trail shoes",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Foam Rollers for Runners",
+      "proposed_slug": "best-foam-rollers-for-runners",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.1,
+      "primary_query": "best foam rollers for runners",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Headphones for Running in the Rain",
+      "proposed_slug": "best-headphones-for-running-in-the-rain",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.1,
+      "primary_query": "best headphones for running in the rain",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What to Look for in Marathon Training Shoes",
+      "proposed_slug": "what-to-look-for-in-marathon-training-shoes",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.1,
+      "primary_query": "what to look for in marathon training shoes",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Massage Guns for Runners",
+      "proposed_slug": "best-massage-guns-for-runners",
+      "page_type": "core_roundups",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.11,
+      "primary_query": "best massage guns for runners",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Headphones for Small Ears",
+      "proposed_slug": "best-running-headphones-for-small-ears",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.11,
+      "primary_query": "best running headphones for small ears",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Signs Your Running Shoes Are Dead",
+      "proposed_slug": "signs-your-running-shoes-are-dead",
+      "page_type": "buyer_help",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.11,
+      "primary_query": "signs your running shoes are dead",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "proposed_slug": "best-running-sunglasses-for-sweat-and-bounce",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.12,
+      "primary_query": "best running sunglasses for sweat and bounce",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Recovery Tools for Sore Calves",
+      "proposed_slug": "best-recovery-tools-for-sore-calves",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.13,
+      "primary_query": "best recovery tools for sore calves",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Recovery Tools for Marathon Training",
+      "proposed_slug": "best-recovery-tools-for-marathon-training",
+      "page_type": "use_cases",
+      "cluster": "Outdoor / Running / Endurance",
+      "section_slug": "outdoor",
+      "priority": 1.1400000000000001,
+      "primary_query": "best recovery tools for marathon training",
+      "internal_link_targets": [
+        "/outdoor.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Carry-On Backpacks",
+      "proposed_slug": "best-carry-on-backpacks",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2,
+      "primary_query": "best carry-on backpacks",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Carry-On Luggage for Budget Airlines",
+      "proposed_slug": "best-carry-on-luggage-for-budget-airlines",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2,
+      "primary_query": "best carry-on luggage for budget airlines",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Carry-On Suitcase vs Travel Backpack",
+      "proposed_slug": "carry-on-suitcase-vs-travel-backpack",
+      "page_type": "comparisons",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2,
+      "primary_query": "carry-on suitcase vs travel backpack",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose Carry-On Luggage",
+      "proposed_slug": "how-to-choose-carry-on-luggage",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2,
+      "primary_query": "how to choose carry-on luggage",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Personal Item Bags",
+      "proposed_slug": "best-personal-item-bags",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.01,
+      "primary_query": "best personal item bags",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Carry-On Backpacks for International Travel",
+      "proposed_slug": "best-carry-on-backpacks-for-international-travel",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.01,
+      "primary_query": "best carry-on backpacks for international travel",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Hard Shell vs Soft Shell Luggage",
+      "proposed_slug": "hard-shell-vs-soft-shell-luggage",
+      "page_type": "comparisons",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.01,
+      "primary_query": "hard shell vs soft shell luggage",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Carry-On Size Rules That Actually Matter",
+      "proposed_slug": "carry-on-size-rules-that-actually-matter",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.01,
+      "primary_query": "carry-on size rules that actually matter",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Pillows",
+      "proposed_slug": "best-travel-pillows",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.02,
+      "primary_query": "best travel pillows",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Personal Item Bags That Actually Fit Under the Seat",
+      "proposed_slug": "best-personal-item-bags-that-actually-fit-under-the-seat",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.02,
+      "primary_query": "best personal item bags that actually fit under the seat",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Away vs Travelpro Carry-On",
+      "proposed_slug": "away-vs-travelpro-carry-on",
+      "page_type": "comparisons",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.02,
+      "primary_query": "away vs travelpro carry-on",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Makes a Good Personal Item Bag?",
+      "proposed_slug": "what-makes-a-good-personal-item-bag",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.02,
+      "primary_query": "what makes a good personal item bag?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Packing Cubes",
+      "proposed_slug": "best-packing-cubes",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.03,
+      "primary_query": "best packing cubes",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Pillows for Long Flights",
+      "proposed_slug": "best-travel-pillows-for-long-flights",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.03,
+      "primary_query": "best travel pillows for long flights",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Monos vs Samsonite",
+      "proposed_slug": "monos-vs-samsonite",
+      "page_type": "comparisons",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.03,
+      "primary_query": "monos vs samsonite",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "One-Bag Travel Basics",
+      "proposed_slug": "one-bag-travel-basics",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.03,
+      "primary_query": "one-bag travel basics",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Adapters",
+      "proposed_slug": "best-travel-adapters",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.04,
+      "primary_query": "best travel adapters",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Packing Cubes for One-Bag Travel",
+      "proposed_slug": "best-packing-cubes-for-one-bag-travel",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.04,
+      "primary_query": "best packing cubes for one-bag travel",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Packing Cubes vs Compression Bags",
+      "proposed_slug": "packing-cubes-vs-compression-bags",
+      "page_type": "comparisons",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.04,
+      "primary_query": "packing cubes vs compression bags",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Pack for a Week in a Carry-On",
+      "proposed_slug": "how-to-pack-for-a-week-in-a-carry-on",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.04,
+      "primary_query": "how to pack for a week in a carry-on",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Checked Luggage",
+      "proposed_slug": "best-checked-luggage",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.05,
+      "primary_query": "best checked luggage",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Adapters for Frequent Travelers",
+      "proposed_slug": "best-travel-adapters-for-frequent-travelers",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.05,
+      "primary_query": "best travel adapters for frequent travelers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Neck Pillow vs Wrap Pillow for Flights",
+      "proposed_slug": "neck-pillow-vs-wrap-pillow-for-flights",
+      "page_type": "comparisons",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.05,
+      "primary_query": "neck pillow vs wrap pillow for flights",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What to Look for in a Travel Backpack",
+      "proposed_slug": "what-to-look-for-in-a-travel-backpack",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.05,
+      "primary_query": "what to look for in a travel backpack",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Toiletry Bags",
+      "proposed_slug": "best-travel-toiletry-bags",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.06,
+      "primary_query": "best travel toiletry bags",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Carry-On Luggage for Overpackers",
+      "proposed_slug": "best-carry-on-luggage-for-overpackers",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.06,
+      "primary_query": "best carry-on luggage for overpackers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "International vs Domestic Carry-On Differences",
+      "proposed_slug": "international-vs-domestic-carry-on-differences",
+      "page_type": "buyer_help",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.06,
+      "primary_query": "international vs domestic carry-on differences",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Passport Wallets",
+      "proposed_slug": "best-passport-wallets",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.07,
+      "primary_query": "best passport wallets",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Carry-On Luggage for Short Trips",
+      "proposed_slug": "best-carry-on-luggage-for-short-trips",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.07,
+      "primary_query": "best carry-on luggage for short trips",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Portable Chargers for Travel",
+      "proposed_slug": "best-portable-chargers-for-travel",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.08,
+      "primary_query": "best portable chargers for travel",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Backpacks for Women",
+      "proposed_slug": "best-travel-backpacks-for-women",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.08,
+      "primary_query": "best travel backpacks for women",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Weekender Bags",
+      "proposed_slug": "best-weekender-bags",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.09,
+      "primary_query": "best weekender bags",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Backpacks for Men",
+      "proposed_slug": "best-travel-backpacks-for-men",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.09,
+      "primary_query": "best travel backpacks for men",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Travel Backpacks for Europe",
+      "proposed_slug": "best-travel-backpacks-for-europe",
+      "page_type": "core_roundups",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.1,
+      "primary_query": "best travel backpacks for europe",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Checked Luggage for Families",
+      "proposed_slug": "best-checked-luggage-for-families",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.1,
+      "primary_query": "best checked luggage for families",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Portable Chargers for Long Flights",
+      "proposed_slug": "best-portable-chargers-for-long-flights",
+      "page_type": "use_cases",
+      "cluster": "Travel Gear",
+      "section_slug": "lifestyle",
+      "priority": 2.11,
+      "primary_query": "best portable chargers for long flights",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Office Chairs for Back Pain",
+      "proposed_slug": "best-office-chairs-for-back-pain",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3,
+      "primary_query": "best office chairs for back pain",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Standing Desk for Small Spaces",
+      "proposed_slug": "best-standing-desk-for-small-spaces",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3,
+      "primary_query": "best standing desk for small spaces",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Herman Miller Aeron vs Steelcase Leap",
+      "proposed_slug": "herman-miller-aeron-vs-steelcase-leap",
+      "page_type": "comparisons",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3,
+      "primary_query": "herman miller aeron vs steelcase leap",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Build a Better Home Office",
+      "proposed_slug": "how-to-build-a-better-home-office",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3,
+      "primary_query": "how to build a better home office",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Desk Lamps for Remote Work",
+      "proposed_slug": "best-desk-lamps-for-remote-work",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.01,
+      "primary_query": "best desk lamps for remote work",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Standing Desk for Tall People",
+      "proposed_slug": "best-standing-desk-for-tall-people",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.01,
+      "primary_query": "best standing desk for tall people",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Branch vs FlexiSpot Standing Desk",
+      "proposed_slug": "branch-vs-flexispot-standing-desk",
+      "page_type": "comparisons",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.01,
+      "primary_query": "branch vs flexispot standing desk",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Actually Matters in an Office Chair",
+      "proposed_slug": "what-actually-matters-in-an-office-chair",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.01,
+      "primary_query": "what actually matters in an office chair",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best USB-C Hubs for Remote Work",
+      "proposed_slug": "best-usb-c-hubs-for-remote-work",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.02,
+      "primary_query": "best usb-c hubs for remote work",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Standing Desk for Short People",
+      "proposed_slug": "best-standing-desk-for-short-people",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.02,
+      "primary_query": "best standing desk for short people",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Logitech Brio vs Insta360 Link",
+      "proposed_slug": "logitech-brio-vs-insta360-link",
+      "page_type": "comparisons",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.02,
+      "primary_query": "logitech brio vs insta360 link",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How Much Standing Desk Range Do You Need?",
+      "proposed_slug": "how-much-standing-desk-range-do-you-need",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.02,
+      "primary_query": "how much standing desk range do you need?",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Home Office Monitors",
+      "proposed_slug": "best-home-office-monitors",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.03,
+      "primary_query": "best home office monitors",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Office Chair for Tall People",
+      "proposed_slug": "best-office-chair-for-tall-people",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.03,
+      "primary_query": "best office chair for tall people",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Mechanical vs Ergonomic Keyboard for Office Work",
+      "proposed_slug": "mechanical-vs-ergonomic-keyboard-for-office-work",
+      "page_type": "comparisons",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.03,
+      "primary_query": "mechanical vs ergonomic keyboard for office work",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a Webcam for Remote Work",
+      "proposed_slug": "how-to-choose-a-webcam-for-remote-work",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.03,
+      "primary_query": "how to choose a webcam for remote work",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Noise-Canceling Headphones for Remote Work",
+      "proposed_slug": "best-noise-canceling-headphones-for-remote-work",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.04,
+      "primary_query": "best noise-canceling headphones for remote work",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Office Chair for Short People",
+      "proposed_slug": "best-office-chair-for-short-people",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.04,
+      "primary_query": "best office chair for short people",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Standing Desk vs Desk Converter",
+      "proposed_slug": "standing-desk-vs-desk-converter",
+      "page_type": "comparisons",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.04,
+      "primary_query": "standing desk vs desk converter",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Makes a Monitor Arm Worth Buying?",
+      "proposed_slug": "what-makes-a-monitor-arm-worth-buying",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.04,
+      "primary_query": "what makes a monitor arm worth buying?",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Laptop Stands",
+      "proposed_slug": "best-laptop-stands",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.05,
+      "primary_query": "best laptop stands",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Office Chair for Heavy People",
+      "proposed_slug": "best-office-chair-for-heavy-people",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.05,
+      "primary_query": "best office chair for heavy people",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Ring Light vs Better Webcam: What Matters More?",
+      "proposed_slug": "ring-light-vs-better-webcam-what-matters-more",
+      "page_type": "comparisons",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.05,
+      "primary_query": "ring light vs better webcam: what matters more?",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Ergonomic Keyboard Basics for Normal People",
+      "proposed_slug": "ergonomic-keyboard-basics-for-normal-people",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.05,
+      "primary_query": "ergonomic keyboard basics for normal people",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Footrests for Under Your Desk",
+      "proposed_slug": "best-footrests-for-under-your-desk",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.06,
+      "primary_query": "best footrests for under your desk",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Webcam for Low Light",
+      "proposed_slug": "best-webcam-for-low-light",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.06,
+      "primary_query": "best webcam for low light",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "The Best Home Office Upgrades Under $100",
+      "proposed_slug": "the-best-home-office-upgrades-under-100",
+      "page_type": "buyer_help",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.06,
+      "primary_query": "the best home office upgrades under $100",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Microphones for Video Calls",
+      "proposed_slug": "best-microphones-for-video-calls",
+      "page_type": "core_roundups",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.07,
+      "primary_query": "best microphones for video calls",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Webcam for Zoom Calls",
+      "proposed_slug": "best-webcam-for-zoom-calls",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.07,
+      "primary_query": "best webcam for zoom calls",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Monitor Arm for Ultrawide Monitors",
+      "proposed_slug": "best-monitor-arm-for-ultrawide-monitors",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.08,
+      "primary_query": "best monitor arm for ultrawide monitors",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Keyboard for Wrist Pain",
+      "proposed_slug": "best-keyboard-for-wrist-pain",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.09,
+      "primary_query": "best keyboard for wrist pain",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Headphones for Calls in a Noisy House",
+      "proposed_slug": "best-headphones-for-calls-in-a-noisy-house",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.1,
+      "primary_query": "best headphones for calls in a noisy house",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Desk Setup for Small Apartments",
+      "proposed_slug": "best-desk-setup-for-small-apartments",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.11,
+      "primary_query": "best desk setup for small apartments",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Home Office Gear for Shared Spaces",
+      "proposed_slug": "best-home-office-gear-for-shared-spaces",
+      "page_type": "use_cases",
+      "cluster": "Remote Work / Home Office",
+      "section_slug": "remote-work",
+      "priority": 3.12,
+      "primary_query": "best home office gear for shared spaces",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Pillows for Side Sleepers",
+      "proposed_slug": "best-pillows-for-side-sleepers",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4,
+      "primary_query": "best pillows for side sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Pillows for Neck Pain",
+      "proposed_slug": "best-pillows-for-neck-pain",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4,
+      "primary_query": "best pillows for neck pain",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Memory Foam Pillow vs Down Alternative",
+      "proposed_slug": "memory-foam-pillow-vs-down-alternative",
+      "page_type": "comparisons",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4,
+      "primary_query": "memory foam pillow vs down alternative",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a Pillow",
+      "proposed_slug": "how-to-choose-a-pillow",
+      "page_type": "buyer_help",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4,
+      "primary_query": "how to choose a pillow",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Cooling Mattress Toppers",
+      "proposed_slug": "best-cooling-mattress-toppers",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.01,
+      "primary_query": "best cooling mattress toppers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Pillows for Side Sleepers with Broad Shoulders",
+      "proposed_slug": "best-pillows-for-side-sleepers-with-broad-shoulders",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.01,
+      "primary_query": "best pillows for side sleepers with broad shoulders",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Mattress Topper vs Mattress Pad",
+      "proposed_slug": "mattress-topper-vs-mattress-pad",
+      "page_type": "comparisons",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.01,
+      "primary_query": "mattress topper vs mattress pad",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Actually Helps Hot Sleepers?",
+      "proposed_slug": "what-actually-helps-hot-sleepers",
+      "page_type": "buyer_help",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.01,
+      "primary_query": "what actually helps hot sleepers?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best White Noise Machines",
+      "proposed_slug": "best-white-noise-machines",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.02,
+      "primary_query": "best white noise machines",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Cooling Mattress Toppers for Hot Sleepers",
+      "proposed_slug": "best-cooling-mattress-toppers-for-hot-sleepers",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.02,
+      "primary_query": "best cooling mattress toppers for hot sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "White Noise Machine vs Fan for Sleep",
+      "proposed_slug": "white-noise-machine-vs-fan-for-sleep",
+      "page_type": "comparisons",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.02,
+      "primary_query": "white noise machine vs fan for sleep",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Do Blackout Curtains Make a Difference?",
+      "proposed_slug": "do-blackout-curtains-make-a-difference",
+      "page_type": "buyer_help",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.02,
+      "primary_query": "do blackout curtains make a difference?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Sheets for Hot Sleepers",
+      "proposed_slug": "best-sheets-for-hot-sleepers",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.03,
+      "primary_query": "best sheets for hot sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best White Noise Machines for Light Sleepers",
+      "proposed_slug": "best-white-noise-machines-for-light-sleepers",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.03,
+      "primary_query": "best white noise machines for light sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Linen vs Percale Sheets for Hot Sleepers",
+      "proposed_slug": "linen-vs-percale-sheets-for-hot-sleepers",
+      "page_type": "comparisons",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.03,
+      "primary_query": "linen vs percale sheets for hot sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How Humidity Affects Sleep",
+      "proposed_slug": "how-humidity-affects-sleep",
+      "page_type": "buyer_help",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.03,
+      "primary_query": "how humidity affects sleep",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Blackout Curtains",
+      "proposed_slug": "best-blackout-curtains",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.04,
+      "primary_query": "best blackout curtains",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Blackout Curtains for Apartments",
+      "proposed_slug": "best-blackout-curtains-for-apartments",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.04,
+      "primary_query": "best blackout curtains for apartments",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Weighted Blanket vs Regular Blanket",
+      "proposed_slug": "weighted-blanket-vs-regular-blanket",
+      "page_type": "comparisons",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.04,
+      "primary_query": "weighted blanket vs regular blanket",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Build a Better Sleep Setup",
+      "proposed_slug": "how-to-build-a-better-sleep-setup",
+      "page_type": "buyer_help",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.04,
+      "primary_query": "how to build a better sleep setup",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Humidifiers for Bedrooms",
+      "proposed_slug": "best-humidifiers-for-bedrooms",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.05,
+      "primary_query": "best humidifiers for bedrooms",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Humidifiers for Dry Bedrooms",
+      "proposed_slug": "best-humidifiers-for-dry-bedrooms",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.05,
+      "primary_query": "best humidifiers for dry bedrooms",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Weighted Blankets",
+      "proposed_slug": "best-weighted-blankets",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.06,
+      "primary_query": "best weighted blankets",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Sheets for Sweaty Sleepers",
+      "proposed_slug": "best-sheets-for-sweaty-sleepers",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.06,
+      "primary_query": "best sheets for sweaty sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Eye Masks for Sleep",
+      "proposed_slug": "best-eye-masks-for-sleep",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.07,
+      "primary_query": "best eye masks for sleep",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Weighted Blanket for Anxiety",
+      "proposed_slug": "best-weighted-blanket-for-anxiety",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.07,
+      "primary_query": "best weighted blanket for anxiety",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Sound Machines for Babies and Adults",
+      "proposed_slug": "best-sound-machines-for-babies-and-adults",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.08,
+      "primary_query": "best sound machines for babies and adults",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Eye Mask for Side Sleepers",
+      "proposed_slug": "best-eye-mask-for-side-sleepers",
+      "page_type": "use_cases",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.08,
+      "primary_query": "best eye mask for side sleepers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Bedside Lamps for Better Sleep",
+      "proposed_slug": "best-bedside-lamps-for-better-sleep",
+      "page_type": "core_roundups",
+      "cluster": "Sleep",
+      "section_slug": "lifestyle",
+      "priority": 4.09,
+      "primary_query": "best bedside lamps for better sleep",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Foam Rollers",
+      "proposed_slug": "best-foam-rollers",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5,
+      "primary_query": "best foam rollers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Massage Guns for Tight Calves and Quads",
+      "proposed_slug": "best-massage-guns-for-tight-calves-and-quads",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5,
+      "primary_query": "best massage guns for tight calves and quads",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Walking Pad vs Treadmill",
+      "proposed_slug": "walking-pad-vs-treadmill",
+      "page_type": "comparisons",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5,
+      "primary_query": "walking pad vs treadmill",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Recovery Tools Are Actually Worth Buying?",
+      "proposed_slug": "what-recovery-tools-are-actually-worth-buying",
+      "page_type": "buyer_help",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5,
+      "primary_query": "what recovery tools are actually worth buying?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Compression Boots",
+      "proposed_slug": "best-compression-boots",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.01,
+      "primary_query": "best compression boots",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Foam Rollers for Runners",
+      "proposed_slug": "best-foam-rollers-for-runners",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.01,
+      "primary_query": "best foam rollers for runners",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Theragun vs Hyperice",
+      "proposed_slug": "theragun-vs-hyperice",
+      "page_type": "comparisons",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.01,
+      "primary_query": "theragun vs hyperice",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a Walking Pad",
+      "proposed_slug": "how-to-choose-a-walking-pad",
+      "page_type": "buyer_help",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.01,
+      "primary_query": "how to choose a walking pad",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Walking Pads",
+      "proposed_slug": "best-walking-pads",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.02,
+      "primary_query": "best walking pads",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Compression Boots for Recovery at Home",
+      "proposed_slug": "best-compression-boots-for-recovery-at-home",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.02,
+      "primary_query": "best compression boots for recovery at home",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Foam Roller vs Massage Gun",
+      "proposed_slug": "foam-roller-vs-massage-gun",
+      "page_type": "comparisons",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.02,
+      "primary_query": "foam roller vs massage gun",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Do Compression Boots Really Help?",
+      "proposed_slug": "do-compression-boots-really-help",
+      "page_type": "buyer_help",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.02,
+      "primary_query": "do compression boots really help?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Treadmills for Apartments",
+      "proposed_slug": "best-treadmills-for-apartments",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.03,
+      "primary_query": "best treadmills for apartments",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Treadmills for Small Apartments",
+      "proposed_slug": "best-treadmills-for-small-apartments",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.03,
+      "primary_query": "best treadmills for small apartments",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Ice Bath vs Compression Boots",
+      "proposed_slug": "ice-bath-vs-compression-boots",
+      "page_type": "comparisons",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.03,
+      "primary_query": "ice bath vs compression boots",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What to Look for in an Apartment Treadmill",
+      "proposed_slug": "what-to-look-for-in-an-apartment-treadmill",
+      "page_type": "buyer_help",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.03,
+      "primary_query": "what to look for in an apartment treadmill",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Recovery Slides",
+      "proposed_slug": "best-recovery-slides",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.04,
+      "primary_query": "best recovery slides",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Walking Pads for Under-Desk Use",
+      "proposed_slug": "best-walking-pads-for-under-desk-use",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.04,
+      "primary_query": "best walking pads for under-desk use",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Adjustable Dumbbells vs Kettlebells",
+      "proposed_slug": "adjustable-dumbbells-vs-kettlebells",
+      "page_type": "comparisons",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.04,
+      "primary_query": "adjustable dumbbells vs kettlebells",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Build a Home Recovery Setup",
+      "proposed_slug": "how-to-build-a-home-recovery-setup",
+      "page_type": "buyer_help",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.04,
+      "primary_query": "how to build a home recovery setup",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Ice Bath Tubs",
+      "proposed_slug": "best-ice-bath-tubs",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.05,
+      "primary_query": "best ice bath tubs",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Ice Bath Tubs for Small Spaces",
+      "proposed_slug": "best-ice-bath-tubs-for-small-spaces",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.05,
+      "primary_query": "best ice bath tubs for small spaces",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Resistance Bands",
+      "proposed_slug": "best-resistance-bands",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.06,
+      "primary_query": "best resistance bands",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Adjustable Dumbbells for Small Spaces",
+      "proposed_slug": "best-adjustable-dumbbells-for-small-spaces",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.06,
+      "primary_query": "best adjustable dumbbells for small spaces",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Adjustable Dumbbells",
+      "proposed_slug": "best-adjustable-dumbbells",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.07,
+      "primary_query": "best adjustable dumbbells",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Yoga Mats for Sweaty Workouts",
+      "proposed_slug": "best-yoga-mats-for-sweaty-workouts",
+      "page_type": "use_cases",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.07,
+      "primary_query": "best yoga mats for sweaty workouts",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Yoga Mats",
+      "proposed_slug": "best-yoga-mats",
+      "page_type": "core_roundups",
+      "cluster": "Home Fitness / Recovery",
+      "section_slug": "lifestyle",
+      "priority": 5.08,
+      "primary_query": "best yoga mats",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Electric Kettles",
+      "proposed_slug": "best-electric-kettles",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6,
+      "primary_query": "best electric kettles",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Air Purifier for Pet Hair",
+      "proposed_slug": "best-air-purifier-for-pet-hair",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6,
+      "primary_query": "best air purifier for pet hair",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Drip Coffee Maker vs Espresso Machine",
+      "proposed_slug": "drip-coffee-maker-vs-espresso-machine",
+      "page_type": "comparisons",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6,
+      "primary_query": "drip coffee maker vs espresso machine",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Size Air Purifier Do You Need?",
+      "proposed_slug": "what-size-air-purifier-do-you-need",
+      "page_type": "buyer_help",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6,
+      "primary_query": "what size air purifier do you need?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Toaster Ovens",
+      "proposed_slug": "best-toaster-ovens",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.01,
+      "primary_query": "best toaster ovens",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Air Purifier for Bedrooms",
+      "proposed_slug": "best-air-purifier-for-bedrooms",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.01,
+      "primary_query": "best air purifier for bedrooms",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Air Purifier vs Humidifier",
+      "proposed_slug": "air-purifier-vs-humidifier",
+      "page_type": "comparisons",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.01,
+      "primary_query": "air purifier vs humidifier",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a Coffee Maker",
+      "proposed_slug": "how-to-choose-a-coffee-maker",
+      "page_type": "buyer_help",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.01,
+      "primary_query": "how to choose a coffee maker",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Rice Cookers",
+      "proposed_slug": "best-rice-cookers",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.02,
+      "primary_query": "best rice cookers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Coffee Maker for Small Kitchens",
+      "proposed_slug": "best-coffee-maker-for-small-kitchens",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.02,
+      "primary_query": "best coffee maker for small kitchens",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Stainless Steel vs Glass Electric Kettle",
+      "proposed_slug": "stainless-steel-vs-glass-electric-kettle",
+      "page_type": "comparisons",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.02,
+      "primary_query": "stainless steel vs glass electric kettle",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Makes an Electric Kettle Worth Buying?",
+      "proposed_slug": "what-makes-an-electric-kettle-worth-buying",
+      "page_type": "buyer_help",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.02,
+      "primary_query": "what makes an electric kettle worth buying?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Water Bottles",
+      "proposed_slug": "best-water-bottles",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.03,
+      "primary_query": "best water bottles",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Espresso Machine for Beginners",
+      "proposed_slug": "best-espresso-machine-for-beginners",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.03,
+      "primary_query": "best espresso machine for beginners",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Toaster Oven vs Air Fryer",
+      "proposed_slug": "toaster-oven-vs-air-fryer",
+      "page_type": "comparisons",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.03,
+      "primary_query": "toaster oven vs air fryer",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Apartment Kitchen Upgrades That Actually Help",
+      "proposed_slug": "apartment-kitchen-upgrades-that-actually-help",
+      "page_type": "buyer_help",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.03,
+      "primary_query": "apartment kitchen upgrades that actually help",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Reusable Coffee Mugs",
+      "proposed_slug": "best-reusable-coffee-mugs",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.04,
+      "primary_query": "best reusable coffee mugs",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Electric Kettle for Pour Over",
+      "proposed_slug": "best-electric-kettle-for-pour-over",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.04,
+      "primary_query": "best electric kettle for pour over",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Owala vs Stanley vs Hydro Flask",
+      "proposed_slug": "owala-vs-stanley-vs-hydro-flask",
+      "page_type": "comparisons",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.04,
+      "primary_query": "owala vs stanley vs hydro flask",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose an Everyday Backpack",
+      "proposed_slug": "how-to-choose-an-everyday-backpack",
+      "page_type": "buyer_help",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.04,
+      "primary_query": "how to choose an everyday backpack",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Everyday Backpacks",
+      "proposed_slug": "best-everyday-backpacks",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.05,
+      "primary_query": "best everyday backpacks",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Toaster Oven for Apartments",
+      "proposed_slug": "best-toaster-oven-for-apartments",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.05,
+      "primary_query": "best toaster oven for apartments",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Lunch Boxes for Adults",
+      "proposed_slug": "best-lunch-boxes-for-adults",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.06,
+      "primary_query": "best lunch boxes for adults",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Rice Cooker for Two People",
+      "proposed_slug": "best-rice-cooker-for-two-people",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.06,
+      "primary_query": "best rice cooker for two people",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Portable Fans",
+      "proposed_slug": "best-portable-fans",
+      "page_type": "core_roundups",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.07,
+      "primary_query": "best portable fans",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Water Bottle for Travel",
+      "proposed_slug": "best-water-bottle-for-travel",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.07,
+      "primary_query": "best water bottle for travel",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Everyday Backpack for Commuting",
+      "proposed_slug": "best-everyday-backpack-for-commuting",
+      "page_type": "use_cases",
+      "cluster": "Lifestyle / Home",
+      "section_slug": "lifestyle",
+      "priority": 6.08,
+      "primary_query": "best everyday backpack for commuting",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Dog Beds",
+      "proposed_slug": "best-dog-beds",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7,
+      "primary_query": "best dog beds",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Dog Beds for Heavy Chewers",
+      "proposed_slug": "best-dog-beds-for-heavy-chewers",
+      "page_type": "use_cases",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7,
+      "primary_query": "best dog beds for heavy chewers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Robot Vacuum vs Stick Vacuum for Pet Hair",
+      "proposed_slug": "robot-vacuum-vs-stick-vacuum-for-pet-hair",
+      "page_type": "comparisons",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7,
+      "primary_query": "robot vacuum vs stick vacuum for pet hair",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose a Dog Bed",
+      "proposed_slug": "how-to-choose-a-dog-bed",
+      "page_type": "buyer_help",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7,
+      "primary_query": "how to choose a dog bed",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Pet Hair Vacuums",
+      "proposed_slug": "best-pet-hair-vacuums",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.01,
+      "primary_query": "best pet hair vacuums",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Pet Hair Vacuums for Apartments",
+      "proposed_slug": "best-pet-hair-vacuums-for-apartments",
+      "page_type": "use_cases",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.01,
+      "primary_query": "best pet hair vacuums for apartments",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Soft-Sided vs Hard-Sided Pet Carrier",
+      "proposed_slug": "soft-sided-vs-hard-sided-pet-carrier",
+      "page_type": "comparisons",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.01,
+      "primary_query": "soft-sided vs hard-sided pet carrier",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Actually Helps with Pet Hair at Home?",
+      "proposed_slug": "what-actually-helps-with-pet-hair-at-home",
+      "page_type": "buyer_help",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.01,
+      "primary_query": "what actually helps with pet hair at home?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Automatic Feeders",
+      "proposed_slug": "best-automatic-feeders",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.02,
+      "primary_query": "best automatic feeders",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Automatic Feeders for Multi-Cat Homes",
+      "proposed_slug": "best-automatic-feeders-for-multi-cat-homes",
+      "page_type": "use_cases",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.02,
+      "primary_query": "best automatic feeders for multi-cat homes",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Raised Dog Bed vs Plush Dog Bed",
+      "proposed_slug": "raised-dog-bed-vs-plush-dog-bed",
+      "page_type": "comparisons",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.02,
+      "primary_query": "raised dog bed vs plush dog bed",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Pick a Pet Carrier for Flying",
+      "proposed_slug": "how-to-pick-a-pet-carrier-for-flying",
+      "page_type": "buyer_help",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.02,
+      "primary_query": "how to pick a pet carrier for flying",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Water Fountains for Cats",
+      "proposed_slug": "best-water-fountains-for-cats",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.03,
+      "primary_query": "best water fountains for cats",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Airline-Approved Pet Carriers for Small Dogs",
+      "proposed_slug": "best-airline-approved-pet-carriers-for-small-dogs",
+      "page_type": "use_cases",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.03,
+      "primary_query": "best airline-approved pet carriers for small dogs",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Stainless Steel vs Plastic Cat Fountain",
+      "proposed_slug": "stainless-steel-vs-plastic-cat-fountain",
+      "page_type": "comparisons",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.03,
+      "primary_query": "stainless steel vs plastic cat fountain",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Makes an Automatic Feeder Worth It?",
+      "proposed_slug": "what-makes-an-automatic-feeder-worth-it",
+      "page_type": "buyer_help",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.03,
+      "primary_query": "what makes an automatic feeder worth it?",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Airline-Approved Pet Carriers",
+      "proposed_slug": "best-airline-approved-pet-carriers",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.04,
+      "primary_query": "best airline-approved pet carriers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Dog Car Seat Covers for SUVs",
+      "proposed_slug": "best-dog-car-seat-covers-for-suvs",
+      "page_type": "use_cases",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.04,
+      "primary_query": "best dog car seat covers for suvs",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Dog Car Seat Covers",
+      "proposed_slug": "best-dog-car-seat-covers",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.05,
+      "primary_query": "best dog car seat covers",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Water Fountain for Cats That Hate Bowls",
+      "proposed_slug": "best-water-fountain-for-cats-that-hate-bowls",
+      "page_type": "use_cases",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.05,
+      "primary_query": "best water fountain for cats that hate bowls",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Cat Litter Mats",
+      "proposed_slug": "best-cat-litter-mats",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.06,
+      "primary_query": "best cat litter mats",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Dog Crates for Apartments",
+      "proposed_slug": "best-dog-crates-for-apartments",
+      "page_type": "core_roundups",
+      "cluster": "Pet Gear",
+      "section_slug": "lifestyle",
+      "priority": 7.07,
+      "primary_query": "best dog crates for apartments",
+      "internal_link_targets": [
+        "/lifestyle.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Noise-Canceling Headphones",
+      "proposed_slug": "best-noise-canceling-headphones",
+      "page_type": "core_roundups",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8,
+      "primary_query": "best noise-canceling headphones",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Portable Charger for Travel",
+      "proposed_slug": "best-portable-charger-for-travel",
+      "page_type": "use_cases",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8,
+      "primary_query": "best portable charger for travel",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "AirPods Pro vs Sony WF-1000XM5",
+      "proposed_slug": "airpods-pro-vs-sony-wf-1000xm5",
+      "page_type": "comparisons",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8,
+      "primary_query": "airpods pro vs sony wf-1000xm5",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How Much Portable Charger Capacity Do You Need?",
+      "proposed_slug": "how-much-portable-charger-capacity-do-you-need",
+      "page_type": "buyer_help",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8,
+      "primary_query": "how much portable charger capacity do you need?",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Wireless Earbuds for Calls",
+      "proposed_slug": "best-wireless-earbuds-for-calls",
+      "page_type": "core_roundups",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.01,
+      "primary_query": "best wireless earbuds for calls",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Earbuds for Zoom Calls",
+      "proposed_slug": "best-earbuds-for-zoom-calls",
+      "page_type": "use_cases",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.01,
+      "primary_query": "best earbuds for zoom calls",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Portable Charger 10,000mAh vs 20,000mAh",
+      "proposed_slug": "portable-charger-10-000mah-vs-20-000mah",
+      "page_type": "comparisons",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.01,
+      "primary_query": "portable charger 10,000mah vs 20,000mah",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "What Actually Matters in Noise-Canceling Headphones?",
+      "proposed_slug": "what-actually-matters-in-noise-canceling-headphones",
+      "page_type": "buyer_help",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.01,
+      "primary_query": "what actually matters in noise-canceling headphones?",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Portable Chargers",
+      "proposed_slug": "best-portable-chargers",
+      "page_type": "core_roundups",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.02,
+      "primary_query": "best portable chargers",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Noise-Canceling Headphones for Open Offices",
+      "proposed_slug": "best-noise-canceling-headphones-for-open-offices",
+      "page_type": "use_cases",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.02,
+      "primary_query": "best noise-canceling headphones for open offices",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Smart Plug vs Smart Power Strip",
+      "proposed_slug": "smart-plug-vs-smart-power-strip",
+      "page_type": "comparisons",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.02,
+      "primary_query": "smart plug vs smart power strip",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "How to Choose Earbuds for Calls",
+      "proposed_slug": "how-to-choose-earbuds-for-calls",
+      "page_type": "buyer_help",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.02,
+      "primary_query": "how to choose earbuds for calls",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Bluetooth Speakers",
+      "proposed_slug": "best-bluetooth-speakers",
+      "page_type": "core_roundups",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.03,
+      "primary_query": "best bluetooth speakers",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Bluetooth Speaker for Small Rooms",
+      "proposed_slug": "best-bluetooth-speaker-for-small-rooms",
+      "page_type": "use_cases",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.03,
+      "primary_query": "best bluetooth speaker for small rooms",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Speaker vs Soundbar for Small Apartments",
+      "proposed_slug": "speaker-vs-soundbar-for-small-apartments",
+      "page_type": "comparisons",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.03,
+      "primary_query": "speaker vs soundbar for small apartments",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Home Tech Upgrades Worth Buying",
+      "proposed_slug": "home-tech-upgrades-worth-buying",
+      "page_type": "buyer_help",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.03,
+      "primary_query": "home tech upgrades worth buying",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Smart Plugs",
+      "proposed_slug": "best-smart-plugs",
+      "page_type": "core_roundups",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.04,
+      "primary_query": "best smart plugs",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Smart Plug for Home Office Setup",
+      "proposed_slug": "best-smart-plug-for-home-office-setup",
+      "page_type": "use_cases",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.04,
+      "primary_query": "best smart plug for home office setup",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    },
+    {
+      "status": "planned",
+      "title": "Best Streaming Devices",
+      "proposed_slug": "best-streaming-devices",
+      "page_type": "core_roundups",
+      "cluster": "Everyday Tech",
+      "section_slug": "remote-work",
+      "priority": 8.05,
+      "primary_query": "best streaming devices",
+      "internal_link_targets": [
+        "/remote-work.html"
+      ],
+      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
+    }
+  ]
+}
