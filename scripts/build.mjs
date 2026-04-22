@@ -9,11 +9,16 @@ const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
 
+const DEFAULT_MEASUREMENT_CONFIG = {
+  ga4MeasurementId: "G-YD9YDB3YGT",
+  bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
+};
+
 const analyticsConfig = {
-  ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID"),
+  ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
   clarityProjectId: firstEnv("PHAVAI_CLARITY_PROJECT_ID", "CLARITY_PROJECT_ID", "MICROSOFT_CLARITY_PROJECT_ID"),
   googleSiteVerification: firstEnv("PHAVAI_GOOGLE_SITE_VERIFICATION", "GOOGLE_SITE_VERIFICATION"),
-  bingSiteVerification: firstEnv("PHAVAI_BING_SITE_VERIFICATION", "BING_SITE_VERIFICATION")
+  bingSiteVerification: firstEnv("PHAVAI_BING_SITE_VERIFICATION", "BING_SITE_VERIFICATION") || DEFAULT_MEASUREMENT_CONFIG.bingSiteVerification
 };
 
 const DEFAULT_SOURCE_WEIGHTS = {
@@ -84,7 +89,7 @@ function renderMeasurementTags() {
   </script>`);
   }
 
-  return tags.length ? `\n  <!-- Phavai measurement and webmaster tags: generated at build time from environment variables. -->\n  ${tags.join("\n  ")}\n` : "";
+  return tags.length ? `\n  <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->\n  ${tags.join("\n  ")}\n` : "";
 }
 
 function injectMeasurementTags() {
