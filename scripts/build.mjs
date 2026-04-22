@@ -52,6 +52,21 @@ const SOURCE_LABELS = {
   retailer: "Retailer page"
 };
 
+const SOURCE_TIER_DISPLAY = {
+  expert: {
+    label: "Expert",
+    description: "Hands-on reviews and category testing."
+  },
+  youtube: {
+    label: "YouTube",
+    description: "Video reviews that show fit, setup, and real-world use."
+  },
+  reddit: {
+    label: "Reddit",
+    description: "Owner discussion that surfaces repeated praise and complaints."
+  }
+};
+
 const CORE_ROUNDUP_SLUGS = new Set([
   "best-mens-trail-running-shoes",
   "best-womens-trail-running-shoes",
@@ -375,6 +390,45 @@ function buildEvidenceGroups(evidence, bucket) {
   ].filter((group) => group.sources.length);
 }
 
+function interpretationForTier(product, sourceType, bucket) {
+  const summary = bucket === "like" ? summarizeLikes(product) : summarizeCautions(product);
+  if (sourceType === "expert") {
+    return bucket === "like"
+      ? `Expert reviews support the upside: ${summary}`
+      : `Expert reviews make the tradeoff clear: ${summary}`;
+  }
+
+  if (sourceType === "youtube") {
+    return bucket === "like"
+      ? `Video reviews help confirm how it performs in use: ${summary}`
+      : `Video reviews are useful for spotting this before checkout: ${summary}`;
+  }
+
+  return bucket === "like"
+    ? `Owner discussion reinforces the main appeal: ${summary}`
+    : `Owner discussion helps show whether this downside will matter to you: ${summary}`;
+}
+
+function buildEvidenceTiers(product, evidence) {
+  return ["expert", "youtube", "reddit"].map((sourceType) => {
+    const likes = selectSourcesByType(evidence, sourceType, "like", sourceType === "expert" ? 3 : 3);
+    const cautions = selectSourcesByType(evidence, sourceType, "caution", sourceType === "expert" ? 2 : 3);
+
+    return {
+      key: sourceType,
+      ...SOURCE_TIER_DISPLAY[sourceType],
+      likes: {
+        interpretation: interpretationForTier(product, sourceType, "like"),
+        sources: likes
+      },
+      cautions: {
+        interpretation: interpretationForTier(product, sourceType, "caution"),
+        sources: cautions
+      }
+    };
+  }).filter((tier) => tier.likes.sources.length || tier.cautions.sources.length);
+}
+
 function buildEvidenceSummary(product, channelScores) {
   const evidence = channelScores.flatMap((row) => row.evidence);
 
@@ -386,7 +440,54 @@ function buildEvidenceSummary(product, channelScores) {
     cautions: {
       interpretation: summarizeCautions(product),
       groups: buildEvidenceGroups(evidence, "caution")
-    }
+    },
+    tiers: buildEvidenceTiers(product, evidence)
+  };
+}
+
+function parsePriceBand(price = "") {
+  const values = Array.from(String(price).matchAll(/\$([0-9,]+)(?:\s*-\s*\$?([0-9,]+))?/g))
+    .flatMap((match) => [match[1], match[2]].filter(Boolean))
+    .map((value) => Number(value.replace(/,/g, "")))
+    .filter((value) => Number.isFinite(value));
+
+  if (!values.length) return null;
+  return {
+    low: Math.min(...values),
+    high: Math.max(...values)
+  };
+}
+
+function formatDollars(value) {
+  return `$${Math.round(value).toLocaleString("en-US")}`;
+}
+
+function buildPriceInsight(product) {
+  const band = parsePriceBand(product.price);
+  if (!band) {
+    return {
+      typical: product.price,
+      fair: product.price,
+      goodDeal: "Check multiple sellers",
+      waitFor: "Watch size and color pricing",
+      high: "Avoid inflated marketplace listings",
+      note: "Price varies by retailer, color, and size. Use the current price against the typical retail note before buying."
+    };
+  }
+
+  const fairLow = band.low;
+  const fairHigh = Math.max(band.high, band.low);
+  const goodDeal = fairLow * 0.85;
+  const waitFor = fairLow * 0.75;
+  const high = fairHigh * 1.1;
+
+  return {
+    typical: product.price,
+    fair: fairLow === fairHigh ? `Around ${formatDollars(fairLow)}` : `${formatDollars(fairLow)}-${formatDollars(fairHigh)}`,
+    goodDeal: `Under ${formatDollars(goodDeal)}`,
+    waitFor: `Under ${formatDollars(waitFor)}`,
+    high: `Above ${formatDollars(high)}`,
+    note: "These checkpoints are based on the stored typical retail band, not a live price-history tracker. Sizes and colors can swing a lot, so compare the current price before you click through."
   };
 }
 
@@ -584,6 +685,7 @@ function computeProductScores(product, category) {
   return {
     ...normalizedProduct,
     imageInfo,
+    priceInsight: buildPriceInsight(normalizedProduct),
     sourceScores: channelScores,
     evidenceSummary: buildEvidenceSummary(normalizedProduct, channelScores),
     publicEvidence: selectPublicEvidence(channelScores.flatMap((row) => row.evidence)),
@@ -605,10 +707,14 @@ const supportBySection = new Map(
 );
 const builtCategories = categories.map((category) => {
   const sourceWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
+  const expertScoreFor = (product) => product.sourceScores.find((row) => row.source === "Expert")?.score ?? 0;
   const products = category.products
     .map((product) => computeProductScores(product, { ...category, sourceWeights }))
     .sort((a, b) => {
       if (b.bestPickScore !== a.bestPickScore) return b.bestPickScore - a.bestPickScore;
+      const expertDelta = expertScoreFor(b) - expertScoreFor(a);
+      if (Math.abs(expertDelta) >= 0.1) return expertDelta;
+      if (b.rawBestPickScore !== a.rawBestPickScore) return b.rawBestPickScore - a.rawBestPickScore;
       if (b.consensus !== a.consensus) return b.consensus - a.consensus;
       return b.signal - a.signal;
     })

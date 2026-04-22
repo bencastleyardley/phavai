@@ -24,11 +24,11 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   const defaultTop = await page.locator(".product").first().getAttribute("data-product-name");
   const defaultScore = await page.locator("[data-bestpick]").first().innerText();
 
-  await setSlider(page, "Expert", 100);
+  await setSlider(page, "Expert", 0);
   await setSlider(page, "YouTube", 0);
-  await setSlider(page, "Reddit", 0);
+  await setSlider(page, "Reddit", 100);
 
-  await expect(page.locator('[data-weight-label="Expert"]')).toHaveText("100%");
+  await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("100%");
   await expect(page.locator("[data-ranking-note]")).toContainText("Ranking changed");
   await expect(page.locator(".product").first()).not.toHaveAttribute("data-product-name", defaultTop ?? "");
   await expect(page.locator("[data-bestpick]").first()).not.toHaveText(defaultScore);
@@ -36,7 +36,7 @@ test("score controls recalculate, explain rank changes, and persist weights", as
   await expect(page.locator("[data-save-note]")).toContainText("Preference saved");
 
   await page.reload();
-  await expect(page.locator('[data-weight-label="Expert"]')).toHaveText("100%");
+  await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("100%");
 
   await page.locator("[data-reset-weights]").click();
   await expect(page.locator('[data-weight-label="Expert"]')).toHaveText("40%");
@@ -75,8 +75,13 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
     await expect(page.locator(".source-accordion").first()).toContainText("View sources");
+    await expect(page.locator(".source-accordion").first()).toContainText("Expert");
+    await expect(page.locator(".source-accordion").first()).toContainText("YouTube");
+    await expect(page.locator(".source-accordion").first()).toContainText("Reddit");
     await expect(page.locator(".source-accordion").first()).toContainText("What people like");
     await expect(page.locator(".source-accordion").first()).toContainText("What people caution");
+    await expect(page.locator(".buy-check").first()).toContainText("Before you buy");
+    await expect(page.locator(".buy-check").first()).toContainText("Good sale");
     await expect(page.locator('a[href*="youtube.com/results"], a[href*="reddit.com/search"]')).toHaveCount(0);
     await expect(page.locator("body")).toContainText("Related");
     await expect(page.locator(".product .button").first()).toContainText("View current price");

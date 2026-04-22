@@ -224,52 +224,48 @@
                 <details class="source-accordion">
                   <summary>
                     <span>View sources</span>
-                    <small>Upside, cautions, and proof</small>
+                    <small>Expert, YouTube, and Reddit proof</small>
                   </summary>
-                  <div class="source-synthesis">
-                    <section class="source-synthesis-panel like-panel">
-                      <div>
-                        <span class="source-section-label">What people like</span>
-                        <p><%= product.evidenceSummary.likes.interpretation %></p>
-                      </div>
-                      <% product.evidenceSummary.likes.groups.forEach((group) => { %>
-                        <div class="source-group">
-                          <h3><%= group.label %></h3>
-                          <div class="source-link-list">
-                            <% group.sources.forEach((item, sourceIndex) => { %>
-                              <a class="source-link <%= sourceIndex === 0 && item.is_primary_source ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                <span><%= item.sourceLabel %><% if (sourceIndex === 0 && item.is_primary_source) { %> / Best evidence<% } %></span>
-                                <b><%= item.title || item.sourceName %></b>
-                                <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
-                                <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
-                              </a>
-                            <% }) %>
-                          </div>
-                        </div>
-                      <% }) %>
-                    </section>
+                  <div class="source-tier-list">
+                    <% product.evidenceSummary.tiers.forEach((tier, tierIndex) => { %>
+                      <details class="source-tier" <%= tierIndex === 0 ? 'open' : '' %>>
+                        <summary>
+                          <span><%= tier.label %></span>
+                          <small><%= tier.description %></small>
+                        </summary>
+                        <div class="source-tier-body">
+                          <section class="source-synthesis-panel like-panel">
+                            <span class="source-section-label">What people like</span>
+                            <p><%= tier.likes.interpretation %></p>
+                            <div class="source-link-list">
+                              <% tier.likes.sources.forEach((item, sourceIndex) => { %>
+                                <a class="source-link <%= sourceIndex === 0 && item.is_primary_source ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                  <span><%= item.sourceLabel %><% if (sourceIndex === 0 && item.is_primary_source) { %> / Best evidence<% } %></span>
+                                  <b><%= item.title || item.sourceName %></b>
+                                  <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                                  <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
+                                </a>
+                              <% }) %>
+                            </div>
+                          </section>
 
-                    <section class="source-synthesis-panel caution-panel">
-                      <div>
-                        <span class="source-section-label">What people caution</span>
-                        <p><%= product.evidenceSummary.cautions.interpretation %></p>
-                      </div>
-                      <% product.evidenceSummary.cautions.groups.forEach((group) => { %>
-                        <div class="source-group">
-                          <h3><%= group.label %></h3>
-                          <div class="source-link-list">
-                            <% group.sources.forEach((item) => { %>
-                              <a class="source-link" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                                <span><%= item.sourceLabel %></span>
-                                <b><%= item.title || item.sourceName %></b>
-                                <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
-                                <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
-                              </a>
-                            <% }) %>
-                          </div>
+                          <section class="source-synthesis-panel caution-panel">
+                            <span class="source-section-label">What people caution</span>
+                            <p><%= tier.cautions.interpretation %></p>
+                            <div class="source-link-list">
+                              <% tier.cautions.sources.forEach((item) => { %>
+                                <a class="source-link" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                                  <span><%= item.sourceLabel %></span>
+                                  <b><%= item.title || item.sourceName %></b>
+                                  <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                                  <% if (item.evidence_note || item.summary) { %><em><%= item.evidence_note || item.summary %></em><% } %>
+                                </a>
+                              <% }) %>
+                            </div>
+                          </section>
                         </div>
-                      <% }) %>
-                    </section>
+                      </details>
+                    <% }) %>
                   </div>
                   <% if (product.internalEvidenceCount > 0) { %>
                     <p class="source-governance-note"><%= product.internalEvidenceCount %> internal research notes stay out of the public drawer until they have exact, buyer-helpful URLs.</p>
@@ -300,7 +296,19 @@
                   </div>
                 </div>
 
-                <p class="disclosure"><strong>Before you buy:</strong> <%= product.price %>. Retail links are here to make the next step easier; they do not change the order of this guide.</p>
+                <div class="buy-check">
+                  <div>
+                    <strong>Before you buy</strong>
+                    <p>Typical retail: <%= product.priceInsight.typical %>. Use this as a price-confidence checkpoint before opening the retailer page.</p>
+                  </div>
+                  <div class="price-grid" aria-label="Price checkpoints for <%= product.name %>">
+                    <span><b><%= product.priceInsight.fair %></b><small>Fair price</small></span>
+                    <span><b><%= product.priceInsight.goodDeal %></b><small>Good sale</small></span>
+                    <span><b><%= product.priceInsight.waitFor %></b><small>Strong sale</small></span>
+                    <span><b><%= product.priceInsight.high %></b><small>Be careful above</small></span>
+                  </div>
+                  <p class="price-note"><%= product.priceInsight.note %></p>
+                </div>
                 <a class="button" href="<%= product.affiliateUrl %>" target="_blank" rel="nofollow noopener sponsored">View current price</a>
               </div>
             </article>

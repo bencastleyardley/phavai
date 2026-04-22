@@ -154,6 +154,9 @@
       })
       .sort((a, b) => {
         if (Math.round(b.score) !== Math.round(a.score)) return b.score - a.score;
+        const expertDelta = (b.scores.Expert || 0) - (a.scores.Expert || 0);
+        if (Math.abs(expertDelta) >= 0.1) return expertDelta;
+        if (b.score !== a.score) return b.score - a.score;
         return b.consensus - a.consensus;
       });
 
