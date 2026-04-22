@@ -8,6 +8,7 @@
     "images": "node scripts/generate-safe-images.mjs",
     "copy:polish": "node scripts/polish-brand-copy.mjs",
     "sources:upgrade": "node scripts/upgrade-source-schema.mjs",
+    "sources:reddit": "node scripts/curate-reddit-sources.mjs",
     "seo:map": "node scripts/generate-search-console-map.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "build": "node scripts/build.mjs",

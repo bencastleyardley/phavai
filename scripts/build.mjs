@@ -366,7 +366,7 @@ function sourceBucketSort(bucket) {
 }
 
 function sourceUrlKey(item) {
-  return String(item.url ?? "").split("#")[0].split("?si=")[0].trim().toLowerCase();
+  return String(item.url ?? "").split("#")[0].split("?si=")[0].trim().toLowerCase().replace(/\/$/, "");
 }
 
 function inferEvidencePolarity(item) {
