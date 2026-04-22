@@ -1,0 +1,1807 @@
+{
+  "generated_at": "2026-04-22T03:35:04.873Z",
+  "purpose": "Tracks source records that are used internally but should not be shown publicly until they have exact, buyer-helpful URLs.",
+  "count": 180,
+  "items": [
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Shokz OpenRun Pro 2",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Shokz%20OpenRun%20Pro%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Beats Powerbeats Pro 2",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Beats%20Powerbeats%20Pro%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Beats Powerbeats Pro 2",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Beats%20Powerbeats%20Pro%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Shokz OpenFit 2",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Shokz%20OpenFit%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Shokz OpenFit 2",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Shokz%20OpenFit%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Jabra Elite 8 Active Gen 2",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Jabra%20Elite%208%20Active%20Gen%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-headphones",
+      "section_slug": "outdoor",
+      "product_name": "Jabra Elite 8 Active Gen 2",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Jabra%20Elite%208%20Active%20Gen%202%20Best%20Running%20Headphones%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 265",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Garmin%20Forerunner%20265%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 965",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Garmin%20Forerunner%20965%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 965",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Garmin%20Forerunner%20965%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "COROS Pace 3",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=COROS%20Pace%203%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "COROS Pace 3",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=COROS%20Pace%203%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "Polar Vantage V3",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Polar%20Vantage%20V3%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-running-watches",
+      "section_slug": "outdoor",
+      "product_name": "Polar Vantage V3",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Polar%20Vantage%20V3%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "Uplift V2 Standing Desk",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Uplift%20V2%20Standing%20Desk%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "FlexiSpot E7 Pro",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=FlexiSpot%20E7%20Pro%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "FlexiSpot E7 Pro",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=FlexiSpot%20E7%20Pro%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "Vari Electric Standing Desk",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Vari%20Electric%20Standing%20Desk%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "Vari Electric Standing Desk",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Vari%20Electric%20Standing%20Desk%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "Branch Duo Standing Desk",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Branch%20Duo%20Standing%20Desk%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-standing-desks",
+      "section_slug": "remote-work",
+      "product_name": "Branch Duo Standing Desk",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Branch%20Duo%20Standing%20Desk%20Best%20Standing%20Desks%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Steelcase Gesture",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Steelcase%20Gesture%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Herman Miller Aeron",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Herman%20Miller%20Aeron%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Herman Miller Aeron",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Herman%20Miller%20Aeron%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Branch Ergonomic Chair Pro",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Branch%20Ergonomic%20Chair%20Pro%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Branch Ergonomic Chair Pro",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Branch%20Ergonomic%20Chair%20Pro%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Haworth Fern",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Haworth%20Fern%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-office-chairs",
+      "section_slug": "remote-work",
+      "product_name": "Haworth Fern",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Haworth%20Fern%20Best%20Office%20Chairs%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "Salomon ADV Skin 12",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Salomon%20ADV%20Skin%2012%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "Salomon ADV Skin 12",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Salomon%20ADV%20Skin%2012%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "Nathan Pinnacle 12L",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Nathan%20Pinnacle%2012L%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "Nathan Pinnacle 12L",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Nathan%20Pinnacle%2012L%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "Osprey Duro/Dyna 15",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Osprey%20Duro%2FDyna%2015%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "Osprey Duro/Dyna 15",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Osprey%20Duro%2FDyna%2015%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "CamelBak Zephyr Pro",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=CamelBak%20Zephyr%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-packs",
+      "section_slug": "outdoor",
+      "product_name": "CamelBak Zephyr Pro",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=CamelBak%20Zephyr%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Black Diamond Distance Carbon Z",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Black%20Diamond%20Distance%20Carbon%20Z%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Black Diamond Distance Carbon Z",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Black%20Diamond%20Distance%20Carbon%20Z%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Leki Ultratrail FX.One Superlite",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Leki%20Ultratrail%20FX.One%20Superlite%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Leki Ultratrail FX.One Superlite",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Leki%20Ultratrail%20FX.One%20Superlite%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Black Diamond Distance Z",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Black%20Diamond%20Distance%20Z%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Black Diamond Distance Z",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Black%20Diamond%20Distance%20Z%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Gossamer Gear LT5",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Gossamer%20Gear%20LT5%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-running-poles",
+      "section_slug": "outdoor",
+      "product_name": "Gossamer Gear LT5",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Gossamer%20Gear%20LT5%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Salomon ADV Skin 5",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Salomon%20ADV%20Skin%205%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Salomon ADV Skin 5",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Salomon%20ADV%20Skin%205%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Nathan Pinnacle 4L",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Nathan%20Pinnacle%204L%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Nathan Pinnacle 4L",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Nathan%20Pinnacle%204L%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Ultimate Direction Race Vest 6.0",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Ultimate%20Direction%20Race%20Vest%206.0%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Ultimate Direction Race Vest 6.0",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Ultimate%20Direction%20Race%20Vest%206.0%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Patagonia Slope Runner Vest",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Patagonia%20Slope%20Runner%20Vest%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-running-vests",
+      "section_slug": "outdoor",
+      "product_name": "Patagonia Slope Runner Vest",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Patagonia%20Slope%20Runner%20Vest%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "OOFOS OOahh Slide",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=OOFOS%20OOahh%20Slide%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "OOFOS OOahh Slide",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=OOFOS%20OOahh%20Slide%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "HOKA Ora Recovery Slide 3",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=HOKA%20Ora%20Recovery%20Slide%203%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "HOKA Ora Recovery Slide 3",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=HOKA%20Ora%20Recovery%20Slide%203%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "Kane Revive",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Kane%20Revive%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "Kane Revive",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Kane%20Revive%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "Birkenstock Arizona EVA",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Birkenstock%20Arizona%20EVA%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-recovery-sandals",
+      "section_slug": "outdoor",
+      "product_name": "Birkenstock Arizona EVA",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Birkenstock%20Arizona%20EVA%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Logitech MX Brio",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Logitech%20MX%20Brio%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Logitech MX Brio",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Logitech%20MX%20Brio%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Obsbot Tiny 3",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Obsbot%20Tiny%203%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Obsbot Tiny 3",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Obsbot%20Tiny%203%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Razer Kiyo Pro Ultra",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Razer%20Kiyo%20Pro%20Ultra%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Razer Kiyo Pro Ultra",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Razer%20Kiyo%20Pro%20Ultra%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Anker PowerConf C200",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Anker%20PowerConf%20C200%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-webcams-for-remote-work",
+      "section_slug": "remote-work",
+      "product_name": "Anker PowerConf C200",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Anker%20PowerConf%20C200%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Orbitkey Desk Mat",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Orbitkey%20Desk%20Mat%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Orbitkey Desk Mat",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Orbitkey%20Desk%20Mat%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Grovemade Wool Felt Desk Pad",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Grovemade%20Wool%20Felt%20Desk%20Pad%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Grovemade Wool Felt Desk Pad",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Grovemade%20Wool%20Felt%20Desk%20Pad%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Logitech Studio Series Desk Mat",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Logitech%20Studio%20Series%20Desk%20Mat%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Logitech Studio Series Desk Mat",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Logitech%20Studio%20Series%20Desk%20Mat%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Knodel Large Desk Mat",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Knodel%20Large%20Desk%20Mat%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-desk-mats",
+      "section_slug": "remote-work",
+      "product_name": "Knodel Large Desk Mat",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Knodel%20Large%20Desk%20Mat%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Ergotron LX",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Ergotron%20LX%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Ergotron LX",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Ergotron%20LX%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Amazon Basics Premium Monitor Stand",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Amazon%20Basics%20Premium%20Monitor%20Stand%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Amazon Basics Premium Monitor Stand",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Amazon%20Basics%20Premium%20Monitor%20Stand%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Herman Miller Flo Monitor Arm",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Herman%20Miller%20Flo%20Monitor%20Arm%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Herman Miller Flo Monitor Arm",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Herman%20Miller%20Flo%20Monitor%20Arm%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Fully Jarvis Monitor Arm",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Fully%20Jarvis%20Monitor%20Arm%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-monitor-arms",
+      "section_slug": "remote-work",
+      "product_name": "Fully Jarvis Monitor Arm",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Fully%20Jarvis%20Monitor%20Arm%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "Logitech Ergo K860",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Logitech%20Ergo%20K860%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "Logitech Ergo K860",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Logitech%20Ergo%20K860%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "Kinesis Freestyle2",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Kinesis%20Freestyle2%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "Kinesis Freestyle2",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Kinesis%20Freestyle2%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "Keychron Q11",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Keychron%20Q11%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "Keychron Q11",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Keychron%20Q11%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "ZSA Voyager",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=ZSA%20Voyager%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-ergonomic-keyboards",
+      "section_slug": "remote-work",
+      "product_name": "ZSA Voyager",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=ZSA%20Voyager%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Travelpro Platinum Elite 21-inch",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Travelpro%20Platinum%20Elite%2021-inch%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Travelpro Platinum Elite 21-inch",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Travelpro%20Platinum%20Elite%2021-inch%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Briggs & Riley Baseline Essential",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Briggs%20%26%20Riley%20Baseline%20Essential%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Briggs & Riley Baseline Essential",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Briggs%20%26%20Riley%20Baseline%20Essential%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Away Bigger Carry-On",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Away%20Bigger%20Carry-On%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Away Bigger Carry-On",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Away%20Bigger%20Carry-On%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Monos Carry-On Pro",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Monos%20Carry-On%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-carry-on-luggage",
+      "section_slug": "lifestyle",
+      "product_name": "Monos Carry-On Pro",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Monos%20Carry-On%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "Technivorm Moccamaster KBGV Select",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Technivorm%20Moccamaster%20KBGV%20Select%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "Technivorm Moccamaster KBGV Select",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Technivorm%20Moccamaster%20KBGV%20Select%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "Breville Precision Brewer",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Breville%20Precision%20Brewer%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "Breville Precision Brewer",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Breville%20Precision%20Brewer%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "OXO Brew 9-Cup",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=OXO%20Brew%209-Cup%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "OXO Brew 9-Cup",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=OXO%20Brew%209-Cup%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "Ninja 12-Cup Programmable Brewer",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Ninja%2012-Cup%20Programmable%20Brewer%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-coffee-makers",
+      "section_slug": "lifestyle",
+      "product_name": "Ninja 12-Cup Programmable Brewer",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Ninja%2012-Cup%20Programmable%20Brewer%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Therabody Theragun Prime Plus",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Therabody%20Theragun%20Prime%20Plus%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Therabody Theragun Prime Plus",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Therabody%20Theragun%20Prime%20Plus%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Hyperice Hypervolt 2 Pro",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Hyperice%20Hypervolt%202%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Hyperice Hypervolt 2 Pro",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Hyperice%20Hypervolt%202%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Ekrin B37",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Ekrin%20B37%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Ekrin B37",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Ekrin%20B37%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Theragun Mini",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Theragun%20Mini%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-massage-guns",
+      "section_slug": "lifestyle",
+      "product_name": "Theragun Mini",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Theragun%20Mini%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Coway Airmega AP-1512HH Mighty",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Coway%20Airmega%20AP-1512HH%20Mighty%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Coway Airmega AP-1512HH Mighty",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Coway%20Airmega%20AP-1512HH%20Mighty%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Levoit Vital 200S",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Levoit%20Vital%20200S%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Levoit Vital 200S",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Levoit%20Vital%20200S%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Blueair Blue Pure 211i Max",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Blueair%20Blue%20Pure%20211i%20Max%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Blueair Blue Pure 211i Max",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Blueair%20Blue%20Pure%20211i%20Max%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Winix 5500-2",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Winix%205500-2%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-air-purifiers",
+      "section_slug": "lifestyle",
+      "product_name": "Winix 5500-2",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Winix%205500-2%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-100-miles",
+      "section_slug": "outdoor",
+      "product_name": "Topo Athletic Ultraventure 4",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-100-miles",
+      "section_slug": "outdoor",
+      "product_name": "Topo Athletic Ultraventure 4",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-100-miles",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Cascadia 19",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-100-miles",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Cascadia 19",
+      "source_type": "reddit",
+      "publisher": "r/trailrunning owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-wide-feet",
+      "section_slug": "outdoor",
+      "product_name": "Topo Athletic Ultraventure 4",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-wide-feet",
+      "section_slug": "outdoor",
+      "product_name": "Topo Athletic Ultraventure 4",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-wide-feet",
+      "section_slug": "outdoor",
+      "product_name": "Altra Lone Peak 9",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-wide-feet",
+      "section_slug": "outdoor",
+      "product_name": "Altra Lone Peak 9",
+      "source_type": "reddit",
+      "publisher": "r/Ultralight and r/trailrunning owner threads",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-wide-feet",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Cascadia 19",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-wide-feet",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Cascadia 19",
+      "source_type": "reddit",
+      "publisher": "r/trailrunning owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-muddy-conditions",
+      "section_slug": "outdoor",
+      "product_name": "Salomon Speedcross 6",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-muddy-conditions",
+      "section_slug": "outdoor",
+      "product_name": "Salomon Speedcross 6",
+      "source_type": "reddit",
+      "publisher": "r/trailrunning owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-muddy-conditions",
+      "section_slug": "outdoor",
+      "product_name": "Inov-8 X-Talon Ultra 260 V2",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-muddy-conditions",
+      "section_slug": "outdoor",
+      "product_name": "Inov-8 X-Talon Ultra 260 V2",
+      "source_type": "reddit",
+      "publisher": "r/trailrunning owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-beginners",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Cascadia 19",
+      "source_type": "youtube",
+      "publisher": "Trail creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-trail-shoes-for-beginners",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Cascadia 19",
+      "source_type": "reddit",
+      "publisher": "r/trailrunning owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 965",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Garmin%20Forerunner%20965%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 965",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Garmin%20Forerunner%20965%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "COROS Pace 3",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=COROS%20Pace%203%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "COROS Pace 3",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=COROS%20Pace%203%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 265",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Garmin%20Forerunner%20265%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "Garmin Forerunner 265",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Garmin%20Forerunner%20265%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "Polar Vantage V3",
+      "source_type": "youtube",
+      "publisher": "Creator review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Polar%20Vantage%20V3%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-gps-watches-for-ultrarunning",
+      "section_slug": "outdoor",
+      "product_name": "Polar Vantage V3",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment sample",
+      "current_url": "https://www.reddit.com/search/?q=Polar%20Vantage%20V3%20Best%20GPS%20Running%20Watches%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "Salomon ADV Skin 12",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Salomon%20ADV%20Skin%2012%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "Salomon ADV Skin 12",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Salomon%20ADV%20Skin%2012%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "Nathan Pinnacle 12L",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Nathan%20Pinnacle%2012L%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "Nathan Pinnacle 12L",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Nathan%20Pinnacle%2012L%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "Osprey Duro/Dyna 15",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=Osprey%20Duro%2FDyna%2015%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "Osprey Duro/Dyna 15",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=Osprey%20Duro%2FDyna%2015%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "CamelBak Zephyr Pro",
+      "source_type": "youtube",
+      "publisher": "YouTube review corpus",
+      "current_url": "https://www.youtube.com/results?search_query=CamelBak%20Zephyr%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-hydration-vests-for-100k-and-100-mile-races",
+      "section_slug": "outdoor",
+      "product_name": "CamelBak Zephyr Pro",
+      "source_type": "reddit",
+      "publisher": "Reddit owner sentiment corpus",
+      "current_url": "https://www.reddit.com/search/?q=CamelBak%20Zephyr%20Pro%20review",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "ASICS Novablast 5",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "ASICS Novablast 5",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Ghost 17",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Ghost 17",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "Saucony Ride 18",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "Saucony Ride 18",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "Nike Pegasus 41",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-road-shoe-for-your-first-marathon",
+      "section_slug": "outdoor",
+      "product_name": "Nike Pegasus 41",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "ASICS Novablast 5",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "ASICS Novablast 5",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "Saucony Ride 18",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "Saucony Ride 18",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "New Balance Fresh Foam X 1080v14",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "New Balance Fresh Foam X 1080v14",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "HOKA Clifton 10",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-daily-trainers-for-marathon-training",
+      "section_slug": "outdoor",
+      "product_name": "HOKA Clifton 10",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "ASICS Gel-Nimbus 27",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "ASICS Gel-Nimbus 27",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Glycerin 22",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "Brooks Glycerin 22",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "New Balance Fresh Foam X 1080v14",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "New Balance Fresh Foam X 1080v14",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "HOKA Bondi 9",
+      "source_type": "youtube",
+      "publisher": "Road shoe creator consensus",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact YouTube video URL and optional timestamp."
+    },
+    {
+      "category_slug": "best-marathon-shoes-for-heavy-runners",
+      "section_slug": "outdoor",
+      "product_name": "HOKA Bondi 9",
+      "source_type": "reddit",
+      "publisher": "r/RunningShoeGeeks owner discussion",
+      "current_url": "",
+      "reason": "Needs an exact public URL before display.",
+      "suggested_next_step": "Replace with an exact Reddit thread or comment permalink."
+    }
+  ]
+}

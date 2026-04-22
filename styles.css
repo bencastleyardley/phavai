@@ -566,10 +566,20 @@ h1, h2, h3, p { margin-top: 0; }
   color: var(--green);
   font-weight: 850;
 }
+.evidence-intro,
+.source-governance-note {
+  margin: 0 12px 12px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
 .evidence-list {
   display: grid;
   gap: 8px;
   padding: 0 12px 12px;
+}
+.premium-sources {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  align-items: stretch;
 }
 .evidence-item {
   display: grid;
@@ -587,6 +597,24 @@ h1, h2, h3, p { margin-top: 0; }
 }
 .evidence-item b {
   color: var(--ink);
+}
+.source-card {
+  align-content: start;
+  gap: 7px;
+  border: 1px solid transparent;
+}
+.source-card.best-source {
+  border-color: rgba(15, 90, 74, 0.42);
+  box-shadow: 0 16px 35px rgba(15, 90, 74, 0.1);
+}
+.source-card p {
+  margin: 0;
+  color: var(--ink);
+}
+.source-card em {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-style: normal;
 }
 .editorial-callout {
   margin: 18px 0;

@@ -17,7 +17,8 @@ test("score controls recalculate, explain rank changes, and persist weights", as
 
   await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
   await expect(page.locator("body")).toContainText("Sources checked Apr 20, 2026");
-  await expect(page.locator(".evidence-panel").first()).toContainText("verified Apr 20, 2026");
+  await expect(page.locator(".evidence-panel").first()).toContainText("checked Apr 20, 2026");
+  await expect(page.locator(".evidence-panel").first()).toContainText("Best evidence");
   const defaultTop = await page.locator(".product").first().getAttribute("data-product-name");
   const defaultScore = await page.locator("[data-bestpick]").first().innerText();
 
@@ -71,6 +72,8 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator(".comparison-table")).toBeVisible();
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
+    await expect(page.locator(".evidence-panel").first()).toContainText("Why these sources");
+    await expect(page.locator('a[href*="youtube.com/results"], a[href*="reddit.com/search"]')).toHaveCount(0);
     await expect(page.locator("body")).toContainText("Related");
     await expect(page.locator(".product .button").first()).toContainText("View current price");
     await expect(page.locator(".button.disabled")).toHaveCount(0);

@@ -1,0 +1,75 @@
+{
+  "publicDisplayOrder": [
+    "expert",
+    "youtube",
+    "reddit",
+    "specs",
+    "brand",
+    "retailer"
+  ],
+  "publicSourceLimit": 6,
+  "rules": [
+    "Show expert testing first when available.",
+    "Show exact YouTube videos and exact Reddit threads before any broader discovery notes.",
+    "Use brand and specs pages to confirm product details, not as proof that a product deserves to win.",
+    "Keep editorial citations separate from future shopping and affiliate links.",
+    "Keep generic discovery URLs internal until an exact public source is curated."
+  ],
+  "globalTierLabels": {
+    "tier1": "Strong category-specific testing or a specialist source with clear hands-on context.",
+    "tier2": "Useful editorial or creator coverage that supports the recommendation but is less specialized.",
+    "tier3": "Community, owner, or supporting context that helps expose long-term tradeoffs."
+  },
+  "sections": {
+    "outdoor": {
+      "tierLabels": {
+        "tier1": "Specialist running, hiking, and outdoor testing with real trail or field use.",
+        "tier2": "Useful creator or general gear coverage with product-specific impressions.",
+        "tier3": "Runner and owner discussions that surface fit, durability, and terrain caveats."
+      },
+      "trustedPublishers": [
+        "Running Warehouse",
+        "iRunFar",
+        "OutdoorGearLab",
+        "RunRepeat",
+        "RoadTrailRun",
+        "Believe in the Run",
+        "Switchback Travel",
+        "CleverHiker",
+        "The Run Testers"
+      ]
+    },
+    "remote-work": {
+      "tierLabels": {
+        "tier1": "Hands-on office, ergonomics, or hardware testing with setup and durability notes.",
+        "tier2": "Credible workplace gear coverage with product-specific context.",
+        "tier3": "Owner discussion that helps identify wobble, comfort, assembly, and long-term issues."
+      },
+      "trustedPublishers": [
+        "Wirecutter",
+        "Tom's Guide",
+        "TechRadar",
+        "BTOD",
+        "WorkWhileWalking",
+        "The Spruce",
+        "Consumer Reports"
+      ]
+    },
+    "lifestyle": {
+      "tierLabels": {
+        "tier1": "Hands-on home, travel, or wellness testing with clear scoring or use-case notes.",
+        "tier2": "Credible editorial coverage that clarifies usability, value, or maintenance.",
+        "tier3": "Owner discussion that helps reveal reliability, noise, cleaning, fit, or long-term satisfaction."
+      },
+      "trustedPublishers": [
+        "Wirecutter",
+        "Consumer Reports",
+        "TechGearLab",
+        "Tom's Guide",
+        "TechRadar",
+        "Good Housekeeping",
+        "Serious Eats"
+      ]
+    }
+  }
+}

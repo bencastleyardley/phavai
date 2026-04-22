@@ -171,7 +171,7 @@
                   <% }) %>
                 </ul>
 
-                <div class="source-table" aria-label="Score breakdown by source">
+                <div class="source-table" aria-label="Score breakdown by evidence type">
                   <% product.sourceScores.forEach((row) => { %>
                     <div class="source-row">
                       <div>
@@ -184,41 +184,53 @@
                       </div>
                       <div>
                         <b>What we saw</b>
-                        <small><%= row.summary %> Top source verified <%= row.topEvidence.verifiedAt %>: <%= row.topEvidence.title || row.topEvidence.sourceName %></small>
+                        <% if (row.topEvidence.is_public) { %>
+                          <small><%= row.summary %> Best public source checked <%= row.topEvidence.verifiedAt %>: <%= row.topEvidence.title || row.topEvidence.sourceName %></small>
+                        <% } else { %>
+                          <small><%= row.summary %> Internal source checked <%= row.topEvidence.verifiedAt %>; not displayed publicly until an exact citation is curated.</small>
+                        <% } %>
                       </div>
-                      <% if (row.topEvidence.url) { %>
+                      <% if (row.topEvidence.url && row.topEvidence.is_public) { %>
                         <a href="<%= row.topEvidence.url %>" target="_blank" rel="nofollow noopener">Read source</a>
                       <% } else { %>
-                        <span class="source-placeholder">Referenced</span>
+                        <span class="source-placeholder">Internal note</span>
                       <% } %>
                     </div>
                   <% }) %>
                 </div>
 
                 <details class="evidence-panel">
-                  <summary>See the sources behind this pick</summary>
-                  <div class="evidence-list">
-                    <% product.evidence.forEach((item) => { %>
-                      <% if (item.url) { %>
-                      <a class="evidence-item" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
-                        <span><%= item.channel %> / <%= item.tier %> / <%= item.sourceName %></span>
+                  <summary>Why these sources</summary>
+                  <p class="evidence-intro">Best evidence appears first. Broader discovery notes stay internal unless there is an exact, useful URL worth showing publicly.</p>
+                  <div class="evidence-list premium-sources">
+                    <% product.publicEvidence.forEach((item, sourceIndex) => { %>
+                      <a class="evidence-item source-card <%= sourceIndex === 0 ? 'best-source' : '' %>" href="<%= item.url %>" target="_blank" rel="nofollow noopener">
+                        <span>
+                          <%= item.sourceLabel %>
+                          <% if (sourceIndex === 0) { %> / Best evidence<% } %>
+                          <% if (item.is_primary_source) { %> / Primary source<% } %>
+                        </span>
                         <b><%= item.title || item.sourceName %></b>
-                        <small><%= item.score %>/100 - published <%= item.publishedAt %> - verified <%= item.verifiedAt %> - sample <%= item.sampleSize %></small>
+                        <small><%= item.publisher %><% if (item.author) { %> by <%= item.author %><% } %> - checked <%= item.verifiedAt %></small>
+                        <p><%= item.evidence_note || item.summary %></p>
+                        <em><%= item.trust_reason %></em>
+                        <% if (item.source_type === "youtube" && item.video_id) { %>
+                          <small>Video ID <%= item.video_id %><% if (item.timestamp_start) { %> - starts at <%= item.timestamp_label %><% } %></small>
+                        <% } %>
+                        <% if (item.source_type === "reddit" && item.subreddit) { %>
+                          <small>r/<%= item.subreddit %> - <%= item.discussion_quality %> discussion quality - <%= item.permalink_type.replace("_", " ") %></small>
+                        <% } %>
                       </a>
-                      <% } else { %>
-                      <div class="evidence-item">
-                        <span><%= item.channel %> / <%= item.tier %> / <%= item.sourceName %></span>
-                        <b><%= item.title || item.sourceName %></b>
-                        <small><%= item.score %>/100 - published <%= item.publishedAt %> - verified <%= item.verifiedAt %> - sample <%= item.sampleSize %></small>
-                      </div>
-                      <% } %>
                     <% }) %>
                   </div>
+                  <% if (product.internalEvidenceCount > 0) { %>
+                    <p class="source-governance-note"><%= product.internalEvidenceCount %> additional internal research notes are excluded from public citation until they have exact, buyer-helpful URLs.</p>
+                  <% } %>
                 </details>
 
                 <div class="editorial-callout">
                   <strong>Why it earned this spot</strong>
-                  <p>This pick ranks here because expert testing, creator field notes, and owner discussions point in the same direction. The score is useful, but the fit warnings matter just as much.</p>
+                  <p>This pick ranks here because the best available expert reviews come first, then video testing and owner discussion help confirm the practical tradeoffs. Specs are used to verify details, not to justify a win.</p>
                 </div>
 
                 <div class="two-col">
