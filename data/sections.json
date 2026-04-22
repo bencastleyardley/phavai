@@ -22,7 +22,7 @@
       "road marathon shoes"
     ],
     "trust": "Outdoor recommendations are scored from expert testing, creator field reviews, and runner-owner sentiment. The goal is to expose fit caveats, durability signals, and terrain-specific tradeoffs before a shopper clicks anything.",
-    "image": "/photos/hoka-speed-goat-6.webp",
+    "image": "/photos/generated/section-outdoor.svg",
     "metaTitle": "Outdoor Product Reviews | Phavai",
     "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, long-tail running shoe picks, hydration packs, GPS watches, headphones, poles, vests, and recovery sandals."
   },
@@ -41,7 +41,7 @@
       "ergonomic keyboards"
     ],
     "trust": "Remote Work rankings emphasize long-term comfort, warranty support, setup friction, build quality, and owner complaints that polished product pages tend to hide.",
-    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80",
+    "image": "/photos/generated/section-remote-work.svg",
     "metaTitle": "Remote Work Product Reviews | Phavai",
     "metaDescription": "Remote Work buying guides from Phavai, including standing desks, office chairs, webcams, desk mats, monitor arms, and ergonomic keyboards."
   },
@@ -58,7 +58,7 @@
       "air purifiers"
     ],
     "trust": "Lifestyle rankings prioritize practical ownership signals: durability, maintenance cost, ease of use, recurring complaints, and whether expert praise matches real buyer sentiment.",
-    "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=1000&q=80",
+    "image": "/photos/generated/section-lifestyle.svg",
     "metaTitle": "Lifestyle Product Reviews | Phavai",
     "metaDescription": "Lifestyle buying guides from Phavai, including carry-on luggage, coffee makers, massage guns, and air purifiers."
   }

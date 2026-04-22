@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Remote Work section visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset=".62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity=".22"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#312e81" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="247" cy="192" r="115" fill="#22c55e" opacity=".18"/>
+  <circle cx="648" cy="312" r="155" fill="#22c55e" opacity=".14"/>
+  <g transform="translate(0 -36)">
+    <rect x="185" y="350" width="530" height="64" rx="22" fill="#312e81"/><path d="M270 414v220M630 414v220" stroke="#312e81" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="350" y="220" width="200" height="118" rx="18" fill="#fff" opacity=".9"/><path d="M395 338h110" stroke="#312e81" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <rect x="238" y="621" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
+  <text x="450" y="675" text-anchor="middle" font-size="38" font-weight="800" fill="#312e81">Remote Work</text>
+  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#312e81" opacity=".72">Category hub</text>
+</svg>

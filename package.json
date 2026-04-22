@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run build && npm run test:browser",
+    "images": "node scripts/generate-safe-images.mjs",
     "build": "node scripts/build.mjs",
     "test:browser": "playwright test",
     "deploy": "npm run build && vercel --prod"

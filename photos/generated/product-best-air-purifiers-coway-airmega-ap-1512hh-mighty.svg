@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Coway Airmega AP-1512HH Mighty product visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset=".62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity=".22"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#3f3f46" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="265" cy="210" r="115" fill="#a855f7" opacity=".18"/>
+  <circle cx="650" cy="310" r="155" fill="#a3e635" opacity=".14"/>
+  <g transform="translate(0 -36)">
+    <rect x="310" y="205" width="280" height="480" rx="62" fill="#3f3f46"/><g fill="#fff" opacity=".9"><circle cx="365" cy="310" r="11"/><circle cx="435" cy="310" r="11"/><circle cx="505" cy="310" r="11"/><circle cx="365" cy="358" r="11"/><circle cx="435" cy="358" r="11"/><circle cx="505" cy="358" r="11"/><circle cx="365" cy="406" r="11"/><circle cx="435" cy="406" r="11"/><circle cx="505" cy="406" r="11"/><circle cx="365" cy="454" r="11"/><circle cx="435" cy="454" r="11"/><circle cx="505" cy="454" r="11"/><circle cx="365" cy="502" r="11"/><circle cx="435" cy="502" r="11"/><circle cx="505" cy="502" r="11"/><circle cx="365" cy="550" r="11"/><circle cx="435" cy="550" r="11"/><circle cx="505" cy="550" r="11"/></g><path d="M235 330c-65-42-65-112 10-140M665 570c65 42 65 112-10 140" stroke="#3f3f46" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <rect x="238" y="651" width="424" height="106" rx="34" fill="#fff" opacity=".68"/>
+  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#3f3f46">Coway Airmega</text><text x="450" y="747" text-anchor="middle" font-size="38" font-weight="800" fill="#3f3f46">AP-1512HH Mighty</text>
+  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#3f3f46" opacity=".72">Best Air Purifiers</text>
+</svg>

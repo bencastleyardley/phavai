@@ -11,7 +11,7 @@
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best all-around trail shoe",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-mens-trail-running-shoes-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "Long runs, rocky trails, mixed technical terrain",
@@ -104,13 +104,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Men's Trail Running Shoes",
         "imageSeoName": "HOKA-Speedgoat-6-best-mens-trail-running-shoes"
       },
       {
         "name": "La Sportiva Prodigio Pro",
         "tag": "Best technical mountain racer",
-        "image": "/photos/la-sportiva-prodigio-pro.webp",
+        "image": "/photos/generated/product-best-mens-trail-running-shoes-la-sportiva-prodigio-pro.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=La%20Sportiva%20Prodigio%20Pro",
         "price": "$175-$190 typical retail",
         "bestFor": "Fast mountain days, technical descents, race efforts",
@@ -203,13 +203,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "La Sportiva Prodigio Pro product image for Best Men's Trail Running Shoes",
+        "imageAlt": "La Sportiva Prodigio Pro brand-neutral illustration for Best Men's Trail Running Shoes",
         "imageSeoName": "La-Sportiva-Prodigio-Pro-best-mens-trail-running-shoes"
       },
       {
         "name": "Brooks Catamount 4",
         "tag": "Best fast daily trail shoe",
-        "image": "/photos/brooks-catamount-4.webp",
+        "image": "/photos/generated/product-best-mens-trail-running-shoes-brooks-catamount-4.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Catamount%204",
         "price": "$170 typical retail",
         "bestFor": "Tempo trail runs, rolling singletrack, lighter race days",
@@ -302,13 +302,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "Brooks Catamount 4 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "Brooks Catamount 4 brand-neutral illustration for Best Men's Trail Running Shoes",
         "imageSeoName": "Brooks-Catamount-4-best-mens-trail-running-shoes"
       },
       {
         "name": "Saucony Peregrine 15",
         "tag": "Best value technical grip",
-        "image": "/photos/saucony-peregrine-15.webp",
+        "image": "/photos/generated/product-best-mens-trail-running-shoes-saucony-peregrine-15.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Peregrine%2015",
         "price": "$140 typical retail",
         "bestFor": "Short-to-mid trail runs, mixed dirt, runners who like trail feel",
@@ -401,13 +401,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "Saucony Peregrine 15 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "Saucony Peregrine 15 brand-neutral illustration for Best Men's Trail Running Shoes",
         "imageSeoName": "Saucony-Peregrine-15-best-mens-trail-running-shoes"
       },
       {
         "name": "The North Face VECTIV Enduris 4",
         "tag": "Best cushioned cruiser",
-        "image": "/photos/the-north-face-enduris-4.webp",
+        "image": "/photos/generated/product-best-mens-trail-running-shoes-the-north-face-vectiv-enduris-4.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=The%20North%20Face%20VECTIV%20Enduris%204",
         "price": "$150 typical retail",
         "bestFor": "Comfortable long trail miles, runnable dirt, newer trail runners",
@@ -500,7 +500,7 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "The North Face VECTIV Enduris 4 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "The North Face VECTIV Enduris 4 brand-neutral illustration for Best Men's Trail Running Shoes",
         "imageSeoName": "The-North-Face-VECTIV-Enduris-4-best-mens-trail-running-shoes"
       }
     ],
@@ -537,7 +537,8 @@
     ],
     "sectionSlug": "outdoor",
     "metaTitle": "Best Men's Trail Running Shoes Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "A transparent ranking of trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-mens-trail-running-shoes.svg"
   },
   {
     "slug": "best-womens-trail-running-shoes",
@@ -551,7 +552,7 @@
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best all-around trail shoe",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-womens-trail-running-shoes-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "Long trail days, hiking/running crossover, technical footing",
@@ -644,13 +645,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Women's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Women's Trail Running Shoes",
         "imageSeoName": "HOKA-Speedgoat-6-best-womens-trail-running-shoes"
       },
       {
         "name": "The North Face VECTIV Enduris 4",
         "tag": "Best cushioned daily trainer",
-        "image": "/photos/the-north-face-enduris-4.webp",
+        "image": "/photos/generated/product-best-womens-trail-running-shoes-the-north-face-vectiv-enduris-4.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=The%20North%20Face%20VECTIV%20Enduris%204",
         "price": "$150 typical retail",
         "bestFor": "Comfortable daily trail miles, long cruisy runs, mixed terrain",
@@ -743,13 +744,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "The North Face VECTIV Enduris 4 product image for Best Women's Trail Running Shoes",
+        "imageAlt": "The North Face VECTIV Enduris 4 brand-neutral illustration for Best Women's Trail Running Shoes",
         "imageSeoName": "The-North-Face-VECTIV-Enduris-4-best-womens-trail-running-shoes"
       },
       {
         "name": "Saucony Peregrine 15",
         "tag": "Best nimble value pick",
-        "image": "/photos/saucony-peregrine-15.webp",
+        "image": "/photos/generated/product-best-womens-trail-running-shoes-saucony-peregrine-15.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Peregrine%2015",
         "price": "$140 typical retail",
         "bestFor": "Runners who like grip, nimbleness, and a lower-to-ground feel",
@@ -842,13 +843,13 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "Saucony Peregrine 15 product image for Best Women's Trail Running Shoes",
+        "imageAlt": "Saucony Peregrine 15 brand-neutral illustration for Best Women's Trail Running Shoes",
         "imageSeoName": "Saucony-Peregrine-15-best-womens-trail-running-shoes"
       },
       {
         "name": "La Sportiva Prodigio Pro",
         "tag": "Best race-day mountain pick",
-        "image": "/photos/la-sportiva-prodigio-pro.webp",
+        "image": "/photos/generated/product-best-womens-trail-running-shoes-la-sportiva-prodigio-pro.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=La%20Sportiva%20Prodigio%20Pro",
         "price": "$175-$190 typical retail",
         "bestFor": "Mountain races, confident descending, experienced trail runners",
@@ -941,7 +942,7 @@
             "verifiedAt": "Apr 20, 2026"
           }
         ],
-        "imageAlt": "La Sportiva Prodigio Pro product image for Best Women's Trail Running Shoes",
+        "imageAlt": "La Sportiva Prodigio Pro brand-neutral illustration for Best Women's Trail Running Shoes",
         "imageSeoName": "La-Sportiva-Prodigio-Pro-best-womens-trail-running-shoes"
       }
     ],
@@ -978,7 +979,8 @@
     ],
     "sectionSlug": "outdoor",
     "metaTitle": "Best Women's Trail Running Shoes Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of trail shoes with women's fit notes, review consensus, and confidence indicators. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "A transparent ranking of trail shoes with women's fit notes, review consensus, and confidence indicators. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-womens-trail-running-shoes.svg"
   },
   {
     "slug": "best-running-headphones",
@@ -1008,8 +1010,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Shokz%20OpenRun%20Pro%202",
         "name": "Shokz OpenRun Pro 2",
         "tag": "Best open-ear running headphones",
-        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Open-ear running headphones on a dark surface",
+        "image": "/photos/generated/product-best-running-headphones-shokz-openrun-pro-2.svg",
+        "imageAlt": "Shokz OpenRun Pro 2 brand-neutral illustration for Best Running Headphones",
         "price": "$180 typical retail",
         "bestFor": "Outdoor runners who want awareness, stability, and all-day comfort",
         "avoidIf": "You want deep bass isolation or a tiny pocketable earbud case.",
@@ -1107,8 +1109,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Beats%20Powerbeats%20Pro%202",
         "name": "Beats Powerbeats Pro 2",
         "tag": "Best secure sport earbuds",
-        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Wireless sport earbuds for running",
+        "image": "/photos/generated/product-best-running-headphones-beats-powerbeats-pro-2.svg",
+        "imageAlt": "Beats Powerbeats Pro 2 brand-neutral illustration for Best Running Headphones",
         "price": "$249 typical retail",
         "bestFor": "Runners who want ear hooks, stronger sound, and sealed-ear workout performance",
         "avoidIf": "You dislike bulky cases or need to hear traffic clearly without transparency mode.",
@@ -1206,8 +1208,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Shokz%20OpenFit%202",
         "name": "Shokz OpenFit 2",
         "tag": "Best open-ear earbud alternative",
-        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Open wireless earbuds for running",
+        "image": "/photos/generated/product-best-running-headphones-shokz-openfit-2.svg",
+        "imageAlt": "Shokz OpenFit 2 brand-neutral illustration for Best Running Headphones",
         "price": "$180 typical retail",
         "bestFor": "Runners who want open-ear awareness without a neckband",
         "avoidIf": "You need the locked-in feel of ear hooks or bone-conduction-style stability.",
@@ -1305,8 +1307,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Jabra%20Elite%208%20Active%20Gen%202",
         "name": "Jabra Elite 8 Active Gen 2",
         "tag": "Best rugged workout earbuds",
-        "image": "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Rugged workout earbuds in a case",
+        "image": "/photos/generated/product-best-running-headphones-jabra-elite-8-active-gen-2.svg",
+        "imageAlt": "Jabra Elite 8 Active Gen 2 brand-neutral illustration for Best Running Headphones",
         "price": "$230 typical retail",
         "bestFor": "Runners who want durability, strong water resistance, and everyday earbud features",
         "avoidIf": "You prioritize open-ear awareness or want the newest long-term platform roadmap.",
@@ -1419,7 +1421,8 @@
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "outdoor",
     "metaTitle": "Best Running Headphones Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "A transparent ranking of open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-running-headphones.svg"
   },
   {
     "slug": "best-gps-running-watches",
@@ -1449,8 +1452,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Garmin%20Forerunner%20265",
         "name": "Garmin Forerunner 265",
         "tag": "Best GPS watch for most runners",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Garmin_Forerunner_265_musicG.jpg",
-        "imageAlt": "Garmin Forerunner 265 running watch on retail display",
+        "image": "/photos/generated/product-best-gps-running-watches-garmin-forerunner-265.svg",
+        "imageAlt": "Garmin Forerunner 265 brand-neutral illustration for Best GPS Running Watches",
         "price": "$449 typical retail",
         "bestFor": "Most runners who want excellent training features without paying for maps",
         "avoidIf": "You need full-color maps or very long ultra-distance battery life.",
@@ -1548,8 +1551,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Garmin%20Forerunner%20965",
         "name": "Garmin Forerunner 965",
         "tag": "Best premium running watch",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Premium GPS running watch with bright display",
+        "image": "/photos/generated/product-best-gps-running-watches-garmin-forerunner-965.svg",
+        "imageAlt": "Garmin Forerunner 965 brand-neutral illustration for Best GPS Running Watches",
         "price": "$599 typical retail",
         "bestFor": "Marathoners, triathletes, trail runners, and athletes who want maps",
         "avoidIf": "You do not need maps or advanced endurance features.",
@@ -1647,8 +1650,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=COROS%20Pace%203",
         "name": "COROS Pace 3",
         "tag": "Best value GPS running watch",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Lightweight GPS running watch for training",
+        "image": "/photos/generated/product-best-gps-running-watches-coros-pace-3.svg",
+        "imageAlt": "COROS Pace 3 brand-neutral illustration for Best GPS Running Watches",
         "price": "$229 typical retail",
         "bestFor": "Value-focused runners who care about battery, training, and low weight",
         "avoidIf": "You want music, maps, or the deepest smartwatch ecosystem.",
@@ -1746,8 +1749,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Polar%20Vantage%20V3",
         "name": "Polar Vantage V3",
         "tag": "Best recovery-focused alternative",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Running watch for recovery-focused training",
+        "image": "/photos/generated/product-best-gps-running-watches-polar-vantage-v3.svg",
+        "imageAlt": "Polar Vantage V3 brand-neutral illustration for Best GPS Running Watches",
         "price": "$599 typical retail",
         "bestFor": "Athletes who want recovery, physiology, and long battery over smartwatch polish",
         "avoidIf": "You want Garmin's app ecosystem or the best third-party integrations.",
@@ -1860,7 +1863,8 @@
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "outdoor",
     "metaTitle": "Best GPS Running Watches Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of GPS running watches for daily training, marathons, trail ultras, and value-focused runners. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "A transparent ranking of GPS running watches for daily training, marathons, trail ultras, and value-focused runners. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-gps-running-watches.svg"
   },
   {
     "slug": "best-standing-desks",
@@ -1890,8 +1894,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Uplift%20V2%20Standing%20Desk",
         "name": "Uplift V2 Standing Desk",
         "tag": "Best overall standing desk",
-        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Electric standing desk in a bright home office",
+        "image": "/photos/generated/product-best-standing-desks-uplift-v2-standing-desk.svg",
+        "imageAlt": "Uplift V2 Standing Desk brand-neutral illustration for Best Standing Desks",
         "price": "$599-$1,200 typical configuration",
         "bestFor": "Buyers who want customization, warranty confidence, and a proven platform",
         "avoidIf": "You want the cheapest usable desk or a very simple one-box setup.",
@@ -1989,8 +1993,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=FlexiSpot%20E7%20Pro",
         "name": "FlexiSpot E7 Pro",
         "tag": "Best value standing desk",
-        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Modern sit-stand desk with laptop and monitor",
+        "image": "/photos/generated/product-best-standing-desks-flexispot-e7-pro.svg",
+        "imageAlt": "FlexiSpot E7 Pro brand-neutral illustration for Best Standing Desks",
         "price": "$499-$799 typical configuration",
         "bestFor": "Home-office buyers who want strong specs below premium-desk pricing",
         "avoidIf": "You want maximum customization or the strongest possible stability at tall heights.",
@@ -2088,8 +2092,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Vari%20Electric%20Standing%20Desk",
         "name": "Vari Electric Standing Desk",
         "tag": "Best simple setup",
-        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Standing desk setup in a clean workspace",
+        "image": "/photos/generated/product-best-standing-desks-vari-electric-standing-desk.svg",
+        "imageAlt": "Vari Electric Standing Desk brand-neutral illustration for Best Standing Desks",
         "price": "$750-$950 typical retail",
         "bestFor": "Buyers who want a polished, easy-to-assemble desk without many decisions",
         "avoidIf": "You want deep customization or the lowest possible price.",
@@ -2187,8 +2191,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Branch%20Duo%20Standing%20Desk",
         "name": "Branch Duo Standing Desk",
         "tag": "Best compact modern desk",
-        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Compact standing desk in a home office",
+        "image": "/photos/generated/product-best-standing-desks-branch-duo-standing-desk.svg",
+        "imageAlt": "Branch Duo Standing Desk brand-neutral illustration for Best Standing Desks",
         "price": "$499-$699 typical retail",
         "bestFor": "Small home offices, apartment setups, and buyers who want clean design",
         "avoidIf": "You need a very large desktop or heavy multi-monitor workstation.",
@@ -2301,7 +2305,8 @@
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "remote-work",
     "metaTitle": "Best Standing Desks Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "A transparent ranking of electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-standing-desks.svg"
   },
   {
     "slug": "best-office-chairs",
@@ -2331,8 +2336,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Steelcase%20Gesture",
         "name": "Steelcase Gesture",
         "tag": "Best office chair for most long workdays",
-        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Ergonomic office chair in a workspace",
+        "image": "/photos/generated/product-best-office-chairs-steelcase-gesture.svg",
+        "imageAlt": "Steelcase Gesture brand-neutral illustration for Best Office Chairs",
         "price": "$1,300-$1,600 typical retail",
         "bestFor": "Long workdays, mixed postures, laptop/tablet users, and premium ergonomic buyers",
         "avoidIf": "You prefer breathable mesh or want a lower-cost chair.",
@@ -2430,8 +2435,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Herman%20Miller%20Aeron",
         "name": "Herman Miller Aeron",
         "tag": "Best breathable mesh chair",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Aeron_Chair_by_Herman_Miller_%289446986497%29.jpg",
-        "imageAlt": "Herman Miller Aeron office chair with mesh back and seat",
+        "image": "/photos/generated/product-best-office-chairs-herman-miller-aeron.svg",
+        "imageAlt": "Herman Miller Aeron brand-neutral illustration for Best Office Chairs",
         "price": "$1,400-$1,800 typical retail",
         "bestFor": "People who like firm mesh support, hot rooms, and known sizing options",
         "avoidIf": "You want a plush seat or are unsure which Aeron size fits you.",
@@ -2529,8 +2534,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Branch%20Ergonomic%20Chair%20Pro",
         "name": "Branch Ergonomic Chair Pro",
         "tag": "Best value ergonomic chair",
-        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Modern ergonomic office chair at a desk",
+        "image": "/photos/generated/product-best-office-chairs-branch-ergonomic-chair-pro.svg",
+        "imageAlt": "Branch Ergonomic Chair Pro brand-neutral illustration for Best Office Chairs",
         "price": "$499-$699 typical retail",
         "bestFor": "Home-office buyers who want real ergonomic features below premium-chair pricing",
         "avoidIf": "You want the longest warranty, premium materials, or a proven used-market icon.",
@@ -2628,8 +2633,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Haworth%20Fern",
         "name": "Haworth Fern",
         "tag": "Best flexible backrest feel",
-        "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Ergonomic office chair with flexible backrest",
+        "image": "/photos/generated/product-best-office-chairs-haworth-fern.svg",
+        "imageAlt": "Haworth Fern brand-neutral illustration for Best Office Chairs",
         "price": "$1,100-$1,500 typical retail",
         "bestFor": "Users who want a softer, flexible backrest and premium ergonomic support",
         "avoidIf": "You want the most adjustable arms or the strongest used-market availability.",
@@ -2742,7 +2747,8 @@
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "remote-work",
     "metaTitle": "Best Office Chairs Ranked by BestPick Score | Phavai",
-    "metaDescription": "A transparent ranking of ergonomic office chairs for long workdays, home offices, posture support, and durable comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "A transparent ranking of ergonomic office chairs for long workdays, home offices, posture support, and durable comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-office-chairs.svg"
   },
   {
     "slug": "best-hydration-packs",
@@ -2773,8 +2779,8 @@
       {
         "name": "Salomon ADV Skin 12",
         "tag": "Best overall hydration pack",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-packs-salomon-adv-skin-12.svg",
+        "imageAlt": "Salomon ADV Skin 12 brand-neutral illustration for Best Hydration Packs",
         "affiliateUrl": "https://www.amazon.com/s?k=Salomon%20ADV%20Skin%2012",
         "price": "$165 typical retail",
         "bestFor": "Long trail runs, ultras, and runners who want secure front storage",
@@ -2872,8 +2878,8 @@
       {
         "name": "Nathan Pinnacle 12L",
         "tag": "Best for broader fit",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-packs-nathan-pinnacle-12l.svg",
+        "imageAlt": "Nathan Pinnacle 12L brand-neutral illustration for Best Hydration Packs",
         "affiliateUrl": "https://www.amazon.com/s?k=Nathan%20Pinnacle%2012L",
         "price": "$200 typical retail",
         "bestFor": "Runners who want roomier fit, low bounce, and long-run storage",
@@ -2971,8 +2977,8 @@
       {
         "name": "Osprey Duro/Dyna 15",
         "tag": "Best for unsupported routes",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-packs-osprey-duro-dyna-15.svg",
+        "imageAlt": "Osprey Duro/Dyna 15 brand-neutral illustration for Best Hydration Packs",
         "affiliateUrl": "https://www.amazon.com/s?k=Osprey%20Duro%2FDyna%2015",
         "price": "$165 typical retail",
         "bestFor": "Long days where layers, food, and extra water matter",
@@ -3070,8 +3076,8 @@
       {
         "name": "CamelBak Zephyr Pro",
         "tag": "Best structured race pack",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-packs-camelbak-zephyr-pro.svg",
+        "imageAlt": "CamelBak Zephyr Pro brand-neutral illustration for Best Hydration Packs",
         "affiliateUrl": "https://www.amazon.com/s?k=CamelBak%20Zephyr%20Pro",
         "price": "$150-$180 typical retail",
         "bestFor": "Runners who want a more structured fit and race-day storage",
@@ -3183,7 +3189,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Hydration Packs Ranked by BestPick Score | Phavai",
-    "metaDescription": "Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-hydration-packs.svg"
   },
   {
     "slug": "best-trail-running-poles",
@@ -3214,8 +3221,8 @@
       {
         "name": "Black Diamond Distance Carbon Z",
         "tag": "Best race-day pole",
-        "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Trail running poles on mountain terrain",
+        "image": "/photos/generated/product-best-trail-running-poles-black-diamond-distance-carbon-z.svg",
+        "imageAlt": "Black Diamond Distance Carbon Z brand-neutral illustration for Best Trail Running Poles",
         "affiliateUrl": "https://www.amazon.com/s?k=Black%20Diamond%20Distance%20Carbon%20Z",
         "price": "$190 typical retail",
         "bestFor": "Races, steep climbs, and runners who prioritize low weight",
@@ -3313,8 +3320,8 @@
       {
         "name": "Leki Ultratrail FX.One Superlite",
         "tag": "Best grip system",
-        "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Trail running poles on mountain terrain",
+        "image": "/photos/generated/product-best-trail-running-poles-leki-ultratrail-fx-one-superlite.svg",
+        "imageAlt": "Leki Ultratrail FX.One Superlite brand-neutral illustration for Best Trail Running Poles",
         "affiliateUrl": "https://www.amazon.com/s?k=Leki%20Ultratrail%20FX.One%20Superlite",
         "price": "$220-$250 typical retail",
         "bestFor": "Runners who love Leki's shark grip and want race-focused speed",
@@ -3412,8 +3419,8 @@
       {
         "name": "Black Diamond Distance Z",
         "tag": "Best durable value pole",
-        "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Trail running poles on mountain terrain",
+        "image": "/photos/generated/product-best-trail-running-poles-black-diamond-distance-z.svg",
+        "imageAlt": "Black Diamond Distance Z brand-neutral illustration for Best Trail Running Poles",
         "affiliateUrl": "https://www.amazon.com/s?k=Black%20Diamond%20Distance%20Z",
         "price": "$140 typical retail",
         "bestFor": "Runners who want a folding pole with more aluminum durability",
@@ -3511,8 +3518,8 @@
       {
         "name": "Gossamer Gear LT5",
         "tag": "Best adjustable crossover",
-        "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Trail running poles on mountain terrain",
+        "image": "/photos/generated/product-best-trail-running-poles-gossamer-gear-lt5.svg",
+        "imageAlt": "Gossamer Gear LT5 brand-neutral illustration for Best Trail Running Poles",
         "affiliateUrl": "https://www.amazon.com/s?k=Gossamer%20Gear%20LT5",
         "price": "$195 typical retail",
         "bestFor": "Fastpackers and hikers who want adjustability with low weight",
@@ -3624,7 +3631,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Trail Running Poles Ranked by BestPick Score | Phavai",
-    "metaDescription": "Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-trail-running-poles.svg"
   },
   {
     "slug": "best-running-vests",
@@ -3655,8 +3663,8 @@
       {
         "name": "Salomon ADV Skin 5",
         "tag": "Best overall running vest",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Runner wearing a vest on an outdoor route",
+        "image": "/photos/generated/product-best-running-vests-salomon-adv-skin-5.svg",
+        "imageAlt": "Salomon ADV Skin 5 brand-neutral illustration for Best Running Vests",
         "affiliateUrl": "https://www.amazon.com/s?k=Salomon%20ADV%20Skin%205",
         "price": "$145 typical retail",
         "bestFor": "Most runners who want low bounce and useful storage for 1-4 hour runs",
@@ -3754,8 +3762,8 @@
       {
         "name": "Nathan Pinnacle 4L",
         "tag": "Best lightweight storage",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Runner wearing a vest on an outdoor route",
+        "image": "/photos/generated/product-best-running-vests-nathan-pinnacle-4l.svg",
+        "imageAlt": "Nathan Pinnacle 4L brand-neutral illustration for Best Running Vests",
         "affiliateUrl": "https://www.amazon.com/s?k=Nathan%20Pinnacle%204L",
         "price": "$180 typical retail",
         "bestFor": "Runners who want low weight and enough room for phone, nutrition, and flasks",
@@ -3853,8 +3861,8 @@
       {
         "name": "Ultimate Direction Race Vest 6.0",
         "tag": "Best adjustable fit",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Runner wearing a vest on an outdoor route",
+        "image": "/photos/generated/product-best-running-vests-ultimate-direction-race-vest-6-0.svg",
+        "imageAlt": "Ultimate Direction Race Vest 6.0 brand-neutral illustration for Best Running Vests",
         "affiliateUrl": "https://www.amazon.com/s?k=Ultimate%20Direction%20Race%20Vest%206.0",
         "price": "$130 typical retail",
         "bestFor": "Runners who want more fit adjustment and accessible storage",
@@ -3952,8 +3960,8 @@
       {
         "name": "Patagonia Slope Runner Vest",
         "tag": "Best soft comfort",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Runner wearing a vest on an outdoor route",
+        "image": "/photos/generated/product-best-running-vests-patagonia-slope-runner-vest.svg",
+        "imageAlt": "Patagonia Slope Runner Vest brand-neutral illustration for Best Running Vests",
         "affiliateUrl": "https://www.amazon.com/s?k=Patagonia%20Slope%20Runner%20Vest",
         "price": "$169 typical retail",
         "bestFor": "Runners who want a comfortable vest for moderate trail efforts",
@@ -4065,7 +4073,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Running Vests Ranked by BestPick Score | Phavai",
-    "metaDescription": "Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-running-vests.svg"
   },
   {
     "slug": "best-recovery-sandals",
@@ -4096,8 +4105,8 @@
       {
         "name": "OOFOS OOahh Slide",
         "tag": "Best plush recovery slide",
-        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Recovery sandals after a run",
+        "image": "/photos/generated/product-best-recovery-sandals-oofos-ooahh-slide.svg",
+        "imageAlt": "OOFOS OOahh Slide brand-neutral illustration for Best Recovery Sandals",
         "affiliateUrl": "https://www.amazon.com/s?k=OOFOS%20OOahh%20Slide",
         "price": "$60 typical retail",
         "bestFor": "Runners who want maximum soft cushioning after hard workouts",
@@ -4195,8 +4204,8 @@
       {
         "name": "HOKA Ora Recovery Slide 3",
         "tag": "Best rocker recovery sandal",
-        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Recovery sandals after a run",
+        "image": "/photos/generated/product-best-recovery-sandals-hoka-ora-recovery-slide-3.svg",
+        "imageAlt": "HOKA Ora Recovery Slide 3 brand-neutral illustration for Best Recovery Sandals",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Ora%20Recovery%20Slide%203",
         "price": "$60 typical retail",
         "bestFor": "Runners who like HOKA cushioning and a firmer recovery feel",
@@ -4294,8 +4303,8 @@
       {
         "name": "Kane Revive",
         "tag": "Best active recovery shoe",
-        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Recovery sandals after a run",
+        "image": "/photos/generated/product-best-recovery-sandals-kane-revive.svg",
+        "imageAlt": "Kane Revive brand-neutral illustration for Best Recovery Sandals",
         "affiliateUrl": "https://www.amazon.com/s?k=Kane%20Revive",
         "price": "$80 typical retail",
         "bestFor": "People who want washable recovery footwear for errands, gym, and travel",
@@ -4393,8 +4402,8 @@
       {
         "name": "Birkenstock Arizona EVA",
         "tag": "Best lightweight value",
-        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Recovery sandals after a run",
+        "image": "/photos/generated/product-best-recovery-sandals-birkenstock-arizona-eva.svg",
+        "imageAlt": "Birkenstock Arizona EVA brand-neutral illustration for Best Recovery Sandals",
         "affiliateUrl": "https://www.amazon.com/s?k=Birkenstock%20Arizona%20EVA",
         "price": "$50 typical retail",
         "bestFor": "Shoppers who want light, waterproof support at a lower price",
@@ -4506,7 +4515,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Recovery Sandals Ranked by BestPick Score | Phavai",
-    "metaDescription": "Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-recovery-sandals.svg"
   },
   {
     "slug": "best-webcams-for-remote-work",
@@ -4537,8 +4547,8 @@
       {
         "name": "Logitech MX Brio",
         "tag": "Best webcam for most remote workers",
-        "image": "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Webcam on a monitor for remote work",
+        "image": "/photos/generated/product-best-webcams-for-remote-work-logitech-mx-brio.svg",
+        "imageAlt": "Logitech MX Brio brand-neutral illustration for Best Webcams for Remote Work",
         "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20MX%20Brio",
         "price": "$199 typical retail",
         "bestFor": "Professionals who want reliable 4K image quality with mainstream software support",
@@ -4636,8 +4646,8 @@
       {
         "name": "Obsbot Tiny 3",
         "tag": "Best AI-tracking webcam",
-        "image": "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Webcam on a monitor for remote work",
+        "image": "/photos/generated/product-best-webcams-for-remote-work-obsbot-tiny-3.svg",
+        "imageAlt": "Obsbot Tiny 3 brand-neutral illustration for Best Webcams for Remote Work",
         "affiliateUrl": "https://www.amazon.com/s?k=Obsbot%20Tiny%203",
         "price": "$249-$299 typical retail",
         "bestFor": "Presenters, teachers, and creators who move around on camera",
@@ -4735,8 +4745,8 @@
       {
         "name": "Razer Kiyo Pro Ultra",
         "tag": "Best low-light webcam",
-        "image": "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Webcam on a monitor for remote work",
+        "image": "/photos/generated/product-best-webcams-for-remote-work-razer-kiyo-pro-ultra.svg",
+        "imageAlt": "Razer Kiyo Pro Ultra brand-neutral illustration for Best Webcams for Remote Work",
         "affiliateUrl": "https://www.amazon.com/s?k=Razer%20Kiyo%20Pro%20Ultra",
         "price": "$299 typical retail",
         "bestFor": "Users in dim rooms who want a large sensor and strong image control",
@@ -4834,8 +4844,8 @@
       {
         "name": "Anker PowerConf C200",
         "tag": "Best value webcam",
-        "image": "https://images.unsplash.com/photo-1611532736579-6b16e2b50449?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Webcam on a monitor for remote work",
+        "image": "/photos/generated/product-best-webcams-for-remote-work-anker-powerconf-c200.svg",
+        "imageAlt": "Anker PowerConf C200 brand-neutral illustration for Best Webcams for Remote Work",
         "affiliateUrl": "https://www.amazon.com/s?k=Anker%20PowerConf%20C200",
         "price": "$60-$80 typical retail",
         "bestFor": "Budget-focused remote workers who still want a clear image",
@@ -4947,7 +4957,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Webcams for Remote Work Ranked by BestPick Score | Phavai",
-    "metaDescription": "Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-webcams-for-remote-work.svg"
   },
   {
     "slug": "best-desk-mats",
@@ -4978,8 +4989,8 @@
       {
         "name": "Orbitkey Desk Mat",
         "tag": "Best overall desk mat",
-        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Desk mat with keyboard and workspace accessories",
+        "image": "/photos/generated/product-best-desk-mats-orbitkey-desk-mat.svg",
+        "imageAlt": "Orbitkey Desk Mat brand-neutral illustration for Best Desk Mats",
         "affiliateUrl": "https://www.amazon.com/s?k=Orbitkey%20Desk%20Mat",
         "price": "$80-$120 typical retail",
         "bestFor": "Remote workers who want a polished mat with document storage and cable control",
@@ -5077,8 +5088,8 @@
       {
         "name": "Grovemade Wool Felt Desk Pad",
         "tag": "Best premium material",
-        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Desk mat with keyboard and workspace accessories",
+        "image": "/photos/generated/product-best-desk-mats-grovemade-wool-felt-desk-pad.svg",
+        "imageAlt": "Grovemade Wool Felt Desk Pad brand-neutral illustration for Best Desk Mats",
         "affiliateUrl": "https://www.amazon.com/s?k=Grovemade%20Wool%20Felt%20Desk%20Pad",
         "price": "$70-$150 typical retail",
         "bestFor": "Design-focused workspaces that prioritize texture and premium feel",
@@ -5176,8 +5187,8 @@
       {
         "name": "Logitech Studio Series Desk Mat",
         "tag": "Best budget color mat",
-        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Desk mat with keyboard and workspace accessories",
+        "image": "/photos/generated/product-best-desk-mats-logitech-studio-series-desk-mat.svg",
+        "imageAlt": "Logitech Studio Series Desk Mat brand-neutral illustration for Best Desk Mats",
         "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20Studio%20Series%20Desk%20Mat",
         "price": "$20 typical retail",
         "bestFor": "Simple home-office setups that want color and desk protection",
@@ -5275,8 +5286,8 @@
       {
         "name": "Knodel Large Desk Mat",
         "tag": "Best large value mat",
-        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Desk mat with keyboard and workspace accessories",
+        "image": "/photos/generated/product-best-desk-mats-knodel-large-desk-mat.svg",
+        "imageAlt": "Knodel Large Desk Mat brand-neutral illustration for Best Desk Mats",
         "affiliateUrl": "https://www.amazon.com/s?k=Knodel%20Large%20Desk%20Mat",
         "price": "$15-$30 typical retail",
         "bestFor": "People who want broad coverage for keyboard, mouse, and desk protection",
@@ -5388,7 +5399,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Desk Mats Ranked by BestPick Score | Phavai",
-    "metaDescription": "Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-desk-mats.svg"
   },
   {
     "slug": "best-monitor-arms",
@@ -5419,8 +5431,8 @@
       {
         "name": "Ergotron LX",
         "tag": "Best overall monitor arm",
-        "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Monitor arm holding a display above a desk",
+        "image": "/photos/generated/product-best-monitor-arms-ergotron-lx.svg",
+        "imageAlt": "Ergotron LX brand-neutral illustration for Best Monitor Arms",
         "affiliateUrl": "https://www.amazon.com/s?k=Ergotron%20LX",
         "price": "$180-$220 typical retail",
         "bestFor": "Most single-monitor setups that need smooth adjustment and long-term reliability",
@@ -5518,8 +5530,8 @@
       {
         "name": "Amazon Basics Premium Monitor Stand",
         "tag": "Best value if available",
-        "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Monitor arm holding a display above a desk",
+        "image": "/photos/generated/product-best-monitor-arms-amazon-basics-premium-monitor-stand.svg",
+        "imageAlt": "Amazon Basics Premium Monitor Stand brand-neutral illustration for Best Monitor Arms",
         "affiliateUrl": "https://www.amazon.com/s?k=Amazon%20Basics%20Premium%20Monitor%20Stand",
         "price": "$100-$150 typical retail",
         "bestFor": "Shoppers who want Ergotron-like performance at a lower price",
@@ -5617,8 +5629,8 @@
       {
         "name": "Herman Miller Flo Monitor Arm",
         "tag": "Best premium design",
-        "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Monitor arm holding a display above a desk",
+        "image": "/photos/generated/product-best-monitor-arms-herman-miller-flo-monitor-arm.svg",
+        "imageAlt": "Herman Miller Flo Monitor Arm brand-neutral illustration for Best Monitor Arms",
         "affiliateUrl": "https://www.amazon.com/s?k=Herman%20Miller%20Flo%20Monitor%20Arm",
         "price": "$295 typical retail",
         "bestFor": "Design-led workspaces that want a refined arm with smooth movement",
@@ -5716,8 +5728,8 @@
       {
         "name": "Fully Jarvis Monitor Arm",
         "tag": "Best simple mainstream arm",
-        "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Monitor arm holding a display above a desk",
+        "image": "/photos/generated/product-best-monitor-arms-fully-jarvis-monitor-arm.svg",
+        "imageAlt": "Fully Jarvis Monitor Arm brand-neutral illustration for Best Monitor Arms",
         "affiliateUrl": "https://www.amazon.com/s?k=Fully%20Jarvis%20Monitor%20Arm",
         "price": "$99-$130 typical retail",
         "bestFor": "Home-office users who want a clean, simple arm from a desk brand",
@@ -5829,7 +5841,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Monitor Arms Ranked by BestPick Score | Phavai",
-    "metaDescription": "Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-monitor-arms.svg"
   },
   {
     "slug": "best-ergonomic-keyboards",
@@ -5860,8 +5873,8 @@
       {
         "name": "Logitech Ergo K860",
         "tag": "Best ergonomic keyboard for most people",
-        "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Ergonomic keyboard on a desk",
+        "image": "/photos/generated/product-best-ergonomic-keyboards-logitech-ergo-k860.svg",
+        "imageAlt": "Logitech Ergo K860 brand-neutral illustration for Best Ergonomic Keyboards",
         "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20Ergo%20K860",
         "price": "$130 typical retail",
         "bestFor": "People who want a gentle split layout with low learning curve",
@@ -5959,8 +5972,8 @@
       {
         "name": "Kinesis Freestyle2",
         "tag": "Best true split for beginners",
-        "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Ergonomic keyboard on a desk",
+        "image": "/photos/generated/product-best-ergonomic-keyboards-kinesis-freestyle2.svg",
+        "imageAlt": "Kinesis Freestyle2 brand-neutral illustration for Best Ergonomic Keyboards",
         "affiliateUrl": "https://www.amazon.com/s?k=Kinesis%20Freestyle2",
         "price": "$90-$135 typical retail",
         "bestFor": "Users who want shoulder-width typing without going full enthusiast",
@@ -6058,8 +6071,8 @@
       {
         "name": "Keychron Q11",
         "tag": "Best mechanical split keyboard",
-        "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Ergonomic keyboard on a desk",
+        "image": "/photos/generated/product-best-ergonomic-keyboards-keychron-q11.svg",
+        "imageAlt": "Keychron Q11 brand-neutral illustration for Best Ergonomic Keyboards",
         "affiliateUrl": "https://www.amazon.com/s?k=Keychron%20Q11",
         "price": "$205 typical retail",
         "bestFor": "Mechanical keyboard fans who want split typing and premium build",
@@ -6157,8 +6170,8 @@
       {
         "name": "ZSA Voyager",
         "tag": "Best programmable compact ergonomic keyboard",
-        "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Ergonomic keyboard on a desk",
+        "image": "/photos/generated/product-best-ergonomic-keyboards-zsa-voyager.svg",
+        "imageAlt": "ZSA Voyager brand-neutral illustration for Best Ergonomic Keyboards",
         "affiliateUrl": "https://www.amazon.com/s?k=ZSA%20Voyager",
         "price": "$365 typical retail",
         "bestFor": "Power users ready for layers, thumb keys, and a compact split layout",
@@ -6270,7 +6283,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Ergonomic Keyboards Ranked by BestPick Score | Phavai",
-    "metaDescription": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-ergonomic-keyboards.svg"
   },
   {
     "slug": "best-carry-on-luggage",
@@ -6301,8 +6315,8 @@
       {
         "name": "Travelpro Platinum Elite 21-inch",
         "tag": "Best carry-on for most travelers",
-        "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Carry-on luggage in a travel setting",
+        "image": "/photos/generated/product-best-carry-on-luggage-travelpro-platinum-elite-21-inch.svg",
+        "imageAlt": "Travelpro Platinum Elite 21-inch brand-neutral illustration for Best Carry-On Luggage",
         "affiliateUrl": "https://www.amazon.com/s?k=Travelpro%20Platinum%20Elite%2021-inch",
         "price": "$365 typical retail",
         "bestFor": "Frequent flyers who want practical organization and dependable wheels",
@@ -6400,8 +6414,8 @@
       {
         "name": "Briggs & Riley Baseline Essential",
         "tag": "Best premium lifetime-warranty carry-on",
-        "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Carry-on luggage in a travel setting",
+        "image": "/photos/generated/product-best-carry-on-luggage-briggs-and-riley-baseline-essential.svg",
+        "imageAlt": "Briggs & Riley Baseline Essential brand-neutral illustration for Best Carry-On Luggage",
         "affiliateUrl": "https://www.amazon.com/s?k=Briggs%20%26%20Riley%20Baseline%20Essential",
         "price": "$699 typical retail",
         "bestFor": "Travelers who want maximum durability and warranty confidence",
@@ -6499,8 +6513,8 @@
       {
         "name": "Away Bigger Carry-On",
         "tag": "Best hard-shell mainstream pick",
-        "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Carry-on luggage in a travel setting",
+        "image": "/photos/generated/product-best-carry-on-luggage-away-bigger-carry-on.svg",
+        "imageAlt": "Away Bigger Carry-On brand-neutral illustration for Best Carry-On Luggage",
         "affiliateUrl": "https://www.amazon.com/s?k=Away%20Bigger%20Carry-On",
         "price": "$295 typical retail",
         "bestFor": "Travelers who want a polished hard shell and simple buying experience",
@@ -6598,8 +6612,8 @@
       {
         "name": "Monos Carry-On Pro",
         "tag": "Best hard shell with front pocket",
-        "image": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Carry-on luggage in a travel setting",
+        "image": "/photos/generated/product-best-carry-on-luggage-monos-carry-on-pro.svg",
+        "imageAlt": "Monos Carry-On Pro brand-neutral illustration for Best Carry-On Luggage",
         "affiliateUrl": "https://www.amazon.com/s?k=Monos%20Carry-On%20Pro",
         "price": "$295 typical retail",
         "bestFor": "Laptop travelers who want a hard shell plus quick-access front storage",
@@ -6711,7 +6725,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Carry-On Luggage Ranked by BestPick Score | Phavai",
-    "metaDescription": "Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-carry-on-luggage.svg"
   },
   {
     "slug": "best-coffee-makers",
@@ -6742,8 +6757,8 @@
       {
         "name": "Technivorm Moccamaster KBGV Select",
         "tag": "Best coffee maker for most enthusiasts",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Technivorm_Moccamaster_K741.64B.jpg",
-        "imageAlt": "Technivorm Moccamaster coffee maker in a kitchen",
+        "image": "/photos/generated/product-best-coffee-makers-technivorm-moccamaster-kbgv-select.svg",
+        "imageAlt": "Technivorm Moccamaster KBGV Select brand-neutral illustration for Best Coffee Makers",
         "affiliateUrl": "https://www.amazon.com/s?k=Technivorm%20Moccamaster%20KBGV%20Select",
         "price": "$359 typical retail",
         "bestFor": "Daily drip drinkers who want simple, durable, excellent coffee",
@@ -6841,8 +6856,8 @@
       {
         "name": "Breville Precision Brewer",
         "tag": "Best customizable drip coffee maker",
-        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Coffee maker brewing fresh coffee",
+        "image": "/photos/generated/product-best-coffee-makers-breville-precision-brewer.svg",
+        "imageAlt": "Breville Precision Brewer brand-neutral illustration for Best Coffee Makers",
         "affiliateUrl": "https://www.amazon.com/s?k=Breville%20Precision%20Brewer",
         "price": "$329 typical retail",
         "bestFor": "Coffee drinkers who want temperature, bloom, and brew-mode control",
@@ -6940,8 +6955,8 @@
       {
         "name": "OXO Brew 9-Cup",
         "tag": "Best automated everyday coffee maker",
-        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Coffee maker brewing fresh coffee",
+        "image": "/photos/generated/product-best-coffee-makers-oxo-brew-9-cup.svg",
+        "imageAlt": "OXO Brew 9-Cup brand-neutral illustration for Best Coffee Makers",
         "affiliateUrl": "https://www.amazon.com/s?k=OXO%20Brew%209-Cup",
         "price": "$229 typical retail",
         "bestFor": "Households that want reliable drip coffee with minimal fuss",
@@ -7039,8 +7054,8 @@
       {
         "name": "Ninja 12-Cup Programmable Brewer",
         "tag": "Best budget family coffee maker",
-        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Coffee maker brewing fresh coffee",
+        "image": "/photos/generated/product-best-coffee-makers-ninja-12-cup-programmable-brewer.svg",
+        "imageAlt": "Ninja 12-Cup Programmable Brewer brand-neutral illustration for Best Coffee Makers",
         "affiliateUrl": "https://www.amazon.com/s?k=Ninja%2012-Cup%20Programmable%20Brewer",
         "price": "$80-$100 typical retail",
         "bestFor": "Families who want affordable programmable drip coffee",
@@ -7152,7 +7167,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Coffee Makers Ranked by BestPick Score | Phavai",
-    "metaDescription": "Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-coffee-makers.svg"
   },
   {
     "slug": "best-massage-guns",
@@ -7183,8 +7199,8 @@
       {
         "name": "Therabody Theragun Prime Plus",
         "tag": "Best massage gun overall",
-        "image": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Massage gun used for muscle recovery",
+        "image": "/photos/generated/product-best-massage-guns-therabody-theragun-prime-plus.svg",
+        "imageAlt": "Therabody Theragun Prime Plus brand-neutral illustration for Best Massage Guns",
         "affiliateUrl": "https://www.amazon.com/s?k=Therabody%20Theragun%20Prime%20Plus",
         "price": "$299 typical retail",
         "bestFor": "People who want premium app-guided recovery and strong percussive performance",
@@ -7282,8 +7298,8 @@
       {
         "name": "Hyperice Hypervolt 2 Pro",
         "tag": "Best quiet power",
-        "image": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Massage gun used for muscle recovery",
+        "image": "/photos/generated/product-best-massage-guns-hyperice-hypervolt-2-pro.svg",
+        "imageAlt": "Hyperice Hypervolt 2 Pro brand-neutral illustration for Best Massage Guns",
         "affiliateUrl": "https://www.amazon.com/s?k=Hyperice%20Hypervolt%202%20Pro",
         "price": "$329 typical retail",
         "bestFor": "Users who want smooth power and quieter operation for regular use",
@@ -7381,8 +7397,8 @@
       {
         "name": "Ekrin B37",
         "tag": "Best value massage gun",
-        "image": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Massage gun used for muscle recovery",
+        "image": "/photos/generated/product-best-massage-guns-ekrin-b37.svg",
+        "imageAlt": "Ekrin B37 brand-neutral illustration for Best Massage Guns",
         "affiliateUrl": "https://www.amazon.com/s?k=Ekrin%20B37",
         "price": "$229 typical retail",
         "bestFor": "Shoppers who want strong performance without Therabody pricing",
@@ -7480,8 +7496,8 @@
       {
         "name": "Theragun Mini",
         "tag": "Best portable massage gun",
-        "image": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Massage gun used for muscle recovery",
+        "image": "/photos/generated/product-best-massage-guns-theragun-mini.svg",
+        "imageAlt": "Theragun Mini brand-neutral illustration for Best Massage Guns",
         "affiliateUrl": "https://www.amazon.com/s?k=Theragun%20Mini",
         "price": "$199 typical retail",
         "bestFor": "Travelers and casual users who want compact relief",
@@ -7593,7 +7609,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Massage Guns Ranked by BestPick Score | Phavai",
-    "metaDescription": "Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-massage-guns.svg"
   },
   {
     "slug": "best-air-purifiers",
@@ -7624,8 +7641,8 @@
       {
         "name": "Coway Airmega AP-1512HH Mighty",
         "tag": "Best overall air purifier value",
-        "image": "https://cdn.pixabay.com/photo/2022/07/23/14/43/air-purifier-7340062_640.png",
-        "imageAlt": "Air purifier in a bright room",
+        "image": "/photos/generated/product-best-air-purifiers-coway-airmega-ap-1512hh-mighty.svg",
+        "imageAlt": "Coway Airmega AP-1512HH Mighty brand-neutral illustration for Best Air Purifiers",
         "affiliateUrl": "https://www.amazon.com/s?k=Coway%20Airmega%20AP-1512HH%20Mighty",
         "price": "$180-$230 typical retail",
         "bestFor": "Bedrooms and medium rooms where proven performance and value matter",
@@ -7723,8 +7740,8 @@
       {
         "name": "Levoit Vital 200S",
         "tag": "Best smart value purifier",
-        "image": "https://cdn.pixabay.com/photo/2022/07/23/14/43/air-purifier-7340062_640.png",
-        "imageAlt": "Air purifier in a bright room",
+        "image": "/photos/generated/product-best-air-purifiers-levoit-vital-200s.svg",
+        "imageAlt": "Levoit Vital 200S brand-neutral illustration for Best Air Purifiers",
         "affiliateUrl": "https://www.amazon.com/s?k=Levoit%20Vital%20200S",
         "price": "$190 typical retail",
         "bestFor": "Pet owners and smart-home users who want app control and good value",
@@ -7822,8 +7839,8 @@
       {
         "name": "Blueair Blue Pure 211i Max",
         "tag": "Best large-room purifier",
-        "image": "https://cdn.pixabay.com/photo/2022/07/23/14/43/air-purifier-7340062_640.png",
-        "imageAlt": "Air purifier in a bright room",
+        "image": "/photos/generated/product-best-air-purifiers-blueair-blue-pure-211i-max.svg",
+        "imageAlt": "Blueair Blue Pure 211i Max brand-neutral illustration for Best Air Purifiers",
         "affiliateUrl": "https://www.amazon.com/s?k=Blueair%20Blue%20Pure%20211i%20Max",
         "price": "$349 typical retail",
         "bestFor": "Living rooms and larger spaces that need more airflow",
@@ -7921,8 +7938,8 @@
       {
         "name": "Winix 5500-2",
         "tag": "Best budget odor-control pick",
-        "image": "https://cdn.pixabay.com/photo/2022/07/23/14/43/air-purifier-7340062_640.png",
-        "imageAlt": "Air purifier in a bright room",
+        "image": "/photos/generated/product-best-air-purifiers-winix-5500-2.svg",
+        "imageAlt": "Winix 5500-2 brand-neutral illustration for Best Air Purifiers",
         "affiliateUrl": "https://www.amazon.com/s?k=Winix%205500-2",
         "price": "$160-$200 typical retail",
         "bestFor": "Budget buyers who want HEPA filtration plus activated carbon value",
@@ -8034,7 +8051,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "metaTitle": "Best Air Purifiers Ranked by BestPick Score | Phavai",
-    "metaDescription": "Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance."
+    "metaDescription": "Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction. Compare top picks by BestPick Score, source breakdowns, consensus, pros, tradeoffs, and buyer-fit guidance.",
+    "image": "/photos/generated/guide-best-air-purifiers.svg"
   },
   {
     "slug": "best-trail-shoes-for-100-miles",
@@ -8065,7 +8083,7 @@
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best overall for 100 miles",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-100-miles-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "Runners who want a proven mix of cushion, grip, and late-race protection",
@@ -8158,13 +8176,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Trail Shoes for 100 Miles",
         "imageSeoName": "HOKA-Speedgoat-6-100-mile-trail-shoes"
       },
       {
         "name": "Topo Athletic Ultraventure 4",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Roomy trail shoe on dirt path",
+        "image": "/photos/generated/product-best-trail-shoes-for-100-miles-topo-athletic-ultraventure-4.svg",
+        "imageAlt": "Topo Athletic Ultraventure 4 brand-neutral illustration for Best Trail Shoes for 100 Miles",
         "affiliateUrl": "https://www.amazon.com/s?k=Topo%20Athletic%20Ultraventure%204",
         "price": "$150 typical retail",
         "specs": [
@@ -8262,8 +8280,8 @@
       },
       {
         "name": "Brooks Cascadia 19",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Protective trail shoe on rocky ground",
+        "image": "/photos/generated/product-best-trail-shoes-for-100-miles-brooks-cascadia-19.svg",
+        "imageAlt": "Brooks Cascadia 19 brand-neutral illustration for Best Trail Shoes for 100 Miles",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
         "price": "$140 typical retail",
         "specs": [
@@ -8362,7 +8380,7 @@
       {
         "name": "The North Face VECTIV Enduris 4",
         "tag": "Best cushioned alternative",
-        "image": "/photos/the-north-face-enduris-4.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-100-miles-the-north-face-vectiv-enduris-4.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=The%20North%20Face%20VECTIV%20Enduris%204",
         "price": "$150 typical retail",
         "bestFor": "Runners who want rocker-assisted comfort on less technical 100-mile courses",
@@ -8455,7 +8473,7 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "The North Face VECTIV Enduris 4 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "The North Face VECTIV Enduris 4 brand-neutral illustration for Best Trail Shoes for 100 Miles",
         "imageSeoName": "The-North-Face-VECTIV-Enduris-4-100-mile-trail-shoes"
       }
     ],
@@ -8475,7 +8493,8 @@
       "best-hydration-vests-for-100k-and-100-mile-races",
       "best-gps-watches-for-ultrarunning",
       "best-trail-shoes-for-wide-feet"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-trail-shoes-for-100-miles.svg"
   },
   {
     "slug": "best-trail-shoes-for-technical-trails",
@@ -8506,7 +8525,7 @@
       {
         "name": "La Sportiva Prodigio Pro",
         "tag": "Best technical trail shoe",
-        "image": "/photos/la-sportiva-prodigio-pro.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-technical-trails-la-sportiva-prodigio-pro.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=La%20Sportiva%20Prodigio%20Pro",
         "price": "$175-$190 typical retail",
         "bestFor": "Rocky, steep, precise mountain running where foothold and control matter",
@@ -8599,13 +8618,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "La Sportiva Prodigio Pro product image for Best Men's Trail Running Shoes",
+        "imageAlt": "La Sportiva Prodigio Pro brand-neutral illustration for Best Trail Shoes for Technical Trails",
         "imageSeoName": "La-Sportiva-Prodigio-Pro-technical-trails"
       },
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best cushioned technical option",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-technical-trails-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "Technical trails where you still want max-cushion protection",
@@ -8698,13 +8717,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Trail Shoes for Technical Trails",
         "imageSeoName": "HOKA-Speedgoat-6-technical-trails"
       },
       {
         "name": "Saucony Peregrine 15",
         "tag": "Best lower-profile technical trainer",
-        "image": "/photos/saucony-peregrine-15.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-technical-trails-saucony-peregrine-15.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Peregrine%2015",
         "price": "$140 typical retail",
         "bestFor": "Runners who want traction and ground feel for short-to-medium technical routes",
@@ -8797,13 +8816,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "Saucony Peregrine 15 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "Saucony Peregrine 15 brand-neutral illustration for Best Trail Shoes for Technical Trails",
         "imageSeoName": "Saucony-Peregrine-15-technical-trails"
       },
       {
         "name": "Brooks Catamount 4",
         "tag": "Best fast technical alternative",
-        "image": "/photos/brooks-catamount-4.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-technical-trails-brooks-catamount-4.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Catamount%204",
         "price": "$170 typical retail",
         "bestFor": "Runners who want a faster feel on rolling technical singletrack",
@@ -8896,7 +8915,7 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "Brooks Catamount 4 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "Brooks Catamount 4 brand-neutral illustration for Best Trail Shoes for Technical Trails",
         "imageSeoName": "Brooks-Catamount-4-technical-trails"
       }
     ],
@@ -8916,7 +8935,8 @@
       "best-trail-shoes-for-muddy-conditions",
       "best-trail-shoes-for-100-miles",
       "best-gps-watches-for-ultrarunning"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-trail-shoes-for-technical-trails.svg"
   },
   {
     "slug": "best-trail-shoes-for-wide-feet",
@@ -8946,8 +8966,8 @@
     "products": [
       {
         "name": "Topo Athletic Ultraventure 4",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Roomy trail shoe on dirt path",
+        "image": "/photos/generated/product-best-trail-shoes-for-wide-feet-topo-athletic-ultraventure-4.svg",
+        "imageAlt": "Topo Athletic Ultraventure 4 brand-neutral illustration for Best Trail Shoes for Wide Feet",
         "affiliateUrl": "https://www.amazon.com/s?k=Topo%20Athletic%20Ultraventure%204",
         "price": "$150 typical retail",
         "specs": [
@@ -9045,8 +9065,8 @@
       },
       {
         "name": "Altra Lone Peak 9",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Wide trail running shoe on rocky terrain",
+        "image": "/photos/generated/product-best-trail-shoes-for-wide-feet-altra-lone-peak-9.svg",
+        "imageAlt": "Altra Lone Peak 9 brand-neutral illustration for Best Trail Shoes for Wide Feet",
         "affiliateUrl": "https://www.amazon.com/s?k=Altra%20Lone%20Peak%209",
         "price": "$140 typical retail",
         "specs": [
@@ -9145,7 +9165,7 @@
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best if the wide version fits",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-wide-feet-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "Wide-foot runners who can get a secure fit in the wide model",
@@ -9238,13 +9258,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Trail Shoes for Wide Feet",
         "imageSeoName": "HOKA-Speedgoat-6-wide-feet-trail"
       },
       {
         "name": "Brooks Cascadia 19",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Protective trail shoe on rocky ground",
+        "image": "/photos/generated/product-best-trail-shoes-for-wide-feet-brooks-cascadia-19.svg",
+        "imageAlt": "Brooks Cascadia 19 brand-neutral illustration for Best Trail Shoes for Wide Feet",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
         "price": "$140 typical retail",
         "specs": [
@@ -9357,7 +9377,8 @@
       "best-womens-trail-running-shoes",
       "best-trail-shoes-for-beginners",
       "best-hydration-vests-for-100k-and-100-mile-races"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-trail-shoes-for-wide-feet.svg"
   },
   {
     "slug": "best-trail-shoes-for-muddy-conditions",
@@ -9387,8 +9408,8 @@
     "products": [
       {
         "name": "Salomon Speedcross 6",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Aggressive lugged trail shoe in muddy terrain",
+        "image": "/photos/generated/product-best-trail-shoes-for-muddy-conditions-salomon-speedcross-6.svg",
+        "imageAlt": "Salomon Speedcross 6 brand-neutral illustration for Best Trail Shoes for Muddy Conditions",
         "affiliateUrl": "https://www.amazon.com/s?k=Salomon%20Speedcross%206",
         "price": "$145 typical retail",
         "specs": [
@@ -9486,8 +9507,8 @@
       },
       {
         "name": "Inov-8 X-Talon Ultra 260 V2",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Mud shoe with aggressive outsole lugs",
+        "image": "/photos/generated/product-best-trail-shoes-for-muddy-conditions-inov-8-x-talon-ultra-260-v2.svg",
+        "imageAlt": "Inov-8 X-Talon Ultra 260 V2 brand-neutral illustration for Best Trail Shoes for Muddy Conditions",
         "affiliateUrl": "https://www.amazon.com/s?k=Inov-8%20X-Talon%20Ultra%20260%20V2",
         "price": "$150 typical retail",
         "specs": [
@@ -9586,7 +9607,7 @@
       {
         "name": "Saucony Peregrine 15",
         "tag": "Best versatile mud-capable shoe",
-        "image": "/photos/saucony-peregrine-15.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-muddy-conditions-saucony-peregrine-15.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Peregrine%2015",
         "price": "$140 typical retail",
         "bestFor": "Runners who need grip for mud but still run mixed terrain",
@@ -9679,13 +9700,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "Saucony Peregrine 15 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "Saucony Peregrine 15 brand-neutral illustration for Best Trail Shoes for Muddy Conditions",
         "imageSeoName": "Saucony-Peregrine-15-muddy-conditions"
       },
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best cushioned mixed-terrain option",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-muddy-conditions-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "Muddy patches inside longer mixed-terrain runs",
@@ -9778,7 +9799,7 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Trail Shoes for Muddy Conditions",
         "imageSeoName": "HOKA-Speedgoat-6-muddy-conditions"
       }
     ],
@@ -9798,7 +9819,8 @@
       "best-womens-trail-running-shoes",
       "best-trail-running-poles",
       "best-trail-shoes-for-beginners"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-trail-shoes-for-muddy-conditions.svg"
   },
   {
     "slug": "best-trail-shoes-for-beginners",
@@ -9828,8 +9850,8 @@
     "products": [
       {
         "name": "Brooks Cascadia 19",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Protective trail shoe on rocky ground",
+        "image": "/photos/generated/product-best-trail-shoes-for-beginners-brooks-cascadia-19.svg",
+        "imageAlt": "Brooks Cascadia 19 brand-neutral illustration for Best Trail Shoes for Beginners",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
         "price": "$140 typical retail",
         "specs": [
@@ -9928,7 +9950,7 @@
       {
         "name": "HOKA Speedgoat 6",
         "tag": "Best cushioned beginner option",
-        "image": "/photos/hoka-speed-goat-6.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-beginners-hoka-speedgoat-6.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Speedgoat%206",
         "price": "$155 typical retail",
         "bestFor": "New trail runners who want comfort and protection for longer dirt runs",
@@ -10021,13 +10043,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "HOKA Speedgoat 6 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "HOKA Speedgoat 6 brand-neutral illustration for Best Trail Shoes for Beginners",
         "imageSeoName": "HOKA-Speedgoat-6-beginners"
       },
       {
         "name": "Saucony Peregrine 15",
         "tag": "Best for shorter technical trails",
-        "image": "/photos/saucony-peregrine-15.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-beginners-saucony-peregrine-15.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Peregrine%2015",
         "price": "$140 typical retail",
         "bestFor": "Beginners on shorter, rockier, or more technical local trails",
@@ -10120,13 +10142,13 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "Saucony Peregrine 15 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "Saucony Peregrine 15 brand-neutral illustration for Best Trail Shoes for Beginners",
         "imageSeoName": "Saucony-Peregrine-15-beginners"
       },
       {
         "name": "The North Face VECTIV Enduris 4",
         "tag": "Best road-to-trail comfort option",
-        "image": "/photos/the-north-face-enduris-4.webp",
+        "image": "/photos/generated/product-best-trail-shoes-for-beginners-the-north-face-vectiv-enduris-4.svg",
         "affiliateUrl": "https://www.amazon.com/s?k=The%20North%20Face%20VECTIV%20Enduris%204",
         "price": "$150 typical retail",
         "bestFor": "Beginners who want a cushioned trainer feel on smoother trails",
@@ -10219,7 +10241,7 @@
             "verifiedAt": "Apr 21, 2026"
           }
         ],
-        "imageAlt": "The North Face VECTIV Enduris 4 product image for Best Men's Trail Running Shoes",
+        "imageAlt": "The North Face VECTIV Enduris 4 brand-neutral illustration for Best Trail Shoes for Beginners",
         "imageSeoName": "The-North-Face-VECTIV-Enduris-4-beginners"
       }
     ],
@@ -10239,7 +10261,8 @@
       "best-trail-shoes-for-wide-feet",
       "best-trail-shoes-for-technical-trails",
       "best-trail-shoes-for-muddy-conditions"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-trail-shoes-for-beginners.svg"
   },
   {
     "slug": "best-gps-watches-for-ultrarunning",
@@ -10271,8 +10294,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Garmin%20Forerunner%20965",
         "name": "Garmin Forerunner 965",
         "tag": "Best ultrarunning watch for most runners",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Premium GPS running watch with bright display",
+        "image": "/photos/generated/product-best-gps-watches-for-ultrarunning-garmin-forerunner-965.svg",
+        "imageAlt": "Garmin Forerunner 965 brand-neutral illustration for Best GPS Watches for Ultrarunning",
         "price": "$599 typical retail",
         "bestFor": "Ultrarunners who want maps, training depth, and strong battery in a lighter watch",
         "avoidIf": "You want the cheapest reliable GPS option.",
@@ -10370,8 +10393,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=COROS%20Pace%203",
         "name": "COROS Pace 3",
         "tag": "Best value ultrarunning watch",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Lightweight GPS running watch for training",
+        "image": "/photos/generated/product-best-gps-watches-for-ultrarunning-coros-pace-3.svg",
+        "imageAlt": "COROS Pace 3 brand-neutral illustration for Best GPS Watches for Ultrarunning",
         "price": "$229 typical retail",
         "bestFor": "Runners who want long battery and accurate tracking without paying Garmin prices",
         "avoidIf": "You need rich maps or the deepest smartwatch ecosystem.",
@@ -10469,8 +10492,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Garmin%20Forerunner%20265",
         "name": "Garmin Forerunner 265",
         "tag": "Best for non-map ultra training",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Garmin_Forerunner_265_musicG.jpg",
-        "imageAlt": "Garmin Forerunner 265 running watch on retail display",
+        "image": "/photos/generated/product-best-gps-watches-for-ultrarunning-garmin-forerunner-265.svg",
+        "imageAlt": "Garmin Forerunner 265 brand-neutral illustration for Best GPS Watches for Ultrarunning",
         "price": "$449 typical retail",
         "bestFor": "Ultra-curious runners who want training metrics but do not need onboard maps",
         "avoidIf": "Your races require navigation or very long GPS battery.",
@@ -10568,8 +10591,8 @@
         "affiliateUrl": "https://www.amazon.com/s?k=Polar%20Vantage%20V3",
         "name": "Polar Vantage V3",
         "tag": "Best recovery-focused alternative",
-        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Running watch for recovery-focused training",
+        "image": "/photos/generated/product-best-gps-watches-for-ultrarunning-polar-vantage-v3.svg",
+        "imageAlt": "Polar Vantage V3 brand-neutral illustration for Best GPS Watches for Ultrarunning",
         "price": "$599 typical retail",
         "bestFor": "Runners who value recovery, physiology, and long training blocks",
         "avoidIf": "You want the strongest navigation ecosystem.",
@@ -10680,7 +10703,8 @@
       "best-hydration-vests-for-100k-and-100-mile-races",
       "best-trail-shoes-for-technical-trails",
       "best-running-vests"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-gps-watches-for-ultrarunning.svg"
   },
   {
     "slug": "best-hydration-vests-for-100k-and-100-mile-races",
@@ -10711,8 +10735,8 @@
       {
         "name": "Salomon ADV Skin 12",
         "tag": "Best overall ultra vest",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-vests-for-100k-and-100-mile-races-salomon-adv-skin-12.svg",
+        "imageAlt": "Salomon ADV Skin 12 brand-neutral illustration for Best Hydration Vests for 100K and 100 Mile Races",
         "affiliateUrl": "https://www.amazon.com/s?k=Salomon%20ADV%20Skin%2012",
         "price": "$165 typical retail",
         "bestFor": "Most 100K and 100-mile runners who need stable storage without overpacking",
@@ -10810,8 +10834,8 @@
       {
         "name": "Nathan Pinnacle 12L",
         "tag": "Best lightweight 12L alternative",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-vests-for-100k-and-100-mile-races-nathan-pinnacle-12l.svg",
+        "imageAlt": "Nathan Pinnacle 12L brand-neutral illustration for Best Hydration Vests for 100K and 100 Mile Races",
         "affiliateUrl": "https://www.amazon.com/s?k=Nathan%20Pinnacle%2012L",
         "price": "$200 typical retail",
         "bestFor": "Runners who want race storage with a lighter, closer feel",
@@ -10909,8 +10933,8 @@
       {
         "name": "Osprey Duro/Dyna 15",
         "tag": "Best high-capacity ultra vest",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-vests-for-100k-and-100-mile-races-osprey-duro-dyna-15.svg",
+        "imageAlt": "Osprey Duro/Dyna 15 brand-neutral illustration for Best Hydration Vests for 100K and 100 Mile Races",
         "affiliateUrl": "https://www.amazon.com/s?k=Osprey%20Duro%2FDyna%2015",
         "price": "$165 typical retail",
         "bestFor": "Mountain ultras, required gear lists, and runners who carry more layers or food",
@@ -11008,8 +11032,8 @@
       {
         "name": "CamelBak Zephyr Pro",
         "tag": "Best breathable race option",
-        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Hydration pack on a mountain trail",
+        "image": "/photos/generated/product-best-hydration-vests-for-100k-and-100-mile-races-camelbak-zephyr-pro.svg",
+        "imageAlt": "CamelBak Zephyr Pro brand-neutral illustration for Best Hydration Vests for 100K and 100 Mile Races",
         "affiliateUrl": "https://www.amazon.com/s?k=CamelBak%20Zephyr%20Pro",
         "price": "$150-$180 typical retail",
         "bestFor": "Hot races and runners who prioritize ventilation",
@@ -11121,7 +11145,8 @@
       "best-trail-shoes-for-100-miles",
       "best-gps-watches-for-ultrarunning",
       "best-recovery-sandals"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-hydration-vests-for-100k-and-100-mile-races.svg"
   },
   {
     "slug": "best-road-shoe-for-your-first-marathon",
@@ -11151,8 +11176,8 @@
     "products": [
       {
         "name": "ASICS Novablast 5",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "ASICS Novablast 5 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-road-shoe-for-your-first-marathon-asics-novablast-5.svg",
+        "imageAlt": "ASICS Novablast 5 brand-neutral illustration for Best Road Shoe for Your First Marathon",
         "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Novablast%205",
         "price": "$140 typical retail",
         "specs": [
@@ -11250,8 +11275,8 @@
       },
       {
         "name": "Brooks Ghost 17",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Brooks Ghost 17 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-road-shoe-for-your-first-marathon-brooks-ghost-17.svg",
+        "imageAlt": "Brooks Ghost 17 brand-neutral illustration for Best Road Shoe for Your First Marathon",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Ghost%2017",
         "price": "$150 typical retail",
         "specs": [
@@ -11349,8 +11374,8 @@
       },
       {
         "name": "Saucony Ride 18",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Saucony Ride 18 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-road-shoe-for-your-first-marathon-saucony-ride-18.svg",
+        "imageAlt": "Saucony Ride 18 brand-neutral illustration for Best Road Shoe for Your First Marathon",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Ride%2018",
         "price": "$140 typical retail",
         "specs": [
@@ -11448,8 +11473,8 @@
       },
       {
         "name": "Nike Pegasus 41",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Nike Pegasus 41 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-road-shoe-for-your-first-marathon-nike-pegasus-41.svg",
+        "imageAlt": "Nike Pegasus 41 brand-neutral illustration for Best Road Shoe for Your First Marathon",
         "affiliateUrl": "https://www.amazon.com/s?k=Nike%20Pegasus%2041",
         "price": "$140 typical retail",
         "specs": [
@@ -11562,7 +11587,8 @@
       "best-running-headphones",
       "best-gps-running-watches",
       "best-recovery-sandals"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-road-shoe-for-your-first-marathon.svg"
   },
   {
     "slug": "best-daily-trainers-for-marathon-training",
@@ -11592,8 +11618,8 @@
     "products": [
       {
         "name": "ASICS Novablast 5",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "ASICS Novablast 5 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-daily-trainers-for-marathon-training-asics-novablast-5.svg",
+        "imageAlt": "ASICS Novablast 5 brand-neutral illustration for Best Daily Trainers for Marathon Training",
         "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Novablast%205",
         "price": "$140 typical retail",
         "specs": [
@@ -11691,8 +11717,8 @@
       },
       {
         "name": "Saucony Ride 18",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Saucony Ride 18 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-daily-trainers-for-marathon-training-saucony-ride-18.svg",
+        "imageAlt": "Saucony Ride 18 brand-neutral illustration for Best Daily Trainers for Marathon Training",
         "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Ride%2018",
         "price": "$140 typical retail",
         "specs": [
@@ -11790,8 +11816,8 @@
       },
       {
         "name": "New Balance Fresh Foam X 1080v14",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "New Balance Fresh Foam X 1080v14 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-daily-trainers-for-marathon-training-new-balance-fresh-foam-x-1080v14.svg",
+        "imageAlt": "New Balance Fresh Foam X 1080v14 brand-neutral illustration for Best Daily Trainers for Marathon Training",
         "affiliateUrl": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%201080v14",
         "price": "$165 typical retail",
         "specs": [
@@ -11889,8 +11915,8 @@
       },
       {
         "name": "HOKA Clifton 10",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "HOKA Clifton 10 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-daily-trainers-for-marathon-training-hoka-clifton-10.svg",
+        "imageAlt": "HOKA Clifton 10 brand-neutral illustration for Best Daily Trainers for Marathon Training",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Clifton%2010",
         "price": "$150 typical retail",
         "specs": [
@@ -12003,7 +12029,8 @@
       "best-gps-running-watches",
       "best-running-headphones",
       "best-recovery-sandals"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-daily-trainers-for-marathon-training.svg"
   },
   {
     "slug": "best-marathon-shoes-for-heavy-runners",
@@ -12033,8 +12060,8 @@
     "products": [
       {
         "name": "ASICS Gel-Nimbus 27",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "ASICS Gel-Nimbus 27 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-marathon-shoes-for-heavy-runners-asics-gel-nimbus-27.svg",
+        "imageAlt": "ASICS Gel-Nimbus 27 brand-neutral illustration for Best Marathon Shoes for Heavy Runners",
         "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Gel-Nimbus%2027",
         "price": "$165 typical retail",
         "specs": [
@@ -12132,8 +12159,8 @@
       },
       {
         "name": "Brooks Glycerin 22",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "Brooks Glycerin 22 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-marathon-shoes-for-heavy-runners-brooks-glycerin-22.svg",
+        "imageAlt": "Brooks Glycerin 22 brand-neutral illustration for Best Marathon Shoes for Heavy Runners",
         "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Glycerin%2022",
         "price": "$165 typical retail",
         "specs": [
@@ -12231,8 +12258,8 @@
       },
       {
         "name": "New Balance Fresh Foam X 1080v14",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "New Balance Fresh Foam X 1080v14 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-marathon-shoes-for-heavy-runners-new-balance-fresh-foam-x-1080v14.svg",
+        "imageAlt": "New Balance Fresh Foam X 1080v14 brand-neutral illustration for Best Marathon Shoes for Heavy Runners",
         "affiliateUrl": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%201080v14",
         "price": "$165 typical retail",
         "specs": [
@@ -12330,8 +12357,8 @@
       },
       {
         "name": "HOKA Bondi 9",
-        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-        "imageAlt": "HOKA Bondi 9 road running shoe for marathon training",
+        "image": "/photos/generated/product-best-marathon-shoes-for-heavy-runners-hoka-bondi-9.svg",
+        "imageAlt": "HOKA Bondi 9 brand-neutral illustration for Best Marathon Shoes for Heavy Runners",
         "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Bondi%209",
         "price": "$170 typical retail",
         "specs": [
@@ -12444,6 +12471,7 @@
       "best-gps-running-watches",
       "best-recovery-sandals",
       "best-running-headphones"
-    ]
+    ],
+    "image": "/photos/generated/guide-best-marathon-shoes-for-heavy-runners.svg"
   }
 ]

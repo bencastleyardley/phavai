@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Nathan Pinnacle 12L product visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f9fafb"/>
+      <stop offset=".62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a3e635" stop-opacity=".22"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#1f2937" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="212" cy="157" r="115" fill="#14b8a6" opacity=".18"/>
+  <circle cx="683" cy="277" r="155" fill="#fb7185" opacity=".14"/>
+  <g transform="translate(0 -36)">
+    <path d="M315 205h110l25 125 25-125h110l78 480H510l-60-178-60 178H237l78-480Z" fill="#1f2937"/><rect x="300" y="385" width="95" height="155" rx="30" fill="#fff" opacity=".86"/><rect x="505" y="385" width="95" height="155" rx="30" fill="#a3e635" opacity=".9"/>
+  </g>
+  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
+  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#1f2937">Nathan Pinnacle 12L</text>
+  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937" opacity=".72">Best Hydration Vests for</text><text x="450" y="848" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937" opacity=".72">100K and 100 Mile Races</text>
+</svg>

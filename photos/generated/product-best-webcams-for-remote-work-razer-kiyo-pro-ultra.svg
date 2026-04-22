@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Razer Kiyo Pro Ultra product visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset=".62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity=".22"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#18181b" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="181" cy="206" r="115" fill="#2563eb" opacity=".18"/>
+  <circle cx="674" cy="286" r="155" fill="#60a5fa" opacity=".14"/>
+  <g transform="translate(0 -36)">
+    <rect x="185" y="350" width="530" height="64" rx="22" fill="#18181b"/><path d="M270 414v220M630 414v220" stroke="#18181b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="350" y="220" width="200" height="118" rx="18" fill="#fff" opacity=".9"/><path d="M395 338h110" stroke="#18181b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <rect x="238" y="651" width="424" height="64" rx="34" fill="#fff" opacity=".68"/>
+  <text x="450" y="705" text-anchor="middle" font-size="38" font-weight="800" fill="#18181b">Razer Kiyo Pro Ultra</text>
+  <text x="450" y="820" text-anchor="middle" font-size="22" font-weight="700" fill="#18181b" opacity=".72">Best Webcams for Remote Work</text>
+</svg>

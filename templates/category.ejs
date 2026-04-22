@@ -1,4 +1,5 @@
-<% const ogImage = products[0].image.startsWith("http") ? products[0].image : `https://www.phavai.com${products[0].image}`; %>
+<% const pageImage = image || products[0].image; %>
+<% const ogImage = pageImage.startsWith("http") ? pageImage : `https://www.phavai.com${pageImage}`; %>
 <!doctype html>
 <html lang="en">
 <head>
