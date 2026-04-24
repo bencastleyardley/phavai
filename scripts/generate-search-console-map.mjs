@@ -1,9 +1,21 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-const categories = JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, ""));
+const categories = [
+  ...JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, "")),
+  ...readOptionalJson("data/roundup-additions.json", [])
+];
 const sections = JSON.parse(readFileSync("data/sections.json", "utf8").replace(/^\uFEFF/, ""));
 const supportingPages = JSON.parse(readFileSync("data/supporting.json", "utf8").replace(/^\uFEFF/, ""));
 const roadmap = JSON.parse(readFileSync("data/content-roadmap.json", "utf8").replace(/^\uFEFF/, ""));
+
+function readOptionalJson(path, fallback) {
+  try {
+    return JSON.parse(readFileSync(path, "utf8").replace(/^\uFEFF/, ""));
+  } catch (error) {
+    if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
+}
 
 function slugify(value) {
   return value

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Nike Zegama 2 product visual">
+  <defs>
+    <linearGradient id="bg-zegama" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset=".58" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity=".2"/>
+    </linearGradient>
+    <pattern id="grid-zegama" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#1e1b4b" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg-zegama)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid-zegama)"/>
+  <circle cx="240" cy="214" r="120" fill="#a78bfa" opacity=".18"/>
+  <circle cx="685" cy="290" r="155" fill="#14b8a6" opacity=".14"/>
+  <circle cx="300" cy="662" r="30" fill="#14b8a6" opacity=".18"/>
+  <circle cx="650" cy="620" r="40" fill="#8b5cf6" opacity=".22"/>
+  <path d="M282 714c67-43 152-43 225 0" stroke="#14b8a6" stroke-width="24" stroke-linecap="round" opacity=".28" fill="none"/>
+  <path d="M656 170c36 34 76 34 112 0" stroke="#8b5cf6" stroke-width="18" stroke-linecap="round" opacity=".34" fill="none"/>
+  <g transform="translate(0 8) rotate(3 450 450) scale(.947) translate(24 26)">
+    <path d="M200 530c67-95 130-150 215-172 82 83 167 132 283 151 47 8 70 43 49 83-28 53-132 81-278 78-124-2-226-27-262-67-19-22-20-46-7-73Z" fill="#1e1b4b"/>
+    <path d="M302 522h318M390 430l-52 71M470 452l-47 64M548 476l-41 56" stroke="#1e1b4b" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M226 608c111 33 313 45 475 13" stroke="#14b8a6" stroke-width="24" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

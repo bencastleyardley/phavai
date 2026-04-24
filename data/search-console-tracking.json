@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22T14:01:34.260Z",
+  "generated_at": "2026-04-24T15:52:55.177Z",
   "purpose": "Landing-page and query map for joining Google Search Console exports with Phavai content priorities.",
-  "live_page_count": 47,
+  "live_page_count": 51,
   "planned_opportunity_count": 243,
   "live_pages": [
     {
@@ -70,7 +70,11 @@
         "/best-hydration-vests-for-100k-and-100-mile-races.html",
         "/best-road-shoe-for-your-first-marathon.html",
         "/best-daily-trainers-for-marathon-training.html",
-        "/best-marathon-shoes-for-heavy-runners.html"
+        "/best-marathon-shoes-for-heavy-runners.html",
+        "/best-comfortable-trail-running-shoes.html",
+        "/best-ultramarathon-fuel.html",
+        "/best-running-gels-for-ultramarathons.html",
+        "/best-electrolyte-mixes-for-ultrarunning.html"
       ],
       "gsc_metrics_to_monitor": [
         "clicks",
@@ -999,6 +1003,140 @@
         "/best-gps-running-watches.html",
         "/best-recovery-sandals.html",
         "/best-running-headphones.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-comfortable-trail-running-shoes.html",
+      "path": "/best-comfortable-trail-running-shoes.html",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 1,
+      "primary_query": "top 10 most comfortable trail shoes",
+      "secondary_query_patterns": [
+        "top 10 most comfortable trail shoes reviews",
+        "top 10 most comfortable trail shoes buying guide",
+        "top 10 most comfortable trail shoes recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 24, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-trail-shoes-for-100-miles.html",
+        "/best-trail-shoes-for-wide-feet.html",
+        "/best-trail-shoes-for-beginners.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-ultramarathon-fuel.html",
+      "path": "/best-ultramarathon-fuel.html",
+      "title": "Best Food for Ultra Marathons",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best food for ultra marathons",
+      "secondary_query_patterns": [
+        "best food for ultra marathons reviews",
+        "best food for ultra marathons buying guide",
+        "best food for ultra marathons recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 24, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-running-gels-for-ultramarathons.html",
+        "/best-electrolyte-mixes-for-ultrarunning.html",
+        "/best-hydration-packs.html",
+        "/best-running-vests.html",
+        "/best-gps-watches-for-ultrarunning.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-gels-for-ultramarathons.html",
+      "path": "/best-running-gels-for-ultramarathons.html",
+      "title": "Best Running Gels for Ultramarathons",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running gels for ultramarathons",
+      "secondary_query_patterns": [
+        "best running gels for ultramarathons reviews",
+        "best running gels for ultramarathons buying guide",
+        "best running gels for ultramarathons recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 24, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-ultramarathon-fuel.html",
+        "/best-electrolyte-mixes-for-ultrarunning.html",
+        "/best-hydration-vests-for-100k-and-100-mile-races.html",
+        "/best-gps-watches-for-ultrarunning.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-electrolyte-mixes-for-ultrarunning.html",
+      "path": "/best-electrolyte-mixes-for-ultrarunning.html",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best electrolyte mixes for ultrarunning",
+      "secondary_query_patterns": [
+        "best electrolyte mixes for ultrarunning reviews",
+        "best electrolyte mixes for ultrarunning buying guide",
+        "best electrolyte mixes for ultrarunning recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "April 24, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-ultramarathon-fuel.html",
+        "/best-running-gels-for-ultramarathons.html",
+        "/best-hydration-packs.html",
+        "/best-running-vests.html"
       ],
       "gsc_metrics_to_monitor": [
         "clicks",

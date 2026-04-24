@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Tailwind Endurance Fuel product visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset=".62" stop-color="#ffffff"/><stop offset="1" stop-color="#16a34a" stop-opacity=".2"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0v48" fill="none" stroke="#0f172a" stroke-opacity=".06" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="288" cy="248" r="115" fill="#f59e0b" opacity=".16"/>
+  <circle cx="612" cy="298" r="155" fill="#16a34a" opacity=".13"/>
+  <path d="M285 716c70-44 154-44 226 0" stroke="#16a34a" stroke-width="24" stroke-linecap="round" opacity=".28" fill="none"/>
+  <g transform="translate(0 12) rotate(1 450 450) scale(.94) translate(27 27)"><path d="M300 185h300l54 110v395H246V295l54-110Z" fill="#0f172a"/><path d="M300 185h300M300 690h300M330 345h240M345 430h210M370 520h160" stroke="#0f172a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="450" cy="585" r="44" fill="#16a34a"/></g>
+</svg>

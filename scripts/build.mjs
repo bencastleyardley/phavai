@@ -1,14 +1,27 @@
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import ejs from "ejs";
 
-const categories = JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, ""));
+const categories = [
+  ...JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, "")),
+  ...readOptionalJson("data/roundup-additions.json", [])
+];
 const sections = JSON.parse(readFileSync("data/sections.json", "utf8").replace(/^\uFEFF/, ""));
 const supportingPages = JSON.parse(readFileSync("data/supporting.json", "utf8").replace(/^\uFEFF/, ""));
 const imageSources = JSON.parse(readFileSync("data/image-sources.json", "utf8").replace(/^\uFEFF/, ""));
 const sourceGovernance = JSON.parse(readFileSync("data/source-governance.json", "utf8").replace(/^\uFEFF/, ""));
+const affiliateOverrides = readOptionalJson("data/affiliate-overrides.json", []);
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
+
+function readOptionalJson(path, fallback) {
+  try {
+    return JSON.parse(readFileSync(path, "utf8").replace(/^\uFEFF/, ""));
+  } catch (error) {
+    if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
+}
 
 const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
@@ -80,6 +93,10 @@ const CORE_ROUNDUP_SLUGS = new Set([
   "best-trail-running-poles",
   "best-running-vests",
   "best-recovery-sandals",
+  "best-comfortable-trail-running-shoes",
+  "best-ultramarathon-fuel",
+  "best-running-gels-for-ultramarathons",
+  "best-electrolyte-mixes-for-ultrarunning",
   "best-standing-desks",
   "best-office-chairs",
   "best-webcams-for-remote-work",
@@ -125,6 +142,7 @@ const REVIEW_ICON_RULES = [
   [/hydration|vest|pack/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg>`],
   [/pole/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 8v48M40 8v48M18 18h12M34 18h12M20 56h8m8 0h8"/></svg>`],
   [/sandal|slide|recovery/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 43c7-12 18-17 36-16 2 12-6 20-21 20-7 0-12-1-15-4Z"/><path d="M29 29c3 4 4 9 2 16"/></svg>`],
+  [/gel|fuel|electrolyte|nutrition|food/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg>`],
   [/desk/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 26h44M16 26v28m32-28v28M20 14h24v12"/></svg>`],
   [/chair/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 10h18l2 26H21l2-26ZM18 36h28v8H18zM32 44v12m-11 0h22"/></svg>`],
   [/webcam/i, `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="16" y="16" width="32" height="24" rx="8"/><circle cx="32" cy="28" r="6"/><path d="M24 50h16m-8-10v10"/></svg>`],
@@ -202,6 +220,18 @@ function withAmazonAffiliateTag(url = "") {
   } catch {
     return url;
   }
+}
+
+function resolveAffiliateUrl(product, category) {
+  const normalizedProduct = product.name.toLowerCase();
+  const normalizedCategory = category.slug.toLowerCase();
+  const override = affiliateOverrides.find((item) => {
+    const productMatches = item.productName?.toLowerCase() === normalizedProduct;
+    const categoryMatches = !item.categorySlug || item.categorySlug.toLowerCase() === normalizedCategory;
+    return productMatches && categoryMatches;
+  });
+
+  return override?.url || product.affiliateUrl;
 }
 
 function parseYouTubeId(url = "") {
@@ -782,7 +812,7 @@ function computeProductScores(product, category) {
 
   return {
     ...normalizedProduct,
-    affiliateUrl: withAmazonAffiliateTag(normalizedProduct.affiliateUrl),
+    affiliateUrl: withAmazonAffiliateTag(resolveAffiliateUrl(normalizedProduct, category)),
     imageInfo,
     priceInsight: buildPriceInsight(normalizedProduct),
     sourceScores: channelScores,

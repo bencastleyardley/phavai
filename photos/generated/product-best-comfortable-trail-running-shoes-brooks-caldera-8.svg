@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Brooks Caldera 8 product visual">
+  <defs>
+    <linearGradient id="bg-caldera" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset=".58" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity=".22"/>
+    </linearGradient>
+    <pattern id="grid-caldera" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#0f172a" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg-caldera)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid-caldera)"/>
+  <circle cx="255" cy="222" r="122" fill="#38bdf8" opacity=".16"/>
+  <circle cx="678" cy="278" r="148" fill="#f97316" opacity=".14"/>
+  <circle cx="676" cy="640" r="42" fill="#fb923c" opacity=".22"/>
+  <circle cx="258" cy="640" r="30" fill="#0ea5e9" opacity=".18"/>
+  <path d="M286 716c71-44 154-44 225 0" stroke="#f97316" stroke-width="26" stroke-linecap="round" opacity=".28" fill="none"/>
+  <path d="M640 152c38 36 80 36 118 0" stroke="#38bdf8" stroke-width="18" stroke-linecap="round" opacity=".34" fill="none"/>
+  <g transform="translate(0 18) rotate(-2 450 450) scale(.95) translate(22 28)">
+    <path d="M194 533c74-97 137-149 220-168 74 78 154 126 271 146 47 8 72 42 53 82-25 52-129 81-274 79-126-2-230-27-266-65-20-21-21-46-4-74Z" fill="#0f172a"/>
+    <path d="M306 520h310M380 438l-48 68M458 458l-44 61M534 478l-39 52" stroke="#0f172a" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M220 608c104 33 307 46 469 14" stroke="#f97316" stroke-width="24" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

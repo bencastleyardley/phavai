@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T22:05:49.148Z",
-  "pages_checked": 47,
+  "generated_at": "2026-04-24T15:53:02.252Z",
+  "pages_checked": 51,
   "errors": [],
   "warnings": [],
   "pages": [
@@ -54,6 +54,19 @@
       ]
     },
     {
+      "file": "best-comfortable-trail-running-shoes.html",
+      "title": "Top 10 Most Comfortable Trail Shoes | Phavai",
+      "description_length": 179,
+      "canonical": "https://www.phavai.com/best-comfortable-trail-running-shoes.html",
+      "h1": "Top 10 Most Comfortable Trail Shoes",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-daily-trainers-for-marathon-training.html",
       "title": "Best Daily Trainers for Marathon Training | Phavai Buying Guide",
       "description_length": 132,
@@ -72,6 +85,19 @@
       "description_length": 213,
       "canonical": "https://www.phavai.com/best-desk-mats.html",
       "h1": "Best Desk Mats",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-electrolyte-mixes-for-ultrarunning.html",
+      "title": "Best Electrolyte Mixes for Ultrarunning | Phavai",
+      "description_length": 156,
+      "canonical": "https://www.phavai.com/best-electrolyte-mixes-for-ultrarunning.html",
+      "h1": "Best Electrolyte Mixes for Ultrarunning",
       "structured_data_types": [
         "Article",
         "ItemList",
@@ -236,6 +262,19 @@
       ]
     },
     {
+      "file": "best-running-gels-for-ultramarathons.html",
+      "title": "Best Running Gels for Ultramarathons | Phavai",
+      "description_length": 154,
+      "canonical": "https://www.phavai.com/best-running-gels-for-ultramarathons.html",
+      "h1": "Best Running Gels for Ultramarathons",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-running-headphones.html",
       "title": "Best Running Headphones | Phavai Buying Guide",
       "description_length": 241,
@@ -345,6 +384,19 @@
       "description_length": 133,
       "canonical": "https://www.phavai.com/best-trail-shoes-for-wide-feet.html",
       "h1": "Best Trail Shoes for Wide Feet",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-ultramarathon-fuel.html",
+      "title": "Best Food for Ultra Marathons | Phavai",
+      "description_length": 174,
+      "canonical": "https://www.phavai.com/best-ultramarathon-fuel.html",
+      "h1": "Best Food for Ultra Marathons",
       "structured_data_types": [
         "Article",
         "ItemList",

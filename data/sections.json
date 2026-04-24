@@ -7,6 +7,9 @@
     "intro": "Outdoor shopping gets noisy fast because every runner, trail, and race asks for a different compromise. Phavai pulls the best reviews together so the right pick, the wrong-fit warnings, and the real-world proof are easier to see.",
     "covered": [
       "trail running shoes",
+      "ultramarathon fuel",
+      "running gels",
+      "electrolyte mixes",
       "running headphones",
       "GPS running watches",
       "hydration packs and vests",
@@ -26,6 +29,10 @@
       {
         "heading": "Durability is part of value",
         "body": "A cheaper pick can become expensive if foam dies early, uppers fail, or comfort disappears halfway through a training block."
+      },
+      {
+        "heading": "Fuel has to be practiced",
+        "body": "For ultra nutrition, the best product is the one your stomach tolerates repeatedly in training, not the one with the loudest race-day claims."
       }
     ],
     "image": "/photos/generated/section-outdoor.svg",

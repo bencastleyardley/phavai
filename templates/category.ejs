@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
   <script src="/score-controls.js" defer></script>
+  <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -115,7 +116,7 @@
       <div class="wrap">
         <a class="crumb" href="/<%= section.slug %>.html">Phavai / <%= section.title %> / <%= eyebrow %></a>
         <h1><%= title %></h1>
-        <p class="lede">Shopping for <%= title.toLowerCase() %> gets messy fast. Phavai pulls together the best reviews and buyer feedback so the winner, tradeoffs, and proof are easier to see.</p>
+        <p class="lede"><%= (typeof lede !== "undefined" && lede) || `Shopping for ${title.toLowerCase()} gets messy fast. Phavai pulls together the best reviews and buyer feedback so the winner, tradeoffs, and proof are easier to see.` %></p>
         <div class="meta-row" aria-label="Page details">
           <span class="meta-pill">Last updated <%= updated %></span>
           <span class="meta-pill">Sources checked <%= sourcesVerifiedAt %></span>
@@ -139,7 +140,7 @@
             </div>
             <div>
               <b>Why trust the pick</b>
-              <p>The strongest public evidence points to the same practical pick, with the tradeoffs shown before the shopping link.</p>
+              <p><%= (typeof heroTrust !== "undefined" && heroTrust) || "The strongest public evidence points to the same practical pick, with the tradeoffs shown before the shopping link." %></p>
             </div>
           </div>
           <a class="button" href="#<%= products[0].name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") %>">Jump to the winner</a>
@@ -177,6 +178,19 @@
                   <div class="score-box"><strong><%= product.signal %>/5</strong><span>Evidence depth</span></div>
                 </div>
                 <p class="score-note">Based on <%= product.evidenceCount %> review and owner-feedback inputs. Custom score: <span data-raw-score><%= product.rawBestPickScore %></span>/100. Difference from the editorial default: <span data-score-delta>0</span>.</p>
+
+                <% if (product.positiveThemes?.length || product.cautionThemes?.length) { %>
+                  <div class="consensus-snapshot" aria-label="Review consensus for <%= product.name %>">
+                    <div>
+                      <span>Review consensus</span>
+                      <p><%= (product.positiveThemes?.[0] || product.pros?.[0] || product.bestFor) %></p>
+                    </div>
+                    <div>
+                      <span>What to double-check</span>
+                      <p><%= (product.cautionThemes?.[0] || product.cons?.[0] || product.avoidIf) %></p>
+                    </div>
+                  </div>
+                <% } %>
 
                 <div class="product-signal-grid" aria-label="Scoring signals for <%= product.name %>">
                   <% product.sourceScores.forEach((row) => { const signalTier = product.evidenceSummary.tiers.find((tier) => tier.label === row.source); const likeSources = signalTier?.likes.sources ?? []; const cautionSources = signalTier?.cautions.sources ?? []; %>
@@ -257,7 +271,8 @@
                   </div>
                 </div>
 
-                <a class="button shopping-button" href="<%= product.affiliateUrl %>" target="_blank" rel="nofollow noopener sponsored">Check Amazon price</a>
+                <a class="button shopping-button" href="<%= product.affiliateUrl %>" target="_blank" rel="nofollow noopener sponsored" data-affiliate-link data-retailer="Amazon" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= product.name %>" data-product-rank="<%= product.rank %>" data-product-score="<%= product.bestPickScore %>">Check Amazon price</a>
+                <p class="shopping-note">Opens Amazon. Compare size, flavor, color, and seller pricing before checkout.</p>
               </div>
             </article>
           <% }) %>
@@ -266,7 +281,7 @@
           <section class="comparison-section" aria-labelledby="comparison-heading">
             <div class="section-kicker">Compare quickly</div>
             <h2 id="comparison-heading">Top picks at a glance</h2>
-            <p><%= comparisonIntro || "Use this table to compare the ranking, ideal buyer, confidence signals, and tradeoffs before opening the detailed evidence for each product." %></p>
+            <p><%= (typeof comparisonIntro !== "undefined" && comparisonIntro) || "Use this table to compare the ranking, ideal buyer, confidence signals, and tradeoffs before opening the detailed evidence for each product." %></p>
             <div class="comparison-scroll">
               <table class="comparison-table">
                 <thead>

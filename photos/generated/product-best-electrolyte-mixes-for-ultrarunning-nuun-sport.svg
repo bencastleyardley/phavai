@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Nuun Sport product visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#eff6ff"/><stop offset=".62" stop-color="#ffffff"/><stop offset="1" stop-color="#0f766e" stop-opacity=".2"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0v48" fill="none" stroke="#172554" stroke-opacity=".06" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="900" height="900" rx="72" fill="url(#bg)"/>
+  <rect width="900" height="900" rx="72" fill="url(#grid)"/>
+  <circle cx="281" cy="241" r="115" fill="#f97316" opacity=".16"/>
+  <circle cx="639" cy="291" r="155" fill="#0f766e" opacity=".13"/>
+  <path d="M285 716c70-44 154-44 226 0" stroke="#0f766e" stroke-width="24" stroke-linecap="round" opacity=".28" fill="none"/>
+  <g transform="translate(0 12) rotate(3 450 450) scale(.94) translate(27 27)"><path d="M300 185h300l54 110v395H246V295l54-110Z" fill="#172554"/><path d="M300 185h300M300 690h300M330 345h240M345 430h210M370 520h160" stroke="#172554" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="450" cy="585" r="44" fill="#0f766e"/></g>
+</svg>
