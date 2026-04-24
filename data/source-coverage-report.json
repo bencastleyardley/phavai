@@ -1,0 +1,4189 @@
+{
+  "summary": {
+    "generatedAt": "2026-04-24T17:22:23.055Z",
+    "pages": 32,
+    "products": 138,
+    "productsMissingYouTube": 106,
+    "productsWithAtLeastTwoYouTubeSources": 17,
+    "productsMissingReddit": 5,
+    "productsWithAtLeastTwoRedditSources": 109,
+    "productsMissingExpert": 0
+  },
+  "products": [
+    {
+      "page": "best-mens-trail-running-shoes",
+      "title": "Best Men's Trail Running Shoes",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-mens-trail-running-shoes",
+      "title": "Best Men's Trail Running Shoes",
+      "product": "La Sportiva Prodigio Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 4,
+          "caution": 2,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-mens-trail-running-shoes",
+      "title": "Best Men's Trail Running Shoes",
+      "product": "Brooks Catamount 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-mens-trail-running-shoes",
+      "title": "Best Men's Trail Running Shoes",
+      "product": "Saucony Peregrine 15",
+      "channels": {
+        "Expert": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 3,
+          "caution": 4,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-mens-trail-running-shoes",
+      "title": "Best Men's Trail Running Shoes",
+      "product": "The North Face VECTIV Enduris 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-womens-trail-running-shoes",
+      "title": "Best Women's Trail Running Shoes",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-womens-trail-running-shoes",
+      "title": "Best Women's Trail Running Shoes",
+      "product": "The North Face VECTIV Enduris 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-womens-trail-running-shoes",
+      "title": "Best Women's Trail Running Shoes",
+      "product": "Saucony Peregrine 15",
+      "channels": {
+        "Expert": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 3,
+          "caution": 4,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-womens-trail-running-shoes",
+      "title": "Best Women's Trail Running Shoes",
+      "product": "La Sportiva Prodigio Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-headphones",
+      "title": "Best Running Headphones",
+      "product": "Shokz OpenRun Pro 2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 4,
+          "caution": 3,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-headphones",
+      "title": "Best Running Headphones",
+      "product": "Beats Powerbeats Pro 2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-headphones",
+      "title": "Best Running Headphones",
+      "product": "Shokz OpenFit 2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-headphones",
+      "title": "Best Running Headphones",
+      "product": "Jabra Elite 8 Active Gen 2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-running-watches",
+      "title": "Best GPS Running Watches",
+      "product": "Garmin Forerunner 265",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-running-watches",
+      "title": "Best GPS Running Watches",
+      "product": "Garmin Forerunner 965",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-running-watches",
+      "title": "Best GPS Running Watches",
+      "product": "COROS Pace 3",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-running-watches",
+      "title": "Best GPS Running Watches",
+      "product": "Polar Vantage V3",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-standing-desks",
+      "title": "Best Standing Desks",
+      "product": "Uplift V2 Standing Desk",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 4,
+          "caution": 3,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-standing-desks",
+      "title": "Best Standing Desks",
+      "product": "FlexiSpot E7 Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-standing-desks",
+      "title": "Best Standing Desks",
+      "product": "Vari Electric Standing Desk",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-standing-desks",
+      "title": "Best Standing Desks",
+      "product": "Branch Duo Standing Desk",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-office-chairs",
+      "title": "Best Office Chairs",
+      "product": "Steelcase Gesture",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 4,
+          "caution": 3,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-office-chairs",
+      "title": "Best Office Chairs",
+      "product": "Herman Miller Aeron",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-office-chairs",
+      "title": "Best Office Chairs",
+      "product": "Branch Ergonomic Chair Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-office-chairs",
+      "title": "Best Office Chairs",
+      "product": "Haworth Fern",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-packs",
+      "title": "Best Hydration Packs",
+      "product": "Salomon ADV Skin 12",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-packs",
+      "title": "Best Hydration Packs",
+      "product": "Nathan Pinnacle 12L",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 2,
+          "caution": 2,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-packs",
+      "title": "Best Hydration Packs",
+      "product": "Osprey Duro/Dyna 15",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-packs",
+      "title": "Best Hydration Packs",
+      "product": "CamelBak Zephyr Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-running-poles",
+      "title": "Best Trail Running Poles",
+      "product": "Black Diamond Distance Carbon Z",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-running-poles",
+      "title": "Best Trail Running Poles",
+      "product": "Leki Ultratrail FX.One Superlite",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 0,
+          "caution": 2,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-running-poles",
+      "title": "Best Trail Running Poles",
+      "product": "Black Diamond Distance Z",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-running-poles",
+      "title": "Best Trail Running Poles",
+      "product": "Gossamer Gear LT5",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-vests",
+      "title": "Best Running Vests",
+      "product": "Salomon ADV Skin 5",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-vests",
+      "title": "Best Running Vests",
+      "product": "Nathan Pinnacle 4L",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-vests",
+      "title": "Best Running Vests",
+      "product": "Ultimate Direction Race Vest 6.0",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-vests",
+      "title": "Best Running Vests",
+      "product": "Patagonia Slope Runner Vest",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-recovery-sandals",
+      "title": "Best Recovery Sandals",
+      "product": "OOFOS OOahh Slide",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-recovery-sandals",
+      "title": "Best Recovery Sandals",
+      "product": "HOKA Ora Recovery Slide 3",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-recovery-sandals",
+      "title": "Best Recovery Sandals",
+      "product": "Kane Revive",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 2,
+          "caution": 2,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-recovery-sandals",
+      "title": "Best Recovery Sandals",
+      "product": "Birkenstock Arizona EVA",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-webcams-for-remote-work",
+      "title": "Best Webcams for Remote Work",
+      "product": "Logitech MX Brio",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-webcams-for-remote-work",
+      "title": "Best Webcams for Remote Work",
+      "product": "Obsbot Tiny 3",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-webcams-for-remote-work",
+      "title": "Best Webcams for Remote Work",
+      "product": "Razer Kiyo Pro Ultra",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-webcams-for-remote-work",
+      "title": "Best Webcams for Remote Work",
+      "product": "Anker PowerConf C200",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-desk-mats",
+      "title": "Best Desk Mats",
+      "product": "Orbitkey Desk Mat",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-desk-mats",
+      "title": "Best Desk Mats",
+      "product": "Grovemade Wool Felt Desk Pad",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-desk-mats",
+      "title": "Best Desk Mats",
+      "product": "Logitech Studio Series Desk Mat",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-desk-mats",
+      "title": "Best Desk Mats",
+      "product": "Knodel Large Desk Mat",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Ergotron LX",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Amazon Basics Premium Monitor Stand",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Herman Miller Flo Monitor Arm",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Fully Jarvis Monitor Arm",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ergonomic-keyboards",
+      "title": "Best Ergonomic Keyboards",
+      "product": "Logitech Ergo K860",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ergonomic-keyboards",
+      "title": "Best Ergonomic Keyboards",
+      "product": "Kinesis Freestyle2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ergonomic-keyboards",
+      "title": "Best Ergonomic Keyboards",
+      "product": "Keychron Q11",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ergonomic-keyboards",
+      "title": "Best Ergonomic Keyboards",
+      "product": "ZSA Voyager",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carry-on-luggage",
+      "title": "Best Carry-On Luggage",
+      "product": "Travelpro Platinum Elite 21-inch",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carry-on-luggage",
+      "title": "Best Carry-On Luggage",
+      "product": "Briggs & Riley Baseline Essential",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carry-on-luggage",
+      "title": "Best Carry-On Luggage",
+      "product": "Away Bigger Carry-On",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carry-on-luggage",
+      "title": "Best Carry-On Luggage",
+      "product": "Monos Carry-On Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "Technivorm Moccamaster KBGV Select",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "Breville Precision Brewer",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "OXO Brew 9-Cup",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "Ninja 12-Cup Programmable Brewer",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "product": "Therabody Theragun Prime Plus",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "product": "Hyperice Hypervolt 2 Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "product": "Ekrin B37",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "product": "Theragun Mini",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-air-purifiers",
+      "title": "Best Air Purifiers",
+      "product": "Coway Airmega AP-1512HH Mighty",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-air-purifiers",
+      "title": "Best Air Purifiers",
+      "product": "Levoit Vital 200S",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-air-purifiers",
+      "title": "Best Air Purifiers",
+      "product": "Blueair Blue Pure 211i Max",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-air-purifiers",
+      "title": "Best Air Purifiers",
+      "product": "Winix 5500-2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles",
+      "title": "Best Trail Shoes for 100 Miles",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles",
+      "title": "Best Trail Shoes for 100 Miles",
+      "product": "Topo Athletic Ultraventure 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles",
+      "title": "Best Trail Shoes for 100 Miles",
+      "product": "Brooks Cascadia 19",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles",
+      "title": "Best Trail Shoes for 100 Miles",
+      "product": "The North Face VECTIV Enduris 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-technical-trails",
+      "title": "Best Trail Shoes for Technical Trails",
+      "product": "La Sportiva Prodigio Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 4,
+          "caution": 2,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-technical-trails",
+      "title": "Best Trail Shoes for Technical Trails",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-trail-shoes-for-technical-trails",
+      "title": "Best Trail Shoes for Technical Trails",
+      "product": "Saucony Peregrine 15",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 3,
+          "caution": 4,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-technical-trails",
+      "title": "Best Trail Shoes for Technical Trails",
+      "product": "Brooks Catamount 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet",
+      "title": "Best Trail Shoes for Wide Feet",
+      "product": "Topo Athletic Ultraventure 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet",
+      "title": "Best Trail Shoes for Wide Feet",
+      "product": "Altra Lone Peak 9",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet",
+      "title": "Best Trail Shoes for Wide Feet",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet",
+      "title": "Best Trail Shoes for Wide Feet",
+      "product": "Brooks Cascadia 19",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-muddy-conditions",
+      "title": "Best Trail Shoes for Muddy Conditions",
+      "product": "Salomon Speedcross 6",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-muddy-conditions",
+      "title": "Best Trail Shoes for Muddy Conditions",
+      "product": "Inov-8 X-Talon Ultra 260 V2",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-muddy-conditions",
+      "title": "Best Trail Shoes for Muddy Conditions",
+      "product": "Saucony Peregrine 15",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 3,
+          "caution": 4,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-muddy-conditions",
+      "title": "Best Trail Shoes for Muddy Conditions",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners",
+      "title": "Best Trail Shoes for Beginners",
+      "product": "Brooks Cascadia 19",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners",
+      "title": "Best Trail Shoes for Beginners",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners",
+      "title": "Best Trail Shoes for Beginners",
+      "product": "Saucony Peregrine 15",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 7,
+          "positive": 3,
+          "caution": 4,
+          "exactUrls": 7
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners",
+      "title": "Best Trail Shoes for Beginners",
+      "product": "The North Face VECTIV Enduris 4",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-watches-for-ultrarunning",
+      "title": "Best GPS Watches for Ultrarunning",
+      "product": "Garmin Forerunner 965",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-watches-for-ultrarunning",
+      "title": "Best GPS Watches for Ultrarunning",
+      "product": "COROS Pace 3",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-watches-for-ultrarunning",
+      "title": "Best GPS Watches for Ultrarunning",
+      "product": "Garmin Forerunner 265",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-gps-watches-for-ultrarunning",
+      "title": "Best GPS Watches for Ultrarunning",
+      "product": "Polar Vantage V3",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-vests-for-100k-and-100-mile-races",
+      "title": "Best Hydration Vests for 100K and 100 Mile Races",
+      "product": "Salomon ADV Skin 12",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-vests-for-100k-and-100-mile-races",
+      "title": "Best Hydration Vests for 100K and 100 Mile Races",
+      "product": "Nathan Pinnacle 12L",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 2,
+          "caution": 2,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-vests-for-100k-and-100-mile-races",
+      "title": "Best Hydration Vests for 100K and 100 Mile Races",
+      "product": "Osprey Duro/Dyna 15",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-hydration-vests-for-100k-and-100-mile-races",
+      "title": "Best Hydration Vests for 100K and 100 Mile Races",
+      "product": "CamelBak Zephyr Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "ASICS Novablast 5",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "Brooks Ghost 17",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "Saucony Ride 18",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "Nike Pegasus 41",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-daily-trainers-for-marathon-training",
+      "title": "Best Daily Trainers for Marathon Training",
+      "product": "ASICS Novablast 5",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-daily-trainers-for-marathon-training",
+      "title": "Best Daily Trainers for Marathon Training",
+      "product": "Saucony Ride 18",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-daily-trainers-for-marathon-training",
+      "title": "Best Daily Trainers for Marathon Training",
+      "product": "New Balance Fresh Foam X 1080v14",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-daily-trainers-for-marathon-training",
+      "title": "Best Daily Trainers for Marathon Training",
+      "product": "HOKA Clifton 10",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "title": "Best Marathon Shoes for Heavy Runners",
+      "product": "ASICS Gel-Nimbus 27",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "title": "Best Marathon Shoes for Heavy Runners",
+      "product": "Brooks Glycerin 22",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "title": "Best Marathon Shoes for Heavy Runners",
+      "product": "New Balance Fresh Foam X 1080v14",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "title": "Best Marathon Shoes for Heavy Runners",
+      "product": "HOKA Bondi 9",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "The North Face VECTIV Enduris 4",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "HOKA Speedgoat 7",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Topo Athletic Ultraventure 4",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Nike Zegama 2",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Brooks Caldera 8",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Brooks Cascadia 19",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Altra Lone Peak 9",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Saucony Peregrine 15",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "La Sportiva Prodigio Pro",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes",
+      "title": "Top 10 Most Comfortable Trail Shoes",
+      "product": "Brooks Catamount 4",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ultramarathon-fuel",
+      "title": "Best Food for Ultra Marathons",
+      "product": "Tailwind Endurance Fuel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ultramarathon-fuel",
+      "title": "Best Food for Ultra Marathons",
+      "product": "Precision Fuel PF 30 Gel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ultramarathon-fuel",
+      "title": "Best Food for Ultra Marathons",
+      "product": "Maurten Drink Mix 320",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ultramarathon-fuel",
+      "title": "Best Food for Ultra Marathons",
+      "product": "Honey Stinger Organic Waffle",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ultramarathon-fuel",
+      "title": "Best Food for Ultra Marathons",
+      "product": "GU Energy Gel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-gels-for-ultramarathons",
+      "title": "Best Running Gels for Ultramarathons",
+      "product": "Maurten Gel 100",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-gels-for-ultramarathons",
+      "title": "Best Running Gels for Ultramarathons",
+      "product": "Precision Fuel PF 30 Gel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-gels-for-ultramarathons",
+      "title": "Best Running Gels for Ultramarathons",
+      "product": "SiS Beta Fuel Gel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-gels-for-ultramarathons",
+      "title": "Best Running Gels for Ultramarathons",
+      "product": "Huma Chia Energy Gel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-gels-for-ultramarathons",
+      "title": "Best Running Gels for Ultramarathons",
+      "product": "GU Energy Gel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "product": "LMNT Recharge",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "product": "Skratch Labs Hydration",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "product": "Tailwind Endurance Fuel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "product": "Precision Hydration PH 1000",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "product": "Nuun Sport",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    }
+  ]
+}
