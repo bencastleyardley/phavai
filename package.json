@@ -9,6 +9,7 @@
     "copy:polish": "node scripts/polish-brand-copy.mjs",
     "sources:upgrade": "node scripts/upgrade-source-schema.mjs",
     "sources:reddit": "node scripts/curate-reddit-sources.mjs",
+    "sources:youtube": "node scripts/curate-youtube-sources.mjs",
     "sources:audit": "node scripts/source-coverage-audit.mjs",
     "seo:map": "node scripts/generate-search-console-map.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",

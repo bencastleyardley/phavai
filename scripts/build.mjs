@@ -10,6 +10,7 @@ const supportingPages = JSON.parse(readFileSync("data/supporting.json", "utf8").
 const imageSources = JSON.parse(readFileSync("data/image-sources.json", "utf8").replace(/^\uFEFF/, ""));
 const sourceGovernance = JSON.parse(readFileSync("data/source-governance.json", "utf8").replace(/^\uFEFF/, ""));
 const affiliateOverrides = readOptionalJson("data/affiliate-overrides.json", []);
+const evidenceOverrides = readOptionalJson("data/youtube-evidence-overrides.json", []);
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
@@ -232,6 +233,32 @@ function resolveAffiliateUrl(product, category) {
   });
 
   return override?.url || product.affiliateUrl;
+}
+
+function sourceKey(item) {
+  return String(item.url || item.title || item.sourceName || "").trim().toLowerCase();
+}
+
+function evidenceOverridesFor(product, category) {
+  return evidenceOverrides
+    .filter((entry) => {
+      const productMatches = entry.productName?.toLowerCase() === product.name.toLowerCase();
+      const categoryMatches = !entry.categorySlug || entry.categorySlug === category.slug;
+      return productMatches && categoryMatches;
+    })
+    .flatMap((entry) => entry.evidence ?? []);
+}
+
+function mergeEvidence(product, category) {
+  const merged = [];
+  const seen = new Set();
+  for (const item of [...(product.evidence ?? []), ...evidenceOverridesFor(product, category)]) {
+    const key = sourceKey(item);
+    if (key && seen.has(key)) continue;
+    if (key) seen.add(key);
+    merged.push(item);
+  }
+  return merged;
 }
 
 function parseYouTubeId(url = "") {
@@ -795,7 +822,7 @@ function computeProductScores(product, category) {
     exactProduct: false,
     usage: "Image source metadata needs review before this page is treated as production-complete."
   };
-  const normalizedEvidence = (product.evidence ?? []).map((item, index) => normalizeEvidenceItem(item, product, category, index));
+  const normalizedEvidence = mergeEvidence(product, category).map((item, index) => normalizeEvidenceItem(item, product, category, index));
   const normalizedProduct = { ...product, evidence: normalizedEvidence };
   const channelScores = buildChannelScores(normalizedProduct, category);
   const scoreInputs = channelScores.map((row) => ({

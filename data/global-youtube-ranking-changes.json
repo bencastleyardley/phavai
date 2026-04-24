@@ -1,0 +1,382 @@
+[
+  {
+    "slug": "best-carry-on-luggage",
+    "changes": [
+      {
+        "name": "Briggs &amp; Riley Baseline Essential",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 86,
+        "afterScore": 85
+      }
+    ]
+  },
+  {
+    "slug": "best-daily-trainers-for-marathon-training",
+    "changes": [
+      {
+        "name": "New Balance Fresh Foam X 1080v14",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 86,
+        "afterScore": 85
+      },
+      {
+        "name": "HOKA Clifton 10",
+        "beforeRank": 4,
+        "afterRank": 4,
+        "beforeScore": 85,
+        "afterScore": 84
+      }
+    ]
+  },
+  {
+    "slug": "best-gps-running-watches",
+    "changes": [
+      {
+        "name": "Garmin Forerunner 965",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 89,
+        "afterScore": 87
+      },
+      {
+        "name": "COROS Pace 3",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 88,
+        "afterScore": 86
+      },
+      {
+        "name": "Garmin Forerunner 265",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 88,
+        "afterScore": 86
+      },
+      {
+        "name": "Polar Vantage V3",
+        "beforeRank": 4,
+        "afterRank": 4,
+        "beforeScore": 84,
+        "afterScore": 83
+      }
+    ]
+  },
+  {
+    "slug": "best-gps-watches-for-ultrarunning",
+    "changes": [
+      {
+        "name": "Garmin Forerunner 965",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 91,
+        "afterScore": 88
+      },
+      {
+        "name": "COROS Pace 3",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 90,
+        "afterScore": 88
+      },
+      {
+        "name": "Garmin Forerunner 265",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 88,
+        "afterScore": 86
+      },
+      {
+        "name": "Polar Vantage V3",
+        "beforeRank": 4,
+        "afterRank": 4,
+        "beforeScore": 85,
+        "afterScore": 84
+      }
+    ]
+  },
+  {
+    "slug": "best-hydration-packs",
+    "changes": [
+      {
+        "name": "Salomon ADV Skin 12",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 86
+      }
+    ]
+  },
+  {
+    "slug": "best-hydration-vests-for-100k-and-100-mile-races",
+    "changes": [
+      {
+        "name": "Salomon ADV Skin 12",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 90,
+        "afterScore": 88
+      }
+    ]
+  },
+  {
+    "slug": "best-marathon-shoes-for-heavy-runners",
+    "changes": [
+      {
+        "name": "HOKA Bondi 9",
+        "beforeRank": 4,
+        "afterRank": 3,
+        "beforeScore": 86,
+        "afterScore": 86
+      },
+      {
+        "name": "New Balance Fresh Foam X 1080v14",
+        "beforeRank": 3,
+        "afterRank": 4,
+        "beforeScore": 87,
+        "afterScore": 85
+      }
+    ]
+  },
+  {
+    "slug": "best-massage-guns",
+    "changes": [
+      {
+        "name": "Hyperice Hypervolt 2 Pro",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 85,
+        "afterScore": 84
+      },
+      {
+        "name": "Ekrin B37",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 84,
+        "afterScore": 83
+      }
+    ]
+  },
+  {
+    "slug": "best-mens-trail-running-shoes",
+    "changes": [
+      {
+        "name": "La Sportiva Prodigio Pro",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 89,
+        "afterScore": 88
+      },
+      {
+        "name": "The North Face VECTIV Enduris 4",
+        "beforeRank": 5,
+        "afterRank": 4,
+        "beforeScore": 83,
+        "afterScore": 84
+      },
+      {
+        "name": "Brooks Catamount 4",
+        "beforeRank": 4,
+        "afterRank": 5,
+        "beforeScore": 84,
+        "afterScore": 84
+      }
+    ]
+  },
+  {
+    "slug": "best-monitor-arms",
+    "changes": [
+      {
+        "name": "Ergotron LX",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 86
+      }
+    ]
+  },
+  {
+    "slug": "best-office-chairs",
+    "changes": [
+      {
+        "name": "Steelcase Gesture",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 86
+      },
+      {
+        "name": "Herman Miller Aeron",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 87,
+        "afterScore": 86
+      },
+      {
+        "name": "Haworth Fern",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 85,
+        "afterScore": 83
+      }
+    ]
+  },
+  {
+    "slug": "best-running-headphones",
+    "changes": [
+      {
+        "name": "Shokz OpenRun Pro 2",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 88,
+        "afterScore": 87
+      },
+      {
+        "name": "Beats Powerbeats Pro 2",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 87,
+        "afterScore": 86
+      },
+      {
+        "name": "Jabra Elite 8 Active Gen 2",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 85,
+        "afterScore": 84
+      }
+    ]
+  },
+  {
+    "slug": "best-running-vests",
+    "changes": [
+      {
+        "name": "Salomon ADV Skin 5",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 86
+      }
+    ]
+  },
+  {
+    "slug": "best-standing-desks",
+    "changes": [
+      {
+        "name": "Uplift V2 Standing Desk",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 85
+      },
+      {
+        "name": "FlexiSpot E7 Pro",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 86,
+        "afterScore": 85
+      },
+      {
+        "name": "Vari Electric Standing Desk",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 84,
+        "afterScore": 83
+      }
+    ]
+  },
+  {
+    "slug": "best-trail-running-poles",
+    "changes": [
+      {
+        "name": "Black Diamond Distance Carbon Z",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 86
+      },
+      {
+        "name": "Black Diamond Distance Z",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 84,
+        "afterScore": 83
+      }
+    ]
+  },
+  {
+    "slug": "best-trail-shoes-for-100-miles",
+    "changes": [
+      {
+        "name": "The North Face VECTIV Enduris 4",
+        "beforeRank": 4,
+        "afterRank": 3,
+        "beforeScore": 84,
+        "afterScore": 85
+      },
+      {
+        "name": "Brooks Cascadia 19",
+        "beforeRank": 3,
+        "afterRank": 4,
+        "beforeScore": 85,
+        "afterScore": 84
+      }
+    ]
+  },
+  {
+    "slug": "best-trail-shoes-for-beginners",
+    "changes": [
+      {
+        "name": "Brooks Cascadia 19",
+        "beforeRank": 2,
+        "afterRank": 2,
+        "beforeScore": 86,
+        "afterScore": 85
+      },
+      {
+        "name": "The North Face VECTIV Enduris 4",
+        "beforeRank": 3,
+        "afterRank": 3,
+        "beforeScore": 84,
+        "afterScore": 85
+      }
+    ]
+  },
+  {
+    "slug": "best-trail-shoes-for-technical-trails",
+    "changes": [
+      {
+        "name": "La Sportiva Prodigio Pro",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 92,
+        "afterScore": 90
+      }
+    ]
+  },
+  {
+    "slug": "best-trail-shoes-for-wide-feet",
+    "changes": [
+      {
+        "name": "Altra Lone Peak 9",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 87,
+        "afterScore": 86
+      }
+    ]
+  },
+  {
+    "slug": "best-womens-trail-running-shoes",
+    "changes": [
+      {
+        "name": "La Sportiva Prodigio Pro",
+        "beforeRank": 1,
+        "afterRank": 1,
+        "beforeScore": 86,
+        "afterScore": 87
+      }
+    ]
+  }
+]

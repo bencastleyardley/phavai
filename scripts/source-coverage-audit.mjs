@@ -4,6 +4,7 @@ const categories = [
   ...JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, "")),
   ...readOptionalJson("data/roundup-additions.json", [])
 ];
+const evidenceOverrides = readOptionalJson("data/youtube-evidence-overrides.json", []);
 
 function readOptionalJson(path, fallback) {
   try {
@@ -31,11 +32,35 @@ function countBy(items, predicate) {
   return items.filter(predicate).length;
 }
 
+function sourceKey(item) {
+  return String(item.url || item.title || item.sourceName || "").trim().toLowerCase();
+}
+
+function mergeEvidence(product, category) {
+  const matchingOverrides = evidenceOverrides
+    .filter((entry) => {
+      const productMatches = entry.productName?.toLowerCase() === product.name.toLowerCase();
+      const categoryMatches = !entry.categorySlug || entry.categorySlug === category.slug;
+      return productMatches && categoryMatches;
+    })
+    .flatMap((entry) => entry.evidence ?? []);
+
+  const merged = [];
+  const seen = new Set();
+  for (const item of [...(product.evidence ?? []), ...matchingOverrides]) {
+    const key = sourceKey(item);
+    if (key && seen.has(key)) continue;
+    if (key) seen.add(key);
+    merged.push(item);
+  }
+  return merged;
+}
+
 const productReports = [];
 
 for (const category of categories) {
   for (const product of category.products ?? []) {
-    const publicEvidence = (product.evidence ?? []).filter((item) => item.is_public !== false);
+    const publicEvidence = mergeEvidence(product, category).filter((item) => item.is_public !== false);
     const channels = {};
 
     for (const channel of ["Expert", "YouTube", "Reddit"]) {

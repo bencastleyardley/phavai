@@ -1,0 +1,756 @@
+{
+  "best-air-purifiers": [
+    {
+      "rank": 1,
+      "name": "Coway Airmega AP-1512HH Mighty",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Levoit Vital 200S",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Blueair Blue Pure 211i Max",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Winix 5500-2",
+      "score": 83
+    }
+  ],
+  "best-carry-on-luggage": [
+    {
+      "rank": 1,
+      "name": "Travelpro Platinum Elite 21-inch",
+      "score": 88
+    },
+    {
+      "rank": 2,
+      "name": "Briggs &amp; Riley Baseline Essential",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Away Bigger Carry-On",
+      "score": 83
+    },
+    {
+      "rank": 4,
+      "name": "Monos Carry-On Pro",
+      "score": 82
+    }
+  ],
+  "best-coffee-makers": [
+    {
+      "rank": 1,
+      "name": "Technivorm Moccamaster KBGV Select",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Breville Precision Brewer",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "OXO Brew 9-Cup",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Ninja 12-Cup Programmable Brewer",
+      "score": 80
+    }
+  ],
+  "best-comfortable-trail-running-shoes": [
+    {
+      "rank": 1,
+      "name": "The North Face VECTIV Enduris 4",
+      "score": 89
+    },
+    {
+      "rank": 2,
+      "name": "Topo Athletic Ultraventure 4",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "HOKA Speedgoat 7",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Nike Zegama 2",
+      "score": 85
+    },
+    {
+      "rank": 5,
+      "name": "Brooks Caldera 8",
+      "score": 84
+    },
+    {
+      "rank": 6,
+      "name": "Brooks Cascadia 19",
+      "score": 83
+    },
+    {
+      "rank": 7,
+      "name": "Altra Lone Peak 9",
+      "score": 82
+    },
+    {
+      "rank": 8,
+      "name": "Brooks Catamount 4",
+      "score": 81
+    },
+    {
+      "rank": 9,
+      "name": "La Sportiva Prodigio Pro",
+      "score": 81
+    },
+    {
+      "rank": 10,
+      "name": "Saucony Peregrine 15",
+      "score": 80
+    }
+  ],
+  "best-daily-trainers-for-marathon-training": [
+    {
+      "rank": 1,
+      "name": "ASICS Novablast 5",
+      "score": 90
+    },
+    {
+      "rank": 2,
+      "name": "Saucony Ride 18",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "New Balance Fresh Foam X 1080v14",
+      "score": 86
+    },
+    {
+      "rank": 4,
+      "name": "HOKA Clifton 10",
+      "score": 85
+    }
+  ],
+  "best-desk-mats": [
+    {
+      "rank": 1,
+      "name": "Orbitkey Desk Mat",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "Grovemade Wool Felt Desk Pad",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Logitech Studio Series Desk Mat",
+      "score": 83
+    },
+    {
+      "rank": 4,
+      "name": "Knodel Large Desk Mat",
+      "score": 81
+    }
+  ],
+  "best-electrolyte-mixes-for-ultrarunning": [
+    {
+      "rank": 1,
+      "name": "LMNT Recharge",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "Tailwind Endurance Fuel",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Skratch Labs Hydration",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Precision Hydration PH 1000",
+      "score": 84
+    },
+    {
+      "rank": 5,
+      "name": "Nuun Sport",
+      "score": 79
+    }
+  ],
+  "best-ergonomic-keyboards": [
+    {
+      "rank": 1,
+      "name": "Logitech Ergo K860",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "Kinesis Freestyle2",
+      "score": 84
+    },
+    {
+      "rank": 3,
+      "name": "Keychron Q11",
+      "score": 82
+    },
+    {
+      "rank": 4,
+      "name": "ZSA Voyager",
+      "score": 81
+    }
+  ],
+  "best-gps-running-watches": [
+    {
+      "rank": 1,
+      "name": "Garmin Forerunner 965",
+      "score": 89
+    },
+    {
+      "rank": 2,
+      "name": "COROS Pace 3",
+      "score": 88
+    },
+    {
+      "rank": 3,
+      "name": "Garmin Forerunner 265",
+      "score": 88
+    },
+    {
+      "rank": 4,
+      "name": "Polar Vantage V3",
+      "score": 84
+    }
+  ],
+  "best-gps-watches-for-ultrarunning": [
+    {
+      "rank": 1,
+      "name": "Garmin Forerunner 965",
+      "score": 91
+    },
+    {
+      "rank": 2,
+      "name": "COROS Pace 3",
+      "score": 90
+    },
+    {
+      "rank": 3,
+      "name": "Garmin Forerunner 265",
+      "score": 88
+    },
+    {
+      "rank": 4,
+      "name": "Polar Vantage V3",
+      "score": 85
+    }
+  ],
+  "best-hydration-packs": [
+    {
+      "rank": 1,
+      "name": "Salomon ADV Skin 12",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Nathan Pinnacle 12L",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Osprey Duro/Dyna 15",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "CamelBak Zephyr Pro",
+      "score": 82
+    }
+  ],
+  "best-hydration-vests-for-100k-and-100-mile-races": [
+    {
+      "rank": 1,
+      "name": "Salomon ADV Skin 12",
+      "score": 90
+    },
+    {
+      "rank": 2,
+      "name": "Nathan Pinnacle 12L",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Osprey Duro/Dyna 15",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "CamelBak Zephyr Pro",
+      "score": 83
+    }
+  ],
+  "best-marathon-shoes-for-heavy-runners": [
+    {
+      "rank": 1,
+      "name": "ASICS Gel-Nimbus 27",
+      "score": 89
+    },
+    {
+      "rank": 2,
+      "name": "Brooks Glycerin 22",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "New Balance Fresh Foam X 1080v14",
+      "score": 87
+    },
+    {
+      "rank": 4,
+      "name": "HOKA Bondi 9",
+      "score": 86
+    }
+  ],
+  "best-massage-guns": [
+    {
+      "rank": 1,
+      "name": "Therabody Theragun Prime Plus",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Hyperice Hypervolt 2 Pro",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Ekrin B37",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Theragun Mini",
+      "score": 81
+    }
+  ],
+  "best-mens-trail-running-shoes": [
+    {
+      "rank": 1,
+      "name": "La Sportiva Prodigio Pro",
+      "score": 89
+    },
+    {
+      "rank": 2,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Saucony Peregrine 15",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Brooks Catamount 4",
+      "score": 84
+    },
+    {
+      "rank": 5,
+      "name": "The North Face VECTIV Enduris 4",
+      "score": 83
+    }
+  ],
+  "best-monitor-arms": [
+    {
+      "rank": 1,
+      "name": "Ergotron LX",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Amazon Basics Premium Monitor Stand",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Herman Miller Flo Monitor Arm",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Fully Jarvis Monitor Arm",
+      "score": 81
+    }
+  ],
+  "best-office-chairs": [
+    {
+      "rank": 1,
+      "name": "Steelcase Gesture",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Herman Miller Aeron",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "Haworth Fern",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Branch Ergonomic Chair Pro",
+      "score": 82
+    }
+  ],
+  "best-recovery-sandals": [
+    {
+      "rank": 1,
+      "name": "OOFOS OOahh Slide",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "HOKA Ora Recovery Slide 3",
+      "score": 84
+    },
+    {
+      "rank": 3,
+      "name": "Kane Revive",
+      "score": 83
+    },
+    {
+      "rank": 4,
+      "name": "Birkenstock Arizona EVA",
+      "score": 81
+    }
+  ],
+  "best-road-shoe-for-your-first-marathon": [
+    {
+      "rank": 1,
+      "name": "ASICS Novablast 5",
+      "score": 89
+    },
+    {
+      "rank": 2,
+      "name": "Saucony Ride 18",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "Brooks Ghost 17",
+      "score": 86
+    },
+    {
+      "rank": 4,
+      "name": "Nike Pegasus 41",
+      "score": 84
+    }
+  ],
+  "best-running-gels-for-ultramarathons": [
+    {
+      "rank": 1,
+      "name": "Maurten Gel 100",
+      "score": 89
+    },
+    {
+      "rank": 2,
+      "name": "Precision Fuel PF 30 Gel",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "SiS Beta Fuel Gel",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Huma Chia Energy Gel",
+      "score": 81
+    },
+    {
+      "rank": 5,
+      "name": "GU Energy Gel",
+      "score": 79
+    }
+  ],
+  "best-running-headphones": [
+    {
+      "rank": 1,
+      "name": "Shokz OpenRun Pro 2",
+      "score": 88
+    },
+    {
+      "rank": 2,
+      "name": "Beats Powerbeats Pro 2",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "Jabra Elite 8 Active Gen 2",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Shokz OpenFit 2",
+      "score": 84
+    }
+  ],
+  "best-running-vests": [
+    {
+      "rank": 1,
+      "name": "Salomon ADV Skin 5",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Nathan Pinnacle 4L",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Ultimate Direction Race Vest 6.0",
+      "score": 83
+    },
+    {
+      "rank": 4,
+      "name": "Patagonia Slope Runner Vest",
+      "score": 83
+    }
+  ],
+  "best-standing-desks": [
+    {
+      "rank": 1,
+      "name": "Uplift V2 Standing Desk",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "FlexiSpot E7 Pro",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Vari Electric Standing Desk",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Branch Duo Standing Desk",
+      "score": 83
+    }
+  ],
+  "best-trail-running-poles": [
+    {
+      "rank": 1,
+      "name": "Black Diamond Distance Carbon Z",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "Leki Ultratrail FX.One Superlite",
+      "score": 84
+    },
+    {
+      "rank": 3,
+      "name": "Black Diamond Distance Z",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Gossamer Gear LT5",
+      "score": 80
+    }
+  ],
+  "best-trail-shoes-for-100-miles": [
+    {
+      "rank": 1,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "Topo Athletic Ultraventure 4",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Brooks Cascadia 19",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "The North Face VECTIV Enduris 4",
+      "score": 84
+    }
+  ],
+  "best-trail-shoes-for-beginners": [
+    {
+      "rank": 1,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "Brooks Cascadia 19",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "The North Face VECTIV Enduris 4",
+      "score": 84
+    },
+    {
+      "rank": 4,
+      "name": "Saucony Peregrine 15",
+      "score": 84
+    }
+  ],
+  "best-trail-shoes-for-muddy-conditions": [
+    {
+      "rank": 1,
+      "name": "Salomon Speedcross 6",
+      "score": 88
+    },
+    {
+      "rank": 2,
+      "name": "Inov-8 X-Talon Ultra 260 V2",
+      "score": 88
+    },
+    {
+      "rank": 3,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 4,
+      "name": "Saucony Peregrine 15",
+      "score": 84
+    }
+  ],
+  "best-trail-shoes-for-technical-trails": [
+    {
+      "rank": 1,
+      "name": "La Sportiva Prodigio Pro",
+      "score": 92
+    },
+    {
+      "rank": 2,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Saucony Peregrine 15",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Brooks Catamount 4",
+      "score": 85
+    }
+  ],
+  "best-trail-shoes-for-wide-feet": [
+    {
+      "rank": 1,
+      "name": "Altra Lone Peak 9",
+      "score": 87
+    },
+    {
+      "rank": 2,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "Topo Athletic Ultraventure 4",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Brooks Cascadia 19",
+      "score": 84
+    }
+  ],
+  "best-ultramarathon-fuel": [
+    {
+      "rank": 1,
+      "name": "Tailwind Endurance Fuel",
+      "score": 88
+    },
+    {
+      "rank": 2,
+      "name": "Precision Fuel PF 30 Gel",
+      "score": 87
+    },
+    {
+      "rank": 3,
+      "name": "Maurten Drink Mix 320",
+      "score": 87
+    },
+    {
+      "rank": 4,
+      "name": "Honey Stinger Organic Waffle",
+      "score": 81
+    },
+    {
+      "rank": 5,
+      "name": "GU Energy Gel",
+      "score": 79
+    }
+  ],
+  "best-webcams-for-remote-work": [
+    {
+      "rank": 1,
+      "name": "Logitech MX Brio",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "Obsbot Tiny 3",
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "name": "Razer Kiyo Pro Ultra",
+      "score": 83
+    },
+    {
+      "rank": 4,
+      "name": "Anker PowerConf C200",
+      "score": 82
+    }
+  ],
+  "best-womens-trail-running-shoes": [
+    {
+      "rank": 1,
+      "name": "La Sportiva Prodigio Pro",
+      "score": 86
+    },
+    {
+      "rank": 2,
+      "name": "HOKA Speedgoat 7",
+      "score": 86
+    },
+    {
+      "rank": 3,
+      "name": "The North Face VECTIV Enduris 4",
+      "score": 85
+    },
+    {
+      "rank": 4,
+      "name": "Saucony Peregrine 15",
+      "score": 84
+    }
+  ]
+}

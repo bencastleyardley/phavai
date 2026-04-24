@@ -99,7 +99,8 @@ test("public pages and new review guides render complete trust sections", async 
   }
 
   await page.goto("/best-standing-desks.html");
-  await expect(page.locator(".product").first()).not.toContainText("YouTube");
+  await expect(page.locator(".product").first()).toContainText("YouTube");
+  expect(await page.locator('a[href*="youtube.com/watch"]').count()).toBeGreaterThan(0);
   await expect(page.locator(".product").first().locator(".source-accordion")).toHaveCount(0);
   await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("adjusted weight");
 
