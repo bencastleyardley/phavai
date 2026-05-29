@@ -2,7 +2,8 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const categories = [
   ...JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, "")),
-  ...readOptionalJson("data/roundup-additions.json", [])
+  ...readOptionalJson("data/roundup-additions.json", []),
+  ...readOptionalJson("data/revenue-roundups.json", [])
 ];
 
 const existingOverrides = readOptionalJson("data/youtube-evidence-overrides.json", []);
@@ -94,18 +95,38 @@ function productTokens(productName) {
   return normalize(productName)
     .split(/\s+/)
     .filter((token) => token.length > 1)
-    .filter((token) => !["the", "and", "for", "with", "pro", "plus", "gen", "new"].includes(token));
+    .filter((token) => !["the", "and", "for", "with"].includes(token));
+}
+
+function hasTitleToken(titleTokens, token) {
+  if (titleTokens.has(token)) return true;
+  if (/^\d+[a-z]+$/.test(token)) {
+    const [, number, suffix] = token.match(/^(\d+)([a-z]+)$/) ?? [];
+    return Boolean(number && suffix && titleTokens.has(number) && titleTokens.has(suffix));
+  }
+  if (/^[a-z]+\d+$/.test(token)) {
+    const [, prefix, number] = token.match(/^([a-z]+)(\d+)$/) ?? [];
+    return Boolean(prefix && number && titleTokens.has(prefix) && titleTokens.has(number));
+  }
+  if (/^\d+$/.test(token)) {
+    return [...titleTokens].some((titleToken) => titleToken.includes(token));
+  }
+  return false;
 }
 
 function titleMatchesProduct(title, productName) {
   const titleNorm = normalize(title);
+  const titleTokens = new Set(titleNorm.split(/\s+/).filter(Boolean));
   const tokens = productTokens(productName);
   if (!tokens.length) return false;
 
+  const variantTokens = tokens.filter((token) => /[0-9]/.test(token) || ["pro", "plus", "mini", "ultra", "max", "gen", "elite", "active", "prime"].includes(token));
+  if (variantTokens.some((token) => !hasTitleToken(titleTokens, token))) return false;
+
   const important = tokens.filter((token) => /[0-9]/.test(token) || token.length >= 4);
   const required = important.slice(0, Math.min(3, important.length || tokens.length));
-  const matches = tokens.filter((token) => titleNorm.includes(token)).length;
-  const requiredMatches = required.filter((token) => titleNorm.includes(token)).length;
+  const matches = tokens.filter((token) => hasTitleToken(titleTokens, token)).length;
+  const requiredMatches = required.filter((token) => hasTitleToken(titleTokens, token)).length;
 
   return requiredMatches >= Math.min(2, required.length) && matches >= Math.min(3, tokens.length);
 }
@@ -210,8 +231,22 @@ async function processProduct(productName, { product, categories: productCategor
   const categoryTerms = [...new Set(productCategories.map((category) => category.eyebrow || category.title))]
     .slice(0, 2)
     .join(" ");
-  const query = `${productName} ${categoryTerms} review`;
-  const videos = (await searchYouTube(query)).filter((video) => isMeaningfulReview(video, productName));
+  const queries = [
+    `${productName} ${categoryTerms} review`,
+    `${productName} review`,
+    `${productName} test`,
+    `${productName} long term review`
+  ];
+  const videosById = new Map();
+  for (const searchQuery of queries) {
+    const results = await searchYouTube(searchQuery);
+    for (const video of results) {
+      if (!videosById.has(video.videoId)) videosById.set(video.videoId, video);
+    }
+    if ([...videosById.values()].filter((video) => isMeaningfulReview(video, productName)).length >= 4) break;
+  }
+  const query = queries[0];
+  const videos = [...videosById.values()].filter((video) => isMeaningfulReview(video, productName));
   const selected = [];
   const seenUrls = new Set([...(existingOverride?.evidence ?? []).map((item) => item.url), ...existing.map((item) => item.url)]);
 
@@ -234,11 +269,11 @@ async function processProduct(productName, { product, categories: productCategor
         relevance: trustedChannels.has(video.channel) ? 0.92 : 0.84,
         summary: `${bucket === "positive" ? "Useful video review for confirming the product's upside in real use." : "Useful video review for spotting tradeoffs before checkout."}`,
         title: video.title,
-        verifiedAt: "Apr 24, 2026",
+        verifiedAt: "May 29, 2026",
         source_type: "youtube",
         source_tier: trustedChannels.has(video.channel) ? "tier1" : "tier2",
         publisher: video.channel,
-        checked_date: "Apr 24, 2026",
+        checked_date: "May 29, 2026",
         product_name: productName,
         evidence_note: `${video.channel} video review: ${video.title}`,
         trust_reason: "Exact product video review with visible hands-on context, comparison, or buying guidance.",

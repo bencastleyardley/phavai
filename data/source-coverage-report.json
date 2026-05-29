@@ -1,12 +1,12 @@
 {
   "summary": {
-    "generatedAt": "2026-04-24T18:20:20.565Z",
-    "pages": 32,
-    "products": 138,
-    "productsMissingYouTube": 61,
-    "productsWithAtLeastTwoYouTubeSources": 73,
-    "productsMissingReddit": 5,
-    "productsWithAtLeastTwoRedditSources": 109,
+    "generatedAt": "2026-05-29T22:02:11.602Z",
+    "pages": 51,
+    "products": 218,
+    "productsMissingYouTube": 13,
+    "productsWithAtLeastTwoYouTubeSources": 186,
+    "productsMissingReddit": 37,
+    "productsWithAtLeastTwoRedditSources": 113,
     "productsMissingExpert": 0
   },
   "products": [
@@ -16,10 +16,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -44,10 +44,10 @@
       "product": "La Sportiva Prodigio Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -72,10 +72,10 @@
       "product": "Brooks Catamount 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -100,10 +100,10 @@
       "product": "Saucony Peregrine 15",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 5,
+          "positive": 4,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 5
         },
         "YouTube": {
           "total": 4,
@@ -128,10 +128,10 @@
       "product": "The North Face VECTIV Enduris 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -156,10 +156,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -184,10 +184,10 @@
       "product": "The North Face VECTIV Enduris 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -212,10 +212,10 @@
       "product": "Saucony Peregrine 15",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 5,
+          "positive": 4,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 5
         },
         "YouTube": {
           "total": 4,
@@ -240,10 +240,10 @@
       "product": "La Sportiva Prodigio Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -268,10 +268,10 @@
       "product": "Shokz OpenRun Pro 2",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 3,
@@ -296,10 +296,10 @@
       "product": "Beats Powerbeats Pro 2",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 3,
@@ -324,10 +324,10 @@
       "product": "Shokz OpenFit 2",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 3,
@@ -352,10 +352,10 @@
       "product": "Jabra Elite 8 Active Gen 2",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 3,
@@ -548,16 +548,16 @@
       "product": "Vari Electric Standing Desk",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 3,
-          "positive": 2,
+          "total": 2,
+          "positive": 1,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 5,
@@ -694,10 +694,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 1,
+          "total": 2,
           "positive": 0,
-          "caution": 1,
-          "exactUrls": 1
+          "caution": 2,
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 5,
@@ -707,10 +707,8 @@
         }
       },
       "missingChannels": [],
-      "thinChannels": [
-        "YouTube"
-      ],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-hydration-packs",
@@ -752,10 +750,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 1,
+          "positive": 1,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 1
         },
         "Reddit": {
           "total": 4,
@@ -764,10 +762,10 @@
           "exactUrls": 4
         }
       },
-      "missingChannels": [
+      "missingChannels": [],
+      "thinChannels": [
         "YouTube"
       ],
-      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -804,16 +802,16 @@
       "product": "CamelBak Zephyr Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 1,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 3,
-          "positive": 2,
+          "total": 1,
+          "positive": 0,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 1
         },
         "Reddit": {
           "total": 0,
@@ -825,7 +823,9 @@
       "missingChannels": [
         "Reddit"
       ],
-      "thinChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -924,10 +924,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 1,
-          "positive": 0,
-          "caution": 1,
-          "exactUrls": 1
+          "total": 4,
+          "positive": 2,
+          "caution": 2,
+          "exactUrls": 4
         },
         "Reddit": {
           "total": 1,
@@ -938,7 +938,6 @@
       },
       "missingChannels": [],
       "thinChannels": [
-        "YouTube",
         "Reddit"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -983,10 +982,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 4,
@@ -995,11 +994,9 @@
           "exactUrls": 4
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-running-vests",
@@ -1043,10 +1040,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 3,
@@ -1055,11 +1052,9 @@
           "exactUrls": 3
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-recovery-sandals",
@@ -1067,16 +1062,16 @@
       "product": "OOFOS OOahh Slide",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1085,11 +1080,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-recovery-sandals",
@@ -1097,16 +1090,16 @@
       "product": "HOKA Ora Recovery Slide 3",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 4,
           "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1115,11 +1108,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-recovery-sandals",
@@ -1127,16 +1118,16 @@
       "product": "Kane Revive",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 1,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 4,
@@ -1145,11 +1136,9 @@
           "exactUrls": 4
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-recovery-sandals",
@@ -1163,23 +1152,21 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 6,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 3,
+          "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-webcams-for-remote-work",
@@ -1187,16 +1174,16 @@
       "product": "Logitech MX Brio",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1205,11 +1192,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-webcams-for-remote-work",
@@ -1217,16 +1202,16 @@
       "product": "Obsbot Tiny 3",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 4,
           "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1235,11 +1220,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-webcams-for-remote-work",
@@ -1247,10 +1230,10 @@
       "product": "Razer Kiyo Pro Ultra",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 4,
           "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
+          "caution": 2,
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 3,
@@ -1275,16 +1258,16 @@
       "product": "Anker PowerConf C200",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 0,
+          "total": 4,
+          "positive": 1,
           "caution": 3,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1293,11 +1276,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-desk-mats",
@@ -1311,10 +1292,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 5,
@@ -1323,11 +1304,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-desk-mats",
@@ -1335,28 +1314,28 @@
       "product": "Grovemade Wool Felt Desk Pad",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 1,
+          "positive": 1,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 1
         },
         "Reddit": {
-          "total": 2,
+          "total": 3,
           "positive": 2,
-          "caution": 0,
-          "exactUrls": 2
+          "caution": 1,
+          "exactUrls": 3
         }
       },
-      "missingChannels": [
+      "missingChannels": [],
+      "thinChannels": [
         "YouTube"
       ],
-      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -1371,10 +1350,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 3,
@@ -1383,11 +1362,9 @@
           "exactUrls": 3
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-desk-mats",
@@ -1401,10 +1378,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 0,
@@ -1414,7 +1391,6 @@
         }
       },
       "missingChannels": [
-        "YouTube",
         "Reddit"
       ],
       "thinChannels": [],
@@ -1460,10 +1436,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 0,
@@ -1473,7 +1449,6 @@
         }
       },
       "missingChannels": [
-        "YouTube",
         "Reddit"
       ],
       "thinChannels": [],
@@ -1491,10 +1466,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 1,
+          "positive": 1,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 1
         },
         "Reddit": {
           "total": 1,
@@ -1503,10 +1478,9 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
+        "YouTube",
         "Reddit"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -1523,10 +1497,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 5,
@@ -1535,11 +1509,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-ergonomic-keyboards",
@@ -1553,10 +1525,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1565,11 +1537,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-ergonomic-keyboards",
@@ -1583,10 +1553,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1595,11 +1565,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-ergonomic-keyboards",
@@ -1613,10 +1581,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 5,
@@ -1625,11 +1593,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-ergonomic-keyboards",
@@ -1643,10 +1609,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 4,
+          "positive": 2,
+          "caution": 2,
+          "exactUrls": 4
         },
         "Reddit": {
           "total": 5,
@@ -1655,11 +1621,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-carry-on-luggage",
@@ -1673,10 +1637,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -1685,9 +1649,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
@@ -1733,10 +1695,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -1745,11 +1707,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-carry-on-luggage",
@@ -1757,16 +1717,16 @@
       "product": "Monos Carry-On Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 0,
+          "total": 4,
+          "positive": 1,
           "caution": 3,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 1,
+          "positive": 1,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 1
         },
         "Reddit": {
           "total": 5,
@@ -1775,166 +1735,16 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
+      "missingChannels": [],
+      "thinChannels": [
         "YouTube"
       ],
-      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-coffee-makers",
       "title": "Best Coffee Makers",
       "product": "Technivorm Moccamaster KBGV Select",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        },
-        "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
-        }
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-coffee-makers",
-      "title": "Best Coffee Makers",
-      "product": "Breville Precision Brewer",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        },
-        "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
-        }
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-coffee-makers",
-      "title": "Best Coffee Makers",
-      "product": "OXO Brew 9-Cup",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        },
-        "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
-        }
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-coffee-makers",
-      "title": "Best Coffee Makers",
-      "product": "Ninja 12-Cup Programmable Brewer",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        },
-        "Reddit": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        }
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-massage-guns",
-      "title": "Best Massage Guns",
-      "product": "Therabody Theragun Prime Plus",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        },
-        "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
-        }
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-massage-guns",
-      "title": "Best Massage Guns",
-      "product": "Hyperice Hypervolt 2 Pro",
       "channels": {
         "Expert": {
           "total": 3,
@@ -1958,6 +1768,150 @@
       "missingChannels": [],
       "thinChannels": [],
       "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "Breville Precision Brewer",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "OXO Brew 9-Cup",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-coffee-makers",
+      "title": "Best Coffee Makers",
+      "product": "Ninja 12-Cup Programmable Brewer",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "product": "Therabody Theragun Prime Plus",
+      "channels": {
+        "Expert": {
+          "total": 4,
+          "positive": 4,
+          "caution": 0,
+          "exactUrls": 4
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 4,
+          "caution": 2,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "product": "Hyperice Hypervolt 2 Pro",
+      "channels": {
+        "Expert": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 5,
+          "positive": 3,
+          "caution": 2,
+          "exactUrls": 5
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-massage-guns",
@@ -1993,10 +1947,10 @@
       "product": "Theragun Mini",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 0,
+          "total": 5,
+          "positive": 2,
           "caution": 3,
-          "exactUrls": 3
+          "exactUrls": 5
         },
         "YouTube": {
           "total": 0,
@@ -2029,10 +1983,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -2041,11 +1995,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-air-purifiers",
@@ -2059,10 +2011,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -2071,11 +2023,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-air-purifiers",
@@ -2089,10 +2039,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -2101,11 +2051,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-air-purifiers",
@@ -2119,10 +2067,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -2131,11 +2079,9 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-trail-shoes-for-100-miles",
@@ -2143,10 +2089,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -2177,10 +2123,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -2189,9 +2135,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
@@ -2231,10 +2175,10 @@
       "product": "The North Face VECTIV Enduris 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2259,10 +2203,10 @@
       "product": "La Sportiva Prodigio Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2287,10 +2231,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -2315,10 +2259,10 @@
       "product": "Saucony Peregrine 15",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2343,10 +2287,10 @@
       "product": "Brooks Catamount 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2377,10 +2321,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -2389,9 +2333,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
@@ -2431,10 +2373,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -2493,10 +2435,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -2505,11 +2447,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-trail-shoes-for-muddy-conditions",
@@ -2523,10 +2463,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -2535,9 +2475,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
@@ -2549,10 +2487,10 @@
       "product": "Saucony Peregrine 15",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2577,10 +2515,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -2633,10 +2571,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 4,
+          "positive": 3,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 2,
@@ -2661,10 +2599,10 @@
       "product": "Saucony Peregrine 15",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2689,10 +2627,10 @@
       "product": "The North Face VECTIV Enduris 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 4,
+          "positive": 4,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 4,
@@ -2863,10 +2801,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 1,
+          "positive": 1,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 1
         },
         "Reddit": {
           "total": 4,
@@ -2875,10 +2813,10 @@
           "exactUrls": 4
         }
       },
-      "missingChannels": [
+      "missingChannels": [],
+      "thinChannels": [
         "YouTube"
       ],
-      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -2915,16 +2853,16 @@
       "product": "CamelBak Zephyr Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 1,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 3
+          "exactUrls": 4
         },
         "YouTube": {
-          "total": 3,
-          "positive": 2,
+          "total": 1,
+          "positive": 0,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 1
         },
         "Reddit": {
           "total": 0,
@@ -2936,7 +2874,9 @@
       "missingChannels": [
         "Reddit"
       ],
-      "thinChannels": [],
+      "thinChannels": [
+        "YouTube"
+      ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -2951,10 +2891,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -2963,11 +2903,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-road-shoe-for-your-first-marathon",
@@ -2981,10 +2919,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -2993,11 +2931,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-road-shoe-for-your-first-marathon",
@@ -3011,10 +2947,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -3023,11 +2959,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-road-shoe-for-your-first-marathon",
@@ -3069,10 +3003,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -3081,11 +3015,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-daily-trainers-for-marathon-training",
@@ -3099,10 +3031,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -3111,11 +3043,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-daily-trainers-for-marathon-training",
@@ -3123,10 +3053,10 @@
       "product": "New Balance Fresh Foam X 1080v14",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 4,
           "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 1,
@@ -3135,10 +3065,10 @@
           "exactUrls": 1
         },
         "Reddit": {
-          "total": 5,
+          "total": 6,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 3,
+          "exactUrls": 6
         }
       },
       "missingChannels": [],
@@ -3187,10 +3117,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -3199,11 +3129,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-marathon-shoes-for-heavy-runners",
@@ -3217,10 +3145,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -3229,11 +3157,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-marathon-shoes-for-heavy-runners",
@@ -3241,10 +3167,10 @@
       "product": "New Balance Fresh Foam X 1080v14",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 4,
           "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 1,
@@ -3253,10 +3179,10 @@
           "exactUrls": 1
         },
         "Reddit": {
-          "total": 5,
+          "total": 6,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 3,
+          "exactUrls": 6
         }
       },
       "missingChannels": [],
@@ -3277,10 +3203,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -3289,11 +3215,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-comfortable-trail-running-shoes",
@@ -3301,10 +3225,10 @@
       "product": "The North Face VECTIV Enduris 4",
       "channels": {
         "Expert": {
-          "total": 2,
-          "positive": 2,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 2
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 6,
@@ -3331,10 +3255,10 @@
       "product": "HOKA Speedgoat 7",
       "channels": {
         "Expert": {
-          "total": 2,
-          "positive": 1,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 2
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -3365,10 +3289,10 @@
           "exactUrls": 2
         },
         "YouTube": {
-          "total": 3,
-          "positive": 2,
+          "total": 5,
+          "positive": 4,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 5
         },
         "Reddit": {
           "total": 2,
@@ -3387,10 +3311,10 @@
       "product": "Nike Zegama 2",
       "channels": {
         "Expert": {
-          "total": 2,
-          "positive": 2,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 2
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -3415,10 +3339,10 @@
       "product": "Brooks Caldera 8",
       "channels": {
         "Expert": {
-          "total": 2,
-          "positive": 2,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 2
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -3449,10 +3373,10 @@
           "exactUrls": 2
         },
         "YouTube": {
-          "total": 4,
-          "positive": 3,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 2,
@@ -3499,10 +3423,10 @@
       "product": "Saucony Peregrine 15",
       "channels": {
         "Expert": {
-          "total": 2,
-          "positive": 2,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 2
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 4,
@@ -3529,10 +3453,10 @@
       "product": "La Sportiva Prodigio Pro",
       "channels": {
         "Expert": {
-          "total": 2,
-          "positive": 2,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 2
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 5,
@@ -3557,16 +3481,46 @@
       "product": "Brooks Catamount 4",
       "channels": {
         "Expert": {
-          "total": 1,
-          "positive": 1,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 5,
           "positive": 4,
           "caution": 1,
           "exactUrls": 5
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ultramarathon-fuel",
+      "title": "Best Food for Ultra Marathons",
+      "product": "Tailwind Endurance Fuel",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3585,39 +3539,6 @@
     {
       "page": "best-ultramarathon-fuel",
       "title": "Best Food for Ultra Marathons",
-      "product": "Tailwind Endurance Fuel",
-      "channels": {
-        "Expert": {
-          "total": 1,
-          "positive": 1,
-          "caution": 0,
-          "exactUrls": 1
-        },
-        "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        },
-        "Reddit": {
-          "total": 1,
-          "positive": 1,
-          "caution": 0,
-          "exactUrls": 1
-        }
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [
-        "Expert",
-        "Reddit"
-      ],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-ultramarathon-fuel",
-      "title": "Best Food for Ultra Marathons",
       "product": "Precision Fuel PF 30 Gel",
       "channels": {
         "Expert": {
@@ -3627,10 +3548,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -3639,9 +3560,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3660,10 +3579,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -3672,9 +3591,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3693,10 +3610,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3705,9 +3622,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3726,10 +3641,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3738,9 +3653,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3759,10 +3672,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3771,9 +3684,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3792,10 +3703,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -3804,9 +3715,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3825,10 +3734,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3837,9 +3746,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3858,10 +3765,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3870,9 +3777,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3891,10 +3796,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -3903,9 +3808,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3924,10 +3827,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -3936,9 +3839,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -3988,10 +3889,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 1,
@@ -4000,9 +3901,7 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [
         "Expert",
         "Reddit"
@@ -4027,18 +3926,17 @@
           "exactUrls": 0
         },
         "Reddit": {
-          "total": 1,
+          "total": 2,
           "positive": 1,
-          "caution": 0,
-          "exactUrls": 1
+          "caution": 1,
+          "exactUrls": 2
         }
       },
       "missingChannels": [
         "YouTube"
       ],
       "thinChannels": [
-        "Expert",
-        "Reddit"
+        "Expert"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -4052,6 +3950,1302 @@
           "positive": 1,
           "caution": 0,
           "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-walking-pads",
+      "title": "Best Walking Pads",
+      "product": "DeerRun Q1 Mini",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-walking-pads",
+      "title": "Best Walking Pads",
+      "product": "WalkingPad Z1",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-walking-pads",
+      "title": "Best Walking Pads",
+      "product": "UREVO Strol 2E",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-walking-pads",
+      "title": "Best Walking Pads",
+      "product": "LifeSpan TR1200-DT3",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-compression-boots-for-runners",
+      "title": "Best Compression Boots for Runners",
+      "product": "Hyperice Normatec 3 Legs",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-compression-boots-for-runners",
+      "title": "Best Compression Boots for Runners",
+      "product": "Therabody JetBoots Prime",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-compression-boots-for-runners",
+      "title": "Best Compression Boots for Runners",
+      "product": "Hyperice Normatec Elite",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-compression-boots-for-runners",
+      "title": "Best Compression Boots for Runners",
+      "product": "FIT KING Leg Air Massager",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "product": "Bowflex SelectTech 552",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "product": "PowerBlock Elite EXP",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "product": "Core Home Fitness Adjustable Dumbbell Set",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "product": "NordicTrack Select-a-Weight 55 lb Dumbbells",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons",
+      "title": "Best Carb Drink Mixes for Ultramarathons",
+      "product": "Maurten Drink Mix 320",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons",
+      "title": "Best Carb Drink Mixes for Ultramarathons",
+      "product": "Skratch Labs Super High-Carb",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons",
+      "title": "Best Carb Drink Mixes for Ultramarathons",
+      "product": "Tailwind High Carb Fuel",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons",
+      "title": "Best Carb Drink Mixes for Ultramarathons",
+      "product": "SiS Beta Fuel 80",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "product": "LMNT Zero-Sugar Electrolyte Mix",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "product": "Precision Hydration PH 1500",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "product": "Skratch Labs Hydration Drink Mix",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "product": "SaltStick Caps",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-chews",
+      "title": "Best Running Chews",
+      "product": "CLIF Bloks Energy Chews",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-chews",
+      "title": "Best Running Chews",
+      "product": "Honey Stinger Energy Chews",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-chews",
+      "title": "Best Running Chews",
+      "product": "Skratch Labs Energy Chews",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-chews",
+      "title": "Best Running Chews",
+      "product": "GU Energy Chews",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-laptop-stands-for-remote-work",
+      "title": "Best Laptop Stands for Remote Work",
+      "product": "Rain Design mStand",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert",
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-laptop-stands-for-remote-work",
+      "title": "Best Laptop Stands for Remote Work",
+      "product": "Twelve South Curve Flex",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-laptop-stands-for-remote-work",
+      "title": "Best Laptop Stands for Remote Work",
+      "product": "Roost V3 Laptop Stand",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-laptop-stands-for-remote-work",
+      "title": "Best Laptop Stands for Remote Work",
+      "product": "Besign LSX3",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "product": "Timbuk2 Authority Deluxe",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "product": "Aer City Pack Pro",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "product": "Evergoods Civic Panel Loader 24L",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "product": "Osprey Nebula 32",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-beard-trimmers",
+      "title": "Best Beard Trimmers",
+      "product": "Philips Norelco Multigroom 9000",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-beard-trimmers",
+      "title": "Best Beard Trimmers",
+      "product": "Philips Norelco Multigroom 7000",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-beard-trimmers",
+      "title": "Best Beard Trimmers",
+      "product": "Wahl Stainless Steel Lithium Ion+",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-beard-trimmers",
+      "title": "Best Beard Trimmers",
+      "product": "Braun All-in-One Series 9",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-beard-trimmers",
+      "title": "Best Beard Trimmers",
+      "product": "Philips Norelco OneBlade Pro",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-socks-for-long-runs",
+      "title": "Best Running Socks for Long Runs",
+      "product": "Swiftwick Flite XT Trail Mid-Crew",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-socks-for-long-runs",
+      "title": "Best Running Socks for Long Runs",
+      "product": "Darn Tough Run Coolmax No-Show Tab Ultra-Lightweight",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-socks-for-long-runs",
+      "title": "Best Running Socks for Long Runs",
+      "product": "Drymax Extra Protection Hot Weather 1/4 Crew",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-socks-for-long-runs",
+      "title": "Best Running Socks for Long Runs",
+      "product": "Injinji Run Lightweight Crew",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "product": "Zeal Boone",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 0,
@@ -4070,9 +5264,1186 @@
         "YouTube"
       ],
       "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "product": "Smith Shift Split Mag",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
         "Expert",
         "Reddit"
       ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "product": "Tifosi Moab",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "product": "Goodr OGs",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-belts",
+      "title": "Best Running Belts",
+      "product": "Naked Running Band",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-belts",
+      "title": "Best Running Belts",
+      "product": "Ultimate Direction Ultra Belt",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-belts",
+      "title": "Best Running Belts",
+      "product": "UltrAspire Fitted Race Belt 2.0",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-running-belts",
+      "title": "Best Running Belts",
+      "product": "Nathan Peak Hydration Waist Pack",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-handheld-running-water-bottles",
+      "title": "Best Handheld Running Water Bottles",
+      "product": "Amphipod Hydraform Ergo-Lite Handheld",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-handheld-running-water-bottles",
+      "title": "Best Handheld Running Water Bottles",
+      "product": "Hydrapak Tempo Pro",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-handheld-running-water-bottles",
+      "title": "Best Handheld Running Water Bottles",
+      "product": "Nathan SpeedDraw 2 Insulated Flask",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-handheld-running-water-bottles",
+      "title": "Best Handheld Running Water Bottles",
+      "product": "Hydrapak Skyflask Speed",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-usb-c-hubs-for-remote-work",
+      "title": "Best USB-C Hubs for Remote Work",
+      "product": "Anker 555 8-in-1 USB-C Hub",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-usb-c-hubs-for-remote-work",
+      "title": "Best USB-C Hubs for Remote Work",
+      "product": "Hiearcool USB-C Hub",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-usb-c-hubs-for-remote-work",
+      "title": "Best USB-C Hubs for Remote Work",
+      "product": "OWC USB-C Travel Dock",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-usb-c-hubs-for-remote-work",
+      "title": "Best USB-C Hubs for Remote Work",
+      "product": "Monoprice 13-in-1 Dual-HDMI + DP MST Dock",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "product": "ViewSonic TD1656-2K",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "product": "espresso Display 15 Touch",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "product": "Arzopa A1",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "product": "ASUS ProArt PA148CTV",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electric-shavers-for-men",
+      "title": "Best Electric Shavers for Men",
+      "product": "Braun Series 9 Pro+",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electric-shavers-for-men",
+      "title": "Best Electric Shavers for Men",
+      "product": "Panasonic Arc5 Advanced 5-Blade",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electric-shavers-for-men",
+      "title": "Best Electric Shavers for Men",
+      "product": "Philips Norelco i9000 Prestige Ultra",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-electric-shavers-for-men",
+      "title": "Best Electric Shavers for Men",
+      "product": "Philips Norelco OneBlade 360",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "product": "Braun All-in-One Series 9 Trimmer 9440",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "product": "Panasonic Body Groomer GK80",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "product": "Philips Norelco Body Groomer 7000",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "product": "Wahl Manscaper Body Grooming Trimmer",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "product": "Manscaped The Lawn Mower 5.0",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "product": "Barebells Protein Bar",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "product": "Quest Nutrition Protein Bar",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "product": "RXBAR Protein Bar",
+      "channels": {
+        "Expert": {
+          "total": 3,
+          "positive": 3,
+          "caution": 0,
+          "exactUrls": 3
+        },
+        "YouTube": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "product": "ALOHA Organic Plant Based Protein Bar",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "product": "Pure Protein Bar",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "product": "Thorne Creatine",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "product": "Nutricost Creatine Monohydrate",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "product": "Momentous Creatine",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "product": "Optimum Nutrition Micronized Creatine Capsules",
+      "channels": {
+        "Expert": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "product": "Transparent Labs Creatine HMB",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     }
   ]

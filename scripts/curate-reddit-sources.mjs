@@ -1,15 +1,24 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-const CATEGORIES_PATH = "data/categories.json";
+const DATA_FILES = [
+  "data/categories.json",
+  "data/roundup-additions.json",
+  "data/revenue-roundups.json"
+];
 const REPORT_PATH = "data/reddit-source-curation.json";
-const CHECKED_DATE = "Apr 22, 2026";
+const CHECKED_DATE = "May 29, 2026";
 const USER_AGENT = "PhavaiSourceCurator/1.0 (+https://www.phavai.com)";
 const MAX_REDDIT_PER_POLARITY = 3;
 const MAX_SEARCH_RESULTS = 14;
 const REQUEST_DELAY_MS = 375;
 const AUTO_CURATED_TRUST_REASON = "Owner discussion used to catch fit, durability, setup, value, and long-term tradeoffs.";
 
-const categories = JSON.parse(readFileSync(CATEGORIES_PATH, "utf8").replace(/^\uFEFF/, ""));
+function readJson(path) {
+  return JSON.parse(readFileSync(path, "utf8").replace(/^\uFEFF/, ""));
+}
+
+const dataFiles = DATA_FILES.map((path) => ({ path, categories: readJson(path) }));
+const categories = dataFiles.flatMap((entry) => entry.categories);
 
 const SKIP_SUBREDDITS = new Set([
   "therunningrack",
@@ -389,7 +398,6 @@ function countPolarity(items, polarity) {
 
 function addRedditEvidence(product, category, candidates) {
   product.evidence = product.evidence ?? [];
-  product.evidence = product.evidence.filter((item) => item.trust_reason !== AUTO_CURATED_TRUST_REASON);
   for (const item of product.evidence) {
     if (!(item.channel === "Reddit" || item.source_type === "reddit")) continue;
     if (/reddit\.com\/search/i.test(item.url ?? "")) {
@@ -399,9 +407,20 @@ function addRedditEvidence(product, category, candidates) {
     }
   }
   const existingReddit = product.evidence.filter((item) => item.channel === "Reddit" || item.source_type === "reddit");
-  const existingUrls = new Set(existingReddit.map((item) => urlKey(item.url)));
-  let positiveCount = countPolarity(existingReddit, "positive");
-  let cautionCount = countPolarity(existingReddit, "caution");
+  if (!candidates.length) {
+    return {
+      added: 0,
+      positive: countPolarity(existingReddit, "positive"),
+      caution: countPolarity(existingReddit, "caution"),
+      total: existingReddit.length
+    };
+  }
+
+  product.evidence = product.evidence.filter((item) => item.trust_reason !== AUTO_CURATED_TRUST_REASON);
+  const currentReddit = product.evidence.filter((item) => item.channel === "Reddit" || item.source_type === "reddit");
+  const existingUrls = new Set(currentReddit.map((item) => urlKey(item.url)));
+  let positiveCount = countPolarity(currentReddit, "positive");
+  let cautionCount = countPolarity(currentReddit, "caution");
   let added = 0;
 
   for (const post of candidates) {
@@ -415,7 +434,7 @@ function addRedditEvidence(product, category, candidates) {
     if (polarity === "positive" && positiveCount >= MAX_REDDIT_PER_POLARITY) continue;
     if (polarity === "caution" && cautionCount >= MAX_REDDIT_PER_POLARITY) continue;
 
-    product.evidence.push(redditEvidenceFromPost(product.name, category.title, post, existingReddit.length + added));
+    product.evidence.push(redditEvidenceFromPost(product.name, category.title, post, currentReddit.length + added));
     existingUrls.add(key);
     if (polarity === "positive") positiveCount += 1;
     if (polarity === "caution") cautionCount += 1;
@@ -471,7 +490,9 @@ for (const [productName, entries] of productsByName) {
   await sleep(REQUEST_DELAY_MS);
 }
 
-writeFileSync(CATEGORIES_PATH, JSON.stringify(categories, null, 2) + "\n");
+for (const entry of dataFiles) {
+  writeFileSync(entry.path, JSON.stringify(entry.categories, null, 2) + "\n");
+}
 writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2) + "\n");
 
 const pagesUpdated = report.products.filter((row) => row.added > 0).length;

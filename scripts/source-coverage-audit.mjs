@@ -2,7 +2,8 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const categories = [
   ...JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, "")),
-  ...readOptionalJson("data/roundup-additions.json", [])
+  ...readOptionalJson("data/roundup-additions.json", []),
+  ...readOptionalJson("data/revenue-roundups.json", [])
 ];
 const evidenceOverrides = readOptionalJson("data/youtube-evidence-overrides.json", []);
 
