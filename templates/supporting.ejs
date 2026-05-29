@@ -1,4 +1,11 @@
 <% const ogImage = page.image.startsWith("http") ? page.image : `https://www.phavai.com${page.image}`; %>
+<% const quickTake = page.sections?.[0]; %>
+<% const quickTakeCopy = quickTake?.body || page.intro; %>
+<% const quickTakeSummary = quickTakeCopy.length > 155 ? `${quickTakeCopy.slice(0, 152).replace(/\s+\S*$/, "")}...` : quickTakeCopy; %>
+<% const featuredReview = relatedReviews?.[0]; %>
+<% const featuredProduct = featuredReview?.products?.[0]; %>
+<% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
+<% const quickGuides = (relatedReviews || []).slice(0, 3); %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -95,18 +102,71 @@
 
   <main>
     <section class="page-hero section-hero">
-      <div class="wrap page-grid">
-        <div>
-          <a class="crumb" href="/<%= section.slug %>.html">Phavai / <%= section.title %> / <%= page.type %></a>
-          <h1><%= page.title %></h1>
-          <p class="lede"><%= page.intro %></p>
-          <div class="meta-row">
-            <span class="meta-pill"><%= page.type %></span>
-            <span class="meta-pill">Updated <%= page.updated %></span>
-            <span class="meta-pill">Supports <%= section.title %> reviews</span>
+      <div class="wrap">
+        <div class="page-grid">
+          <div>
+            <a class="crumb" href="/<%= section.slug %>.html">Phavai / <%= section.title %> / <%= page.type %></a>
+            <h1><%= page.title %></h1>
+            <p class="lede"><%= page.intro %></p>
+            <div class="meta-row">
+              <span class="meta-pill"><%= page.type %></span>
+              <span class="meta-pill">Updated <%= page.updated %></span>
+              <span class="meta-pill">Supports <%= section.title %> reviews</span>
+            </div>
           </div>
+          <% if (quickTake || featuredReview) { %>
+          <section class="quick-answer-panel quick-answer-panel--compact" aria-labelledby="quick-answer-heading" data-quick-answer>
+            <div class="quick-answer-main">
+              <div class="section-kicker">Quick answer</div>
+              <h2 id="quick-answer-heading"><%= quickTake?.heading || `Start with ${featuredReview.title}` %>.</h2>
+              <p><%= quickTakeSummary %></p>
+              <div class="quick-answer-facts" aria-label="Why this answer helps">
+                <span><strong><%= page.type %></strong> guide</span>
+                <span><strong><%= relatedReviews.length %></strong> related reviews</span>
+                <span><strong>0</strong> paid rankings</span>
+              </div>
+            </div>
+            <div class="quick-answer-proof">
+              <div>
+                <span>Next step</span>
+                <p><%= featuredReview?.title || `${section.title} guides` %></p>
+              </div>
+              <div>
+                <span>Top pick</span>
+                <p><%= featuredProduct?.name || "Compare the related shortlist" %></p>
+              </div>
+              <div>
+                <span>Watch-out</span>
+                <p><%= featuredProduct?.biggestComplaint || "Match the advice to your budget, body, space, and use case before buying." %></p>
+              </div>
+            </div>
+            <div class="quick-answer-actions">
+              <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
+                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="Buy now">Buy now</a>
+              <% } %>
+              <% if (featuredReview) { %>
+                <a class="button secondary" href="/<%= featuredReview.slug %>.html">Open guide</a>
+              <% } else { %>
+                <a class="button secondary" href="/<%= section.slug %>.html">Browse guides</a>
+              <% } %>
+              <p>Use the advice first, then compare seller, size, color, and return details.</p>
+            </div>
+          </section>
+          <% } else { %>
+            <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
+          <% } %>
         </div>
-        <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
+        <% if ((quickTake || featuredReview) && quickGuides.length > 1) { %>
+          <div class="quick-pick-strip" aria-label="Related buying guides">
+            <% quickGuides.forEach((review, index) => { %>
+              <a href="/<%= review.slug %>.html">
+                <span>Guide <%= index + 1 %></span>
+                <strong><%= review.title %></strong>
+                <small><%= review.products?.[0]?.name || review.description %></small>
+              </a>
+            <% }) %>
+          </div>
+        <% } %>
       </div>
     </section>
 

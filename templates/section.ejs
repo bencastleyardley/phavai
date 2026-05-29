@@ -1,4 +1,8 @@
 <% const ogImage = section.image.startsWith("http") ? section.image : `https://www.phavai.com${section.image}`; %>
+<% const featuredReview = reviews[0]; %>
+<% const featuredProduct = featuredReview?.products?.[0]; %>
+<% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
+<% const quickGuides = reviews.slice(0, 3); %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -68,18 +72,69 @@
 
   <main>
     <section class="page-hero section-hero">
-      <div class="wrap page-grid">
-        <div>
-          <a class="crumb" href="/index.html">Phavai / <%= section.title %></a>
-          <h1><%= section.title %> Reviews</h1>
-          <p class="lede"><%= section.intro %></p>
-          <div class="meta-row">
-            <span class="meta-pill">Buyer-first picks</span>
-            <span class="meta-pill"><%= reviews.length %> live buying guides</span>
-            <span class="meta-pill">Retail links never buy rank</span>
+      <div class="wrap">
+        <div class="page-grid">
+          <div>
+            <a class="crumb" href="/index.html">Phavai / <%= section.title %></a>
+            <h1><%= section.title %> Reviews</h1>
+            <p class="lede"><%= section.intro %></p>
+            <div class="meta-row">
+              <span class="meta-pill">Buyer-first picks</span>
+              <span class="meta-pill"><%= reviews.length %> live buying guides</span>
+              <span class="meta-pill">Retail links never buy rank</span>
+            </div>
           </div>
+          <% if (featuredReview) { %>
+          <section class="quick-answer-panel quick-answer-panel--compact" aria-labelledby="quick-answer-heading" data-quick-answer>
+            <div class="quick-answer-main">
+              <div class="section-kicker">Quick answer</div>
+              <h2 id="quick-answer-heading">Start with <a href="/<%= featuredReview.slug %>.html"><%= featuredReview.title %></a>.</h2>
+              <p><%= featuredReview.description %></p>
+              <div class="quick-answer-facts" aria-label="Why this guide leads">
+                <span><strong><%= reviews.length %></strong> live guides</span>
+                <% if (featuredProduct) { %>
+                  <span><strong><%= featuredProduct.publicScoreLabel %></strong> top BestPick</span>
+                <% } %>
+                <span><strong>0</strong> paid rankings</span>
+              </div>
+            </div>
+            <div class="quick-answer-proof">
+              <div>
+                <span>Top pick</span>
+                <p><%= featuredProduct?.name || featuredReview.title %></p>
+              </div>
+              <div>
+                <span>Best for</span>
+                <p><%= featuredProduct?.bestFor || section.covered[0] %></p>
+              </div>
+              <div>
+                <span>Best proof</span>
+                <p><%= featuredProduct?.sourceProofSummary || section.trust %></p>
+              </div>
+            </div>
+            <div class="quick-answer-actions">
+              <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
+                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="Buy now">Buy now</a>
+              <% } %>
+              <a class="button secondary" href="/<%= featuredReview.slug %>.html">Open guide</a>
+              <p>Check fit, seller, price, and return terms before checkout.</p>
+            </div>
+          </section>
+          <% } else { %>
+            <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
+          <% } %>
         </div>
-        <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
+        <% if (featuredReview && quickGuides.length > 1) { %>
+          <div class="quick-pick-strip" aria-label="Fast comparison of <%= section.title %> guides">
+            <% quickGuides.forEach((review, index) => { %>
+              <a href="/<%= review.slug %>.html">
+                <span>Guide <%= index + 1 %></span>
+                <strong><%= review.title %></strong>
+                <small><%= review.products?.[0]?.name || review.description %></small>
+              </a>
+            <% }) %>
+          </div>
+        <% } %>
       </div>
     </section>
 

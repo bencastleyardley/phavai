@@ -561,6 +561,35 @@ h1, h2, h3, p { margin-top: 0; }
   font-weight: 750;
   text-align: center;
 }
+.quick-answer-panel--compact {
+  margin-top: 0;
+  grid-template-columns: 1fr;
+  align-self: start;
+  padding: 16px;
+}
+.quick-answer-panel--compact .quick-answer-main h2 {
+  font-size: clamp(23px, 2.6vw, 32px);
+}
+.quick-answer-panel--compact .quick-answer-main p,
+.quick-answer-panel--compact .quick-answer-proof p,
+.quick-answer-panel--compact .quick-answer-actions p {
+  font-size: 13px;
+}
+.quick-answer-panel--compact .quick-answer-facts {
+  margin-top: 10px;
+}
+.quick-answer-panel--compact .quick-answer-proof {
+  order: 3;
+  padding: 12px;
+}
+.quick-answer-panel--compact .quick-answer-actions {
+  order: 2;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.quick-answer-panel--compact .quick-answer-actions p {
+  grid-column: 1 / -1;
+  text-align: left;
+}
 .quick-pick-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

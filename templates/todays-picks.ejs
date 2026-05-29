@@ -1,3 +1,6 @@
+<% const itemId = (item) => item.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
+<% const featuredPick = page.items[0]; %>
+<% const quickPicks = page.items.slice(0, 3); %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -82,6 +85,50 @@
           <span class="meta-pill"><%= page.items.length %> quick picks</span>
           <span class="meta-pill">Retail links never buy placement</span>
         </div>
+        <% if (featuredPick) { %>
+          <section class="quick-answer-panel" aria-labelledby="quick-answer-heading" data-quick-answer>
+            <div class="quick-answer-main">
+              <div class="section-kicker">Quick answer</div>
+              <h2 id="quick-answer-heading">Start with <a href="#<%= itemId(featuredPick) %>"><%= featuredPick.name %></a>.</h2>
+              <p><%= featuredPick.summary %></p>
+              <div class="quick-answer-facts" aria-label="Why this pick leads">
+                <span><strong>#1</strong> today's pick</span>
+                <span><strong><%= featuredPick.retailer %></strong> retailer</span>
+                <span><strong>0</strong> paid placement</span>
+              </div>
+            </div>
+            <div class="quick-answer-proof">
+              <div>
+                <span>Best for</span>
+                <p><%= featuredPick.bestFor %></p>
+              </div>
+              <div>
+                <span>Watch-out</span>
+                <p><%= featuredPick.watchOut %></p>
+              </div>
+              <div>
+                <span>Why it leads</span>
+                <p><%= featuredPick.kicker %></p>
+              </div>
+            </div>
+            <div class="quick-answer-actions">
+              <a class="button shopping-button" href="<%= featuredPick.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredPick.retailer %>" data-guide="<%= page.title %>" data-section="Today's Picks" data-product-name="<%= featuredPick.name %>" data-product-rank="1" data-product-score="" data-shopping-label="<%= featuredPick.buttonLabel %>"><%= featuredPick.buttonLabel %></a>
+              <a class="button secondary" href="#<%= itemId(featuredPick) %>">Read why</a>
+              <p>Compare seller, size, color, current price, and return terms before checkout.</p>
+            </div>
+          </section>
+          <% if (quickPicks.length > 1) { %>
+            <div class="quick-pick-strip" aria-label="Fast comparison of today's picks">
+              <% quickPicks.forEach((item, index) => { %>
+                <a href="#<%= itemId(item) %>">
+                  <span>Pick #<%= index + 1 %></span>
+                  <strong><%= item.name %></strong>
+                  <small><%= item.kicker %></small>
+                </a>
+              <% }) %>
+            </div>
+          <% } %>
+        <% } %>
       </div>
     </section>
 
@@ -89,7 +136,7 @@
       <div class="wrap todays-layout">
         <div class="todays-list">
           <% page.items.forEach((item, index) => { %>
-            <article class="today-pick-card">
+            <article class="today-pick-card" id="<%= itemId(item) %>">
               <div class="today-pick-visual today-pick-visual--<%= item.icon %>" aria-hidden="true">
                 <% if (item.icon === "tea") { %>
                   <svg viewBox="0 0 64 64"><path d="M18 25h28v15a12 12 0 0 1-24 0V25Z"/><path d="M46 30h4a6 6 0 0 1 0 12h-4"/><path d="M25 15c-3 4 3 5 0 9m8-9c-3 4 3 5 0 9m8-9c-3 4 3 5 0 9"/></svg>
