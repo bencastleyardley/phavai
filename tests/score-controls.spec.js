@@ -1,53 +1,41 @@
 import { expect, test } from "@playwright/test";
 
-async function setSlider(page, channel, value) {
-  await page.locator(`[data-weight-input="${channel}"]`).evaluate(
-    (input, nextValue) => {
-      input.value = String(nextValue);
-      input.dispatchEvent(new Event("input", { bubbles: true }));
-    },
-    value
-  );
-}
-
-test("score controls recalculate, explain rank changes, and persist weights", async ({ page }) => {
+test("public scoring and compliance mode stay disciplined", async ({ page }) => {
   await page.goto("/best-mens-trail-running-shoes.html");
   await page.evaluate(() => localStorage.clear());
   await page.reload();
 
-  await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
   await expect(page.locator("body")).toContainText("Sources checked Apr 20, 2026");
+  await expect(page.locator("[data-decision-helper]")).toHaveCount(0);
+  await expect(page.locator(".top-picks-snapshot")).toHaveCount(0);
+  await expect(page.locator("[data-quick-answer]")).toBeVisible();
+  await expect(page.locator("[data-quick-answer]")).toContainText("Quick answer");
+  await expect(page.locator("[data-quick-answer] [data-affiliate-link]")).toContainText("Buy");
+  await expect(page.locator(".page-hero + .band [data-product-list]")).toBeVisible();
+  await expect(page.locator(".product").first()).toHaveAttribute("data-decision-graph", /comfort/);
+  await expect(page.locator(".recommended-product")).toHaveCount(0);
+  await expect(page.locator("[data-score-controls]")).toHaveCount(0);
+  await expect(page.locator("body")).not.toContainText("Custom score");
+  await expect(page.locator("body")).not.toContainText("Source agreement");
+  await expect(page.locator("body")).not.toContainText("Evidence depth");
+  await expect(page.locator(".attribute-meter-grid")).toHaveCount(0);
+  expect(await page.locator("[data-affiliate-link]").count()).toBeGreaterThan(0);
+  await expect(page.locator("body")).not.toContainText("Check retailer");
+  await expect(page.locator(".shopping-button--pending")).toHaveCount(0);
+  await expect(page.locator(".shopping-button").first()).toContainText("Buy now");
+  await expect(page.locator(".shopping-button").first()).toHaveAttribute("rel", /sponsored/);
   await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toHaveCount(0);
-  await page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence > summary").click();
-  await expect(page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence")).toContainText("What people like");
-  await expect(page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence")).toContainText("What people caution");
-  await expect(page.locator("#hoka-speedgoat-7 .product-signal").filter({ hasText: "Reddit" }).locator(".signal-evidence")).toContainText("checked Apr 22, 2026");
+  await page.locator("#hoka-speedgoat-7 .evidence-drawer > summary").click();
+  await expect(page.locator("#hoka-speedgoat-7 .evidence-drawer > summary")).toContainText("View full evidence");
+  await expect(page.locator("#hoka-speedgoat-7 .evidence-drawer")).toContainText("What people like");
+  await expect(page.locator("#hoka-speedgoat-7 .evidence-drawer")).toContainText("What people caution");
+  await expect(page.locator("#hoka-speedgoat-7 .evidence-drawer")).toContainText("checked Apr 22, 2026");
   const quickSourceOverlap = await page.locator("#hoka-speedgoat-7").evaluate((product) => {
     const good = Array.from(product.querySelectorAll(".like-panel a")).map((link) => link.href);
     const bad = Array.from(product.querySelectorAll(".caution-panel a")).map((link) => link.href);
     return good.filter((url) => bad.includes(url));
   });
   expect(quickSourceOverlap).toEqual([]);
-  const defaultScore = await page.locator("[data-bestpick]").first().innerText();
-
-  await setSlider(page, "Expert", 0);
-  await setSlider(page, "YouTube", 0);
-  await setSlider(page, "Reddit", 100);
-
-  await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("100%");
-  await expect(page.locator("[data-bestpick]").first()).not.toHaveText(defaultScore);
-  await page.locator("[data-save-weights]").click();
-  await expect(page.locator("[data-save-note]")).toContainText("Preference saved");
-
-  await page.reload();
-  await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("100%");
-
-  await page.locator("[data-reset-weights]").click();
-  await expect(page.locator('[data-weight-label="Expert"]')).toHaveText("40%");
-  await expect(page.locator('[data-weight-label="YouTube"]')).toHaveText("30%");
-  await expect(page.locator('[data-weight-label="Reddit"]')).toHaveText("30%");
-  await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
-  await expect(page.locator("[data-ranking-note]")).toContainText("Phavai editorial default");
 });
 
 test("public pages and new review guides render complete trust sections", async ({ page }) => {
@@ -80,29 +68,61 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator('link[rel="icon"][href="/favicon.svg"]')).toHaveCount(1);
     await expect(page.locator("h1")).toBeVisible();
     await expect(page.locator(".product").first()).toBeVisible();
+    await expect(page.locator(".product").first().locator(".product-media img")).toHaveCount(0);
+    await expect(page.locator(".product").first().locator(".product-visual-icon svg")).toBeVisible();
+    await expect(page.locator(".product").first().locator(".product-media")).toHaveText("");
     await expect(page.locator(".comparison-table")).toBeVisible();
     await expect(page.locator(".faq-list")).toBeVisible();
     await expect(page.locator(".final-panel")).toBeVisible();
-    await expect(page.locator(".affiliate-disclosure")).toContainText("As an Amazon Associate");
+    await expect(page.locator(".affiliate-disclosure")).toContainText("As an Amazon Associate I earn from qualifying purchases");
     await expect(page.locator(".source-accordion")).toHaveCount(0);
-    await expect(page.locator(".product .signal-evidence").first()).toContainText("View links");
-    await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("Expert");
-    await expect(page.locator(".product").first().locator(".signal-evidence").first()).toContainText("What people like");
+    await expect(page.locator(".product .evidence-drawer").first()).toContainText("View full evidence");
+    await expect(page.locator(".product").first().locator(".decision-summary")).toBeVisible();
+    await expect(page.locator(".product").first()).toHaveAttribute("data-decision-graph", /attributes/);
+    await expect(page.locator(".product").first().locator(".editorial-callout")).toHaveCount(0);
+    await expect(page.locator(".product").first().locator(".consensus-snapshot")).toHaveCount(0);
+    await expect(page.locator(".product").first().locator(".mini-decision-grid")).toContainText("Key tradeoff");
+    await expect(page.locator("[data-decision-helper]")).toHaveCount(0);
+    await expect(page.locator(".top-picks-snapshot")).toHaveCount(0);
+    await expect(page.locator("[data-quick-answer]")).toBeVisible();
+    await expect(page.locator("[data-quick-answer] [data-affiliate-link]")).toContainText("Buy");
+    await expect(page.locator(".page-hero + .band [data-product-list]")).toBeVisible();
+    await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText(/Expert|YouTube|Reddit/);
+    await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("Best evidence");
+    await expect(page.locator(".product").first().locator(".product-signal").first().locator("[data-source-link]").first()).toBeVisible();
+    await expect(page.locator(".product").first().locator(".evidence-drawer").first()).toContainText("View full evidence");
     await expect(page.locator(".source-table")).toHaveCount(0);
     await expect(page.locator('a[href*="youtube.com/results"], a[href*="reddit.com/search"]')).toHaveCount(0);
     await expect(page.locator("body")).toContainText("Related");
     await expect(page.locator(".buy-check")).toHaveCount(0);
-    await expect(page.locator(".product .shopping-button").first()).toContainText("Check Amazon price");
-    await expect(page.locator('.product .shopping-button[href*="tag=phavai7311-20"]').first()).toBeVisible();
-    await expect(page.locator(".button.disabled")).toHaveCount(0);
+    await expect(page.locator(".shopping-note")).toHaveCount(0);
+    await expect(page.locator("body")).not.toContainText("Opens Amazon. Compare size, flavor, color, and seller pricing before checkout.");
+    await expect(page.locator("body")).not.toContainText("Check retailer");
+    await expect(page.locator("body")).not.toContainText("A buyer-facing score built from eligible expert reviews");
+    expect(await page.locator("[data-affiliate-link]").count()).toBeGreaterThan(0);
+    await expect(page.locator(".shopping-button--pending")).toHaveCount(0);
+    await expect(page.locator(".product .shopping-button").first()).toContainText("Buy now");
+    await expect(page.locator(".product .shopping-button").first()).toHaveAttribute("rel", /sponsored/);
+    await expect(page.locator(".attribute-meter-grid")).toHaveCount(0);
+    await expect(page.locator("body")).not.toContainText("Custom score");
+    await expect(page.locator("body")).not.toContainText("Source agreement");
+    await expect(page.locator("body")).not.toContainText("Evidence depth");
     await expect(page.locator('[data-weight-label="Social"]')).toHaveCount(0);
   }
 
-  await page.goto("/best-standing-desks.html");
-  await expect(page.locator(".product").first()).toContainText("YouTube");
+  await page.goto("/best-comfortable-trail-running-shoes.html");
+  await expect(page.locator(".product-signal").filter({ hasText: "YouTube" }).first()).toBeVisible();
   expect(await page.locator('a[href*="youtube.com/watch"]').count()).toBeGreaterThan(0);
   await expect(page.locator(".product").first().locator(".source-accordion")).toHaveCount(0);
-  await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("adjusted weight");
+  await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("Score");
+
+  await page.goto("/best-trail-running-poles.html");
+  await expect(page.locator("#black-diamond-distance-carbon-z .product-media")).toHaveClass(/product-visual--folded-race/);
+  await expect(page.locator("#leki-ultratrail-fx-one-superlite .product-media")).toHaveClass(/product-visual--grip-control/);
+  await expect(page.locator("#black-diamond-distance-z .product-media")).toHaveClass(/product-visual--durable-value/);
+  await expect(page.locator("#gossamer-gear-lt5 .product-media")).toHaveClass(/product-visual--telescoping-adjust/);
+  await expect(page.locator("#black-diamond-distance-carbon-z .product-media")).toHaveText("");
+  await expect(page.locator("#leki-ultratrail-fx-one-superlite .product-media")).toHaveText("");
 
   for (const route of ["/outdoor.html", "/remote-work.html", "/lifestyle.html"]) {
     await page.goto(route);

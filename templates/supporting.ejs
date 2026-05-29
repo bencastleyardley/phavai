@@ -16,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
+  <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -86,6 +87,7 @@
         <% allSections.forEach((item) => { %>
           <a href="/<%= item.slug %>.html"><%= item.title %></a>
         <% }) %>
+        <a href="/todays-picks.html">Today's Picks</a>
         <a class="hide-small" href="/methodology.html">Methodology</a>
       </div>
     </nav>
@@ -104,7 +106,7 @@
             <span class="meta-pill">Supports <%= section.title %> reviews</span>
           </div>
         </div>
-        <img class="section-hero-image" src="<%= page.image %>" alt="<%= page.title %>" width="900" height="720" />
+        <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
       </div>
     </section>
 
@@ -159,6 +161,7 @@
         <% allSections.forEach((item) => { %>
           <a href="/<%= item.slug %>.html"><%= item.title %></a>
         <% }) %>
+        <a href="/todays-picks.html">Today's Picks</a>
         <a href="/editorial-standards.html">Editorial Standards</a>
         <a href="/methodology.html">Methodology</a>
       </div>

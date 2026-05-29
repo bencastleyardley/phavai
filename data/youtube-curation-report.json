@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-24T18:19:49.358Z",
+  "generatedAt": "2026-04-24T18:28:23.023Z",
   "productsReviewed": 97,
-  "productsUpdated": 40,
-  "productsLimited": 54,
+  "productsUpdated": 16,
+  "productsLimited": 78,
   "report": [
     {
       "productName": "HOKA Speedgoat 7",
@@ -44,13 +44,13 @@
           "polarity": "positive"
         },
         {
-          "title": "Brooks Catamount 3 Review",
-          "url": "https://www.youtube.com/watch?v=nDKhGjFYRQc",
+          "title": "Brooks Catamount Trail Shoe Review",
+          "url": "https://www.youtube.com/watch?v=jOjv56MesR8",
           "polarity": "positive"
         },
         {
-          "title": "Brooks Catamount 4 / Are they worth the price?",
-          "url": "https://www.youtube.com/watch?v=QL7IDOv_FTM",
+          "title": "Brooks Catamount 4: The Good, The Bad, and Should You Buy It?",
+          "url": "https://www.youtube.com/watch?v=_ozph3ukyIw",
           "polarity": "caution"
         }
       ]
@@ -113,8 +113,8 @@
           "polarity": "positive"
         },
         {
-          "title": "Shokz OpenRun Pro 2 Review: New OpenRun Pro gets bigger sound, battery and better charging",
-          "url": "https://www.youtube.com/watch?v=VUtvhgX00mw",
+          "title": "Shokz OpenRun Pro 2: Full Review & Real-World Test",
+          "url": "https://www.youtube.com/watch?v=gzEWV09mfAY",
           "polarity": "positive"
         },
         {
@@ -196,291 +196,93 @@
     {
       "productName": "Garmin Forerunner 265",
       "query": "Garmin Forerunner 265 Running tech Ultrarunning watches review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Garmin Forerunner 265 In-Depth Review // AMOLED Touchscreen, Training Readiness, and More!",
-          "url": "https://www.youtube.com/watch?v=zYJuJK2oFCM",
-          "polarity": "positive"
-        },
-        {
-          "title": "Garmin Forerunner 265 Review - All You Need to Know",
-          "url": "https://www.youtube.com/watch?v=qYhQqqDWNek",
-          "polarity": "positive"
-        },
-        {
-          "title": "Garmin Forerunner 165 vs Forerunner 265 Comparison // Every Difference Explained!",
-          "url": "https://www.youtube.com/watch?v=pD77vx9x0Ig",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Garmin Forerunner 965",
       "query": "Garmin Forerunner 965 Running tech Ultrarunning watches review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Garmin Forerunner 965 Review (Don't Buy, Until You Watch This)",
-          "url": "https://www.youtube.com/watch?v=K-ubFVhef6Q",
-          "polarity": "positive"
-        },
-        {
-          "title": "Garmin Forerunner 965 In-Depth Review: Finally AMOLED!",
-          "url": "https://www.youtube.com/watch?v=sY0iHU71k-4",
-          "polarity": "positive"
-        },
-        {
-          "title": "Apple vs Garmin | Smartwatch OR Sportswatch ft Apple Watch Ultra, Garmin Forerunner 965",
-          "url": "https://www.youtube.com/watch?v=9CHUFFU2tbs",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "COROS Pace 3",
       "query": "COROS Pace 3 Running tech Ultrarunning watches review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "\"Coros Pace 3 Review: The Ultimate Fitness Watch? | In-Depth Analysis and Performance Test\"",
-          "url": "https://www.youtube.com/watch?v=YwotdjyrzVE",
-          "polarity": "positive"
-        },
-        {
-          "title": "COROS Pace 3 In-Depth Review: Best Bang for the Buck?",
-          "url": "https://www.youtube.com/watch?v=rGeahtgvZQY",
-          "polarity": "positive"
-        },
-        {
-          "title": "Garmin Forerunner 165 vs Coros Pace 3: Best value running watches compared",
-          "url": "https://www.youtube.com/watch?v=vbeImAtMTWM",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Polar Vantage V3",
       "query": "Polar Vantage V3 Running tech Ultrarunning watches review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Polar Vantage V3 Review: The Most Accurate Fitness Watch of 2025?",
-          "url": "https://www.youtube.com/watch?v=6JcWMACxOnk",
-          "polarity": "positive"
-        },
-        {
-          "title": "Polar Vantage V3 In-Depth Review - Lots of Potential / Some Letdowns!",
-          "url": "https://www.youtube.com/watch?v=ZO2VofNlgIw",
-          "polarity": "positive"
-        },
-        {
-          "title": "Polar Vantage V3 vs Suunto Race - Which One You Should Pick!",
-          "url": "https://www.youtube.com/watch?v=uLeSQUZjlnk",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Uplift V2 Standing Desk",
       "query": "Uplift V2 Standing Desk Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Uplift V2 Desk Review 1 Year Later",
-          "url": "https://www.youtube.com/watch?v=R8gd1loVWG4",
-          "polarity": "positive"
-        },
-        {
-          "title": "UPLIFT Standing Desk Review - 6 Months Later",
-          "url": "https://www.youtube.com/watch?v=nv-4W9UsyAY",
-          "polarity": "positive"
-        },
-        {
-          "title": "UPLIFT V2 Standing Desk Review: Is it Worth it?",
-          "url": "https://www.youtube.com/watch?v=TL3Tm_GrVjQ",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "FlexiSpot E7 Pro",
       "query": "FlexiSpot E7 Pro Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Do you need a standing desk? FlexiSpot E7 Pro Review",
-          "url": "https://www.youtube.com/watch?v=1nA5xv-IvRs",
-          "polarity": "positive"
-        },
-        {
-          "title": "This Desk Upgrade Changed Everything (Flexispot E7 Pro Review)",
-          "url": "https://www.youtube.com/watch?v=4HUoYEyF2xE",
-          "polarity": "positive"
-        },
-        {
-          "title": "Are FlexiSpot desktops good? | Honest Flexispot E7 Pro Review",
-          "url": "https://www.youtube.com/watch?v=P55G3DXlnxA",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Vari Electric Standing Desk",
       "query": "Vari Electric Standing Desk Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Vari Electric Standing Desk 60\" x 30\" REVIEW (2023)",
-          "url": "https://www.youtube.com/watch?v=k7Hp0k-0600",
-          "polarity": "positive"
-        },
-        {
-          "title": "Vari ComfortEdge Electric Standing Desk Review / This Desk Is Amazing!",
-          "url": "https://www.youtube.com/watch?v=5eLZ9hH-MWk",
-          "polarity": "positive"
-        },
-        {
-          "title": "Vari Electric Standing Desk - Is it Worth It?",
-          "url": "https://www.youtube.com/watch?v=AjkJHt3JfPo",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Branch Duo Standing Desk",
       "query": "Branch Duo Standing Desk Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Do You Need A Standing Desk?: Branch Furniture Duo Desk Review",
-          "url": "https://www.youtube.com/watch?v=sur0-B4N1tw",
-          "polarity": "positive"
-        },
-        {
-          "title": "Branch Duo Standing Desk Full Review Of 2025",
-          "url": "https://www.youtube.com/watch?v=fp8pCaBPSf8",
-          "polarity": "positive"
-        },
-        {
-          "title": "Deskhaus Peak Two-Leg Vs Branch Duo",
-          "url": "https://www.youtube.com/watch?v=BTsg2Euhz-M",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Steelcase Gesture",
       "query": "Steelcase Gesture Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Steelcase Gesture Review: My Opinion 3 Years Later",
-          "url": "https://www.youtube.com/watch?v=5Y0NZjUecE8",
-          "polarity": "positive"
-        },
-        {
-          "title": "Steelcase Gesture Review: 90 Seconds With Pogue | The New York Times",
-          "url": "https://www.youtube.com/watch?v=f015364T_fk",
-          "polarity": "positive"
-        },
-        {
-          "title": "Steelcase Gesture: Is It Worth It?",
-          "url": "https://www.youtube.com/watch?v=7zc6MURAsa0",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Herman Miller Aeron",
       "query": "Herman Miller Aeron Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "10 Reasons To NEVER BUY a Herman Miller Aeron",
-          "url": "https://www.youtube.com/watch?v=gi9R57g9s9U",
-          "polarity": "positive"
-        },
-        {
-          "title": "Herman Miller Aeron Review: My Opinion 3 Years Later",
-          "url": "https://www.youtube.com/watch?v=kZrnMKSe9oo",
-          "polarity": "positive"
-        },
-        {
-          "title": "After 7 years, here's my review of the Herman Miller Aeron Chair",
-          "url": "https://www.youtube.com/watch?v=ZNQFbDx8ny0",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Branch Ergonomic Chair Pro",
       "query": "Branch Ergonomic Chair Pro Home office review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "I Really WANTED to Like This Chair | Branch Ergonomic Chair Pro Review",
-          "url": "https://www.youtube.com/watch?v=vRplOErDUVY",
-          "polarity": "positive"
-        },
-        {
-          "title": "Branch Ergonomic Chair Pro: The Best YouTube Chair Reviewed!",
-          "url": "https://www.youtube.com/watch?v=M3S5HGwa-RQ",
-          "polarity": "positive"
-        },
-        {
-          "title": "Branch Ergonomic Pro vs Hon Ignition | Office Chair Tier List",
-          "url": "https://www.youtube.com/watch?v=ciRpdq94jxU",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Haworth Fern",
       "query": "Haworth Fern Home office review",
-      "status": "updated",
-      "videosAdded": 1,
-      "selected": [
-        {
-          "title": "Haworth Fern Review, no one is telling you the Truth!",
-          "url": "https://www.youtube.com/watch?v=2kmo-f-ziRQ",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Salomon ADV Skin 12",
       "query": "Salomon ADV Skin 12 Trail hydration Ultra hydration vests review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "WHAT HAVE SALOMON DONE?! Adv Skin 12 (2025) Running Vest Review | Run4Adventure",
-          "url": "https://www.youtube.com/watch?v=-_YHvjUnZno",
-          "polarity": "positive"
-        },
-        {
-          "title": "Salomon ADV SKIN 12 | WHICH size? | Review | Trial Running Hydration Pack 2022 | Buyers guide-Unisex",
-          "url": "https://www.youtube.com/watch?v=blbRFEpkI5U",
-          "polarity": "positive"
-        },
-        {
-          "title": "How To Choose Salomon ADV Skin 5 vs 12 (Best Salomon Running Pack For Ultramarathon)",
-          "url": "https://www.youtube.com/watch?v=zVyRBOWSvW8",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Nathan Pinnacle 12L",
@@ -492,138 +294,51 @@
     {
       "productName": "Osprey Duro/Dyna 15",
       "query": "Osprey Duro/Dyna 15 Trail hydration Ultra hydration vests review",
-      "status": "updated",
-      "videosAdded": 2,
-      "selected": [
-        {
-          "title": "100 miles and running in My Osprey Dyna 15 Hydration Pack Ultra Runner Review",
-          "url": "https://www.youtube.com/watch?v=ON4JKyP-Zbw",
-          "polarity": "positive"
-        },
-        {
-          "title": "Osprey Duro 15 Hydration Running Pack Review",
-          "url": "https://www.youtube.com/watch?v=HDyzRXKg7HI",
-          "polarity": "positive"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "CamelBak Zephyr Pro",
       "query": "CamelBak Zephyr Pro Trail hydration Ultra hydration vests review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Camelbak Zephyr Review",
-          "url": "https://www.youtube.com/watch?v=CM1xbKtna4s",
-          "polarity": "positive"
-        },
-        {
-          "title": "REVIEW 1/7 - Camelbak Zephyr Vest 10L trail & ultra running pack / race vest (2021)",
-          "url": "https://www.youtube.com/watch?v=w5G5RGxF4Hg",
-          "polarity": "positive"
-        },
-        {
-          "title": "WORTH BUYING? Camelbak Zephyr Pro Review | Best hydration vests | Run4Adventure",
-          "url": "https://www.youtube.com/watch?v=Tz93WlHezyE",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Black Diamond Distance Carbon Z",
       "query": "Black Diamond Distance Carbon Z Trail running gear review",
-      "status": "updated",
-      "videosAdded": 2,
-      "selected": [
-        {
-          "title": "Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!",
-          "url": "https://www.youtube.com/watch?v=Kvp-qOSvhXk",
-          "polarity": "positive"
-        },
-        {
-          "title": "Black Diamond Distance Carbon Z Trekking/Running Poles: Tested and Reviewed!",
-          "url": "https://www.youtube.com/watch?v=zF7YPxkXwug",
-          "polarity": "positive"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Leki Ultratrail FX.One Superlite",
       "query": "Leki Ultratrail FX.One Superlite Trail running gear review",
-      "status": "updated",
-      "videosAdded": 2,
-      "selected": [
-        {
-          "title": "Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️",
-          "url": "https://www.youtube.com/watch?v=3zMjqG67Ikg",
-          "polarity": "positive"
-        },
-        {
-          "title": "Beer O'Clock Gear Review with Leki Poles UltraTrail FX.One and the Micro Trail Vario Poles",
-          "url": "https://www.youtube.com/watch?v=YLP09BTD0Uc",
-          "polarity": "positive"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Black Diamond Distance Z",
       "query": "Black Diamond Distance Z Trail running gear review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!",
-          "url": "https://www.youtube.com/watch?v=Kvp-qOSvhXk",
-          "polarity": "positive"
-        },
-        {
-          "title": "Black Diamond Distance Z Trekking Poles Review!",
-          "url": "https://www.youtube.com/watch?v=BjJef4-_1k0",
-          "polarity": "positive"
-        },
-        {
-          "title": "Black Diamond Distance 15 Running Vest - An All Day Multisport Pack - Compared to Ultraspire Zygos",
-          "url": "https://www.youtube.com/watch?v=7McANl0ecs4",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Gossamer Gear LT5",
       "query": "Gossamer Gear LT5 Trail running gear review",
-      "status": "updated",
-      "videosAdded": 1,
-      "selected": [
-        {
-          "title": "Durston Gear Iceline Poles VS Gossamer Gear LT5",
-          "url": "https://www.youtube.com/watch?v=TxzlPbdqlhk",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Salomon ADV Skin 5",
       "query": "Salomon ADV Skin 5 Running storage review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Salomon ADV Skin 5 Review – Lighter, Softer, Better?",
-          "url": "https://www.youtube.com/watch?v=MfSwRZAjs5E",
-          "polarity": "positive"
-        },
-        {
-          "title": "Salomon Adv Skin Hydration Running Vest Series Review",
-          "url": "https://www.youtube.com/watch?v=KnvIzQxbyZs",
-          "polarity": "positive"
-        },
-        {
-          "title": "How To Choose Salomon ADV Skin 5 vs 12 (Best Salomon Running Pack For Ultramarathon)",
-          "url": "https://www.youtube.com/watch?v=zVyRBOWSvW8",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Nathan Pinnacle 4L",
@@ -635,20 +350,9 @@
     {
       "productName": "Ultimate Direction Race Vest 6.0",
       "query": "Ultimate Direction Race Vest 6.0 Running storage review",
-      "status": "updated",
-      "videosAdded": 2,
-      "selected": [
-        {
-          "title": "Ultimate Direction Race Vest 6.0 Review // Purposely Built, Well Thought-Out",
-          "url": "https://www.youtube.com/watch?v=3eUF-MB0hNA",
-          "polarity": "positive"
-        },
-        {
-          "title": "Ultimate Direction Adventure Vest 6.0 Review",
-          "url": "https://www.youtube.com/watch?v=V7d-7EprL4E",
-          "polarity": "positive"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Patagonia Slope Runner Vest",
@@ -660,44 +364,140 @@
     {
       "productName": "OOFOS OOahh Slide",
       "query": "OOFOS OOahh Slide Recovery review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review",
+          "url": "https://www.youtube.com/watch?v=i7gj3WE0QKY",
+          "polarity": "positive"
+        },
+        {
+          "title": "Oofos Ooahh Recovery Slides: Expert Review",
+          "url": "https://www.youtube.com/watch?v=0xyelpujHSI",
+          "polarity": "positive"
+        },
+        {
+          "title": "Oofos Ooahh Recovery Slides Review - The BEST Slides On The Market (vs Crocs Mellow, Adidas)",
+          "url": "https://www.youtube.com/watch?v=IaDhnjKJd5k",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "HOKA Ora Recovery Slide 3",
       "query": "HOKA Ora Recovery Slide 3 Recovery review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!",
+          "url": "https://www.youtube.com/watch?v=k118evKM2_w",
+          "polarity": "positive"
+        },
+        {
+          "title": "Is it COMFY?! Hoka Ora Recovery Slide 3 Review!",
+          "url": "https://www.youtube.com/watch?v=DBCCDWFP1EY",
+          "polarity": "positive"
+        },
+        {
+          "title": "Watch before you buy these Hoka Recovery Slides!",
+          "url": "https://www.youtube.com/watch?v=uDWHi8JKtWY",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "Kane Revive",
       "query": "Kane Revive Recovery review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "Kane Revive Active Recovery Shoes Review (+What to know about sizing!)",
+          "url": "https://www.youtube.com/watch?v=34CXGDrHlAA",
+          "polarity": "positive"
+        },
+        {
+          "title": "Kane Revive Shoes - 1 Year Later review - Active Recovery Shoe",
+          "url": "https://www.youtube.com/watch?v=HpRDmLyDcWk",
+          "polarity": "positive"
+        },
+        {
+          "title": "Kane Revive Sneakers: Marketing Gimmick... or The BEST Recovery Shoe? (Honest Review)",
+          "url": "https://www.youtube.com/watch?v=Qae0QK_-T1c",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "Birkenstock Arizona EVA",
       "query": "Birkenstock Arizona EVA Recovery review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?",
+          "url": "https://www.youtube.com/watch?v=UARQG4JGrcc",
+          "polarity": "positive"
+        },
+        {
+          "title": "Birkenstocks: Waterproof Arizona EVA Tested, Arch Pain & Plantar Fasciitis Advice #birkenstocks",
+          "url": "https://www.youtube.com/watch?v=5vn1CkbtMvQ",
+          "polarity": "positive"
+        },
+        {
+          "title": "1 YEAR LATER | Birkenstock Arizona EVA & Leather Soft Bed Comparison/Review",
+          "url": "https://www.youtube.com/watch?v=gBZcOIjDP3g",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "Logitech MX Brio",
       "query": "Logitech MX Brio Video calls review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "Logitech Mx Brio In-Depth Review and video demo",
+          "url": "https://www.youtube.com/watch?v=qKAbGRC23iU",
+          "polarity": "positive"
+        },
+        {
+          "title": "Logitech MX Brio Ultra HD 4K Webcam Review",
+          "url": "https://www.youtube.com/watch?v=tLhVkBqpkmY",
+          "polarity": "positive"
+        },
+        {
+          "title": "Logitech MX Brio Webcam: How Good Is it? Compared to Brio 4K & C922",
+          "url": "https://www.youtube.com/watch?v=z7dTEv0G8Vs",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "Obsbot Tiny 3",
       "query": "Obsbot Tiny 3 Video calls review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!",
+          "url": "https://www.youtube.com/watch?v=bRRNKipxBTs",
+          "polarity": "positive"
+        },
+        {
+          "title": "Obsbot Tiny 3 Review: The $150 Question Nobody's Asking (2026)",
+          "url": "https://www.youtube.com/watch?v=eWneDFYb2ok",
+          "polarity": "positive"
+        },
+        {
+          "title": "OBSBOT Tiny 3 vs Insta360 Link 2 Pro | UNSPONSORED",
+          "url": "https://www.youtube.com/watch?v=QmdQe5rKxtw",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "Razer Kiyo Pro Ultra",
@@ -711,13 +511,13 @@
           "polarity": "positive"
         },
         {
-          "title": "Razer Kiyo Pro Ultra Review: Is This the Webcam Upgrade You Need?",
-          "url": "https://www.youtube.com/watch?v=1TvKI0fnZdM",
+          "title": "$300 Webcam!? - Razer Kiyo Pro Ultra Review!",
+          "url": "https://www.youtube.com/watch?v=NHwO67c8hOU",
           "polarity": "positive"
         },
         {
-          "title": "Razer Kiyo Pro vs Kiyo Pro Ultra",
-          "url": "https://www.youtube.com/watch?v=JluKytPypLI",
+          "title": "Razer Kiyo Pro Ultra Review 2025 – Is It Worth $300?",
+          "url": "https://www.youtube.com/watch?v=lehuUvYilKY",
           "polarity": "caution"
         }
       ]
@@ -725,9 +525,25 @@
     {
       "productName": "Anker PowerConf C200",
       "query": "Anker PowerConf C200 Video calls review",
-      "status": "limited-public-video-evidence",
-      "videosAdded": 0,
-      "selected": []
+      "status": "updated",
+      "videosAdded": 3,
+      "selected": [
+        {
+          "title": "Anker PowerConf C200 Webcam Review: Elevate Your Video Calls",
+          "url": "https://www.youtube.com/watch?v=KnaDVQgZs68",
+          "polarity": "positive"
+        },
+        {
+          "title": "Anker Powerconf C200 2K Webcam Review & Quality DEMO (Good Enough for Zoom Calls & YouTube Videos?)",
+          "url": "https://www.youtube.com/watch?v=sNdiJlr4j6M",
+          "polarity": "positive"
+        },
+        {
+          "title": "Which webcam is best? Logitech Brio 4K vs Anker PowerConf C200 2K",
+          "url": "https://www.youtube.com/watch?v=XEwoLknnm8Q",
+          "polarity": "caution"
+        }
+      ]
     },
     {
       "productName": "Orbitkey Desk Mat",
@@ -760,25 +576,9 @@
     {
       "productName": "Ergotron LX",
       "query": "Ergotron LX Ergonomics review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "The Ultimate Desk Transformer? Ergotron LX Pro (2025) Monitor Arm Review",
-          "url": "https://www.youtube.com/watch?v=iP7ZUOvpvXs",
-          "polarity": "positive"
-        },
-        {
-          "title": "ReviewErgotron LX Pro: The Ultimate Monitor Arm for Your Desk?",
-          "url": "https://www.youtube.com/watch?v=hLJfMzaCBuQ",
-          "polarity": "positive"
-        },
-        {
-          "title": "Review Ergotron LX Desk Mount LCD Arm, Matte Black/Polished Aluminium/White - 10 Year Local Warrant",
-          "url": "https://www.youtube.com/watch?v=lPkktLzE2U8",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Amazon Basics Premium Monitor Stand",
@@ -839,25 +639,9 @@
     {
       "productName": "Briggs & Riley Baseline Essential",
       "query": "Briggs & Riley Baseline Essential Travel review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Briggs & Riley Essential 22 Review | 21.Five Podcast",
-          "url": "https://www.youtube.com/watch?v=g5Xfvzt8SsQ",
-          "polarity": "positive"
-        },
-        {
-          "title": "Briggs & Riley Uprights, Black, 22-inch Baseline Essential Carry-On (Review)",
-          "url": "https://www.youtube.com/watch?v=N6YwwEUm1T8",
-          "polarity": "positive"
-        },
-        {
-          "title": "Not Worth the Weight | Briggs and Riley Baseline Softside Suitcase Review (Large Check Luggage)",
-          "url": "https://www.youtube.com/watch?v=QoyTll78vRw",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Away Bigger Carry-On",
@@ -911,48 +695,16 @@
     {
       "productName": "Hyperice Hypervolt 2 Pro",
       "query": "Hyperice Hypervolt 2 Pro Recovery tools review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "I tested the Hyperice Hypervolt 2 for 6 months | Best for pain relief?",
-          "url": "https://www.youtube.com/watch?v=VX4iH9nNLJg",
-          "polarity": "positive"
-        },
-        {
-          "title": "I Bought Every Hyperice Hypervolt 3 So That You Dont Have To",
-          "url": "https://www.youtube.com/watch?v=VUajTd8PEm0",
-          "polarity": "positive"
-        },
-        {
-          "title": "Review: Hyperice Hypervolt+ vs. Triggerpoint Impact Massage Tool",
-          "url": "https://www.youtube.com/watch?v=JB6mk1XOVpA",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Ekrin B37",
       "query": "Ekrin B37 Recovery tools review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "EKRIN B37 Massage Gun Review - For Post-Limb Lengthening Surgery Recovery",
-          "url": "https://www.youtube.com/watch?v=iI9WUKKUGEA",
-          "polarity": "positive"
-        },
-        {
-          "title": "Ekrin B37 Review + GIVEAWAY",
-          "url": "https://www.youtube.com/watch?v=rHv6KLowYdc",
-          "polarity": "positive"
-        },
-        {
-          "title": "Massage Therapist Reviews: Ekrin B37 Percussion Massager | honest opinion + benefits of massage guns",
-          "url": "https://www.youtube.com/watch?v=u7V-N94c5QQ",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Theragun Mini",
@@ -999,48 +751,16 @@
     {
       "productName": "Brooks Cascadia 19",
       "query": "Brooks Cascadia 19 Ultrarunning shoes Wide-foot trail shoes review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Are These The Best Brooks Trail Running Shoes? | Cascadia 19 First Run Review",
-          "url": "https://www.youtube.com/watch?v=vo__KauGVPM",
-          "polarity": "positive"
-        },
-        {
-          "title": "Brooks Cascadia 19, Trail Running Shoes: Expert Review",
-          "url": "https://www.youtube.com/watch?v=xrTRVoUOLGA",
-          "polarity": "positive"
-        },
-        {
-          "title": "Brooks Cascadia 19 Full Review | The Good, The Bad, The Trail Truth",
-          "url": "https://www.youtube.com/watch?v=Le26LVyA7gw",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Altra Lone Peak 9",
       "query": "Altra Lone Peak 9 Wide-foot trail shoes Trail running comfort review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Altra Lone Peak 9+ GTX Review - New for 2026",
-          "url": "https://www.youtube.com/watch?v=GdXYjKhQMZc",
-          "polarity": "positive"
-        },
-        {
-          "title": "Altra Lone Peak 9+ GTX Review",
-          "url": "https://www.youtube.com/watch?v=8whqAb__qQo",
-          "polarity": "positive"
-        },
-        {
-          "title": "Altra Lone Peak 9+ Review | Worth It In 2026?",
-          "url": "https://www.youtube.com/watch?v=e3q9KxK8hdA",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Salomon Speedcross 6",
@@ -1080,61 +800,23 @@
     {
       "productName": "Nike Pegasus 41",
       "query": "Nike Pegasus 41 First marathon shoes review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Nike Pegasus 41 Review: Is the new Nike Pegasus a good shoe for running the marathon?",
-          "url": "https://www.youtube.com/watch?v=IoZTEKNC_jo",
-          "polarity": "positive"
-        },
-        {
-          "title": "Nike Pegasus 41 Performance Review By Real Foot Doctor",
-          "url": "https://www.youtube.com/watch?v=KtVf6QqiN2w",
-          "polarity": "positive"
-        },
-        {
-          "title": "Nike Pegasus 41 - MY 100% HONEST REVIEW",
-          "url": "https://www.youtube.com/watch?v=xi7HLGddq8g",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "New Balance Fresh Foam X 1080v14",
       "query": "New Balance Fresh Foam X 1080v14 Marathon training shoes Marathon shoes for heavier runners review",
-      "status": "updated",
-      "videosAdded": 1,
-      "selected": [
-        {
-          "title": "After 1 Month: New Balance Fresh Foam X 1080v14 Pros & Cons!",
-          "url": "https://www.youtube.com/watch?v=-bg8UJgEUlM",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "HOKA Clifton 10",
       "query": "HOKA Clifton 10 Marathon training shoes review",
-      "status": "updated",
-      "videosAdded": 3,
-      "selected": [
-        {
-          "title": "Hoka Clifton 10 Review | Rackets & Runners",
-          "url": "https://www.youtube.com/watch?v=EkKXBXGJFXM",
-          "polarity": "positive"
-        },
-        {
-          "title": "HOKA Clifton 10 Review | Comfortable and lightweight daily running",
-          "url": "https://www.youtube.com/watch?v=Kkm9NMnXbI8",
-          "polarity": "positive"
-        },
-        {
-          "title": "Clifton 10 is HOKA’s Best-Selling Shoe… But Is It Any Good? (100% honest review)",
-          "url": "https://www.youtube.com/watch?v=IGITHDBO5To",
-          "polarity": "caution"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "ASICS Gel-Nimbus 27",
@@ -1233,20 +915,9 @@
     {
       "productName": "Skratch Labs Hydration",
       "query": "Skratch Labs Hydration Ultra hydration review",
-      "status": "updated",
-      "videosAdded": 2,
-      "selected": [
-        {
-          "title": "Eat for Endurance Product Review: Skratch Labs Hydration Everyday Drink Mix",
-          "url": "https://www.youtube.com/watch?v=cp_ujRgydQw",
-          "polarity": "positive"
-        },
-        {
-          "title": "Gotlegs? Skratch Labs hydration mix review",
-          "url": "https://www.youtube.com/watch?v=My-yngGRuQg",
-          "polarity": "positive"
-        }
-      ]
+      "status": "limited-public-video-evidence",
+      "videosAdded": 0,
+      "selected": []
     },
     {
       "productName": "Precision Hydration PH 1000",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-24T18:22:13.914Z",
-  "pages_checked": 51,
+  "generated_at": "2026-05-29T18:30:01.853Z",
+  "pages_checked": 71,
   "errors": [],
   "warnings": [],
   "pages": [
@@ -15,9 +15,22 @@
       ]
     },
     {
+      "file": "best-adjustable-dumbbells.html",
+      "title": "Best Adjustable Dumbbells for Home Gyms | Phavai",
+      "description_length": 165,
+      "canonical": "https://www.phavai.com/best-adjustable-dumbbells.html",
+      "h1": "Best Adjustable Dumbbells",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-air-purifiers.html",
       "title": "Best Air Purifiers | Phavai Buying Guide",
-      "description_length": 215,
+      "description_length": 235,
       "canonical": "https://www.phavai.com/best-air-purifiers.html",
       "h1": "Best Air Purifiers",
       "structured_data_types": [
@@ -28,9 +41,48 @@
       ]
     },
     {
+      "file": "best-beard-trimmers.html",
+      "title": "Best Beard Trimmers for Men | Phavai",
+      "description_length": 153,
+      "canonical": "https://www.phavai.com/best-beard-trimmers.html",
+      "h1": "Best Beard Trimmers",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-body-groomers-for-men.html",
+      "title": "Best Body Groomers for Men | Phavai",
+      "description_length": 158,
+      "canonical": "https://www.phavai.com/best-body-groomers-for-men.html",
+      "h1": "Best Body Groomers for Men",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-carb-drink-mixes-for-ultramarathons.html",
+      "title": "Best Carb Drink Mixes for Ultramarathons | Phavai",
+      "description_length": 157,
+      "canonical": "https://www.phavai.com/best-carb-drink-mixes-for-ultramarathons.html",
+      "h1": "Best Carb Drink Mixes for Ultramarathons",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-carry-on-luggage.html",
       "title": "Best Carry-On Luggage | Phavai Buying Guide",
-      "description_length": 206,
+      "description_length": 226,
       "canonical": "https://www.phavai.com/best-carry-on-luggage.html",
       "h1": "Best Carry-On Luggage",
       "structured_data_types": [
@@ -43,7 +95,7 @@
     {
       "file": "best-coffee-makers.html",
       "title": "Best Coffee Makers | Phavai Buying Guide",
-      "description_length": 205,
+      "description_length": 225,
       "canonical": "https://www.phavai.com/best-coffee-makers.html",
       "h1": "Best Coffee Makers",
       "structured_data_types": [
@@ -67,9 +119,48 @@
       ]
     },
     {
+      "file": "best-commuter-backpacks-for-men.html",
+      "title": "Best Commuter Backpacks for Men | Phavai",
+      "description_length": 151,
+      "canonical": "https://www.phavai.com/best-commuter-backpacks-for-men.html",
+      "h1": "Best Commuter Backpacks for Men",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-compression-boots-for-runners.html",
+      "title": "Best Compression Boots for Runners | Phavai",
+      "description_length": 168,
+      "canonical": "https://www.phavai.com/best-compression-boots-for-runners.html",
+      "h1": "Best Compression Boots for Runners",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-creatine.html",
+      "title": "Best Creatine Supplements | Phavai",
+      "description_length": 154,
+      "canonical": "https://www.phavai.com/best-creatine.html",
+      "h1": "Best Creatine",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-daily-trainers-for-marathon-training.html",
       "title": "Best Daily Trainers for Marathon Training | Phavai Buying Guide",
-      "description_length": 132,
+      "description_length": 131,
       "canonical": "https://www.phavai.com/best-daily-trainers-for-marathon-training.html",
       "h1": "Best Daily Trainers for Marathon Training",
       "structured_data_types": [
@@ -82,9 +173,22 @@
     {
       "file": "best-desk-mats.html",
       "title": "Best Desk Mats | Phavai Buying Guide",
-      "description_length": 213,
+      "description_length": 233,
       "canonical": "https://www.phavai.com/best-desk-mats.html",
       "h1": "Best Desk Mats",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-electric-shavers-for-men.html",
+      "title": "Best Electric Shavers for Men | Phavai",
+      "description_length": 150,
+      "canonical": "https://www.phavai.com/best-electric-shavers-for-men.html",
+      "h1": "Best Electric Shavers for Men",
       "structured_data_types": [
         "Article",
         "ItemList",
@@ -106,9 +210,22 @@
       ]
     },
     {
+      "file": "best-electrolytes-for-heavy-sweaters.html",
+      "title": "Best Electrolytes for Heavy Sweaters | Phavai",
+      "description_length": 165,
+      "canonical": "https://www.phavai.com/best-electrolytes-for-heavy-sweaters.html",
+      "h1": "Best Electrolytes for Heavy Sweaters",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-ergonomic-keyboards.html",
       "title": "Best Ergonomic Keyboards | Phavai Buying Guide",
-      "description_length": 216,
+      "description_length": 236,
       "canonical": "https://www.phavai.com/best-ergonomic-keyboards.html",
       "h1": "Best Ergonomic Keyboards",
       "structured_data_types": [
@@ -121,7 +238,7 @@
     {
       "file": "best-gps-running-watches.html",
       "title": "Best GPS Running Watches | Phavai Buying Guide",
-      "description_length": 206,
+      "description_length": 226,
       "canonical": "https://www.phavai.com/best-gps-running-watches.html",
       "h1": "Best GPS Running Watches",
       "structured_data_types": [
@@ -145,9 +262,22 @@
       ]
     },
     {
+      "file": "best-handheld-running-water-bottles.html",
+      "title": "Best Handheld Running Water Bottles | Phavai",
+      "description_length": 145,
+      "canonical": "https://www.phavai.com/best-handheld-running-water-bottles.html",
+      "h1": "Best Handheld Running Water Bottles",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-hydration-packs.html",
       "title": "Best Hydration Packs | Phavai Buying Guide",
-      "description_length": 200,
+      "description_length": 220,
       "canonical": "https://www.phavai.com/best-hydration-packs.html",
       "h1": "Best Hydration Packs",
       "structured_data_types": [
@@ -171,9 +301,22 @@
       ]
     },
     {
+      "file": "best-laptop-stands-for-remote-work.html",
+      "title": "Best Laptop Stands for Remote Work | Phavai",
+      "description_length": 152,
+      "canonical": "https://www.phavai.com/best-laptop-stands-for-remote-work.html",
+      "h1": "Best Laptop Stands for Remote Work",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-marathon-shoes-for-heavy-runners.html",
       "title": "Best Marathon Shoes for Heavy Runners | Phavai Buying Guide",
-      "description_length": 127,
+      "description_length": 126,
       "canonical": "https://www.phavai.com/best-marathon-shoes-for-heavy-runners.html",
       "h1": "Best Marathon Shoes for Heavy Runners",
       "structured_data_types": [
@@ -186,7 +329,7 @@
     {
       "file": "best-massage-guns.html",
       "title": "Best Massage Guns | Phavai Buying Guide",
-      "description_length": 205,
+      "description_length": 225,
       "canonical": "https://www.phavai.com/best-massage-guns.html",
       "h1": "Best Massage Guns",
       "structured_data_types": [
@@ -199,7 +342,7 @@
     {
       "file": "best-mens-trail-running-shoes.html",
       "title": "Best Men&#39;s Trail Running Shoes | Phavai Buying Guide",
-      "description_length": 198,
+      "description_length": 218,
       "canonical": "https://www.phavai.com/best-mens-trail-running-shoes.html",
       "h1": "Best Men&#39;s Trail Running Shoes",
       "structured_data_types": [
@@ -212,7 +355,7 @@
     {
       "file": "best-monitor-arms.html",
       "title": "Best Monitor Arms | Phavai Buying Guide",
-      "description_length": 226,
+      "description_length": 246,
       "canonical": "https://www.phavai.com/best-monitor-arms.html",
       "h1": "Best Monitor Arms",
       "structured_data_types": [
@@ -225,7 +368,7 @@
     {
       "file": "best-office-chairs.html",
       "title": "Best Office Chairs | Phavai Buying Guide",
-      "description_length": 209,
+      "description_length": 229,
       "canonical": "https://www.phavai.com/best-office-chairs.html",
       "h1": "Best Office Chairs",
       "structured_data_types": [
@@ -236,9 +379,35 @@
       ]
     },
     {
+      "file": "best-portable-monitors-for-remote-work.html",
+      "title": "Best Portable Monitors for Remote Work | Phavai",
+      "description_length": 135,
+      "canonical": "https://www.phavai.com/best-portable-monitors-for-remote-work.html",
+      "h1": "Best Portable Monitors for Remote Work",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-protein-bars.html",
+      "title": "Best Protein Bars | Phavai",
+      "description_length": 136,
+      "canonical": "https://www.phavai.com/best-protein-bars.html",
+      "h1": "Best Protein Bars",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-recovery-sandals.html",
       "title": "Best Recovery Sandals | Phavai Buying Guide",
-      "description_length": 200,
+      "description_length": 220,
       "canonical": "https://www.phavai.com/best-recovery-sandals.html",
       "h1": "Best Recovery Sandals",
       "structured_data_types": [
@@ -262,6 +431,32 @@
       ]
     },
     {
+      "file": "best-running-belts.html",
+      "title": "Best Running Belts and Waist Packs | Phavai",
+      "description_length": 148,
+      "canonical": "https://www.phavai.com/best-running-belts.html",
+      "h1": "Best Running Belts",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-running-chews.html",
+      "title": "Best Running Chews for Long Runs and Races | Phavai",
+      "description_length": 146,
+      "canonical": "https://www.phavai.com/best-running-chews.html",
+      "h1": "Best Running Chews",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-running-gels-for-ultramarathons.html",
       "title": "Best Running Gels for Ultramarathons | Phavai",
       "description_length": 154,
@@ -277,7 +472,7 @@
     {
       "file": "best-running-headphones.html",
       "title": "Best Running Headphones | Phavai Buying Guide",
-      "description_length": 241,
+      "description_length": 261,
       "canonical": "https://www.phavai.com/best-running-headphones.html",
       "h1": "Best Running Headphones",
       "structured_data_types": [
@@ -288,9 +483,35 @@
       ]
     },
     {
+      "file": "best-running-socks-for-long-runs.html",
+      "title": "Best Running Socks for Long Runs | Phavai",
+      "description_length": 165,
+      "canonical": "https://www.phavai.com/best-running-socks-for-long-runs.html",
+      "h1": "Best Running Socks for Long Runs",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-running-sunglasses-for-sweat-and-bounce.html",
+      "title": "Best Running Sunglasses for Sweat and Bounce | Phavai",
+      "description_length": 130,
+      "canonical": "https://www.phavai.com/best-running-sunglasses-for-sweat-and-bounce.html",
+      "h1": "Best Running Sunglasses for Sweat and Bounce",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-running-vests.html",
       "title": "Best Running Vests | Phavai Buying Guide",
-      "description_length": 215,
+      "description_length": 235,
       "canonical": "https://www.phavai.com/best-running-vests.html",
       "h1": "Best Running Vests",
       "structured_data_types": [
@@ -303,7 +524,7 @@
     {
       "file": "best-standing-desks.html",
       "title": "Best Standing Desks | Phavai Buying Guide",
-      "description_length": 213,
+      "description_length": 233,
       "canonical": "https://www.phavai.com/best-standing-desks.html",
       "h1": "Best Standing Desks",
       "structured_data_types": [
@@ -316,7 +537,7 @@
     {
       "file": "best-trail-running-poles.html",
       "title": "Best Trail Running Poles | Phavai Buying Guide",
-      "description_length": 207,
+      "description_length": 227,
       "canonical": "https://www.phavai.com/best-trail-running-poles.html",
       "h1": "Best Trail Running Poles",
       "structured_data_types": [
@@ -329,7 +550,7 @@
     {
       "file": "best-trail-shoes-for-100-miles.html",
       "title": "Best Trail Shoes for 100 Miles | Phavai Buying Guide",
-      "description_length": 132,
+      "description_length": 152,
       "canonical": "https://www.phavai.com/best-trail-shoes-for-100-miles.html",
       "h1": "Best Trail Shoes for 100 Miles",
       "structured_data_types": [
@@ -405,9 +626,35 @@
       ]
     },
     {
+      "file": "best-usb-c-hubs-for-remote-work.html",
+      "title": "Best USB-C Hubs for Remote Work | Phavai",
+      "description_length": 144,
+      "canonical": "https://www.phavai.com/best-usb-c-hubs-for-remote-work.html",
+      "h1": "Best USB-C Hubs for Remote Work",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "file": "best-walking-pads.html",
+      "title": "Best Walking Pads for Remote Work | Phavai",
+      "description_length": 174,
+      "canonical": "https://www.phavai.com/best-walking-pads.html",
+      "h1": "Best Walking Pads",
+      "structured_data_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
       "file": "best-webcams-for-remote-work.html",
       "title": "Best Webcams for Remote Work | Phavai Buying Guide",
-      "description_length": 208,
+      "description_length": 228,
       "canonical": "https://www.phavai.com/best-webcams-for-remote-work.html",
       "h1": "Best Webcams for Remote Work",
       "structured_data_types": [
@@ -420,7 +667,7 @@
     {
       "file": "best-womens-trail-running-shoes.html",
       "title": "Best Women&#39;s Trail Running Shoes | Phavai Buying Guide",
-      "description_length": 191,
+      "description_length": 211,
       "canonical": "https://www.phavai.com/best-womens-trail-running-shoes.html",
       "h1": "Best Women&#39;s Trail Running Shoes",
       "structured_data_types": [
@@ -626,6 +873,17 @@
       "canonical": "https://www.phavai.com/terms.html",
       "h1": "Terms of Use",
       "structured_data_types": [
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "todays-picks.html",
+      "title": "Today&#39;s Picks | Phavai",
+      "description_length": 106,
+      "canonical": "https://www.phavai.com/todays-picks.html",
+      "h1": "Today&#39;s Picks",
+      "structured_data_types": [
+        "CollectionPage",
         "BreadcrumbList"
       ]
     }

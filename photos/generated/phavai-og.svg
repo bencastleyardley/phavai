@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Phavai brand-neutral buying guide visual">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f5ef"/>
+      <stop offset=".58" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#e8f1e8"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#17201b" stroke-opacity=".055" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" rx="56" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="56" fill="url(#grid)"/>
+  <circle cx="230" cy="160" r="112" fill="#146b45" opacity=".12"/>
+  <circle cx="970" cy="470" r="150" fill="#245b7a" opacity=".10"/>
+  <circle cx="760" cy="150" r="92" fill="#b86f25" opacity=".11"/>
+  <g fill="none" stroke="#146b45" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M225 410c70 18 145-22 198-118l122 80c36 24 30 82-16 96H274c-42 0-66-19-49-58Z"/>
+    <path d="M390 320l44 36M326 356l56 42"/>
+  </g>
+  <g fill="none" stroke="#245b7a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".84">
+    <rect x="704" y="300" width="218" height="138" rx="18"/>
+    <path d="M756 486h114m-57-48v48"/>
+  </g>
+  <g fill="none" stroke="#8a5b1f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".82">
+    <rect x="555" y="160" width="116" height="176" rx="22"/>
+    <path d="M590 160v-28h46v28M580 228h66M592 336v24m42-24v24"/>
+  </g>
+</svg>

@@ -10,11 +10,18 @@
       "ultramarathon fuel",
       "running gels",
       "electrolyte mixes",
+      "carb drink mixes",
+      "running chews",
+      "running socks",
+      "running sunglasses",
+      "running belts",
+      "handheld water bottles",
       "running headphones",
       "GPS running watches",
       "hydration packs and vests",
       "trail poles",
-      "recovery footwear"
+      "recovery footwear",
+      "compression boots"
     ],
     "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner feedback that reveals what breaks down after the first few outings.",
     "matters": [
@@ -47,7 +54,11 @@
     "intro": "Home-office research can turn into a maze of ergonomic claims, desk-setup videos, and owner complaints. Phavai pulls the useful reviews together so it is easier to see which upgrades actually make work calmer.",
     "covered": [
       "standing desks",
+      "walking pads",
       "office chairs",
+      "laptop stands",
+      "USB-C hubs",
+      "portable monitors",
       "webcams",
       "desk mats",
       "monitor arms",
@@ -80,9 +91,16 @@
     "intro": "Lifestyle products often fail in small, irritating ways: luggage wheels that wobble, coffee makers that are annoying to clean, air purifiers with expensive filters, recovery tools that sit unused. Phavai pulls together the reviews and buyer feedback that make those problems easier to spot before checkout.",
     "covered": [
       "carry-on luggage",
+      "commuter backpacks",
       "coffee makers",
+      "adjustable dumbbells",
+      "protein bars",
+      "creatine",
       "massage guns",
-      "air purifiers"
+      "air purifiers",
+      "beard trimmers",
+      "electric shavers",
+      "body groomers"
     ],
     "trust": "We look for the gap between polished reviews and real ownership: upkeep, noise, storage, warranty pain, replacement costs, and whether people still like the product months later.",
     "matters": [

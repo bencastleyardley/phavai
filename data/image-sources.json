@@ -1,4 +1,14 @@
 {
+  "/photos/generated/phavai-og.svg": {
+    "sourceName": "Phavai generated visual library",
+    "sourceUrl": "https://www.phavai.com/photos/generated/phavai-og.svg",
+    "credit": "Phavai",
+    "license": "Original Phavai-owned editorial illustration",
+    "licenseUrl": "",
+    "requiresAttribution": false,
+    "exactProduct": false,
+    "usage": "Homepage and open graph visual. Brand-neutral illustration; not a manufacturer product photo."
+  },
   "/photos/generated/section-outdoor.svg": {
     "sourceName": "Phavai generated visual library",
     "sourceUrl": "https://www.phavai.com/photos/generated/section-outdoor.svg",

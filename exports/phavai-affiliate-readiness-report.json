@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-29T18:30:05.224Z",
+  "purpose": "Checks built public pages for active shopping links. Non-Amazon retailer links are counted as valid retailer links and are not treated as Amazon affiliate cleanup work.",
+  "pages_checked": 71,
+  "active_shopping_links": 297,
+  "amazon_product_links": 283,
+  "amazon_links_needing_exact_product_url": 1,
+  "non_amazon_retail_links": 13,
+  "invalid_links": 0,
+  "issues": [
+    {
+      "page": "best-road-shoe-for-your-first-marathon.html",
+      "guide": "Best Road Shoe for Your First Marathon",
+      "product": "Saucony Ride 18",
+      "retailer": "Amazon",
+      "url": "https://www.amazon.com/s?k=Saucony+Ride+18&crid=2OEK490W8TSZ3&sprefix=saucony+ride+18%2Caps%2C162&linkCode=ll2&tag=phavai7311-20&linkId=a077c14c1a9383ed16a42817b2c59de9&language=en_US&ref_=as_li_ss_tl",
+      "issue": "Amazon link is not an exact product detail URL"
+    }
+  ]
+}

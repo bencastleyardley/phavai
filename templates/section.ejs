@@ -16,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
+  <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -59,6 +60,7 @@
         <% allSections.forEach((item) => { %>
           <a href="/<%= item.slug %>.html"><%= item.title %></a>
         <% }) %>
+        <a href="/todays-picks.html">Today's Picks</a>
         <a class="hide-small" href="/methodology.html">Methodology</a>
       </div>
     </nav>
@@ -77,7 +79,7 @@
             <span class="meta-pill">Retail links never buy rank</span>
           </div>
         </div>
-        <div class="section-icon" aria-hidden="true"><%- section.iconSvg %></div>
+        <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
       </div>
     </section>
 
@@ -89,7 +91,7 @@
         </div>
         <div class="category-grid icon-card-grid">
           <% reviews.forEach((review) => { %>
-            <a class="category-card" href="/<%= review.slug %>.html">
+            <a class="category-card category-card--<%= section.slug %>" href="/<%= review.slug %>.html">
               <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
               <div class="category-card-body">
                 <span class="eyebrow">Roundup guide</span>
@@ -201,6 +203,7 @@
         <% allSections.forEach((item) => { %>
           <a href="/<%= item.slug %>.html"><%= item.title %></a>
         <% }) %>
+        <a href="/todays-picks.html">Today's Picks</a>
         <a href="/methodology.html">Methodology</a>
         <a href="/about.html">About</a>
         <a href="/contact.html">Contact</a>

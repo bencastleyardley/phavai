@@ -1,0 +1,40 @@
+{
+  "totalProducts": 218,
+  "properExactAmazonAffiliateProducts": 182,
+  "productsNeedingProperAmazonAffiliateLink": 36,
+  "issueCounts": {
+    "Non-Amazon link (aersf.com)": 1,
+    "Non-Amazon link (evergoods.us)": 1,
+    "Amazon search URL, needs exact product affiliate URL": 25,
+    "Non-Amazon link (grovemade.com)": 1,
+    "Non-Amazon link (zsa.io)": 1,
+    "Non-Amazon link (protechprojection.com)": 1,
+    "Non-Amazon link (birkenstock.com)": 1,
+    "Non-Amazon link (kanefootwear.com)": 1,
+    "Non-Amazon link (walmart.com)": 1,
+    "Non-Amazon link (patagonia.com)": 1,
+    "Non-Amazon link (flexispot.com)": 1,
+    "Non-Amazon link (gossamergear.com)": 1
+  },
+  "articleCounts": {
+    "Best Commuter Backpacks for Men": 2,
+    "Best Daily Trainers for Marathon Training": 4,
+    "Best Desk Mats": 1,
+    "Best Ergonomic Keyboards": 1,
+    "Best Marathon Shoes for Heavy Runners": 4,
+    "Best Monitor Arms": 1,
+    "Best Recovery Sandals": 2,
+    "Best Road Shoe for Your First Marathon": 4,
+    "Best Running Headphones": 1,
+    "Best Running Vests": 1,
+    "Best Standing Desks": 1,
+    "Best Trail Running Poles": 1,
+    "Best Trail Shoes for 100 Miles": 2,
+    "Best Trail Shoes for Beginners": 1,
+    "Best Trail Shoes for Muddy Conditions": 2,
+    "Best Trail Shoes for Wide Feet": 3,
+    "Top 10 Most Comfortable Trail Shoes": 5
+  },
+  "detailOutput": "exports/items-missing-proper-amazon-affiliate-links-updated-after-import.csv",
+  "fillableOutput": "exports/items-needing-amazon-affiliate-links-fillable-updated-after-import.csv"
+}

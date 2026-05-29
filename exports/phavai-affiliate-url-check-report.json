@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-04-30T15:08:15.663Z",
+  "input": "exports/phavai-product-affiliate-url-export.csv",
+  "total_rows": 138,
+  "filled_links": 45,
+  "clean_links": 39,
+  "rows_with_issues": 6,
+  "blank_links": 93,
+  "issues": [
+    {
+      "row": 14,
+      "article": "Best Running Headphones",
+      "product": "Jabra Elite 8 Active Gen 2",
+      "url": "https://www.walmart.com/ip/Jabra-Elite-8-Active-Dark-Grey-True-Wireless-Earbuds-Gray/5008585972?wmlspartner=wlpa&selectedSellerId=102609760&adid=22222222222000000000&wmlspartner=wmtlabs&wl0=e&wl1=o&wl2=c&wl3=10352200394&wl4=pla-1103028060075:aud-821217196&wl5=68428&wl6=&wl7=&wl10=Walmart&wl11=Online&wl12=5008585972_10002629146&wl14=Jabra%20Elite%208%20Active%20Gen%202&veh=sem&msclkid=bc47fb94ae5f19b032b49267c4392bf7&gclid=bc47fb94ae5f19b032b49267c4392bf7&gclsrc=3p.ds",
+      "issues": [
+        "Non-Amazon URL (walmart.com)"
+      ]
+    },
+    {
+      "row": 20,
+      "article": "Best Standing Desks",
+      "product": "FlexiSpot E7 Pro",
+      "url": "https://www.flexispot.com/flexispot-best-standing-desk-e7pro?ref=category_products",
+      "issues": [
+        "Non-Amazon URL (flexispot.com)"
+      ]
+    },
+    {
+      "row": 34,
+      "article": "Best Trail Running Poles",
+      "product": "Gossamer Gear LT5",
+      "url": "https://www.gossamergear.com/products/lt5-three-piece-carbon-trekking-poles-pair",
+      "issues": [
+        "Non-Amazon URL (gossamergear.com)"
+      ]
+    },
+    {
+      "row": 38,
+      "article": "Best Running Vests",
+      "product": "Patagonia Slope Runner Vest",
+      "url": "https://www.patagonia.com/product/slope-runner-trail-running-vest/49521.html?dwvar_49521_color=NUVG&cgid=mens&storeID=20229",
+      "issues": [
+        "Non-Amazon URL (patagonia.com)"
+      ]
+    },
+    {
+      "row": 41,
+      "article": "Best Recovery Sandals",
+      "product": "Kane Revive",
+      "url": "https://kanefootwear.com/products/revive-white-cream?tw_source=bing&tw_campaign=519918489&utm_term=1324913836281707&tw_adid=82807341428879&msclkid=454910665d7811fad97479953218fc2f&utm_source=bing&utm_medium=cpc&utm_campaign=Microsoft%20%7C%20Kane%20%7C%20Search%20%7C%20Brand%20%7C%20General%20%7C%20EN%20%7C%20US&utm_content=Brand",
+      "issues": [
+        "Non-Amazon URL (kanefootwear.com)"
+      ]
+    },
+    {
+      "row": 42,
+      "article": "Best Recovery Sandals",
+      "product": "Birkenstock Arizona EVA",
+      "url": "https://www.birkenstock.com/us/styles/arizona/?msclkid=254bb36c4f8416fcb6afda9f200a4365&utm_source=bing&utm_medium=cpc&utm_campaign=S_BR_STYLES-ARIZONA_BNG_US&utm_term=birkenstock%20arizona%20eva&utm_content=s_br_styles-arizona_ggl_us_eva",
+      "issues": [
+        "Non-Amazon URL (birkenstock.com)"
+      ]
+    }
+  ]
+}
