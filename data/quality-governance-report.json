@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T22:02:20.575Z",
+  "generated_at": "2026-06-01T18:32:13.734Z",
   "affiliate_enabled": true,
   "pages_checked": 71,
   "products_checked": 218,
@@ -509,19 +509,11 @@
   "products_missing_youtube_evidence": [
     {
       "page": "best-massage-guns",
-      "product": "Therabody Theragun Prime Plus"
-    },
-    {
-      "page": "best-massage-guns",
       "product": "Theragun Mini"
     },
     {
       "page": "best-electrolyte-mixes-for-ultrarunning",
       "product": "Precision Hydration PH 1000"
-    },
-    {
-      "page": "best-electrolytes-for-heavy-sweaters",
-      "product": "LMNT Zero-Sugar Electrolyte Mix"
     },
     {
       "page": "best-electrolytes-for-heavy-sweaters",
@@ -546,10 +538,6 @@
     {
       "page": "best-usb-c-hubs-for-remote-work",
       "product": "Monoprice 13-in-1 Dual-HDMI + DP MST Dock"
-    },
-    {
-      "page": "best-body-groomers-for-men",
-      "product": "Panasonic Body Groomer GK80"
     },
     {
       "page": "best-body-groomers-for-men",
@@ -5008,8 +4996,8 @@
     }
   ],
   "source_quality_classifications": {
-    "strong decision evidence": 1041,
-    "useful caution evidence": 373,
+    "strong decision evidence": 1061,
+    "useful caution evidence": 377,
     "weak mention": 353,
     "irrelevant": 7,
     "specs only": 132,
@@ -5066,11 +5054,6 @@
       "page": "best-coffee-makers",
       "product": "Ninja 12-Cup Programmable Brewer",
       "channel": "Reddit"
-    },
-    {
-      "page": "best-massage-guns",
-      "product": "Therabody Theragun Prime Plus",
-      "channel": "YouTube"
     },
     {
       "page": "best-massage-guns",
@@ -5392,45 +5375,6 @@
       ]
     },
     {
-      "page": "best-body-groomers-for-men",
-      "title": "Best Body Groomers for Men",
-      "priority_score": 12,
-      "products_to_improve": 5,
-      "missing_expert_sources": 0,
-      "missing_second_expert_sources": 2,
-      "missing_youtube_evidence": 2,
-      "missing_reddit_evidence": 4,
-      "first_products": [
-        {
-          "product": "Braun All-in-One Series 9 Trimmer 9440",
-          "missing_channels": [
-            "second expert",
-            "reddit"
-          ]
-        },
-        {
-          "product": "Panasonic Body Groomer GK80",
-          "missing_channels": [
-            "youtube",
-            "reddit"
-          ]
-        },
-        {
-          "product": "Philips Norelco Body Groomer 7000",
-          "missing_channels": [
-            "second expert",
-            "reddit"
-          ]
-        },
-        {
-          "product": "Wahl Manscaper Body Grooming Trimmer",
-          "missing_channels": [
-            "youtube"
-          ]
-        }
-      ]
-    },
-    {
       "page": "best-usb-c-hubs-for-remote-work",
       "title": "Best USB-C Hubs for Remote Work",
       "priority_score": 12,
@@ -5466,6 +5410,44 @@
           "missing_channels": [
             "youtube",
             "reddit"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "priority_score": 10,
+      "products_to_improve": 5,
+      "missing_expert_sources": 0,
+      "missing_second_expert_sources": 2,
+      "missing_youtube_evidence": 1,
+      "missing_reddit_evidence": 4,
+      "first_products": [
+        {
+          "product": "Braun All-in-One Series 9 Trimmer 9440",
+          "missing_channels": [
+            "second expert",
+            "reddit"
+          ]
+        },
+        {
+          "product": "Panasonic Body Groomer GK80",
+          "missing_channels": [
+            "reddit"
+          ]
+        },
+        {
+          "product": "Philips Norelco Body Groomer 7000",
+          "missing_channels": [
+            "second expert",
+            "reddit"
+          ]
+        },
+        {
+          "product": "Wahl Manscaper Body Grooming Trimmer",
+          "missing_channels": [
+            "youtube"
           ]
         }
       ]
@@ -5620,35 +5602,36 @@
       ]
     },
     {
-      "page": "best-electrolytes-for-heavy-sweaters",
-      "title": "Best Electrolytes for Heavy Sweaters",
-      "priority_score": 9,
+      "page": "best-laptop-stands-for-remote-work",
+      "title": "Best Laptop Stands for Remote Work",
+      "priority_score": 8,
       "products_to_improve": 4,
       "missing_expert_sources": 0,
       "missing_second_expert_sources": 2,
-      "missing_youtube_evidence": 2,
-      "missing_reddit_evidence": 1,
+      "missing_youtube_evidence": 0,
+      "missing_reddit_evidence": 4,
       "first_products": [
         {
-          "product": "LMNT Zero-Sugar Electrolyte Mix",
+          "product": "Rain Design mStand",
           "missing_channels": [
-            "youtube"
+            "second expert",
+            "reddit"
           ]
         },
         {
-          "product": "Precision Hydration PH 1500",
+          "product": "Twelve South Curve Flex",
           "missing_channels": [
-            "youtube"
+            "reddit"
           ]
         },
         {
-          "product": "Skratch Labs Hydration Drink Mix",
+          "product": "Roost V3 Laptop Stand",
           "missing_channels": [
-            "second expert"
+            "reddit"
           ]
         },
         {
-          "product": "SaltStick Caps",
+          "product": "Besign LSX3",
           "missing_channels": [
             "second expert",
             "reddit"
@@ -5839,22 +5822,6 @@
       "product": "Precision Hydration PH 1000",
       "public_evidence_count": 2,
       "expert_count": 1,
-      "has_like_interpretation": true,
-      "has_caution_interpretation": true
-    },
-    {
-      "page": "best-laptop-stands-for-remote-work",
-      "product": "Rain Design mStand",
-      "public_evidence_count": 2,
-      "expert_count": 1,
-      "has_like_interpretation": true,
-      "has_caution_interpretation": true
-    },
-    {
-      "page": "best-body-groomers-for-men",
-      "product": "Panasonic Body Groomer GK80",
-      "public_evidence_count": 2,
-      "expert_count": 2,
       "has_like_interpretation": true,
       "has_caution_interpretation": true
     }

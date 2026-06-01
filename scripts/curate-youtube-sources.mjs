@@ -120,6 +120,9 @@ function titleMatchesProduct(title, productName) {
   const tokens = productTokens(productName);
   if (!tokens.length) return false;
 
+  if (tokens.includes("belt") && titleTokens.has("vest")) return false;
+  if (!tokens.includes("plus") && titleTokens.has("plus")) return false;
+
   const variantTokens = tokens.filter((token) => /[0-9]/.test(token) || ["pro", "plus", "mini", "ultra", "max", "gen", "elite", "active", "prime"].includes(token));
   if (variantTokens.some((token) => !hasTitleToken(titleTokens, token))) return false;
 
@@ -206,6 +209,12 @@ function existingExactYouTube(product) {
     .filter((item) => item.url && !item.url.includes("youtube.com/results"));
 }
 
+function overrideExactYouTube(entry) {
+  return (entry?.evidence ?? [])
+    .filter((item) => (item.channel === "YouTube" || item.source_type === "youtube") && item.is_public !== false)
+    .filter((item) => item.url && !item.url.includes("youtube.com/results"));
+}
+
 function overrideFor(productName) {
   return existingOverrides.find((entry) => entry.productName === productName);
 }
@@ -224,7 +233,7 @@ const report = [];
 async function processProduct(productName, { product, categories: productCategories }) {
   const existing = existingExactYouTube(product);
   const existingOverride = overrideFor(productName);
-  if ((existing.length + (existingOverride?.evidence?.length ?? 0)) >= 2) {
+  if ((existing.length + overrideExactYouTube(existingOverride).length) >= 2) {
     return { productName, status: "already-covered", videosAdded: 0 };
   }
 

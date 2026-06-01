@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-05-29T22:02:11.602Z",
+    "generatedAt": "2026-06-01T18:30:43.635Z",
     "pages": 51,
     "products": 218,
-    "productsMissingYouTube": 13,
-    "productsWithAtLeastTwoYouTubeSources": 186,
+    "productsMissingYouTube": 10,
+    "productsWithAtLeastTwoYouTubeSources": 199,
     "productsMissingReddit": 37,
     "productsWithAtLeastTwoRedditSources": 113,
     "productsMissingExpert": 0
@@ -808,10 +808,10 @@
           "exactUrls": 4
         },
         "YouTube": {
-          "total": 1,
-          "positive": 0,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 1
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 0,
@@ -823,9 +823,7 @@
       "missingChannels": [
         "Reddit"
       ],
-      "thinChannels": [
-        "YouTube"
-      ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -1723,10 +1721,10 @@
           "exactUrls": 4
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
-          "caution": 0,
-          "exactUrls": 1
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
         },
         "Reddit": {
           "total": 5,
@@ -1736,10 +1734,8 @@
         }
       },
       "missingChannels": [],
-      "thinChannels": [
-        "YouTube"
-      ],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-coffee-makers",
@@ -1865,10 +1861,10 @@
           "exactUrls": 4
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 6,
@@ -1877,11 +1873,9 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-massage-guns",
@@ -1895,10 +1889,10 @@
           "exactUrls": 4
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 5,
@@ -1908,10 +1902,8 @@
         }
       },
       "missingChannels": [],
-      "thinChannels": [
-        "YouTube"
-      ],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-massage-guns",
@@ -2859,10 +2851,10 @@
           "exactUrls": 4
         },
         "YouTube": {
-          "total": 1,
-          "positive": 0,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 1
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 0,
@@ -2874,9 +2866,7 @@
       "missingChannels": [
         "Reddit"
       ],
-      "thinChannels": [
-        "YouTube"
-      ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -4381,10 +4371,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -4396,7 +4386,6 @@
       "missingChannels": [],
       "thinChannels": [
         "Expert",
-        "YouTube",
         "Reddit"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -4413,10 +4402,10 @@
           "exactUrls": 2
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -4427,7 +4416,6 @@
       },
       "missingChannels": [],
       "thinChannels": [
-        "YouTube",
         "Reddit"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -4475,10 +4463,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 2,
@@ -4487,11 +4475,9 @@
           "exactUrls": 2
         }
       },
-      "missingChannels": [
-        "YouTube"
-      ],
+      "missingChannels": [],
       "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
+      "recommendation": "Good public source coverage."
     },
     {
       "page": "best-electrolytes-for-heavy-sweaters",
@@ -4724,10 +4710,10 @@
           "exactUrls": 1
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 0,
@@ -4740,8 +4726,7 @@
         "Reddit"
       ],
       "thinChannels": [
-        "Expert",
-        "YouTube"
+        "Expert"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -4787,10 +4772,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 0,
@@ -4802,9 +4787,7 @@
       "missingChannels": [
         "Reddit"
       ],
-      "thinChannels": [
-        "YouTube"
-      ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -5093,10 +5076,10 @@
           "exactUrls": 3
         },
         "YouTube": {
-          "total": 1,
-          "positive": 1,
-          "caution": 0,
-          "exactUrls": 1
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
         },
         "Reddit": {
           "total": 0,
@@ -5108,9 +5091,7 @@
       "missingChannels": [
         "Reddit"
       ],
-      "thinChannels": [
-        "YouTube"
-      ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -5404,10 +5385,10 @@
           "exactUrls": 2
         },
         "YouTube": {
-          "total": 1,
-          "positive": 0,
+          "total": 2,
+          "positive": 1,
           "caution": 1,
-          "exactUrls": 1
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 1,
@@ -5418,7 +5399,6 @@
       },
       "missingChannels": [],
       "thinChannels": [
-        "YouTube",
         "Reddit"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -6029,10 +6009,10 @@
           "exactUrls": 2
         },
         "YouTube": {
-          "total": 0,
-          "positive": 0,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 0
+          "exactUrls": 2
         },
         "Reddit": {
           "total": 0,
@@ -6042,7 +6022,6 @@
         }
       },
       "missingChannels": [
-        "YouTube",
         "Reddit"
       ],
       "thinChannels": [],

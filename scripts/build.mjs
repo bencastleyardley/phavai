@@ -1892,7 +1892,10 @@ function isScoreEligibleEvidence(item) {
 
 function buildChannelScores(product, category) {
   const configuredWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
-  const channels = Object.keys(configuredWeights);
+  const evidenceChannels = product.evidence
+    .map((item) => item.channel)
+    .filter((channel) => ["Expert", "YouTube", "Reddit"].includes(channel));
+  const channels = [...new Set([...Object.keys(configuredWeights), ...evidenceChannels])];
   const rows = channels
     .map((channel) => {
       const evidence = product.evidence
@@ -1911,7 +1914,7 @@ function buildChannelScores(product, category) {
 
       return {
         source: channel,
-        weight: configuredWeights[channel],
+        weight: configuredWeights[channel] ?? 0,
         score: Number(score.toFixed(1)),
         evidenceCount: evidence.length,
         tier: bestTierLabel(evidence),
@@ -1987,15 +1990,14 @@ function computeProductScores(product, category) {
   const normalizedEvidence = mergeEvidence(product, category).map((item, index) => normalizeEvidenceItem(item, product, category, index));
   const normalizedProduct = { ...product, evidence: normalizedEvidence };
   const channelScores = buildChannelScores(normalizedProduct, category);
-  const scoreInputs = channelScores.map((row) => ({
-    score: row.score,
-    weight: row.weight
-  }));
+  const scoreInputs = channelScores
+    .filter((row) => row.weight > 0)
+    .map((row) => ({
+      score: row.score,
+      weight: row.weight
+    }));
   const rawScore = scoreInputs.length ? weightedMean(scoreInputs) : 0;
-  const disagreement = scoreInputs.length ? weightedStandardDeviation(channelScores.map((row) => ({
-    score: row.score,
-    weight: row.weight
-  })), rawScore) : 0;
+  const disagreement = scoreInputs.length ? weightedStandardDeviation(scoreInputs, rawScore) : 0;
   const signal = computeSignal(product, channelScores, category);
   const publicEvidenceCount = normalizedEvidence.filter((item) => item.is_public).length;
   const publicProduct = {
