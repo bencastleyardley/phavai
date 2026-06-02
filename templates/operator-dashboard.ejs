@@ -1,0 +1,218 @@
+<%
+const summary = dashboard.summary || {};
+const topPages = dashboard.topPages || [];
+const topProducts = dashboard.topProducts || [];
+const tasks = maintenanceQueue.tasks || [];
+const systems = dashboard.systems || [];
+const generatedDate = dashboard.generatedAt ? new Date(dashboard.generatedAt) : null;
+const generatedLabel = generatedDate && !Number.isNaN(generatedDate.getTime())
+  ? generatedDate.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" })
+  : "Not generated yet";
+const formatNumber = (value) => Number(value || 0).toLocaleString("en-US");
+const statusLabel = (status) => ({
+  ready: "Ready",
+  "needs-attention": "Needs attention",
+  "needs-data": "Needs data"
+}[status] || status || "Review");
+const priorityLabel = (priority) => ({
+  high: "High",
+  medium: "Medium",
+  low: "Low"
+}[priority] || "Review");
+const summaryItems = [
+  { label: "Pages tracked", value: summary.pages, note: "roundup review pages" },
+  { label: "Product placements", value: summary.productPlacements, note: "ranked products in guides" },
+  { label: "Affiliate ready", value: summary.readyAffiliateProducts, note: "Amazon-ready placements" },
+  { label: "High-priority tasks", value: summary.highPriorityTasks, note: "start here this week" },
+  { label: "Unique products", value: summary.uniqueProducts, note: "deduped product names" },
+  { label: "Missing YouTube", value: summary.productsMissingYouTube, note: "video evidence gaps" },
+  { label: "Missing Reddit", value: summary.productsMissingReddit, note: "owner discussion gaps" },
+  { label: "Missing expert", value: summary.productsMissingExpert, note: "hands-on review gaps" }
+];
+%>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Growth Dashboard | Phavai</title>
+  <meta name="description" content="Private Phavai operator dashboard for product evidence, affiliate readiness, and growth maintenance." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://www.phavai.com/operator-dashboard.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Private dashboard navigation">
+      <a class="brand" href="/index.html"><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        <% allSections.forEach((item) => { %>
+          <a href="/<%= item.slug %>.html"><%= item.title %></a>
+        <% }) %>
+        <a href="/todays-picks.html">Today's Picks</a>
+        <a class="hide-small" href="/methodology.html">Methodology</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero operator-hero">
+      <div class="wrap">
+        <a class="crumb" href="/index.html">Phavai / Private ops</a>
+        <h1>AI growth dashboard</h1>
+        <p class="lede">A private queue for turning source gaps, affiliate readiness, and revenue pages into a repeatable weekly operating loop.</p>
+        <div class="meta-row" aria-label="Dashboard details">
+          <span class="meta-pill">Generated <%= generatedLabel %></span>
+          <span class="meta-pill"><%= formatNumber(tasks.length) %> maintenance tasks</span>
+          <span class="meta-pill">Noindex operator page</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="operator-kpi-grid" aria-label="Product intelligence summary">
+          <% summaryItems.forEach((item) => { %>
+            <div class="operator-kpi">
+              <span><%= item.label %></span>
+              <strong><%= formatNumber(item.value) %></strong>
+              <small><%= item.note %></small>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface">
+      <div class="wrap operator-dashboard-grid">
+        <div class="operator-main">
+          <div class="section-kicker">Page opportunities</div>
+          <h2>Highest leverage pages</h2>
+          <p class="operator-section-copy">These pages combine source gaps, revenue-page weighting, freshness, and affiliate status into one work queue.</p>
+          <div class="comparison-scroll">
+            <table class="comparison-table operator-table">
+              <thead>
+                <tr>
+                  <th>Page</th>
+                  <th>Score</th>
+                  <th>Gap</th>
+                  <th>Evidence</th>
+                  <th>Next action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% topPages.slice(0, 12).forEach((page) => { %>
+                  <tr>
+                    <td><a href="/<%= page.page %>.html"><%= page.title %></a><br /><span><%= page.section %> / <%= page.dataSource %></span></td>
+                    <td><strong><%= page.opportunityScore %></strong></td>
+                    <td><%= page.sourceGapTotal %> source gaps<br /><span><%= page.affiliateIssues %> affiliate issues</span></td>
+                    <td><%= page.averageEvidenceCount %> avg sources<br /><span><%= page.sourceCompleteProducts %>/<%= page.productCount %> complete</span></td>
+                    <td><%= page.recommendedActions?.[0] || "Review manually." %></td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="section-kicker operator-gap">Product opportunities</div>
+          <h2>Products to strengthen next</h2>
+          <div class="comparison-scroll">
+            <table class="comparison-table operator-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Score</th>
+                  <th>Affiliate</th>
+                  <th>Evidence</th>
+                  <th>Recommended action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% topProducts.slice(0, 12).forEach((product) => { %>
+                  <tr>
+                    <td><a href="/<%= product.page %>.html"><%= product.product %></a><br /><span><%= product.pageTitle %></span></td>
+                    <td><strong><%= product.opportunityScore %></strong></td>
+                    <td><%= product.affiliateStatus.replaceAll("_", " ") %></td>
+                    <td>
+                      <%= product.evidenceCounts.total %> total<br />
+                      <span><%= product.evidenceCounts.expert %> expert, <%= product.evidenceCounts.youtube %> video, <%= product.evidenceCounts.reddit %> owner</span>
+                    </td>
+                    <td><%= product.recommendedActions?.[0] || "Review manually." %></td>
+                  </tr>
+                <% }) %>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <aside class="operator-sidebar" aria-label="Maintenance queue">
+          <div class="section-kicker">Maintenance queue</div>
+          <h2>This week's queue</h2>
+          <ol class="operator-task-list">
+            <% tasks.slice(0, 16).forEach((task) => { %>
+              <li class="operator-task operator-priority--<%= task.priority %>">
+                <div>
+                  <span class="operator-priority"><%= priorityLabel(task.priority) %></span>
+                  <strong><a href="/<%= task.page %>.html"><%= task.product %></a></strong>
+                  <small><%= task.page %> / score <%= task.opportunityScore %></small>
+                </div>
+                <p><%= task.action %></p>
+                <% if (task.followUps?.length) { %>
+                  <ul>
+                    <% task.followUps.slice(0, 2).forEach((followUp) => { %>
+                      <li><%= followUp %></li>
+                    <% }) %>
+                  </ul>
+                <% } %>
+              </li>
+            <% }) %>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="operator-system-grid">
+          <% systems.forEach((system) => { %>
+            <article class="operator-system operator-status--<%= system.status %>">
+              <span><%= statusLabel(system.status) %></span>
+              <h3><%= system.name %></h3>
+              <p><%= system.nextStep %></p>
+            </article>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface">
+      <div class="wrap page-grid">
+        <div>
+          <div class="section-kicker">Operating loop</div>
+          <h2>Weekly AI-assisted workflow</h2>
+          <p class="operator-section-copy">Use this loop to keep the site improving while the public pages stay evidence-first and commercially clean.</p>
+        </div>
+        <div class="operator-command-list" aria-label="Recurring commands">
+          <div><code>npm run growth:audit</code><span>Refresh source, affiliate, and product intelligence reports.</span></div>
+          <div><code>npm test</code><span>Build the site and run quality, affiliate, quick-answer, dashboard, and browser checks.</span></div>
+          <div><code>npm run deploy</code><span>Regenerate the queue, build, and ship production through Vercel.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>Private Phavai operator dashboard. Keep public rankings evidence-led and affiliate links separate from editorial decisions.</div>
+      <div>
+        <a href="/index.html">Home</a>
+        <a href="/todays-picks.html">Today's Picks</a>
+        <a href="/methodology.html">Methodology</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

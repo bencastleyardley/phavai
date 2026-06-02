@@ -1,6 +1,8 @@
 {
-  "generated_at": "2026-06-02T04:18:29.700Z",
-  "pages_checked": 71,
+  "generated_at": "2026-06-02T04:38:59.714Z",
+  "pages_checked": 72,
+  "public_pages": 71,
+  "private_pages": 1,
   "errors": [],
   "warnings": [],
   "pages": [
@@ -821,6 +823,14 @@
       "structured_data_types": [
         "BreadcrumbList"
       ]
+    },
+    {
+      "file": "operator-dashboard.html",
+      "title": "AI Growth Dashboard | Phavai",
+      "description_length": 100,
+      "canonical": "https://www.phavai.com/operator-dashboard.html",
+      "h1": "AI growth dashboard",
+      "structured_data_types": []
     },
     {
       "file": "outdoor.html",

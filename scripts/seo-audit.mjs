@@ -7,6 +7,8 @@ const htmlFiles = readdirSync(root).filter((file) => file.endsWith(".html")).sor
 const report = {
   generated_at: new Date().toISOString(),
   pages_checked: htmlFiles.length,
+  public_pages: 0,
+  private_pages: 0,
   errors: [],
   warnings: [],
   pages: []
@@ -86,23 +88,30 @@ for (const file of htmlFiles) {
   const types = parseJsonLdTypes(html);
   const expectedCanonical = canonicalFor(file);
   const sitemapUrl = expectedCanonical;
+  const isNoindex = /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html);
 
   if (!title) addError(`${file}: missing title`);
   if (!description) addError(`${file}: missing meta description`);
   if (!canonical) addError(`${file}: missing canonical`);
   if (canonical && canonical !== expectedCanonical) addError(`${file}: canonical ${canonical} does not match ${expectedCanonical}`);
   if (!h1) addError(`${file}: missing H1`);
-  if (/noindex/i.test(html)) addError(`${file}: contains noindex`);
-  if (!sitemapLocs.includes(sitemapUrl)) addError(`${file}: canonical URL missing from sitemap`);
-  if (file !== "index.html" && !types.includes("BreadcrumbList")) addError(`${file}: missing BreadcrumbList JSON-LD`);
+  if (isNoindex) {
+    report.private_pages += 1;
+    if (sitemapLocs.includes(sitemapUrl)) addError(`${file}: noindex page should not be listed in sitemap`);
+  } else {
+    report.public_pages += 1;
+    if (/noindex/i.test(html)) addError(`${file}: contains noindex`);
+    if (!sitemapLocs.includes(sitemapUrl)) addError(`${file}: canonical URL missing from sitemap`);
+    if (file !== "index.html" && !types.includes("BreadcrumbList")) addError(`${file}: missing BreadcrumbList JSON-LD`);
+  }
 
-  if (file.startsWith("best-")) {
+  if (!isNoindex && file.startsWith("best-")) {
     if (!types.includes("Article")) addError(`${file}: review page missing Article JSON-LD`);
     if (!types.includes("ItemList")) addError(`${file}: review page missing ItemList JSON-LD`);
     if (!types.includes("FAQPage")) addWarning(`${file}: review page missing FAQPage JSON-LD`);
   }
 
-  if (/^how-|^.*-vs-/.test(file) && !types.includes("Article")) {
+  if (!isNoindex && /^how-|^.*-vs-/.test(file) && !types.includes("Article")) {
     addError(`${file}: supporting guide missing Article JSON-LD`);
   }
 
@@ -122,7 +131,7 @@ for (const file of htmlFiles) {
   });
 }
 
-const expectedSitemapCount = htmlFiles.length;
+const expectedSitemapCount = report.public_pages;
 if (sitemapLocs.length !== expectedSitemapCount) {
   addError(`sitemap.xml has ${sitemapLocs.length} URLs; expected ${expectedSitemapCount}.`);
 }

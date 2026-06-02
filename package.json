@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run build && npm run quality:audit && npm run affiliate:audit && npm run quick-answer:audit && npm run test:browser",
+    "test": "npm run build && npm run quality:audit && npm run affiliate:audit && npm run quick-answer:audit && npm run product:intelligence && npm run product:intelligence:audit && npm run build && npm run test:browser",
     "images": "node scripts/generate-safe-images.mjs",
     "copy:polish": "node scripts/polish-brand-copy.mjs",
     "sources:upgrade": "node scripts/upgrade-source-schema.mjs",
@@ -14,11 +14,14 @@
     "quality:audit": "node scripts/quality-governance-audit.mjs",
     "affiliate:audit": "node scripts/affiliate-link-audit.mjs",
     "quick-answer:audit": "node scripts/quick-answer-audit.mjs",
+    "product:intelligence": "node scripts/generate-product-intelligence.mjs",
+    "product:intelligence:audit": "node scripts/product-intelligence-audit.mjs",
+    "growth:audit": "npm run sources:audit && npm run affiliate:audit && npm run product:intelligence && npm run product:intelligence:audit",
     "seo:map": "node scripts/generate-search-console-map.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "build": "node scripts/build.mjs",
     "test:browser": "playwright test",
-    "deploy": "npm run build && vercel --prod"
+    "deploy": "npm run build && npm run growth:audit && npm run build && npm run seo:audit && vercel --prod"
   },
   "repository": {
     "type": "git",

@@ -14,10 +14,13 @@ const affiliateOverrides = readOptionalJson("data/affiliate-overrides.json", [])
 const commercialConfig = readOptionalJson("data/commercial-config.json", {});
 const evidenceOverrides = readOptionalJson("data/youtube-evidence-overrides.json", []);
 const todaysPicks = readOptionalJson("data/todays-picks.json", null);
+const productIntelligence = readOptionalJson("data/ai-opportunity-dashboard.json", null);
+const maintenanceQueue = readOptionalJson("data/ai-maintenance-queue.json", null);
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
 const todaysPicksTemplate = readFileSync("templates/todays-picks.ejs", "utf8");
+const operatorDashboardTemplate = readFileSync("templates/operator-dashboard.ejs", "utf8");
 
 function readOptionalJson(path, fallback) {
   try {
@@ -2177,6 +2180,16 @@ if (todaysPicks) {
   );
   writeFileSync(`${todaysPicks.slug}.html`, html, "utf8");
   console.log(`Built: ${todaysPicks.slug}.html`);
+}
+
+if (productIntelligence && maintenanceQueue) {
+  const html = ejs.render(
+    operatorDashboardTemplate,
+    { dashboard: productIntelligence, maintenanceQueue, allSections: sections },
+    { rmWhitespace: false }
+  );
+  writeFileSync("operator-dashboard.html", html.replace(/[ \t]+$/gm, ""), "utf8");
+  console.log("Built: operator-dashboard.html");
 }
 
 const staticPages = ["methodology.html", "editorial-standards.html", "about.html", "contact.html", "privacy.html", "terms.html"];

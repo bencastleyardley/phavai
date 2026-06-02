@@ -1,0 +1,1286 @@
+{
+  "generatedAt": "2026-06-02T04:38:43.747Z",
+  "summary": {
+    "pages": 51,
+    "productPlacements": 218,
+    "uniqueProducts": 176,
+    "readyAffiliateProducts": 213,
+    "productsMissingExpert": 0,
+    "productsMissingYouTube": 10,
+    "productsMissingReddit": 37,
+    "highPriorityTasks": 2
+  },
+  "topPages": [
+    {
+      "page": "best-body-groomers-for-men",
+      "title": "Best Body Groomers for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 5,
+      "sourceGapTotal": 8,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.8,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 160,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-usb-c-hubs-for-remote-work",
+      "title": "Best USB-C Hubs for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 8,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 150,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 136,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-beard-trimmers",
+      "title": "Best Beard Trimmers",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 5,
+      "sourceGapTotal": 5,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5.2,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 130,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-running-socks-for-long-runs",
+      "title": "Best Running Socks for Long Runs",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.8,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 126,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 8,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 126,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-laptop-stands-for-remote-work",
+      "title": "Best Laptop Stands for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 122,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 5,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 120,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 5,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 118,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-handheld-running-water-bottles",
+      "title": "Best Handheld Running Water Bottles",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 116,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 1,
+      "averageEvidenceCount": 4.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 108,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-walking-pads",
+      "title": "Best Walking Pads",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.3,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 106,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-running-chews",
+      "title": "Best Running Chews",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 8,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 102,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons",
+      "title": "Best Carb Drink Mixes for Ultramarathons",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.3,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 98,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 98,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-running-belts",
+      "title": "Best Running Belts",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.3,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 98,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5.3,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 92,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "title": "Best Electrolyte Mixes for Ultrarunning",
+      "section": "outdoor",
+      "dataSource": "additions",
+      "updated": "April 24, 2026",
+      "daysSinceUpdated": 39,
+      "productCount": 5,
+      "sourceGapTotal": 10,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.2,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 86,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking."
+      ]
+    }
+  ],
+  "topProducts": [
+    {
+      "id": "best-running-socks-for-long-runs::Darn Tough Run Coolmax No-Show Tab Ultra-Lightweight",
+      "product": "Darn Tough Run Coolmax No-Show Tab Ultra-Lightweight",
+      "page": "best-running-socks-for-long-runs",
+      "pageTitle": "Best Running Socks for Long Runs",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best durable no-show sock",
+      "bestFor": "Runners who want a durable no-show sock with seamless comfort and light cushion.",
+      "avoidIf": "You run very hot, want a taller trail cuff, or prefer the thinnest possible race sock.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Darn%20Tough%20Run%20Coolmax%20No-Show%20Tab%20Ultra-Lightweight",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 0,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-usb-c-hubs-for-remote-work::Monoprice 13-in-1 Dual-HDMI + DP MST Dock",
+      "product": "Monoprice 13-in-1 Dual-HDMI + DP MST Dock",
+      "page": "best-usb-c-hubs-for-remote-work",
+      "pageTitle": "Best USB-C Hubs for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best port-heavy USB-C hub",
+      "bestFor": "Remote workers with modern laptops who need lots of legacy ports and multiple display options without Thunderbolt dock pricing.",
+      "avoidIf": "You want dead-simple documentation or need true Thunderbolt bandwidth.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Monoprice%2013-in-1%20Dual-HDMI%20DP%20MST%20Dock",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 0,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-electrolytes-for-heavy-sweaters::SaltStick Caps",
+      "product": "SaltStick Caps",
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "pageTitle": "Best Electrolytes for Heavy Sweaters",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best capsule option",
+      "bestFor": "Runners who want electrolytes without changing the taste or carb concentration of their bottles.",
+      "avoidIf": "You dislike capsules or want hydration, sodium, and calories all in one drink.",
+      "affiliateUrl": "https://www.amazon.com/s?k=SaltStick%20Caps",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-running-sunglasses-for-sweat-and-bounce::Zeal Boone",
+      "product": "Zeal Boone",
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "pageTitle": "Best Running Sunglasses for Sweat and Bounce",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best overall running sunglasses",
+      "bestFor": "Runners who want a premium all-around pair with strong optics, coverage, and trail-to-road versatility.",
+      "avoidIf": "You are mainly looking for a cheap pair to throw in a gym bag without worrying about scratches.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Zeal%20Boone%20running%20sunglasses",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 0,
+        "reddit": 1,
+        "total": 3
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use.",
+        "Add another owner discussion, ideally with long-term use or fit complaints.",
+        "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-handheld-running-water-bottles::Hydrapak Tempo Pro",
+      "product": "Hydrapak Tempo Pro",
+      "page": "best-handheld-running-water-bottles",
+      "pageTitle": "Best Handheld Running Water Bottles",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best value handheld",
+      "bestFor": "Runners who want a simple, lower-cost handheld for everyday hydration.",
+      "avoidIf": "You need a large phone pocket or premium insulation.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Hydrapak%20Tempo%20Pro%20running%20bottle",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 1,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add another exact YouTube review or comparison video.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-handheld-running-water-bottles::Nathan SpeedDraw 2 Insulated Flask",
+      "product": "Nathan SpeedDraw 2 Insulated Flask",
+      "page": "best-handheld-running-water-bottles",
+      "pageTitle": "Best Handheld Running Water Bottles",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best hand feel",
+      "bestFor": "Runners who care most about comfortable hand carry and a secure strap.",
+      "avoidIf": "You want the lightest minimalist bottle or dislike structured handheld sleeves.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Nathan%20SpeedDraw%202%20Insulated%20Flask",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-usb-c-hubs-for-remote-work::Anker 555 8-in-1 USB-C Hub",
+      "product": "Anker 555 8-in-1 USB-C Hub",
+      "page": "best-usb-c-hubs-for-remote-work",
+      "pageTitle": "Best USB-C Hubs for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best USB-C hub for most desks",
+      "bestFor": "Remote workers who need a reliable everyday mix of USB-A, HDMI, Ethernet, data USB-C, SD, and pass-through charging.",
+      "avoidIf": "You need multiple high-resolution displays or Thunderbolt-class bandwidth.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Anker%20555%208-in-1%20USB-C%20Hub",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-portable-monitors-for-remote-work::Arzopa A1",
+      "product": "Arzopa A1",
+      "page": "best-portable-monitors-for-remote-work",
+      "pageTitle": "Best Portable Monitors for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best budget portable monitor",
+      "bestFor": "Remote workers who want a low-cost second screen for email, docs, chat, and travel.",
+      "avoidIf": "You need high brightness, color-critical work, or a premium stand.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Arzopa%20A1%20portable%20monitor",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-portable-monitors-for-remote-work::ASUS ProArt PA148CTV",
+      "product": "ASUS ProArt PA148CTV",
+      "page": "best-portable-monitors-for-remote-work",
+      "pageTitle": "Best Portable Monitors for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best mid-range touch monitor",
+      "bestFor": "Creative or productivity workers who want a portable touchscreen with an adjustable built-in kickstand.",
+      "avoidIf": "You want the largest screen, highest resolution, or simplest budget setup.",
+      "affiliateUrl": "https://www.amazon.com/s?k=ASUS%20ProArt%20PA148CTV",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-body-groomers-for-men::Braun All-in-One Series 9 Trimmer 9440",
+      "product": "Braun All-in-One Series 9 Trimmer 9440",
+      "page": "best-body-groomers-for-men",
+      "pageTitle": "Best Body Groomers for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best premium all-in-one groomer",
+      "bestFor": "Men who want one premium kit for beard, body, hair touchups, and detailed trimming.",
+      "avoidIf": "You only want a dedicated body shaver or prefer a cheaper body-only trimmer.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Braun%20All-in-One%20Series%209%209440",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-body-groomers-for-men::Philips Norelco Body Groomer 7000",
+      "product": "Philips Norelco Body Groomer 7000",
+      "page": "best-body-groomers-for-men",
+      "pageTitle": "Best Body Groomers for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best dedicated body shaver",
+      "bestFor": "Men who want a dedicated body groomer with safer skin-level shaving, trimming guards, and help reaching back hair.",
+      "avoidIf": "You want the quietest groomer or a large range of long guards.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Philips%20Norelco%20Body%20Groomer%207000",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 3
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 34,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Raise public evidence depth to at least four useful sources.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-electrolytes-for-heavy-sweaters::Precision Hydration PH 1500",
+      "product": "Precision Hydration PH 1500",
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "pageTitle": "Best Electrolytes for Heavy Sweaters",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best race-day sodium tool",
+      "bestFor": "Heavy sweaters who want a specific high-sodium product for preloading or race-day hydration planning.",
+      "avoidIf": "You want a sweet sports drink or calories built into your hydration.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Precision%20Hydration%20PH%201500",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 0,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-laptop-stands-for-remote-work::Rain Design mStand",
+      "product": "Rain Design mStand",
+      "page": "best-laptop-stands-for-remote-work",
+      "pageTitle": "Best Laptop Stands for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best stable desk stand",
+      "bestFor": "Laptop users who want a simple, sturdy, desk-only stand with a clean aluminum look.",
+      "avoidIf": "You need height adjustment or a stand that folds flat for travel.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Rain%20Design%20mStand",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 3,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-laptop-stands-for-remote-work::Besign LSX3",
+      "product": "Besign LSX3",
+      "page": "best-laptop-stands-for-remote-work",
+      "pageTitle": "Best Laptop Stands for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best budget adjustable stand",
+      "bestFor": "Budget desk setups that need height adjustment without premium pricing.",
+      "avoidIf": "You want the most polished finish or the lightest travel stand.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Besign%20LSX3%20Laptop%20Stand",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 3,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-running-sunglasses-for-sweat-and-bounce::Tifosi Moab",
+      "product": "Tifosi Moab",
+      "page": "best-running-sunglasses-for-sweat-and-bounce",
+      "pageTitle": "Best Running Sunglasses for Sweat and Bounce",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best photochromic value",
+      "bestFor": "Runners who move between shade and sun and want photochromic lenses without premium-sunglass pricing.",
+      "avoidIf": "You want the clearest premium optics or the lowest possible budget pair.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Tifosi%20Moab%20sunglasses",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 1,
+        "reddit": 1,
+        "total": 3
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "YouTube",
+        "Reddit"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Add another exact YouTube review or comparison video.",
+        "Add another owner discussion, ideally with long-term use or fit complaints.",
+        "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-usb-c-hubs-for-remote-work::Hiearcool USB-C Hub",
+      "product": "Hiearcool USB-C Hub",
+      "page": "best-usb-c-hubs-for-remote-work",
+      "pageTitle": "Best USB-C Hubs for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best budget USB-C hub",
+      "bestFor": "Laptop users who need basic HDMI, USB-A, and charging expansion at a low price.",
+      "avoidIf": "You need Ethernet, premium build, or a hub for higher-bandwidth professional work.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Hiearcool%20USB-C%20Hub",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 3,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-usb-c-hubs-for-remote-work::OWC USB-C Travel Dock",
+      "product": "OWC USB-C Travel Dock",
+      "page": "best-usb-c-hubs-for-remote-work",
+      "pageTitle": "Best USB-C Hubs for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best tidy travel dock",
+      "bestFor": "Remote workers who want a compact hub that behaves more like a stable mini dock than a dangling dongle.",
+      "avoidIf": "You want the fastest ports, a long cable, or lots of USB-C expansion.",
+      "affiliateUrl": "https://www.amazon.com/s?k=OWC%20USB-C%20Travel%20Dock",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 3,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-portable-monitors-for-remote-work::espresso Display 15 Touch",
+      "product": "espresso Display 15 Touch",
+      "page": "best-portable-monitors-for-remote-work",
+      "pageTitle": "Best Portable Monitors for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best premium portable work screen",
+      "bestFor": "Remote workers who value touch, stand ergonomics, design polish, and a more premium portable display setup.",
+      "avoidIf": "You want the most screen for the least money or dislike buying accessories separately.",
+      "affiliateUrl": "https://www.amazon.com/s?k=espresso%20Display%2015%20Touch",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 3,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-body-groomers-for-men::Wahl Manscaper Body Grooming Trimmer",
+      "product": "Wahl Manscaper Body Grooming Trimmer",
+      "page": "best-body-groomers-for-men",
+      "pageTitle": "Best Body Groomers for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best value body groomer",
+      "bestFor": "Men who want an affordable body groomer with guard protection for sensitive areas.",
+      "avoidIf": "You want the most premium motor, longest battery, or all-in-one grooming kit.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Wahl%20Manscaper%20Body%20Grooming%20Trimmer",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 0,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use.",
+        "Add another owner discussion, ideally with long-term use or fit complaints.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-protein-bars::RXBAR Protein Bar",
+      "product": "RXBAR Protein Bar",
+      "page": "best-protein-bars",
+      "pageTitle": "Best Protein Bars",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best simple-ingredient bar",
+      "bestFor": "People who want recognizable ingredients and a chewy whole-food style snack with moderate protein.",
+      "avoidIf": "You want 20 grams of protein, low sugar, or a soft candy-bar texture.",
+      "affiliateUrl": "https://www.amazon.com/s?k=RXBAR%20Protein%20Bar",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 0,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-electrolyte-mixes-for-ultrarunning::Precision Hydration PH 1000",
+      "product": "Precision Hydration PH 1000",
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
+      "section": "outdoor",
+      "dataSource": "additions",
+      "rank": null,
+      "tag": "Best measured sodium packet",
+      "bestFor": "Runners who want a clear sodium target and plan carbs separately.",
+      "avoidIf": "You prefer one bottle that handles both calories and electrolytes.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Precision%20Hydration%20PH%201000",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 0,
+        "reddit": 2,
+        "total": 3
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "April 24, 2026",
+      "daysSinceUpdated": 39,
+      "opportunityScore": 26,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find an exact YouTube review with visible product use.",
+        "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-walking-pads::DeerRun Q1 Mini",
+      "product": "DeerRun Q1 Mini",
+      "page": "best-walking-pads",
+      "pageTitle": "Best Walking Pads",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best budget walking pad for most desks",
+      "bestFor": "Remote workers who want a compact, affordable pad for low-speed walking during calls and focus blocks.",
+      "avoidIf": "You need a wide running-style belt, heavy-duty daily mileage, or premium warranty support.",
+      "affiliateUrl": "https://www.amazon.com/s?k=DeerRun%20Q1%20Mini%20walking%20pad",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 26,
+      "recommendedActions": [
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-beard-trimmers::Braun All-in-One Series 9",
+      "product": "Braun All-in-One Series 9",
+      "page": "best-beard-trimmers",
+      "pageTitle": "Best Beard Trimmers",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best premium Braun kit",
+      "bestFor": "Men who want a premium all-in-one grooming kit from Braun with beard, body, and detail options.",
+      "avoidIf": "You prefer Philips' Multigroom ecosystem or want a simpler dedicated beard trimmer.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Braun%20All-in-One%20Series%209%20Trimmer",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 26,
+      "recommendedActions": [
+        "Find one exact owner discussion thread.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-running-socks-for-long-runs::Drymax Extra Protection Hot Weather 1/4 Crew",
+      "product": "Drymax Extra Protection Hot Weather 1/4 Crew",
+      "page": "best-running-socks-for-long-runs",
+      "pageTitle": "Best Running Socks for Long Runs",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best for hot long runs",
+      "bestFor": "Runners whose feet overheat or blister when sweat builds up in summer training.",
+      "avoidIf": "You want plush cushion or prefer soft merino-style comfort over a technical synthetic feel.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Drymax%20Extra%20Protection%20Hot%20Weather%20Running%20Socks",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 0,
+        "reddit": 2,
+        "total": 4
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 28,
+      "opportunityScore": 26,
+      "recommendedActions": [
+        "Find an exact YouTube review with visible product use."
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "name": "Source refresh",
+      "status": "needs-attention",
+      "nextStep": "Run source curation, then approve exact URLs before build."
+    },
+    {
+      "name": "Affiliate link health",
+      "status": "needs-attention",
+      "nextStep": "Replace generic Amazon links and keep the Associate tag on every shopping URL."
+    },
+    {
+      "name": "Today's Picks",
+      "status": "ready",
+      "nextStep": "Rotate products from submitted links or seasonal opportunities."
+    },
+    {
+      "name": "Revenue feedback",
+      "status": "needs-data",
+      "nextStep": "Connect click/conversion data to this report once tracking exports are available."
+    }
+  ]
+}
