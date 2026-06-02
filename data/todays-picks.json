@@ -4,42 +4,31 @@
   "eyebrow": "Fresh finds",
   "description": "A short, rotating list of practical products Phavai is highlighting today.",
   "intro": "A few useful finds worth a quick look today. These are not full scored roundups; they are practical picks with simple context, clean shopping links, and the same rule that retail links never buy placement.",
-  "updated": "May 15, 2026",
+  "updated": "June 2, 2026",
   "metaTitle": "Today's Picks | Phavai",
   "metaDescription": "Today's Phavai picks: a short list of practical products with clear context and Amazon shopping links.",
   "items": [
     {
-      "name": "Yorkshire Tea Gold",
-      "kicker": "Classic pantry upgrade",
-      "summary": "A rich black tea pick for people who want an easy everyday brew without turning tea shopping into a research project.",
-      "bestFor": "Daily hot tea, iced tea, office drawers, and anyone who prefers a fuller British-style breakfast blend.",
-      "watchOut": "Skip it if you prefer herbal tea, very light green tea, or caffeine-free options.",
+      "name": "Neutrogena Oil-Free Acne Face Wash",
+      "kicker": "Simple acne-prone skin cleanser",
+      "summary": "A familiar oil-free face wash built around salicylic acid for people who want a straightforward drugstore cleanser.",
+      "bestFor": "Acne-prone or oily skin routines where a rinse-off salicylic acid cleanser makes sense.",
+      "watchOut": "Avoid layering too many acne actives at once, and patch test if your skin is dry, sensitive, or easily irritated.",
       "buttonLabel": "Buy now",
       "retailer": "Amazon",
-      "url": "https://www.amazon.com/dp/B000XEV9YE?amp=&crid=1GSP8FMFFO208&sprefix=york&th=1&linkCode=ll2&tag=phavai7311-20&linkId=5615e89064aee0694925d571fe60c832&language=en_US&ref_=as_li_ss_tl",
-      "icon": "tea"
-    },
-    {
-      "name": "Yogi Green Tea Super Antioxidant",
-      "kicker": "Gentler green tea option",
-      "summary": "A simple green tea multipack for people who want something lighter than black tea but still easy to keep stocked.",
-      "bestFor": "Green tea drinkers, afternoon mugs, and people who want a lower-key pantry staple.",
-      "watchOut": "Skip it if you dislike licorice root, jasmine-style notes, or flavored wellness teas.",
-      "buttonLabel": "Buy now",
-      "retailer": "Amazon",
-      "url": "https://www.amazon.com/dp/B083T7XWXD?social_share=cm_sw_r_cso_sms_apin_dp_3WNP6PRE35EMV5TA835T&rsd=k9Fhb1s3M%2F8kLAt4JQ8rMi7bR%2F1GjcdKadM%2FOTJgWSe1Rn14fqcLeJddLDa8FmmnA7E%2Fm8vIh5ZiKeLIANIHSuIdvT2tjTFgIMmQkPPqd7%2FabDtmLUgQiw%3D%3D&edk=AQIDAHi1lw%2FM8UbbSMD9ScOOFEmBMHMthHeEhqDaQYPJUAX3jQHGGudkiN95DrKaso15GV9tAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMIjjylfwwVxZuU0tBAgEQgDus6L76azb%2FiQMcuTJ7BD4KXv6f%2BfxUfM0UlLgwwUFyJ9Csw2B8nHeppS%2BmhOt%2BbgTt6VFs9FlE2WXRNw%3D%3D&linkCode=ll2&tag=phavai7311-20&linkId=46b5e785bd5c6377d23b1932c579d55d&language=en_US&ref_=as_li_ss_tl",
+      "url": "https://www.amazon.com/Neutrogena-Oil-Free-Salicylic-Treatment-Acne-Prone/dp/B00UOL8CC8?&linkCode=ll2&tag=phavai7311-20&linkId=4bbf6a0001b71406a4ff66af12af40cc&language=en_US&ref_=as_li_ss_tl",
       "icon": "leaf"
     },
     {
-      "name": "Fintie Case for 7-inch Kindle Paperwhite and Kindle Colorsoft",
-      "kicker": "Low-friction device protection",
-      "summary": "A slim Kindle cover for protecting the newer 7-inch Paperwhite or Colorsoft without adding much bulk.",
-      "bestFor": "Kindle owners who want a lightweight case with auto sleep/wake support.",
-      "watchOut": "Double-check your Kindle generation and screen size before checkout; older Paperwhite models may need a different case.",
+      "name": "TOSOWOONG Azelaic Acid 10% Face Serum",
+      "kicker": "K-beauty redness and texture serum",
+      "summary": "A lightweight azelaic acid serum with niacinamide for people building a calm, blemish-conscious skincare routine.",
+      "bestFor": "Skincare routines focused on visible redness, uneven tone, post-blemish marks, and gentle active ingredients.",
+      "watchOut": "Introduce it slowly and avoid stacking it with strong acids or retinoids until you know how your skin responds.",
       "buttonLabel": "Buy now",
       "retailer": "Amazon",
-      "url": "https://www.amazon.com/dp/B0DKSHBGJG?social_share=cm_sw_r_cso_sms_apin_dp_G3GZ1KNMHVVAZH6CFR70&rsd=mP3yY%2BYj0CDQhvGdIgY0upMmWBIXdPP0YZ2oUdqmaEiREVF3rKTdgyHlQ%2BUs0C747lXXmaPF%2FrYamaIf%2FmkT1legfASOuYtpRZ1FiY%2FIk3vjyTkIJH4s&edk=AQIDAHi1lw%2FM8UbbSMD9ScOOFEmBMHMthHeEhqDaQYPJUAX3jQHtVPTywocZkSElNu00BrNTAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxaB67uqMu%2BPxndUiAgEQgDugyBkBssJHfFXK8c5K9Zj2JqpaOT%2BrXlRFSeSO4aeC%2FlY%2BcnGZh%2F%2B0nPl2vtXOv1cV8ZMmUqUcseO48A%3D%3D&th=1&linkCode=ll2&tag=phavai7311-20&linkId=b5f958f991a87a33c3aee05e084fd8ee&language=en_US&ref_=as_li_ss_tl",
-      "icon": "reader"
+      "url": "https://www.amazon.com/TOSOWOONG-Azelaic-Acid-Niacinamide-Face/dp/B0FNVY212N?&linkCode=ll2&tag=phavai7311-20&linkId=cd75d4d22ea9a4a11b5b38b7d4d276aa&language=en_US&ref_=as_li_ss_tl",
+      "icon": "leaf"
     }
   ]
 }
