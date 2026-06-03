@@ -31,11 +31,15 @@ function readOptionalJson(path, fallback) {
   }
 }
 
+function trimLineEndWhitespace(value) {
+  return value.replace(/[ \t]+$/gm, "");
+}
+
 const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260529c";
+const ASSET_VERSION = "20260602a";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -1843,6 +1847,15 @@ function injectStylesheetVersion() {
   }
 }
 
+function trimGeneratedHtml() {
+  for (const file of readdirSync(".")) {
+    if (!file.endsWith(".html")) continue;
+    const html = readFileSync(file, "utf8");
+    const nextHtml = trimLineEndWhitespace(html);
+    if (nextHtml !== html) writeFileSync(file, nextHtml, "utf8");
+  }
+}
+
 function weightedMean(items) {
   const totalWeight = items.reduce((total, row) => total + row.weight, 0);
   return items.reduce((total, row) => total + row.score * row.weight, 0) / totalWeight;
@@ -2245,3 +2258,5 @@ injectSiteIdentityTags();
 console.log("Built: site identity tags");
 injectStylesheetVersion();
 console.log("Built: stylesheet version tags");
+trimGeneratedHtml();
+console.log("Built: HTML whitespace trim");

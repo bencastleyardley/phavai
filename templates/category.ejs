@@ -4,6 +4,28 @@
 <% const productId = (product) => product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
 <% const quickWinner = products[0]; %>
 <% const quickPicks = [quickWinner, decisionSnapshot?.bestValue, decisionSnapshot?.useCasePick].filter(Boolean).filter((product, index, list) => list.findIndex((item) => item.name === product.name) === index).slice(0, 3); %>
+<% const fitOptions = (decisionOptions || []).slice(0, 4); %>
+<% const fitProfileFor = (product) => {
+  const id = productId(product);
+  const shoppingLink = product.shoppingLinks?.[0];
+  return {
+    id,
+    name: product.name,
+    rank: product.rank,
+    defaultScore: product.bestPickScore,
+    publicScoreLabel: product.publicScoreLabel,
+    tag: product.tag,
+    bestFor: product.bestFor,
+    avoidIf: product.avoidIf,
+    biggestStrength: product.biggestStrength,
+    biggestComplaint: product.biggestComplaint,
+    decisionTags: product.decisionTags || [],
+    attributeGraph: product.attributeGraph || {},
+    shoppingUrl: shoppingLink?.url || product.affiliateUrl,
+    shoppingLabel: shoppingLink?.label || "Buy now",
+    retailerName: shoppingLink?.retailerName || product.retailerName || "Retailer"
+  };
+}; %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,6 +44,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
   <script src="/affiliate-tracking.js" defer></script>
+  <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -174,6 +197,46 @@
             </div>
           <% } %>
         <% } %>
+        <% if (fitOptions.length && products.length > 1) { %>
+          <section class="fit-finder" data-fit-finder data-fit-options="<%- encodeURIComponent(JSON.stringify(fitOptions)) %>" aria-labelledby="fit-finder-heading">
+            <div class="fit-finder-copy">
+              <div class="section-kicker">Find your fit</div>
+              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
+              <p>Choose up to two buying priorities. Phavai keeps the editorial ranking intact and highlights the product that best fits your situation.</p>
+            </div>
+            <div class="fit-finder-controls">
+              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
+                <% fitOptions.forEach((option) => { %>
+                  <button class="fit-chip" type="button" data-fit-option="<%= option.key %>" aria-pressed="false">
+                    <span><%= option.label %></span>
+                    <small><%= option.help %></small>
+                  </button>
+                <% }) %>
+                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false">
+                  <span>Reset</span>
+                  <small>Return to editorial order</small>
+                </button>
+              </div>
+              <div class="fit-result" data-fit-result aria-live="polite">
+                <span data-fit-result-label>Choose a priority</span>
+                <strong data-fit-result-name><%= quickWinner?.name || "Top pick" %></strong>
+                <p data-fit-result-reason>Start with the editorial winner, or select priorities above to get a buyer-specific match from the same evidence.</p>
+                <% if (quickWinner) { %>
+                  <a href="#<%= productId(quickWinner) %>" data-fit-result-link>Jump to current pick</a>
+                <% } %>
+              </div>
+            </div>
+            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
+              <% products.slice(0, 3).forEach((product, index) => { %>
+                <a class="fit-match-card" href="#<%= productId(product) %>" data-fit-card>
+                  <span data-fit-card-rank>#<%= index + 1 %> editorial</span>
+                  <strong data-fit-card-name><%= product.name %></strong>
+                  <small data-fit-card-reason><%= product.tag %></small>
+                </a>
+              <% }) %>
+            </div>
+          </section>
+        <% } %>
       </div>
     </section>
 
@@ -182,7 +245,7 @@
         <div class="content-column">
           <div data-product-list>
           <% products.forEach((product) => { const id = productId(product); %>
-            <article class="product" id="<%= id %>" data-product-name="<%= product.name %>" data-default-score="<%= product.bestPickScore %>" data-editorial-rank="<%= product.rank %>" data-channel-scores='<%- JSON.stringify(Object.fromEntries(product.sourceScores.map((row) => [row.source, row.score]))) %>' data-decision-tags='<%- JSON.stringify(product.decisionTags || []) %>' data-decision-graph='<%- JSON.stringify(product.attributeGraph || {}) %>'>
+            <article class="product" id="<%= id %>" data-product-name="<%= product.name %>" data-default-score="<%= product.bestPickScore %>" data-editorial-rank="<%= product.rank %>" data-channel-scores='<%- JSON.stringify(Object.fromEntries(product.sourceScores.map((row) => [row.source, row.score]))) %>' data-decision-tags='<%- JSON.stringify(product.decisionTags || []) %>' data-decision-graph='<%- JSON.stringify(product.attributeGraph || {}) %>' data-fit-profile="<%- encodeURIComponent(JSON.stringify(fitProfileFor(product))) %>">
               <div class="product-media product-media--<%= section.slug %> product-visual--<%= product.visualKind %> product-visual--<%= product.visualVariant %>" role="img" aria-label="Brand-neutral illustration representing <%= product.name %>, <%= product.visualRole %>">
                 <div class="product-visual-frame" aria-hidden="true">
                   <span class="product-visual-icon"><%- product.visualSvg %></span>
@@ -246,6 +309,24 @@
                   </div>
                   <div>
                     <span>Key tradeoff</span>
+                    <p><%= product.biggestComplaint %></p>
+                  </div>
+                </div>
+
+                <div class="proof-snapshot-grid" aria-label="Proof snapshot for <%= product.name %>">
+                  <div>
+                    <span>Proof base</span>
+                    <strong><%= product.evidenceCount %> public source<%= product.evidenceCount === 1 ? "" : "s" %></strong>
+                    <p><%= product.sourceScores.map((row) => row.source).join(", ") || "Source review in progress" %></p>
+                  </div>
+                  <div>
+                    <span>Freshness</span>
+                    <strong><%= product.recencyStrength %>/100</strong>
+                    <p>Recent page updates and public source recency support this read.</p>
+                  </div>
+                  <div>
+                    <span>Buyer warning</span>
+                    <strong><%= product.attributeGraph?.confidenceLevel || "Reviewing" %> proof</strong>
                     <p><%= product.biggestComplaint %></p>
                   </div>
                 </div>
