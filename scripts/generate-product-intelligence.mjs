@@ -18,6 +18,7 @@ const affiliateReport = readOptionalJson("exports/phavai-affiliate-readiness-rep
 const sourceCoverage = readOptionalJson("data/source-coverage-report.json", { products: [] });
 const qualityReport = readOptionalJson("data/quality-governance-report.json", {});
 const searchConsole = readOptionalJson("data/search-console-tracking.json", []);
+const performanceSnapshot = readOptionalJson("data/performance-snapshot.json", null);
 
 function readOptionalJson(path, fallback) {
   try {
@@ -305,6 +306,9 @@ const tasks = products
 
 const dashboard = {
   generatedAt: GENERATED_AT,
+  searchPerformance: Array.isArray(searchConsole) ? null : (searchConsole.search_console_import ?? null),
+  pageMovements: Array.isArray(searchConsole) ? [] : (searchConsole.search_console_import?.page_movements ?? []),
+  commercePerformance: performanceSnapshot,
   summary: {
     pages: pages.length,
     productPlacements: products.length,
@@ -315,7 +319,11 @@ const dashboard = {
     productsMissingReddit: products.filter((product) => product.missingChannels.includes("Reddit")).length,
     highPriorityTasks: tasks.filter((task) => task.priority === "high").length
   },
-  topPages: pages.sort((a, b) => b.opportunityScore - a.opportunityScore).slice(0, 18),
+  topPages: [...pages].sort((a, b) => b.opportunityScore - a.opportunityScore).slice(0, 18),
+  topSearchPages: [...pages]
+    .filter((page) => Number(page.searchSignal?.impressions || 0) > 0)
+    .sort((a, b) => Number(b.searchSignal?.impressions || 0) - Number(a.searchSignal?.impressions || 0))
+    .slice(0, 20),
   topProducts: products.sort((a, b) => b.opportunityScore - a.opportunityScore).slice(0, 24),
   systems: [
     {
@@ -335,8 +343,10 @@ const dashboard = {
     },
     {
       name: "Revenue feedback",
-      status: "needs-data",
-      nextStep: "Connect click/conversion data to this report once tracking exports are available."
+      status: performanceSnapshot?.ga4?.status === "imported" && performanceSnapshot?.amazon?.status === "imported" ? "ready" : "needs-data",
+      nextStep: performanceSnapshot?.amazon?.status === "imported"
+        ? "Refresh the matched GA4 and Amazon reporting window each month."
+        : "GA4 clicks are imported. Add one Amazon Tracking ID export for the same date range to calculate orders and earnings."
     }
   ]
 };

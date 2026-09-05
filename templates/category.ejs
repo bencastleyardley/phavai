@@ -287,6 +287,11 @@
               <span class="research-brief__stamp">Checked <%= flagshipResearch.updated %></span>
             </div>
             <p class="research-brief__summary"><%= flagshipResearch.summary %></p>
+            <% if (flagshipResearch.resourceLinks?.length) { %>
+              <div class="research-resource-links" aria-label="Related research tools">
+                <% flagshipResearch.resourceLinks.forEach((link) => { %><a href="<%= link.url %>"><%= link.label %></a><% }) %>
+              </div>
+            <% } %>
             <% if (flagshipResearch.keyFindings?.length) { %>
               <div class="research-finding-grid">
                 <% flagshipResearch.keyFindings.forEach((finding) => { %>

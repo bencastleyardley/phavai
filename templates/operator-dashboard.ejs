@@ -1,14 +1,28 @@
 <%
 const summary = dashboard.summary || {};
 const topPages = dashboard.topPages || [];
+const topSearchPages = dashboard.topSearchPages || [];
 const topProducts = dashboard.topProducts || [];
 const tasks = maintenanceQueue.tasks || [];
 const systems = dashboard.systems || [];
+const searchPerformance = dashboard.searchPerformance || {};
+const siteSearch = searchPerformance.site_summary || {};
+const firstSearchWindow = searchPerformance.first_28_days || {};
+const latestSearchWindow = searchPerformance.latest_28_days || {};
+const commercePerformance = dashboard.commercePerformance || {};
+const ga4 = commercePerformance.ga4 || {};
+const amazon = commercePerformance.amazon || {};
+const pageMovements = dashboard.pageMovements || [];
+const visiblePages = [...(topSearchPages.length ? topSearchPages : topPages)]
+  .filter((page) => Number(page.searchSignal?.impressions || 0) > 0)
+  .sort((a, b) => Number(b.searchSignal?.impressions || 0) - Number(a.searchSignal?.impressions || 0));
 const generatedDate = dashboard.generatedAt ? new Date(dashboard.generatedAt) : null;
 const generatedLabel = generatedDate && !Number.isNaN(generatedDate.getTime())
   ? generatedDate.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" })
   : "Not generated yet";
 const formatNumber = (value) => Number(value || 0).toLocaleString("en-US");
+const formatPercent = (value, digits = 1) => Number.isFinite(Number(value)) ? `${(Number(value) * 100).toFixed(digits)}%` : "—";
+const formatMoney = (value) => Number.isFinite(Number(value)) ? Number(value).toLocaleString("en-US", { style: "currency", currency: "USD" }) : "—";
 const statusLabel = (status) => ({
   ready: "Ready",
   "needs-attention": "Needs attention",
@@ -87,6 +101,70 @@ const summaryItems = [
     </section>
 
     <section class="band surface">
+      <div class="wrap">
+        <div class="section-kicker">Monthly performance</div>
+        <h2>Search and commerce snapshot</h2>
+        <p class="operator-section-copy">Search Console and GA4 are loaded from the latest exports. Amazon orders and earnings remain blank until a Tracking ID report covering the same dates is imported.</p>
+        <div class="performance-kpi-grid" aria-label="Search and commerce metrics">
+          <article><span>GSC impressions</span><strong><%= formatNumber(siteSearch.impressions) %></strong><small><%= siteSearch.start || "—" %> to <%= siteSearch.end || "—" %></small></article>
+          <article><span>GSC clicks</span><strong><%= formatNumber(siteSearch.clicks) %></strong><small><%= formatPercent(siteSearch.ctr, 2) %> search CTR</small></article>
+          <article><span>Average position</span><strong><%= Number.isFinite(Number(siteSearch.position)) ? Number(siteSearch.position).toFixed(1) : "—" %></strong><small>sitewide export average</small></article>
+          <article><span>Retailer clicks</span><strong><%= ga4.status === "imported" ? formatNumber(ga4.outboundRetailerClicks) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatPercent(ga4.outboundClicksPerPageView)} per pageview` : "GA4 export needed" %></small></article>
+          <article><span>Amazon orders</span><strong><%= amazon.status === "imported" ? formatNumber(amazon.itemsOrdered) : "—" %></strong><small><%= amazon.status === "imported" ? `${formatNumber(amazon.clicks)} Amazon clicks` : "matched-period report needed" %></small></article>
+          <article><span>Amazon earnings</span><strong><%= amazon.status === "imported" ? formatMoney(amazon.totalEarnings) : "—" %></strong><small><%= amazon.status === "imported" ? `${formatMoney(amazon.orderedRevenue)} ordered revenue` : "not estimated from clicks" %></small></article>
+        </div>
+
+        <div class="performance-detail-grid">
+          <section class="performance-panel" aria-labelledby="search-trend-heading">
+            <div class="section-kicker">Sitewide trend</div>
+            <h3 id="search-trend-heading">First and latest 28-day windows</h3>
+            <div class="trend-comparison">
+              <div><span>First 28 days</span><strong><%= formatNumber(firstSearchWindow.impressions) %> impressions</strong><small><%= formatNumber(firstSearchWindow.clicks) %> clicks · <%= Number(firstSearchWindow.position || 0).toFixed(1) %> position</small></div>
+              <div><span>Latest 28 days</span><strong><%= formatNumber(latestSearchWindow.impressions) %> impressions</strong><small><%= formatNumber(latestSearchWindow.clicks) %> clicks · <%= Number(latestSearchWindow.position || 0).toFixed(1) %> position</small></div>
+            </div>
+            <p><strong><%= Number(searchPerformance.impression_change_pct || 0).toFixed(1) %>%</strong> impression change and <strong><%= Number(searchPerformance.click_change_pct || 0).toFixed(1) %>%</strong> click change between those sitewide windows. Low click volume makes the click percentage volatile.</p>
+          </section>
+          <section class="performance-panel" aria-labelledby="commerce-heading">
+            <div class="section-kicker">Conversion baseline</div>
+            <h3 id="commerce-heading"><%= commercePerformance.period?.label || "Current export" %></h3>
+            <div class="trend-comparison">
+              <div><span>GA4 pageviews</span><strong><%= ga4.status === "imported" ? formatNumber(ga4.pageViews) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatNumber(ga4.sessions)} sessions · ${formatNumber(ga4.clickUsers)} click users` : "No GA4 snapshot" %></small></div>
+              <div><span>Product-level split</span><strong><%= ga4.productBreakdownAvailable ? "Available" : "Starts next cycle" %></strong><small><%= ga4.productBreakdownAvailable ? "Guide and product dimensions imported" : "New custom dimensions do not backfill" %></small></div>
+            </div>
+            <p><%= ga4.note || amazon.note || "Import matched reports before using this panel for revenue decisions." %></p>
+          </section>
+        </div>
+
+        <div class="comparison-scroll performance-table-wrap">
+          <table class="comparison-table operator-table">
+            <thead><tr><th>Page</th><th>Impressions</th><th>Clicks</th><th>CTR</th><th>Position</th><th>Next move</th></tr></thead>
+            <tbody>
+              <% visiblePages.slice(0, 10).forEach((page) => { %>
+                <tr>
+                  <td><a href="/<%= page.page %>.html"><%= page.title %></a></td>
+                  <td><%= formatNumber(page.searchSignal.impressions) %></td>
+                  <td><%= formatNumber(page.searchSignal.clicks) %></td>
+                  <td><%= formatPercent(page.searchSignal.ctr, 2) %></td>
+                  <td><%= Number(page.searchSignal.position || 0).toFixed(1) %></td>
+                  <td><%= page.recommendedActions?.[0] || "Monitor monthly." %></td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+
+        <section class="movement-panel" aria-labelledby="movement-heading">
+          <div><div class="section-kicker">Page movement</div><h3 id="movement-heading">Pages gaining or losing visibility</h3></div>
+          <% if (pageMovements.length) { %>
+            <div class="movement-list"><% pageMovements.forEach((page) => { %><div><strong><%= page.title %></strong><span><%= page.impressionChange > 0 ? "+" : "" %><%= page.impressionChange %> impressions · <%= page.positionChange > 0 ? "+" : "" %><%= page.positionChange %> positions</span></div><% }) %></div>
+          <% } else { %>
+            <p>The current Search Console file establishes the first page-level baseline. Import the next monthly export to calculate honest per-page gains and losses; the dashboard will not infer movement from one snapshot.</p>
+          <% } %>
+        </section>
+      </div>
+    </section>
+
+    <section class="band">
       <div class="wrap operator-dashboard-grid">
         <div class="operator-main">
           <div class="section-kicker">Page opportunities</div>
@@ -174,7 +252,7 @@ const summaryItems = [
       </div>
     </section>
 
-    <section class="band">
+    <section class="band surface">
       <div class="wrap">
         <div class="operator-system-grid">
           <% systems.forEach((system) => { %>
@@ -188,7 +266,7 @@ const summaryItems = [
       </div>
     </section>
 
-    <section class="band surface">
+    <section class="band">
       <div class="wrap page-grid">
         <div>
           <div class="section-kicker">Operating loop</div>
@@ -197,7 +275,8 @@ const summaryItems = [
         </div>
         <div class="operator-command-list" aria-label="Recurring commands">
           <div><code>npm run growth:audit</code><span>Refresh source, affiliate, and product intelligence reports.</span></div>
-          <div><code>npm test</code><span>Build the site and run quality, affiliate, quick-answer, dashboard, and browser checks.</span></div>
+          <div><code>npm run performance:import -- --ga-events &lt;file&gt; --amazon-tracking &lt;file&gt; --start YYYY-MM-DD --end YYYY-MM-DD</code><span>Load matched GA4 and Amazon reports for the monthly conversion snapshot.</span></div>
+          <div><code>npm run build &amp;&amp; npm run quality:audit &amp;&amp; npm run seo:audit</code><span>Build and run the non-browser quality checks.</span></div>
           <div><code>npm run deploy</code><span>Regenerate the queue, build, and ship production through Vercel.</span></div>
         </div>
       </div>

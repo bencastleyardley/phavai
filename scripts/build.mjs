@@ -17,11 +17,13 @@ const todaysPicks = readOptionalJson("data/todays-picks.json", null);
 const amazonCatalogCache = readOptionalJson(".cache/amazon-creators.json", null);
 const productIntelligence = readOptionalJson("data/ai-opportunity-dashboard.json", null);
 const maintenanceQueue = readOptionalJson("data/ai-maintenance-queue.json", null);
+const runningHeadphoneSpecifications = readOptionalJson("data/running-headphone-specifications.json", null);
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
 const todaysPicksTemplate = readFileSync("templates/todays-picks.ejs", "utf8");
 const operatorDashboardTemplate = readFileSync("templates/operator-dashboard.ejs", "utf8");
+const specificationDatabaseTemplate = readFileSync("templates/spec-database.ejs", "utf8");
 
 function readOptionalJson(path, fallback) {
   try {
@@ -36,11 +38,16 @@ function trimLineEndWhitespace(value) {
   return value.replace(/[ \t]+$/gm, "");
 }
 
+function csvCell(value) {
+  const text = String(value ?? "");
+  return /[",\r\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
+}
+
 const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260905b";
+const ASSET_VERSION = "20260905c";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -2181,6 +2188,16 @@ const builtCategories = categories.map((category) => {
 
   return {
     ...category,
+    flagshipResearch: category.slug === "best-running-headphones" && category.flagshipResearch
+      ? {
+          ...category.flagshipResearch,
+          resourceLinks: [
+            { label: "Download the normalized specification database", url: "/running-headphone-specification-database.html" },
+            { label: "Compare OpenRun Pro 2 vs OpenFit 2", url: "/shokz-openrun-pro-2-vs-openfit-2-for-running.html" },
+            { label: "Compare open-ear vs sealed earbuds", url: "/open-ear-vs-sealed-earbuds-for-road-running.html" }
+          ]
+        }
+      : category.flagshipResearch,
     socialImage: existsSync(`photos/generated/guide-${category.slug}-social.png`)
       ? `/photos/generated/guide-${category.slug}-social.png`
       : "",
@@ -2232,7 +2249,7 @@ for (const category of builtCategories) {
       affiliateConfig: AFFILIATE_CONFIG,
       allSections: sections,
       relatedReviews,
-      supportingPages: []
+      supportingPages: supportingPages.filter((page) => page.relatedReviewSlugs?.includes(category.slug))
     },
     { rmWhitespace: false }
   );
@@ -2292,6 +2309,53 @@ for (const page of supportingPages) {
   console.log(`Built: ${page.slug}.html`);
 }
 
+if (runningHeadphoneSpecifications) {
+  const page = {
+    ...runningHeadphoneSpecifications,
+    datePublished: toIsoDate(runningHeadphoneSpecifications.published || runningHeadphoneSpecifications.updated),
+    dateModified: toIsoDate(runningHeadphoneSpecifications.updated)
+  };
+  const html = ejs.render(
+    specificationDatabaseTemplate,
+    { page, allSections: sections },
+    { rmWhitespace: false }
+  );
+  writeFileSync(`${page.slug}.html`, trimLineEndWhitespace(html), "utf8");
+  const csvColumns = [
+    "Product",
+    "Format",
+    "Weight",
+    "Single-charge battery",
+    "Battery with case",
+    "Quick charge",
+    "Water resistance",
+    "Controls",
+    "Awareness approach",
+    "Best running context",
+    "Primary source"
+  ];
+  const csvRows = page.records.map((record) => [
+    record.product,
+    record.format,
+    record.weight,
+    record.singleChargeBattery,
+    record.caseBattery,
+    record.quickCharge,
+    record.waterResistance,
+    record.controls,
+    record.awareness,
+    record.bestUse,
+    record.primarySource
+  ]);
+  writeFileSync(
+    "exports/running-headphone-specifications.csv",
+    [csvColumns, ...csvRows].map((row) => row.map(csvCell).join(",")).join("\n") + "\n",
+    "utf8"
+  );
+  console.log(`Built: ${page.slug}.html`);
+  console.log("Built: exports/running-headphone-specifications.csv");
+}
+
 if (todaysPicks) {
   const html = ejs.render(
     todaysPicksTemplate,
@@ -2340,6 +2404,12 @@ const urls = [
     priority: "0.7",
     lastmod: toIsoDate(page.updated)
   })),
+  ...(runningHeadphoneSpecifications ? [{
+    loc: `https://www.phavai.com/${runningHeadphoneSpecifications.slug}.html`,
+    changefreq: "monthly",
+    priority: "0.8",
+    lastmod: toIsoDate(runningHeadphoneSpecifications.updated)
+  }] : []),
   ...(todaysPicks?.indexable !== false ? [{
     loc: `https://www.phavai.com/${todaysPicks.slug}.html`,
     changefreq: "daily",

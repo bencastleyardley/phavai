@@ -36,6 +36,7 @@ const queries = queryRows
   .sort((a, b) => b.impressions - a.impressions || a.position - b.position);
 
 let matchedPages = 0;
+const pageMovements = [];
 for (const page of tracking.live_pages ?? []) {
   const metrics = pageMetrics.get(canonicalUrl(page.url));
   if (!metrics) {
@@ -44,6 +45,7 @@ for (const page of tracking.live_pages ?? []) {
   }
 
   const topQueries = inferQueriesForPage(page, queries).slice(0, 8);
+  const previousMetrics = page.search_metrics ? { ...page.search_metrics } : null;
   page.search_metrics = {
     ...metrics,
     primary_query: topQueries[0]?.query || page.primary_query || "",
@@ -51,6 +53,21 @@ for (const page of tracking.live_pages ?? []) {
     query_mapping: topQueries.length ? "inferred_from_sitewide_query_similarity" : "no_matching_sitewide_query",
     source: basename(args.pages)
   };
+  if (previousMetrics) {
+    pageMovements.push({
+      title: page.title,
+      path: page.path,
+      previousImpressions: toNumber(previousMetrics.impressions),
+      impressions: metrics.impressions,
+      impressionChange: metrics.impressions - toNumber(previousMetrics.impressions),
+      previousClicks: toNumber(previousMetrics.clicks),
+      clicks: metrics.clicks,
+      clickChange: metrics.clicks - toNumber(previousMetrics.clicks),
+      previousPosition: toNumber(previousMetrics.position),
+      position: metrics.position,
+      positionChange: Number((toNumber(previousMetrics.position) - metrics.position).toFixed(2))
+    });
+  }
   matchedPages += 1;
 }
 
@@ -81,6 +98,10 @@ tracking.search_console_import = {
   latest_28_days: latestWindow,
   impression_change_pct: percentChange(firstWindow.impressions, latestWindow.impressions),
   click_change_pct: percentChange(firstWindow.clicks, latestWindow.clicks),
+  page_movements: pageMovements
+    .filter((page) => page.impressionChange !== 0 || page.clickChange !== 0 || page.positionChange !== 0)
+    .sort((a, b) => Math.abs(b.impressionChange) - Math.abs(a.impressionChange))
+    .slice(0, 20),
   query_mapping_note: "Queries.csv is sitewide. Per-page top queries are inferred by normalized title and slug token overlap, not exported as a landing-page/query join."
 };
 

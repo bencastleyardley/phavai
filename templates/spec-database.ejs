@@ -1,0 +1,151 @@
+<% const ogImage = page.image.startsWith("http") ? page.image : `https://www.phavai.com${page.image}`; %>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= page.metaTitle %> | Phavai</title>
+  <meta name="description" content="<%= page.description %>" />
+  <meta name="robots" content="max-image-preview:large" />
+  <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta property="og:description" content="<%= page.description %>" />
+  <meta property="og:image" content="<%= ogImage %>" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta name="twitter:description" content="<%= page.description %>" />
+  <meta name="twitter:image" content="<%= ogImage %>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": page.title,
+    "description": page.description,
+    "url": `https://www.phavai.com/${page.slug}.html`,
+    "datePublished": page.datePublished,
+    "dateModified": page.dateModified,
+    "creator": { "@type": "Organization", "name": "Phavai Research Desk", "url": "https://www.phavai.com/about.html" },
+    "variableMeasured": page.columns,
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": `https://www.phavai.com${page.downloadPath}`
+    }
+  }, null, 2) %>
+  </script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phavai.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Outdoor", "item": "https://www.phavai.com/outdoor.html" },
+      { "@type": "ListItem", "position": 3, "name": page.title, "item": `https://www.phavai.com/${page.slug}.html` }
+    ]
+  }, null, 2) %>
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/index.html"><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        <% allSections.forEach((item) => { %><a href="/<%= item.slug %>.html"><%= item.title %></a><% }) %>
+        <a href="/todays-picks.html">Today's Picks</a>
+        <a class="hide-small" href="/methodology.html">Methodology</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-hero">
+      <div class="wrap page-grid">
+        <div>
+          <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Open data</a>
+          <div class="section-kicker"><%= page.eyebrow %></div>
+          <h1><%= page.title %></h1>
+          <p class="lede"><%= page.intro %></p>
+          <div class="meta-row">
+            <span class="meta-pill"><%= page.records.length %> current products</span>
+            <span class="meta-pill">Updated <%= page.updated %></span>
+            <span class="meta-pill">Manufacturer fields normalized</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button" href="<%= page.downloadPath %>" download>Download CSV</a>
+            <a class="button secondary" href="/best-running-headphones.html">See ranked guide</a>
+          </div>
+        </div>
+        <div class="data-resource-summary">
+          <span>What this answers</span>
+          <strong>Which specifications actually differ?</strong>
+          <p>Compare fit format, true single-charge runtime, case totals, resistance rating, controls, and awareness approach without translating four product pages yourself.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="wrap">
+        <div class="section-kicker">Normalized specifications</div>
+        <h2>Running-headphone comparison table</h2>
+        <p class="operator-section-copy">Every row links to the primary manufacturer document used for its specifications. A larger number is not automatically better; format and route remain the deciding variables.</p>
+        <div class="research-table-scroll">
+          <table class="research-table spec-database-table">
+            <caption>Manufacturer specifications checked <%= page.updated %></caption>
+            <thead><tr><% page.columns.forEach((column) => { %><th><%= column %></th><% }) %><th>Primary source</th></tr></thead>
+            <tbody>
+              <% page.records.forEach((record) => { %>
+                <tr>
+                  <th scope="row"><%= record.product %></th>
+                  <td><%= record.format %></td>
+                  <td><%= record.weight %></td>
+                  <td><%= record.singleChargeBattery %></td>
+                  <td><%= record.caseBattery %></td>
+                  <td><%= record.quickCharge %></td>
+                  <td><%= record.waterResistance %></td>
+                  <td><%= record.controls %></td>
+                  <td><%= record.awareness %></td>
+                  <td><%= record.bestUse %></td>
+                  <td><a href="<%= record.primarySource %>" target="_blank" rel="noopener">Manufacturer specs</a></td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface">
+      <div class="wrap ranking-layout">
+        <article class="content-column">
+          <div class="section-kicker">Method</div>
+          <h2>How to use this database</h2>
+          <ul class="method-list"><% page.method.forEach((item) => { %><li><%= item %></li><% }) %></ul>
+          <p class="research-limitations"><strong>Limits:</strong> <%= page.limitations %></p>
+        </article>
+        <aside class="sidebar">
+          <h2>Continue the decision</h2>
+          <div class="link-list compact">
+            <% page.relatedLinks.forEach((link) => { %>
+              <a href="<%= link.url %>"><span><strong><%= link.label %></strong><small><%= link.description %></small></span><span>Open</span></a>
+            <% }) %>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>Phavai publishes normalized buying data alongside evidence-led rankings.</div>
+      <div><a href="/index.html">Home</a><a href="/outdoor.html">Outdoor</a><a href="/methodology.html">Methodology</a><a href="/about.html">About</a></div>
+    </div>
+  </footer>
+</body>
+</html>

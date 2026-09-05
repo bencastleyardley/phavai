@@ -1,0 +1,102 @@
+{
+  "slug": "running-headphone-specification-database",
+  "title": "Running Headphone Specification Database",
+  "metaTitle": "Running Headphone Specs Compared: Battery, Fit, IP Rating",
+  "description": "Compare normalized running-headphone specifications for fit format, weight, battery, water resistance, controls, and runner use case.",
+  "eyebrow": "Phavai open data",
+  "updated": "September 5, 2026",
+  "published": "September 5, 2026",
+  "image": "/photos/generated/running-headphone-spec-database-social.png",
+  "intro": "A normalized, source-linked reference for comparing the four finalists in Phavai's running-headphone guide. Use it to compare like with like before opening the ranked recommendations.",
+  "downloadPath": "/exports/running-headphone-specifications.csv",
+  "columns": [
+    "Product",
+    "Format",
+    "Weight",
+    "Single-charge battery",
+    "Battery with case",
+    "Quick charge",
+    "Water resistance",
+    "Controls",
+    "Awareness approach",
+    "Best running context"
+  ],
+  "records": [
+    {
+      "product": "Shokz OpenRun Pro 2",
+      "format": "Connected open-ear neckband",
+      "weight": "30.3 g total",
+      "singleChargeBattery": "Up to 12 hours",
+      "caseBattery": "Not applicable",
+      "quickCharge": "5 minutes for up to 2.5 hours",
+      "waterResistance": "IP55",
+      "controls": "Physical multifunction and volume buttons",
+      "awareness": "Ear canal remains open",
+      "bestUse": "Road or trail running when outside-sound awareness and one-piece simplicity matter",
+      "primarySource": "https://uk.shokz.com/products/openrun-pro2"
+    },
+    {
+      "product": "Beats Powerbeats Pro 2",
+      "format": "Sealed true-wireless earbuds with ear hooks",
+      "weight": "8.7 g each",
+      "singleChargeBattery": "Up to 10 hours",
+      "caseBattery": "Up to 45 hours total",
+      "quickCharge": "5 minutes for up to 1.5 hours",
+      "waterResistance": "IPX4",
+      "controls": "Physical button and volume controls",
+      "awareness": "Transparency mode uses microphones; ear canal is sealed",
+      "bestUse": "Intervals, gym sessions, and runners prioritizing locked-in fit and fuller sound",
+      "primarySource": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2?pp=1"
+    },
+    {
+      "product": "Shokz OpenFit 2",
+      "format": "Open-ear true-wireless ear hooks",
+      "weight": "9.4 g each",
+      "singleChargeBattery": "Up to 11 hours",
+      "caseBattery": "Up to 48 hours total",
+      "quickCharge": "10 minutes for up to 2 hours",
+      "waterResistance": "IP55",
+      "controls": "Physical multifunction buttons",
+      "awareness": "Ear canal remains open",
+      "bestUse": "Outdoor running when an open-ear design is preferred without a neckband",
+      "primarySource": "https://shokz.com/products/openfit2"
+    },
+    {
+      "product": "Jabra Elite 8 Active Gen 2",
+      "format": "Sealed true-wireless earbuds",
+      "weight": "5 g each",
+      "singleChargeBattery": "Up to 8 hours with ANC; 14 hours with ANC off",
+      "caseBattery": "Up to 32 hours with ANC; 56 hours with ANC off",
+      "quickCharge": "5 minutes for up to 1 hour",
+      "waterResistance": "IP68 earbuds; IP54 case",
+      "controls": "Physical buttons",
+      "awareness": "HearThrough mode uses microphones; ear canal is sealed",
+      "bestUse": "Wet or rough training when rugged sealed earbuds are preferred",
+      "primarySource": "https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Elite-8-Active-Gen2/Technical-specifications/RevA/EN-Jabra-Elite-8-Active-G2-Tech-Specs-A4-WEB-240524.pdf"
+    }
+  ],
+  "method": [
+    "Manufacturer product pages and technical specifications supply the normalized fields.",
+    "Single-charge runtime stays separate from case-assisted total runtime.",
+    "An ear canal that remains open is labeled separately from microphone-based transparency modes.",
+    "The database describes products. Independent expert and owner evidence determines Phavai's ranking."
+  ],
+  "limitations": "These are manufacturer claims, not Phavai lab results. Battery varies with volume, calls, codecs, features, temperature, and device settings. Fit and sound are personal, and product availability can change.",
+  "relatedLinks": [
+    {
+      "label": "Best Running Headphones",
+      "description": "See the ranked picks, evidence, and buyer-specific tradeoffs.",
+      "url": "/best-running-headphones.html"
+    },
+    {
+      "label": "OpenRun Pro 2 vs OpenFit 2",
+      "description": "Choose between a connected neckband and open-ear true wireless ear hooks.",
+      "url": "/shokz-openrun-pro-2-vs-openfit-2-for-running.html"
+    },
+    {
+      "label": "Open-Ear vs Sealed Earbuds",
+      "description": "Match the listening format to road, trail, treadmill, and gym use.",
+      "url": "/open-ear-vs-sealed-earbuds-for-road-running.html"
+    }
+  ]
+}

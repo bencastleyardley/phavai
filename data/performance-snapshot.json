@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-09-05T19:22:07.969Z",
+  "period": {
+    "start": "2026-06-07",
+    "end": "2026-09-04",
+    "label": "Last 90 days"
+  },
+  "ga4": {
+    "status": "imported",
+    "source": "Events_Event_name.csv",
+    "pageViews": 76,
+    "sessions": 51,
+    "activeUsers": 48,
+    "productCtaClicks": 7,
+    "outboundRetailerClicks": 7,
+    "clickUsers": 2,
+    "outboundClicksPerPageView": 0.0921,
+    "productBreakdownAvailable": false,
+    "note": "Product-level reporting requires a GA4 export that includes the registered product_name, retailer, guide_title, and link_domain custom dimensions."
+  },
+  "amazon": {
+    "status": "needs_current_period_export",
+    "clicks": null,
+    "itemsOrdered": null,
+    "orderedRevenue": null,
+    "totalEarnings": null,
+    "note": "No Amazon report supplied for this reporting window."
+  }
+}

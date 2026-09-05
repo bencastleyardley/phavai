@@ -173,6 +173,59 @@
             <% }) %>
           </div>
 
+          <% if (page.comparisonTable?.rows?.length) { %>
+          <section class="comparison-section supporting-comparison" aria-labelledby="supporting-comparison-heading">
+            <div class="section-kicker">Direct comparison</div>
+            <h2 id="supporting-comparison-heading">Compare the formats before you choose</h2>
+            <div class="research-table-scroll">
+              <table class="research-table">
+                <% if (page.comparisonTable.caption) { %><caption><%= page.comparisonTable.caption %></caption><% } %>
+                <thead><tr><% page.comparisonTable.columns.forEach((column) => { %><th><%= column %></th><% }) %></tr></thead>
+                <tbody>
+                  <% page.comparisonTable.rows.forEach((row) => { %>
+                    <tr><% row.forEach((cell, index) => { %><% if (index === 0) { %><th scope="row"><%= cell %></th><% } else { %><td><%= cell %></td><% } %><% }) %></tr>
+                  <% }) %>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <% } %>
+
+          <% if (page.decisionCards?.length) { %>
+          <section class="comparison-section" aria-labelledby="decision-heading">
+            <div class="section-kicker">Decision guide</div>
+            <h2 id="decision-heading">Match the format to your run</h2>
+            <div class="research-decision-grid">
+              <% page.decisionCards.forEach((decision) => { %>
+                <article><span><%= decision.label %></span><strong><%= decision.title %></strong><p><%= decision.body %></p></article>
+              <% }) %>
+            </div>
+          </section>
+          <% } %>
+
+          <% if (page.resourceLinks?.length) { %>
+          <section class="comparison-section" aria-labelledby="resources-heading">
+            <div class="section-kicker">Continue comparing</div>
+            <h2 id="resources-heading">Use the full running-audio research cluster</h2>
+            <div class="link-list">
+              <% page.resourceLinks.forEach((link) => { %><a href="<%= link.url %>"><span><%= link.label %></span><span>Open</span></a><% }) %>
+            </div>
+          </section>
+          <% } %>
+
+          <% if (page.sources?.length) { %>
+          <section class="research-source-panel supporting-sources" aria-labelledby="sources-heading">
+            <div>
+              <div class="section-kicker">Primary documents</div>
+              <h2 id="sources-heading">Specifications checked for this guide</h2>
+              <p>Manufacturer documentation supplies the product specifications. Phavai keeps those facts separate from the independent evidence used for rankings.</p>
+            </div>
+            <div class="research-source-links">
+              <% page.sources.forEach((source) => { %><a href="<%= source.url %>" target="_blank" rel="noopener"><%= source.label %><span>Open source</span></a><% }) %>
+            </div>
+          </section>
+          <% } %>
+
           <% if (page.faqs?.length) { %>
           <section class="faq-section" aria-labelledby="faq-heading">
             <div class="section-kicker">Quick answers</div>

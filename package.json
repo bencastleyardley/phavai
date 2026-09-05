@@ -20,6 +20,7 @@
     "growth:audit": "npm run sources:audit && npm run affiliate:audit && npm run product:intelligence && npm run product:intelligence:audit",
     "seo:import": "node scripts/import-search-console.mjs",
     "seo:map": "node scripts/generate-search-console-map.mjs",
+    "performance:import": "node scripts/import-performance-snapshot.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "amazon:sync": "node scripts/sync-amazon-creators.mjs",
     "amazon:smoke": "node scripts/sync-amazon-creators.mjs --smoke",

@@ -2292,7 +2292,7 @@
     "schemaName": "Best running belts recommended by Phavai",
     "sectionSlug": "outdoor",
     "sourceWeights": { "Expert": 65, "Reddit": 35 },
-    "sourcesVerifiedAt": "May 5, 2026",
+    "sourcesVerifiedAt": "September 5, 2026",
     "comparisonIntro": "Compare the shortlist by storage volume, bounce control, adjustability, bottle carry, pole carry, and whether it works better for road runs or trail days.",
     "finalRecommendation": "Start with the Naked Running Band if you want the best overall tube-style carry. Choose the Ultimate Direction Ultra Belt for bigger trail days, UltrAspire Fitted Race Belt 2.0 for value, and Nathan Peak if you specifically want a hard-bottle waist pack.",
     "relatedReviewSlugs": ["best-running-vests", "best-hydration-packs", "best-handheld-running-water-bottles", "best-running-gels-for-ultramarathons"],
@@ -2309,7 +2309,7 @@
         "bestFor": "Runners who want a stable, high-capacity tube belt for phone, fuel, soft flask, keys, and small layers.",
         "avoidIf": "You want adjustable sizing or dislike measuring carefully before buying.",
         "verdict": "The Naked Running Band wins because it solves the belt problem without much hardware. Get the size right and it carries more than it looks like it should.",
-        "specs": ["Tube-style belt", "Multiple open pockets", "Soft flask compatible", "Pole loops"],
+        "specs": ["2+ L listed capacity", "2.3 oz listed weight and 5 in width", "12 fixed sizes from 28-39 in", "Up to three 500 ml soft flasks; rear pole/layer loops"],
         "pros": ["Excellent storage-to-weight ratio", "Stable when sized correctly", "Works for road, trail, and ultra use"],
         "cons": ["Sizing must be right", "Can scrunch on some bodies", "Poles can be felt against the back"],
         "positiveThemes": ["iRunFar keeps the Naked Running Band at the top for storage, stretch, and stability.", "Owner discussion reinforces that the band can replace a vest for many shorter or aid-station-supported runs."],
@@ -2328,7 +2328,7 @@
         "bestFor": "Trail runners who need more water, snacks, layers, or race-day gear than a minimalist belt can comfortably hold.",
         "avoidIf": "You only carry a phone and key or want the lightest possible waistband.",
         "verdict": "The Ultra Belt makes sense when a normal running belt is not enough but a vest feels like overkill. It is a trail tool, not just a phone sleeve.",
-        "specs": ["High-volume waist pack", "Bottle compatible", "Trail storage", "Adjustable fit"],
+        "specs": ["3 L / 177 cu in listed capacity", "96 g / 3.4 oz listed weight", "Up to 1 L hydration via two soft flasks", "Adjustable strap, zip rear pocket, and dedicated phone/key storage"],
         "pros": ["More capacity than tube belts", "Useful for long trail runs", "Better for water carry"],
         "cons": ["Bulkier than simple belts", "Can feel like too much for road runs", "Needs careful packing to control bounce"],
         "positiveThemes": ["iRunFar highlights it as the high-volume option for runners who need more carry capacity.", "Reddit discussion supports the idea that belts can supplement or replace small packs for mandatory gear and fuel."],
@@ -2347,7 +2347,7 @@
         "bestFor": "Runners who want a lower-cost belt for fuel, phone, key, and race-day essentials.",
         "avoidIf": "You need serious water carry or want the stretch capacity of the Naked Running Band.",
         "verdict": "The UltrAspire is the value pick because it gets the basic race-belt job right without pushing into premium pricing.",
-        "specs": ["Fitted race belt", "Low-profile pockets", "Race-day carry", "Budget-friendly"],
+        "specs": ["0.74 L / 45 cu in listed capacity", "68 g / 2.4 oz listed weight", "Five fitted sizes from XS-XL", "Three pockets; soft-flask compatible; shock cords for layer or Z-poles"],
         "pros": ["Good price", "Simple race carry", "Less bulky than hydration waist packs"],
         "cons": ["Less capacity than larger belts", "Sizing matters", "Not ideal for carrying bottles"],
         "positiveThemes": ["iRunFar names it the budget pick for runners who want a reliable fitted race belt.", "It works best when you need simple storage rather than hydration capacity."],
@@ -2366,7 +2366,7 @@
         "bestFor": "Runners who want a dedicated bottle on the waist instead of a handheld or vest.",
         "avoidIf": "Bottle bounce drives you crazy or you prefer soft-flask carry.",
         "verdict": "The Nathan Peak is the clearest pick when you specifically want a bottle belt. It is less elegant than a soft tube belt, but the grab-and-go hydration is the point.",
-        "specs": ["Hard bottle included", "Angled bottle holster", "Small storage pocket", "Waist hydration pack"],
+        "specs": ["18 oz hard flask included", "Angled bottle holster", "Expandable zip phone pocket and external shock cord", "Adjustable one-size belt; total pack weight and volume not listed"],
         "pros": ["Easy bottle access", "Good for short-to-medium runs", "Simple hydration solution"],
         "cons": ["Bottle weight is noticeable", "Less storage than high-volume packs", "Not as low-bounce as tube belts"],
         "positiveThemes": ["iRunFar highlights Nathan Peak as the hydration waist-pack option.", "It answers a different need than tube belts: fast bottle access."],
@@ -2377,6 +2377,116 @@
         ]
       }
     ],
+    "flagshipResearch": {
+      "eyebrow": "Phavai running-belt capacity audit",
+      "title": "Capacity, weight, hydration, and sizing compared",
+      "updated": "September 5, 2026",
+      "summary": "A belt can look minimal while carrying several times more than another. We normalized the manufacturer-listed capacity, weight, hydration setup, sizing, and external carry so the shortlist can be matched to an actual load.",
+      "keyFindings": [
+        {
+          "title": "Fit systems split the group",
+          "body": "Naked and UltrAspire use fixed size ranges that reward careful measuring. Ultimate Direction and Nathan use adjustable waist straps, which are easier to share or retune over layers."
+        },
+        {
+          "title": "Hydration formats are not interchangeable",
+          "body": "Nathan includes a hard bottle, Ultimate Direction is built around two soft flasks, and the fitted belts can carry flexible flasks without becoming dedicated hydration packs."
+        },
+        {
+          "title": "More capacity changes the experience",
+          "body": "The 3 L Ultra Belt bridges the gap between a minimalist belt and a vest. The lighter fitted options make more sense when the load is phone, keys, fuel, and a small layer."
+        }
+      ],
+      "columns": [
+        "Belt",
+        "Listed capacity",
+        "Listed weight",
+        "Hydration",
+        "Fit system",
+        "External carry"
+      ],
+      "rows": [
+        [
+          "Naked Running Band",
+          "2+ L",
+          "2.3 oz",
+          "Up to three 500 ml soft flasks",
+          "12 fixed sizes, 28-39 in",
+          "Rear loops for poles or a layer"
+        ],
+        [
+          "Ultimate Direction Ultra Belt",
+          "3 L / 177 cu in",
+          "96 g / 3.4 oz",
+          "Up to 1 L via two soft flasks",
+          "Adjustable strap",
+          "Rear zip pocket and dedicated small-item storage"
+        ],
+        [
+          "UltrAspire Fitted Race Belt 2.0",
+          "0.74 L / 45 cu in",
+          "68 g / 2.4 oz",
+          "Soft-flask compatible; flask not included",
+          "Five fitted sizes, XS-XL",
+          "Shock cords for jacket or Z-poles"
+        ],
+        [
+          "Nathan Peak Hydration Waist Pack",
+          "Not listed on the source used",
+          "Not listed on the source used",
+          "18 oz hard flask included",
+          "Adjustable one size",
+          "External shock cord"
+        ]
+      ],
+      "decisionGuide": [
+        {
+          "scenario": "Phone, fuel, flask, and a small layer",
+          "start": "Naked Running Band",
+          "reason": "Its 2+ L capacity and low 2.3 oz listed weight give it the strongest storage-to-weight balance.",
+          "caution": "Measure at the intended wear position; there is no adjustment hardware to rescue the wrong size."
+        },
+        {
+          "scenario": "Longer trail day without a vest",
+          "start": "Ultimate Direction Ultra Belt",
+          "reason": "The 3 L capacity, two-flask setup, and adjustable fit make it the most pack-like belt here."
+        },
+        {
+          "scenario": "Minimal race carry on a budget",
+          "start": "UltrAspire Fitted Race Belt 2.0",
+          "reason": "It is light, fitted, and purpose-built for fuel, phone, keys, and occasional layer or pole stashing."
+        },
+        {
+          "scenario": "Simple hard-bottle access",
+          "start": "Nathan Peak Hydration Waist Pack",
+          "reason": "The included 18 oz flask and angled holster solve a specific grab-and-go hydration need.",
+          "caution": "A full hard bottle concentrates weight, so fit and bounce tolerance matter."
+        }
+      ],
+      "method": [
+        "Manufacturer pages were used for capacity, weight, hydration, sizing, and included components.",
+        "Independent testing and owner discussion still determine rank and bounce cautions.",
+        "Unlisted specifications are shown as missing rather than inferred."
+      ],
+      "sources": [
+        {
+          "label": "Naked Running Band specifications",
+          "url": "https://nakedsportsinnovations.com/products/naked%C2%AE-running-band"
+        },
+        {
+          "label": "Ultimate Direction Ultra Belt specifications",
+          "url": "https://ultimatedirection.com/ultra-belt/"
+        },
+        {
+          "label": "UltrAspire Fitted Race Belt 2.0 specifications",
+          "url": "https://ultraspire.com/products/fitted-race-belt-2-0/"
+        },
+        {
+          "label": "Nathan Peak specifications",
+          "url": "https://nathansports.com/products/peak-hydration-waist-pack"
+        }
+      ],
+      "limitations": "Manufacturer capacity figures do not guarantee comfortable loaded volume, and full bottles change bounce. Body shape, placement, clothing, and exact sizing affect stability. Phavai did not physically test these belts."
+    },
     "faqs": [
       { "question": "Are running belts better than hydration vests?", "answer": "Belts are better for shorter runs, races with aid stations, and runners who want less coverage on the torso. Vests are better when you need more water, layers, and mandatory gear." },
       { "question": "How do I stop a running belt from bouncing?", "answer": "Choose the right size, pack heavier items evenly, wear it where your body shape supports it best, and avoid overloading a belt designed for minimalist carry." },

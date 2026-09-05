@@ -416,5 +416,255 @@
         "answer": "It is a helpful quality signal for drip machines, but it should be weighed alongside durability, usability, and cleaning."
       }
     ]
+  },
+  {
+    "slug": "shokz-openrun-pro-2-vs-openfit-2-for-running",
+    "sectionSlug": "outdoor",
+    "type": "Product comparison",
+    "title": "Shokz OpenRun Pro 2 vs OpenFit 2 for Running",
+    "description": "Compare OpenRun Pro 2 and OpenFit 2 by fit format, weight, battery, controls, water resistance, and the running situations each suits.",
+    "published": "September 5, 2026",
+    "updated": "September 5, 2026",
+    "image": "/photos/generated/running-headphone-spec-database-social.png",
+    "intro": "Both headphones keep the ear canal open, but they do not solve the fit problem the same way. OpenRun Pro 2 is one connected neckband headset. OpenFit 2 is a pair of independent ear-hook earpieces with a charging case. That format difference should drive the choice before small battery or score differences.",
+    "relatedReviewSlugs": [
+      "best-running-headphones",
+      "best-gps-running-watches",
+      "best-running-belts"
+    ],
+    "sections": [
+      {
+        "heading": "Choose OpenRun Pro 2 for one-piece simplicity",
+        "body": "OpenRun Pro 2 weighs 30.3 g as a complete headset and is rated for up to 12 hours from one charge. Physical volume and multifunction controls stay together, and there is no charging case to carry. The connected band is harder to lose, but some runners dislike how a neckband interacts with hats, hair, collars, or a hydration vest."
+      },
+      {
+        "heading": "Choose OpenFit 2 when you do not want a neckband",
+        "body": "OpenFit 2 weighs 9.4 g per earpiece and is rated for up to 11 hours per charge or 48 hours after case recharges. The independent ear hooks avoid a band behind the head and the physical buttons are easier to confirm by touch than gesture-only controls. The tradeoff is another case to remember and two small pieces that can be misplaced."
+      },
+      {
+        "heading": "Water resistance does not separate them",
+        "body": "Both products carry an IP55 rating in current manufacturer documentation. That supports sweat and weather resistance, but it does not make either product a swimming headphone or remove the need to dry charging contacts before charging."
+      },
+      {
+        "heading": "Open-ear still requires situational judgment",
+        "body": "Leaving the ear canal open can preserve more ambient sound than a sealed earbud, but it does not guarantee that you will hear every vehicle, cyclist, instruction, or warning. Keep volume moderate, follow local rules, and pause audio when the environment becomes complex."
+      }
+    ],
+    "comparisonTable": {
+      "caption": "Manufacturer specifications normalized by Phavai on September 5, 2026",
+      "columns": [
+        "Product",
+        "Format",
+        "Weight",
+        "Battery",
+        "Water resistance",
+        "Controls",
+        "Main tradeoff"
+      ],
+      "rows": [
+        [
+          "Shokz OpenRun Pro 2",
+          "Connected open-ear neckband",
+          "30.3 g total",
+          "Up to 12 h; 5-minute charge for 2.5 h",
+          "IP55",
+          "Physical multifunction and volume buttons",
+          "The band can interact with headwear, hair, collars, or vests"
+        ],
+        [
+          "Shokz OpenFit 2",
+          "Open-ear true wireless ear hooks",
+          "9.4 g each",
+          "Up to 11 h; up to 48 h with case",
+          "IP55",
+          "Physical multifunction buttons",
+          "Requires a case and two independent earpieces"
+        ]
+      ]
+    },
+    "decisionCards": [
+      {
+        "label": "Best default for outdoor miles",
+        "title": "Start with OpenRun Pro 2",
+        "body": "Choose it when one-piece simplicity, long single-charge runtime, and a harder-to-lose design matter more than avoiding a neckband."
+      },
+      {
+        "label": "Best if neckbands bother you",
+        "title": "Start with OpenFit 2",
+        "body": "Choose it when independent ear hooks, pocketable case charging, and no band behind the head fit your routine better."
+      }
+    ],
+    "resourceLinks": [
+      {
+        "label": "Compare all four running-headphone finalists",
+        "url": "/best-running-headphones.html"
+      },
+      {
+        "label": "Open the running-headphone specification database",
+        "url": "/running-headphone-specification-database.html"
+      },
+      {
+        "label": "Compare open-ear and sealed formats",
+        "url": "/open-ear-vs-sealed-earbuds-for-road-running.html"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Shokz OpenRun Pro 2 specifications",
+        "url": "https://uk.shokz.com/products/openrun-pro2"
+      },
+      {
+        "label": "Shokz OpenFit 2 specifications",
+        "url": "https://shokz.com/products/openfit2"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which is better for road running?",
+        "answer": "OpenRun Pro 2 is the simpler default if a neckband works with your gear. OpenFit 2 is the better format if you strongly prefer independent ear hooks and case charging. Both leave the ear canal open, but neither guarantees awareness."
+      },
+      {
+        "question": "Which has better battery life?",
+        "answer": "OpenRun Pro 2 has the slightly longer quoted single-charge runtime at 12 hours versus 11 hours. OpenFit 2 reaches a larger 48-hour total only after charging from its case."
+      },
+      {
+        "question": "Can I run in rain with either one?",
+        "answer": "Both are rated IP55 by Shokz. That supports sweat and rain resistance, but neither should be treated as a swimming product. Dry the contacts before charging."
+      }
+    ]
+  },
+  {
+    "slug": "open-ear-vs-sealed-earbuds-for-road-running",
+    "sectionSlug": "outdoor",
+    "type": "Format explainer",
+    "title": "Open-Ear vs Sealed Earbuds for Road Running",
+    "description": "Choose between open-ear headphones and sealed running earbuds by awareness, sound, fit, wind, controls, and where you actually run.",
+    "published": "September 5, 2026",
+    "updated": "September 5, 2026",
+    "image": "/photos/generated/running-headphone-spec-database-social.png",
+    "intro": "The useful question is not which format is universally better. It is which compromise matches your route. Open-ear designs keep the ear canal open and can preserve more outside sound. Sealed earbuds isolate more, usually deliver fuller bass, and can add transparency modes, but they still change what reaches your ears.",
+    "relatedReviewSlugs": [
+      "best-running-headphones",
+      "best-gps-running-watches",
+      "best-running-belts"
+    ],
+    "sections": [
+      {
+        "heading": "Use open-ear on complex outdoor routes",
+        "body": "Open-ear neckbands and ear hooks make the strongest case on roads, shared paths, and trails where other people, bikes, vehicles, animals, or race instructions may matter. They do not block the canal, but loud music, wind, and divided attention can still mask important sounds."
+      },
+      {
+        "heading": "Use sealed earbuds when isolation is useful",
+        "body": "A sealed earbud can deliver stronger bass, more consistent sound, and better isolation for treadmills, gyms, travel, or controlled routes. Transparency modes can mix outside sound back in, but their performance varies with wind, fit, microphone processing, battery, and software."
+      },
+      {
+        "heading": "Fit format is a separate decision",
+        "body": "Open-ear includes connected neckbands and independent ear-hook models. Sealed products include compact buds and larger sport ear hooks. Choose the retention system that works with sweat, glasses, hats, hair, and your preferred controls instead of treating every open or sealed product as interchangeable."
+      },
+      {
+        "heading": "Set a route-specific rule",
+        "body": "Use a simple operating rule: lower volume or pause audio at intersections, crowded paths, technical descents, and unfamiliar areas. Follow local laws and event rules. No headphone design can substitute for looking, listening, and controlling your pace around hazards."
+      }
+    ],
+    "comparisonTable": {
+      "caption": "Running-audio formats compared by real route tradeoffs",
+      "columns": [
+        "Format",
+        "Outside sound",
+        "Sound and wind",
+        "Fit pattern",
+        "Best context",
+        "Main caution"
+      ],
+      "rows": [
+        [
+          "Open-ear neckband",
+          "Ear canal remains open",
+          "Less bass; wind can compete",
+          "One connected headset",
+          "Road, trail, and long single-charge sessions",
+          "Band can conflict with hats, hair, collars, or packs"
+        ],
+        [
+          "Open-ear true wireless",
+          "Ear canal remains open",
+          "Less bass; wind can compete",
+          "Independent ear hooks plus case",
+          "Outdoor running without a neckband",
+          "Two small pieces and case management"
+        ],
+        [
+          "Sealed sport earbuds",
+          "Passive seal; optional transparency varies",
+          "Fuller bass and stronger isolation",
+          "In-ear tips, sometimes with hooks",
+          "Gym, treadmill, travel, controlled routes",
+          "Isolation and ANC can reduce useful environmental cues"
+        ]
+      ]
+    },
+    "decisionCards": [
+      {
+        "label": "Traffic, shared paths, or trails",
+        "title": "Start with open-ear",
+        "body": "Keeping the canal open is the more conservative audio format when environmental sound matters, provided volume stays moderate."
+      },
+      {
+        "label": "Treadmill, gym, or controlled loop",
+        "title": "Consider sealed earbuds",
+        "body": "Isolation, bass, and ANC can matter more when the environment is predictable and situational sound is less important."
+      },
+      {
+        "label": "Mixed indoor and outdoor use",
+        "title": "Choose by your harder scenario",
+        "body": "If one pair must cover both, prioritize secure fit and the outdoor route first; sound quality is easier to compromise than awareness or retention."
+      }
+    ],
+    "resourceLinks": [
+      {
+        "label": "See Phavai's ranked running-headphone picks",
+        "url": "/best-running-headphones.html"
+      },
+      {
+        "label": "Compare OpenRun Pro 2 and OpenFit 2",
+        "url": "/shokz-openrun-pro-2-vs-openfit-2-for-running.html"
+      },
+      {
+        "label": "Use the running-headphone specification database",
+        "url": "/running-headphone-specification-database.html"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Shokz OpenRun Pro 2 specifications",
+        "url": "https://uk.shokz.com/products/openrun-pro2"
+      },
+      {
+        "label": "Shokz OpenFit 2 specifications",
+        "url": "https://shokz.com/products/openfit2"
+      },
+      {
+        "label": "Beats Powerbeats Pro 2 specifications",
+        "url": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2?pp=1"
+      },
+      {
+        "label": "Jabra Elite 8 Active Gen 2 specifications",
+        "url": "https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Elite-8-Active-Gen2/Technical-specifications/RevA/EN-Jabra-Elite-8-Active-G2-Tech-Specs-A4-WEB-240524.pdf"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are open-ear headphones safe for road running?",
+        "answer": "They can preserve more outside sound because the canal stays open, but no design guarantees safety. Volume, wind, route complexity, traffic, local law, and attention still matter."
+      },
+      {
+        "question": "Is transparency mode the same as open-ear?",
+        "answer": "No. Transparency uses microphones and processing to mix environmental sound into a sealed earbud. Open-ear products leave the canal physically open. Both approaches have route, wind, fit, and volume tradeoffs."
+      },
+      {
+        "question": "Which format sounds better?",
+        "answer": "Sealed earbuds usually provide fuller bass and better isolation. Open-ear sound is often the better compromise when environmental awareness matters more than maximum fidelity."
+      }
+    ]
   }
 ]

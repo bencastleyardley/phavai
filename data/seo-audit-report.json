@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T18:55:31.614Z",
-  "pages_checked": 72,
-  "public_pages": 70,
+  "generated_at": "2026-09-05T19:22:30.358Z",
+  "pages_checked": 75,
+  "public_pages": 73,
   "private_pages": 2,
   "errors": [],
   "warnings": [],
@@ -766,6 +766,17 @@
       ]
     },
     {
+      "file": "open-ear-vs-sealed-earbuds-for-road-running.html",
+      "title": "Open-Ear vs Sealed Earbuds for Road Running | Phavai",
+      "description_length": 131,
+      "canonical": "https://www.phavai.com/open-ear-vs-sealed-earbuds-for-road-running.html",
+      "h1": "Open-Ear vs Sealed Earbuds for Road Running",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
       "file": "operator-dashboard.html",
       "title": "AI Growth Dashboard | Phavai",
       "description_length": 100,
@@ -802,6 +813,28 @@
       "h1": "Remote Work Reviews",
       "structured_data_types": [
         "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "running-headphone-specification-database.html",
+      "title": "Running Headphone Specs Compared: Battery, Fit, IP Rating | Phavai",
+      "description_length": 133,
+      "canonical": "https://www.phavai.com/running-headphone-specification-database.html",
+      "h1": "Running Headphone Specification Database",
+      "structured_data_types": [
+        "Dataset",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "shokz-openrun-pro-2-vs-openfit-2-for-running.html",
+      "title": "Shokz OpenRun Pro 2 vs OpenFit 2 for Running | Phavai",
+      "description_length": 134,
+      "canonical": "https://www.phavai.com/shokz-openrun-pro-2-vs-openfit-2-for-running.html",
+      "h1": "Shokz OpenRun Pro 2 vs OpenFit 2 for Running",
+      "structured_data_types": [
+        "Article",
         "BreadcrumbList"
       ]
     },
