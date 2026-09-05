@@ -1,5 +1,6 @@
 {
   "slug": "todays-picks",
+  "indexable": false,
   "title": "Today's Picks",
   "eyebrow": "Fresh finds",
   "description": "A short, rotating list of practical products Phavai is highlighting today.",

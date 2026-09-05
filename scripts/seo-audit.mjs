@@ -47,22 +47,20 @@ function localPathFromHref(href) {
   return cleaned.replace(/^\//, "");
 }
 
-function parseJsonLdTypes(html) {
-  const types = [];
+function parseJsonLd(html, file) {
+  const rowsFound = [];
   const blocks = html.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g) ?? [];
   for (const block of blocks) {
     const json = block.replace(/^<script type="application\/ld\+json">/i, "").replace(/<\/script>$/i, "").trim();
     try {
       const parsed = JSON.parse(json);
       const rows = Array.isArray(parsed) ? parsed : [parsed];
-      for (const row of rows) {
-        if (row["@type"]) types.push(row["@type"]);
-      }
+      rowsFound.push(...rows);
     } catch {
-      addWarning(`Invalid JSON-LD block in ${basename(block).slice(0, 40)}`);
+      addWarning(`${file}: invalid JSON-LD block`);
     }
   }
-  return types;
+  return rowsFound;
 }
 
 const sitemapPath = join(root, "sitemap.xml");
@@ -74,6 +72,8 @@ if (!existsSync(robotsPath)) addError("Missing robots.txt");
 const sitemap = existsSync(sitemapPath) ? readFileSync(sitemapPath, "utf8") : "";
 const robots = existsSync(robotsPath) ? readFileSync(robotsPath, "utf8") : "";
 const sitemapLocs = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
+const inboundLinks = new Map(htmlFiles.map((file) => [file, 0]));
+const publicFiles = new Set();
 
 if (!robots.includes("User-agent: *")) addError("robots.txt is missing User-agent: *");
 if (!robots.includes("Allow: /")) addError("robots.txt is missing Allow: /");
@@ -85,7 +85,8 @@ for (const file of htmlFiles) {
   const description = matchOne(html, /<meta name="description" content="([^"]*)"/i);
   const canonical = matchOne(html, /<link rel="canonical" href="([^"]*)"/i);
   const h1 = matchOne(html, /<h1[^>]*>([\s\S]*?)<\/h1>/i).replace(/<[^>]+>/g, "").replace(/\s+/g, " ");
-  const types = parseJsonLdTypes(html);
+  const jsonLd = parseJsonLd(html, file);
+  const types = jsonLd.map((row) => row["@type"]).filter(Boolean);
   const expectedCanonical = canonicalFor(file);
   const sitemapUrl = expectedCanonical;
   const isNoindex = /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html);
@@ -99,6 +100,7 @@ for (const file of htmlFiles) {
     report.private_pages += 1;
     if (sitemapLocs.includes(sitemapUrl)) addError(`${file}: noindex page should not be listed in sitemap`);
   } else {
+    publicFiles.add(file);
     report.public_pages += 1;
     if (/noindex/i.test(html)) addError(`${file}: contains noindex`);
     if (!sitemapLocs.includes(sitemapUrl)) addError(`${file}: canonical URL missing from sitemap`);
@@ -108,8 +110,20 @@ for (const file of htmlFiles) {
   if (!isNoindex && file.startsWith("best-")) {
     if (!types.includes("Article")) addError(`${file}: review page missing Article JSON-LD`);
     if (!types.includes("ItemList")) addError(`${file}: review page missing ItemList JSON-LD`);
-    if (!types.includes("FAQPage")) addWarning(`${file}: review page missing FAQPage JSON-LD`);
   }
+
+  if (!isNoindex && types.includes("FAQPage")) addWarning(`${file}: FAQPage JSON-LD is no longer useful for Google rich results`);
+
+  const article = jsonLd.find((row) => row["@type"] === "Article");
+  if (!isNoindex && article) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(article.datePublished || "")) addError(`${file}: Article datePublished must be an ISO date`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(article.dateModified || "")) addError(`${file}: Article dateModified must be an ISO date`);
+    if (!article.author?.name || !article.author?.url) addError(`${file}: Article author must include a visible identity and URL`);
+    if (!/class="review-byline"/.test(html)) addError(`${file}: Article is missing its visible research byline`);
+  }
+
+  if (!isNoindex && description.length > 160) addWarning(`${file}: meta description is ${description.length} characters`);
+  if (/href="\/index\.html"/.test(html)) addError(`${file}: internal Home links must use the canonical / URL`);
 
   if (!isNoindex && /^how-|^.*-vs-/.test(file) && !types.includes("Article")) {
     addError(`${file}: supporting guide missing Article JSON-LD`);
@@ -119,6 +133,7 @@ for (const file of htmlFiles) {
     const target = localPathFromHref(hrefMatch[1]);
     if (!target) continue;
     if (!existsSync(join(root, target))) addError(`${file}: broken internal link to ${hrefMatch[1]}`);
+    if (target !== file && inboundLinks.has(target)) inboundLinks.set(target, inboundLinks.get(target) + 1);
   }
 
   report.pages.push({
@@ -129,6 +144,10 @@ for (const file of htmlFiles) {
     h1,
     structured_data_types: types
   });
+}
+
+for (const file of publicFiles) {
+  if (file !== "index.html" && inboundLinks.get(file) === 0) addError(`${file}: orphaned public page has no internal links pointing to it`);
 }
 
 const expectedSitemapCount = report.public_pages;

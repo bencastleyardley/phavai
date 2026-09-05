@@ -1,0 +1,44 @@
+name: Refresh Amazon catalog and deploy
+
+on:
+  schedule:
+    - cron: "17 14 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: phavai-amazon-catalog-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PHAVAI_AMAZON_CREDENTIAL_ID: ${{ secrets.PHAVAI_AMAZON_CREDENTIAL_ID }}
+      PHAVAI_AMAZON_CREDENTIAL_SECRET: ${{ secrets.PHAVAI_AMAZON_CREDENTIAL_SECRET }}
+      PHAVAI_AMAZON_CREDENTIAL_VERSION: "3.1"
+      PHAVAI_AMAZON_PARTNER_TAG: "phavai7311-20"
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Refresh approved Amazon catalog data
+        run: npm run amazon:sync
+      - run: npm run amazon:cache:audit
+      - run: npm run build
+      - run: npm run seo:audit
+      - run: npm run fit:audit
+      - name: Pull Vercel production settings
+        run: npx --yes vercel@latest pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
+      - name: Build production output
+        run: npx --yes vercel@latest build --prod --token="${{ secrets.VERCEL_TOKEN }}"
+      - name: Deploy production output
+        run: npx --yes vercel@latest deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}"

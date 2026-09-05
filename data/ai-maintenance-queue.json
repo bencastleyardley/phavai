@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-03T03:31:28.393Z",
+  "generatedAt": "2026-09-05T18:07:18.102Z",
   "tasks": [
     {
       "id": "task-001",
       "priority": "high",
       "page": "best-running-socks-for-long-runs",
       "product": "Darn Tough Run Coolmax No-Show Tab Ultra-Lightweight",
-      "opportunityScore": 42,
+      "opportunityScore": 52,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -18,7 +18,7 @@
       "priority": "high",
       "page": "best-usb-c-hubs-for-remote-work",
       "product": "Monoprice 13-in-1 Dual-HDMI + DP MST Dock",
-      "opportunityScore": 42,
+      "opportunityScore": 52,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -27,10 +27,10 @@
     },
     {
       "id": "task-003",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-electrolytes-for-heavy-sweaters",
       "product": "SaltStick Caps",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -39,10 +39,10 @@
     },
     {
       "id": "task-004",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-running-sunglasses-for-sweat-and-bounce",
       "product": "Zeal Boone",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints.",
@@ -51,10 +51,10 @@
     },
     {
       "id": "task-005",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-handheld-running-water-bottles",
       "product": "Hydrapak Tempo Pro",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add another exact YouTube review or comparison video.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -64,10 +64,10 @@
     },
     {
       "id": "task-006",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-handheld-running-water-bottles",
       "product": "Nathan SpeedDraw 2 Insulated Flask",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -77,10 +77,10 @@
     },
     {
       "id": "task-007",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-usb-c-hubs-for-remote-work",
       "product": "Anker 555 8-in-1 USB-C Hub",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -90,10 +90,10 @@
     },
     {
       "id": "task-008",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-portable-monitors-for-remote-work",
       "product": "Arzopa A1",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -103,10 +103,10 @@
     },
     {
       "id": "task-009",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-portable-monitors-for-remote-work",
       "product": "ASUS ProArt PA148CTV",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -116,10 +116,10 @@
     },
     {
       "id": "task-010",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-body-groomers-for-men",
       "product": "Braun All-in-One Series 9 Trimmer 9440",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -129,10 +129,10 @@
     },
     {
       "id": "task-011",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-body-groomers-for-men",
       "product": "Philips Norelco Body Groomer 7000",
-      "opportunityScore": 34,
+      "opportunityScore": 44,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -142,10 +142,10 @@
     },
     {
       "id": "task-012",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-electrolytes-for-heavy-sweaters",
       "product": "Precision Hydration PH 1500",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -153,10 +153,10 @@
     },
     {
       "id": "task-013",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-laptop-stands-for-remote-work",
       "product": "Rain Design mStand",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -165,10 +165,10 @@
     },
     {
       "id": "task-014",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-laptop-stands-for-remote-work",
       "product": "Besign LSX3",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -177,10 +177,10 @@
     },
     {
       "id": "task-015",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-running-sunglasses-for-sweat-and-bounce",
       "product": "Tifosi Moab",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another exact YouTube review or comparison video.",
@@ -190,10 +190,10 @@
     },
     {
       "id": "task-016",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-usb-c-hubs-for-remote-work",
       "product": "Hiearcool USB-C Hub",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -202,10 +202,10 @@
     },
     {
       "id": "task-017",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-usb-c-hubs-for-remote-work",
       "product": "OWC USB-C Travel Dock",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -214,10 +214,10 @@
     },
     {
       "id": "task-018",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-portable-monitors-for-remote-work",
       "product": "espresso Display 15 Touch",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find one exact owner discussion thread.",
@@ -226,10 +226,10 @@
     },
     {
       "id": "task-019",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-body-groomers-for-men",
       "product": "Wahl Manscaper Body Grooming Trimmer",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints.",
@@ -238,10 +238,10 @@
     },
     {
       "id": "task-020",
-      "priority": "medium",
+      "priority": "high",
       "page": "best-protein-bars",
       "product": "RXBAR Protein Bar",
-      "opportunityScore": 32,
+      "opportunityScore": 42,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -252,7 +252,7 @@
       "priority": "medium",
       "page": "best-electrolyte-mixes-for-ultrarunning",
       "product": "Precision Hydration PH 1000",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Find an exact YouTube review with visible product use.",
@@ -264,7 +264,7 @@
       "priority": "medium",
       "page": "best-walking-pads",
       "product": "DeerRun Q1 Mini",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
@@ -273,7 +273,7 @@
       "priority": "medium",
       "page": "best-beard-trimmers",
       "product": "Braun All-in-One Series 9",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -284,7 +284,7 @@
       "priority": "medium",
       "page": "best-running-socks-for-long-runs",
       "product": "Drymax Extra Protection Hot Weather 1/4 Crew",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": []
     },
@@ -293,7 +293,7 @@
       "priority": "medium",
       "page": "best-running-sunglasses-for-sweat-and-bounce",
       "product": "Goodr OGs",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Find an exact YouTube review with visible product use.",
       "followUps": []
     },
@@ -302,7 +302,7 @@
       "priority": "medium",
       "page": "best-portable-monitors-for-remote-work",
       "product": "ViewSonic TD1656-2K",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -313,7 +313,7 @@
       "priority": "medium",
       "page": "best-body-groomers-for-men",
       "product": "Panasonic Body Groomer GK80",
-      "opportunityScore": 26,
+      "opportunityScore": 36,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -324,7 +324,7 @@
       "priority": "medium",
       "page": "best-walking-pads",
       "product": "WalkingPad Z1",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -335,7 +335,7 @@
       "priority": "medium",
       "page": "best-walking-pads",
       "product": "LifeSpan TR1200-DT3",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -346,7 +346,7 @@
       "priority": "medium",
       "page": "best-compression-boots-for-runners",
       "product": "Hyperice Normatec Elite",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -357,7 +357,7 @@
       "priority": "medium",
       "page": "best-adjustable-dumbbells",
       "product": "NordicTrack Select-a-Weight 55 lb Dumbbells",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
@@ -366,7 +366,7 @@
       "priority": "medium",
       "page": "best-carb-drink-mixes-for-ultramarathons",
       "product": "Maurten Drink Mix 320",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -377,7 +377,7 @@
       "priority": "medium",
       "page": "best-carb-drink-mixes-for-ultramarathons",
       "product": "Skratch Labs Super High-Carb",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -388,7 +388,7 @@
       "priority": "medium",
       "page": "best-carb-drink-mixes-for-ultramarathons",
       "product": "SiS Beta Fuel 80",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -399,7 +399,7 @@
       "priority": "medium",
       "page": "best-electrolytes-for-heavy-sweaters",
       "product": "Skratch Labs Hydration Drink Mix",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -410,7 +410,7 @@
       "priority": "medium",
       "page": "best-running-chews",
       "product": "Skratch Labs Energy Chews",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -421,7 +421,7 @@
       "priority": "medium",
       "page": "best-running-chews",
       "product": "GU Energy Chews",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -432,7 +432,7 @@
       "priority": "medium",
       "page": "best-laptop-stands-for-remote-work",
       "product": "Twelve South Curve Flex",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -443,7 +443,7 @@
       "priority": "medium",
       "page": "best-laptop-stands-for-remote-work",
       "product": "Roost V3 Laptop Stand",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -454,7 +454,7 @@
       "priority": "medium",
       "page": "best-commuter-backpacks-for-men",
       "product": "Timbuk2 Authority Deluxe",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
@@ -463,7 +463,7 @@
       "priority": "medium",
       "page": "best-commuter-backpacks-for-men",
       "product": "Evergoods Civic Panel Loader 24L",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -474,7 +474,7 @@
       "priority": "medium",
       "page": "best-commuter-backpacks-for-men",
       "product": "Osprey Nebula 32",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -485,7 +485,7 @@
       "priority": "medium",
       "page": "best-beard-trimmers",
       "product": "Philips Norelco Multigroom 9000",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -496,7 +496,7 @@
       "priority": "medium",
       "page": "best-beard-trimmers",
       "product": "Philips Norelco Multigroom 7000",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -507,7 +507,7 @@
       "priority": "medium",
       "page": "best-beard-trimmers",
       "product": "Wahl Stainless Steel Lithium Ion+",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -518,7 +518,7 @@
       "priority": "medium",
       "page": "best-running-socks-for-long-runs",
       "product": "Swiftwick Flite XT Trail Mid-Crew",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -529,7 +529,7 @@
       "priority": "medium",
       "page": "best-running-socks-for-long-runs",
       "product": "Injinji Run Lightweight Crew",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -540,7 +540,7 @@
       "priority": "medium",
       "page": "best-running-sunglasses-for-sweat-and-bounce",
       "product": "Smith Shift Split Mag",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -549,9 +549,9 @@
     {
       "id": "task-049",
       "priority": "medium",
-      "page": "best-running-belts",
-      "product": "Naked Running Band",
-      "opportunityScore": 24,
+      "page": "best-electric-shavers-for-men",
+      "product": "Philips Norelco OneBlade 360",
+      "opportunityScore": 34,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -560,71 +560,67 @@
     {
       "id": "task-050",
       "priority": "medium",
-      "page": "best-running-belts",
-      "product": "UltrAspire Fitted Race Belt 2.0",
-      "opportunityScore": 24,
-      "action": "Add a second expert source to support the recommendation.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "task-051",
-      "priority": "medium",
-      "page": "best-running-belts",
-      "product": "Nathan Peak Hydration Waist Pack",
-      "opportunityScore": 24,
-      "action": "Add a second expert source to support the recommendation.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "task-052",
-      "priority": "medium",
-      "page": "best-electric-shavers-for-men",
-      "product": "Philips Norelco OneBlade 360",
-      "opportunityScore": 24,
-      "action": "Add a second expert source to support the recommendation.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "task-053",
-      "priority": "medium",
       "page": "best-body-groomers-for-men",
       "product": "Manscaped The Lawn Mower 5.0",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": [
         "Keep non-expert evidence visible while preserving expert-only scoring."
       ]
     },
     {
-      "id": "task-054",
+      "id": "task-051",
       "priority": "medium",
       "page": "best-protein-bars",
       "product": "ALOHA Organic Plant Based Protein Bar",
-      "opportunityScore": 24,
+      "opportunityScore": 34,
+      "action": "Find one exact owner discussion thread.",
+      "followUps": []
+    },
+    {
+      "id": "task-052",
+      "priority": "medium",
+      "page": "best-protein-bars",
+      "product": "Pure Protein Bar",
+      "opportunityScore": 34,
+      "action": "Find one exact owner discussion thread.",
+      "followUps": []
+    },
+    {
+      "id": "task-053",
+      "priority": "medium",
+      "page": "best-creatine",
+      "product": "Nutricost Creatine Monohydrate",
+      "opportunityScore": 34,
+      "action": "Add a second expert source to support the recommendation.",
+      "followUps": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "task-054",
+      "priority": "medium",
+      "page": "best-creatine",
+      "product": "Momentous Creatine",
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
     {
       "id": "task-055",
       "priority": "medium",
-      "page": "best-protein-bars",
-      "product": "Pure Protein Bar",
-      "opportunityScore": 24,
+      "page": "best-creatine",
+      "product": "Transparent Labs Creatine HMB",
+      "opportunityScore": 34,
       "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
     {
       "id": "task-056",
       "priority": "medium",
-      "page": "best-creatine",
-      "product": "Nutricost Creatine Monohydrate",
-      "opportunityScore": 24,
+      "page": "best-walking-pads",
+      "product": "UREVO Strol 2E",
+      "opportunityScore": 32,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -633,27 +629,31 @@
     {
       "id": "task-057",
       "priority": "medium",
-      "page": "best-creatine",
-      "product": "Momentous Creatine",
-      "opportunityScore": 24,
-      "action": "Find one exact owner discussion thread.",
-      "followUps": []
+      "page": "best-compression-boots-for-runners",
+      "product": "FIT KING Leg Air Massager",
+      "opportunityScore": 32,
+      "action": "Add a second expert source to support the recommendation.",
+      "followUps": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
     },
     {
       "id": "task-058",
       "priority": "medium",
-      "page": "best-creatine",
-      "product": "Transparent Labs Creatine HMB",
-      "opportunityScore": 24,
-      "action": "Find one exact owner discussion thread.",
-      "followUps": []
+      "page": "best-adjustable-dumbbells",
+      "product": "PowerBlock Elite EXP",
+      "opportunityScore": 32,
+      "action": "Add a second expert source to support the recommendation.",
+      "followUps": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
     },
     {
       "id": "task-059",
       "priority": "medium",
-      "page": "best-walking-pads",
-      "product": "UREVO Strol 2E",
-      "opportunityScore": 22,
+      "page": "best-adjustable-dumbbells",
+      "product": "Core Home Fitness Adjustable Dumbbell Set",
+      "opportunityScore": 32,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -662,9 +662,9 @@
     {
       "id": "task-060",
       "priority": "medium",
-      "page": "best-compression-boots-for-runners",
-      "product": "FIT KING Leg Air Massager",
-      "opportunityScore": 22,
+      "page": "best-running-chews",
+      "product": "CLIF Bloks Energy Chews",
+      "opportunityScore": 32,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -673,9 +673,9 @@
     {
       "id": "task-061",
       "priority": "medium",
-      "page": "best-adjustable-dumbbells",
-      "product": "PowerBlock Elite EXP",
-      "opportunityScore": 22,
+      "page": "best-running-chews",
+      "product": "Honey Stinger Energy Chews",
+      "opportunityScore": 32,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -684,31 +684,32 @@
     {
       "id": "task-062",
       "priority": "medium",
-      "page": "best-adjustable-dumbbells",
-      "product": "Core Home Fitness Adjustable Dumbbell Set",
-      "opportunityScore": 22,
-      "action": "Add a second expert source to support the recommendation.",
+      "page": "best-beard-trimmers",
+      "product": "Philips Norelco OneBlade Pro",
+      "opportunityScore": 32,
+      "action": "Find one exact owner discussion thread.",
       "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
+        "Keep non-expert evidence visible while preserving expert-only scoring."
       ]
     },
     {
       "id": "task-063",
       "priority": "medium",
-      "page": "best-running-chews",
-      "product": "CLIF Bloks Energy Chews",
-      "opportunityScore": 22,
-      "action": "Add a second expert source to support the recommendation.",
+      "page": "best-handheld-running-water-bottles",
+      "product": "Amphipod Hydraform Ergo-Lite Handheld",
+      "opportunityScore": 32,
+      "action": "Add another exact YouTube review or comparison video.",
       "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
+        "Add another owner discussion, ideally with long-term use or fit complaints.",
+        "Keep non-expert evidence visible while preserving expert-only scoring."
       ]
     },
     {
       "id": "task-064",
       "priority": "medium",
-      "page": "best-running-chews",
-      "product": "Honey Stinger Energy Chews",
-      "opportunityScore": 22,
+      "page": "best-electric-shavers-for-men",
+      "product": "Philips Norelco i9000 Prestige Ultra",
+      "opportunityScore": 32,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -717,43 +718,38 @@
     {
       "id": "task-065",
       "priority": "medium",
-      "page": "best-beard-trimmers",
-      "product": "Philips Norelco OneBlade Pro",
-      "opportunityScore": 22,
-      "action": "Find one exact owner discussion thread.",
-      "followUps": [
-        "Keep non-expert evidence visible while preserving expert-only scoring."
-      ]
-    },
-    {
-      "id": "task-066",
-      "priority": "medium",
-      "page": "best-handheld-running-water-bottles",
-      "product": "Amphipod Hydraform Ergo-Lite Handheld",
-      "opportunityScore": 22,
-      "action": "Add another exact YouTube review or comparison video.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints.",
-        "Keep non-expert evidence visible while preserving expert-only scoring."
-      ]
-    },
-    {
-      "id": "task-067",
-      "priority": "medium",
-      "page": "best-electric-shavers-for-men",
-      "product": "Philips Norelco i9000 Prestige Ultra",
-      "opportunityScore": 22,
+      "page": "best-creatine",
+      "product": "Optimum Nutrition Micronized Creatine Capsules",
+      "opportunityScore": 32,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
+      "id": "task-066",
+      "priority": "medium",
+      "page": "best-running-vests",
+      "product": "Ultimate Direction Race Vest 6.0",
+      "opportunityScore": 26,
+      "action": "Find one exact owner discussion thread.",
+      "followUps": []
+    },
+    {
+      "id": "task-067",
+      "priority": "medium",
+      "page": "best-desk-mats",
+      "product": "Knodel Large Desk Mat",
+      "opportunityScore": 26,
+      "action": "Find one exact owner discussion thread.",
+      "followUps": []
+    },
+    {
       "id": "task-068",
       "priority": "medium",
-      "page": "best-creatine",
-      "product": "Optimum Nutrition Micronized Creatine Capsules",
-      "opportunityScore": 22,
+      "page": "best-ultramarathon-fuel",
+      "product": "Precision Fuel PF 30 Gel",
+      "opportunityScore": 26,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -762,27 +758,31 @@
     {
       "id": "task-069",
       "priority": "medium",
-      "page": "best-running-vests",
-      "product": "Ultimate Direction Race Vest 6.0",
-      "opportunityScore": 16,
-      "action": "Find one exact owner discussion thread.",
-      "followUps": []
+      "page": "best-ultramarathon-fuel",
+      "product": "Maurten Drink Mix 320",
+      "opportunityScore": 26,
+      "action": "Add a second expert source to support the recommendation.",
+      "followUps": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
     },
     {
       "id": "task-070",
       "priority": "medium",
-      "page": "best-desk-mats",
-      "product": "Knodel Large Desk Mat",
-      "opportunityScore": 16,
-      "action": "Find one exact owner discussion thread.",
-      "followUps": []
+      "page": "best-running-gels-for-ultramarathons",
+      "product": "Precision Fuel PF 30 Gel",
+      "opportunityScore": 26,
+      "action": "Add a second expert source to support the recommendation.",
+      "followUps": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
     },
     {
       "id": "task-071",
       "priority": "medium",
-      "page": "best-ultramarathon-fuel",
-      "product": "Precision Fuel PF 30 Gel",
-      "opportunityScore": 16,
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "product": "LMNT Recharge",
+      "opportunityScore": 26,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -791,9 +791,9 @@
     {
       "id": "task-072",
       "priority": "medium",
-      "page": "best-ultramarathon-fuel",
-      "product": "Maurten Drink Mix 320",
-      "opportunityScore": 16,
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "product": "Skratch Labs Hydration",
+      "opportunityScore": 26,
       "action": "Add a second expert source to support the recommendation.",
       "followUps": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -801,82 +801,78 @@
     },
     {
       "id": "task-073",
-      "priority": "medium",
-      "page": "best-running-gels-for-ultramarathons",
-      "product": "Precision Fuel PF 30 Gel",
-      "opportunityScore": 16,
-      "action": "Add a second expert source to support the recommendation.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "task-074",
-      "priority": "medium",
-      "page": "best-electrolyte-mixes-for-ultrarunning",
-      "product": "LMNT Recharge",
-      "opportunityScore": 16,
-      "action": "Add a second expert source to support the recommendation.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "task-075",
-      "priority": "medium",
-      "page": "best-electrolyte-mixes-for-ultrarunning",
-      "product": "Skratch Labs Hydration",
-      "opportunityScore": 16,
-      "action": "Add a second expert source to support the recommendation.",
-      "followUps": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "task-076",
       "priority": "low",
       "page": "best-compression-boots-for-runners",
       "product": "Hyperice Normatec 3 Legs",
-      "opportunityScore": 16,
+      "opportunityScore": 26,
       "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
       "followUps": []
     },
     {
-      "id": "task-077",
+      "id": "task-074",
       "priority": "low",
       "page": "best-carb-drink-mixes-for-ultramarathons",
       "product": "Tailwind High Carb Fuel",
-      "opportunityScore": 16,
+      "opportunityScore": 26,
+      "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
+      "followUps": []
+    },
+    {
+      "id": "task-075",
+      "priority": "low",
+      "page": "best-commuter-backpacks-for-men",
+      "product": "Aer City Pack Pro",
+      "opportunityScore": 26,
+      "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
+      "followUps": []
+    },
+    {
+      "id": "task-076",
+      "priority": "low",
+      "page": "best-handheld-running-water-bottles",
+      "product": "Hydrapak Skyflask Speed",
+      "opportunityScore": 26,
+      "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
+      "followUps": [
+        "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "task-077",
+      "priority": "low",
+      "page": "best-protein-bars",
+      "product": "Barebells Protein Bar",
+      "opportunityScore": 26,
       "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
       "followUps": []
     },
     {
       "id": "task-078",
-      "priority": "low",
-      "page": "best-commuter-backpacks-for-men",
-      "product": "Aer City Pack Pro",
-      "opportunityScore": 16,
-      "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
+      "priority": "medium",
+      "page": "best-hydration-packs",
+      "product": "CamelBak Zephyr Pro",
+      "opportunityScore": 24,
+      "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
     {
       "id": "task-079",
-      "priority": "low",
-      "page": "best-running-belts",
-      "product": "Ultimate Direction Ultra Belt",
-      "opportunityScore": 16,
-      "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
+      "priority": "medium",
+      "page": "best-monitor-arms",
+      "product": "Amazon Basics Premium Monitor Stand",
+      "opportunityScore": 24,
+      "action": "Find one exact owner discussion thread.",
       "followUps": []
     },
     {
       "id": "task-080",
-      "priority": "low",
-      "page": "best-handheld-running-water-bottles",
-      "product": "Hydrapak Skyflask Speed",
-      "opportunityScore": 16,
-      "action": "Add another owner discussion, ideally with long-term use or fit complaints.",
+      "priority": "medium",
+      "page": "best-monitor-arms",
+      "product": "Herman Miller Flo Monitor Arm",
+      "opportunityScore": 24,
+      "action": "Add another exact YouTube review or comparison video.",
       "followUps": [
-        "Keep non-expert evidence visible while preserving expert-only scoring."
+        "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     }
   ]

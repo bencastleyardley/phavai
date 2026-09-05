@@ -1,8 +1,8 @@
 <% const ogImage = section.image.startsWith("http") ? section.image : `https://www.phavai.com${section.image}`; %>
-<% const featuredReview = reviews[0]; %>
+<% const featuredReview = coreReviews[0] || reviews[0]; %>
 <% const featuredProduct = featuredReview?.products?.[0]; %>
 <% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
-<% const quickGuides = reviews.slice(0, 3); %>
+<% const quickGuides = coreReviews.slice(0, 3); %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -114,7 +114,7 @@
             </div>
             <div class="quick-answer-actions">
               <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
-                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="Buy now">Buy now</a>
+                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="section-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
               <% } %>
               <a class="button secondary" href="/<%= featuredReview.slug %>.html">Open guide</a>
               <p>Check fit, seller, price, and return terms before checkout.</p>
@@ -145,7 +145,7 @@
           <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
         </div>
         <div class="category-grid icon-card-grid">
-          <% reviews.forEach((review) => { %>
+          <% coreReviews.forEach((review) => { %>
             <a class="category-card category-card--<%= section.slug %>" href="/<%= review.slug %>.html">
               <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
               <div class="category-card-body">
@@ -221,7 +221,50 @@
     </section>
     <% } %>
 
-    <% /* Supporting pages remain built for continuity, but category hubs now prioritize core roundup reviews only. */ %>
+    <% if (focusedReviews.length) { %>
+    <section class="band surface" id="focused-guides">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Focused <%= section.title.toLowerCase() %> guides</h2>
+          <p>Use these narrower shortlists when your terrain, fit, distance, or buying situation needs a more specific answer.</p>
+        </div>
+        <div class="category-grid icon-card-grid">
+          <% focusedReviews.forEach((review) => { %>
+            <a class="category-card category-card--<%= section.slug %>" href="/<%= review.slug %>.html">
+              <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
+              <div class="category-card-body">
+                <span class="eyebrow">Focused roundup</span>
+                <h3><%= review.title %></h3>
+                <p><%= review.description %></p>
+              </div>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+    <% } %>
+
+    <% if (supportingPages.length) { %>
+    <section class="band" id="shopping-advice">
+      <div class="wrap">
+        <div class="section-head">
+          <h2><%= section.title %> shopping advice</h2>
+          <p>Start here when you need to understand the decision before comparing individual products.</p>
+        </div>
+        <div class="category-grid">
+          <% supportingPages.forEach((page) => { %>
+            <a class="category-card category-card--<%= section.slug %>" href="/<%= page.slug %>.html">
+              <div class="category-card-body">
+                <span class="eyebrow"><%= page.type %></span>
+                <h3><%= page.title %></h3>
+                <p><%= page.description %></p>
+              </div>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+    <% } %>
 
     <section class="band">
       <div class="wrap">

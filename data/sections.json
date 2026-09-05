@@ -24,6 +24,13 @@
       "compression boots"
     ],
     "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner feedback that reveals what breaks down after the first few outings.",
+    "featuredReviewSlugs": [
+      "best-running-headphones",
+      "best-womens-trail-running-shoes",
+      "best-running-belts",
+      "best-gps-running-watches",
+      "best-mens-trail-running-shoes"
+    ],
     "matters": [
       {
         "heading": "Fit beats hype",
@@ -65,6 +72,12 @@
       "ergonomic keyboards"
     ],
     "trust": "We pay close attention to the things product pages gloss over: assembly, wobble, return friction, warranty support, long-session comfort, software quirks, and recurring owner complaints.",
+    "featuredReviewSlugs": [
+      "best-ergonomic-keyboards",
+      "best-monitor-arms",
+      "best-standing-desks",
+      "best-office-chairs"
+    ],
     "matters": [
       {
         "heading": "Comfort compounds",

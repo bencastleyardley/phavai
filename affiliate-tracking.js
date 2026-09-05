@@ -46,6 +46,7 @@
       product_rank: asNumber(element.dataset.productRank),
       product_score: asNumber(element.dataset.productScore),
       shopping_label: element.dataset.shoppingLabel || "",
+      cta_placement: element.dataset.shoppingPlacement || "",
       link_domain: element.href ? linkDomain(element.href) : "",
       link_status: element.dataset.shoppingPending !== undefined ? "pending" : "active"
     };

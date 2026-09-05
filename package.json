@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run build && npm run quality:audit && npm run affiliate:audit && npm run quick-answer:audit && npm run product:intelligence && npm run product:intelligence:audit && npm run build && npm run fit:audit && npm run test:browser",
+    "test": "npm run build && npm run quality:audit && npm run affiliate:audit && npm run quick-answer:audit && npm run product:intelligence && npm run product:intelligence:audit && npm run build && npm run fit:audit && npm run seo:audit && npm run amazon:cache:audit && npm run test:browser",
     "images": "node scripts/generate-safe-images.mjs",
     "copy:polish": "node scripts/polish-brand-copy.mjs",
     "sources:upgrade": "node scripts/upgrade-source-schema.mjs",
@@ -20,6 +20,9 @@
     "growth:audit": "npm run sources:audit && npm run affiliate:audit && npm run product:intelligence && npm run product:intelligence:audit",
     "seo:map": "node scripts/generate-search-console-map.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
+    "amazon:sync": "node scripts/sync-amazon-creators.mjs",
+    "amazon:smoke": "node scripts/sync-amazon-creators.mjs --smoke",
+    "amazon:cache:audit": "node scripts/amazon-catalog-audit.mjs",
     "build": "node scripts/build.mjs",
     "test:browser": "playwright test",
     "deploy": "npm run build && npm run growth:audit && npm run build && npm run fit:audit && npm run seo:audit && vercel --prod"

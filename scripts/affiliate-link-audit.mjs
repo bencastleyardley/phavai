@@ -91,16 +91,17 @@ const report = {
 
 if (!existsSync("exports")) mkdirSync("exports");
 writeFileSync(OUTPUT_JSON, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+const csvRows = rows.map((row) => [
+  row.page,
+  row.guide,
+  row.product,
+  row.retailer,
+  row.issue,
+  row.url
+].map((value) => `"${String(value).replace(/"/g, "\"\"")}"`).join(","));
 writeFileSync(
   OUTPUT_CSV,
-  `page,guide,product,retailer,issue,url\n${rows.map((row) => [
-    row.page,
-    row.guide,
-    row.product,
-    row.retailer,
-    row.issue,
-    row.url
-  ].map((value) => `"${String(value).replace(/"/g, "\"\"")}"`).join(",")).join("\n")}\n`,
+  `${["page,guide,product,retailer,issue,url", ...csvRows].join("\n")}\n`,
   "utf8"
 );
 

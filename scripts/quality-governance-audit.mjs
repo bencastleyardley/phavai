@@ -399,7 +399,7 @@ for (const file of htmlFiles()) {
         report.hard_failures.push({ page: file, issue: "Affiliate link is missing sponsored/noopener rel handling." });
       }
     }
-    if (/data-affiliate-link/.test(html) && !/>\s*Buy(?: now| men| women)?\s*<\/a>/i.test(html)) {
+    if (/data-affiliate-link/.test(html) && !/>\s*(?:Buy(?: now| men| women)?|Check price(?: at [^<]+)?|(?:Men|Women)(?:'|&#39;)s at [^<]+)\s*<\/a>/i.test(html)) {
       report.hard_failures.push({ page: file, issue: "Affiliate mode enabled but approved buy CTA copy is missing." });
     }
   }

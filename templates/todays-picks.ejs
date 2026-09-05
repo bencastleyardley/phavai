@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title><%= page.metaTitle || `${page.title} | Phavai` %></title>
   <meta name="description" content="<%= page.metaDescription || page.description %>" />
+  <% if (page.indexable === false) { %><meta name="robots" content="noindex,follow" /><% } %>
   <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="<%= page.metaTitle || `${page.title} | Phavai` %>" />
@@ -26,7 +27,7 @@
     "name": page.title,
     "description": page.description,
     "url": `https://www.phavai.com/${page.slug}.html`,
-    "dateModified": page.updated,
+    "dateModified": page.dateModified,
     "publisher": {
       "@type": "Organization",
       "name": "Phavai",

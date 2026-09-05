@@ -4,6 +4,7 @@
     "eyebrow": "Trail running",
     "title": "Best Men's Trail Running Shoes",
     "description": "A practical guide to trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras.",
+    "lede": "This is the broad men's trail-shoe shortlist: start with your usual terrain, preferred cushioning, and the fit problems you already know. For mud, very wide feet, or highly technical routes, use the focused guides linked below instead of forcing one all-around pick to do every job.",
     "audience": "Men's fit data, availability, and review signals",
     "updated": "April 20, 2026",
     "schemaName": "Best men's trail running shoes recommended by Phavai",
@@ -1804,9 +1805,10 @@
     "slug": "best-womens-trail-running-shoes",
     "eyebrow": "Trail running",
     "title": "Best Women's Trail Running Shoes",
-    "description": "A practical guide to trail shoes with women's fit notes, fit notes, and real-world tradeoffs.",
+    "description": "Women's trail running shoes compared by heel hold, forefoot room, grip, cushioning, terrain, and real-world fit tradeoffs.",
+    "lede": "A women's label does not guarantee the right fit. Start with heel hold, forefoot volume, terrain, and cushioning preference; this shortlist calls out where each shoe feels secure and where it can be too narrow, soft, or specialized.",
     "audience": "Women's fit data, availability, and review signals",
-    "updated": "April 20, 2026",
+    "updated": "September 5, 2026",
     "schemaName": "Best women's trail running shoes recommended by Phavai",
     "products": [
       {
@@ -3289,8 +3291,8 @@
       }
     ],
     "sectionSlug": "outdoor",
-    "metaTitle": "Best Women's Trail Running Shoes | Phavai Buying Guide",
-    "metaDescription": "A practical guide to trail shoes with women's fit notes, fit notes, and real-world tradeoffs. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
+    "metaTitle": "4 Best Women's Trail Running Shoes for Fit (2026)",
+    "metaDescription": "Compare four women's trail running shoes by heel hold, forefoot room, grip, cushion, and terrain. See our 2026 picks and fit tradeoffs.",
     "image": "/photos/generated/guide-best-womens-trail-running-shoes.svg"
   },
   {
@@ -3298,6 +3300,7 @@
     "eyebrow": "Running audio",
     "title": "Best Running Headphones",
     "description": "A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.",
+    "lede": "For most outdoor runners, the first decision is open-ear awareness versus sealed-ear sound, not brand. We ranked four current options by fit security, controls, water resistance, and the tradeoffs that show up after a long run.",
     "audience": "Road, trail, treadmill, and gym runners",
     "schemaName": "Best running headphones recommended by Phavai",
     "comparisonIntro": "Running headphones are mostly about fit security, situational awareness, sweat resistance, and whether you prefer open-ear safety or sealed earbud sound.",
@@ -4722,7 +4725,7 @@
         "imageSeoName": "Jabra-Elite-8-Active-Gen-2-best-running-headphones"
       }
     ],
-    "updated": "April 20, 2026",
+    "updated": "September 5, 2026",
     "sourceWeights": {
       "Expert": 40,
       "YouTube": 30,
@@ -4739,8 +4742,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "outdoor",
-    "metaTitle": "Best Running Headphones | Phavai Buying Guide",
-    "metaDescription": "A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
+    "metaTitle": "4 Best Running Headphones for Secure Fit (2026)",
+    "metaDescription": "Compare four running headphones for secure fit, outdoor awareness, sweat resistance, and sound. See why Shokz OpenRun Pro 2 leads our 2026 picks.",
     "image": "/photos/generated/guide-best-running-headphones.svg"
   },
   {
@@ -4748,6 +4751,7 @@
     "eyebrow": "Running tech",
     "title": "Best GPS Running Watches",
     "description": "A practical guide to GPS running watches for daily training, marathons, trail ultras, and value-focused runners.",
+    "lede": "Do not pay for maps or smartwatch features you will not use. These four watches cover the main decisions: training depth, GPS accuracy, battery life, navigation, recovery data, and value.",
     "audience": "Road runners, marathoners, trail runners, and data-focused athletes",
     "schemaName": "Best GPS running watches recommended by Phavai",
     "comparisonIntro": "GPS watches should be compared by accuracy, training analytics, battery life, mapping, comfort, and whether the ecosystem fits how you train.",
@@ -6141,7 +6145,7 @@
         "imageSeoName": "Polar-Vantage-V3-best-gps-running-watches"
       }
     ],
-    "updated": "April 20, 2026",
+    "updated": "September 5, 2026",
     "sourceWeights": {
       "Expert": 40,
       "YouTube": 30,
@@ -6158,8 +6162,8 @@
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
     "sectionSlug": "outdoor",
-    "metaTitle": "Best GPS Running Watches | Phavai Buying Guide",
-    "metaDescription": "A practical guide to GPS running watches for daily training, marathons, trail ultras, and value-focused runners. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
+    "metaTitle": "4 Best GPS Running Watches for Training (2026)",
+    "metaDescription": "Compare four GPS running watches by accuracy, training tools, battery, maps, and value. See which Garmin, COROS, or Polar fits your training.",
     "image": "/photos/generated/guide-best-gps-running-watches.svg"
   },
   {
@@ -17558,8 +17562,9 @@
     "eyebrow": "Input devices",
     "title": "Best Ergonomic Keyboards",
     "description": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort.",
+    "lede": "The best ergonomic keyboard improves your position without turning every workday into a relearning exercise. This shortlist spans a familiar curved board, true split designs, mechanical keys, and an enthusiast option so you can match ergonomics to your tolerance for change.",
     "audience": "Remote workers, writers, developers, and anyone reducing typing strain",
-    "updated": "April 20, 2026",
+    "updated": "September 5, 2026",
     "schemaName": "Best Ergonomic Keyboards recommended by Phavai",
     "comparisonIntro": "Ergonomic keyboards are fit-sensitive. Compare split angle, tenting, wrist-rest shape, wireless needs, key layout, and how steep the learning curve will be.",
     "finalRecommendation": "Most people should start with the Logitech Ergo K860 because it is approachable and easy to adopt. Choose Kinesis Freestyle2 if you need a true split, Keychron Q11 if you want mechanical keys, and ZSA Voyager if you are ready for a programmable enthusiast board.",
@@ -18966,8 +18971,8 @@
       ]
     },
     "sourcesVerifiedAt": "Apr 20, 2026",
-    "metaTitle": "Best Ergonomic Keyboards | Phavai Buying Guide",
-    "metaDescription": "Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort. Compare the best picks by fit, use case, tradeoffs, source agreement, and buyer-fit guidance.",
+    "metaTitle": "4 Best Ergonomic Keyboards for Daily Typing (2026)",
+    "metaDescription": "Compare four ergonomic keyboards by split design, wrist position, learning curve, key feel, and software. Find the right daily-typing fit.",
     "image": "/photos/generated/guide-best-ergonomic-keyboards.svg"
   },
   {
@@ -25741,6 +25746,7 @@
     "eyebrow": "Technical trail shoes",
     "title": "Best Trail Shoes for Technical Trails",
     "description": "A technical-terrain trail shoe ranking for rocky descents, off-camber footing, roots, and mountain routes where foothold matters as much as cushioning.",
+    "lede": "This is the control-first shortlist for rocky descents, roots, off-camber footing, and mountain routes. It intentionally gives foothold, outsole precision, and downhill confidence more weight than all-day softness or easy-road versatility.",
     "audience": "Mountain runners, rocky-trail runners, and technical descent specialists",
     "updated": "April 21, 2026",
     "schemaName": "Best Trail Shoes for Technical Trails recommended by Phavai",

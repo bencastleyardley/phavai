@@ -10,7 +10,7 @@ test("public scoring and compliance mode stay disciplined", async ({ page }) => 
   await expect(page.locator(".top-picks-snapshot")).toHaveCount(0);
   await expect(page.locator("[data-quick-answer]")).toBeVisible();
   await expect(page.locator("[data-quick-answer]")).toContainText("Quick answer");
-  await expect(page.locator("[data-quick-answer] [data-affiliate-link]")).toContainText("Buy");
+  await expect(page.locator("[data-quick-answer] [data-affiliate-link]")).toContainText(/Check price|(?:Men|Women)'s at/);
   await expect(page.locator(".page-hero + .band [data-product-list]")).toBeVisible();
   await expect(page.locator(".product").first()).toHaveAttribute("data-decision-graph", /comfort/);
   await expect(page.locator(".recommended-product")).toHaveCount(0);
@@ -22,7 +22,7 @@ test("public scoring and compliance mode stay disciplined", async ({ page }) => 
   expect(await page.locator("[data-affiliate-link]").count()).toBeGreaterThan(0);
   await expect(page.locator("body")).not.toContainText("Check retailer");
   await expect(page.locator(".shopping-button--pending")).toHaveCount(0);
-  await expect(page.locator(".shopping-button").first()).toContainText("Buy now");
+  await expect(page.locator(".shopping-button").first()).toContainText(/Check price|(?:Men|Women)'s at/);
   await expect(page.locator(".shopping-button").first()).toHaveAttribute("rel", /sponsored/);
   await expect(page.locator("#hoka-speedgoat-7 .source-accordion")).toHaveCount(0);
   await page.locator("#hoka-speedgoat-7 .evidence-drawer > summary").click();
@@ -68,8 +68,14 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator('link[rel="icon"][href="/favicon.svg"]')).toHaveCount(1);
     await expect(page.locator("h1")).toBeVisible();
     await expect(page.locator(".product").first()).toBeVisible();
-    await expect(page.locator(".product").first().locator(".product-media img")).toHaveCount(0);
-    await expect(page.locator(".product").first().locator(".product-visual-icon svg")).toBeVisible();
+    const firstProductMedia = page.locator(".product").first().locator(".product-media");
+    const apiImageCount = await firstProductMedia.locator("img").count();
+    if (apiImageCount) {
+      await expect(firstProductMedia.locator("img")).toBeVisible();
+      await expect(firstProductMedia.locator("img")).toHaveAttribute("alt", /.+/);
+    } else {
+      await expect(firstProductMedia.locator(".product-visual-icon svg")).toBeVisible();
+    }
     await expect(page.locator(".product").first().locator(".product-media")).toHaveText("");
     await expect(page.locator(".comparison-table")).toBeVisible();
     await expect(page.locator(".faq-list")).toBeVisible();
@@ -85,7 +91,7 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator("[data-decision-helper]")).toHaveCount(0);
     await expect(page.locator(".top-picks-snapshot")).toHaveCount(0);
     await expect(page.locator("[data-quick-answer]")).toBeVisible();
-    await expect(page.locator("[data-quick-answer] [data-affiliate-link]")).toContainText("Buy");
+    await expect(page.locator("[data-quick-answer] [data-affiliate-link]")).toContainText(/Check price|(?:Men|Women)'s at/);
     await expect(page.locator(".page-hero + .band [data-product-list]")).toBeVisible();
     await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText(/Expert|YouTube|Reddit/);
     await expect(page.locator(".product").first().locator(".product-signal").first()).toContainText("Best evidence");
@@ -101,7 +107,7 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator("body")).not.toContainText("A buyer-facing score built from eligible expert reviews");
     expect(await page.locator("[data-affiliate-link]").count()).toBeGreaterThan(0);
     await expect(page.locator(".shopping-button--pending")).toHaveCount(0);
-    await expect(page.locator(".product .shopping-button").first()).toContainText("Buy now");
+    await expect(page.locator(".product .shopping-button").first()).toContainText(/Check price|(?:Men|Women)'s at/);
     await expect(page.locator(".product .shopping-button").first()).toHaveAttribute("rel", /sponsored/);
     await expect(page.locator(".attribute-meter-grid")).toHaveCount(0);
     await expect(page.locator("body")).not.toContainText("Custom score");
@@ -154,4 +160,29 @@ test("public pages and new review guides render complete trust sections", async 
     await expect(page.locator("h1")).toBeVisible();
     await expect(page.locator("body")).toContainText("Phavai");
   }
+});
+
+test("mobile navigation, retired picks, and hub discovery remain clean", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+
+  for (const route of ["/", "/outdoor.html", "/best-mens-trail-running-shoes.html"]) {
+    await page.goto(route);
+    await expect(page.locator(".nav-links a").filter({ hasText: "Outdoor" })).toBeVisible();
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    expect(overflow).toBeLessThanOrEqual(1);
+  }
+
+  await page.goto("/outdoor.html");
+  await expect(page.locator("#focused-guides")).toBeVisible();
+  await expect(page.locator("#shopping-advice")).toBeVisible();
+  await expect(page.locator('a[href="/best-trail-shoes-for-beginners.html"]')).toBeVisible();
+  await expect(page.locator('a[href="/how-to-choose-trail-running-shoes.html"]')).toBeVisible();
+
+  const skipLink = page.locator(".skip-link");
+  await skipLink.focus();
+  await expect(skipLink).toBeVisible();
+
+  await page.goto("/todays-picks.html");
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex,follow");
+  await expect(page.locator('a[href="/todays-picks.html"]')).toHaveCount(0);
 });

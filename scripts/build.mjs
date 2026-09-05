@@ -14,6 +14,7 @@ const affiliateOverrides = readOptionalJson("data/affiliate-overrides.json", [])
 const commercialConfig = readOptionalJson("data/commercial-config.json", {});
 const evidenceOverrides = readOptionalJson("data/youtube-evidence-overrides.json", []);
 const todaysPicks = readOptionalJson("data/todays-picks.json", null);
+const amazonCatalogCache = readOptionalJson(".cache/amazon-creators.json", null);
 const productIntelligence = readOptionalJson("data/ai-opportunity-dashboard.json", null);
 const maintenanceQueue = readOptionalJson("data/ai-maintenance-queue.json", null);
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
@@ -39,7 +40,7 @@ const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260602a";
+const ASSET_VERSION = "20260905b";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -52,6 +53,8 @@ const AFFILIATE_CONFIG = {
   affiliateEnabled: configuredBool(commercialConfig.affiliateEnabled === true, "PHAVAI_AFFILIATE_ENABLED", "AFFILIATE_ENABLED", "AMAZON_AFFILIATE_ENABLED"),
   amazonTrackingId: firstEnv("PHAVAI_AMAZON_TRACKING_ID", "AMAZON_ASSOCIATE_TAG", "AMAZON_TRACKING_ID") || "phavai7311-20"
 };
+
+const AMAZON_CATALOG = activeAmazonCatalog(amazonCatalogCache);
 
 const DEFAULT_SOURCE_WEIGHTS = {
   Expert: 40,
@@ -228,6 +231,32 @@ function toIsoDate(value) {
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) return SITE_LAST_MODIFIED;
   return parsed.toISOString().slice(0, 10);
+}
+
+function conciseMetaDescription(value, maxLength = 158) {
+  const copy = String(value || "").replace(/\s+/g, " ").trim();
+  if (copy.length <= maxLength) return copy;
+  const shortened = copy.slice(0, maxLength - 1).replace(/[,;:\s]+\S*$/, "").replace(/[,.!?;:]+$/, "");
+  return `${shortened}…`;
+}
+
+function activeAmazonCatalog(cache) {
+  if (!cache?.expiresAt || !Array.isArray(cache.items)) return new Map();
+  if (new Date(cache.expiresAt).getTime() <= Date.now()) {
+    console.warn("Amazon Creators API cache is stale; building with editorial links and brand-neutral illustrations.");
+    return new Map();
+  }
+  return new Map(cache.items.filter((item) => item?.asin).map((item) => [String(item.asin).toUpperCase(), item]));
+}
+
+function asinFromAmazonUrl(value = "") {
+  try {
+    const url = new URL(value);
+    if (!/(^|\.)amazon\.com$/i.test(url.hostname)) return "";
+    return url.pathname.match(/\/(?:dp|gp\/product)\/([A-Z0-9]{10})(?:\/|$)/i)?.[1]?.toUpperCase() || "";
+  } catch {
+    return "";
+  }
 }
 
 function escapeHtml(value) {
@@ -1222,11 +1251,15 @@ function normalizeShoppingLink(link = {}, fallbackLabel = "Buy now") {
   const url = withAmazonAffiliateTag(link.url ?? "");
   if (!url) return null;
 
+  const retailerName = retailerLabel(link.retailer || parseDomain(url));
+  const label = link.label || fallbackLabel;
+
   return {
     ...link,
-    label: link.label || fallbackLabel,
+    label,
+    displayLabel: shoppingCtaLabel(label, retailerName),
     url,
-    retailerName: retailerLabel(link.retailer || parseDomain(url))
+    retailerName
   };
 }
 
@@ -1266,6 +1299,21 @@ function retailerLabel(value = "") {
     .filter(Boolean)
     .map((part) => `${part.charAt(0).toUpperCase()}${part.slice(1)}`)
     .join(" ");
+}
+
+function shoppingCtaLabel(label = "", retailerName = "Retailer") {
+  const normalized = String(label || "").trim();
+  const audienceMatch = normalized.match(/^buy\s+(men|women)$/i);
+  if (audienceMatch) {
+    const audience = audienceMatch[1].toLowerCase() === "men" ? "Men's" : "Women's";
+    return `${audience} at ${retailerName}`;
+  }
+
+  if (!normalized || /^(buy|buy now|shop|shop now|view deal|check price)$/i.test(normalized)) {
+    return `Check price at ${retailerName}`;
+  }
+
+  return normalized;
 }
 
 function sourceKey(item) {
@@ -1847,6 +1895,25 @@ function injectStylesheetVersion() {
   }
 }
 
+function normalizeSiteNavigation() {
+  const todaysPicksRetired = todaysPicks?.indexable === false;
+  for (const file of readdirSync(".")) {
+    if (!file.endsWith(".html")) continue;
+    const html = readFileSync(file, "utf8");
+    let nextHtml = html.replace(/href="\/index\.html"/g, 'href="/"');
+    if (todaysPicksRetired) {
+      nextHtml = nextHtml.replace(/\s*<a\b[^>]*href="\/todays-picks\.html"[^>]*>[\s\S]*?<\/a>/g, "");
+    }
+    if (!/class="skip-link"/.test(nextHtml)) {
+      nextHtml = nextHtml.replace(/<body([^>]*)>/i, '<body$1>\n  <a class="skip-link" href="#main-content">Skip to main content</a>');
+    }
+    if (!/id="main-content"/.test(nextHtml)) {
+      nextHtml = nextHtml.replace(/<main(\s|>)/i, '<main id="main-content"$1');
+    }
+    if (nextHtml !== html) writeFileSync(file, nextHtml, "utf8");
+  }
+}
+
 function trimGeneratedHtml() {
   for (const file of readdirSync(".")) {
     if (!file.endsWith(".html")) continue;
@@ -2027,7 +2094,12 @@ function computeProductScores(product, category) {
     cautionThemes: (normalizedProduct.cautionThemes ?? []).map(polishBuyerCopy)
   };
   const affiliateOverride = resolveAffiliateOverride(normalizedProduct, category);
-  const shoppingLinks = resolveShoppingLinks(normalizedProduct, category);
+  let shoppingLinks = resolveShoppingLinks(normalizedProduct, category);
+  const catalogAsin = String(affiliateOverride?.asin || shoppingLinks.map((link) => asinFromAmazonUrl(link.url)).find(Boolean) || "").toUpperCase();
+  const catalogItem = AMAZON_CATALOG.get(catalogAsin);
+  if (catalogItem?.detailPageURL && shoppingLinks[0] && /(^|\.)amazon\.com$/i.test(parseDomain(shoppingLinks[0].url))) {
+    shoppingLinks = [{ ...shoppingLinks[0], url: withAmazonAffiliateTag(catalogItem.detailPageURL) }, ...shoppingLinks.slice(1)];
+  }
   const resolvedAffiliateUrl = shoppingLinks[0]?.url ?? withAmazonAffiliateTag(resolveAffiliateUrl(normalizedProduct, category));
 
   return {
@@ -2035,6 +2107,9 @@ function computeProductScores(product, category) {
     affiliateUrl: resolvedAffiliateUrl,
     shoppingLinks,
     retailerName: shoppingLinks[0]?.retailerName || retailerLabel(affiliateOverride?.retailer || parseDomain(resolvedAffiliateUrl)),
+    catalogAsin,
+    catalogTitle: catalogItem?.title || "",
+    catalogImage: catalogItem?.image?.url ? catalogItem.image : null,
     imageInfo,
     priceInsight: buildPriceInsight(normalizedProduct),
     sourceScores: channelScores,
@@ -2108,7 +2183,7 @@ const builtCategories = categories.map((category) => {
     ...category,
     description: polishBuyerCopy(category.description),
     lede: polishBuyerCopy(category.lede ?? ""),
-    metaDescription: polishBuyerCopy(category.metaDescription ?? category.description),
+    metaDescription: conciseMetaDescription(polishBuyerCopy(category.metaDescription ?? category.description)),
     comparisonIntro: polishBuyerCopy(category.comparisonIntro ?? ""),
     finalRecommendation: polishBuyerCopy(category.finalRecommendation ?? ""),
     faqs: (category.faqs ?? []).map((faq) => ({
@@ -2124,6 +2199,8 @@ const builtCategories = categories.map((category) => {
     })),
     decisionSnapshot: buildDecisionSnapshot(products),
     products,
+    datePublished: toIsoDate(category.published || category.updated),
+    dateModified: toIsoDate(category.updated),
     isCoreRoundup: CORE_ROUNDUP_SLUGS.has(category.slug),
     iconSvg: reviewIconFor(category)
   };
@@ -2156,13 +2233,25 @@ for (const category of builtCategories) {
 }
 
 for (const section of sections) {
-  const reviews = builtCategories.filter((category) => category.sectionSlug === section.slug && category.isCoreRoundup);
+  const reviews = builtCategories.filter((category) => category.sectionSlug === section.slug);
+  const featuredReviewOrder = new Map((section.featuredReviewSlugs ?? []).map((slug, index) => [slug, index]));
+  const coreReviews = reviews
+    .filter((category) => category.isCoreRoundup)
+    .sort((a, b) => {
+      const aOrder = featuredReviewOrder.has(a.slug) ? featuredReviewOrder.get(a.slug) : 1000;
+      const bOrder = featuredReviewOrder.has(b.slug) ? featuredReviewOrder.get(b.slug) : 1000;
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      return a.title.localeCompare(b.title);
+    });
+  const focusedReviews = reviews.filter((category) => !category.isCoreRoundup);
   const html = ejs.render(
     sectionTemplate,
     {
       section: { ...section, iconSvg: iconSvg(section.slug) },
       reviews,
-      supportingPages: [],
+      coreReviews,
+      focusedReviews,
+      supportingPages: supportBySection.get(section.slug) || [],
       sourceTrust: sourceGovernance.sections?.[section.slug],
       affiliateConfig: AFFILIATE_CONFIG,
       allSections: sections
@@ -2178,7 +2267,17 @@ for (const page of supportingPages) {
   const relatedReviews = builtCategories.filter((review) => page.relatedReviewSlugs.includes(review.slug));
   const html = ejs.render(
     supportingTemplate,
-    { page, section, relatedReviews, allSections: sections, affiliateConfig: AFFILIATE_CONFIG },
+    {
+      page: {
+        ...page,
+        datePublished: toIsoDate(page.published || page.updated),
+        dateModified: toIsoDate(page.updated)
+      },
+      section,
+      relatedReviews,
+      allSections: sections,
+      affiliateConfig: AFFILIATE_CONFIG
+    },
     { rmWhitespace: false }
   );
   writeFileSync(`${page.slug}.html`, html, "utf8");
@@ -2188,7 +2287,14 @@ for (const page of supportingPages) {
 if (todaysPicks) {
   const html = ejs.render(
     todaysPicksTemplate,
-    { page: todaysPicks, allSections: sections, affiliateConfig: AFFILIATE_CONFIG },
+    {
+      page: {
+        ...todaysPicks,
+        dateModified: toIsoDate(todaysPicks.updated)
+      },
+      allSections: sections,
+      affiliateConfig: AFFILIATE_CONFIG
+    },
     { rmWhitespace: false }
   );
   writeFileSync(`${todaysPicks.slug}.html`, html, "utf8");
@@ -2226,7 +2332,7 @@ const urls = [
     priority: "0.7",
     lastmod: toIsoDate(page.updated)
   })),
-  ...(todaysPicks ? [{
+  ...(todaysPicks?.indexable !== false ? [{
     loc: `https://www.phavai.com/${todaysPicks.slug}.html`,
     changefreq: "daily",
     priority: "0.8",
@@ -2258,5 +2364,7 @@ injectSiteIdentityTags();
 console.log("Built: site identity tags");
 injectStylesheetVersion();
 console.log("Built: stylesheet version tags");
+normalizeSiteNavigation();
+console.log("Built: normalized navigation and skip links");
 trimGeneratedHtml();
 console.log("Built: HTML whitespace trim");

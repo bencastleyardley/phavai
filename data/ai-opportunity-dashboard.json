@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-03T03:31:28.393Z",
+  "generatedAt": "2026-09-05T18:07:18.102Z",
   "summary": {
     "pages": 51,
     "productPlacements": 218,
     "uniqueProducts": 176,
-    "readyAffiliateProducts": 213,
+    "readyAffiliateProducts": 218,
     "productsMissingExpert": 0,
     "productsMissingYouTube": 10,
     "productsMissingReddit": 37,
-    "highPriorityTasks": 2
+    "highPriorityTasks": 20
   },
   "topPages": [
     {
@@ -17,7 +17,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 5,
       "sourceGapTotal": 8,
       "affiliateIssues": 0,
@@ -29,11 +29,12 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 160,
+      "opportunityScore": 210,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -42,7 +43,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 8,
       "affiliateIssues": 0,
@@ -54,36 +55,12 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 150,
+      "opportunityScore": 190,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking."
-      ]
-    },
-    {
-      "page": "best-portable-monitors-for-remote-work",
-      "title": "Best Portable Monitors for Remote Work",
-      "section": "remote-work",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "productCount": 4,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 3.5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 136,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -92,7 +69,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 5,
       "sourceGapTotal": 5,
       "affiliateIssues": 0,
@@ -104,11 +81,88 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 130,
+      "opportunityScore": 180,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 176,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 5,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 170,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 5,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 168,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -117,7 +171,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -129,10 +183,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 126,
+      "opportunityScore": 166,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -141,7 +196,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 8,
       "affiliateIssues": 0,
@@ -153,10 +208,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 126,
+      "opportunityScore": 166,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -165,7 +221,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -177,59 +233,12 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 122,
+      "opportunityScore": 162,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking."
-      ]
-    },
-    {
-      "page": "best-protein-bars",
-      "title": "Best Protein Bars",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "productCount": 5,
-      "sourceGapTotal": 6,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 120,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
-      ]
-    },
-    {
-      "page": "best-creatine",
-      "title": "Best Creatine",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "productCount": 5,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 118,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -238,7 +247,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -250,11 +259,12 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 116,
+      "opportunityScore": 156,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -263,7 +273,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -275,10 +285,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 108,
+      "opportunityScore": 148,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -287,7 +298,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -299,10 +310,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 106,
+      "opportunityScore": 146,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -311,7 +323,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 8,
       "affiliateIssues": 0,
@@ -323,10 +335,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 102,
+      "opportunityScore": 142,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -335,7 +348,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -347,10 +360,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 98,
+      "opportunityScore": 138,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -359,7 +373,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
+      "daysSinceUpdated": 123,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -371,58 +385,11 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 98,
+      "opportunityScore": 138,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
-      ]
-    },
-    {
-      "page": "best-running-belts",
-      "title": "Best Running Belts",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "productCount": 4,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.3,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 98,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
-      ]
-    },
-    {
-      "page": "best-adjustable-dumbbells",
-      "title": "Best Adjustable Dumbbells",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "productCount": 4,
-      "sourceGapTotal": 6,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 5.3,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 92,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -431,7 +398,7 @@
       "section": "outdoor",
       "dataSource": "additions",
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 40,
+      "daysSinceUpdated": 134,
       "productCount": 5,
       "sourceGapTotal": 10,
       "affiliateIssues": 0,
@@ -443,10 +410,61 @@
         "clicks": null,
         "position": null
       },
-      "opportunityScore": 86,
+      "opportunityScore": 136,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking."
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-adjustable-dumbbells",
+      "title": "Best Adjustable Dumbbells",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5.3,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 132,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-compression-boots-for-runners",
+      "title": "Best Compression Boots for Runners",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "searchSignal": {
+        "primaryQuery": "",
+        "impressions": null,
+        "clicks": null,
+        "position": null
+      },
+      "opportunityScore": 126,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Map this page to Search Console query tracking.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     }
   ],
@@ -476,8 +494,8 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 42,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Find one exact owner discussion thread.",
@@ -509,8 +527,8 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 42,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Find one exact owner discussion thread.",
@@ -543,8 +561,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -577,8 +595,8 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Add another owner discussion, ideally with long-term use or fit complaints.",
@@ -611,8 +629,8 @@
         "YouTube"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video.",
         "Find one exact owner discussion thread.",
@@ -646,8 +664,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -681,8 +699,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -716,8 +734,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -751,8 +769,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -786,8 +804,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -821,8 +839,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 34,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -856,8 +874,8 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -889,8 +907,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -923,8 +941,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -957,8 +975,8 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Add another exact YouTube review or comparison video.",
@@ -992,8 +1010,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -1026,8 +1044,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -1060,8 +1078,8 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
@@ -1094,8 +1112,8 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Add another owner discussion, ideally with long-term use or fit complaints.",
@@ -1128,8 +1146,8 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 32,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -1161,8 +1179,8 @@
         "Expert"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 40,
-      "opportunityScore": 26,
+      "daysSinceUpdated": 134,
+      "opportunityScore": 36,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find an exact YouTube review with visible product use.",
@@ -1193,8 +1211,8 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 26,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread."
       ]
@@ -1223,8 +1241,8 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 26,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
         "Keep non-expert evidence visible while preserving expert-only scoring."
@@ -1254,8 +1272,8 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 29,
-      "opportunityScore": 26,
+      "daysSinceUpdated": 123,
+      "opportunityScore": 36,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use."
       ]
@@ -1269,7 +1287,7 @@
     },
     {
       "name": "Affiliate link health",
-      "status": "needs-attention",
+      "status": "ready",
       "nextStep": "Replace generic Amazon links and keep the Associate tag on every shopping URL."
     },
     {

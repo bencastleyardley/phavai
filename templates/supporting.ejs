@@ -30,10 +30,12 @@
     "@type": "Article",
     "headline": page.title,
     "description": page.description,
-    "dateModified": page.updated,
+    "datePublished": page.datePublished,
+    "dateModified": page.dateModified,
     "author": {
       "@type": "Organization",
-      "name": "Phavai"
+      "name": "Phavai Research Desk",
+      "url": "https://www.phavai.com/about.html"
     },
     "publisher": {
       "@type": "Organization",
@@ -69,22 +71,6 @@
     ]
   }, null, 2) %>
   </script>
-  <% if (page.faqs?.length) { %>
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": page.faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  }, null, 2) %>
-  </script>
-  <% } %>
 </head>
 <body>
   <header class="site-header">
@@ -113,6 +99,7 @@
               <span class="meta-pill">Updated <%= page.updated %></span>
               <span class="meta-pill">Supports <%= section.title %> reviews</span>
             </div>
+            <p class="review-byline">By <a href="/about.html">Phavai Research Desk</a> · Editorial guidance based on cited research and product documentation. <a href="/methodology.html">How we research</a>.</p>
           </div>
           <% if (quickTake || featuredReview) { %>
           <section class="quick-answer-panel quick-answer-panel--compact" aria-labelledby="quick-answer-heading" data-quick-answer>
@@ -142,7 +129,7 @@
             </div>
             <div class="quick-answer-actions">
               <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
-                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="Buy now">Buy now</a>
+                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="supporting-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
               <% } %>
               <% if (featuredReview) { %>
                 <a class="button secondary" href="/<%= featuredReview.slug %>.html">Open guide</a>
