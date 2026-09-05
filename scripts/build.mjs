@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import ejs from "ejs";
 
 const categories = [
@@ -2181,6 +2181,9 @@ const builtCategories = categories.map((category) => {
 
   return {
     ...category,
+    socialImage: existsSync(`photos/generated/guide-${category.slug}-social.png`)
+      ? `/photos/generated/guide-${category.slug}-social.png`
+      : "",
     description: polishBuyerCopy(category.description),
     lede: polishBuyerCopy(category.lede ?? ""),
     metaDescription: conciseMetaDescription(polishBuyerCopy(category.metaDescription ?? category.description)),
@@ -2208,11 +2211,16 @@ const builtCategories = categories.map((category) => {
 
 for (const category of builtCategories) {
   const relatedReviewOrder = new Map((category.relatedReviewSlugs ?? []).map((slug, index) => [slug, index]));
+  const sectionFeaturedOrder = new Map((sectionsBySlug.get(category.sectionSlug)?.featuredReviewSlugs ?? []).map((slug, index) => [slug, index]));
   const relatedReviews = builtCategories
     .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug && review.isCoreRoundup)
     .sort((a, b) => {
-      const aOrder = relatedReviewOrder.has(a.slug) ? relatedReviewOrder.get(a.slug) : 1000;
-      const bOrder = relatedReviewOrder.has(b.slug) ? relatedReviewOrder.get(b.slug) : 1000;
+      const aOrder = relatedReviewOrder.has(a.slug)
+        ? relatedReviewOrder.get(a.slug)
+        : (sectionFeaturedOrder.has(a.slug) ? 100 + sectionFeaturedOrder.get(a.slug) : 1000);
+      const bOrder = relatedReviewOrder.has(b.slug)
+        ? relatedReviewOrder.get(b.slug)
+        : (sectionFeaturedOrder.has(b.slug) ? 100 + sectionFeaturedOrder.get(b.slug) : 1000);
       if (aOrder !== bOrder) return aOrder - bOrder;
       return a.title.localeCompare(b.title);
     })

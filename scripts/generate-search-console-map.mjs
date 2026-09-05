@@ -2,11 +2,13 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const categories = [
   ...JSON.parse(readFileSync("data/categories.json", "utf8").replace(/^\uFEFF/, "")),
-  ...readOptionalJson("data/roundup-additions.json", [])
+  ...readOptionalJson("data/roundup-additions.json", []),
+  ...readOptionalJson("data/revenue-roundups.json", [])
 ];
 const sections = JSON.parse(readFileSync("data/sections.json", "utf8").replace(/^\uFEFF/, ""));
 const supportingPages = JSON.parse(readFileSync("data/supporting.json", "utf8").replace(/^\uFEFF/, ""));
 const roadmap = JSON.parse(readFileSync("data/content-roadmap.json", "utf8").replace(/^\uFEFF/, ""));
+const previousTracking = readOptionalJson("data/search-console-tracking.json", {});
 
 function readOptionalJson(path, fallback) {
   try {
@@ -65,10 +67,11 @@ function pageRecord({ path, title, type, sectionSlug = "", cluster = "", status 
 }
 
 const sectionBySlug = new Map(sections.map((section) => [section.slug, section]));
+const previousByUrl = new Map((previousTracking.live_pages ?? []).map((page) => [page.url, page]));
 const livePages = [
   pageRecord({
     path: "/",
-    title: "Stop digging. Start deciding.",
+    title: "Evidence-Backed Running Gear Guides",
     type: "homepage",
     priority: 1,
     intent: "brand navigation",
@@ -116,7 +119,10 @@ const livePages = [
     priority: path === "methodology.html" || path === "editorial-standards.html" ? 3 : 6,
     intent: "trust validation"
   }))
-];
+].map((page) => {
+  const previous = previousByUrl.get(page.url);
+  return previous?.search_metrics ? { ...page, search_metrics: previous.search_metrics } : page;
+});
 
 const liveSlugs = new Set(categories.map((category) => category.title.toLowerCase()));
 const plannedOpportunities = roadmap.clusters.flatMap((cluster) => {
@@ -146,7 +152,8 @@ writeFileSync("data/search-console-tracking.json", `${JSON.stringify({
   live_page_count: livePages.length,
   planned_opportunity_count: plannedOpportunities.length,
   live_pages: livePages,
-  planned_opportunities: plannedOpportunities
+  planned_opportunities: plannedOpportunities,
+  ...(previousTracking.search_console_import ? { search_console_import: previousTracking.search_console_import } : {})
 }, null, 2)}\n`, "utf8");
 
 console.log(`Wrote ${livePages.length} live page records and ${plannedOpportunities.length} planned opportunities.`);

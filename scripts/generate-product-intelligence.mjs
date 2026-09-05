@@ -183,20 +183,41 @@ function recommendedProductActions({ counts, missingChannels, thinChannels, affi
 }
 
 function pageSearchConsole(pageSlug) {
-  const records = Array.isArray(searchConsole) ? searchConsole : (searchConsole.pages ?? searchConsole.records ?? []);
+  const records = Array.isArray(searchConsole)
+    ? searchConsole
+    : (searchConsole.live_pages ?? searchConsole.pages ?? searchConsole.records ?? []);
   return records.find((row) => slugFromUrl(row.url ?? row.path ?? "") === pageSlug) ?? {};
+}
+
+function searchOpportunityScore(search) {
+  const impressions = Number(search.impressions);
+  const clicks = Number(search.clicks);
+  const position = Number(search.position);
+  if (!Number.isFinite(impressions) || impressions <= 0) return 0;
+
+  let score = Math.min(30, Math.round(Math.log10(impressions + 1) * 8));
+  if (position >= 8 && position <= 30) score += 35;
+  else if (position > 30 && position <= 60) score += 18;
+  else if (position > 0 && position < 8) score += 12;
+  if (clicks === 0 && impressions >= 100) score += 8;
+  return score;
 }
 
 function pageRecord(category, products, dataSource) {
   const pageProducts = products.filter((row) => row.page === category.slug);
   const sourceGapTotal = pageProducts.reduce((total, product) => total + product.missingChannels.length + product.thinChannels.length, 0);
   const affiliateIssues = pageProducts.filter((product) => product.affiliateStatus !== "ready").length;
-  const search = pageSearchConsole(category.slug);
-  const hasSearchData = Boolean(search.primary_query || search.query || search.impressions || search.clicks);
+  const searchRecord = pageSearchConsole(category.slug);
+  const search = searchRecord.search_metrics ?? searchRecord;
+  const hasSearchData = [search.impressions, search.clicks, search.position].some((value) => Number.isFinite(Number(value)));
+  const searchScore = searchOpportunityScore(search);
+  const contentMaintenanceScore = Math.round(
+    pageProducts.reduce((total, product) => total + product.opportunityScore, 0) / Math.max(1, pageProducts.length)
+  );
   const opportunityScore =
-    pageProducts.reduce((total, product) => total + product.opportunityScore, 0) +
+    contentMaintenanceScore +
     (dataSource === "revenue" ? 10 : 0) +
-    (hasSearchData ? 6 : 0);
+    (searchScore * 3);
 
   return {
     page: category.slug,
@@ -210,19 +231,28 @@ function pageRecord(category, products, dataSource) {
     affiliateIssues,
     sourceCompleteProducts: pageProducts.filter((product) => !product.missingChannels.length && !product.thinChannels.length).length,
     averageEvidenceCount: Number((pageProducts.reduce((total, product) => total + product.evidenceCounts.total, 0) / Math.max(1, pageProducts.length)).toFixed(1)),
+    contentMaintenanceScore,
     searchSignal: {
       primaryQuery: search.primary_query ?? search.query ?? "",
       impressions: search.impressions ?? null,
       clicks: search.clicks ?? null,
-      position: search.position ?? null
+      ctr: search.ctr ?? null,
+      position: search.position ?? null,
+      topQueries: search.top_queries ?? []
     },
+    searchOpportunityScore: searchScore,
     opportunityScore,
-    recommendedActions: recommendedPageActions(category, pageProducts, affiliateIssues, sourceGapTotal, hasSearchData)
+    recommendedActions: recommendedPageActions(category, pageProducts, affiliateIssues, sourceGapTotal, hasSearchData, search)
   };
 }
 
-function recommendedPageActions(category, products, affiliateIssues, sourceGapTotal, hasSearchData) {
+function recommendedPageActions(category, products, affiliateIssues, sourceGapTotal, hasSearchData, search) {
   const actions = [];
+  if (Number(search.impressions) >= 100 && Number(search.position) >= 8 && Number(search.position) <= 30) {
+    actions.push("Prioritize this page: it already has meaningful impressions within striking distance of page one.");
+  } else if (Number(search.impressions) >= 250) {
+    actions.push("Improve the title, opening answer, internal links, and original evidence for this visible search page.");
+  }
   if (sourceGapTotal) actions.push("Run source curation on the highest-gap products.");
   if (affiliateIssues) actions.push("Fix affiliate links before expanding traffic to this page.");
   if (category.sourceWeights?.Expert === 100 && products.some((product) => product.evidenceCounts.youtube || product.evidenceCounts.reddit)) {

@@ -10,12 +10,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title><%= section.metaTitle || `${section.title} Reviews | Phavai` %></title>
   <meta name="description" content="<%= section.metaDescription || section.description %>" />
+  <meta name="robots" content="max-image-preview:large" />
   <link rel="canonical" href="https://www.phavai.com/<%= section.slug %>.html" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="<%= section.title %> Reviews | Phavai" />
   <meta property="og:description" content="<%= section.description %>" />
   <meta property="og:image" content="<%= ogImage %>" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= section.title %> Reviews | Phavai" />
+  <meta name="twitter:description" content="<%= section.description %>" />
+  <meta name="twitter:image" content="<%= ogImage %>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />

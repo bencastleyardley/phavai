@@ -3303,7 +3303,7 @@
     "lede": "For most outdoor runners, the first decision is open-ear awareness versus sealed-ear sound, not brand. We ranked four current options by fit security, controls, water resistance, and the tradeoffs that show up after a long run.",
     "audience": "Road, trail, treadmill, and gym runners",
     "schemaName": "Best running headphones recommended by Phavai",
-    "comparisonIntro": "Running headphones are mostly about fit security, situational awareness, sweat resistance, and whether you prefer open-ear safety or sealed earbud sound.",
+    "comparisonIntro": "Running headphones are mostly about fit security, situational awareness, sweat resistance, and whether you prefer an open-ear design or sealed earbud sound.",
     "finalRecommendation": "Most runners should start with the Shokz OpenRun Pro 2 if outdoor awareness matters, because the expert and creator signal is unusually consistent. Choose Powerbeats Pro 2 if you want sealed-ear workout sound and Apple-friendly features, OpenFit 2 if you dislike neckbands, and Jabra Elite 8 Active Gen 2 if rugged earbuds matter more than open-ear awareness.",
     "faqs": [
       {
@@ -3329,7 +3329,7 @@
         "price": "$180 typical retail",
         "bestFor": "Outdoor runners who want awareness, stability, and all-day comfort",
         "avoidIf": "You want deep bass isolation or a tiny pocketable earbud case.",
-        "verdict": "The OpenRun Pro 2 leads because experts consistently praise its comfort, awareness, and battery life, while runner-oriented creator feedback supports it as the safest default for road and trail use.",
+        "verdict": "The OpenRun Pro 2 leads because experts consistently praise its comfort, awareness, and battery life, while runner-oriented creator feedback supports it as the strongest awareness-first default for road and trail use.",
         "specs": [
           "Open-ear fit",
           "Up to 12 hours battery",
@@ -3482,7 +3482,7 @@
             "checked_date": "Apr 20, 2026",
             "product_name": "Shokz OpenRun Pro 2",
             "page_use_case": "Best Running Headphones",
-            "evidence_note": "Owner discussion highlights sound leakage, bass expectations, and why open-ear safety matters more than audio quality for many runners.",
+            "evidence_note": "Owner discussion highlights sound leakage, bass expectations, and why outside-sound awareness matters more than audio quality for many runners.",
             "trust_reason": "Useful counterweight because it captures buyer regret and fit-for-purpose caveats from owners.",
             "is_primary_source": false,
             "display_order": 30.04,
@@ -4052,7 +4052,7 @@
           "Open-ear earbuds",
           "Charging case",
           "IP55 water resistance",
-          "Touch controls"
+          "Physical multifunction controls"
         ],
         "pros": [
           "No neckband",
@@ -4403,7 +4403,7 @@
           "Strong all-purpose earbuds"
         ],
         "cons": [
-          "Not open-ear safe by default",
+          "Sealed fit reduces outside-sound awareness",
           "Long-term product roadmap uncertainty"
         ],
         "evidence": [
@@ -4466,7 +4466,7 @@
           {
             "channel": "Expert",
             "sourceName": "Jabra product documentation",
-            "url": "https://www.jabra.com/bluetooth-headsets/jabra-elite-8-active-gen-2",
+            "url": "https://www.jabra.com/supportpages/jabra-elite-8-active-gen-2",
             "tier": "Tier 1",
             "score": 86,
             "publishedAt": "2025-01-01",
@@ -4725,6 +4725,128 @@
         "imageSeoName": "Jabra-Elite-8-Active-Gen-2-best-running-headphones"
       }
     ],
+    "flagshipResearch": {
+      "eyebrow": "Phavai specification audit",
+      "title": "The running-headphone specs that change the decision",
+      "updated": "September 5, 2026",
+      "summary": "We normalized current manufacturer documentation into one runner-focused comparison so battery, weight, controls, water resistance, and fit format can be compared on the same page. This is documented desk research, not hands-on testing.",
+      "keyFindings": [
+        {
+          "title": "Open-ear is not one format",
+          "body": "OpenRun Pro 2 uses a connected neckband, while OpenFit 2 separates into two case-charged earpieces. That shape difference can matter more than a small score gap."
+        },
+        {
+          "title": "Battery figures use different units",
+          "body": "Neckband runtime is a single-charge figure. True-wireless products also advertise total runtime after case recharges, so both numbers need to stay visible."
+        },
+        {
+          "title": "Water ratings are not interchangeable",
+          "body": "IPX4, IP55, and IP68 describe different resistance levels. Earbuds and their charging case may also carry separate ratings."
+        }
+      ],
+      "columns": [
+        "Product",
+        "Fit and awareness",
+        "Weight",
+        "Battery",
+        "Water resistance",
+        "Controls",
+        "Best use"
+      ],
+      "rows": [
+        [
+          "Shokz OpenRun Pro 2",
+          "Open-ear neckband",
+          "30.3 g total",
+          "Up to 12 hours; 5-minute charge for 2.5 hours",
+          "IP55",
+          "Physical multifunction and volume buttons",
+          "Road or trail runs where outside-sound awareness matters"
+        ],
+        [
+          "Beats Powerbeats Pro 2",
+          "Sealed ear hooks with Transparency and ANC",
+          "8.7 g each",
+          "Up to 10 hours; up to 45 hours with case",
+          "IPX4",
+          "Physical button and volume controls",
+          "Intervals, gym work, and runners who prioritize locked-in fit"
+        ],
+        [
+          "Shokz OpenFit 2",
+          "Open-ear true wireless ear hooks",
+          "9.4 g each",
+          "Up to 11 hours; up to 48 hours with case",
+          "IP55",
+          "Physical multifunction buttons",
+          "Open-ear listening without a neckband"
+        ],
+        [
+          "Jabra Elite 8 Active Gen 2",
+          "Sealed earbuds with HearThrough and ANC",
+          "5 g each",
+          "Up to 8 hours with ANC and 32 with case; up to 14 and 56 with ANC off",
+          "IP68 earbuds; IP54 case",
+          "Physical buttons",
+          "Wet or rough training when rugged sealed earbuds are preferred"
+        ]
+      ],
+      "decisionGuide": [
+        {
+          "scenario": "Roads with traffic",
+          "start": "OpenRun Pro 2 or OpenFit 2",
+          "reason": "Both keep the ear canal open; choose the neckband or true-wireless shape you are more likely to wear consistently.",
+          "caution": "An open design does not remove traffic risk. Keep volume moderate, stay alert, and follow local rules."
+        },
+        {
+          "scenario": "Intervals and gym sessions",
+          "start": "Powerbeats Pro 2",
+          "reason": "The ear-hook fit, sealed sound, ANC, and case-based battery are the most training-focused combination here."
+        },
+        {
+          "scenario": "Wet and rough training",
+          "start": "Jabra Elite 8 Active Gen 2",
+          "reason": "Its IP68 earbud rating is the strongest listed resistance specification in this group.",
+          "caution": "Availability and long-term platform support deserve an extra retailer check before buying."
+        },
+        {
+          "scenario": "Long sessions without a case",
+          "start": "OpenRun Pro 2",
+          "reason": "Its quoted 12-hour runtime is available from the headset itself rather than through multiple case recharges."
+        }
+      ],
+      "method": [
+        "Manufacturer specifications were used for weight, battery, resistance, controls, and feature names.",
+        "Independent reviews and owner discussions still determine the ranking and the practical cautions.",
+        "Case-assisted battery totals are kept separate from single-charge runtime."
+      ],
+      "sources": [
+        {
+          "label": "Shokz OpenRun Pro 2 specifications",
+          "url": "https://uk.shokz.com/products/openrun-pro2"
+        },
+        {
+          "label": "Beats Powerbeats Pro 2 specifications",
+          "url": "https://www.beatsbydre.com/earbuds/powerbeats-pro-2?pp=1"
+        },
+        {
+          "label": "Shokz OpenFit 2 specifications",
+          "url": "https://shokz.com/products/openfit2"
+        },
+        {
+          "label": "Jabra Elite 8 Active Gen 2 technical specifications",
+          "url": "https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Elite-8-Active-Gen2/Technical-specifications/RevA/EN-Jabra-Elite-8-Active-G2-Tech-Specs-A4-WEB-240524.pdf"
+        }
+      ],
+      "limitations": "Battery claims come from controlled manufacturer tests and real results vary with volume, features, calls, temperature, and device settings. Fit and sound are personal. We did not physically test these units, and model availability can change."
+    },
+    "relatedReviewSlugs": [
+      "best-gps-running-watches",
+      "best-running-belts",
+      "best-running-sunglasses-for-sweat-and-bounce",
+      "best-handheld-running-water-bottles",
+      "best-womens-trail-running-shoes"
+    ],
     "updated": "September 5, 2026",
     "sourceWeights": {
       "Expert": 40,
@@ -4740,7 +4862,7 @@
         "Reddit"
       ]
     },
-    "sourcesVerifiedAt": "Apr 20, 2026",
+    "sourcesVerifiedAt": "September 5, 2026",
     "sectionSlug": "outdoor",
     "metaTitle": "4 Best Running Headphones for Secure Fit (2026)",
     "metaDescription": "Compare four running headphones for secure fit, outdoor awareness, sweat resistance, and sound. See why Shokz OpenRun Pro 2 leads our 2026 picks.",

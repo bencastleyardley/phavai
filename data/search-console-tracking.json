@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-04-24T18:20:35.901Z",
+  "generated_at": "2026-09-05T18:54:05.341Z",
   "purpose": "Landing-page and query map for joining Google Search Console exports with Phavai content priorities.",
-  "live_page_count": 51,
-  "planned_opportunity_count": 243,
+  "live_page_count": 70,
+  "planned_opportunity_count": 238,
   "live_pages": [
     {
       "status": "live",
       "url": "https://www.phavai.com/",
       "path": "/",
-      "title": "Stop digging. Start deciding.",
+      "title": "Evidence-Backed Running Gear Guides",
       "page_type": "homepage",
       "section_slug": "",
       "cluster": "",
       "priority": 1,
-      "primary_query": "stop digging. start deciding.",
+      "primary_query": "evidence-backed running gear guides",
       "secondary_query_patterns": [
-        "stop digging. start deciding. reviews",
-        "stop digging. start deciding. buying guide",
-        "stop digging. start deciding. recommendations"
+        "evidence-backed running gear guides reviews",
+        "evidence-backed running gear guides buying guide",
+        "evidence-backed running gear guides recommendations"
       ],
       "search_intent": "brand navigation",
       "last_updated": "2026-04-22",
@@ -33,7 +33,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0,
+        "position": 31.45,
+        "primary_query": "stop digging. start deciding.",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -74,7 +84,15 @@
         "/best-comfortable-trail-running-shoes.html",
         "/best-ultramarathon-fuel.html",
         "/best-running-gels-for-ultramarathons.html",
-        "/best-electrolyte-mixes-for-ultrarunning.html"
+        "/best-electrolyte-mixes-for-ultrarunning.html",
+        "/best-compression-boots-for-runners.html",
+        "/best-carb-drink-mixes-for-ultramarathons.html",
+        "/best-electrolytes-for-heavy-sweaters.html",
+        "/best-running-chews.html",
+        "/best-running-socks-for-long-runs.html",
+        "/best-running-sunglasses-for-sweat-and-bounce.html",
+        "/best-running-belts.html",
+        "/best-handheld-running-water-bottles.html"
       ],
       "gsc_metrics_to_monitor": [
         "clicks",
@@ -83,7 +101,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 26,
+        "ctr": 0,
+        "position": 50.23,
+        "primary_query": "outdoor reviews",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -108,7 +136,11 @@
         "/best-webcams-for-remote-work.html",
         "/best-desk-mats.html",
         "/best-monitor-arms.html",
-        "/best-ergonomic-keyboards.html"
+        "/best-ergonomic-keyboards.html",
+        "/best-walking-pads.html",
+        "/best-laptop-stands-for-remote-work.html",
+        "/best-usb-c-hubs-for-remote-work.html",
+        "/best-portable-monitors-for-remote-work.html"
       ],
       "gsc_metrics_to_monitor": [
         "clicks",
@@ -117,7 +149,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 34.58,
+        "primary_query": "portable monitor for remote work",
+        "top_queries": [
+          {
+            "query": "portable monitor for remote work",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 55.65,
+            "match_score": 0.69
+          },
+          {
+            "query": "importance of high-quality webcam for remote work",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 62.17,
+            "match_score": 0.587
+          },
+          {
+            "query": "smart pad for remote work",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 76.6,
+            "match_score": 0.69
+          },
+          {
+            "query": "importance of high quality webcam for remote work",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 48.8,
+            "match_score": 0.587
+          },
+          {
+            "query": "best monitors for remote work",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 67.75,
+            "match_score": 0.793
+          },
+          {
+            "query": "laptop stand for remote work",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 66.5,
+            "match_score": 0.69
+          },
+          {
+            "query": "remote work webcam",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37,
+            "match_score": 0.793
+          },
+          {
+            "query": "best webcam for remote work",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 50.5,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -140,7 +247,14 @@
         "/best-carry-on-luggage.html",
         "/best-coffee-makers.html",
         "/best-massage-guns.html",
-        "/best-air-purifiers.html"
+        "/best-air-purifiers.html",
+        "/best-adjustable-dumbbells.html",
+        "/best-commuter-backpacks-for-men.html",
+        "/best-beard-trimmers.html",
+        "/best-electric-shavers-for-men.html",
+        "/best-body-groomers-for-men.html",
+        "/best-protein-bars.html",
+        "/best-creatine.html"
       ],
       "gsc_metrics_to_monitor": [
         "clicks",
@@ -149,7 +263,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 32,
+        "ctr": 0,
+        "position": 31.38,
+        "primary_query": "lifestyle reviews",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -196,7 +320,7 @@
         "best women's trail running shoes recommendations"
       ],
       "search_intent": "best product commercial investigation",
-      "last_updated": "April 20, 2026",
+      "last_updated": "September 5, 2026",
       "related_paths": [
         "/outdoor.html"
       ],
@@ -207,7 +331,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 2573,
+        "ctr": 0,
+        "position": 57.62,
+        "primary_query": "best women's trail running shoes",
+        "top_queries": [
+          {
+            "query": "best women's trail running shoes",
+            "clicks": 0,
+            "impressions": 385,
+            "ctr": 0,
+            "position": 58.27,
+            "match_score": 0.937
+          },
+          {
+            "query": "best trail running shoes women",
+            "clicks": 0,
+            "impressions": 242,
+            "ctr": 0,
+            "position": 64.92,
+            "match_score": 0.873
+          },
+          {
+            "query": "best trail running shoes for women",
+            "clicks": 0,
+            "impressions": 221,
+            "ctr": 0,
+            "position": 66.14,
+            "match_score": 0.873
+          },
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.81
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.81
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.81
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.81
+          },
+          {
+            "query": "best women's trail runners",
+            "clicks": 0,
+            "impressions": 151,
+            "ctr": 0,
+            "position": 44.6,
+            "match_score": 0.655
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -225,9 +424,14 @@
         "best running headphones recommendations"
       ],
       "search_intent": "best product commercial investigation",
-      "last_updated": "April 20, 2026",
+      "last_updated": "September 5, 2026",
       "related_paths": [
-        "/outdoor.html"
+        "/outdoor.html",
+        "/best-gps-running-watches.html",
+        "/best-running-belts.html",
+        "/best-running-sunglasses-for-sweat-and-bounce.html",
+        "/best-handheld-running-water-bottles.html",
+        "/best-womens-trail-running-shoes.html"
       ],
       "gsc_metrics_to_monitor": [
         "clicks",
@@ -236,7 +440,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 2844,
+        "ctr": 0,
+        "position": 27.01,
+        "primary_query": "best running headphones",
+        "top_queries": [
+          {
+            "query": "best running headphones",
+            "clicks": 0,
+            "impressions": 1584,
+            "ctr": 0,
+            "position": 21.27,
+            "match_score": 1
+          },
+          {
+            "query": "best headphones for running",
+            "clicks": 0,
+            "impressions": 936,
+            "ctr": 0,
+            "position": 31.17,
+            "match_score": 1
+          },
+          {
+            "query": "running headphones",
+            "clicks": 0,
+            "impressions": 38,
+            "ctr": 0,
+            "position": 61.45,
+            "match_score": 1
+          },
+          {
+            "query": "best headphones running",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 47.38,
+            "match_score": 1
+          },
+          {
+            "query": "headphones for running",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 67.58,
+            "match_score": 1
+          },
+          {
+            "query": "great running headphones",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 53,
+            "match_score": 0.793
+          },
+          {
+            "query": "best rated running headphones",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 49.6,
+            "match_score": 0.793
+          },
+          {
+            "query": "good headphones for running",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 55,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -254,7 +533,7 @@
         "best gps running watches recommendations"
       ],
       "search_intent": "best product commercial investigation",
-      "last_updated": "April 20, 2026",
+      "last_updated": "September 5, 2026",
       "related_paths": [
         "/outdoor.html"
       ],
@@ -265,7 +544,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 898,
+        "ctr": 0,
+        "position": 50.14,
+        "primary_query": "best gps watches",
+        "top_queries": [
+          {
+            "query": "best gps watches",
+            "clicks": 0,
+            "impressions": 174,
+            "ctr": 0,
+            "position": 38.74,
+            "match_score": 0.873
+          },
+          {
+            "query": "best gps running watch",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 46.6,
+            "match_score": 0.667
+          },
+          {
+            "query": "best gps running watches",
+            "clicks": 0,
+            "impressions": 50,
+            "ctr": 0,
+            "position": 47.78,
+            "match_score": 1
+          },
+          {
+            "query": "gps watches for runners reviews",
+            "clicks": 0,
+            "impressions": 25,
+            "ctr": 0,
+            "position": 67.36,
+            "match_score": 0.667
+          },
+          {
+            "query": "best running gps watches",
+            "clicks": 0,
+            "impressions": 22,
+            "ctr": 0,
+            "position": 47.27,
+            "match_score": 1
+          },
+          {
+            "query": "best gps watch for running",
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 51.16,
+            "match_score": 0.667
+          },
+          {
+            "query": "best running watch gps",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": 0,
+            "position": 46.56,
+            "match_score": 0.667
+          },
+          {
+            "query": "best gps watches for running",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 51.86,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -294,7 +648,34 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 221,
+        "ctr": 0.0045,
+        "position": 58.16,
+        "primary_query": "best-rated standing desks on review sites",
+        "top_queries": [
+          {
+            "query": "best-rated standing desks on review sites",
+            "clicks": 0,
+            "impressions": 52,
+            "ctr": 0,
+            "position": 62.4,
+            "match_score": 0.69
+          },
+          {
+            "query": "customer reviews of standing desks for home office setups",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 62.83,
+            "match_score": 0.587
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -323,7 +704,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 40,
+        "ctr": 0.025,
+        "position": 24.9,
+        "primary_query": "best office chairs",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -352,7 +743,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 365,
+        "ctr": 0,
+        "position": 68.18,
+        "primary_query": "best rated running hydration packs",
+        "top_queries": [
+          {
+            "query": "best rated running hydration packs",
+            "clicks": 0,
+            "impressions": 92,
+            "ctr": 0,
+            "position": 69.75,
+            "match_score": 0.69
+          },
+          {
+            "query": "top rated running hydration packs",
+            "clicks": 0,
+            "impressions": 92,
+            "ctr": 0,
+            "position": 72.88,
+            "match_score": 0.628
+          },
+          {
+            "query": "best running hydration packs reviews",
+            "clicks": 0,
+            "impressions": 87,
+            "ctr": 0,
+            "position": 66.26,
+            "match_score": 0.793
+          },
+          {
+            "query": "running hydration packs reviews",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 55.1,
+            "match_score": 0.793
+          },
+          {
+            "query": "best hydration packs for athletes",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 61.43,
+            "match_score": 0.793
+          },
+          {
+            "query": "compare hydration packs",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 67,
+            "match_score": 0.793
+          },
+          {
+            "query": "are hydration packs worth it",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 73.6,
+            "match_score": 0.69
+          },
+          {
+            "query": "top 10 on budget hydration packs",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 69.25,
+            "match_score": 0.628
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -381,7 +847,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 557,
+        "ctr": 0,
+        "position": 60.21,
+        "primary_query": "trail running poles",
+        "top_queries": [
+          {
+            "query": "trail running poles",
+            "clicks": 0,
+            "impressions": 147,
+            "ctr": 0,
+            "position": 56.46,
+            "match_score": 1
+          },
+          {
+            "query": "best running poles",
+            "clicks": 0,
+            "impressions": 133,
+            "ctr": 0,
+            "position": 68.93,
+            "match_score": 0.873
+          },
+          {
+            "query": "best trail running poles",
+            "clicks": 0,
+            "impressions": 76,
+            "ctr": 0,
+            "position": 56.26,
+            "match_score": 1
+          },
+          {
+            "query": "best poles for trail running",
+            "clicks": 0,
+            "impressions": 48,
+            "ctr": 0,
+            "position": 60.29,
+            "match_score": 1
+          },
+          {
+            "query": "best poles for running",
+            "clicks": 0,
+            "impressions": 46,
+            "ctr": 0,
+            "position": 55.46,
+            "match_score": 0.873
+          },
+          {
+            "query": "running poles",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 67.86,
+            "match_score": 0.873
+          },
+          {
+            "query": "best trail running socks",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 77.83,
+            "match_score": 0.667
+          },
+          {
+            "query": "best trail running pole",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 52.5,
+            "match_score": 0.667
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -410,7 +951,66 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 169,
+        "ctr": 0,
+        "position": 74.94,
+        "primary_query": "best running vests",
+        "top_queries": [
+          {
+            "query": "best running vests",
+            "clicks": 0,
+            "impressions": 39,
+            "ctr": 0,
+            "position": 63.77,
+            "match_score": 1
+          },
+          {
+            "query": "best running hydration vests",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 64,
+            "match_score": 0.793
+          },
+          {
+            "query": "best mens running vests",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 60,
+            "match_score": 0.793
+          },
+          {
+            "query": "best ultra running vests",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 64.5,
+            "match_score": 0.793
+          },
+          {
+            "query": "best hydration vests for ultra running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 71.5,
+            "match_score": 0.69
+          },
+          {
+            "query": "top rated running vests",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 57,
+            "match_score": 0.69
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -439,7 +1039,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 308,
+        "ctr": 0,
+        "position": 52.44,
+        "primary_query": "recovery sandals",
+        "top_queries": [
+          {
+            "query": "recovery sandals",
+            "clicks": 0,
+            "impressions": 51,
+            "ctr": 0,
+            "position": 68.08,
+            "match_score": 1
+          },
+          {
+            "query": "best recovery sandals",
+            "clicks": 0,
+            "impressions": 21,
+            "ctr": 0,
+            "position": 48.38,
+            "match_score": 1
+          },
+          {
+            "query": "best recovery sandals for runners",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 58.71,
+            "match_score": 0.793
+          },
+          {
+            "query": "recovery sandals for runners",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 66.5,
+            "match_score": 0.793
+          },
+          {
+            "query": "best recovery sandals for men",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 60.33,
+            "match_score": 0.793
+          },
+          {
+            "query": "best recovery sandals for women",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 68,
+            "match_score": 0.793
+          },
+          {
+            "query": "active recovery sandals",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 62,
+            "match_score": 0.793
+          },
+          {
+            "query": "athletic recovery sandals",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 63.5,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -468,7 +1143,74 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 342,
+        "ctr": 0,
+        "position": 49.18,
+        "primary_query": "best monitors for remote work",
+        "top_queries": [
+          {
+            "query": "best monitors for remote work",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 67.75,
+            "match_score": 0.667
+          },
+          {
+            "query": "remote webcams",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 36.67,
+            "match_score": 0.873
+          },
+          {
+            "query": "best webcams for work",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 52.67,
+            "match_score": 0.873
+          },
+          {
+            "query": "webcams for work",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 0.873
+          },
+          {
+            "query": "remote work webcam",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37,
+            "match_score": 0.667
+          },
+          {
+            "query": "best webcam for remote work",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 50.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "best webcams for remote work",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 57,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -497,7 +1239,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 47,
+        "ctr": 0,
+        "position": 44.85,
+        "primary_query": "best desk mats",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -526,7 +1278,26 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 293,
+        "ctr": 0,
+        "position": 24.55,
+        "primary_query": "best monitor arms",
+        "top_queries": [
+          {
+            "query": "best monitor arms",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 28.07,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -544,7 +1315,7 @@
         "best ergonomic keyboards recommendations"
       ],
       "search_intent": "best product commercial investigation",
-      "last_updated": "April 20, 2026",
+      "last_updated": "September 5, 2026",
       "related_paths": [
         "/remote-work.html"
       ],
@@ -555,7 +1326,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 1412,
+        "ctr": 0,
+        "position": 46.69,
+        "primary_query": "best ergonomic keyboards",
+        "top_queries": [
+          {
+            "query": "best ergonomic keyboards",
+            "clicks": 0,
+            "impressions": 321,
+            "ctr": 0,
+            "position": 45.91,
+            "match_score": 1
+          },
+          {
+            "query": "ergonomic keyboards",
+            "clicks": 0,
+            "impressions": 312,
+            "ctr": 0,
+            "position": 50.82,
+            "match_score": 1
+          },
+          {
+            "query": "ergonomic computer keyboards ranking",
+            "clicks": 0,
+            "impressions": 41,
+            "ctr": 0,
+            "position": 58.51,
+            "match_score": 0.69
+          },
+          {
+            "query": "best ergonomic computer keyboards",
+            "clicks": 0,
+            "impressions": 38,
+            "ctr": 0,
+            "position": 58.39,
+            "match_score": 0.793
+          },
+          {
+            "query": "ergonomic computer keyboards reviews",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.793
+          },
+          {
+            "query": "ergonomic keyboards reviews",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 57.75,
+            "match_score": 1
+          },
+          {
+            "query": "best keyboards ergonomic",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 52.67,
+            "match_score": 1
+          },
+          {
+            "query": "top ergonomic keyboards",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 41,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -584,7 +1430,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 83,
+        "ctr": 0,
+        "position": 31.3,
+        "primary_query": "what is the best carry on luggage",
+        "top_queries": [
+          {
+            "query": "what is the best carry on luggage",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 49.17,
+            "match_score": 0.69
+          },
+          {
+            "query": "the best carry on luggage",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 1
+          },
+          {
+            "query": "whats the best carry on luggage",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 57.2,
+            "match_score": 0.793
+          },
+          {
+            "query": "best luggage for carry on",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 25,
+            "match_score": 1
+          },
+          {
+            "query": "best luggage for carry-on",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 26,
+            "match_score": 1
+          },
+          {
+            "query": "wirecutter best carry on luggage 2026",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 7,
+            "match_score": 0.69
+          },
+          {
+            "query": "what is best carry on luggage",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 52.5,
+            "match_score": 0.69
+          },
+          {
+            "query": "what is the best carry on luggage to buy",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.628
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -613,7 +1534,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 31,
+        "primary_query": "best coffee makers",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -642,7 +1573,26 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 85,
+        "ctr": 0,
+        "position": 12.22,
+        "primary_query": "massage guns review",
+        "top_queries": [
+          {
+            "query": "massage guns review",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 40,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -671,7 +1621,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 68,
+        "ctr": 0,
+        "position": 28.68,
+        "primary_query": "best air purifiers",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -705,7 +1665,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 51,
+        "ctr": 0,
+        "position": 26.45,
+        "primary_query": "best womens trail shoes",
+        "top_queries": [
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.603
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.603
+          },
+          {
+            "query": "technical trail shoes",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": 0,
+            "position": 58.62,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes women",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 50.78,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes for beginners",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 48.33,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes for mud",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 52.5,
+            "match_score": 0.603
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -739,7 +1774,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 215,
+        "ctr": 0.0047,
+        "position": 56.58,
+        "primary_query": "best womens trail shoes",
+        "top_queries": [
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.603
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail running shoes for technical terrain",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 60.19,
+            "match_score": 0.657
+          },
+          {
+            "query": "technical trail shoes",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": 0,
+            "position": 58.62,
+            "match_score": 0.905
+          },
+          {
+            "query": "technical running shoes",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 58.7,
+            "match_score": 0.603
+          },
+          {
+            "query": "technical trail running shoes",
+            "clicks": 0,
+            "impressions": 11,
+            "ctr": 0,
+            "position": 63.45,
+            "match_score": 0.75
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -773,7 +1883,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 421,
+        "ctr": 0,
+        "position": 45.96,
+        "primary_query": "best womens trail shoes",
+        "top_queries": [
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.603
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail running shoes for wide feet",
+            "clicks": 0,
+            "impressions": 121,
+            "ctr": 0,
+            "position": 47.27,
+            "match_score": 0.876
+          },
+          {
+            "query": "best trail shoes for wide feet",
+            "clicks": 0,
+            "impressions": 117,
+            "ctr": 0,
+            "position": 49.81,
+            "match_score": 1
+          },
+          {
+            "query": "best wide trail running shoes",
+            "clicks": 0,
+            "impressions": 48,
+            "ctr": 0,
+            "position": 49.94,
+            "match_score": 0.75
+          },
+          {
+            "query": "trail running shoes for wide feet",
+            "clicks": 0,
+            "impressions": 33,
+            "ctr": 0,
+            "position": 48.3,
+            "match_score": 0.876
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -807,7 +1992,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 99,
+        "ctr": 0,
+        "position": 42.17,
+        "primary_query": "best womens trail shoes",
+        "top_queries": [
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.603
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.603
+          },
+          {
+            "query": "technical trail shoes",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": 0,
+            "position": 58.62,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail running shoes for muddy technical trails?",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 42.1,
+            "match_score": 0.595
+          },
+          {
+            "query": "best trail shoes women",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 50.78,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes for beginners",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 48.33,
+            "match_score": 0.603
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -841,7 +2101,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 211,
+        "ctr": 0,
+        "position": 51.2,
+        "primary_query": "best womens trail shoes",
+        "top_queries": [
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.667
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.667
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.667
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.667
+          },
+          {
+            "query": "best trail running shoes for beginners",
+            "clicks": 0,
+            "impressions": 74,
+            "ctr": 0,
+            "position": 48.28,
+            "match_score": 0.845
+          },
+          {
+            "query": "technical trail shoes",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": 0,
+            "position": 58.62,
+            "match_score": 0.667
+          },
+          {
+            "query": "trail running shoes for beginners",
+            "clicks": 0,
+            "impressions": 25,
+            "ctr": 0,
+            "position": 66.76,
+            "match_score": 0.845
+          },
+          {
+            "query": "where can i find the best trail running shoes for beginners?",
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 43.95,
+            "match_score": 0.613
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -875,7 +2210,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 158,
+        "ctr": 0,
+        "position": 48.68,
+        "primary_query": "best gps watches",
+        "top_queries": [
+          {
+            "query": "best gps watches",
+            "clicks": 0,
+            "impressions": 174,
+            "ctr": 0,
+            "position": 38.74,
+            "match_score": 0.873
+          },
+          {
+            "query": "best gps running watches",
+            "clicks": 0,
+            "impressions": 50,
+            "ctr": 0,
+            "position": 47.78,
+            "match_score": 0.667
+          },
+          {
+            "query": "gps watches for runners reviews",
+            "clicks": 0,
+            "impressions": 25,
+            "ctr": 0,
+            "position": 67.36,
+            "match_score": 0.667
+          },
+          {
+            "query": "best running gps watches",
+            "clicks": 0,
+            "impressions": 22,
+            "ctr": 0,
+            "position": 47.27,
+            "match_score": 0.667
+          },
+          {
+            "query": "best gps watches for running",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 51.86,
+            "match_score": 0.667
+          },
+          {
+            "query": "best running watches gps",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 55.9,
+            "match_score": 0.667
+          },
+          {
+            "query": "best ultrarunning watches",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 39,
+            "match_score": 0.873
+          },
+          {
+            "query": "best running watches with gps",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 48.11,
+            "match_score": 0.667
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -909,7 +2319,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 155,
+        "ctr": 0,
+        "position": 55.59,
+        "primary_query": "best hydration vests for 100k and 100 mile races",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -943,7 +2363,26 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 24.79,
+        "primary_query": "best shoe for first marathon",
+        "top_queries": [
+          {
+            "query": "best shoe for first marathon",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 43,
+            "match_score": 0.848
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -977,7 +2416,42 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 43,
+        "ctr": 0,
+        "position": 33.42,
+        "primary_query": "best daily trainers for marathon training",
+        "top_queries": [
+          {
+            "query": "best daily trainers for marathon training",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 33.75,
+            "match_score": 1
+          },
+          {
+            "query": "best daily trainer for marathon training",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 25,
+            "match_score": 0.75
+          },
+          {
+            "query": "best gels for marathon training",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 61,
+            "match_score": 0.603
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1045,7 +2519,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 28,
+        "ctr": 0,
+        "position": 17.79,
+        "primary_query": "best trail running shoes women",
+        "top_queries": [
+          {
+            "query": "best trail running shoes women",
+            "clicks": 0,
+            "impressions": 242,
+            "ctr": 0,
+            "position": 64.92,
+            "match_score": 0.628
+          },
+          {
+            "query": "best trail running shoes for women",
+            "clicks": 0,
+            "impressions": 221,
+            "ctr": 0,
+            "position": 66.14,
+            "match_score": 0.628
+          },
+          {
+            "query": "best womens trail running shoes",
+            "clicks": 0,
+            "impressions": 120,
+            "ctr": 0,
+            "position": 61.94,
+            "match_score": 0.628
+          },
+          {
+            "query": "top trail running shoes for women",
+            "clicks": 0,
+            "impressions": 97,
+            "ctr": 0,
+            "position": 84.45,
+            "match_score": 0.713
+          },
+          {
+            "query": "best trail running shoes for beginners",
+            "clicks": 0,
+            "impressions": 74,
+            "ctr": 0,
+            "position": 48.28,
+            "match_score": 0.628
+          },
+          {
+            "query": "best trail running shoes womens",
+            "clicks": 0,
+            "impressions": 57,
+            "ctr": 0,
+            "position": 58.19,
+            "match_score": 0.628
+          },
+          {
+            "query": "trail running shoes women reviews",
+            "clicks": 0,
+            "impressions": 53,
+            "ctr": 0,
+            "position": 54.09,
+            "match_score": 0.628
+          },
+          {
+            "query": "best wide trail running shoes",
+            "clicks": 0,
+            "impressions": 48,
+            "ctr": 0,
+            "position": 49.94,
+            "match_score": 0.628
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1079,7 +2628,26 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 26,
+        "ctr": 0,
+        "position": 41.19,
+        "primary_query": "best mid-run fuel for ultra marathons",
+        "top_queries": [
+          {
+            "query": "best mid-run fuel for ultra marathons",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 87,
+            "match_score": 0.6
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1112,7 +2680,66 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 348,
+        "ctr": 0,
+        "position": 63.92,
+        "primary_query": "best gels for ultra running",
+        "top_queries": [
+          {
+            "query": "best gels for ultra running",
+            "clicks": 0,
+            "impressions": 28,
+            "ctr": 0,
+            "position": 38.89,
+            "match_score": 0.667
+          },
+          {
+            "query": "best running gels for marathon",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 57.59,
+            "match_score": 0.667
+          },
+          {
+            "query": "best gels for running marathon",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 59.67,
+            "match_score": 0.667
+          },
+          {
+            "query": "best gels for marathon running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 59.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "running gels for marathons",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 65,
+            "match_score": 0.667
+          },
+          {
+            "query": "best marathon running gels",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 58,
+            "match_score": 0.667
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1145,7 +2772,1552 @@
         "average_position",
         "top_queries",
         "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 54,
+        "ctr": 0,
+        "position": 53.78,
+        "primary_query": "best electrolyte mixes for ultrarunning",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-walking-pads.html",
+      "path": "/best-walking-pads.html",
+      "title": "Best Walking Pads",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best walking pads",
+      "secondary_query_patterns": [
+        "best walking pads reviews",
+        "best walking pads buying guide",
+        "best walking pads recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/remote-work.html",
+        "/best-standing-desks.html",
+        "/best-office-chairs.html",
+        "/best-desk-mats.html",
+        "/best-monitor-arms.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 72,
+        "ctr": 0.0139,
+        "position": 25.03,
+        "primary_query": "best walking pads",
+        "top_queries": [
+          {
+            "query": "best walking pads",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 34,
+            "match_score": 1
+          },
+          {
+            "query": "best quality walking pads",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 35,
+            "match_score": 0.793
+          },
+          {
+            "query": "most reliable walking pads",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 31,
+            "match_score": 0.69
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-compression-boots-for-runners.html",
+      "path": "/best-compression-boots-for-runners.html",
+      "title": "Best Compression Boots for Runners",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best compression boots for runners",
+      "secondary_query_patterns": [
+        "best compression boots for runners reviews",
+        "best compression boots for runners buying guide",
+        "best compression boots for runners recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-massage-guns.html",
+        "/best-comfortable-trail-running-shoes.html",
+        "/best-marathon-shoes-for-heavy-runners.html",
+        "/best-ultramarathon-fuel.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 196,
+        "ctr": 0,
+        "position": 54.06,
+        "primary_query": "compression boots reviews",
+        "top_queries": [
+          {
+            "query": "compression boots reviews",
+            "clicks": 0,
+            "impressions": 34,
+            "ctr": 0,
+            "position": 63.35,
+            "match_score": 0.873
+          },
+          {
+            "query": "compression boots review",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 57.75,
+            "match_score": 0.873
+          },
+          {
+            "query": "compression boots for runners",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 1
+          },
+          {
+            "query": "compression boots for running",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 51.33,
+            "match_score": 0.667
+          },
+          {
+            "query": "best compression boots for runners",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 48,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-adjustable-dumbbells.html",
+      "path": "/best-adjustable-dumbbells.html",
+      "title": "Best Adjustable Dumbbells",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best adjustable dumbbells",
+      "secondary_query_patterns": [
+        "best adjustable dumbbells reviews",
+        "best adjustable dumbbells buying guide",
+        "best adjustable dumbbells recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-massage-guns.html",
+        "/best-compression-boots-for-runners.html",
+        "/best-standing-desks.html",
+        "/best-office-chairs.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 253,
+        "ctr": 0,
+        "position": 44,
+        "primary_query": "best adjustable dumbbells",
+        "top_queries": [
+          {
+            "query": "best adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 42.67,
+            "match_score": 1
+          },
+          {
+            "query": "best home adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 49.6,
+            "match_score": 0.793
+          },
+          {
+            "query": "best adjustable dumbbells for home gym",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 49,
+            "match_score": 0.69
+          },
+          {
+            "query": "good adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 55.33,
+            "match_score": 0.793
+          },
+          {
+            "query": "top adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 56,
+            "match_score": 0.793
+          },
+          {
+            "query": "adjustable dumbbells best",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 1
+          },
+          {
+            "query": "best adjustable dumbbells for home",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.793
+          },
+          {
+            "query": "best at home adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 48,
+            "match_score": 0.69
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-carb-drink-mixes-for-ultramarathons.html",
+      "path": "/best-carb-drink-mixes-for-ultramarathons.html",
+      "title": "Best Carb Drink Mixes for Ultramarathons",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best carb drink mixes for ultramarathons",
+      "secondary_query_patterns": [
+        "best carb drink mixes for ultramarathons reviews",
+        "best carb drink mixes for ultramarathons buying guide",
+        "best carb drink mixes for ultramarathons recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-ultramarathon-fuel.html",
+        "/best-running-gels-for-ultramarathons.html",
+        "/best-electrolyte-mixes-for-ultrarunning.html",
+        "/best-hydration-vests-for-100k-and-100-mile-races.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 528,
+        "ctr": 0,
+        "position": 40.48,
+        "primary_query": "best carb drink",
+        "top_queries": [
+          {
+            "query": "best carb drink",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 46.86,
+            "match_score": 0.81
+          },
+          {
+            "query": "carb drink for running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 49.5,
+            "match_score": 0.603
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-electrolytes-for-heavy-sweaters.html",
+      "path": "/best-electrolytes-for-heavy-sweaters.html",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best electrolytes for heavy sweaters",
+      "secondary_query_patterns": [
+        "best electrolytes for heavy sweaters reviews",
+        "best electrolytes for heavy sweaters buying guide",
+        "best electrolytes for heavy sweaters recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-electrolyte-mixes-for-ultrarunning.html",
+        "/best-ultramarathon-fuel.html",
+        "/best-carb-drink-mixes-for-ultramarathons.html",
+        "/best-running-gels-for-ultramarathons.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 32,
+        "ctr": 0,
+        "position": 25.75,
+        "primary_query": "best electrolytes for heavy sweaters?",
+        "top_queries": [
+          {
+            "query": "best electrolytes for heavy sweaters?",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 12,
+            "match_score": 1
+          },
+          {
+            "query": "electrolytes for heavy sweaters",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 31.5,
+            "match_score": 1
+          },
+          {
+            "query": "best electrolytes for heavy sweaters",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 38.5,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-chews.html",
+      "path": "/best-running-chews.html",
+      "title": "Best Running Chews",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running chews",
+      "secondary_query_patterns": [
+        "best running chews reviews",
+        "best running chews buying guide",
+        "best running chews recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-running-gels-for-ultramarathons.html",
+        "/best-ultramarathon-fuel.html",
+        "/best-carb-drink-mixes-for-ultramarathons.html",
+        "/best-electrolyte-mixes-for-ultrarunning.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 60,
+        "ctr": 0,
+        "position": 36.87,
+        "primary_query": "best running chews",
+        "top_queries": [
+          {
+            "query": "best running chews",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 37.14,
+            "match_score": 1
+          },
+          {
+            "query": "best trail running chews",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.793
+          },
+          {
+            "query": "chews for running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 47.5,
+            "match_score": 1
+          },
+          {
+            "query": "best chews for running",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 44,
+            "match_score": 1
+          },
+          {
+            "query": "best energy chews for running",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 28,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-laptop-stands-for-remote-work.html",
+      "path": "/best-laptop-stands-for-remote-work.html",
+      "title": "Best Laptop Stands for Remote Work",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best laptop stands for remote work",
+      "secondary_query_patterns": [
+        "best laptop stands for remote work reviews",
+        "best laptop stands for remote work buying guide",
+        "best laptop stands for remote work recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/remote-work.html",
+        "/best-standing-desks.html",
+        "/best-office-chairs.html",
+        "/best-ergonomic-keyboards.html",
+        "/best-monitor-arms.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 51,
+        "ctr": 0,
+        "position": 62.82,
+        "primary_query": "laptop stand for remote work",
+        "top_queries": [
+          {
+            "query": "laptop stand for remote work",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 66.5,
+            "match_score": 0.75
+          },
+          {
+            "query": "best rated laptop stands",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 60.5,
+            "match_score": 0.603
+          },
+          {
+            "query": "best monitors for remote work",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 67.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best laptop stands",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 62.33,
+            "match_score": 0.81
+          },
+          {
+            "query": "best laptop stands reviews",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 53.5,
+            "match_score": 0.81
+          },
+          {
+            "query": "remote stands",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 62,
+            "match_score": 0.81
+          },
+          {
+            "query": "remote work webcam",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37,
+            "match_score": 0.603
+          },
+          {
+            "query": "best webcam for remote work",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 50.5,
+            "match_score": 0.603
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-commuter-backpacks-for-men.html",
+      "path": "/best-commuter-backpacks-for-men.html",
+      "title": "Best Commuter Backpacks for Men",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best commuter backpacks for men",
+      "secondary_query_patterns": [
+        "best commuter backpacks for men reviews",
+        "best commuter backpacks for men buying guide",
+        "best commuter backpacks for men recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-carry-on-luggage.html",
+        "/best-laptop-stands-for-remote-work.html",
+        "/best-desk-mats.html",
+        "/best-webcams-for-remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 788,
+        "ctr": 0.0013,
+        "position": 55.82,
+        "primary_query": "best commuter backpacks",
+        "top_queries": [
+          {
+            "query": "best commuter backpacks",
+            "clicks": 0,
+            "impressions": 43,
+            "ctr": 0,
+            "position": 50.7,
+            "match_score": 0.873
+          },
+          {
+            "query": "commuter backpacks",
+            "clicks": 0,
+            "impressions": 31,
+            "ctr": 0,
+            "position": 51.32,
+            "match_score": 0.873
+          },
+          {
+            "query": "top commuter backpacks",
+            "clicks": 0,
+            "impressions": 22,
+            "ctr": 0,
+            "position": 64.23,
+            "match_score": 0.667
+          },
+          {
+            "query": "best commuter backpack men",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 56.82,
+            "match_score": 0.667
+          },
+          {
+            "query": "best commuter backpack for men",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 71.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpack men",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 58.22,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpack for men",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 54.83,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpacks for men",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 65.75,
+            "match_score": 1
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-beard-trimmers.html",
+      "path": "/best-beard-trimmers.html",
+      "title": "Best Beard Trimmers",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best beard trimmers",
+      "secondary_query_patterns": [
+        "best beard trimmers reviews",
+        "best beard trimmers buying guide",
+        "best beard trimmers recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-commuter-backpacks-for-men.html",
+        "/best-carry-on-luggage.html",
+        "/best-coffee-makers.html",
+        "/best-air-purifiers.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
       ]
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-socks-for-long-runs.html",
+      "path": "/best-running-socks-for-long-runs.html",
+      "title": "Best Running Socks for Long Runs",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running socks for long runs",
+      "secondary_query_patterns": [
+        "best running socks for long runs reviews",
+        "best running socks for long runs buying guide",
+        "best running socks for long runs recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-mens-trail-running-shoes.html",
+        "/best-womens-trail-running-shoes.html",
+        "/best-comfortable-trail-running-shoes.html",
+        "/best-running-chews.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 86,
+        "ctr": 0,
+        "position": 62.28,
+        "primary_query": "durable running socks",
+        "top_queries": [
+          {
+            "query": "durable running socks",
+            "clicks": 0,
+            "impressions": 29,
+            "ctr": 0,
+            "position": 62.1,
+            "match_score": 0.603
+          },
+          {
+            "query": "best socks for running long distance",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 83,
+            "match_score": 0.75
+          },
+          {
+            "query": "best trail running socks",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 77.83,
+            "match_score": 0.603
+          },
+          {
+            "query": "best long distance running socks",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 72,
+            "match_score": 0.75
+          },
+          {
+            "query": "running socks long",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 68,
+            "match_score": 0.905
+          },
+          {
+            "query": "best socks for long distance running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 73.5,
+            "match_score": 0.75
+          },
+          {
+            "query": "best long running socks",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 58,
+            "match_score": 0.905
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-sunglasses-for-sweat-and-bounce.html",
+      "path": "/best-running-sunglasses-for-sweat-and-bounce.html",
+      "title": "Best Running Sunglasses for Sweat and Bounce",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running sunglasses for sweat and bounce",
+      "secondary_query_patterns": [
+        "best running sunglasses for sweat and bounce reviews",
+        "best running sunglasses for sweat and bounce buying guide",
+        "best running sunglasses for sweat and bounce recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-running-hats.html",
+        "/best-running-belts.html",
+        "/best-handheld-running-water-bottles.html",
+        "/best-comfortable-trail-running-shoes.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 211,
+        "ctr": 0,
+        "position": 64.36,
+        "primary_query": "best running sunglasses",
+        "top_queries": [
+          {
+            "query": "best running sunglasses",
+            "clicks": 0,
+            "impressions": 75,
+            "ctr": 0,
+            "position": 67.44,
+            "match_score": 0.81
+          },
+          {
+            "query": "top running sunglasses",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 66.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best sunglasses for running",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 74.67,
+            "match_score": 0.81
+          },
+          {
+            "query": "lightweight running sunglasses",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 76.67,
+            "match_score": 0.603
+          },
+          {
+            "query": "best lightweight running sunglasses",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 78.5,
+            "match_score": 0.603
+          },
+          {
+            "query": "lightweight sunglasses for running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 80,
+            "match_score": 0.603
+          },
+          {
+            "query": "sweat resistant sunglasses",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 48,
+            "match_score": 0.603
+          },
+          {
+            "query": "best value running sunglasses",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 49,
+            "match_score": 0.603
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-running-belts.html",
+      "path": "/best-running-belts.html",
+      "title": "Best Running Belts",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best running belts",
+      "secondary_query_patterns": [
+        "best running belts reviews",
+        "best running belts buying guide",
+        "best running belts recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "September 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-running-vests.html",
+        "/best-hydration-packs.html",
+        "/best-handheld-running-water-bottles.html",
+        "/best-running-gels-for-ultramarathons.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 1248,
+        "ctr": 0.0008,
+        "position": 56.34,
+        "primary_query": "best running belts",
+        "top_queries": [
+          {
+            "query": "best running belts",
+            "clicks": 0,
+            "impressions": 165,
+            "ctr": 0,
+            "position": 54.75,
+            "match_score": 1
+          },
+          {
+            "query": "running belts",
+            "clicks": 0,
+            "impressions": 54,
+            "ctr": 0,
+            "position": 65.78,
+            "match_score": 1
+          },
+          {
+            "query": "top rated running belts",
+            "clicks": 0,
+            "impressions": 24,
+            "ctr": 0,
+            "position": 55.25,
+            "match_score": 0.69
+          },
+          {
+            "query": "are running belts good",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 56.39,
+            "match_score": 0.793
+          },
+          {
+            "query": "best hydration belts for running",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 68.46,
+            "match_score": 0.793
+          },
+          {
+            "query": "best running belts and waistpacks",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 49.25,
+            "match_score": 0.793
+          },
+          {
+            "query": "best marathon running belts",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 58.83,
+            "match_score": 0.793
+          },
+          {
+            "query": "best running belts for marathon",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 62.6,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-handheld-running-water-bottles.html",
+      "path": "/best-handheld-running-water-bottles.html",
+      "title": "Best Handheld Running Water Bottles",
+      "page_type": "roundup_review",
+      "section_slug": "outdoor",
+      "cluster": "Outdoor",
+      "priority": 3,
+      "primary_query": "best handheld running water bottles",
+      "secondary_query_patterns": [
+        "best handheld running water bottles reviews",
+        "best handheld running water bottles buying guide",
+        "best handheld running water bottles recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/outdoor.html",
+        "/best-running-belts.html",
+        "/best-hydration-packs.html",
+        "/best-running-vests.html",
+        "/best-electrolytes-for-heavy-sweaters.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 771,
+        "ctr": 0,
+        "position": 54.7,
+        "primary_query": "best running water bottles",
+        "top_queries": [
+          {
+            "query": "best running water bottles",
+            "clicks": 0,
+            "impressions": 52,
+            "ctr": 0,
+            "position": 66.9,
+            "match_score": 0.905
+          },
+          {
+            "query": "running handheld water bottle",
+            "clicks": 0,
+            "impressions": 44,
+            "ctr": 0,
+            "position": 61,
+            "match_score": 0.75
+          },
+          {
+            "query": "best handheld water bottle for running",
+            "clicks": 0,
+            "impressions": 40,
+            "ctr": 0,
+            "position": 48.8,
+            "match_score": 0.75
+          },
+          {
+            "query": "handheld running water bottle",
+            "clicks": 0,
+            "impressions": 40,
+            "ctr": 0,
+            "position": 59.27,
+            "match_score": 0.75
+          },
+          {
+            "query": "handheld running bottle",
+            "clicks": 0,
+            "impressions": 39,
+            "ctr": 0,
+            "position": 56,
+            "match_score": 0.603
+          },
+          {
+            "query": "handheld water bottle",
+            "clicks": 0,
+            "impressions": 36,
+            "ctr": 0,
+            "position": 59.11,
+            "match_score": 0.603
+          },
+          {
+            "query": "running bottle handheld",
+            "clicks": 0,
+            "impressions": 33,
+            "ctr": 0,
+            "position": 58.91,
+            "match_score": 0.603
+          },
+          {
+            "query": "handheld water bottle for running",
+            "clicks": 0,
+            "impressions": 31,
+            "ctr": 0,
+            "position": 60.94,
+            "match_score": 0.75
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-usb-c-hubs-for-remote-work.html",
+      "path": "/best-usb-c-hubs-for-remote-work.html",
+      "title": "Best USB-C Hubs for Remote Work",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best usb-c hubs for remote work",
+      "secondary_query_patterns": [
+        "best usb-c hubs for remote work reviews",
+        "best usb-c hubs for remote work buying guide",
+        "best usb-c hubs for remote work recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/remote-work.html",
+        "/best-laptop-stands-for-remote-work.html",
+        "/best-portable-monitors-for-remote-work.html",
+        "/best-monitor-arms.html",
+        "/best-webcams-for-remote-work.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 69,
+        "ctr": 0,
+        "position": 32.55,
+        "primary_query": "best usb-c hubs",
+        "top_queries": [
+          {
+            "query": "best usb-c hubs",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 57.67,
+            "match_score": 0.848
+          },
+          {
+            "query": "usb-c hubs storage",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 45.67,
+            "match_score": 0.693
+          },
+          {
+            "query": "best usb c hubs",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 57,
+            "match_score": 0.848
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-portable-monitors-for-remote-work.html",
+      "path": "/best-portable-monitors-for-remote-work.html",
+      "title": "Best Portable Monitors for Remote Work",
+      "page_type": "roundup_review",
+      "section_slug": "remote-work",
+      "cluster": "Remote Work",
+      "priority": 3,
+      "primary_query": "best portable monitors for remote work",
+      "secondary_query_patterns": [
+        "best portable monitors for remote work reviews",
+        "best portable monitors for remote work buying guide",
+        "best portable monitors for remote work recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/remote-work.html",
+        "/best-usb-c-hubs-for-remote-work.html",
+        "/best-laptop-stands-for-remote-work.html",
+        "/best-monitor-arms.html",
+        "/best-standing-desks.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 1,
+        "impressions": 306,
+        "ctr": 0.0033,
+        "position": 49.9,
+        "primary_query": "portable monitor for work",
+        "top_queries": [
+          {
+            "query": "portable monitor for work",
+            "clicks": 0,
+            "impressions": 23,
+            "ctr": 0,
+            "position": 48.48,
+            "match_score": 0.603
+          },
+          {
+            "query": "best portable monitors",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 50.72,
+            "match_score": 0.81
+          },
+          {
+            "query": "portable monitor for remote work",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 55.65,
+            "match_score": 0.75
+          },
+          {
+            "query": "best portable monitors for work",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 71.21,
+            "match_score": 0.905
+          },
+          {
+            "query": "best portable monitor for work",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 68.92,
+            "match_score": 0.603
+          },
+          {
+            "query": "best portable monitors for business",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 71.8,
+            "match_score": 0.603
+          },
+          {
+            "query": "portable monitors for work",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 49.67,
+            "match_score": 0.905
+          },
+          {
+            "query": "remote monitors",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 45,
+            "match_score": 0.81
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-electric-shavers-for-men.html",
+      "path": "/best-electric-shavers-for-men.html",
+      "title": "Best Electric Shavers for Men",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best electric shavers for men",
+      "secondary_query_patterns": [
+        "best electric shavers for men reviews",
+        "best electric shavers for men buying guide",
+        "best electric shavers for men recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-beard-trimmers.html",
+        "/best-body-groomers-for-men.html",
+        "/best-commuter-backpacks-for-men.html",
+        "/best-carry-on-luggage.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 31,
+        "ctr": 0,
+        "position": 24.65,
+        "primary_query": "best electric shavers for men",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-body-groomers-for-men.html",
+      "path": "/best-body-groomers-for-men.html",
+      "title": "Best Body Groomers for Men",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best body groomers for men",
+      "secondary_query_patterns": [
+        "best body groomers for men reviews",
+        "best body groomers for men buying guide",
+        "best body groomers for men recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-beard-trimmers.html",
+        "/best-electric-shavers-for-men.html",
+        "/best-commuter-backpacks-for-men.html",
+        "/best-carry-on-luggage.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 71,
+        "ctr": 0,
+        "position": 20,
+        "primary_query": "best male body groomers",
+        "top_queries": [
+          {
+            "query": "best male body groomers",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 38.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "best body groomer for men",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 44.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "best body trimmer for men",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 42,
+            "match_score": 0.667
+          },
+          {
+            "query": "best body grooming for men",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 44,
+            "match_score": 0.667
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-protein-bars.html",
+      "path": "/best-protein-bars.html",
+      "title": "Best Protein Bars",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best protein bars",
+      "secondary_query_patterns": [
+        "best protein bars reviews",
+        "best protein bars buying guide",
+        "best protein bars recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-adjustable-dumbbells.html",
+        "/best-creatine.html",
+        "/best-running-chews.html",
+        "/best-ultramarathon-fuel.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 19.17,
+        "primary_query": "best budget protein bars",
+        "top_queries": [
+          {
+            "query": "best budget protein bars",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.793
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
+    },
+    {
+      "status": "live",
+      "url": "https://www.phavai.com/best-creatine.html",
+      "path": "/best-creatine.html",
+      "title": "Best Creatine",
+      "page_type": "roundup_review",
+      "section_slug": "lifestyle",
+      "cluster": "Lifestyle",
+      "priority": 3,
+      "primary_query": "best creatine",
+      "secondary_query_patterns": [
+        "best creatine reviews",
+        "best creatine buying guide",
+        "best creatine recommendations"
+      ],
+      "search_intent": "best product commercial investigation",
+      "last_updated": "May 5, 2026",
+      "related_paths": [
+        "/lifestyle.html",
+        "/best-adjustable-dumbbells.html",
+        "/best-protein-bars.html",
+        "/best-massage-guns.html",
+        "/best-body-groomers-for-men.html"
+      ],
+      "gsc_metrics_to_monitor": [
+        "clicks",
+        "impressions",
+        "ctr",
+        "average_position",
+        "top_queries",
+        "landing_page"
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 48,
+        "ctr": 0,
+        "position": 10.42,
+        "primary_query": "best creatine",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1207,7 +4379,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 181,
+        "ctr": 0,
+        "position": 62.65,
+        "primary_query": "how to choose a running hydration vest",
+        "top_queries": [
+          {
+            "query": "how to choose a running hydration vest",
+            "clicks": 0,
+            "impressions": 25,
+            "ctr": 0,
+            "position": 79.08,
+            "match_score": 0.607
+          },
+          {
+            "query": "best hydration vest",
+            "clicks": 0,
+            "impressions": 11,
+            "ctr": 0,
+            "position": 55.64,
+            "match_score": 0.715
+          },
+          {
+            "query": "hydration pack for trail running",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 84.33,
+            "match_score": 0.607
+          },
+          {
+            "query": "best running hydration vest",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 64.25,
+            "match_score": 0.762
+          },
+          {
+            "query": "best running vest",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 62.8,
+            "match_score": 0.715
+          },
+          {
+            "query": "running hydration pack",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 65.75,
+            "match_score": 0.762
+          },
+          {
+            "query": "best hydration vest for ultra running",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 82.75,
+            "match_score": 0.607
+          },
+          {
+            "query": "hydration pack vs running vest",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 59.5,
+            "match_score": 0.81
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1238,7 +4485,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 26,
+        "primary_query": "best gps running watch",
+        "top_queries": [
+          {
+            "query": "best gps running watch",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 46.6,
+            "match_score": 0.783
+          },
+          {
+            "query": "best gps watch",
+            "clicks": 0,
+            "impressions": 43,
+            "ctr": 0,
+            "position": 49.05,
+            "match_score": 0.729
+          },
+          {
+            "query": "best gps watch for running",
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 51.16,
+            "match_score": 0.783
+          },
+          {
+            "query": "best running watch gps",
+            "clicks": 0,
+            "impressions": 16,
+            "ctr": 0,
+            "position": 46.56,
+            "match_score": 0.783
+          },
+          {
+            "query": "best running gps watch",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 47.83,
+            "match_score": 0.783
+          },
+          {
+            "query": "跑步 gps 裝置",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 84.71,
+            "match_score": 0.674
+          },
+          {
+            "query": "best gps watch running",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 49.67,
+            "match_score": 0.783
+          },
+          {
+            "query": "best gps watch for ultra running",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 0.628
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1301,7 +4623,26 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 28,
+        "ctr": 0,
+        "position": 32.82,
+        "primary_query": "best standing desk",
+        "top_queries": [
+          {
+            "query": "best standing desk",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 58.62,
+            "match_score": 0.715
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1332,7 +4673,82 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 70,
+        "primary_query": "remote webcam",
+        "top_queries": [
+          {
+            "query": "remote webcam",
+            "clicks": 0,
+            "impressions": 28,
+            "ctr": 0,
+            "position": 40.36,
+            "match_score": 0.81
+          },
+          {
+            "query": "best webcam for work",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 48.75,
+            "match_score": 0.81
+          },
+          {
+            "query": "importance of high-quality webcam for remote work",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 62.17,
+            "match_score": 0.595
+          },
+          {
+            "query": "work webcam",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 40.2,
+            "match_score": 0.81
+          },
+          {
+            "query": "importance of high quality webcam for remote work",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 48.8,
+            "match_score": 0.595
+          },
+          {
+            "query": "work on webcam",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 46.25,
+            "match_score": 0.81
+          },
+          {
+            "query": "best monitors for remote work",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 67.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "remote work webcam",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37,
+            "match_score": 0.905
+          }
+        ],
+        "query_mapping": "inferred_from_sitewide_query_similarity",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1419,7 +4835,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 28.67,
+        "primary_query": "coffee maker features that actually matter",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1446,7 +4872,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 18.25,
+        "primary_query": "methodology",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1500,7 +4936,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 3.78,
+        "primary_query": "about",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1527,7 +4973,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.75,
+        "primary_query": "contact",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1554,7 +5010,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.5,
+        "primary_query": "privacy",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     },
     {
       "status": "live",
@@ -1581,7 +5047,17 @@
         "average_position",
         "top_queries",
         "landing_page"
-      ]
+      ],
+      "search_metrics": {
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4,
+        "primary_query": "terms",
+        "top_queries": [],
+        "query_mapping": "no_matching_sitewide_query",
+        "source": "Pages.csv"
+      }
     }
   ],
   "planned_opportunities": [
@@ -1979,13 +5455,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Running Belts",
-      "proposed_slug": "best-running-belts",
+      "title": "Best Handheld Water Bottles",
+      "proposed_slug": "best-handheld-water-bottles",
       "page_type": "core_roundups",
       "cluster": "Outdoor / Running / Endurance",
       "section_slug": "outdoor",
       "priority": 1.07,
-      "primary_query": "best running belts",
+      "primary_query": "best handheld water bottles",
       "internal_link_targets": [
         "/outdoor.html"
       ],
@@ -2035,13 +5511,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Handheld Water Bottles",
-      "proposed_slug": "best-handheld-water-bottles",
+      "title": "Best Recovery Slides",
+      "proposed_slug": "best-recovery-slides",
       "page_type": "core_roundups",
       "cluster": "Outdoor / Running / Endurance",
       "section_slug": "outdoor",
       "priority": 1.08,
-      "primary_query": "best handheld water bottles",
+      "primary_query": "best recovery slides",
       "internal_link_targets": [
         "/outdoor.html"
       ],
@@ -2091,13 +5567,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Recovery Slides",
-      "proposed_slug": "best-recovery-slides",
+      "title": "Best Foam Rollers for Runners",
+      "proposed_slug": "best-foam-rollers-for-runners",
       "page_type": "core_roundups",
       "cluster": "Outdoor / Running / Endurance",
       "section_slug": "outdoor",
       "priority": 1.09,
-      "primary_query": "best recovery slides",
+      "primary_query": "best foam rollers for runners",
       "internal_link_targets": [
         "/outdoor.html"
       ],
@@ -2147,13 +5623,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Foam Rollers for Runners",
-      "proposed_slug": "best-foam-rollers-for-runners",
+      "title": "Best Massage Guns for Runners",
+      "proposed_slug": "best-massage-guns-for-runners",
       "page_type": "core_roundups",
       "cluster": "Outdoor / Running / Endurance",
       "section_slug": "outdoor",
       "priority": 1.1,
-      "primary_query": "best foam rollers for runners",
+      "primary_query": "best massage guns for runners",
       "internal_link_targets": [
         "/outdoor.html"
       ],
@@ -2189,20 +5665,6 @@
     },
     {
       "status": "planned",
-      "title": "Best Massage Guns for Runners",
-      "proposed_slug": "best-massage-guns-for-runners",
-      "page_type": "core_roundups",
-      "cluster": "Outdoor / Running / Endurance",
-      "section_slug": "outdoor",
-      "priority": 1.11,
-      "primary_query": "best massage guns for runners",
-      "internal_link_targets": [
-        "/outdoor.html"
-      ],
-      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
-    },
-    {
-      "status": "planned",
       "title": "Best Running Headphones for Small Ears",
       "proposed_slug": "best-running-headphones-for-small-ears",
       "page_type": "use_cases",
@@ -2231,26 +5693,12 @@
     },
     {
       "status": "planned",
-      "title": "Best Running Sunglasses for Sweat and Bounce",
-      "proposed_slug": "best-running-sunglasses-for-sweat-and-bounce",
-      "page_type": "use_cases",
-      "cluster": "Outdoor / Running / Endurance",
-      "section_slug": "outdoor",
-      "priority": 1.12,
-      "primary_query": "best running sunglasses for sweat and bounce",
-      "internal_link_targets": [
-        "/outdoor.html"
-      ],
-      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
-    },
-    {
-      "status": "planned",
       "title": "Best Recovery Tools for Sore Calves",
       "proposed_slug": "best-recovery-tools-for-sore-calves",
       "page_type": "use_cases",
       "cluster": "Outdoor / Running / Endurance",
       "section_slug": "outdoor",
-      "priority": 1.13,
+      "priority": 1.12,
       "primary_query": "best recovery tools for sore calves",
       "internal_link_targets": [
         "/outdoor.html"
@@ -2264,7 +5712,7 @@
       "page_type": "use_cases",
       "cluster": "Outdoor / Running / Endurance",
       "section_slug": "outdoor",
-      "priority": 1.1400000000000001,
+      "priority": 1.13,
       "primary_query": "best recovery tools for marathon training",
       "internal_link_targets": [
         "/outdoor.html"
@@ -2889,13 +6337,13 @@
     },
     {
       "status": "planned",
-      "title": "Best USB-C Hubs for Remote Work",
-      "proposed_slug": "best-usb-c-hubs-for-remote-work",
+      "title": "Best Home Office Monitors",
+      "proposed_slug": "best-home-office-monitors",
       "page_type": "core_roundups",
       "cluster": "Remote Work / Home Office",
       "section_slug": "remote-work",
       "priority": 3.02,
-      "primary_query": "best usb-c hubs for remote work",
+      "primary_query": "best home office monitors",
       "internal_link_targets": [
         "/remote-work.html"
       ],
@@ -2945,13 +6393,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Home Office Monitors",
-      "proposed_slug": "best-home-office-monitors",
+      "title": "Best Noise-Canceling Headphones for Remote Work",
+      "proposed_slug": "best-noise-canceling-headphones-for-remote-work",
       "page_type": "core_roundups",
       "cluster": "Remote Work / Home Office",
       "section_slug": "remote-work",
       "priority": 3.03,
-      "primary_query": "best home office monitors",
+      "primary_query": "best noise-canceling headphones for remote work",
       "internal_link_targets": [
         "/remote-work.html"
       ],
@@ -3001,13 +6449,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Noise-Canceling Headphones for Remote Work",
-      "proposed_slug": "best-noise-canceling-headphones-for-remote-work",
+      "title": "Best Laptop Stands",
+      "proposed_slug": "best-laptop-stands",
       "page_type": "core_roundups",
       "cluster": "Remote Work / Home Office",
       "section_slug": "remote-work",
       "priority": 3.04,
-      "primary_query": "best noise-canceling headphones for remote work",
+      "primary_query": "best laptop stands",
       "internal_link_targets": [
         "/remote-work.html"
       ],
@@ -3057,13 +6505,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Laptop Stands",
-      "proposed_slug": "best-laptop-stands",
+      "title": "Best Footrests for Under Your Desk",
+      "proposed_slug": "best-footrests-for-under-your-desk",
       "page_type": "core_roundups",
       "cluster": "Remote Work / Home Office",
       "section_slug": "remote-work",
       "priority": 3.05,
-      "primary_query": "best laptop stands",
+      "primary_query": "best footrests for under your desk",
       "internal_link_targets": [
         "/remote-work.html"
       ],
@@ -3113,13 +6561,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Footrests for Under Your Desk",
-      "proposed_slug": "best-footrests-for-under-your-desk",
+      "title": "Best Microphones for Video Calls",
+      "proposed_slug": "best-microphones-for-video-calls",
       "page_type": "core_roundups",
       "cluster": "Remote Work / Home Office",
       "section_slug": "remote-work",
       "priority": 3.06,
-      "primary_query": "best footrests for under your desk",
+      "primary_query": "best microphones for video calls",
       "internal_link_targets": [
         "/remote-work.html"
       ],
@@ -3148,20 +6596,6 @@
       "section_slug": "remote-work",
       "priority": 3.06,
       "primary_query": "the best home office upgrades under $100",
-      "internal_link_targets": [
-        "/remote-work.html"
-      ],
-      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
-    },
-    {
-      "status": "planned",
-      "title": "Best Microphones for Video Calls",
-      "proposed_slug": "best-microphones-for-video-calls",
-      "page_type": "core_roundups",
-      "cluster": "Remote Work / Home Office",
-      "section_slug": "remote-work",
-      "priority": 3.07,
-      "primary_query": "best microphones for video calls",
       "internal_link_targets": [
         "/remote-work.html"
       ],
@@ -3771,13 +7205,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Walking Pads",
-      "proposed_slug": "best-walking-pads",
+      "title": "Best Treadmills for Apartments",
+      "proposed_slug": "best-treadmills-for-apartments",
       "page_type": "core_roundups",
       "cluster": "Home Fitness / Recovery",
       "section_slug": "lifestyle",
       "priority": 5.02,
-      "primary_query": "best walking pads",
+      "primary_query": "best treadmills for apartments",
       "internal_link_targets": [
         "/lifestyle.html"
       ],
@@ -3827,13 +7261,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Treadmills for Apartments",
-      "proposed_slug": "best-treadmills-for-apartments",
+      "title": "Best Recovery Slides",
+      "proposed_slug": "best-recovery-slides",
       "page_type": "core_roundups",
       "cluster": "Home Fitness / Recovery",
       "section_slug": "lifestyle",
       "priority": 5.03,
-      "primary_query": "best treadmills for apartments",
+      "primary_query": "best recovery slides",
       "internal_link_targets": [
         "/lifestyle.html"
       ],
@@ -3883,13 +7317,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Recovery Slides",
-      "proposed_slug": "best-recovery-slides",
+      "title": "Best Ice Bath Tubs",
+      "proposed_slug": "best-ice-bath-tubs",
       "page_type": "core_roundups",
       "cluster": "Home Fitness / Recovery",
       "section_slug": "lifestyle",
       "priority": 5.04,
-      "primary_query": "best recovery slides",
+      "primary_query": "best ice bath tubs",
       "internal_link_targets": [
         "/lifestyle.html"
       ],
@@ -3939,13 +7373,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Ice Bath Tubs",
-      "proposed_slug": "best-ice-bath-tubs",
+      "title": "Best Resistance Bands",
+      "proposed_slug": "best-resistance-bands",
       "page_type": "core_roundups",
       "cluster": "Home Fitness / Recovery",
       "section_slug": "lifestyle",
       "priority": 5.05,
-      "primary_query": "best ice bath tubs",
+      "primary_query": "best resistance bands",
       "internal_link_targets": [
         "/lifestyle.html"
       ],
@@ -3967,13 +7401,13 @@
     },
     {
       "status": "planned",
-      "title": "Best Resistance Bands",
-      "proposed_slug": "best-resistance-bands",
+      "title": "Best Yoga Mats",
+      "proposed_slug": "best-yoga-mats",
       "page_type": "core_roundups",
       "cluster": "Home Fitness / Recovery",
       "section_slug": "lifestyle",
       "priority": 5.06,
-      "primary_query": "best resistance bands",
+      "primary_query": "best yoga mats",
       "internal_link_targets": [
         "/lifestyle.html"
       ],
@@ -3995,20 +7429,6 @@
     },
     {
       "status": "planned",
-      "title": "Best Adjustable Dumbbells",
-      "proposed_slug": "best-adjustable-dumbbells",
-      "page_type": "core_roundups",
-      "cluster": "Home Fitness / Recovery",
-      "section_slug": "lifestyle",
-      "priority": 5.07,
-      "primary_query": "best adjustable dumbbells",
-      "internal_link_targets": [
-        "/lifestyle.html"
-      ],
-      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
-    },
-    {
-      "status": "planned",
       "title": "Best Yoga Mats for Sweaty Workouts",
       "proposed_slug": "best-yoga-mats-for-sweaty-workouts",
       "page_type": "use_cases",
@@ -4016,20 +7436,6 @@
       "section_slug": "lifestyle",
       "priority": 5.07,
       "primary_query": "best yoga mats for sweaty workouts",
-      "internal_link_targets": [
-        "/lifestyle.html"
-      ],
-      "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
-    },
-    {
-      "status": "planned",
-      "title": "Best Yoga Mats",
-      "proposed_slug": "best-yoga-mats",
-      "page_type": "core_roundups",
-      "cluster": "Home Fitness / Recovery",
-      "section_slug": "lifestyle",
-      "priority": 5.08,
-      "primary_query": "best yoga mats",
       "internal_link_targets": [
         "/lifestyle.html"
       ],
@@ -4987,5 +8393,46 @@
       ],
       "gsc_trigger": "Build when related live pages gain impressions, when GSC shows query impressions without a matching page, or when the cluster needs a comparison/use-case support page."
     }
-  ]
+  ],
+  "search_console_import": {
+    "imported_at": "2026-09-05T18:52:19.613Z",
+    "files": {
+      "pages": "Pages.csv",
+      "queries": "Queries.csv",
+      "chart": "Chart (1).csv"
+    },
+    "exported_page_rows": 62,
+    "matched_live_pages": 62,
+    "unmatched_exported_pages": 0,
+    "site_summary": {
+      "start": "2026-06-04",
+      "end": "2026-09-03",
+      "days": 92,
+      "clicks": 7,
+      "impressions": 17246,
+      "ctr": 0.000406,
+      "position": 47.81
+    },
+    "first_28_days": {
+      "start": "2026-06-04",
+      "end": "2026-07-01",
+      "days": 28,
+      "clicks": 1,
+      "impressions": 6509,
+      "ctr": 0.000154,
+      "position": 47.94
+    },
+    "latest_28_days": {
+      "start": "2026-08-07",
+      "end": "2026-09-03",
+      "days": 28,
+      "clicks": 4,
+      "impressions": 3699,
+      "ctr": 0.001081,
+      "position": 50.43
+    },
+    "impression_change_pct": -43.2,
+    "click_change_pct": 300,
+    "query_mapping_note": "Queries.csv is sitewide. Per-page top queries are inferred by normalized title and slug token overlap, not exported as a landing-page/query join."
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T18:07:18.102Z",
+  "generatedAt": "2026-09-05T18:55:26.530Z",
   "summary": {
     "pages": 51,
     "productPlacements": 218,
@@ -12,6 +12,136 @@
   },
   "topPages": [
     {
+      "page": "best-running-headphones",
+      "title": "Best Running Headphones",
+      "section": "outdoor",
+      "dataSource": "core",
+      "updated": "September 5, 2026",
+      "daysSinceUpdated": 0,
+      "productCount": 4,
+      "sourceGapTotal": 0,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 4,
+      "averageEvidenceCount": 12.5,
+      "contentMaintenanceScore": 0,
+      "searchSignal": {
+        "primaryQuery": "best running headphones",
+        "impressions": 2844,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 27.01,
+        "topQueries": [
+          {
+            "query": "best running headphones",
+            "clicks": 0,
+            "impressions": 1584,
+            "ctr": 0,
+            "position": 21.27,
+            "match_score": 1
+          },
+          {
+            "query": "best headphones for running",
+            "clicks": 0,
+            "impressions": 936,
+            "ctr": 0,
+            "position": 31.17,
+            "match_score": 1
+          },
+          {
+            "query": "running headphones",
+            "clicks": 0,
+            "impressions": 38,
+            "ctr": 0,
+            "position": 61.45,
+            "match_score": 1
+          },
+          {
+            "query": "best headphones running",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 47.38,
+            "match_score": 1
+          },
+          {
+            "query": "headphones for running",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 67.58,
+            "match_score": 1
+          },
+          {
+            "query": "great running headphones",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 53,
+            "match_score": 0.793
+          },
+          {
+            "query": "best rated running headphones",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 49.6,
+            "match_score": 0.793
+          },
+          {
+            "query": "good headphones for running",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 55,
+            "match_score": 0.793
+          }
+        ]
+      },
+      "searchOpportunityScore": 71,
+      "opportunityScore": 213,
+      "recommendedActions": [
+        "Prioritize this page: it already has meaningful impressions within striking distance of page one."
+      ]
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "section": "remote-work",
+      "dataSource": "core",
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 138,
+      "productCount": 4,
+      "sourceGapTotal": 3,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 2,
+      "averageEvidenceCount": 7.8,
+      "contentMaintenanceScore": 17,
+      "searchSignal": {
+        "primaryQuery": "best monitor arms",
+        "impressions": 293,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 24.55,
+        "topQueries": [
+          {
+            "query": "best monitor arms",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 28.07,
+            "match_score": 1
+          }
+        ]
+      },
+      "searchOpportunityScore": 63,
+      "opportunityScore": 206,
+      "recommendedActions": [
+        "Prioritize this page: it already has meaningful impressions within striking distance of page one.",
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
       "page": "best-body-groomers-for-men",
       "title": "Best Body Groomers for Men",
       "section": "lifestyle",
@@ -23,272 +153,53 @@
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 3.8,
+      "contentMaintenanceScore": 40,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "best male body groomers",
+        "impressions": 71,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 20,
+        "topQueries": [
+          {
+            "query": "best male body groomers",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 38.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "best body groomer for men",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 44.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "best body trimmer for men",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 42,
+            "match_score": 0.667
+          },
+          {
+            "query": "best body grooming for men",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 44,
+            "match_score": 0.667
+          }
+        ]
       },
-      "opportunityScore": 210,
+      "searchOpportunityScore": 50,
+      "opportunityScore": 200,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-usb-c-hubs-for-remote-work",
-      "title": "Best USB-C Hubs for Remote Work",
-      "section": "remote-work",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 8,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 3.5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 190,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-beard-trimmers",
-      "title": "Best Beard Trimmers",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 5,
-      "sourceGapTotal": 5,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 5.2,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 180,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-portable-monitors-for-remote-work",
-      "title": "Best Portable Monitors for Remote Work",
-      "section": "remote-work",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 3.5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 176,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-protein-bars",
-      "title": "Best Protein Bars",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 5,
-      "sourceGapTotal": 6,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 170,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-creatine",
-      "title": "Best Creatine",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 5,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 168,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-running-socks-for-long-runs",
-      "title": "Best Running Socks for Long Runs",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 3.8,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 166,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-running-sunglasses-for-sweat-and-bounce",
-      "title": "Best Running Sunglasses for Sweat and Bounce",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 8,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 3.5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 166,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-laptop-stands-for-remote-work",
-      "title": "Best Laptop Stands for Remote Work",
-      "section": "remote-work",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 6,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 162,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-handheld-running-water-bottles",
-      "title": "Best Handheld Running Water Bottles",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 7,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 156,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-electrolytes-for-heavy-sweaters",
-      "title": "Best Electrolytes for Heavy Sweaters",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 123,
-      "productCount": 4,
-      "sourceGapTotal": 6,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 1,
-      "averageEvidenceCount": 4.5,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 148,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -304,41 +215,167 @@
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 4.3,
+      "contentMaintenanceScore": 34,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "best walking pads",
+        "impressions": 72,
+        "clicks": 1,
+        "ctr": 0.0139,
+        "position": 25.03,
+        "topQueries": [
+          {
+            "query": "best walking pads",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 34,
+            "match_score": 1
+          },
+          {
+            "query": "best quality walking pads",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 35,
+            "match_score": 0.793
+          },
+          {
+            "query": "most reliable walking pads",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 31,
+            "match_score": 0.69
+          }
+        ]
       },
-      "opportunityScore": 146,
+      "searchOpportunityScore": 50,
+      "opportunityScore": 194,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
-      "page": "best-running-chews",
-      "title": "Best Running Chews",
+      "page": "best-handheld-running-water-bottles",
+      "title": "Best Handheld Running Water Bottles",
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
       "daysSinceUpdated": 123,
       "productCount": 4,
-      "sourceGapTotal": 8,
+      "sourceGapTotal": 7,
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.5,
+      "averageEvidenceCount": 4,
+      "contentMaintenanceScore": 37,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "best running water bottles",
+        "impressions": 771,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 54.7,
+        "topQueries": [
+          {
+            "query": "best running water bottles",
+            "clicks": 0,
+            "impressions": 52,
+            "ctr": 0,
+            "position": 66.9,
+            "match_score": 0.905
+          },
+          {
+            "query": "running handheld water bottle",
+            "clicks": 0,
+            "impressions": 44,
+            "ctr": 0,
+            "position": 61,
+            "match_score": 0.75
+          },
+          {
+            "query": "best handheld water bottle for running",
+            "clicks": 0,
+            "impressions": 40,
+            "ctr": 0,
+            "position": 48.8,
+            "match_score": 0.75
+          },
+          {
+            "query": "handheld running water bottle",
+            "clicks": 0,
+            "impressions": 40,
+            "ctr": 0,
+            "position": 59.27,
+            "match_score": 0.75
+          },
+          {
+            "query": "handheld running bottle",
+            "clicks": 0,
+            "impressions": 39,
+            "ctr": 0,
+            "position": 56,
+            "match_score": 0.603
+          },
+          {
+            "query": "handheld water bottle",
+            "clicks": 0,
+            "impressions": 36,
+            "ctr": 0,
+            "position": 59.11,
+            "match_score": 0.603
+          },
+          {
+            "query": "running bottle handheld",
+            "clicks": 0,
+            "impressions": 33,
+            "ctr": 0,
+            "position": 58.91,
+            "match_score": 0.603
+          },
+          {
+            "query": "handheld water bottle for running",
+            "clicks": 0,
+            "impressions": 31,
+            "ctr": 0,
+            "position": 60.94,
+            "match_score": 0.75
+          }
+        ]
       },
-      "opportunityScore": 142,
+      "searchOpportunityScore": 49,
+      "opportunityScore": 194,
+      "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-creatine",
+      "title": "Best Creatine",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 5,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "contentMaintenanceScore": 32,
+      "searchSignal": {
+        "primaryQuery": "best creatine",
+        "impressions": 48,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 10.42,
+        "topQueries": []
+      },
+      "searchOpportunityScore": 49,
+      "opportunityScore": 189,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -354,22 +391,96 @@
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 4.3,
+      "contentMaintenanceScore": 32,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "best carb drink",
+        "impressions": 528,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 40.48,
+        "topQueries": [
+          {
+            "query": "best carb drink",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 46.86,
+            "match_score": 0.81
+          },
+          {
+            "query": "carb drink for running",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 49.5,
+            "match_score": 0.603
+          }
+        ]
       },
-      "opportunityScore": 138,
+      "searchOpportunityScore": 48,
+      "opportunityScore": 186,
       "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
-      "page": "best-commuter-backpacks-for-men",
-      "title": "Best Commuter Backpacks for Men",
+      "page": "best-electrolytes-for-heavy-sweaters",
+      "title": "Best Electrolytes for Heavy Sweaters",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 1,
+      "averageEvidenceCount": 4.5,
+      "contentMaintenanceScore": 35,
+      "searchSignal": {
+        "primaryQuery": "best electrolytes for heavy sweaters?",
+        "impressions": 32,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 25.75,
+        "topQueries": [
+          {
+            "query": "best electrolytes for heavy sweaters?",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 12,
+            "match_score": 1
+          },
+          {
+            "query": "electrolytes for heavy sweaters",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 31.5,
+            "match_score": 1
+          },
+          {
+            "query": "best electrolytes for heavy sweaters",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 38.5,
+            "match_score": 1
+          }
+        ]
+      },
+      "searchOpportunityScore": 47,
+      "opportunityScore": 186,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-electric-shavers-for-men",
+      "title": "Best Electric Shavers for Men",
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
@@ -378,42 +489,20 @@
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.5,
+      "averageEvidenceCount": 5.3,
+      "contentMaintenanceScore": 29,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "best electric shavers for men",
+        "impressions": 31,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 24.65,
+        "topQueries": []
       },
-      "opportunityScore": 138,
+      "searchOpportunityScore": 47,
+      "opportunityScore": 180,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-electrolyte-mixes-for-ultrarunning",
-      "title": "Best Electrolyte Mixes for Ultrarunning",
-      "section": "outdoor",
-      "dataSource": "additions",
-      "updated": "April 24, 2026",
-      "daysSinceUpdated": 134,
-      "productCount": 5,
-      "sourceGapTotal": 10,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.2,
-      "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
-      },
-      "opportunityScore": 136,
-      "recommendedActions": [
-        "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -429,16 +518,85 @@
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 5.3,
+      "contentMaintenanceScore": 31,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "best adjustable dumbbells",
+        "impressions": 253,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 44,
+        "topQueries": [
+          {
+            "query": "best adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 42.67,
+            "match_score": 1
+          },
+          {
+            "query": "best home adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 49.6,
+            "match_score": 0.793
+          },
+          {
+            "query": "best adjustable dumbbells for home gym",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 49,
+            "match_score": 0.69
+          },
+          {
+            "query": "good adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 55.33,
+            "match_score": 0.793
+          },
+          {
+            "query": "top adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 56,
+            "match_score": 0.793
+          },
+          {
+            "query": "adjustable dumbbells best",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 1
+          },
+          {
+            "query": "best adjustable dumbbells for home",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.793
+          },
+          {
+            "query": "best at home adjustable dumbbells",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 48,
+            "match_score": 0.69
+          }
+        ]
       },
-      "opportunityScore": 132,
+      "searchOpportunityScore": 45,
+      "opportunityScore": 176,
       "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -454,17 +612,536 @@
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 5,
+      "contentMaintenanceScore": 29,
       "searchSignal": {
-        "primaryQuery": "",
-        "impressions": null,
-        "clicks": null,
-        "position": null
+        "primaryQuery": "compression boots reviews",
+        "impressions": 196,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 54.06,
+        "topQueries": [
+          {
+            "query": "compression boots reviews",
+            "clicks": 0,
+            "impressions": 34,
+            "ctr": 0,
+            "position": 63.35,
+            "match_score": 0.873
+          },
+          {
+            "query": "compression boots review",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 57.75,
+            "match_score": 0.873
+          },
+          {
+            "query": "compression boots for runners",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 54,
+            "match_score": 1
+          },
+          {
+            "query": "compression boots for running",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 51.33,
+            "match_score": 0.667
+          },
+          {
+            "query": "best compression boots for runners",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 48,
+            "match_score": 1
+          }
+        ]
       },
-      "opportunityScore": 126,
+      "searchOpportunityScore": 44,
+      "opportunityScore": 171,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
-        "Map this page to Search Console query tracking.",
         "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-protein-bars",
+      "title": "Best Protein Bars",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 5,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 5,
+      "contentMaintenanceScore": 32,
+      "searchSignal": {
+        "primaryQuery": "best budget protein bars",
+        "impressions": 6,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 19.17,
+        "topQueries": [
+          {
+            "query": "best budget protein bars",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 51,
+            "match_score": 0.793
+          }
+        ]
+      },
+      "searchOpportunityScore": 42,
+      "opportunityScore": 168,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work",
+      "title": "Best Portable Monitors for Remote Work",
+      "section": "remote-work",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 3.5,
+      "contentMaintenanceScore": 42,
+      "searchSignal": {
+        "primaryQuery": "portable monitor for work",
+        "impressions": 306,
+        "clicks": 1,
+        "ctr": 0.0033,
+        "position": 49.9,
+        "topQueries": [
+          {
+            "query": "portable monitor for work",
+            "clicks": 0,
+            "impressions": 23,
+            "ctr": 0,
+            "position": 48.48,
+            "match_score": 0.603
+          },
+          {
+            "query": "best portable monitors",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 50.72,
+            "match_score": 0.81
+          },
+          {
+            "query": "portable monitor for remote work",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 55.65,
+            "match_score": 0.75
+          },
+          {
+            "query": "best portable monitors for work",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 71.21,
+            "match_score": 0.905
+          },
+          {
+            "query": "best portable monitor for work",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 68.92,
+            "match_score": 0.603
+          },
+          {
+            "query": "best portable monitors for business",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 71.8,
+            "match_score": 0.603
+          },
+          {
+            "query": "portable monitors for work",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 49.67,
+            "match_score": 0.905
+          },
+          {
+            "query": "remote monitors",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 45,
+            "match_score": 0.81
+          }
+        ]
+      },
+      "searchOpportunityScore": 38,
+      "opportunityScore": 166,
+      "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products.",
+        "Keep supplemental YouTube/Reddit visible without changing ranking weights.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 123,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.5,
+      "contentMaintenanceScore": 32,
+      "searchSignal": {
+        "primaryQuery": "best commuter backpacks",
+        "impressions": 788,
+        "clicks": 1,
+        "ctr": 0.0013,
+        "position": 55.82,
+        "topQueries": [
+          {
+            "query": "best commuter backpacks",
+            "clicks": 0,
+            "impressions": 43,
+            "ctr": 0,
+            "position": 50.7,
+            "match_score": 0.873
+          },
+          {
+            "query": "commuter backpacks",
+            "clicks": 0,
+            "impressions": 31,
+            "ctr": 0,
+            "position": 51.32,
+            "match_score": 0.873
+          },
+          {
+            "query": "top commuter backpacks",
+            "clicks": 0,
+            "impressions": 22,
+            "ctr": 0,
+            "position": 64.23,
+            "match_score": 0.667
+          },
+          {
+            "query": "best commuter backpack men",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 56.82,
+            "match_score": 0.667
+          },
+          {
+            "query": "best commuter backpack for men",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 71.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpack men",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 58.22,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpack for men",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 54.83,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpacks for men",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 65.75,
+            "match_score": 1
+          }
+        ]
+      },
+      "searchOpportunityScore": 41,
+      "opportunityScore": 165,
+      "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-massage-guns",
+      "title": "Best Massage Guns",
+      "section": "lifestyle",
+      "dataSource": "core",
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 138,
+      "productCount": 4,
+      "sourceGapTotal": 1,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 3,
+      "averageEvidenceCount": 11,
+      "contentMaintenanceScore": 14,
+      "searchSignal": {
+        "primaryQuery": "massage guns review",
+        "impressions": 85,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 12.22,
+        "topQueries": [
+          {
+            "query": "massage guns review",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 40,
+            "match_score": 1
+          }
+        ]
+      },
+      "searchOpportunityScore": 50,
+      "opportunityScore": 164,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-running-belts",
+      "title": "Best Running Belts",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "updated": "September 5, 2026",
+      "daysSinceUpdated": 0,
+      "productCount": 4,
+      "sourceGapTotal": 7,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.3,
+      "contentMaintenanceScore": 22,
+      "searchSignal": {
+        "primaryQuery": "best running belts",
+        "impressions": 1248,
+        "clicks": 1,
+        "ctr": 0.0008,
+        "position": 56.34,
+        "topQueries": [
+          {
+            "query": "best running belts",
+            "clicks": 0,
+            "impressions": 165,
+            "ctr": 0,
+            "position": 54.75,
+            "match_score": 1
+          },
+          {
+            "query": "running belts",
+            "clicks": 0,
+            "impressions": 54,
+            "ctr": 0,
+            "position": 65.78,
+            "match_score": 1
+          },
+          {
+            "query": "top rated running belts",
+            "clicks": 0,
+            "impressions": 24,
+            "ctr": 0,
+            "position": 55.25,
+            "match_score": 0.69
+          },
+          {
+            "query": "are running belts good",
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 56.39,
+            "match_score": 0.793
+          },
+          {
+            "query": "best hydration belts for running",
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 68.46,
+            "match_score": 0.793
+          },
+          {
+            "query": "best running belts and waistpacks",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 49.25,
+            "match_score": 0.793
+          },
+          {
+            "query": "best marathon running belts",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 58.83,
+            "match_score": 0.793
+          },
+          {
+            "query": "best running belts for marathon",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 62.6,
+            "match_score": 0.793
+          }
+        ]
+      },
+      "searchOpportunityScore": 43,
+      "opportunityScore": 161,
+      "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products."
+      ]
+    },
+    {
+      "page": "best-air-purifiers",
+      "title": "Best Air Purifiers",
+      "section": "lifestyle",
+      "dataSource": "core",
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 138,
+      "productCount": 4,
+      "sourceGapTotal": 0,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 4,
+      "averageEvidenceCount": 11,
+      "contentMaintenanceScore": 10,
+      "searchSignal": {
+        "primaryQuery": "best air purifiers",
+        "impressions": 68,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 28.68,
+        "topQueries": []
+      },
+      "searchOpportunityScore": 50,
+      "opportunityScore": 160,
+      "recommendedActions": [
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-womens-trail-running-shoes",
+      "title": "Best Women's Trail Running Shoes",
+      "section": "outdoor",
+      "dataSource": "core",
+      "updated": "September 5, 2026",
+      "daysSinceUpdated": 0,
+      "productCount": 4,
+      "sourceGapTotal": 0,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 4,
+      "averageEvidenceCount": 13.8,
+      "contentMaintenanceScore": 0,
+      "searchSignal": {
+        "primaryQuery": "best women's trail running shoes",
+        "impressions": 2573,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 57.62,
+        "topQueries": [
+          {
+            "query": "best women's trail running shoes",
+            "clicks": 0,
+            "impressions": 385,
+            "ctr": 0,
+            "position": 58.27,
+            "match_score": 0.937
+          },
+          {
+            "query": "best trail running shoes women",
+            "clicks": 0,
+            "impressions": 242,
+            "ctr": 0,
+            "position": 64.92,
+            "match_score": 0.873
+          },
+          {
+            "query": "best trail running shoes for women",
+            "clicks": 0,
+            "impressions": 221,
+            "ctr": 0,
+            "position": 66.14,
+            "match_score": 0.873
+          },
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.81
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.81
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.81
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.81
+          },
+          {
+            "query": "best women's trail runners",
+            "clicks": 0,
+            "impressions": 151,
+            "ctr": 0,
+            "position": 44.6,
+            "match_score": 0.655
+          }
+        ]
+      },
+      "searchOpportunityScore": 53,
+      "opportunityScore": 159,
+      "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page."
       ]
     }
   ],

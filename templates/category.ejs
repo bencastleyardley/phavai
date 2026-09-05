@@ -1,4 +1,4 @@
-<% const pageImage = image || products[0].image; %>
+<% const pageImage = socialImage || image || products[0].image; %>
 <% const ogImage = pageImage.startsWith("http") ? pageImage : `https://www.phavai.com${pageImage}`; %>
 <% const affiliateEnabled = Boolean(affiliateConfig?.affiliateEnabled); %>
 <% const productId = (product) => product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
@@ -34,12 +34,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title><%= metaTitle || `${title} | Phavai` %></title>
   <meta name="description" content="<%= metaDescription || description %>" />
+  <meta name="robots" content="max-image-preview:large" />
   <link rel="canonical" href="https://www.phavai.com/<%= slug %>.html" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="<%= metaTitle || `${title} | Phavai` %>" />
   <meta property="og:description" content="<%= metaDescription || description %>" />
   <meta property="og:image" content="<%= ogImage %>" />
+  <% if (socialImage) { %><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="675" /><% } %>
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= metaTitle || `${title} | Phavai` %>" />
+  <meta name="twitter:description" content="<%= metaDescription || description %>" />
+  <meta name="twitter:image" content="<%= ogImage %>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
@@ -271,6 +276,76 @@
             </table>
           </div>
         </section>
+
+        <% if (typeof flagshipResearch !== "undefined" && flagshipResearch) { %>
+          <section class="research-brief" aria-labelledby="research-brief-heading">
+            <div class="research-brief__heading">
+              <div>
+                <div class="section-kicker"><%= flagshipResearch.eyebrow %></div>
+                <h2 id="research-brief-heading"><%= flagshipResearch.title %></h2>
+              </div>
+              <span class="research-brief__stamp">Checked <%= flagshipResearch.updated %></span>
+            </div>
+            <p class="research-brief__summary"><%= flagshipResearch.summary %></p>
+            <% if (flagshipResearch.keyFindings?.length) { %>
+              <div class="research-finding-grid">
+                <% flagshipResearch.keyFindings.forEach((finding) => { %>
+                  <article>
+                    <strong><%= finding.title %></strong>
+                    <p><%= finding.body %></p>
+                  </article>
+                <% }) %>
+              </div>
+            <% } %>
+            <div class="research-table-scroll">
+              <table class="research-table">
+                <thead>
+                  <tr>
+                    <% flagshipResearch.columns.forEach((column) => { %><th><%= column %></th><% }) %>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% flagshipResearch.rows.forEach((row) => { %>
+                    <tr>
+                      <% row.forEach((cell, index) => { %>
+                        <% if (index === 0) { %><th scope="row"><%= cell %></th><% } else { %><td><%= cell %></td><% } %>
+                      <% }) %>
+                    </tr>
+                  <% }) %>
+                </tbody>
+              </table>
+            </div>
+            <% if (flagshipResearch.decisionGuide?.length) { %>
+              <div class="research-decision-grid">
+                <% flagshipResearch.decisionGuide.forEach((decision) => { %>
+                  <article>
+                    <span><%= decision.scenario %></span>
+                    <strong>Start with <%= decision.start %></strong>
+                    <p><%= decision.reason %></p>
+                    <% if (decision.caution) { %><small><%= decision.caution %></small><% } %>
+                  </article>
+                <% }) %>
+              </div>
+            <% } %>
+            <div class="research-source-panel">
+              <div>
+                <h3>How this audit was built</h3>
+                <ul>
+                  <% flagshipResearch.method.forEach((item) => { %><li><%= item %></li><% }) %>
+                </ul>
+              </div>
+              <div>
+                <h3>Primary product documents</h3>
+                <div class="research-source-links">
+                  <% flagshipResearch.sources.forEach((source) => { %>
+                    <a href="<%= source.url %>" target="_blank" rel="noopener"><%= source.label %><span>Open source</span></a>
+                  <% }) %>
+                </div>
+              </div>
+            </div>
+            <p class="research-limitations"><strong>Limits:</strong> <%= flagshipResearch.limitations %></p>
+          </section>
+        <% } %>
       </div>
     </section>
 

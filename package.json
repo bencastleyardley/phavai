@@ -18,6 +18,7 @@
     "product:intelligence": "node scripts/generate-product-intelligence.mjs",
     "product:intelligence:audit": "node scripts/product-intelligence-audit.mjs",
     "growth:audit": "npm run sources:audit && npm run affiliate:audit && npm run product:intelligence && npm run product:intelligence:audit",
+    "seo:import": "node scripts/import-search-console.mjs",
     "seo:map": "node scripts/generate-search-console-map.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
     "amazon:sync": "node scripts/sync-amazon-creators.mjs",
