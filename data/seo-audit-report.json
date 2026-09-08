@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:48:56.696Z",
+  "generated_at": "2026-09-08T16:03:12.872Z",
   "pages_checked": 75,
   "public_pages": 73,
   "private_pages": 2,
@@ -8,12 +8,13 @@
   "pages": [
     {
       "file": "about.html",
-      "title": "About Phavai | Stop Digging. Start Deciding.",
-      "description_length": 114,
+      "title": "About Phavai | AI-Assisted, Human-Reviewed Buying Guides",
+      "description_length": 136,
       "canonical": "https://www.phavai.com/about.html",
-      "h1": "Stop digging. Start deciding.",
+      "h1": "Let AI do the digging. Keep the decision human.",
       "structured_data_types": [
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "Person"
       ]
     },
     {
@@ -739,17 +740,17 @@
     {
       "file": "index.html",
       "title": "Phavai | Evidence-Backed Running Gear Guides",
-      "description_length": 129,
+      "description_length": 145,
       "canonical": "https://www.phavai.com/",
-      "h1": "Running gear decisions, minus the research spiral.",
+      "h1": "Let AI do the gear research. You get the shortlist.",
       "structured_data_types": []
     },
     {
       "file": "lifestyle.html",
-      "title": "Lifestyle Product Reviews | Phavai",
-      "description_length": 112,
+      "title": "Lifestyle Buying Guides | Phavai",
+      "description_length": 126,
       "canonical": "https://www.phavai.com/lifestyle.html",
-      "h1": "Lifestyle Reviews",
+      "h1": "Lifestyle Buying Guides",
       "structured_data_types": [
         "CollectionPage",
         "BreadcrumbList"
@@ -757,10 +758,10 @@
     },
     {
       "file": "methodology.html",
-      "title": "How Phavai Chooses Products | Methodology",
-      "description_length": 108,
+      "title": "How Phavai Uses AI for Product Research | Methodology",
+      "description_length": 143,
       "canonical": "https://www.phavai.com/methodology.html",
-      "h1": "How Phavai Chooses Products",
+      "h1": "How Phavai Uses AI to Research Products",
       "structured_data_types": [
         "BreadcrumbList"
       ]
@@ -786,10 +787,10 @@
     },
     {
       "file": "outdoor.html",
-      "title": "Outdoor Product Reviews | Phavai",
-      "description_length": 151,
+      "title": "Outdoor Buying Guides | Phavai",
+      "description_length": 148,
       "canonical": "https://www.phavai.com/outdoor.html",
-      "h1": "Outdoor Reviews",
+      "h1": "Outdoor Buying Guides",
       "structured_data_types": [
         "CollectionPage",
         "BreadcrumbList"
@@ -807,10 +808,10 @@
     },
     {
       "file": "remote-work.html",
-      "title": "Remote Work Product Reviews | Phavai",
-      "description_length": 138,
+      "title": "Remote Work Buying Guides | Phavai",
+      "description_length": 152,
       "canonical": "https://www.phavai.com/remote-work.html",
-      "h1": "Remote Work Reviews",
+      "h1": "Remote Work Buying Guides",
       "structured_data_types": [
         "CollectionPage",
         "BreadcrumbList"

@@ -1,0 +1,20 @@
+{
+  "name": "Ben Yardley",
+  "id": "https://www.phavai.com/about.html#ben-yardley",
+  "path": "/about.html#ben-yardley",
+  "role": "Founder and human editor",
+  "outdoorByline": "outdoor-media professional, trail runner, ultrarunner, and climber",
+  "generalByline": "Phavai founder and human editor",
+  "bio": "Ben's professional background includes Outside Media, Trail Runner Magazine, and UltraSignup. He has run the UTMB 100-mile race and has been climbing since age 15.",
+  "reviewResponsibility": "He checks Phavai's running and outdoor guides for source accuracy, practical relevance, conflicting claims, and honest tradeoffs.",
+  "expertiseSections": [
+    "outdoor"
+  ],
+  "knowsAbout": [
+    "trail running",
+    "ultrarunning",
+    "running gear",
+    "climbing",
+    "outdoor media"
+  ]
+}

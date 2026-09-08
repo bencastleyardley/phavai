@@ -8,16 +8,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title><%= section.metaTitle || `${section.title} Reviews | Phavai` %></title>
+  <title><%= section.metaTitle || `${section.title} Buying Guides | Phavai` %></title>
   <meta name="description" content="<%= section.metaDescription || section.description %>" />
   <meta name="robots" content="max-image-preview:large" />
   <link rel="canonical" href="https://www.phavai.com/<%= section.slug %>.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="<%= section.title %> Reviews | Phavai" />
+  <meta property="og:title" content="<%= section.title %> Buying Guides | Phavai" />
   <meta property="og:description" content="<%= section.description %>" />
   <meta property="og:image" content="<%= ogImage %>" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="<%= section.title %> Reviews | Phavai" />
+  <meta name="twitter:title" content="<%= section.title %> Buying Guides | Phavai" />
   <meta name="twitter:description" content="<%= section.description %>" />
   <meta name="twitter:image" content="<%= ogImage %>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,9 +29,15 @@
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": `${section.title} Reviews | Phavai`,
+    "name": `${section.title} Buying Guides | Phavai`,
     "description": section.description,
     "url": `https://www.phavai.com/${section.slug}.html`,
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://www.phavai.com/#organization",
+      "name": "Phavai",
+      "url": "https://www.phavai.com/"
+    },
     "hasPart": reviews.map((review) => ({
       "@type": "Article",
       "headline": review.title,
@@ -80,13 +86,14 @@
         <div class="page-grid">
           <div>
             <a class="crumb" href="/index.html">Phavai / <%= section.title %></a>
-            <h1><%= section.title %> Reviews</h1>
+            <h1><%= section.title %> Buying Guides</h1>
             <p class="lede"><%= section.intro %></p>
             <div class="meta-row">
               <span class="meta-pill">Buyer-first picks</span>
               <span class="meta-pill"><%= reviews.length %> live buying guides</span>
               <span class="meta-pill">Retail links never buy rank</span>
             </div>
+            <p class="review-byline">AI-assisted research · Human review by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a><% if (editorialProfile.expertiseSections.includes(section.slug)) { %>, <%= editorialProfile.outdoorByline %><% } %>. Phavai organizes selected reviews, recurring tradeoffs, and product facts; it does not imply first-hand testing. <a href="/methodology.html">See the process</a>.</p>
           </div>
           <% if (featuredReview) { %>
           <section class="quick-answer-panel quick-answer-panel--compact" aria-labelledby="quick-answer-heading" data-quick-answer>
@@ -300,7 +307,7 @@
 
   <footer class="site-footer">
     <div class="footer-grid">
-      <div>Phavai turns crowded product categories into clearer buying decisions.</div>
+      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
       <div>
         <a href="/index.html">Home</a>
         <% allSections.forEach((item) => { %>

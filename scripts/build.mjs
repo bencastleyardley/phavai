@@ -20,6 +20,15 @@ const maintenanceQueue = readOptionalJson("data/ai-maintenance-queue.json", null
 const runningHeadphoneSpecifications = readOptionalJson("data/running-headphone-specifications.json", null);
 const relatedReviewOverrides = readOptionalJson("data/related-review-overrides.json", {});
 const searchExperiments = readOptionalJson("data/search-experiments.json", { experiments: [] });
+const editorialProfile = readOptionalJson("data/editorial-profile.json", {
+  name: "Phavai Human Editor",
+  id: "https://www.phavai.com/about.html",
+  path: "/about.html",
+  role: "Human editor",
+  outdoorByline: "human outdoor editor",
+  generalByline: "human editor",
+  expertiseSections: []
+});
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
@@ -49,7 +58,7 @@ const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260908a";
+const ASSET_VERSION = "20260908b";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -98,7 +107,7 @@ const SOURCE_LABELS = {
 const SOURCE_TIER_DISPLAY = {
   expert: {
     label: "Expert",
-    description: "Hands-on reviews and category testing."
+    description: "Hands-on work reported by cited reviewers and category specialists."
   },
   youtube: {
     label: "YouTube",
@@ -211,8 +220,8 @@ const REVIEW_ICON_RULES = [
 const DEFAULT_REVIEW_ICON = `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg>`;
 
 const ONE_MONTH_MS = 1000 * 60 * 60 * 24 * 30.4375;
-const SITE_LAST_MODIFIED = "2026-04-22";
-const HOME_LAST_MODIFIED = "2026-09-05";
+const SITE_LAST_MODIFIED = "2026-09-08";
+const HOME_LAST_MODIFIED = "2026-09-08";
 
 function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
@@ -1487,7 +1496,7 @@ function trustReasonForSource(item, category) {
   if (item.source_type === "youtube") return "Useful visual testing context from a product-specific review.";
   if (item.source_type === "reddit") return "Owner discussion helps surface fit, durability, and setup caveats.";
   if (item.source_type === "specs") return "Useful for confirming product details, not for proving rank.";
-  return "Hands-on or category-specific editorial testing.";
+  return "Hands-on or category-specific testing reported by the cited source.";
 }
 
 function normalizeEvidenceItem(item, product, category, index) {
@@ -1896,7 +1905,8 @@ function renderSiteIdentityTags(file) {
         "@id": "https://www.phavai.com/#organization",
         "name": "Phavai",
         "url": "https://www.phavai.com/",
-        "description": "Evidence-backed running and outdoor buying guides with clear picks, normalized specifications, and source-linked tradeoffs."
+        "description": "AI-assisted, human-reviewed buying guides that synthesize recurring pros, cons, specifications, and tradeoffs from selected public sources.",
+        "founder": { "@id": editorialProfile.id }
       },
       {
         "@type": "WebSite",
@@ -1905,6 +1915,14 @@ function renderSiteIdentityTags(file) {
         "name": "Phavai",
         "publisher": { "@id": "https://www.phavai.com/#organization" },
         "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": editorialProfile.id,
+        "name": editorialProfile.name,
+        "url": editorialProfile.id,
+        "jobTitle": editorialProfile.role,
+        "knowsAbout": editorialProfile.knowsAbout || []
       }
     ]
   }, null, 2)}
@@ -2294,6 +2312,7 @@ for (const category of builtCategories) {
     {
       ...category,
       affiliateConfig: AFFILIATE_CONFIG,
+      editorialProfile,
       allSections: sections,
       relatedReviews,
       supportingPages: supportingPages.filter((page) => page.relatedReviewSlugs?.includes(category.slug))
@@ -2326,6 +2345,7 @@ for (const section of sections) {
       supportingPages: supportBySection.get(section.slug) || [],
       sourceTrust: sourceGovernance.sections?.[section.slug],
       affiliateConfig: AFFILIATE_CONFIG,
+      editorialProfile,
       allSections: sections
     },
     { rmWhitespace: false }
@@ -2348,6 +2368,7 @@ for (const page of supportingPages) {
       section,
       relatedReviews,
       allSections: sections,
+      editorialProfile,
       affiliateConfig: AFFILIATE_CONFIG
     },
     { rmWhitespace: false }
@@ -2364,7 +2385,7 @@ if (runningHeadphoneSpecifications) {
   };
   const html = ejs.render(
     specificationDatabaseTemplate,
-    { page, allSections: sections },
+    { page, allSections: sections, editorialProfile },
     { rmWhitespace: false }
   );
   writeFileSync(`${page.slug}.html`, trimLineEndWhitespace(html), "utf8");
@@ -2411,6 +2432,7 @@ if (todaysPicks) {
         dateModified: toIsoDate(todaysPicks.updated)
       },
       allSections: sections,
+      editorialProfile,
       affiliateConfig: AFFILIATE_CONFIG
     },
     { rmWhitespace: false }

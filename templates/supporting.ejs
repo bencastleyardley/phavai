@@ -37,9 +37,12 @@
     "datePublished": page.datePublished,
     "dateModified": page.dateModified,
     "author": {
-      "@type": "Organization",
-      "name": "Phavai Research Desk",
-      "url": "https://www.phavai.com/about.html"
+      "@type": "Person",
+      "@id": editorialProfile.id,
+      "name": editorialProfile.name,
+      "url": editorialProfile.id,
+      "jobTitle": editorialProfile.role,
+      "knowsAbout": editorialProfile.knowsAbout || []
     },
     "publisher": {
       "@type": "Organization",
@@ -101,9 +104,9 @@
             <div class="meta-row">
               <span class="meta-pill"><%= page.type %></span>
               <span class="meta-pill">Updated <%= page.updated %></span>
-              <span class="meta-pill">Supports <%= section.title %> reviews</span>
+              <span class="meta-pill">Supports <%= section.title %> buying guides</span>
             </div>
-            <p class="review-byline">By <a href="/about.html">Phavai Research Desk</a> · Editorial guidance based on cited research and product documentation. <a href="/methodology.html">How we research</a>.</p>
+            <p class="review-byline">AI-assisted research by Phavai · Reviewed by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.expertiseSections.includes(section.slug) ? editorialProfile.outdoorByline : editorialProfile.generalByline %>. Guidance is based on cited sources and product documentation, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
           </div>
           <% if (quickTake || featuredReview) { %>
           <section class="quick-answer-panel quick-answer-panel--compact" aria-labelledby="quick-answer-heading" data-quick-answer>
@@ -113,7 +116,7 @@
               <p><%= quickTakeSummary %></p>
               <div class="quick-answer-facts" aria-label="Why this answer helps">
                 <span><strong><%= page.type %></strong> guide</span>
-                <span><strong><%= relatedReviews.length %></strong> related reviews</span>
+                <span><strong><%= relatedReviews.length %></strong> related guides</span>
                 <span><strong>0</strong> paid rankings</span>
               </div>
             </div>
@@ -248,7 +251,7 @@
           <p>Use these guides when you are ready to move from advice to a specific shortlist.</p>
           <div class="link-list compact">
             <% relatedReviews.forEach((review) => { %>
-              <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Review</span></a>
+              <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Guide</span></a>
             <% }) %>
             <a href="/<%= section.slug %>.html"><span>All <%= section.title %> guides</span><span>Hub</span></a>
           </div>
@@ -260,7 +263,7 @@
 
   <footer class="site-footer">
     <div class="footer-grid">
-      <div>Phavai helps shoppers understand the tradeoffs before they compare products.</div>
+      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
       <div>
         <a href="/index.html">Home</a>
         <% allSections.forEach((item) => { %>

@@ -24,7 +24,7 @@
       "recovery footwear",
       "compression boots"
     ],
-    "trust": "Outdoor reviews need more than spec sheets. We look for field testing, long-run comfort notes, terrain-specific caveats, and owner feedback that reveals what breaks down after the first few outings.",
+    "trust": "Outdoor buying guidance needs more than spec sheets. We prioritize cited field testing, long-run comfort notes, terrain-specific caveats, and owner feedback that reveals what breaks down after the first few outings.",
     "featuredReviewSlugs": [
       "best-running-headphones",
       "best-womens-trail-running-shoes",
@@ -51,8 +51,8 @@
       }
     ],
     "image": "/photos/generated/section-outdoor.svg",
-    "metaTitle": "Outdoor Product Reviews | Phavai",
-    "metaDescription": "Outdoor buying guides from Phavai, including trail running shoes, hydration packs, GPS watches, running headphones, poles, vests, and recovery sandals."
+    "metaTitle": "Outdoor Buying Guides | Phavai",
+    "metaDescription": "AI-assisted, human-reviewed outdoor buying guides covering trail shoes, hydration, GPS watches, running headphones, poles, vests, and recovery gear."
   },
   {
     "slug": "remote-work",
@@ -95,8 +95,8 @@
       }
     ],
     "image": "/photos/generated/section-remote-work.svg",
-    "metaTitle": "Remote Work Product Reviews | Phavai",
-    "metaDescription": "Remote Work buying guides from Phavai, including standing desks, office chairs, webcams, desk mats, monitor arms, and ergonomic keyboards."
+    "metaTitle": "Remote Work Buying Guides | Phavai",
+    "metaDescription": "AI-assisted, human-reviewed Remote Work buying guides covering standing desks, office chairs, webcams, desk mats, monitor arms, and ergonomic keyboards."
   },
   {
     "slug": "lifestyle",
@@ -134,7 +134,7 @@
       }
     ],
     "image": "/photos/generated/section-lifestyle.svg",
-    "metaTitle": "Lifestyle Product Reviews | Phavai",
-    "metaDescription": "Lifestyle buying guides from Phavai, including carry-on luggage, coffee makers, massage guns, and air purifiers."
+    "metaTitle": "Lifestyle Buying Guides | Phavai",
+    "metaDescription": "AI-assisted, human-reviewed Lifestyle buying guides covering carry-on luggage, coffee makers, massage guns, and air purifiers."
   }
 ]

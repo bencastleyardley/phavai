@@ -35,14 +35,14 @@ const priorityLabel = (priority) => ({
   low: "Low"
 }[priority] || "Review");
 const summaryItems = [
-  { label: "Pages tracked", value: summary.pages, note: "roundup review pages" },
+  { label: "Pages tracked", value: summary.pages, note: "roundup buying guides" },
   { label: "Product placements", value: summary.productPlacements, note: "ranked products in guides" },
   { label: "Affiliate ready", value: summary.readyAffiliateProducts, note: "Amazon-ready placements" },
   { label: "High-priority tasks", value: summary.highPriorityTasks, note: "start here this week" },
   { label: "Unique products", value: summary.uniqueProducts, note: "deduped product names" },
   { label: "Missing YouTube", value: summary.productsMissingYouTube, note: "video evidence gaps" },
   { label: "Missing Reddit", value: summary.productsMissingReddit, note: "owner discussion gaps" },
-  { label: "Missing expert", value: summary.productsMissingExpert, note: "hands-on review gaps" }
+  { label: "Missing expert", value: summary.productsMissingExpert, note: "cited hands-on source gaps" }
 ];
 %>
 <!doctype html>

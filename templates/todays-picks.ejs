@@ -31,6 +31,12 @@
     "description": page.description,
     "url": `https://www.phavai.com/${page.slug}.html`,
     "dateModified": page.dateModified,
+    "author": {
+      "@type": "Person",
+      "@id": editorialProfile.id,
+      "name": editorialProfile.name,
+      "url": editorialProfile.id
+    },
     "publisher": {
       "@type": "Organization",
       "name": "Phavai",
@@ -89,6 +95,7 @@
           <span class="meta-pill"><%= page.items.length %> quick picks</span>
           <span class="meta-pill">Retail links never buy placement</span>
         </div>
+        <p class="review-byline">AI-assisted research · Human review by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>. Selected source patterns and product facts are summarized here; hands-on testing is never implied. <a href="/methodology.html">See the process</a>.</p>
         <% if (featuredPick) { %>
           <section class="quick-answer-panel" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
@@ -194,7 +201,7 @@
 
   <footer class="site-footer">
     <div class="footer-grid">
-      <div>Phavai helps shoppers buy with fewer tabs, fewer regrets, and better evidence.</div>
+      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
       <div>
         <a href="/index.html">Home</a>
         <% allSections.forEach((item) => { %>

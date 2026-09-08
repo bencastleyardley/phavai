@@ -4,10 +4,10 @@
   "metaTitle": "Running Headphone Specs Compared: Battery, Fit, IP Rating",
   "description": "Compare normalized running-headphone specifications for fit format, weight, battery, water resistance, controls, and runner use case.",
   "eyebrow": "Phavai open data",
-  "updated": "September 5, 2026",
+  "updated": "September 8, 2026",
   "published": "September 5, 2026",
   "image": "/photos/generated/running-headphone-spec-database-social.png",
-  "intro": "A normalized, source-linked reference for comparing the four finalists in Phavai's running-headphone guide. Use it to compare like with like before opening the ranked recommendations.",
+  "intro": "An AI-assisted, human-checked reference for comparing the four finalists in Phavai's running-headphone guide. Every normalized field links back to the manufacturer source so you can compare like with like before opening the ranked recommendations.",
   "downloadPath": "/downloads/running-headphone-specifications.csv",
   "columns": [
     "Product",
@@ -76,12 +76,13 @@
     }
   ],
   "method": [
+    "AI assists with organizing and normalizing the fields; Ben Yardley checks every row against the linked manufacturer document.",
     "Manufacturer product pages and technical specifications supply the normalized fields.",
     "Single-charge runtime stays separate from case-assisted total runtime.",
     "An ear canal that remains open is labeled separately from microphone-based transparency modes.",
     "The database describes products. Independent expert and owner evidence determines Phavai's ranking."
   ],
-  "limitations": "These are manufacturer claims, not Phavai lab results. Battery varies with volume, calls, codecs, features, temperature, and device settings. Fit and sound are personal, and product availability can change.",
+  "limitations": "This is a curated comparison of four guide finalists, not every running headphone on the market. These are manufacturer claims, not Phavai lab results. Battery varies with volume, calls, codecs, features, temperature, and device settings. Fit and sound are personal, and product availability can change.",
   "relatedLinks": [
     {
       "label": "Best Running Headphones",

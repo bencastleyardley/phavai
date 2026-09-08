@@ -31,7 +31,8 @@
     "url": `https://www.phavai.com/${page.slug}.html`,
     "datePublished": page.datePublished,
     "dateModified": page.dateModified,
-    "creator": { "@type": "Organization", "name": "Phavai Research Desk", "url": "https://www.phavai.com/about.html" },
+    "creator": { "@type": "Organization", "@id": "https://www.phavai.com/#organization", "name": "Phavai", "url": "https://www.phavai.com/" },
+    "editor": { "@type": "Person", "@id": editorialProfile.id, "name": editorialProfile.name, "url": editorialProfile.id },
     "variableMeasured": page.columns,
     "distribution": {
       "@type": "DataDownload",
@@ -77,6 +78,7 @@
             <span class="meta-pill">Updated <%= page.updated %></span>
             <span class="meta-pill">Manufacturer fields normalized</span>
           </div>
+          <p class="review-byline">AI-assisted data organization · Checked by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.outdoorByline %>. Every row links to the manufacturer source used for its specifications.</p>
           <div class="hero-actions">
             <a class="button" href="<%= page.downloadPath %>" download>Download CSV</a>
             <a class="button secondary" href="/best-running-headphones.html">See ranked guide</a>
@@ -143,7 +145,7 @@
 
   <footer class="site-footer">
     <div class="footer-grid">
-      <div>Phavai publishes normalized buying data alongside evidence-led rankings.</div>
+      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
       <div><a href="/index.html">Home</a><a href="/outdoor.html">Outdoor</a><a href="/methodology.html">Methodology</a><a href="/about.html">About</a></div>
     </div>
   </footer>

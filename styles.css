@@ -2904,6 +2904,43 @@ h1, h2, h3, p { margin-top: 0; }
   grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
+.author-profile-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+  padding: 28px;
+  border: 1px solid rgba(20, 107, 69, .2);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.author-profile-card h2 { margin: 4px 0 2px; }
+.author-profile-card p { max-width: 900px; }
+.author-monogram {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  border-radius: 999px;
+  background: var(--green);
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: .04em;
+}
+.author-role {
+  margin-bottom: 16px;
+  color: var(--green);
+  font-weight: 800;
+}
+.author-scope {
+  margin-bottom: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+}
 .text-panel {
   padding: 24px;
   border: 1px solid var(--line);
@@ -3303,6 +3340,8 @@ h1, h2, h3, p { margin-top: 0; }
 }
 
 @media (max-width: 720px) {
+  .author-profile-card { grid-template-columns: 1fr; padding: 20px; }
+  .author-monogram { width: 64px; height: 64px; font-size: 20px; }
   .nav {
     min-height: 60px;
     align-items: flex-start;
