@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T16:03:11.400Z",
+  "generated_at": "2026-09-08T17:37:19.958Z",
   "affiliate_enabled": true,
-  "pages_checked": 75,
+  "pages_checked": 77,
   "products_checked": 218,
   "hard_failures": [],
   "products_missing_expert_sources": [
@@ -5844,6 +5844,12 @@
   "structured_data_warnings": [],
   "model_freshness_flags": [],
   "cut_off_sentence_warnings": [
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons.html",
+      "examples": [
+        "around."
+      ]
+    },
     {
       "page": "best-electric-shavers-for-men.html",
       "examples": [

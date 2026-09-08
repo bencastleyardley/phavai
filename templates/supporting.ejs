@@ -5,7 +5,7 @@
 <% const featuredReview = relatedReviews?.[0]; %>
 <% const featuredProduct = featuredReview?.products?.[0]; %>
 <% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
-<% const quickGuides = (relatedReviews || []).slice(0, 3); %>
+<% const comparisonProducts = (page.comparisonProductNames || []).map((name) => relatedReviews.flatMap((review) => review.products || []).find((product) => product.name === name)).filter(Boolean).filter((product, index, list) => list.findIndex((item) => item.name === product.name) === index); %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -36,6 +36,7 @@
     "description": page.description,
     "datePublished": page.datePublished,
     "dateModified": page.dateModified,
+    "image": ogImage,
     "author": {
       "@type": "Person",
       "@id": editorialProfile.id,
@@ -106,71 +107,40 @@
               <span class="meta-pill">Updated <%= page.updated %></span>
               <span class="meta-pill">Supports <%= section.title %> buying guides</span>
             </div>
-            <p class="review-byline">AI-assisted research by Phavai · Reviewed by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.expertiseSections.includes(section.slug) ? editorialProfile.outdoorByline : editorialProfile.generalByline %>. Guidance is based on cited sources and product documentation, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
+            <p class="review-byline">AI-assisted research · Human review by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.expertiseSections.includes(section.slug) ? editorialProfile.outdoorByline : editorialProfile.generalByline %>. This is research synthesis, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
           </div>
           <% if (quickTake || featuredReview) { %>
-          <section class="quick-answer-panel quick-answer-panel--compact" aria-labelledby="quick-answer-heading" data-quick-answer>
+          <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
               <div class="section-kicker">Quick answer</div>
               <h2 id="quick-answer-heading"><%= quickTake?.heading || `Start with ${featuredReview.title}` %>.</h2>
               <p><%= quickTakeSummary %></p>
-              <div class="quick-answer-facts" aria-label="Why this answer helps">
-                <span><strong><%= page.type %></strong> guide</span>
-                <span><strong><%= relatedReviews.length %></strong> related guides</span>
-                <span><strong>0</strong> paid rankings</span>
-              </div>
-            </div>
-            <div class="quick-answer-proof">
-              <div>
-                <span>Next step</span>
-                <p><%= featuredReview?.title || `${section.title} guides` %></p>
-              </div>
-              <div>
-                <span>Top pick</span>
-                <p><%= featuredProduct?.name || "Compare the related shortlist" %></p>
-              </div>
-              <div>
-                <span>Watch-out</span>
-                <p><%= featuredProduct?.biggestComplaint || "Match the advice to your budget, body, space, and use case before buying." %></p>
-              </div>
             </div>
             <div class="quick-answer-actions">
+              <% if (featuredReview) { %>
+                <a class="button" href="/<%= featuredReview.slug %>.html">Open buying guide</a>
+              <% } else { %>
+                <a class="button" href="/<%= section.slug %>.html">Browse guides</a>
+              <% } %>
               <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
                 <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %> for <%= featuredProduct.name %>" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="supporting-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
+                <a class="button secondary shopping-button supporting-retailer-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %> for <%= featuredProduct.name %>" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="supporting-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
               <% } %>
-              <% if (featuredReview) { %>
-                <a class="button secondary" href="/<%= featuredReview.slug %>.html">Open guide</a>
-              <% } else { %>
-                <a class="button secondary" href="/<%= section.slug %>.html">Browse guides</a>
-              <% } %>
-              <p>Use the advice first, then compare seller, size, color, and return details.</p>
             </div>
           </section>
           <% } else { %>
             <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
           <% } %>
         </div>
-        <% if ((quickTake || featuredReview) && quickGuides.length > 1) { %>
-          <div class="quick-pick-strip" aria-label="Related buying guides">
-            <% quickGuides.forEach((review, index) => { %>
-              <a href="/<%= review.slug %>.html">
-                <span>Guide <%= index + 1 %></span>
-                <strong><%= review.title %></strong>
-                <small><%= review.products?.[0]?.name || review.description %></small>
-              </a>
-            <% }) %>
-          </div>
-        <% } %>
       </div>
     </section>
 
     <section class="band">
       <div class="wrap ranking-layout">
         <article class="content-column">
-          <div class="supporting-body">
+          <div class="supporting-body supporting-prose">
             <% page.sections.forEach((sectionBlock) => { %>
-              <section class="text-panel">
+              <section>
                 <h2><%= sectionBlock.heading %></h2>
                 <p><%= sectionBlock.body %></p>
               </section>
@@ -180,7 +150,7 @@
           <% if (page.comparisonTable?.rows?.length) { %>
           <section class="comparison-section supporting-comparison" aria-labelledby="supporting-comparison-heading">
             <div class="section-kicker">Direct comparison</div>
-            <h2 id="supporting-comparison-heading">Compare the formats before you choose</h2>
+            <h2 id="supporting-comparison-heading"><%= page.comparisonHeading || "Compare the options before you choose" %></h2>
             <div class="research-table-scroll">
               <table class="research-table">
                 <% if (page.comparisonTable.caption) { %><caption><%= page.comparisonTable.caption %></caption><% } %>
@@ -192,13 +162,27 @@
                 </tbody>
               </table>
             </div>
+            <% if (affiliateConfig?.affiliateEnabled && comparisonProducts.some((product) => product.shoppingLinks?.length)) { %>
+              <div class="supporting-shop-panel">
+                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+                <div class="supporting-shop-grid">
+                  <% comparisonProducts.forEach((product) => { const link = product.shoppingLinks?.[0]; if (!link) return; %>
+                    <div class="supporting-shop-card">
+                      <span>Compare retailer details</span>
+                      <strong><%= product.name %></strong>
+                      <a class="button shopping-button" href="<%= link.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= link.displayLabel || link.label || "Check price" %> for <%= product.name %>" data-product-cta data-affiliate-link data-retailer="<%= link.retailerName || "Retailer" %>" data-guide="<%= page.title %>" data-section="<%= section.title %>" data-product-name="<%= product.name %>" data-product-rank="<%= product.rank %>" data-product-score="<%= product.bestPickScore %>" data-shopping-label="<%= link.displayLabel || link.label || "Check price" %>" data-shopping-placement="supporting-comparison"><%= link.displayLabel || link.label || "Check price" %></a>
+                    </div>
+                  <% }) %>
+                </div>
+              </div>
+            <% } %>
           </section>
           <% } %>
 
           <% if (page.decisionCards?.length) { %>
           <section class="comparison-section" aria-labelledby="decision-heading">
             <div class="section-kicker">Decision guide</div>
-            <h2 id="decision-heading">Match the format to your run</h2>
+            <h2 id="decision-heading"><%= page.decisionHeading || "Match the choice to your situation" %></h2>
             <div class="research-decision-grid">
               <% page.decisionCards.forEach((decision) => { %>
                 <article><span><%= decision.label %></span><strong><%= decision.title %></strong><p><%= decision.body %></p></article>
@@ -210,7 +194,7 @@
           <% if (page.resourceLinks?.length) { %>
           <section class="comparison-section" aria-labelledby="resources-heading">
             <div class="section-kicker">Continue comparing</div>
-            <h2 id="resources-heading">Use the full running-audio research cluster</h2>
+            <h2 id="resources-heading"><%= page.resourcesHeading || `Keep exploring ${section.title.toLowerCase()}` %></h2>
             <div class="link-list">
               <% page.resourceLinks.forEach((link) => { %><a href="<%= link.url %>"><span><%= link.label %></span><span>Open</span></a><% }) %>
             </div>
@@ -221,8 +205,8 @@
           <section class="research-source-panel supporting-sources" aria-labelledby="sources-heading">
             <div>
               <div class="section-kicker">Primary documents</div>
-              <h2 id="sources-heading">Specifications checked for this guide</h2>
-              <p>Manufacturer documentation supplies the product specifications. Phavai keeps those facts separate from the independent evidence used for rankings.</p>
+              <h2 id="sources-heading"><%= page.sourcesHeading || "Sources checked for this guide" %></h2>
+              <p><%= page.sourcesIntro || "Primary product documentation anchors the factual comparison. Independent reviews add context about fit, feel, and real-world tradeoffs." %></p>
             </div>
             <div class="research-source-links">
               <% page.sources.forEach((source) => { %><a href="<%= source.url %>" target="_blank" rel="noopener"><%= source.label %><span>Open source</span></a><% }) %>

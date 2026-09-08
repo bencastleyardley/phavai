@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T16:03:12.872Z",
-  "pages_checked": 75,
-  "public_pages": 73,
+  "generated_at": "2026-09-08T17:37:19.991Z",
+  "pages_checked": 77,
+  "public_pages": 75,
   "private_pages": 2,
   "errors": [],
   "warnings": [],
@@ -661,6 +661,17 @@
       ]
     },
     {
+      "file": "garmin-forerunner-265-vs-coros-pace-3.html",
+      "title": "Garmin Forerunner 265 vs COROS PACE 3 | Phavai",
+      "description_length": 144,
+      "canonical": "https://www.phavai.com/garmin-forerunner-265-vs-coros-pace-3.html",
+      "h1": "Garmin Forerunner 265 vs COROS PACE 3",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
       "file": "gps-running-watch-features-that-matter.html",
       "title": "GPS Running Watch Features That Actually Matter | Phavai",
       "description_length": 123,
@@ -677,6 +688,17 @@
       "description_length": 128,
       "canonical": "https://www.phavai.com/hard-shell-vs-soft-shell-carry-on.html",
       "h1": "Hard-Shell vs Soft-Shell Carry-On Luggage",
+      "structured_data_types": [
+        "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "hoka-speedgoat-7-vs-brooks-cascadia-19.html",
+      "title": "HOKA Speedgoat 7 vs Brooks Cascadia 19 | Phavai",
+      "description_length": 133,
+      "canonical": "https://www.phavai.com/hoka-speedgoat-7-vs-brooks-cascadia-19.html",
+      "h1": "HOKA Speedgoat 7 vs Brooks Cascadia 19",
       "structured_data_types": [
         "Article",
         "BreadcrumbList"

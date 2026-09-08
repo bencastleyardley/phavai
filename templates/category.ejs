@@ -4,7 +4,6 @@
 <% const productId = (product) => product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
 <% const quickWinner = products[0]; %>
 <% const winnerShoppingLink = quickWinner?.shoppingLinks?.[0]; %>
-<% const quickPicks = [quickWinner, decisionSnapshot?.bestValue, decisionSnapshot?.useCasePick].filter(Boolean).filter((product, index, list) => list.findIndex((item) => item.name === product.name) === index).slice(0, 3); %>
 <% const fitOptions = (decisionOptions || []).slice(0, 4); %>
 <% const hasCatalogImages = products.some((product) => Boolean(product.catalogImage)); %>
 <% const fitProfileFor = (product) => {
@@ -144,34 +143,14 @@
           <span class="meta-pill">Last updated <%= updated %></span>
           <span class="meta-pill">Sources checked <%= sourcesVerifiedAt %></span>
           <span class="meta-pill"><%= audience %></span>
-          <span class="meta-pill">Retail links never buy rank</span>
         </div>
-        <p class="review-byline">AI-assisted research by Phavai · Reviewed by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.expertiseSections.includes(section.slug) ? editorialProfile.outdoorByline : editorialProfile.generalByline %>. We synthesize selected public sources and do not claim hands-on testing unless it is documented. <a href="/methodology.html">How it works</a>.</p>
+        <p class="review-byline">AI-assisted research · Human review by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.expertiseSections.includes(section.slug) ? editorialProfile.outdoorByline : editorialProfile.generalByline %>. We synthesize selected public sources and do not claim hands-on testing unless documented. <a href="/methodology.html">How it works</a>.</p>
         <% if (quickWinner) { %>
-          <section class="quick-answer-panel" aria-labelledby="quick-answer-heading" data-quick-answer>
+          <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
               <div class="section-kicker">Quick answer</div>
               <h2 id="quick-answer-heading">Start with <a href="#<%= productId(quickWinner) %>"><%= quickWinner.name %></a>.</h2>
-              <p><%= quickWinner.decisionSummary %></p>
-              <div class="quick-answer-facts" aria-label="Why this pick leads">
-                <span><strong><%= quickWinner.publicScoreLabel %></strong> BestPick</span>
-                <span><strong>#<%= quickWinner.rank %></strong> guide rank</span>
-                <span><strong><%= quickWinner.sourceScores.length %></strong> proof channels</span>
-              </div>
-            </div>
-            <div class="quick-answer-proof">
-              <div>
-                <span>Best for</span>
-                <p><%= quickWinner.bestFor %></p>
-              </div>
-              <div>
-                <span>Watch-out</span>
-                <p><%= quickWinner.biggestComplaint %></p>
-              </div>
-              <div>
-                <span>Best proof</span>
-                <p><%= quickWinner.sourceProofSummary %></p>
-              </div>
+              <p><%= quickWinner.verdict || quickWinner.decisionSummary %></p>
             </div>
             <div class="quick-answer-actions">
               <% const quickLink = quickWinner.shoppingLinks?.[0]; %>
@@ -180,63 +159,6 @@
                 <a class="button shopping-button" href="<%= quickLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= quickLink.displayLabel || quickLink.label || "Check price" %> for <%= quickWinner.name %>" data-product-cta data-affiliate-link data-retailer="<%= quickLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= quickLink.displayLabel || quickLink.label || "Check price" %>" data-shopping-placement="quick-answer"><%= quickLink.displayLabel || quickLink.label || "Check price" %></a>
               <% } %>
               <a class="button secondary" href="#<%= productId(quickWinner) %>" data-view-details data-product-name="<%= quickWinner.name %>" data-guide="<%= title %>">Read why</a>
-              <p>Compare size, color, seller, and return terms before checkout.</p>
-            </div>
-          </section>
-          <% if (quickPicks.length > 1) { %>
-            <div class="quick-pick-strip" aria-label="Fast comparison of top picks">
-              <% quickPicks.forEach((product) => { %>
-                <a href="#<%= productId(product) %>">
-                  <span>#<%= product.rank %></span>
-                  <strong><%= product.name %></strong>
-                  <small><%= product.tag %></small>
-                </a>
-              <% }) %>
-            </div>
-          <% } %>
-        <% } %>
-        <% if (fitOptions.length && products.length > 1) { %>
-          <section class="fit-finder" data-fit-finder data-fit-options="<%- encodeURIComponent(JSON.stringify(fitOptions)) %>" aria-labelledby="fit-finder-heading">
-            <div class="fit-finder-copy">
-              <div class="section-kicker">Find your fit</div>
-              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
-              <p>Choose up to two buying priorities. Phavai keeps the editorial ranking intact and highlights the product that best fits your situation.</p>
-            </div>
-            <div class="fit-finder-controls">
-              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
-                <% fitOptions.forEach((option) => { %>
-                  <button class="fit-chip" type="button" data-fit-option="<%= option.key %>" aria-pressed="false">
-                    <span><%= option.label %></span>
-                    <small><%= option.help %></small>
-                  </button>
-                <% }) %>
-                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false">
-                  <span>Reset</span>
-                  <small>Return to editorial order</small>
-                </button>
-              </div>
-              <div class="fit-result" data-fit-result aria-live="polite">
-                <span data-fit-result-label>Choose a priority</span>
-                <strong data-fit-result-name><%= quickWinner?.name || "Top pick" %></strong>
-                <p data-fit-result-reason>Start with the editorial winner, or select priorities above to get a buyer-specific match from the same evidence.</p>
-                <% if (quickWinner) { %>
-                  <div class="fit-result-actions">
-                    <a href="#<%= productId(quickWinner) %>" data-fit-result-link>Jump to current pick</a>
-                    <% if (affiliateEnabled && winnerShoppingLink) { %>
-                      <a class="button shopping-button fit-result-shop" href="<%= winnerShoppingLink.url %>" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, <%= quickWinner.name %>" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="<%= winnerShoppingLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= winnerShoppingLink.displayLabel || winnerShoppingLink.label || "Check price" %>" data-shopping-placement="fit-finder">Check price for this match</a>
-                    <% } %>
-                  </div>
-                <% } %>
-              </div>
-            </div>
-            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
-              <% products.slice(0, 3).forEach((product, index) => { %>
-                <a class="fit-match-card" href="#<%= productId(product) %>" data-fit-card>
-                  <span data-fit-card-rank>#<%= index + 1 %> editorial</span>
-                  <strong data-fit-card-name><%= product.name %></strong>
-                  <small data-fit-card-reason><%= product.tag %></small>
-                </a>
-              <% }) %>
             </div>
           </section>
         <% } %>
@@ -251,6 +173,7 @@
               <span>Use the fit and tradeoff notes to narrow your choice, then confirm the exact model, seller, size or color, current price, and returns at the retailer.</span>
             </div>
           <% } %>
+          <% if (affiliateEnabled) { %><p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p><% } %>
           <div class="comparison-scroll">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
@@ -286,6 +209,42 @@
             </table>
           </div>
         </section>
+
+        <% if (fitOptions.length && products.length > 1) { %>
+          <section class="fit-finder" data-fit-finder data-fit-options="<%- encodeURIComponent(JSON.stringify(fitOptions)) %>" aria-labelledby="fit-finder-heading">
+            <div class="fit-finder-copy">
+              <div class="section-kicker">Find your fit</div>
+              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
+              <p>Choose up to two priorities. The editorial order stays intact while the closest buyer-specific match is highlighted.</p>
+            </div>
+            <div class="fit-finder-controls">
+              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
+                <% fitOptions.forEach((option) => { %>
+                  <button class="fit-chip" type="button" data-fit-option="<%= option.key %>" aria-pressed="false"><span><%= option.label %></span><small><%= option.help %></small></button>
+                <% }) %>
+                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false"><span>Reset</span><small>Editorial order</small></button>
+              </div>
+              <div class="fit-result" data-fit-result aria-live="polite">
+                <span data-fit-result-label>Choose a priority</span>
+                <strong data-fit-result-name><%= quickWinner?.name || "Top pick" %></strong>
+                <p data-fit-result-reason>Start with the editorial winner, or select priorities above for a more specific match.</p>
+                <% if (quickWinner) { %>
+                  <div class="fit-result-actions">
+                    <a href="#<%= productId(quickWinner) %>" data-fit-result-link>Jump to current pick</a>
+                    <% if (affiliateEnabled && winnerShoppingLink) { %>
+                      <a class="button shopping-button fit-result-shop" href="<%= winnerShoppingLink.url %>" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, <%= quickWinner.name %>" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="<%= winnerShoppingLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= winnerShoppingLink.displayLabel || winnerShoppingLink.label || "Check price" %>" data-shopping-placement="fit-finder">Check price for this match</a>
+                    <% } %>
+                  </div>
+                <% } %>
+              </div>
+            </div>
+            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
+              <% products.slice(0, 3).forEach((product, index) => { %>
+                <a class="fit-match-card" href="#<%= productId(product) %>" data-fit-card><span data-fit-card-rank>#<%= index + 1 %> editorial</span><strong data-fit-card-name><%= product.name %></strong><small data-fit-card-reason><%= product.tag %></small></a>
+              <% }) %>
+            </div>
+          </section>
+        <% } %>
 
         <% if (typeof flagshipResearch !== "undefined" && flagshipResearch) { %>
           <section class="research-brief" aria-labelledby="research-brief-heading">
@@ -389,41 +348,24 @@
                 </div>
                 <h2><%= product.name %></h2>
                 <div class="tagline"><%= product.tag %></div>
-                <p class="decision-summary"><%= product.decisionSummary %></p>
+                <p class="product-verdict"><strong>Our take:</strong> <%= product.verdict || product.decisionSummary %></p>
 
-                <div class="score-stack" aria-label="Phavai score summary for <%= product.name %>">
-                  <div class="score-box score-box--primary <%= product.sourceScores.length ? "" : "score-box--pending" %>"><strong><%= product.publicScoreLabel %></strong><span>BestPick Score</span></div>
-                  <% if (product.sourceScores.length) { %>
-                    <div class="product-signal-grid" aria-label="Scoring signals for <%= product.name %>">
-                      <% product.sourceScores.forEach((row) => { const scoreSources = row.displaySources || []; %>
-                        <div class="product-signal product-signal--<%= row.source.toLowerCase() %>">
-                          <div class="signal-score-head">
-                            <span><%= row.source %></span>
-                            <strong><%= row.score %></strong>
-                            <small><%= row.source %> Score</small>
-                          </div>
-                          <% if (scoreSources.length) { %>
-                            <div class="signal-source-list">
-                              <div class="signal-source-row">
-                                <span>Best evidence</span>
-                                <a href="<%= scoreSources[0].url %>" target="_blank" rel="nofollow noopener" data-source-link data-source-type="<%= scoreSources[0].sourceLabel %>" data-source-title="<%= scoreSources[0].title || scoreSources[0].sourceName %>" data-product-name="<%= product.name %>" data-guide="<%= title %>"><%= scoreSources[0].scorecardLabel %></a>
-                              </div>
-                              <% if (scoreSources.length > 1) { %>
-                                <div class="signal-source-row">
-                                  <span>Also used</span>
-                                  <p>
-                                    <% scoreSources.slice(1).forEach((item, sourceIndex, sourceList) => { %>
-                                      <a href="<%= item.url %>" target="_blank" rel="nofollow noopener" data-source-link data-source-type="<%= item.sourceLabel %>" data-source-title="<%= item.title || item.sourceName %>" data-product-name="<%= product.name %>" data-guide="<%= title %>"><%= item.scorecardLabel %></a><% if (sourceIndex < sourceList.length - 1) { %>, <% } %>
-                                    <% }) %>
-                                  </p>
-                                </div>
-                              <% } %>
-                            </div>
-                          <% } %>
-                        </div>
-                      <% }) %>
-                    </div>
-                  <% } %>
+                <% if (product.specs?.length) { %>
+                  <ul class="spec-list product-spec-list" aria-label="Key specifications for <%= product.name %>">
+                    <% product.specs.slice(0, 4).forEach((spec) => { %><li><%= spec %></li><% }) %>
+                  </ul>
+                <% } %>
+
+                <% if (product.pros?.length || product.cons?.length) { %>
+                  <div class="product-pros-cons">
+                    <div><h3>Why it stands out</h3><ul><% (product.pros || []).slice(0, 3).forEach((pro) => { %><li><%= pro %></li><% }) %></ul></div>
+                    <div><h3>Know before buying</h3><ul><% (product.cons || []).slice(0, 3).forEach((con) => { %><li><%= con %></li><% }) %></ul></div>
+                  </div>
+                <% } %>
+
+                <div class="product-score-summary" aria-label="Evidence score for <%= product.name %>">
+                  <strong><%= product.publicScoreLabel %></strong>
+                  <span>Evidence score · <%= product.evidenceCount %> public source<%= product.evidenceCount === 1 ? "" : "s" %></span>
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for <%= product.name %>">
@@ -441,32 +383,8 @@
                   </div>
                 </div>
 
-                <div class="proof-snapshot-grid" aria-label="Proof snapshot for <%= product.name %>">
-                  <div>
-                    <span>Proof base</span>
-                    <strong><%= product.evidenceCount %> public source<%= product.evidenceCount === 1 ? "" : "s" %></strong>
-                    <p><%= product.sourceScores.map((row) => row.source).join(", ") || "Source review in progress" %></p>
-                  </div>
-                  <div>
-                    <span>Freshness</span>
-                    <strong><%= product.recencyStrength %>/100</strong>
-                    <p>Recent page updates and public source recency support this read.</p>
-                  </div>
-                  <div>
-                    <span>Buyer warning</span>
-                    <strong><%= product.attributeGraph?.confidenceLevel || "Reviewing" %> proof</strong>
-                    <p><%= product.biggestComplaint %></p>
-                  </div>
-                </div>
-
-                <% if (product.modelFreshness) { %>
-                  <div class="freshness-note">
-                    <span><%= product.modelFreshness.status %></span>
-                    <p><%= product.modelFreshness.note %></p>
-                  </div>
-                <% } %>
-
                 <% if (affiliateEnabled) { %>
+                  <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for <%= product.name %>">
                     <% ;(product.shoppingLinks?.length ? product.shoppingLinks : [{ label: "Check price", displayLabel: `Check price at ${product.retailerName || "Retailer"}`, url: product.affiliateUrl, retailerName: product.retailerName }]).forEach((link) => { %>
                       <a class="button shopping-button" href="<%= link.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= link.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= product.name %>" data-product-rank="<%= product.rank %>" data-product-score="<%= product.bestPickScore %>" data-shopping-label="<%= link.displayLabel || link.label || "Check price" %>" data-shopping-placement="product-card"><%= link.displayLabel || link.label || "Check price" %></a>
@@ -478,10 +396,32 @@
 
                   <details class="evidence-drawer" data-source-dropdown data-source-type="all" data-product-name="<%= product.name %>" data-guide="<%= title %>">
                     <summary>
-                      <span>View full evidence</span>
-                      <small>Upside, cautions, and proof</small>
+                      <span>Show the research</span>
+                      <small>Scores, sources, upside, and cautions</small>
                     </summary>
                     <div class="evidence-drawer-body">
+                      <section class="evidence-score-detail" aria-label="Scoring detail for <%= product.name %>">
+                        <% if (product.sourceScores.length) { %>
+                          <div class="product-signal-grid" aria-label="Scoring signals for <%= product.name %>">
+                            <% product.sourceScores.forEach((row) => { const scoreSources = row.displaySources || []; %>
+                              <div class="product-signal product-signal--<%= row.source.toLowerCase() %>">
+                                <div class="signal-score-head"><span><%= row.source %></span><strong><%= row.score %></strong><small><%= row.source %> score</small></div>
+                                <% if (scoreSources.length) { %>
+                                  <div class="signal-source-list">
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="<%= scoreSources[0].url %>" target="_blank" rel="nofollow noopener" data-source-link data-source-type="<%= scoreSources[0].sourceLabel %>" data-source-title="<%= scoreSources[0].title || scoreSources[0].sourceName %>" data-product-name="<%= product.name %>" data-guide="<%= title %>"><%= scoreSources[0].scorecardLabel %></a></div>
+                                  </div>
+                                <% } %>
+                              </div>
+                            <% }) %>
+                          </div>
+                        <% } %>
+                        <div class="proof-snapshot-grid" aria-label="Proof snapshot for <%= product.name %>">
+                          <div><span>Proof base</span><strong><%= product.evidenceCount %> public source<%= product.evidenceCount === 1 ? "" : "s" %></strong><p><%= product.sourceScores.map((row) => row.source).join(", ") || "Source review in progress" %></p></div>
+                          <div><span>Freshness</span><strong><%= product.recencyStrength %>/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof level</span><strong><%= product.attributeGraph?.confidenceLevel || "Reviewing" %></strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                        </div>
+                        <% if (product.modelFreshness) { %><div class="freshness-note"><span><%= product.modelFreshness.status %></span><p><%= product.modelFreshness.note %></p></div><% } %>
+                      </section>
                       <% if (product.evidenceSummary.likes.groups.length) { %>
                         <section class="evidence-panel like-panel">
                           <div class="source-section-label">What people like</div>
@@ -589,7 +529,7 @@
             <div class="link-list">
               <a href="/<%= section.slug %>.html"><span>Back to <%= section.title %></span><span>Category hub</span></a>
               <% relatedReviews.slice(0, 5).forEach((review) => { %>
-                <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Review guide</span></a>
+                <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Buying guide</span></a>
               <% }) %>
             </div>
           </section>
