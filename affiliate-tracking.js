@@ -56,17 +56,13 @@
     const productCta = event.target.closest("[data-product-cta]");
     if (productCta) {
       const payload = productPayload(productCta);
-      track("product_cta_click", payload);
-
       if (productCta.matches("[data-affiliate-link]")) {
-        track("buy_now_click", {
-          ...payload,
-          event_category: "product_decision"
-        });
         track("outbound_retailer_click", {
           ...payload,
           event_category: "outbound_retailer"
         });
+      } else {
+        track("product_cta_click", payload);
       }
       return;
     }
@@ -156,7 +152,8 @@
     track("help_me_choose_interaction", {
       event_category: "decision_helper",
       selected_priorities: event.detail?.selectedPriorities || "",
-      recommended_products: event.detail?.recommendedProducts || ""
+      recommended_products: event.detail?.recommendedProducts || "",
+      fit_score: asNumber(event.detail?.fitScore)
     });
   });
 })();

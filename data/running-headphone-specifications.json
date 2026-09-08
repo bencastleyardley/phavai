@@ -8,7 +8,7 @@
   "published": "September 5, 2026",
   "image": "/photos/generated/running-headphone-spec-database-social.png",
   "intro": "A normalized, source-linked reference for comparing the four finalists in Phavai's running-headphone guide. Use it to compare like with like before opening the ranked recommendations.",
-  "downloadPath": "/exports/running-headphone-specifications.csv",
+  "downloadPath": "/downloads/running-headphone-specifications.csv",
   "columns": [
     "Product",
     "Format",

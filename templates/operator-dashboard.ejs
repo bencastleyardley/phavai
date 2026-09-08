@@ -13,6 +13,7 @@ const commercePerformance = dashboard.commercePerformance || {};
 const ga4 = commercePerformance.ga4 || {};
 const amazon = commercePerformance.amazon || {};
 const pageMovements = dashboard.pageMovements || [];
+const experiments = searchExperiments?.experiments || [];
 const visiblePages = [...(topSearchPages.length ? topSearchPages : topPages)]
   .filter((page) => Number(page.searchSignal?.impressions || 0) > 0)
   .sort((a, b) => Number(b.searchSignal?.impressions || 0) - Number(a.searchSignal?.impressions || 0));
@@ -109,7 +110,7 @@ const summaryItems = [
           <article><span>GSC impressions</span><strong><%= formatNumber(siteSearch.impressions) %></strong><small><%= siteSearch.start || "—" %> to <%= siteSearch.end || "—" %></small></article>
           <article><span>GSC clicks</span><strong><%= formatNumber(siteSearch.clicks) %></strong><small><%= formatPercent(siteSearch.ctr, 2) %> search CTR</small></article>
           <article><span>Average position</span><strong><%= Number.isFinite(Number(siteSearch.position)) ? Number(siteSearch.position).toFixed(1) : "—" %></strong><small>sitewide export average</small></article>
-          <article><span>Retailer clicks</span><strong><%= ga4.status === "imported" ? formatNumber(ga4.outboundRetailerClicks) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatPercent(ga4.outboundClicksPerPageView)} per pageview` : "GA4 export needed" %></small></article>
+          <article><span>Retailer clicks</span><strong><%= ga4.status === "imported" ? formatNumber(ga4.outboundRetailerClicks) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatPercent(ga4.clickUserRate || (ga4.activeUsers ? ga4.clickUsers / ga4.activeUsers : 0))} of users clicked` : "GA4 export needed" %></small></article>
           <article><span>Amazon orders</span><strong><%= amazon.status === "imported" ? formatNumber(amazon.itemsOrdered) : "—" %></strong><small><%= amazon.status === "imported" ? `${formatNumber(amazon.clicks)} Amazon clicks` : "matched-period report needed" %></small></article>
           <article><span>Amazon earnings</span><strong><%= amazon.status === "imported" ? formatMoney(amazon.totalEarnings) : "—" %></strong><small><%= amazon.status === "imported" ? `${formatMoney(amazon.orderedRevenue)} ordered revenue` : "not estimated from clicks" %></small></article>
         </div>
@@ -128,7 +129,8 @@ const summaryItems = [
             <div class="section-kicker">Conversion baseline</div>
             <h3 id="commerce-heading"><%= commercePerformance.period?.label || "Current export" %></h3>
             <div class="trend-comparison">
-              <div><span>GA4 pageviews</span><strong><%= ga4.status === "imported" ? formatNumber(ga4.pageViews) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatNumber(ga4.sessions)} sessions · ${formatNumber(ga4.clickUsers)} click users` : "No GA4 snapshot" %></small></div>
+              <div><span>GA4 pageviews</span><strong><%= ga4.status === "imported" ? formatNumber(ga4.pageViews) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatNumber(ga4.sessions)} sessions · ${formatNumber(ga4.activeUsers)} users` : "No GA4 snapshot" %></small></div>
+              <div><span>Users who clicked</span><strong><%= ga4.status === "imported" ? formatPercent(ga4.clickUserRate || (ga4.activeUsers ? ga4.clickUsers / ga4.activeUsers : 0)) : "—" %></strong><small><%= ga4.status === "imported" ? `${formatNumber(ga4.clickUsers)} of ${formatNumber(ga4.activeUsers)} users` : "No GA4 snapshot" %></small></div>
               <div><span>Product-level split</span><strong><%= ga4.productBreakdownAvailable ? "Available" : "Starts next cycle" %></strong><small><%= ga4.productBreakdownAvailable ? "Guide and product dimensions imported" : "New custom dimensions do not backfill" %></small></div>
             </div>
             <p><%= ga4.note || amazon.note || "Import matched reports before using this panel for revenue decisions." %></p>
@@ -161,6 +163,37 @@ const summaryItems = [
             <p>The current Search Console file establishes the first page-level baseline. Import the next monthly export to calculate honest per-page gains and losses; the dashboard will not infer movement from one snapshot.</p>
           <% } %>
         </section>
+
+        <div class="growth-control-grid">
+          <section class="measurement-action-panel" aria-labelledby="experiment-heading">
+            <div class="section-kicker">Search experiments</div>
+            <h3 id="experiment-heading">Protect clean measurement windows</h3>
+            <% if (experiments.length) { %>
+              <div class="experiment-list">
+                <% experiments.forEach((experiment) => { %>
+                  <article>
+                    <span><%= experiment.status.replaceAll("-", " ") %></span>
+                    <strong><a href="/<%= experiment.page %>.html"><%= experiment.pageTitle %></a></strong>
+                    <small>Started <%= experiment.startedAt %> · review no earlier than <%= experiment.reviewAfter %></small>
+                    <p><%= experiment.decisionRule %></p>
+                  </article>
+                <% }) %>
+              </div>
+            <% } else { %>
+              <p>No title or snippet test is currently logged.</p>
+            <% } %>
+          </section>
+          <section class="measurement-action-panel" aria-labelledby="analytics-setup-heading">
+            <div class="section-kicker">Measurement setup</div>
+            <h3 id="analytics-setup-heading">Finish placement attribution</h3>
+            <p>Keep <strong>outbound_retailer_click</strong> as the single retailer-click event and only key event. Register these two event-scoped custom dimensions next:</p>
+            <ul>
+              <li><code>cta_placement</code> — quick answer, fit finder, comparison, product card, or final recommendation</li>
+              <li><code>site_section</code> — Outdoor, Remote Work, Lifestyle, or Today's Picks</li>
+            </ul>
+            <p>Do not assign a default dollar value to a click. Use Amazon order and earnings reports for revenue.</p>
+          </section>
+        </div>
       </div>
     </section>
 

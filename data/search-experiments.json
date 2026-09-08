@@ -1,0 +1,25 @@
+{
+  "updatedAt": "2026-09-08",
+  "experiments": [
+    {
+      "id": "running-headphones-september-refresh",
+      "status": "hold-and-measure",
+      "page": "best-running-headphones",
+      "pageTitle": "Best Running Headphones",
+      "primaryQuery": "best running headphones",
+      "startedAt": "2026-09-05",
+      "reviewAfter": "2026-10-03",
+      "beforeTitle": "Best Running Headphones | Phavai Buying Guide",
+      "currentTitle": "4 Best Running Headphones for Secure Fit (2026)",
+      "baseline": {
+        "period": "2026-06-04 to 2026-09-03",
+        "impressions": 2844,
+        "clicks": 0,
+        "ctr": 0,
+        "averagePosition": 27.01
+      },
+      "hypothesis": "A specific, current title plus deeper specification evidence can improve relevance and click-through without creating another overlapping roundup.",
+      "decisionRule": "Do not retitle again before the review date. Compare a fresh Page x Query export against this baseline, then keep the title only if impressions, position, or clicks improve without query loss."
+    }
+  ]
+}

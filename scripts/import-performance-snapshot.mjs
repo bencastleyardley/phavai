@@ -63,18 +63,21 @@ function gaSnapshot(path) {
   const event = (name, field = "Event count") => number(byName.get(name)?.[field]);
   const pageViews = event("page_view");
   const outboundRetailerClicks = event("outbound_retailer_click") || event("buy_now_click") || event("product_cta_click");
+  const activeUsers = event("page_view", "Total users");
+  const clickUsers = event("outbound_retailer_click", "Total users") || event("buy_now_click", "Total users");
   return {
     status: "imported",
     source: path.split(/[\\/]/).pop(),
     pageViews,
     sessions: event("session_start"),
-    activeUsers: event("page_view", "Total users"),
-    productCtaClicks: event("product_cta_click") || event("buy_now_click"),
+    activeUsers,
+    productCtaClicks: outboundRetailerClicks,
     outboundRetailerClicks,
-    clickUsers: event("outbound_retailer_click", "Total users") || event("buy_now_click", "Total users"),
+    clickUsers,
+    clickUserRate: activeUsers ? Number((clickUsers / activeUsers).toFixed(4)) : 0,
     outboundClicksPerPageView: pageViews ? Number((outboundRetailerClicks / pageViews).toFixed(4)) : 0,
     productBreakdownAvailable: false,
-    note: "Product-level reporting requires a GA4 export that includes the registered product_name, retailer, guide_title, and link_domain custom dimensions."
+    note: "Register cta_placement and site_section in GA4, then export them with product_name, retailer, guide_title, and link_domain for an honest placement and product split."
   };
 }
 

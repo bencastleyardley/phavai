@@ -1,0 +1,120 @@
+{
+  "best-mens-trail-running-shoes": [
+    "best-womens-trail-running-shoes",
+    "best-trail-shoes-for-technical-trails",
+    "best-trail-shoes-for-wide-feet",
+    "best-trail-shoes-for-muddy-conditions",
+    "best-trail-shoes-for-beginners"
+  ],
+  "best-womens-trail-running-shoes": [
+    "best-mens-trail-running-shoes",
+    "best-comfortable-trail-running-shoes",
+    "best-trail-shoes-for-wide-feet",
+    "best-trail-shoes-for-beginners",
+    "best-trail-shoes-for-technical-trails"
+  ],
+  "best-comfortable-trail-running-shoes": [
+    "best-womens-trail-running-shoes",
+    "best-mens-trail-running-shoes",
+    "best-trail-shoes-for-wide-feet",
+    "best-trail-shoes-for-beginners",
+    "best-trail-shoes-for-100-miles"
+  ],
+  "best-trail-shoes-for-technical-trails": [
+    "best-mens-trail-running-shoes",
+    "best-trail-shoes-for-muddy-conditions",
+    "best-trail-running-poles",
+    "best-trail-shoes-for-100-miles",
+    "best-trail-shoes-for-wide-feet"
+  ],
+  "best-trail-shoes-for-wide-feet": [
+    "best-womens-trail-running-shoes",
+    "best-mens-trail-running-shoes",
+    "best-trail-shoes-for-beginners",
+    "best-trail-shoes-for-100-miles",
+    "best-trail-shoes-for-technical-trails"
+  ],
+  "best-trail-shoes-for-muddy-conditions": [
+    "best-trail-shoes-for-technical-trails",
+    "best-mens-trail-running-shoes",
+    "best-trail-shoes-for-wide-feet",
+    "best-trail-shoes-for-beginners",
+    "best-trail-shoes-for-100-miles"
+  ],
+  "best-trail-shoes-for-beginners": [
+    "best-mens-trail-running-shoes",
+    "best-womens-trail-running-shoes",
+    "best-comfortable-trail-running-shoes",
+    "best-trail-shoes-for-wide-feet",
+    "best-trail-shoes-for-technical-trails"
+  ],
+  "best-trail-shoes-for-100-miles": [
+    "best-trail-shoes-for-wide-feet",
+    "best-hydration-vests-for-100k-and-100-mile-races",
+    "best-gps-watches-for-ultrarunning",
+    "best-ultramarathon-fuel",
+    "best-trail-shoes-for-technical-trails"
+  ],
+  "best-gps-running-watches": [
+    "best-gps-watches-for-ultrarunning",
+    "best-running-headphones",
+    "best-hydration-packs",
+    "best-running-belts"
+  ],
+  "best-gps-watches-for-ultrarunning": [
+    "best-gps-running-watches",
+    "best-hydration-vests-for-100k-and-100-mile-races",
+    "best-trail-shoes-for-100-miles",
+    "best-ultramarathon-fuel"
+  ],
+  "best-hydration-packs": [
+    "best-running-vests",
+    "best-hydration-vests-for-100k-and-100-mile-races",
+    "best-handheld-running-water-bottles",
+    "best-running-belts"
+  ],
+  "best-running-vests": [
+    "best-hydration-packs",
+    "best-hydration-vests-for-100k-and-100-mile-races",
+    "best-handheld-running-water-bottles",
+    "best-running-belts"
+  ],
+  "best-hydration-vests-for-100k-and-100-mile-races": [
+    "best-hydration-packs",
+    "best-running-vests",
+    "best-gps-watches-for-ultrarunning",
+    "best-trail-shoes-for-100-miles",
+    "best-ultramarathon-fuel"
+  ],
+  "best-road-shoe-for-your-first-marathon": [
+    "best-daily-trainers-for-marathon-training",
+    "best-marathon-shoes-for-heavy-runners",
+    "best-gps-running-watches",
+    "best-running-belts"
+  ],
+  "best-daily-trainers-for-marathon-training": [
+    "best-road-shoe-for-your-first-marathon",
+    "best-marathon-shoes-for-heavy-runners",
+    "best-gps-running-watches",
+    "best-running-headphones"
+  ],
+  "best-marathon-shoes-for-heavy-runners": [
+    "best-road-shoe-for-your-first-marathon",
+    "best-daily-trainers-for-marathon-training",
+    "best-recovery-sandals",
+    "best-gps-running-watches"
+  ],
+  "best-ultramarathon-fuel": [
+    "best-carb-drink-mixes-for-ultramarathons",
+    "best-running-gels-for-ultramarathons",
+    "best-electrolyte-mixes-for-ultrarunning",
+    "best-running-chews",
+    "best-hydration-packs"
+  ],
+  "best-compression-boots-for-runners": [
+    "best-massage-guns",
+    "best-recovery-sandals",
+    "best-marathon-shoes-for-heavy-runners",
+    "best-ultramarathon-fuel"
+  ]
+}

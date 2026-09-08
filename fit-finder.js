@@ -130,6 +130,7 @@
     const resultName = finder.querySelector("[data-fit-result-name]");
     const resultReason = finder.querySelector("[data-fit-result-reason]");
     const resultLink = finder.querySelector("[data-fit-result-link]");
+    const resultShop = finder.querySelector("[data-fit-result-shop]");
     const validKeys = options.map((option) => option.key);
     let selectedKeys = readStoredKeys(validKeys);
 
@@ -174,7 +175,7 @@
       });
     }
 
-    function render() {
+    function render(trackInteraction = false) {
       const selectedOptions = activeOptions();
       const hasActiveOptions = selectedOptions.length > 0;
       const matches = sortMatches(products, selectedOptions);
@@ -208,6 +209,30 @@
         resultLink.href = `#${winner.profile.id}`;
         resultLink.textContent = hasActiveOptions ? "Jump to fit match" : "Jump to current pick";
       }
+      if (resultShop) {
+        const shoppingAvailable = hasActiveOptions && Boolean(winner.profile.shoppingUrl);
+        resultShop.hidden = !shoppingAvailable;
+        if (shoppingAvailable) {
+          resultShop.href = winner.profile.shoppingUrl;
+          resultShop.textContent = winner.profile.shoppingLabel || "Check price for this match";
+          resultShop.setAttribute("aria-label", `${winner.profile.shoppingLabel || "Check price"} for your fit match, ${winner.profile.name}`);
+          resultShop.dataset.retailer = winner.profile.retailerName || "Retailer";
+          resultShop.dataset.productName = winner.profile.name;
+          resultShop.dataset.productRank = String(winner.profile.rank || "");
+          resultShop.dataset.productScore = String(winner.profile.defaultScore || "");
+          resultShop.dataset.shoppingLabel = winner.profile.shoppingLabel || "Check price";
+        }
+      }
+
+      if (trackInteraction && hasActiveOptions) {
+        document.dispatchEvent(new CustomEvent("phavai:decision_helper", {
+          detail: {
+            selectedPriorities: selectedOptions.map((option) => option.key).join("|"),
+            recommendedProducts: winner.profile.name,
+            fitScore: winner.fitScore
+          }
+        }));
+      }
     }
 
     for (const button of buttons) {
@@ -221,7 +246,7 @@
           selectedKeys = [...selectedKeys, key].slice(-MAX_ACTIVE_OPTIONS);
         }
 
-        render();
+        render(true);
       });
     }
 

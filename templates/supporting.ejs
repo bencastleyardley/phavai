@@ -133,7 +133,8 @@
             </div>
             <div class="quick-answer-actions">
               <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
-                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="supporting-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
+                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+                <a class="button shopping-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %> for <%= featuredProduct.name %>" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="supporting-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
               <% } %>
               <% if (featuredReview) { %>
                 <a class="button secondary" href="/<%= featuredReview.slug %>.html">Open guide</a>

@@ -25,9 +25,11 @@
     "amazon:sync": "node scripts/sync-amazon-creators.mjs",
     "amazon:smoke": "node scripts/sync-amazon-creators.mjs --smoke",
     "amazon:cache:audit": "node scripts/amazon-catalog-audit.mjs",
+    "export:public": "node scripts/export-public.mjs",
+    "indexnow:submit": "node scripts/submit-indexnow.mjs",
     "build": "node scripts/build.mjs",
     "test:browser": "playwright test",
-    "deploy": "npm run build && npm run growth:audit && npm run build && npm run fit:audit && npm run seo:audit && vercel --prod"
+    "deploy": "npm run build && npm run growth:audit && npm run build && npm run fit:audit && npm run seo:audit && npm run export:public && vercel --prod"
   },
   "repository": {
     "type": "git",

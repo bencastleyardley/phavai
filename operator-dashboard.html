@@ -11,22 +11,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260905c" />
-
-  <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->
-  <meta name="msvalidate.01" content="2B9DC6FC5FA254DDA867340D39C066E1" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "G-YD9YDB3YGT", {
-      anonymize_ip: true,
-      transport_type: "beacon"
-    });
-  </script>
+  <link rel="stylesheet" href="/styles.css?v=20260908a" />
 
   <!-- Phavai site identity tags: generated at build time. -->
+  <meta property="og:site_name" content="Phavai" />
+  <meta property="og:url" content="https://www.phavai.com/operator-dashboard.html" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
@@ -53,7 +42,7 @@
         <h1>AI growth dashboard</h1>
         <p class="lede">A private queue for turning source gaps, affiliate readiness, and revenue pages into a repeatable weekly operating loop.</p>
         <div class="meta-row" aria-label="Dashboard details">
-          <span class="meta-pill">Generated Sep 5, 2026, 12:22 PM</span>
+          <span class="meta-pill">Generated Sep 8, 2026, 7:48 AM</span>
           <span class="meta-pill">80 maintenance tasks</span>
           <span class="meta-pill">Noindex operator page</span>
         </div>
@@ -125,7 +114,7 @@
           <article><span>GSC impressions</span><strong>17,246</strong><small>2026-06-04 to 2026-09-03</small></article>
           <article><span>GSC clicks</span><strong>7</strong><small>0.04% search CTR</small></article>
           <article><span>Average position</span><strong>47.8</strong><small>sitewide export average</small></article>
-          <article><span>Retailer clicks</span><strong>7</strong><small>9.2% per pageview</small></article>
+          <article><span>Retailer clicks</span><strong>7</strong><small>4.2% of users clicked</small></article>
           <article><span>Amazon orders</span><strong>—</strong><small>matched-period report needed</small></article>
           <article><span>Amazon earnings</span><strong>—</strong><small>not estimated from clicks</small></article>
         </div>
@@ -144,10 +133,11 @@
             <div class="section-kicker">Conversion baseline</div>
             <h3 id="commerce-heading">Last 90 days</h3>
             <div class="trend-comparison">
-              <div><span>GA4 pageviews</span><strong>76</strong><small>51 sessions · 2 click users</small></div>
+              <div><span>GA4 pageviews</span><strong>76</strong><small>51 sessions · 48 users</small></div>
+              <div><span>Users who clicked</span><strong>4.2%</strong><small>2 of 48 users</small></div>
               <div><span>Product-level split</span><strong>Starts next cycle</strong><small>New custom dimensions do not backfill</small></div>
             </div>
-            <p>Product-level reporting requires a GA4 export that includes the registered product_name, retailer, guide_title, and link_domain custom dimensions.</p>
+            <p>Register cta_placement and site_section in GA4, then export them with product_name, retailer, guide_title, and link_domain for an honest placement and product split.</p>
           </section>
         </div>
 
@@ -256,6 +246,35 @@
             <p>The current Search Console file establishes the first page-level baseline. Import the next monthly export to calculate honest per-page gains and losses; the dashboard will not infer movement from one snapshot.</p>
 
         </section>
+
+        <div class="growth-control-grid">
+          <section class="measurement-action-panel" aria-labelledby="experiment-heading">
+            <div class="section-kicker">Search experiments</div>
+            <h3 id="experiment-heading">Protect clean measurement windows</h3>
+
+              <div class="experiment-list">
+
+                  <article>
+                    <span>hold and measure</span>
+                    <strong><a href="/best-running-headphones.html">Best Running Headphones</a></strong>
+                    <small>Started 2026-09-05 · review no earlier than 2026-10-03</small>
+                    <p>Do not retitle again before the review date. Compare a fresh Page x Query export against this baseline, then keep the title only if impressions, position, or clicks improve without query loss.</p>
+                  </article>
+
+              </div>
+
+          </section>
+          <section class="measurement-action-panel" aria-labelledby="analytics-setup-heading">
+            <div class="section-kicker">Measurement setup</div>
+            <h3 id="analytics-setup-heading">Finish placement attribution</h3>
+            <p>Keep <strong>outbound_retailer_click</strong> as the single retailer-click event and only key event. Register these two event-scoped custom dimensions next:</p>
+            <ul>
+              <li><code>cta_placement</code> — quick answer, fit finder, comparison, product card, or final recommendation</li>
+              <li><code>site_section</code> — Outdoor, Remote Work, Lifestyle, or Today's Picks</li>
+            </ul>
+            <p>Do not assign a default dollar value to a click. Use Amazon order and earnings reports for revenue.</p>
+          </section>
+        </div>
       </div>
     </section>
 

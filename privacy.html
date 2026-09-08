@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260905c" />
+  <link rel="stylesheet" href="/styles.css?v=20260908a" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,18 +36,25 @@
 
   <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->
   <meta name="msvalidate.01" content="2B9DC6FC5FA254DDA867340D39C066E1" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "G-YD9YDB3YGT", {
-      anonymize_ip: true,
-      transport_type: "beacon"
-    });
+    if (["www.phavai.com", "phavai.com"].includes(window.location.hostname)) {
+      var gaScript = document.createElement("script");
+      gaScript.async = true;
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT";
+      document.head.appendChild(gaScript);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){window.dataLayer.push(arguments);};
+      window.gtag("js", new Date());
+      window.gtag("config", "G-YD9YDB3YGT", {
+        anonymize_ip: true,
+        transport_type: "beacon"
+      });
+    }
   </script>
 
   <!-- Phavai site identity tags: generated at build time. -->
+  <meta property="og:site_name" content="Phavai" />
+  <meta property="og:url" content="https://www.phavai.com/privacy.html" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
 <body>

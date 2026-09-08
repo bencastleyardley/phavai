@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import ejs from "ejs";
 
 const categories = [
@@ -18,6 +18,8 @@ const amazonCatalogCache = readOptionalJson(".cache/amazon-creators.json", null)
 const productIntelligence = readOptionalJson("data/ai-opportunity-dashboard.json", null);
 const maintenanceQueue = readOptionalJson("data/ai-maintenance-queue.json", null);
 const runningHeadphoneSpecifications = readOptionalJson("data/running-headphone-specifications.json", null);
+const relatedReviewOverrides = readOptionalJson("data/related-review-overrides.json", {});
+const searchExperiments = readOptionalJson("data/search-experiments.json", { experiments: [] });
 const categoryTemplate = readFileSync("templates/category.ejs", "utf8");
 const sectionTemplate = readFileSync("templates/section.ejs", "utf8");
 const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
@@ -47,7 +49,7 @@ const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260905c";
+const ASSET_VERSION = "20260908a";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -210,6 +212,7 @@ const DEFAULT_REVIEW_ICON = `<svg viewBox="0 0 64 64" aria-hidden="true"><rect x
 
 const ONE_MONTH_MS = 1000 * 60 * 60 * 24 * 30.4375;
 const SITE_LAST_MODIFIED = "2026-04-22";
+const HOME_LAST_MODIFIED = "2026-09-05";
 
 function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
@@ -1828,7 +1831,8 @@ function buildPriceInsight(product) {
   };
 }
 
-function renderMeasurementTags() {
+function renderMeasurementTags(file) {
+  if (file === "operator-dashboard.html") return "";
   const tags = [];
 
   if (analyticsConfig.googleSiteVerification) {
@@ -1841,40 +1845,79 @@ function renderMeasurementTags() {
 
   if (analyticsConfig.ga4MeasurementId) {
     const id = escapeHtml(analyticsConfig.ga4MeasurementId);
-    tags.push(`<script async src="https://www.googletagmanager.com/gtag/js?id=${id}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "${id}", {
-      anonymize_ip: true,
-      transport_type: "beacon"
-    });
+    tags.push(`<script>
+    if (["www.phavai.com", "phavai.com"].includes(window.location.hostname)) {
+      var gaScript = document.createElement("script");
+      gaScript.async = true;
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=${id}";
+      document.head.appendChild(gaScript);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){window.dataLayer.push(arguments);};
+      window.gtag("js", new Date());
+      window.gtag("config", "${id}", {
+        anonymize_ip: true,
+        transport_type: "beacon"
+      });
+    }
   </script>`);
   }
 
   if (analyticsConfig.clarityProjectId) {
     const id = escapeHtml(analyticsConfig.clarityProjectId);
     tags.push(`<script>
-    (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "${id}");
+    if (["www.phavai.com", "phavai.com"].includes(window.location.hostname)) {
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "${id}");
+    }
   </script>`);
   }
 
   return tags.length ? `\n  <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->\n  ${tags.join("\n  ")}\n` : "";
 }
 
-function renderSiteIdentityTags() {
-  return `\n  <!-- Phavai site identity tags: generated at build time. -->\n  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />\n`;
+function renderSiteIdentityTags(file) {
+  const canonicalUrl = file === "index.html" ? "https://www.phavai.com/" : `https://www.phavai.com/${file}`;
+  const tags = [
+    `<meta property="og:site_name" content="Phavai" />`,
+    `<meta property="og:url" content="${canonicalUrl}" />`,
+    `<link rel="icon" href="/favicon.svg" type="image/svg+xml" />`
+  ];
+
+  if (file === "index.html") {
+    tags.push(`<script type="application/ld+json">
+  ${JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.phavai.com/#organization",
+        "name": "Phavai",
+        "url": "https://www.phavai.com/",
+        "description": "Evidence-backed running and outdoor buying guides with clear picks, normalized specifications, and source-linked tradeoffs."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.phavai.com/#website",
+        "url": "https://www.phavai.com/",
+        "name": "Phavai",
+        "publisher": { "@id": "https://www.phavai.com/#organization" },
+        "inLanguage": "en-US"
+      }
+    ]
+  }, null, 2)}
+  </script>`);
+  }
+
+  return `\n  <!-- Phavai site identity tags: generated at build time. -->\n  ${tags.join("\n  ")}\n`;
 }
 
 function injectSiteIdentityTags() {
-  const tags = renderSiteIdentityTags();
   for (const file of readdirSync(".")) {
     if (!file.endsWith(".html")) continue;
+    const tags = renderSiteIdentityTags(file);
     const html = readFileSync(file, "utf8");
     const withoutOldTags = html.replace(/\n\s*<!-- Phavai site identity tags:[\s\S]*?\n(?=\s*<\/head>)/, "\n");
     const nextHtml = withoutOldTags.replace("</head>", `${tags}</head>`);
@@ -1883,9 +1926,9 @@ function injectSiteIdentityTags() {
 }
 
 function injectMeasurementTags() {
-  const tags = renderMeasurementTags();
   for (const file of readdirSync(".")) {
     if (!file.endsWith(".html")) continue;
+    const tags = renderMeasurementTags(file);
     const html = readFileSync(file, "utf8");
     const withoutOldTags = html.replace(/\n\s*<!-- Phavai measurement and webmaster tags:[\s\S]*?\n(?=\s*<\/head>)/, "\n");
     const nextHtml = tags ? withoutOldTags.replace("</head>", `${tags}</head>`) : withoutOldTags;
@@ -2227,10 +2270,14 @@ const builtCategories = categories.map((category) => {
 });
 
 for (const category of builtCategories) {
-  const relatedReviewOrder = new Map((category.relatedReviewSlugs ?? []).map((slug, index) => [slug, index]));
+  const configuredRelatedSlugs = [
+    ...(relatedReviewOverrides[category.slug] ?? []),
+    ...(category.relatedReviewSlugs ?? [])
+  ].filter((slug, index, list) => list.indexOf(slug) === index);
+  const relatedReviewOrder = new Map(configuredRelatedSlugs.map((slug, index) => [slug, index]));
   const sectionFeaturedOrder = new Map((sectionsBySlug.get(category.sectionSlug)?.featuredReviewSlugs ?? []).map((slug, index) => [slug, index]));
   const relatedReviews = builtCategories
-    .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug && review.isCoreRoundup)
+    .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug)
     .sort((a, b) => {
       const aOrder = relatedReviewOrder.has(a.slug)
         ? relatedReviewOrder.get(a.slug)
@@ -2347,13 +2394,12 @@ if (runningHeadphoneSpecifications) {
     record.bestUse,
     record.primarySource
   ]);
-  writeFileSync(
-    "exports/running-headphone-specifications.csv",
-    [csvColumns, ...csvRows].map((row) => row.map(csvCell).join(",")).join("\n") + "\n",
-    "utf8"
-  );
+  const specificationCsv = [csvColumns, ...csvRows].map((row) => row.map(csvCell).join(",")).join("\n") + "\n";
+  mkdirSync("downloads", { recursive: true });
+  writeFileSync("downloads/running-headphone-specifications.csv", specificationCsv, "utf8");
+  writeFileSync("exports/running-headphone-specifications.csv", specificationCsv, "utf8");
   console.log(`Built: ${page.slug}.html`);
-  console.log("Built: exports/running-headphone-specifications.csv");
+  console.log("Built: downloads/running-headphone-specifications.csv");
 }
 
 if (todaysPicks) {
@@ -2376,7 +2422,7 @@ if (todaysPicks) {
 if (productIntelligence && maintenanceQueue) {
   const html = ejs.render(
     operatorDashboardTemplate,
-    { dashboard: productIntelligence, maintenanceQueue, allSections: sections },
+    { dashboard: productIntelligence, maintenanceQueue, allSections: sections, searchExperiments },
     { rmWhitespace: false }
   );
   writeFileSync("operator-dashboard.html", html.replace(/[ \t]+$/gm, ""), "utf8");
@@ -2385,12 +2431,12 @@ if (productIntelligence && maintenanceQueue) {
 
 const staticPages = ["methodology.html", "editorial-standards.html", "about.html", "contact.html", "privacy.html", "terms.html"];
 const urls = [
-  { loc: "https://www.phavai.com/", changefreq: "weekly", priority: "1.0", lastmod: SITE_LAST_MODIFIED },
+  { loc: "https://www.phavai.com/", changefreq: "weekly", priority: "1.0", lastmod: HOME_LAST_MODIFIED },
   ...sections.map((section) => ({
     loc: `https://www.phavai.com/${section.slug}.html`,
     changefreq: "weekly",
     priority: "0.9",
-    lastmod: SITE_LAST_MODIFIED
+    lastmod: toIsoDate(section.updated)
   })),
   ...builtCategories.map((category) => ({
     loc: `https://www.phavai.com/${category.slug}.html`,

@@ -116,7 +116,8 @@
               </div>
             </div>
             <div class="quick-answer-actions">
-              <a class="button shopping-button" href="<%= featuredPick.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= featuredPick.retailer %>" data-guide="<%= page.title %>" data-section="Today's Picks" data-product-name="<%= featuredPick.name %>" data-product-rank="1" data-product-score="" data-shopping-label="<%= featuredPick.buttonLabel %>"><%= featuredPick.buttonLabel %></a>
+              <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+              <a class="button shopping-button" href="<%= featuredPick.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= featuredPick.buttonLabel %> for <%= featuredPick.name %>" data-product-cta data-affiliate-link data-retailer="<%= featuredPick.retailer %>" data-guide="<%= page.title %>" data-section="Today's Picks" data-product-name="<%= featuredPick.name %>" data-product-rank="1" data-product-score="" data-shopping-label="<%= featuredPick.buttonLabel %>" data-shopping-placement="todays-picks-quick-answer"><%= featuredPick.buttonLabel %></a>
               <a class="button secondary" href="#<%= itemId(featuredPick) %>">Read why</a>
               <p>Compare seller, size, color, current price, and return terms before checkout.</p>
             </div>

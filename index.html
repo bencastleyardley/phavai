@@ -20,24 +20,55 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260905c" />
+  <link rel="stylesheet" href="/styles.css?v=20260908a" />
   <script src="/affiliate-tracking.js" defer></script>
 
   <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->
   <meta name="msvalidate.01" content="2B9DC6FC5FA254DDA867340D39C066E1" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "G-YD9YDB3YGT", {
-      anonymize_ip: true,
-      transport_type: "beacon"
-    });
+    if (["www.phavai.com", "phavai.com"].includes(window.location.hostname)) {
+      var gaScript = document.createElement("script");
+      gaScript.async = true;
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT";
+      document.head.appendChild(gaScript);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){window.dataLayer.push(arguments);};
+      window.gtag("js", new Date());
+      window.gtag("config", "G-YD9YDB3YGT", {
+        anonymize_ip: true,
+        transport_type: "beacon"
+      });
+    }
   </script>
 
   <!-- Phavai site identity tags: generated at build time. -->
+  <meta property="og:site_name" content="Phavai" />
+  <meta property="og:url" content="https://www.phavai.com/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.phavai.com/#organization",
+      "name": "Phavai",
+      "url": "https://www.phavai.com/",
+      "description": "Evidence-backed running and outdoor buying guides with clear picks, normalized specifications, and source-linked tradeoffs."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.phavai.com/#website",
+      "url": "https://www.phavai.com/",
+      "name": "Phavai",
+      "publisher": {
+        "@id": "https://www.phavai.com/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -66,7 +97,11 @@
           </div>
         </div>
         <figure class="hero-editorial-visual">
-          <img src="/photos/generated/phavai-running-gear-social.png" width="1672" height="941" alt="Phavai running gear research illustration with a runner and comparison notes" fetchpriority="high" />
+          <picture>
+            <source type="image/avif" srcset="/photos/generated/phavai-running-gear-home-20260908-960.avif 960w, /photos/generated/phavai-running-gear-home-20260908-1600.avif 1600w" sizes="(max-width: 980px) calc(100vw - 32px), 46vw" />
+            <source type="image/webp" srcset="/photos/generated/phavai-running-gear-home-20260908-960.webp 960w, /photos/generated/phavai-running-gear-home-20260908-1600.webp 1600w" sizes="(max-width: 980px) calc(100vw - 32px), 46vw" />
+            <img src="/photos/generated/phavai-running-gear-social.png" width="1672" height="941" alt="Phavai running gear research illustration with a runner and comparison notes" fetchpriority="high" decoding="async" />
+          </picture>
           <figcaption>Original Phavai editorial artwork. Product recommendations remain evidence-led.</figcaption>
         </figure>
         <div class="hero-category-nav" aria-label="Top Phavai categories">

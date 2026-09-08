@@ -1,12 +1,21 @@
 {
   "purpose": "Master organic content map for Search Console prioritization. Planned pages are not public until they are built as complete guides.",
+  "current_focus": "Outdoor / Running / Endurance",
+  "non_running_publication_hold_until": "2026-12-07",
+  "publication_gate": [
+    "The page serves a distinct intent that is not already satisfied by an existing Phavai URL.",
+    "The page includes an original table, calculator, dataset, or decision framework worth bookmarking.",
+    "At least three contextual internal links are planned before publication.",
+    "The page adds source-backed analysis rather than merely reordering an existing product shortlist.",
+    "The page has a clear reason a runner, coach, club, or specialist publisher might cite it."
+  ],
   "priority_order": [
     "Outdoor / Running / Endurance",
-    "Travel Gear",
-    "Remote Work / Home Office",
-    "Sleep",
     "Home Fitness / Recovery",
+    "Remote Work / Home Office",
+    "Travel Gear",
     "Lifestyle / Home",
+    "Sleep",
     "Pet Gear",
     "Everyday Tech"
   ],

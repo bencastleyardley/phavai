@@ -3,6 +3,7 @@
 <% const affiliateEnabled = Boolean(affiliateConfig?.affiliateEnabled); %>
 <% const productId = (product) => product.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); %>
 <% const quickWinner = products[0]; %>
+<% const winnerShoppingLink = quickWinner?.shoppingLinks?.[0]; %>
 <% const quickPicks = [quickWinner, decisionSnapshot?.bestValue, decisionSnapshot?.useCasePick].filter(Boolean).filter((product, index, list) => list.findIndex((item) => item.name === product.name) === index).slice(0, 3); %>
 <% const fitOptions = (decisionOptions || []).slice(0, 4); %>
 <% const hasCatalogImages = products.some((product) => Boolean(product.catalogImage)); %>
@@ -172,7 +173,8 @@
             <div class="quick-answer-actions">
               <% const quickLink = quickWinner.shoppingLinks?.[0]; %>
               <% if (affiliateEnabled && quickLink) { %>
-                <a class="button shopping-button" href="<%= quickLink.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= quickLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= quickLink.displayLabel || quickLink.label || "Check price" %>" data-shopping-placement="quick-answer"><%= quickLink.displayLabel || quickLink.label || "Check price" %></a>
+                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+                <a class="button shopping-button" href="<%= quickLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= quickLink.displayLabel || quickLink.label || "Check price" %> for <%= quickWinner.name %>" data-product-cta data-affiliate-link data-retailer="<%= quickLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= quickLink.displayLabel || quickLink.label || "Check price" %>" data-shopping-placement="quick-answer"><%= quickLink.displayLabel || quickLink.label || "Check price" %></a>
               <% } %>
               <a class="button secondary" href="#<%= productId(quickWinner) %>" data-view-details data-product-name="<%= quickWinner.name %>" data-guide="<%= title %>">Read why</a>
               <p>Compare size, color, seller, and return terms before checkout.</p>
@@ -215,7 +217,12 @@
                 <strong data-fit-result-name><%= quickWinner?.name || "Top pick" %></strong>
                 <p data-fit-result-reason>Start with the editorial winner, or select priorities above to get a buyer-specific match from the same evidence.</p>
                 <% if (quickWinner) { %>
-                  <a href="#<%= productId(quickWinner) %>" data-fit-result-link>Jump to current pick</a>
+                  <div class="fit-result-actions">
+                    <a href="#<%= productId(quickWinner) %>" data-fit-result-link>Jump to current pick</a>
+                    <% if (affiliateEnabled && winnerShoppingLink) { %>
+                      <a class="button shopping-button fit-result-shop" href="<%= winnerShoppingLink.url %>" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, <%= quickWinner.name %>" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="<%= winnerShoppingLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= winnerShoppingLink.displayLabel || winnerShoppingLink.label || "Check price" %>" data-shopping-placement="fit-finder">Check price for this match</a>
+                    <% } %>
+                  </div>
                 <% } %>
               </div>
             </div>
@@ -247,9 +254,9 @@
                 <tr>
                   <th>Rank</th>
                   <th>Pick</th>
+                  <th>Price &amp; options</th>
                   <th>Best for</th>
                   <th>Main tradeoff</th>
-                  <th>Price &amp; options</th>
                 </tr>
               </thead>
               <tbody>
@@ -257,19 +264,19 @@
                   <tr>
                     <td>#<%= product.rank %></td>
                     <td><a href="#<%= productId(product) %>"><%= product.name %></a></td>
-                    <td><%= product.bestFor %></td>
-                    <td><%= product.avoidIf %></td>
                     <td class="comparison-shop-cell">
                       <% if (affiliateEnabled && product.shoppingLinks?.length) { %>
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for <%= product.name %>">
                           <% product.shoppingLinks.forEach((link) => { %>
-                            <a class="button shopping-button" href="<%= link.url %>" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="<%= link.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= product.name %>" data-product-rank="<%= product.rank %>" data-product-score="<%= product.bestPickScore %>" data-shopping-label="<%= link.displayLabel || link.label || "Check price" %>" data-shopping-placement="comparison"><%= link.displayLabel || link.label || "Check price" %></a>
+                            <a class="button shopping-button" href="<%= link.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= link.displayLabel || link.label || "Check price" %> for <%= product.name %>" data-product-cta data-affiliate-link data-retailer="<%= link.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= product.name %>" data-product-rank="<%= product.rank %>" data-product-score="<%= product.bestPickScore %>" data-shopping-label="<%= link.displayLabel || link.label || "Check price" %>" data-shopping-placement="comparison"><%= link.displayLabel || link.label || "Check price" %></a>
                           <% }) %>
                         </div>
                       <% } else { %>
                         <a class="comparison-details-link" href="#<%= productId(product) %>">Read the evidence</a>
                       <% } %>
                     </td>
+                    <td><%= product.bestFor %></td>
+                    <td><%= product.avoidIf %></td>
                   </tr>
                 <% }) %>
               </tbody>
@@ -554,6 +561,20 @@
             <div class="section-kicker">Final recommendation</div>
             <h2 id="final-heading">What most shoppers should do</h2>
             <p><%= finalRecommendation %></p>
+            <% if (affiliateEnabled && quickWinner && winnerShoppingLink) { %>
+              <div class="final-shop-panel">
+                <div>
+                  <span>Current top pick</span>
+                  <strong><%= quickWinner.name %></strong>
+                  <small><%= quickWinner.biggestStrength %> Confirm the exact model, seller, current price, and return terms before checkout.</small>
+                </div>
+                <div class="final-shop-actions">
+                  <a class="button shopping-button" href="<%= winnerShoppingLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= winnerShoppingLink.displayLabel || winnerShoppingLink.label || "Check price" %> for <%= quickWinner.name %>" data-product-cta data-affiliate-link data-retailer="<%= winnerShoppingLink.retailerName || "Retailer" %>" data-guide="<%= title %>" data-section="<%= section.title %>" data-product-name="<%= quickWinner.name %>" data-product-rank="<%= quickWinner.rank %>" data-product-score="<%= quickWinner.bestPickScore %>" data-shopping-label="<%= winnerShoppingLink.displayLabel || winnerShoppingLink.label || "Check price" %>" data-shopping-placement="final-recommendation"><%= winnerShoppingLink.displayLabel || winnerShoppingLink.label || "Check price" %></a>
+                  <a class="button secondary" href="#comparison-heading">Compare all picks</a>
+                </div>
+                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+              </div>
+            <% } %>
           </section>
           <% } %>
 

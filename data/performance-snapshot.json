@@ -14,9 +14,10 @@
     "productCtaClicks": 7,
     "outboundRetailerClicks": 7,
     "clickUsers": 2,
+    "clickUserRate": 0.0417,
     "outboundClicksPerPageView": 0.0921,
     "productBreakdownAvailable": false,
-    "note": "Product-level reporting requires a GA4 export that includes the registered product_name, retailer, guide_title, and link_domain custom dimensions."
+    "note": "Register cta_placement and site_section in GA4, then export them with product_name, retailer, guide_title, and link_domain for an honest placement and product split."
   },
   "amazon": {
     "status": "needs_current_period_export",

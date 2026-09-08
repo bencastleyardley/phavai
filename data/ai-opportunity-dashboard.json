@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T19:22:27.255Z",
+  "generatedAt": "2026-09-08T14:48:36.456Z",
   "searchPerformance": {
     "imported_at": "2026-09-05T18:52:19.613Z",
     "files": {
@@ -58,9 +58,10 @@
       "productCtaClicks": 7,
       "outboundRetailerClicks": 7,
       "clickUsers": 2,
+      "clickUserRate": 0.0417,
       "outboundClicksPerPageView": 0.0921,
       "productBreakdownAvailable": false,
-      "note": "Product-level reporting requires a GA4 export that includes the registered product_name, retailer, guide_title, and link_domain custom dimensions."
+      "note": "Register cta_placement and site_section in GA4, then export them with product_name, retailer, guide_title, and link_domain for an honest placement and product split."
     },
     "amazon": {
       "status": "needs_current_period_export",
@@ -88,7 +89,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -180,7 +181,7 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 3,
       "affiliateIssues": 0,
@@ -218,7 +219,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 5,
       "sourceGapTotal": 8,
       "affiliateIssues": 0,
@@ -280,7 +281,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -333,7 +334,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -428,7 +429,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 5,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -456,7 +457,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -502,7 +503,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -555,7 +556,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -583,7 +584,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -677,7 +678,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -746,7 +747,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 5,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -783,7 +784,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -878,7 +879,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -972,7 +973,7 @@
       "section": "lifestyle",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 1,
       "affiliateIssues": 0,
@@ -1009,7 +1010,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -1102,7 +1103,7 @@
       "section": "lifestyle",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1129,7 +1130,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1223,7 +1224,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1315,7 +1316,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1407,7 +1408,7 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1499,7 +1500,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -1592,7 +1593,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 1,
+      "daysSinceUpdated": 3,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1684,7 +1685,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -1778,7 +1779,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -1873,7 +1874,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 1,
       "affiliateIssues": 0,
@@ -1967,7 +1968,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -2013,7 +2014,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 138,
+      "daysSinceUpdated": 140,
       "productCount": 4,
       "sourceGapTotal": 1,
       "affiliateIssues": 0,
@@ -2107,7 +2108,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 2,
       "affiliateIssues": 0,
@@ -2201,7 +2202,7 @@
       "section": "outdoor",
       "dataSource": "additions",
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 135,
+      "daysSinceUpdated": 137,
       "productCount": 5,
       "sourceGapTotal": 10,
       "affiliateIssues": 0,
@@ -2279,7 +2280,7 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -2364,7 +2365,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -2457,7 +2458,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -2552,7 +2553,7 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 3,
       "affiliateIssues": 0,
@@ -2590,7 +2591,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -2684,7 +2685,7 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 139,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -2728,7 +2729,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 138,
+      "daysSinceUpdated": 140,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -2820,7 +2821,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 138,
+      "daysSinceUpdated": 140,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -2933,7 +2934,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -2966,7 +2967,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3000,7 +3001,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3034,7 +3035,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3068,7 +3069,7 @@
         "YouTube"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video.",
@@ -3103,7 +3104,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3138,7 +3139,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3173,7 +3174,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3208,7 +3209,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3243,7 +3244,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3278,7 +3279,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3313,7 +3314,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3346,7 +3347,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3380,7 +3381,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3414,7 +3415,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3449,7 +3450,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3483,7 +3484,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3517,7 +3518,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3551,7 +3552,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3585,7 +3586,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3618,7 +3619,7 @@
         "Expert"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 135,
+      "daysSinceUpdated": 137,
       "opportunityScore": 36,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3650,7 +3651,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -3680,7 +3681,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -3711,7 +3712,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 124,
+      "daysSinceUpdated": 126,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use."

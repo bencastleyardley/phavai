@@ -7,6 +7,7 @@
 
 
 
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260905c" />
+  <link rel="stylesheet" href="/styles.css?v=20260908a" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -123,18 +124,25 @@
 
   <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->
   <meta name="msvalidate.01" content="2B9DC6FC5FA254DDA867340D39C066E1" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("js", new Date());
-    gtag("config", "G-YD9YDB3YGT", {
-      anonymize_ip: true,
-      transport_type: "beacon"
-    });
+    if (["www.phavai.com", "phavai.com"].includes(window.location.hostname)) {
+      var gaScript = document.createElement("script");
+      gaScript.async = true;
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT";
+      document.head.appendChild(gaScript);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){window.dataLayer.push(arguments);};
+      window.gtag("js", new Date());
+      window.gtag("config", "G-YD9YDB3YGT", {
+        anonymize_ip: true,
+        transport_type: "beacon"
+      });
+    }
   </script>
 
   <!-- Phavai site identity tags: generated at build time. -->
+  <meta property="og:site_name" content="Phavai" />
+  <meta property="og:url" content="https://www.phavai.com/best-monitor-arms.html" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
@@ -196,7 +204,8 @@
             <div class="quick-answer-actions">
 
 
-                <a class="button shopping-button" href="https://www.amazon.com/Herman-Miller-Flo-Single-Monitor/dp/B006J1I74U?crid=2ZDGHOZUT4EUI&amp;dib=eyJ2IjoiMSJ9.THxX3neq2a8d5DULTqtbDn-gu_V1zUS09MptEspUvvVclmYiccf_94X5x0Pxh4mJ2n-IdGvvzD8dtVy_pJExNrD_T0f6IwAWZj0ncL3Gl4zrZcBkhboEvlOMuAlANRq_7MmkJXG5hVKrs5yqtlGkwPgQKhfShGA2yaxQBaaIs40Mtt1FkTNE3NpoZ2zbMucNJJ6Kcm8s_L1nWgkPNjh2A_a61acFq1DxqVE8nR8dBBg.K0dYOSxCW4oMcQo65ztOgp9uy91fYj8NA4oyQnPOQ5g&amp;dib_tag=se&amp;keywords=Herman+Miller+Flo+Monitor+Arm&amp;qid=1777570200&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=herman+miller+flo+monitor+arm%2Caps%2C290&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=91b861fbaddda3a54395596638494dbf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Herman Miller Flo Monitor Arm" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="quick-answer">Check price at Amazon</a>
+                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+                <a class="button shopping-button" href="https://www.amazon.com/Herman-Miller-Flo-Single-Monitor/dp/B006J1I74U?crid=2ZDGHOZUT4EUI&amp;dib=eyJ2IjoiMSJ9.THxX3neq2a8d5DULTqtbDn-gu_V1zUS09MptEspUvvVclmYiccf_94X5x0Pxh4mJ2n-IdGvvzD8dtVy_pJExNrD_T0f6IwAWZj0ncL3Gl4zrZcBkhboEvlOMuAlANRq_7MmkJXG5hVKrs5yqtlGkwPgQKhfShGA2yaxQBaaIs40Mtt1FkTNE3NpoZ2zbMucNJJ6Kcm8s_L1nWgkPNjh2A_a61acFq1DxqVE8nR8dBBg.K0dYOSxCW4oMcQo65ztOgp9uy91fYj8NA4oyQnPOQ5g&amp;dib_tag=se&amp;keywords=Herman+Miller+Flo+Monitor+Arm&amp;qid=1777570200&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=herman+miller+flo+monitor+arm%2Caps%2C290&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=91b861fbaddda3a54395596638494dbf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Herman Miller Flo Monitor Arm" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Herman Miller Flo Monitor Arm" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="quick-answer">Check price at Amazon</a>
 
               <a class="button secondary" href="#herman-miller-flo-monitor-arm" data-view-details data-product-name="Herman Miller Flo Monitor Arm" data-guide="Best Monitor Arms">Read why</a>
               <p>Compare size, color, seller, and return terms before checkout.</p>
@@ -266,7 +275,12 @@
                 <strong data-fit-result-name>Herman Miller Flo Monitor Arm</strong>
                 <p data-fit-result-reason>Start with the editorial winner, or select priorities above to get a buyer-specific match from the same evidence.</p>
 
-                  <a href="#herman-miller-flo-monitor-arm" data-fit-result-link>Jump to current pick</a>
+                  <div class="fit-result-actions">
+                    <a href="#herman-miller-flo-monitor-arm" data-fit-result-link>Jump to current pick</a>
+
+                      <a class="button shopping-button fit-result-shop" href="https://www.amazon.com/Herman-Miller-Flo-Single-Monitor/dp/B006J1I74U?crid=2ZDGHOZUT4EUI&amp;dib=eyJ2IjoiMSJ9.THxX3neq2a8d5DULTqtbDn-gu_V1zUS09MptEspUvvVclmYiccf_94X5x0Pxh4mJ2n-IdGvvzD8dtVy_pJExNrD_T0f6IwAWZj0ncL3Gl4zrZcBkhboEvlOMuAlANRq_7MmkJXG5hVKrs5yqtlGkwPgQKhfShGA2yaxQBaaIs40Mtt1FkTNE3NpoZ2zbMucNJJ6Kcm8s_L1nWgkPNjh2A_a61acFq1DxqVE8nR8dBBg.K0dYOSxCW4oMcQo65ztOgp9uy91fYj8NA4oyQnPOQ5g&amp;dib_tag=se&amp;keywords=Herman+Miller+Flo+Monitor+Arm&amp;qid=1777570200&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=herman+miller+flo+monitor+arm%2Caps%2C290&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=91b861fbaddda3a54395596638494dbf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, Herman Miller Flo Monitor Arm" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Herman Miller Flo Monitor Arm" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="fit-finder">Check price for this match</a>
+
+                  </div>
 
               </div>
             </div>
@@ -310,9 +324,9 @@
                 <tr>
                   <th>Rank</th>
                   <th>Pick</th>
+                  <th>Price &amp; options</th>
                   <th>Best for</th>
                   <th>Main tradeoff</th>
-                  <th>Price &amp; options</th>
                 </tr>
               </thead>
               <tbody>
@@ -320,65 +334,65 @@
                   <tr>
                     <td>#1</td>
                     <td><a href="#herman-miller-flo-monitor-arm">Herman Miller Flo Monitor Arm</a></td>
-                    <td>Design-led workspaces that want a refined arm with smooth movement</td>
-                    <td>You want value pricing or heavy-monitor support above its range.</td>
                     <td class="comparison-shop-cell">
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Herman Miller Flo Monitor Arm">
 
-                            <a class="button shopping-button" href="https://www.amazon.com/Herman-Miller-Flo-Single-Monitor/dp/B006J1I74U?crid=2ZDGHOZUT4EUI&amp;dib=eyJ2IjoiMSJ9.THxX3neq2a8d5DULTqtbDn-gu_V1zUS09MptEspUvvVclmYiccf_94X5x0Pxh4mJ2n-IdGvvzD8dtVy_pJExNrD_T0f6IwAWZj0ncL3Gl4zrZcBkhboEvlOMuAlANRq_7MmkJXG5hVKrs5yqtlGkwPgQKhfShGA2yaxQBaaIs40Mtt1FkTNE3NpoZ2zbMucNJJ6Kcm8s_L1nWgkPNjh2A_a61acFq1DxqVE8nR8dBBg.K0dYOSxCW4oMcQo65ztOgp9uy91fYj8NA4oyQnPOQ5g&amp;dib_tag=se&amp;keywords=Herman+Miller+Flo+Monitor+Arm&amp;qid=1777570200&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=herman+miller+flo+monitor+arm%2Caps%2C290&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=91b861fbaddda3a54395596638494dbf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Herman Miller Flo Monitor Arm" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
+                            <a class="button shopping-button" href="https://www.amazon.com/Herman-Miller-Flo-Single-Monitor/dp/B006J1I74U?crid=2ZDGHOZUT4EUI&amp;dib=eyJ2IjoiMSJ9.THxX3neq2a8d5DULTqtbDn-gu_V1zUS09MptEspUvvVclmYiccf_94X5x0Pxh4mJ2n-IdGvvzD8dtVy_pJExNrD_T0f6IwAWZj0ncL3Gl4zrZcBkhboEvlOMuAlANRq_7MmkJXG5hVKrs5yqtlGkwPgQKhfShGA2yaxQBaaIs40Mtt1FkTNE3NpoZ2zbMucNJJ6Kcm8s_L1nWgkPNjh2A_a61acFq1DxqVE8nR8dBBg.K0dYOSxCW4oMcQo65ztOgp9uy91fYj8NA4oyQnPOQ5g&amp;dib_tag=se&amp;keywords=Herman+Miller+Flo+Monitor+Arm&amp;qid=1777570200&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=herman+miller+flo+monitor+arm%2Caps%2C290&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=91b861fbaddda3a54395596638494dbf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Herman Miller Flo Monitor Arm" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Herman Miller Flo Monitor Arm" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
 
                         </div>
 
                     </td>
+                    <td>Design-led workspaces that want a refined arm with smooth movement</td>
+                    <td>You want value pricing or heavy-monitor support above its range.</td>
                   </tr>
 
                   <tr>
                     <td>#2</td>
                     <td><a href="#fully-jarvis-monitor-arm">Fully Jarvis Monitor Arm</a></td>
-                    <td>Home-office users who want a clean, simple arm from a desk brand</td>
-                    <td>You need the strongest heavy-display support.</td>
                     <td class="comparison-shop-cell">
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Fully Jarvis Monitor Arm">
 
-                            <a class="button shopping-button" href="https://protechprojection.com/products/chief-ts318tu-swing-arm-display-mount?variant=44575853379780&amp;msclkid=62db1451291e1609da4c7da2b8d5456b&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Shopify_Performance+Max+campaign+1&amp;utm_term=2328353311750945&amp;utm_content=ShopifyImportAssetGroup" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="ProTech Projection" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Fully Jarvis Monitor Arm" data-product-rank="2" data-product-score="84" data-shopping-label="Check price at ProTech Projection" data-shopping-placement="comparison">Check price at ProTech Projection</a>
+                            <a class="button shopping-button" href="https://protechprojection.com/products/chief-ts318tu-swing-arm-display-mount?variant=44575853379780&amp;msclkid=62db1451291e1609da4c7da2b8d5456b&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Shopify_Performance+Max+campaign+1&amp;utm_term=2328353311750945&amp;utm_content=ShopifyImportAssetGroup" target="_blank" rel="sponsored noopener" aria-label="Check price at ProTech Projection for Fully Jarvis Monitor Arm" data-product-cta data-affiliate-link data-retailer="ProTech Projection" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Fully Jarvis Monitor Arm" data-product-rank="2" data-product-score="84" data-shopping-label="Check price at ProTech Projection" data-shopping-placement="comparison">Check price at ProTech Projection</a>
 
                         </div>
 
                     </td>
+                    <td>Home-office users who want a clean, simple arm from a desk brand</td>
+                    <td>You need the strongest heavy-display support.</td>
                   </tr>
 
                   <tr>
                     <td>#3</td>
                     <td><a href="#ergotron-lx">Ergotron LX</a></td>
-                    <td>Most single-monitor setups that need smooth adjustment and long-term reliability</td>
-                    <td>You need the cheapest possible arm.</td>
                     <td class="comparison-shop-cell">
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Ergotron LX">
 
-                            <a class="button shopping-button" href="https://www.amazon.com/gp/aw/d/B0DSJJMRFL?_encoding=UTF8&amp;pd_rd_plhdr=t&amp;aaxitk=5de620c8a3efad80c3767c9773c17af2&amp;hsa_cr_id=0&amp;qid=1777570156&amp;sr=1-1-9e67e56a-6f64-441f-a281-df67fc737124&amp;pd_rd_w=U3atN&amp;content-id=amzn1.sym.2fb72bc8-96ef-420d-b08f-c04b69f36507%3Aamzn1.sym.2fb72bc8-96ef-420d-b08f-c04b69f36507&amp;pf_rd_p=2fb72bc8-96ef-420d-b08f-c04b69f36507&amp;pf_rd_r=NRJ5NGHTB2AD40D11M6K&amp;pd_rd_wg=5fzI1&amp;pd_rd_r=5ec9a177-1bd2-4b58-9ccf-209bde6f159e&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=c428913de79ffce154d65cdca59bc869&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Ergotron LX" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
+                            <a class="button shopping-button" href="https://www.amazon.com/gp/aw/d/B0DSJJMRFL?_encoding=UTF8&amp;pd_rd_plhdr=t&amp;aaxitk=5de620c8a3efad80c3767c9773c17af2&amp;hsa_cr_id=0&amp;qid=1777570156&amp;sr=1-1-9e67e56a-6f64-441f-a281-df67fc737124&amp;pd_rd_w=U3atN&amp;content-id=amzn1.sym.2fb72bc8-96ef-420d-b08f-c04b69f36507%3Aamzn1.sym.2fb72bc8-96ef-420d-b08f-c04b69f36507&amp;pf_rd_p=2fb72bc8-96ef-420d-b08f-c04b69f36507&amp;pf_rd_r=NRJ5NGHTB2AD40D11M6K&amp;pd_rd_wg=5fzI1&amp;pd_rd_r=5ec9a177-1bd2-4b58-9ccf-209bde6f159e&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=c428913de79ffce154d65cdca59bc869&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Ergotron LX" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Ergotron LX" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
 
                         </div>
 
                     </td>
+                    <td>Most single-monitor setups that need smooth adjustment and long-term reliability</td>
+                    <td>You need the cheapest possible arm.</td>
                   </tr>
 
                   <tr>
                     <td>#4</td>
                     <td><a href="#amazon-basics-premium-monitor-stand">Amazon Basics Premium Monitor Stand</a></td>
-                    <td>Shoppers who want Ergotron-like performance at a lower price</td>
-                    <td>You want current availability certainty or premium finish choices.</td>
                     <td class="comparison-shop-cell">
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Amazon Basics Premium Monitor Stand">
 
-                            <a class="button shopping-button" href="https://www.amazon.com/AmazonBasics-Single-Monitor-Stand-Adjustable/dp/B07DHK5DHN/ref=sr_1_1?crid=2Q606RPKTSYF5&amp;dib=eyJ2IjoiMSJ9.o9Xjlid1oYqZopBvze0H5Yi0ydnsmSrRrGXxultSQrQhhjGJtVJTvuT_GSfO_yTg-xFKaiRX6xWAisp7BUI2FbyuppaY1jGwBjIMm1Vi8oxmx6t4jq0NZ_ELVy9w9skPtb5MzFjGL0yQJNI4yHzvsuPhtm_FaStTXP7u6kny0Rxk5nGPwpdMXeiegBfJquEfMIM7cbsMZTrAyKUAG-ouvf1zwW2vbC_DOJvSaCHTaZE.QXHozVRxP-0AMICZULeByCw5BFwn8mX1-GMNq7S4y2I&amp;dib_tag=se&amp;keywords=Amazon+Basics+Premium+Monitor+Stand&amp;qid=1777570189&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=amazon+basics+premium+monitor+stand%2Caps%2C244&amp;sr=8-1&amp;tag=phavai7311-20&amp;linkCode=ll2&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Amazon Basics Premium Monitor Stand" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
+                            <a class="button shopping-button" href="https://www.amazon.com/AmazonBasics-Single-Monitor-Stand-Adjustable/dp/B07DHK5DHN/ref=sr_1_1?crid=2Q606RPKTSYF5&amp;dib=eyJ2IjoiMSJ9.o9Xjlid1oYqZopBvze0H5Yi0ydnsmSrRrGXxultSQrQhhjGJtVJTvuT_GSfO_yTg-xFKaiRX6xWAisp7BUI2FbyuppaY1jGwBjIMm1Vi8oxmx6t4jq0NZ_ELVy9w9skPtb5MzFjGL0yQJNI4yHzvsuPhtm_FaStTXP7u6kny0Rxk5nGPwpdMXeiegBfJquEfMIM7cbsMZTrAyKUAG-ouvf1zwW2vbC_DOJvSaCHTaZE.QXHozVRxP-0AMICZULeByCw5BFwn8mX1-GMNq7S4y2I&amp;dib_tag=se&amp;keywords=Amazon+Basics+Premium+Monitor+Stand&amp;qid=1777570189&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=amazon+basics+premium+monitor+stand%2Caps%2C244&amp;sr=8-1&amp;tag=phavai7311-20&amp;linkCode=ll2&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Amazon Basics Premium Monitor Stand" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Amazon Basics Premium Monitor Stand" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
 
                         </div>
 
                     </td>
+                    <td>Shoppers who want Ergotron-like performance at a lower price</td>
+                    <td>You want current availability certainty or premium finish choices.</td>
                   </tr>
 
               </tbody>
@@ -1145,6 +1159,20 @@
             <div class="section-kicker">Final recommendation</div>
             <h2 id="final-heading">What most shoppers should do</h2>
             <p>Most people should start with the Ergotron LX because it is the proven benchmark. Choose Amazon Basics Premium if it is available at the right price, Herman Miller Flo for a refined premium setup, and Fully Jarvis if you want a clean mainstream option.</p>
+
+              <div class="final-shop-panel">
+                <div>
+                  <span>Current top pick</span>
+                  <strong>Herman Miller Flo Monitor Arm</strong>
+                  <small>Elegant movement Confirm the exact model, seller, current price, and return terms before checkout.</small>
+                </div>
+                <div class="final-shop-actions">
+                  <a class="button shopping-button" href="https://www.amazon.com/Herman-Miller-Flo-Single-Monitor/dp/B006J1I74U?crid=2ZDGHOZUT4EUI&amp;dib=eyJ2IjoiMSJ9.THxX3neq2a8d5DULTqtbDn-gu_V1zUS09MptEspUvvVclmYiccf_94X5x0Pxh4mJ2n-IdGvvzD8dtVy_pJExNrD_T0f6IwAWZj0ncL3Gl4zrZcBkhboEvlOMuAlANRq_7MmkJXG5hVKrs5yqtlGkwPgQKhfShGA2yaxQBaaIs40Mtt1FkTNE3NpoZ2zbMucNJJ6Kcm8s_L1nWgkPNjh2A_a61acFq1DxqVE8nR8dBBg.K0dYOSxCW4oMcQo65ztOgp9uy91fYj8NA4oyQnPOQ5g&amp;dib_tag=se&amp;keywords=Herman+Miller+Flo+Monitor+Arm&amp;qid=1777570200&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=herman+miller+flo+monitor+arm%2Caps%2C290&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=91b861fbaddda3a54395596638494dbf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Herman Miller Flo Monitor Arm" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Monitor Arms" data-section="Remote Work" data-product-name="Herman Miller Flo Monitor Arm" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="final-recommendation">Check price at Amazon</a>
+                  <a class="button secondary" href="#comparison-heading">Compare all picks</a>
+                </div>
+                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+              </div>
+
           </section>
 
 
