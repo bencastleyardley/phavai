@@ -12,12 +12,15 @@ rmSync(outputRoot, { recursive: true, force: true });
 mkdirSync(outputRoot, { recursive: true });
 
 const publicExtensions = new Set([".css", ".html", ".js", ".svg", ".txt", ".xml"]);
-const privateRootFiles = new Set(["operator-dashboard.html"]);
+const privateRootFiles = new Set(["operator-dashboard.html", "todays-picks.html"]);
+const publicRootScripts = new Set(["affiliate-tracking.js", "fit-finder.js", "spec-database.js"]);
 
 for (const entry of readdirSync(projectRoot, { withFileTypes: true })) {
   if (!entry.isFile()) continue;
-  if (!publicExtensions.has(extname(entry.name).toLowerCase())) continue;
+  const extension = extname(entry.name).toLowerCase();
+  if (!publicExtensions.has(extension)) continue;
   if (privateRootFiles.has(entry.name)) continue;
+  if (extension === ".js" && !publicRootScripts.has(entry.name)) continue;
   copyFileSync(resolve(projectRoot, entry.name), resolve(outputRoot, entry.name));
 }
 

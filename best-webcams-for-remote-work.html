@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -159,13 +159,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html" class="is-current" aria-current="location">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -173,9 +170,13 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/remote-work.html">Phavai / Remote Work / Video calls</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/remote-work.html">Remote Work</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Video calls</span>
+        </nav>
         <h1>Best Webcams for Remote Work</h1>
-        <p class="lede">Shopping for best webcams for remote work gets messy fast. Phavai uses AI-assisted research to organize recurring pros, cons, specifications, and buyer feedback so the tradeoffs are easier to see.</p>
+        <p class="lede">Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability.</p>
         <div class="meta-row" aria-label="Page details">
           <span class="meta-pill">Last updated April 20, 2026</span>
           <span class="meta-pill">Sources checked Apr 20, 2026</span>
@@ -200,6 +201,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -211,15 +220,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,6 +238,7 @@
                     <td>#1</td>
                     <td><a href="#logitech-mx-brio">Logitech MX Brio</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$199 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Logitech MX Brio">
 
@@ -244,6 +255,7 @@
                     <td>#2</td>
                     <td><a href="#obsbot-tiny-3">Obsbot Tiny 3</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$249-$299 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Obsbot Tiny 3">
 
@@ -260,6 +272,7 @@
                     <td>#3</td>
                     <td><a href="#razer-kiyo-pro-ultra">Razer Kiyo Pro Ultra</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$299 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Razer Kiyo Pro Ultra">
 
@@ -276,6 +289,7 @@
                     <td>#4</td>
                     <td><a href="#anker-powerconf-c200">Anker PowerConf C200</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$60-$80 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Anker PowerConf C200">
 
@@ -294,61 +308,22 @@
         </section>
 
 
-          <section class="fit-finder" data-fit-finder data-fit-options="%5B%7B%22key%22%3A%22ergonomic%22%2C%22label%22%3A%22Ergonomic%20comfort%22%2C%22help%22%3A%22Support%2C%20adjustability%2C%20and%20all-day%20use.%22%2C%22weights%22%3A%7B%22ergonomics%22%3A1%2C%22comfort%22%3A0.85%2C%22adjustability%22%3A0.55%7D%2C%22attributeLabels%22%3A%5B%22Ergonomics%22%2C%22Comfort%22%5D%7D%2C%7B%22key%22%3A%22small-space%22%2C%22label%22%3A%22Small%20space%22%2C%22help%22%3A%22Fits%20tighter%20rooms%20and%20shared%20setups.%22%2C%22weights%22%3A%7B%22smallSpace%22%3A1%2C%22easeOfUse%22%3A0.55%2C%22value%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Small-space%20fit%22%2C%22Ease%20of%20use%22%5D%7D%2C%7B%22key%22%3A%22calls%22%2C%22label%22%3A%22Calls%20and%20focus%22%2C%22help%22%3A%22Clearer%20calls%20and%20fewer%20distractions.%22%2C%22weights%22%3A%7B%22clarity%22%3A1%2C%22quietUse%22%3A0.85%2C%22easeOfUse%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Call%20clarity%22%2C%22Quiet%20use%22%5D%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Best%20price%20fit%22%2C%22help%22%3A%22Useful%20performance%20per%20dollar.%22%2C%22weights%22%3A%7B%22value%22%3A1%2C%22durability%22%3A0.45%2C%22dailyVersatility%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Price%20fit%22%2C%22Long-term%20build%22%5D%7D%5D" aria-labelledby="fit-finder-heading">
-            <div class="fit-finder-copy">
-              <div class="section-kicker">Find your fit</div>
-              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
-              <p>Choose up to two priorities. The editorial order stays intact while the closest buyer-specific match is highlighted.</p>
-            </div>
-            <div class="fit-finder-controls">
-              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
-
-                  <button class="fit-chip" type="button" data-fit-option="ergonomic" aria-pressed="false"><span>Ergonomic comfort</span><small>Support, adjustability, and all-day use.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="small-space" aria-pressed="false"><span>Small space</span><small>Fits tighter rooms and shared setups.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="calls" aria-pressed="false"><span>Calls and focus</span><small>Clearer calls and fewer distractions.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="value" aria-pressed="false"><span>Best price fit</span><small>Useful performance per dollar.</small></button>
-
-                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false"><span>Reset</span><small>Editorial order</small></button>
-              </div>
-              <div class="fit-result" data-fit-result aria-live="polite">
-                <span data-fit-result-label>Choose a priority</span>
-                <strong data-fit-result-name>Logitech MX Brio</strong>
-                <p data-fit-result-reason>Start with the editorial winner, or select priorities above for a more specific match.</p>
-
-                  <div class="fit-result-actions">
-                    <a href="#logitech-mx-brio" data-fit-result-link>Jump to current pick</a>
-
-                      <a class="button shopping-button fit-result-shop" href="https://www.amazon.com/Logitech-BRIO-Pro-701-Webcam/dp/B0BFJ4CRKD?crid=PYI44XE5Y655&amp;dib=eyJ2IjoiMSJ9.qwDLDuGgSHDV5OslPypxqLsusnhYw9r0icQZKJUkWkO-d8DvjAtp0u92HUL3QsKPhQJYdu-ZPnoN_tUOjRCNwqZ_QyNQKBfElvL2VgJBPRVBU9kbakNcsBz9mPuKorwirUG7LgaPM_xuYVS9y498MzqKFLCORwnXsbHYckexNWh8KQlbla59TcZPYApN78Nh_iIllcttNb6u4mm7HmIcHVWa5fXJGLPM3oC5KTaqVVQ.35m8DepP2co4SZm7kqX1efIbFDDVkNqw2R22kUUNxY8&amp;dib_tag=se&amp;keywords=Logitech%2BMX%2BBrio&amp;qid=1777561498&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=logitech%2Bmx%2Bbrio%2Caps%2C277&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=cae1f9eb0926acec4193ac92e7b9ebe5&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, Logitech MX Brio" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Logitech MX Brio" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="fit-finder">Check price for this match</a>
-
-                  </div>
-
-              </div>
-            </div>
-            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
-
-                <a class="fit-match-card" href="#logitech-mx-brio" data-fit-card><span data-fit-card-rank>#1 editorial</span><strong data-fit-card-name>Logitech MX Brio</strong><small data-fit-card-reason>Best webcam for most remote workers</small></a>
-
-                <a class="fit-match-card" href="#obsbot-tiny-3" data-fit-card><span data-fit-card-rank>#2 editorial</span><strong data-fit-card-name>Obsbot Tiny 3</strong><small data-fit-card-reason>Best AI-tracking webcam</small></a>
-
-                <a class="fit-match-card" href="#razer-kiyo-pro-ultra" data-fit-card><span data-fit-card-rank>#3 editorial</span><strong data-fit-card-name>Razer Kiyo Pro Ultra</strong><small data-fit-card-reason>Best low-light webcam</small></a>
-
-            </div>
-          </section>
-
 
 
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="logitech-mx-brio" data-product-name="Logitech MX Brio" data-default-score="86" data-editorial-rank="1" data-channel-scores='{"Expert":89.1,"YouTube":81.7,"Reddit":86}' data-decision-tags='["comfort","performance","budget","premium","quiet","small-space"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":71},"ergonomics":{"key":"ergonomics","label":"Ergonomics","score":59},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"durability":{"key":"durability","label":"Long-term build","score":59},"value":{"key":"value","label":"Price fit","score":80},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":60},"quietUse":{"key":"quietUse","label":"Quiet use","score":71},"clarity":{"key":"clarity","label":"Call clarity","score":81},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":59},"stability":{"key":"stability","label":"Stability","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":69}},"highlights":[{"key":"clarity","label":"Call clarity","score":81},{"key":"value","label":"Price fit","score":80},{"key":"comfort","label":"Comfort","score":71}],"ownerSentimentSummary":"Excellent image clarity. Strong software support.","expertSentimentSummary":"3 evidence items. Strongest signal: Engadget category testing supports Logitech MX Brio as a serious remote work webcam option.","biggestStrength":"Excellent image clarity","biggestComplaint":"Premium price","confidenceLevel":"High","evidenceDepth":80,"recencyStrength":78,"decisionTags":["comfort","performance","budget","premium","quiet","small-space"]}' data-fit-profile="%7B%22id%22%3A%22logitech-mx-brio%22%2C%22name%22%3A%22Logitech%20MX%20Brio%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A86%2C%22publicScoreLabel%22%3A%2286%22%2C%22tag%22%3A%22Best%20webcam%20for%20most%20remote%20workers%22%2C%22bestFor%22%3A%22Professionals%20who%20want%20reliable%204K%20image%20quality%20with%20mainstream%20software%20support%22%2C%22avoidIf%22%3A%22You%20want%20a%20budget%20webcam%20under%20%24100.%22%2C%22biggestStrength%22%3A%22Excellent%20image%20clarity%22%2C%22biggestComplaint%22%3A%22Premium%20price%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22budget%22%2C%22premium%22%2C%22quiet%22%2C%22small-space%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%2C%22ergonomics%22%3A%7B%22key%22%3A%22ergonomics%22%2C%22label%22%3A%22Ergonomics%22%2C%22score%22%3A59%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A80%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A71%7D%2C%22clarity%22%3A%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A81%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A59%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A69%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A80%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Excellent%20image%20clarity.%20Strong%20software%20support.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Engadget%20category%20testing%20supports%20Logitech%20MX%20Brio%20as%20a%20serious%20remote%20work%20webcam%20option.%22%2C%22biggestStrength%22%3A%22Excellent%20image%20clarity%22%2C%22biggestComplaint%22%3A%22Premium%20price%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A80%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22budget%22%2C%22premium%22%2C%22quiet%22%2C%22small-space%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLogitech-BRIO-Pro-701-Webcam%2Fdp%2FB0BFJ4CRKD%3Fcrid%3DPYI44XE5Y655%26dib%3DeyJ2IjoiMSJ9.qwDLDuGgSHDV5OslPypxqLsusnhYw9r0icQZKJUkWkO-d8DvjAtp0u92HUL3QsKPhQJYdu-ZPnoN_tUOjRCNwqZ_QyNQKBfElvL2VgJBPRVBU9kbakNcsBz9mPuKorwirUG7LgaPM_xuYVS9y498MzqKFLCORwnXsbHYckexNWh8KQlbla59TcZPYApN78Nh_iIllcttNb6u4mm7HmIcHVWa5fXJGLPM3oC5KTaqVVQ.35m8DepP2co4SZm7kqX1efIbFDDVkNqw2R22kUUNxY8%26dib_tag%3Dse%26keywords%3DLogitech%252BMX%252BBrio%26qid%3D1777561498%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dlogitech%252Bmx%252Bbrio%252Caps%252C277%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Dcae1f9eb0926acec4193ac92e7b9ebe5%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="logitech-mx-brio" data-product-name="Logitech MX Brio" data-default-score="86" data-editorial-rank="1" data-channel-scores='{"Expert":89.1,"YouTube":81.7,"Reddit":86}'>
               <div class="product-media product-media--remote-work product-visual--workspace product-visual--webcam">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Logitech MX Brio, Best webcam for most remote workers">
@@ -362,15 +337,18 @@
 
                     <span class="decision-badge">Best Overall</span>
 
-                    <span class="decision-badge">Best Value</span>
-
                     <span class="decision-badge">Comfort Pick</span>
+
+                    <span class="decision-badge">Performance Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Logitech MX Brio</h2>
                 <div class="tagline">Best webcam for most remote workers</div>
                 <p class="product-verdict"><strong>Our take:</strong> Logitech MX Brio is the best webcam for most remote workers for professionals buyers who need reliable 4k image quality with mainstream software support. It stands out for excellent image clarity and strong software support.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$199 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Logitech MX Brio">
@@ -385,9 +363,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Logitech MX Brio">
-                  <strong>86</strong>
-                  <span>Evidence score · 8 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Logitech MX Brio">
+
+                    <strong>86</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Logitech MX Brio">
@@ -399,17 +379,13 @@
                     <span>Avoid if</span>
                     <p>You want a budget webcam under $100.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Premium price</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Logitech MX Brio">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Logitech-BRIO-Pro-701-Webcam/dp/B0BFJ4CRKD?crid=PYI44XE5Y655&amp;dib=eyJ2IjoiMSJ9.qwDLDuGgSHDV5OslPypxqLsusnhYw9r0icQZKJUkWkO-d8DvjAtp0u92HUL3QsKPhQJYdu-ZPnoN_tUOjRCNwqZ_QyNQKBfElvL2VgJBPRVBU9kbakNcsBz9mPuKorwirUG7LgaPM_xuYVS9y498MzqKFLCORwnXsbHYckexNWh8KQlbla59TcZPYApN78Nh_iIllcttNb6u4mm7HmIcHVWa5fXJGLPM3oC5KTaqVVQ.35m8DepP2co4SZm7kqX1efIbFDDVkNqw2R22kUUNxY8&amp;dib_tag=se&amp;keywords=Logitech%2BMX%2BBrio&amp;qid=1777561498&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=logitech%2Bmx%2Bbrio%2Caps%2C277&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=cae1f9eb0926acec4193ac92e7b9ebe5&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Logitech MX Brio" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Logitech-BRIO-Pro-701-Webcam/dp/B0BFJ4CRKD?crid=PYI44XE5Y655&amp;dib=eyJ2IjoiMSJ9.qwDLDuGgSHDV5OslPypxqLsusnhYw9r0icQZKJUkWkO-d8DvjAtp0u92HUL3QsKPhQJYdu-ZPnoN_tUOjRCNwqZ_QyNQKBfElvL2VgJBPRVBU9kbakNcsBz9mPuKorwirUG7LgaPM_xuYVS9y498MzqKFLCORwnXsbHYckexNWh8KQlbla59TcZPYApN78Nh_iIllcttNb6u4mm7HmIcHVWa5fXJGLPM3oC5KTaqVVQ.35m8DepP2co4SZm7kqX1efIbFDDVkNqw2R22kUUNxY8&amp;dib_tag=se&amp;keywords=Logitech%2BMX%2BBrio&amp;qid=1777561498&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=logitech%2Bmx%2Bbrio%2Caps%2C277&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=cae1f9eb0926acec4193ac92e7b9ebe5&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Logitech MX Brio" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Logitech MX Brio" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -428,7 +404,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>89.1</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">Engadget</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">Engadget</a></div>
                                   </div>
 
                               </div>
@@ -437,7 +413,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>81.7</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=qKAbGRC23iU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Logitech Mx Brio In-Depth Review and video demo" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">Tech It Before You Wreck It video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=qKAbGRC23iU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Logitech Mx Brio In-Depth Review and video demo" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">Tech It Before You Wreck It video</a></div>
                                   </div>
 
                               </div>
@@ -446,7 +422,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>86</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/CamGirlProblems/comments/1rjpcbi/for_those_looking_for_a_new_webcam_yolo_cam_s3_vs/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="For those looking for a new webcam (Yolo Cam S3 vs Logitech MX Brio)" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">r/CamGirlProblems thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/CamGirlProblems/comments/1rjpcbi/for_those_looking_for_a_new_webcam_yolo_cam_s3_vs/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="For those looking for a new webcam (Yolo Cam S3 vs Logitech MX Brio)" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">r/CamGirlProblems thread</a></div>
                                   </div>
 
                               </div>
@@ -454,8 +430,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Logitech MX Brio">
-                          <div><span>Proof base</span><strong>8 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>78/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -469,21 +445,21 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review / Best evidence</span>
                                     <b>remote work webcam review context | Engadget</b>
                                     <small>Engadget - checked Apr 20, 2026</small>
                                     <em>Engadget category testing supports Logitech MX Brio as a serious remote work webcam option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>remote work webcam comparison | PC Gamer</b>
                                     <small>PC Gamer - checked Apr 20, 2026</small>
                                     <em>PC Gamer comparison coverage reinforces the product&#39;s fit, value, or performance tradeoffs.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.pcgamer.com/hardware/webcams/logitech-mx-brio-webcam-review/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Logitech MX Brio Webcam review" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.pcgamer.com/hardware/webcams/logitech-mx-brio-webcam-review/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Logitech MX Brio Webcam review" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>Logitech MX Brio Webcam review</b>
                                     <small>PC Gamer - checked May 29, 2026</small>
@@ -497,14 +473,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=qKAbGRC23iU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Logitech Mx Brio In-Depth Review and video demo" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=qKAbGRC23iU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Logitech Mx Brio In-Depth Review and video demo" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Logitech Mx Brio In-Depth Review and video demo</b>
                                     <small>Tech It Before You Wreck It - checked Apr 24, 2026</small>
                                     <em>Tech It Before You Wreck It video review: Logitech Mx Brio In-Depth Review and video demo</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=tLhVkBqpkmY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Logitech MX Brio Ultra HD 4K Webcam Review" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=tLhVkBqpkmY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Logitech MX Brio Ultra HD 4K Webcam Review" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Logitech MX Brio Ultra HD 4K Webcam Review</b>
                                     <small>Lon.TV - checked Apr 24, 2026</small>
@@ -518,7 +494,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/CamGirlProblems/comments/1rjpcbi/for_those_looking_for_a_new_webcam_yolo_cam_s3_vs/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="For those looking for a new webcam (Yolo Cam S3 vs Logitech MX Brio)" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.reddit.com/r/CamGirlProblems/comments/1rjpcbi/for_those_looking_for_a_new_webcam_yolo_cam_s3_vs/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="For those looking for a new webcam (Yolo Cam S3 vs Logitech MX Brio)" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Owner discussion</span>
                                     <b>For those looking for a new webcam (Yolo Cam S3 vs Logitech MX Brio)</b>
                                     <small>r/CamGirlProblems thread by bdgrlrbs - checked Apr 22, 2026</small>
@@ -540,7 +516,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=z7dTEv0G8Vs" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Logitech MX Brio Webcam: How Good Is it? Compared to Brio 4K &amp; C922" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=z7dTEv0G8Vs" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Logitech MX Brio Webcam: How Good Is it? Compared to Brio 4K &amp; C922" data-product-name="Logitech MX Brio" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Logitech MX Brio Webcam: How Good Is it? Compared to Brio 4K &amp; C922</b>
                                     <small>Rawan&#39;s Reviews - checked Apr 24, 2026</small>
@@ -557,7 +533,7 @@
               </div>
             </article>
 
-            <article class="product" id="obsbot-tiny-3" data-product-name="Obsbot Tiny 3" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":88,"YouTube":82.7,"Reddit":83.7}' data-decision-tags='["small-space","quiet"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"ergonomics":{"key":"ergonomics","label":"Ergonomics","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"value":{"key":"value","label":"Price fit","score":35},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":60},"quietUse":{"key":"quietUse","label":"Quiet use","score":60},"clarity":{"key":"clarity","label":"Call clarity","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":70},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"stability":{"key":"stability","label":"Stability","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":48}},"highlights":[{"key":"easeOfUse","label":"Ease of use","score":70},{"key":"smallSpace","label":"Small-space fit","score":60},{"key":"quietUse","label":"Quiet use","score":60}],"ownerSentimentSummary":"Great tracking. Strong presentation features.","expertSentimentSummary":"3 evidence items. Strongest signal: Engadget category testing supports Obsbot Tiny 3 as a serious remote work webcam option.","biggestStrength":"Great tracking","biggestComplaint":"Expensive","confidenceLevel":"High","evidenceDepth":84,"recencyStrength":82,"decisionTags":["small-space","quiet"]}' data-fit-profile="%7B%22id%22%3A%22obsbot-tiny-3%22%2C%22name%22%3A%22Obsbot%20Tiny%203%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20AI-tracking%20webcam%22%2C%22bestFor%22%3A%22Presenters%2C%20teachers%2C%20and%20creators%20who%20move%20around%20on%20camera%22%2C%22avoidIf%22%3A%22You%20want%20the%20simplest%20plug-and-play%20camera.%22%2C%22biggestStrength%22%3A%22Great%20tracking%22%2C%22biggestComplaint%22%3A%22Expensive%22%2C%22decisionTags%22%3A%5B%22small-space%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22ergonomics%22%3A%7B%22key%22%3A%22ergonomics%22%2C%22label%22%3A%22Ergonomics%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A35%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A60%7D%2C%22clarity%22%3A%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A70%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A70%7D%2C%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A60%7D%5D%2C%22ownerSentimentSummary%22%3A%22Great%20tracking.%20Strong%20presentation%20features.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Engadget%20category%20testing%20supports%20Obsbot%20Tiny%203%20as%20a%20serious%20remote%20work%20webcam%20option.%22%2C%22biggestStrength%22%3A%22Great%20tracking%22%2C%22biggestComplaint%22%3A%22Expensive%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A84%2C%22recencyStrength%22%3A82%2C%22decisionTags%22%3A%5B%22small-space%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FOBSBOT-AI-Powered-Spatial-Audio-Webcam%2Fdp%2FB0G63LXK6R%3Fcrid%3D37AGBZ1P87YGA%26dib%3DeyJ2IjoiMSJ9.aED-fLsuwDunScMaSYi4OKe-oPmCRvoTn9U4702Nfks_osN0pBk124XeiUey7nnJXOqjEIg0pj9UEFMzojYosmZIJOeU3bVFRqK3ppwd6VbC9WtmjXbb--GFjeYGHmRxq22MaNHR6bn2g5oCMrskJwJft4G8COzINlRorLtWuPWnNhFo2trKW3AI0TNPbL0uc0qNoKDjMyzW-is8XT-df3-fHRCltd3hDl4xkZlMh2U._8FUI0eOGrU5OdaupsgNk4lwY_QLluMuy7vHW03-vZE%26dib_tag%3Dse%26keywords%3Dobsbot%2Btiny%2B3%26qid%3D1777561523%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3DObsbot%2BTiny%2B3%252Caps%252C295%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D4d245c7baefa3332a166e150c61d54bc%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="obsbot-tiny-3" data-product-name="Obsbot Tiny 3" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":88,"YouTube":82.7,"Reddit":83.7}'>
               <div class="product-media product-media--remote-work product-visual--workspace product-visual--webcam">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Obsbot Tiny 3, Best AI-tracking webcam">
@@ -579,6 +555,9 @@
                 <div class="tagline">Best AI-tracking webcam</div>
                 <p class="product-verdict"><strong>Our take:</strong> Obsbot Tiny 3 is the best ai-tracking webcam for shoppers who want presenters, teachers, and creators who move around on camera. It stands out for great tracking and strong presentation features.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$249-$299 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Obsbot Tiny 3">
                     <li>4K PTZ camera</li><li>AI tracking</li><li>Gesture controls</li><li>Triple-mic system</li>
@@ -592,9 +571,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Obsbot Tiny 3">
-                  <strong>85</strong>
-                  <span>Evidence score · 10 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Obsbot Tiny 3">
+
+                    <strong>85</strong>
+                    <span>Evidence score · 9 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Obsbot Tiny 3">
@@ -606,17 +587,13 @@
                     <span>Avoid if</span>
                     <p>You want the simplest plug-and-play camera.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Expensive</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Obsbot Tiny 3">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/OBSBOT-AI-Powered-Spatial-Audio-Webcam/dp/B0G63LXK6R?crid=37AGBZ1P87YGA&amp;dib=eyJ2IjoiMSJ9.aED-fLsuwDunScMaSYi4OKe-oPmCRvoTn9U4702Nfks_osN0pBk124XeiUey7nnJXOqjEIg0pj9UEFMzojYosmZIJOeU3bVFRqK3ppwd6VbC9WtmjXbb--GFjeYGHmRxq22MaNHR6bn2g5oCMrskJwJft4G8COzINlRorLtWuPWnNhFo2trKW3AI0TNPbL0uc0qNoKDjMyzW-is8XT-df3-fHRCltd3hDl4xkZlMh2U._8FUI0eOGrU5OdaupsgNk4lwY_QLluMuy7vHW03-vZE&amp;dib_tag=se&amp;keywords=obsbot+tiny+3&amp;qid=1777561523&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=Obsbot+Tiny+3%2Caps%2C295&amp;sr=8-2-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=4d245c7baefa3332a166e150c61d54bc&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Obsbot Tiny 3" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/OBSBOT-AI-Powered-Spatial-Audio-Webcam/dp/B0G63LXK6R?crid=37AGBZ1P87YGA&amp;dib=eyJ2IjoiMSJ9.aED-fLsuwDunScMaSYi4OKe-oPmCRvoTn9U4702Nfks_osN0pBk124XeiUey7nnJXOqjEIg0pj9UEFMzojYosmZIJOeU3bVFRqK3ppwd6VbC9WtmjXbb--GFjeYGHmRxq22MaNHR6bn2g5oCMrskJwJft4G8COzINlRorLtWuPWnNhFo2trKW3AI0TNPbL0uc0qNoKDjMyzW-is8XT-df3-fHRCltd3hDl4xkZlMh2U._8FUI0eOGrU5OdaupsgNk4lwY_QLluMuy7vHW03-vZE&amp;dib_tag=se&amp;keywords=obsbot+tiny+3&amp;qid=1777561523&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=Obsbot+Tiny+3%2Caps%2C295&amp;sr=8-2-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=4d245c7baefa3332a166e150c61d54bc&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Obsbot Tiny 3" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Obsbot Tiny 3" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -635,7 +612,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>88</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">Engadget</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">Engadget</a></div>
                                   </div>
 
                               </div>
@@ -644,7 +621,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.7</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=bRRNKipxBTs" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">TechBoost video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=bRRNKipxBTs" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">TechBoost video</a></div>
                                   </div>
 
                               </div>
@@ -653,7 +630,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>83.7</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/OBSBOT_Official/comments/1qtq7i9/obsbot_tiny_3_series_ama/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3 Series AMA!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">r/OBSBOT_Official thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/OBSBOT_Official/comments/1qtq7i9/obsbot_tiny_3_series_ama/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3 Series AMA!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">r/OBSBOT_Official thread</a></div>
                                   </div>
 
                               </div>
@@ -661,8 +638,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Obsbot Tiny 3">
-                          <div><span>Proof base</span><strong>10 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>82/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>9 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -676,14 +653,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review / Best evidence</span>
                                     <b>remote work webcam review context | Engadget</b>
                                     <small>Engadget - checked Apr 20, 2026</small>
                                     <em>Engadget category testing supports Obsbot Tiny 3 as a serious remote work webcam option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>remote work webcam comparison | PC Gamer</b>
                                     <small>PC Gamer - checked Apr 20, 2026</small>
@@ -697,14 +674,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=bRRNKipxBTs" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=bRRNKipxBTs" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!</b>
                                     <small>TechBoost - checked Apr 24, 2026</small>
                                     <em>TechBoost video review: OBSBOT Tiny 3 AI Webcam Review | BEST and SMALLEST 4K Webcam in 2026!</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=eWneDFYb2ok" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Obsbot Tiny 3 Review: The $150 Question Nobody&#39;s Asking (2026)" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=eWneDFYb2ok" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Obsbot Tiny 3 Review: The $150 Question Nobody&#39;s Asking (2026)" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Obsbot Tiny 3 Review: The $150 Question Nobody&#39;s Asking (2026)</b>
                                     <small>Tinkr | Reviews &amp; Guides - checked Apr 24, 2026</small>
@@ -718,14 +695,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/OBSBOT_Official/comments/1qtq7i9/obsbot_tiny_3_series_ama/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3 Series AMA!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.reddit.com/r/OBSBOT_Official/comments/1qtq7i9/obsbot_tiny_3_series_ama/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3 Series AMA!" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Owner discussion</span>
                                     <b>OBSBOT Tiny 3 Series AMA!</b>
                                     <small>r/OBSBOT_Official thread by OBSBOT-Official - checked Apr 22, 2026</small>
                                     <em>r/OBSBOT_Official thread adds owner feedback around Obsbot Tiny 3: OBSBOT Tiny 3 Series AMA!.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/OBSBOT_Official/comments/1qsqzdi/obsbot_tiny_3_the_best_webcam_2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3: The best Webcam 2026?" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.reddit.com/r/OBSBOT_Official/comments/1qsqzdi/obsbot_tiny_3_the_best_webcam_2026/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3: The best Webcam 2026?" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Owner discussion</span>
                                     <b>OBSBOT Tiny 3: The best Webcam 2026?</b>
                                     <small>r/OBSBOT_Official thread by nophilterde - checked Apr 22, 2026</small>
@@ -747,7 +724,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.pcworld.com/article/3100131/obsbot-tiny-3-webcam-review.html" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Obsbot Tiny 3 webcam review: Powerful, but too much for most people" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.pcworld.com/article/3100131/obsbot-tiny-3-webcam-review.html" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Obsbot Tiny 3 webcam review: Powerful, but too much for most people" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>Obsbot Tiny 3 webcam review: Powerful, but too much for most people</b>
                                     <small>PCWorld - checked May 29, 2026</small>
@@ -761,7 +738,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=QmdQe5rKxtw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="OBSBOT Tiny 3 vs Insta360 Link 2 Pro | UNSPONSORED" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=QmdQe5rKxtw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="OBSBOT Tiny 3 vs Insta360 Link 2 Pro | UNSPONSORED" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>OBSBOT Tiny 3 vs Insta360 Link 2 Pro | UNSPONSORED</b>
                                     <small>BadIntent Stream Tech Reviews - checked Apr 24, 2026</small>
@@ -775,7 +752,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/OBSBOT_Official/comments/1sls1p9/obsbot_tiny_3_connected_to_kvm_wont_wake_after/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3 Connected to KVM - Won&#39;t Wake After Switching Computers" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.reddit.com/r/OBSBOT_Official/comments/1sls1p9/obsbot_tiny_3_connected_to_kvm_wont_wake_after/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="OBSBOT Tiny 3 Connected to KVM - Won&#39;t Wake After Switching Computers" data-product-name="Obsbot Tiny 3" data-guide="Best Webcams for Remote Work">
                                     <span>Owner discussion</span>
                                     <b>OBSBOT Tiny 3 Connected to KVM - Won&#39;t Wake After Switching Computers</b>
                                     <small>r/OBSBOT_Official thread by C3POsDick - checked Apr 22, 2026</small>
@@ -792,7 +769,7 @@
               </div>
             </article>
 
-            <article class="product" id="razer-kiyo-pro-ultra" data-product-name="Razer Kiyo Pro Ultra" data-default-score="83" data-editorial-rank="3" data-channel-scores='{"Expert":85.3,"YouTube":82.3,"Reddit":79}' data-decision-tags='["comfort","performance","distance","budget","small-space","quiet"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":71},"ergonomics":{"key":"ergonomics","label":"Ergonomics","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"value":{"key":"value","label":"Price fit","score":71},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":58},"quietUse":{"key":"quietUse","label":"Quiet use","score":82},"clarity":{"key":"clarity","label":"Call clarity","score":81},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"stability":{"key":"stability","label":"Stability","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":59}},"highlights":[{"key":"quietUse","label":"Quiet use","score":82},{"key":"clarity","label":"Call clarity","score":81},{"key":"comfort","label":"Comfort","score":71}],"ownerSentimentSummary":"Excellent low light. Camera-like image.","expertSentimentSummary":"3 evidence items. Strongest signal: Engadget category testing supports Razer Kiyo Pro Ultra as a serious remote work webcam option.","biggestStrength":"Excellent low light","biggestComplaint":"Bulky","confidenceLevel":"High","evidenceDepth":80,"recencyStrength":78,"decisionTags":["comfort","performance","distance","budget","small-space","quiet"]}' data-fit-profile="%7B%22id%22%3A%22razer-kiyo-pro-ultra%22%2C%22name%22%3A%22Razer%20Kiyo%20Pro%20Ultra%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20low-light%20webcam%22%2C%22bestFor%22%3A%22Users%20in%20dim%20rooms%20who%20want%20a%20large%20sensor%20and%20strong%20image%20control%22%2C%22avoidIf%22%3A%22You%20want%20a%20small%20unobtrusive%20work%20webcam.%22%2C%22biggestStrength%22%3A%22Excellent%20low%20light%22%2C%22biggestComplaint%22%3A%22Bulky%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22distance%22%2C%22budget%22%2C%22small-space%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%2C%22ergonomics%22%3A%7B%22key%22%3A%22ergonomics%22%2C%22label%22%3A%22Ergonomics%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A58%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A82%7D%2C%22clarity%22%3A%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A81%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Excellent%20low%20light.%20Camera-like%20image.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Engadget%20category%20testing%20supports%20Razer%20Kiyo%20Pro%20Ultra%20as%20a%20serious%20remote%20work%20webcam%20option.%22%2C%22biggestStrength%22%3A%22Excellent%20low%20light%22%2C%22biggestComplaint%22%3A%22Bulky%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A80%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22distance%22%2C%22budget%22%2C%22small-space%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FRazer-Kiyo-Ultra-Webcam-Built%2Fdp%2FB0CT6FFK4R%3Fcrid%3D122XB2DOQF119%26dib%3DeyJ2IjoiMSJ9.nWClYOUYCzkqftKJc-XMs43jYmfQSnt-bWDu7KRCaTIP0sTYW6a3666J90Gv_lV0B3DIXGX9T0GsgM60dUzjLXkic-NlitOW-1mmgjBwDyXLPxJNxVHWhQiUl9cIdFW2bc3sPRbthu6vV1a1AYQeAHDpzAQZwyYsADkt4GIk8OLpBskQN__spAW_Gh4bUsqAg8G9FsJS-dQ64Aqe-zIG_TNg6JmyDRFfAthiqsl8Q6Q.mVEGkj0N2ylczgBZa9CGuR-DFHJNCavOsYjfXzmAZp4%26dib_tag%3Dse%26keywords%3DRazer%2BKiyo%2BPro%2BUltra%26qid%3D1777561542%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Drazer%2Bkiyo%2Bpro%2Bultra%252Caps%252C368%26sr%3D8-1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D26702bf369b6d0b261330d03a34b098a%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="razer-kiyo-pro-ultra" data-product-name="Razer Kiyo Pro Ultra" data-default-score="83" data-editorial-rank="3" data-channel-scores='{"Expert":85.3,"YouTube":82.3,"Reddit":79}'>
               <div class="product-media product-media--remote-work product-visual--workspace product-visual--webcam">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Razer Kiyo Pro Ultra, Best low-light webcam">
@@ -804,17 +781,20 @@
                 <div class="product-badge-row">
                   <span class="rank-badge">Rank <span data-rank>#3</span></span>
 
-                    <span class="decision-badge">Best Value</span>
-
                     <span class="decision-badge">Best for Distance</span>
 
                     <span class="decision-badge">Comfort Pick</span>
+
+                    <span class="decision-badge">Performance Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Razer Kiyo Pro Ultra</h2>
                 <div class="tagline">Best low-light webcam</div>
                 <p class="product-verdict"><strong>Our take:</strong> Razer Kiyo Pro Ultra is the best low-light webcam for users in dim rooms buyers who need a large sensor and strong image control. It stands out for excellent low light and camera-like image.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$299 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Razer Kiyo Pro Ultra">
@@ -829,9 +809,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Razer Kiyo Pro Ultra">
-                  <strong>83</strong>
-                  <span>Evidence score · 8 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Razer Kiyo Pro Ultra">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Razer Kiyo Pro Ultra">
@@ -843,17 +825,13 @@
                     <span>Avoid if</span>
                     <p>You want a small unobtrusive work webcam.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Bulky</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Razer Kiyo Pro Ultra">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Razer-Kiyo-Ultra-Webcam-Built/dp/B0CT6FFK4R?crid=122XB2DOQF119&amp;dib=eyJ2IjoiMSJ9.nWClYOUYCzkqftKJc-XMs43jYmfQSnt-bWDu7KRCaTIP0sTYW6a3666J90Gv_lV0B3DIXGX9T0GsgM60dUzjLXkic-NlitOW-1mmgjBwDyXLPxJNxVHWhQiUl9cIdFW2bc3sPRbthu6vV1a1AYQeAHDpzAQZwyYsADkt4GIk8OLpBskQN__spAW_Gh4bUsqAg8G9FsJS-dQ64Aqe-zIG_TNg6JmyDRFfAthiqsl8Q6Q.mVEGkj0N2ylczgBZa9CGuR-DFHJNCavOsYjfXzmAZp4&amp;dib_tag=se&amp;keywords=Razer+Kiyo+Pro+Ultra&amp;qid=1777561542&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=razer+kiyo+pro+ultra%2Caps%2C368&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=26702bf369b6d0b261330d03a34b098a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Razer Kiyo Pro Ultra" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Razer-Kiyo-Ultra-Webcam-Built/dp/B0CT6FFK4R?crid=122XB2DOQF119&amp;dib=eyJ2IjoiMSJ9.nWClYOUYCzkqftKJc-XMs43jYmfQSnt-bWDu7KRCaTIP0sTYW6a3666J90Gv_lV0B3DIXGX9T0GsgM60dUzjLXkic-NlitOW-1mmgjBwDyXLPxJNxVHWhQiUl9cIdFW2bc3sPRbthu6vV1a1AYQeAHDpzAQZwyYsADkt4GIk8OLpBskQN__spAW_Gh4bUsqAg8G9FsJS-dQ64Aqe-zIG_TNg6JmyDRFfAthiqsl8Q6Q.mVEGkj0N2ylczgBZa9CGuR-DFHJNCavOsYjfXzmAZp4&amp;dib_tag=se&amp;keywords=Razer+Kiyo+Pro+Ultra&amp;qid=1777561542&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=razer+kiyo+pro+ultra%2Caps%2C368&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=26702bf369b6d0b261330d03a34b098a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Razer Kiyo Pro Ultra" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Razer Kiyo Pro Ultra" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -872,7 +850,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>85.3</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">Engadget</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">Engadget</a></div>
                                   </div>
 
                               </div>
@@ -881,7 +859,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=eiLnzrzgQIc" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Razer Kiyo Pro Ultra Review - Best 4K Streaming Webcam?" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">Simon&#39;s Reviews video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=eiLnzrzgQIc" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Razer Kiyo Pro Ultra Review - Best 4K Streaming Webcam?" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">Simon&#39;s Reviews video</a></div>
                                   </div>
 
                               </div>
@@ -890,7 +868,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>79</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Twitch/comments/1ryfdkg/upgrading_from_the_razer_kiyo_pro_ultra/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Upgrading from the Razer Kiyo Pro Ultra" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">r/Twitch thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Twitch/comments/1ryfdkg/upgrading_from_the_razer_kiyo_pro_ultra/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Upgrading from the Razer Kiyo Pro Ultra" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">r/Twitch thread</a></div>
                                   </div>
 
                               </div>
@@ -898,8 +876,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Razer Kiyo Pro Ultra">
-                          <div><span>Proof base</span><strong>8 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>78/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -913,14 +891,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review / Best evidence</span>
                                     <b>remote work webcam review context | Engadget</b>
                                     <small>Engadget - checked Apr 20, 2026</small>
                                     <em>Engadget category testing supports Razer Kiyo Pro Ultra as a serious remote work webcam option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>remote work webcam comparison | PC Gamer</b>
                                     <small>PC Gamer - checked Apr 20, 2026</small>
@@ -934,14 +912,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=eiLnzrzgQIc" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Razer Kiyo Pro Ultra Review - Best 4K Streaming Webcam?" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=eiLnzrzgQIc" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Razer Kiyo Pro Ultra Review - Best 4K Streaming Webcam?" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Razer Kiyo Pro Ultra Review - Best 4K Streaming Webcam?</b>
                                     <small>Simon&#39;s Reviews - checked Apr 24, 2026</small>
                                     <em>Simon&#39;s Reviews video review: Razer Kiyo Pro Ultra Review - Best 4K Streaming Webcam?</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=NHwO67c8hOU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="$300 Webcam!? - Razer Kiyo Pro Ultra Review!" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=NHwO67c8hOU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="$300 Webcam!? - Razer Kiyo Pro Ultra Review!" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>$300 Webcam!? - Razer Kiyo Pro Ultra Review!</b>
                                     <small>Spencer Ryan - checked Apr 24, 2026</small>
@@ -963,7 +941,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.tomshardware.com/reviews/razer-kiyo-pro-ultra-webcam" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Razer Kiyo Pro Ultra Review: Fantastic Webcam, Frustrating Software" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.tomshardware.com/reviews/razer-kiyo-pro-ultra-webcam" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Razer Kiyo Pro Ultra Review: Fantastic Webcam, Frustrating Software" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>Razer Kiyo Pro Ultra Review: Fantastic Webcam, Frustrating Software</b>
                                     <small>Tom&#39;s Hardware - checked May 29, 2026</small>
@@ -977,7 +955,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=lehuUvYilKY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Razer Kiyo Pro Ultra Review 2025 – Is It Worth $300?" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=lehuUvYilKY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Razer Kiyo Pro Ultra Review 2025 – Is It Worth $300?" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Razer Kiyo Pro Ultra Review 2025 – Is It Worth $300?</b>
                                     <small>Golf Sky - checked Apr 24, 2026</small>
@@ -991,7 +969,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/Twitch/comments/1ryfdkg/upgrading_from_the_razer_kiyo_pro_ultra/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Upgrading from the Razer Kiyo Pro Ultra" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.reddit.com/r/Twitch/comments/1ryfdkg/upgrading_from_the_razer_kiyo_pro_ultra/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Upgrading from the Razer Kiyo Pro Ultra" data-product-name="Razer Kiyo Pro Ultra" data-guide="Best Webcams for Remote Work">
                                     <span>Owner discussion</span>
                                     <b>Upgrading from the Razer Kiyo Pro Ultra</b>
                                     <small>r/Twitch thread by overwhelminglyodd - checked Apr 22, 2026</small>
@@ -1008,7 +986,7 @@
               </div>
             </article>
 
-            <article class="product" id="anker-powerconf-c200" data-product-name="Anker PowerConf C200" data-default-score="83" data-editorial-rank="4" data-channel-scores='{"Expert":83,"YouTube":82.3}' data-decision-tags='["budget","premium","small-space","quiet","durability"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"ergonomics":{"key":"ergonomics","label":"Ergonomics","score":59},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"durability":{"key":"durability","label":"Long-term build","score":59},"value":{"key":"value","label":"Price fit","score":82},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":71},"quietUse":{"key":"quietUse","label":"Quiet use","score":71},"clarity":{"key":"clarity","label":"Call clarity","score":81},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"stability":{"key":"stability","label":"Stability","score":59},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":71}},"highlights":[{"key":"value","label":"Price fit","score":82},{"key":"clarity","label":"Call clarity","score":81},{"key":"smallSpace","label":"Small-space fit","score":71}],"ownerSentimentSummary":"Strong value. Better than laptop webcams.","expertSentimentSummary":"3 evidence items. Strongest signal: Engadget category testing supports Anker PowerConf C200 as a serious remote work webcam option.","biggestStrength":"Strong value","biggestComplaint":"Average audio","confidenceLevel":"High","evidenceDepth":86,"recencyStrength":74,"decisionTags":["budget","premium","small-space","quiet","durability"]}' data-fit-profile="%7B%22id%22%3A%22anker-powerconf-c200%22%2C%22name%22%3A%22Anker%20PowerConf%20C200%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20value%20webcam%22%2C%22bestFor%22%3A%22Budget-focused%20remote%20workers%20who%20still%20want%20a%20clear%20image%22%2C%22avoidIf%22%3A%22You%20want%20premium%204K%20quality%20or%20advanced%20tracking.%22%2C%22biggestStrength%22%3A%22Strong%20value%22%2C%22biggestComplaint%22%3A%22Average%20audio%22%2C%22decisionTags%22%3A%5B%22budget%22%2C%22premium%22%2C%22small-space%22%2C%22quiet%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22ergonomics%22%3A%7B%22key%22%3A%22ergonomics%22%2C%22label%22%3A%22Ergonomics%22%2C%22score%22%3A59%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A82%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A71%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A71%7D%2C%22clarity%22%3A%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A81%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22clarity%22%2C%22label%22%3A%22Call%20clarity%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Strong%20value.%20Better%20than%20laptop%20webcams.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Engadget%20category%20testing%20supports%20Anker%20PowerConf%20C200%20as%20a%20serious%20remote%20work%20webcam%20option.%22%2C%22biggestStrength%22%3A%22Strong%20value%22%2C%22biggestComplaint%22%3A%22Average%20audio%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A86%2C%22recencyStrength%22%3A74%2C%22decisionTags%22%3A%5B%22budget%22%2C%22premium%22%2C%22small-space%22%2C%22quiet%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FAnker-PowerConf-Microphones-Adjustable-Correction%2Fdp%2FB09MFMTMPD%3Fcrid%3D2J1MCW3H1CBEI%26dib%3DeyJ2IjoiMSJ9.LZ6b_YCy1IOwlaPwT3gIMP2lvZsj1WGUv_wYRBeRIvIgbcLoOpRx3FejIkGImFyoEcnnyQ5U8tg2WBYhRFyhQv4aQBO-JWxerq9gywybGnihT_Tt7L8EBHh3jYRGcZQjv4OZ-2lfwC9lLxA1rew_RAj_0y_o9ZoLdaurvVPgizhKnsjqrQKa3LtltFIjLCS0BNHirEvALKkRWg9IV5YbBLN7igfZpvmCkILwcUSk1gI.OGmuwiy_E2k0M8mBQ9OrHYp3g6JpejMMHoTD5rEq6ZE%26dib_tag%3Dse%26keywords%3DAnker%2BPowerConf%2BC200%26qid%3D1777561566%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Danker%2Bpowerconf%2Bc200%252Caps%252C278%26sr%3D8-1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D33f11fc618360263dffdfc5194c52b6e%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="anker-powerconf-c200" data-product-name="Anker PowerConf C200" data-default-score="83" data-editorial-rank="4" data-channel-scores='{"Expert":83,"YouTube":82.3}'>
               <div class="product-media product-media--remote-work product-visual--workspace product-visual--webcam">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Anker PowerConf C200, Best value webcam">
@@ -1032,6 +1010,9 @@
                 <div class="tagline">Best value webcam</div>
                 <p class="product-verdict"><strong>Our take:</strong> Anker PowerConf C200 is the best value webcam for shoppers who want budget-focused remote workers who still want a clear image. It stands out for strong value and better than laptop webcams.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$60-$80 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Anker PowerConf C200">
                     <li>2K resolution</li><li>Adjustable field of view</li><li>Built-in privacy cover</li><li>USB-C</li>
@@ -1045,9 +1026,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Anker PowerConf C200">
-                  <strong>83</strong>
-                  <span>Evidence score · 7 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Anker PowerConf C200">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 6 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Anker PowerConf C200">
@@ -1059,17 +1042,13 @@
                     <span>Avoid if</span>
                     <p>You want premium 4K quality or advanced tracking.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Average audio</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Anker PowerConf C200">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Anker-PowerConf-Microphones-Adjustable-Correction/dp/B09MFMTMPD?crid=2J1MCW3H1CBEI&amp;dib=eyJ2IjoiMSJ9.LZ6b_YCy1IOwlaPwT3gIMP2lvZsj1WGUv_wYRBeRIvIgbcLoOpRx3FejIkGImFyoEcnnyQ5U8tg2WBYhRFyhQv4aQBO-JWxerq9gywybGnihT_Tt7L8EBHh3jYRGcZQjv4OZ-2lfwC9lLxA1rew_RAj_0y_o9ZoLdaurvVPgizhKnsjqrQKa3LtltFIjLCS0BNHirEvALKkRWg9IV5YbBLN7igfZpvmCkILwcUSk1gI.OGmuwiy_E2k0M8mBQ9OrHYp3g6JpejMMHoTD5rEq6ZE&amp;dib_tag=se&amp;keywords=Anker+PowerConf+C200&amp;qid=1777561566&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=anker+powerconf+c200%2Caps%2C278&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=33f11fc618360263dffdfc5194c52b6e&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Anker PowerConf C200" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Anker-PowerConf-Microphones-Adjustable-Correction/dp/B09MFMTMPD?crid=2J1MCW3H1CBEI&amp;dib=eyJ2IjoiMSJ9.LZ6b_YCy1IOwlaPwT3gIMP2lvZsj1WGUv_wYRBeRIvIgbcLoOpRx3FejIkGImFyoEcnnyQ5U8tg2WBYhRFyhQv4aQBO-JWxerq9gywybGnihT_Tt7L8EBHh3jYRGcZQjv4OZ-2lfwC9lLxA1rew_RAj_0y_o9ZoLdaurvVPgizhKnsjqrQKa3LtltFIjLCS0BNHirEvALKkRWg9IV5YbBLN7igfZpvmCkILwcUSk1gI.OGmuwiy_E2k0M8mBQ9OrHYp3g6JpejMMHoTD5rEq6ZE&amp;dib_tag=se&amp;keywords=Anker+PowerConf+C200&amp;qid=1777561566&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=anker+powerconf+c200%2Caps%2C278&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=33f11fc618360263dffdfc5194c52b6e&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Anker PowerConf C200" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Webcams for Remote Work" data-section="Remote Work" data-product-name="Anker PowerConf C200" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -1088,7 +1067,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>83</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">Engadget</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">Engadget</a></div>
                                   </div>
 
                               </div>
@@ -1097,7 +1076,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=KnaDVQgZs68" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Anker PowerConf C200 Webcam Review: Elevate Your Video Calls" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">Wanderer001 Reviews video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=KnaDVQgZs68" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Anker PowerConf C200 Webcam Review: Elevate Your Video Calls" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">Wanderer001 Reviews video</a></div>
                                   </div>
 
                               </div>
@@ -1105,8 +1084,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Anker PowerConf C200">
-                          <div><span>Proof base</span><strong>7 public sources</strong><p>Expert, YouTube</p></div>
-                          <div><span>Freshness</span><strong>74/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>6 qualifying sources</strong><p>Expert, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -1120,21 +1099,21 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link best-source" href="https://www.engadget.com/computing/accessories/best-webcams-123047068.html/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam review context | Engadget" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review / Best evidence</span>
                                     <b>remote work webcam review context | Engadget</b>
                                     <small>Engadget - checked Apr 20, 2026</small>
                                     <em>Engadget category testing supports Anker PowerConf C200 as a serious remote work webcam option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.pcgamer.com/best-webcams/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="remote work webcam comparison | PC Gamer" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>remote work webcam comparison | PC Gamer</b>
                                     <small>PC Gamer - checked Apr 20, 2026</small>
                                     <em>PC Gamer comparison coverage reinforces the product&#39;s fit, value, or performance tradeoffs.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.tomsguide.com/reviews/anker-powerconf-c200-webcam" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Anker PowerConf C200 webcam review" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.tomsguide.com/reviews/anker-powerconf-c200-webcam" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Anker PowerConf C200 webcam review" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
                                     <span>Expert review</span>
                                     <b>Anker PowerConf C200 webcam review</b>
                                     <small>Tom&#39;s Guide - checked May 29, 2026</small>
@@ -1148,14 +1127,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=KnaDVQgZs68" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Anker PowerConf C200 Webcam Review: Elevate Your Video Calls" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=KnaDVQgZs68" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Anker PowerConf C200 Webcam Review: Elevate Your Video Calls" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Anker PowerConf C200 Webcam Review: Elevate Your Video Calls</b>
                                     <small>Wanderer001 Reviews - checked Apr 24, 2026</small>
                                     <em>Wanderer001 Reviews video review: Anker PowerConf C200 Webcam Review: Elevate Your Video Calls</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=sNdiJlr4j6M" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Anker Powerconf C200 2K Webcam Review &amp; Quality DEMO (Good Enough for Zoom Calls &amp; YouTube Videos?)" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=sNdiJlr4j6M" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Anker Powerconf C200 2K Webcam Review &amp; Quality DEMO (Good Enough for Zoom Calls &amp; YouTube Videos?)" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Anker Powerconf C200 2K Webcam Review &amp; Quality DEMO (Good Enough for Zoom Calls &amp; YouTube Videos?)</b>
                                     <small>Essetino Media - Create Profitable Content - checked Apr 24, 2026</small>
@@ -1177,7 +1156,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=XEwoLknnm8Q" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Which webcam is best? Logitech Brio 4K vs Anker PowerConf C200 2K" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=XEwoLknnm8Q" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Which webcam is best? Logitech Brio 4K vs Anker PowerConf C200 2K" data-product-name="Anker PowerConf C200" data-guide="Best Webcams for Remote Work">
                                     <span>Video review</span>
                                     <b>Which webcam is best? Logitech Brio 4K vs Anker PowerConf C200 2K</b>
                                     <small>GoTechGeek - checked Apr 24, 2026</small>
@@ -1249,17 +1228,17 @@
             <h2 id="related-heading">Keep comparing in Remote Work</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/remote-work.html"><span>Back to Remote Work</span><span>Category hub</span></a>
+              <a href="/remote-work.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Remote Work</span><span>Category hub</span></a>
 
-                <a href="/best-ergonomic-keyboards.html"><span>Best Ergonomic Keyboards</span><span>Buying guide</span></a>
+                <a href="/best-ergonomic-keyboards.html" data-guide-link data-guide-placement="roundup-related"><span>Best Ergonomic Keyboards</span><span>Buying guide</span></a>
 
-                <a href="/best-monitor-arms.html"><span>Best Monitor Arms</span><span>Buying guide</span></a>
+                <a href="/best-monitor-arms.html" data-guide-link data-guide-placement="roundup-related"><span>Best Monitor Arms</span><span>Buying guide</span></a>
 
-                <a href="/best-standing-desks.html"><span>Best Standing Desks</span><span>Buying guide</span></a>
+                <a href="/best-desk-mats.html" data-guide-link data-guide-placement="roundup-related"><span>Best Desk Mats</span><span>Buying guide</span></a>
 
-                <a href="/best-office-chairs.html"><span>Best Office Chairs</span><span>Buying guide</span></a>
+                <a href="/best-laptop-stands-for-remote-work.html" data-guide-link data-guide-placement="roundup-related"><span>Best Laptop Stands for Remote Work</span><span>Buying guide</span></a>
 
-                <a href="/best-desk-mats.html"><span>Best Desk Mats</span><span>Buying guide</span></a>
+                <a href="/best-portable-monitors-for-remote-work.html" data-guide-link data-guide-placement="roundup-related"><span>Best Portable Monitors for Remote Work</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1272,7 +1251,7 @@
             <p>Use these guides to understand the tradeoffs before you compare products: fit, features, durability, comfort, and the mistakes worth avoiding.</p>
             <div class="link-list">
 
-                <a href="/how-to-choose-webcam-for-remote-work.html"><span>How to Choose a Webcam for Remote Work</span><span>How to choose</span></a>
+                <a href="/how-to-choose-webcam-for-remote-work.html" data-guide-link data-guide-placement="roundup-supporting"><span>How to Choose a Webcam for Remote Work</span><span>How to choose</span></a>
 
             </div>
           </section>
@@ -1319,22 +1298,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

@@ -6,6 +6,11 @@
 
 
 
+
+
+
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   {
@@ -115,13 +120,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html" class="is-current" aria-current="location">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -131,12 +133,17 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/lifestyle.html">Phavai / Lifestyle / Feature explainer</a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <a href="/lifestyle.html">Lifestyle</a><span aria-hidden="true">/</span>
+              <span aria-current="page">Feature explainer</span>
+            </nav>
             <h1>Coffee Maker Features That Actually Matter</h1>
             <p class="lede">Coffee maker marketing can make every feature sound essential. Most daily coffee drinkers need consistent temperature, good water distribution, easy cleaning, and a carafe that fits how they drink coffee.</p>
             <div class="meta-row">
               <span class="meta-pill">Feature explainer</span>
               <span class="meta-pill">Updated April 20, 2026</span>
+
               <span class="meta-pill">Supports Lifestyle buying guides</span>
             </div>
             <p class="review-byline">AI-assisted research · Human review by <a href="/about.html#ben-yardley">Ben Yardley</a>, Phavai founder and human editor. This is research synthesis, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
@@ -145,21 +152,25 @@
           <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
               <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Temperature consistency drives flavor.</h2>
-              <p>Good drip coffee depends on water temperature and even saturation. Machines that hold proper brew temperature tend to produce more consistent cups.</p>
+              <h2 id="quick-answer-heading">What to know first</h2>
+              <p>Coffee maker marketing can make every feature sound essential. Most daily coffee drinkers need consistent temperature, good water distribution, easy cleaning, and a carafe that fits how they drink coffee.</p>
             </div>
             <div class="quick-answer-actions">
 
-                <a class="button" href="/best-coffee-makers.html">Open buying guide</a>
+                <a class="button" href="/best-coffee-makers.html" data-guide-link data-guide-placement="supporting-quick-answer">Open buying guide</a>
 
-
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="https://www.amazon.com/Technivorm-Moccamaster-Coffee-Brewer-Polished/dp/B00722EWDK?crid=13BC4AZYBNX5Y&amp;dib=eyJ2IjoiMSJ9.25e4-Pc_RLb3YoAZOoQ9nMk1Mnh02TOJq1OD3bPrTkE89Wo8rUwWJ5bMNHenNmGWM6mFQplsY0mcJEevxjbkNEtPn8SBFDQtiEVj_i2SRGVqEpTUKup4JwNZXYUv0jBw1rVgzvxPb3lYrvAG3MhXjQGzuj-xou9qCEJxoOT1CHym8OPZP2srbStwLzah5CAIbFPt_H93afu2gM6XiWFn4eHzlQxRpKK7zuGrW9I6JtTwNmemEtMkMjYV_X0pfQMTeBHQ-xzhytQt91CNnrcNaKob2hA2z1VAiUyHVAGnZfc.fnGwxI-6VTfIAFM2Q8J93cucZqGjsc6aO42-M2TXu8Q&amp;dib_tag=se&amp;keywords=Technivorm%2BMoccamaster%2BKBGV%2BSelect&amp;qid=1777570565&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=technivorm%2Bmoccamaster%2Bkbgv%2Bselect%2Caps%2C223&amp;sr=8-8&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=4756df74a9548f3abde945cb338279a0&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Technivorm Moccamaster KBGV Select" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Coffee Makers" data-section="Lifestyle" data-product-name="Technivorm Moccamaster KBGV Select" data-product-rank="1" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="supporting-quick-answer">Check price at Amazon</a>
 
             </div>
           </section>
 
         </div>
+        <nav class="page-jump-nav" aria-label="On this article">
+          <span>In this article</span>
+          <a href="#section-1-temperature-consistency-drives-flavor">Temperature consistency drives flavor</a><a href="#section-2-choose-carafe-type-by-routine">Choose carafe type by routine</a><a href="#section-3-programmability-is-convenience-not-quality">Programmability is convenience, not quality</a><a href="#section-4-cleaning-determines-long-term-taste">Cleaning determines long-term taste</a>
+
+          <a href="#decision-heading">Decision checklist</a>
+          <a href="#faq-heading">Questions</a>
+        </nav>
       </div>
     </section>
 
@@ -168,22 +179,22 @@
         <article class="content-column">
           <div class="supporting-body supporting-prose">
 
-              <section>
+              <section id="section-1-temperature-consistency-drives-flavor">
                 <h2>Temperature consistency drives flavor</h2>
                 <p>Good drip coffee depends on water temperature and even saturation. Machines that hold proper brew temperature tend to produce more consistent cups.</p>
               </section>
 
-              <section>
+              <section id="section-2-choose-carafe-type-by-routine">
                 <h2>Choose carafe type by routine</h2>
                 <p>Thermal carafes keep coffee hot without cooking it on a plate. Glass carafes are easy to see and clean, but hot plates can make coffee taste stale over time.</p>
               </section>
 
-              <section>
+              <section id="section-3-programmability-is-convenience-not-quality">
                 <h2>Programmability is convenience, not quality</h2>
                 <p>Timers and brew modes are useful, but they do not fix poor extraction. Buy programmability if it fits your morning, not because it guarantees better coffee.</p>
               </section>
 
-              <section>
+              <section id="section-4-cleaning-determines-long-term-taste">
                 <h2>Cleaning determines long-term taste</h2>
                 <p>A great coffee maker can taste bad if it is hard to descale or clean. Removable parts and simple maintenance are worth prioritizing.</p>
               </section>
@@ -193,9 +204,32 @@
 
 
 
+          <section class="comparison-section" aria-labelledby="decision-heading">
+            <div class="section-kicker">Decision checklist</div>
+            <h2 id="decision-heading">Turn the advice into a shortlist</h2>
+            <div class="research-decision-grid">
+              <article><span>1 · Use case</span><strong>Name the job first</strong><p>Write down where, how often, and for how long you will use the product. That keeps attractive extras from outranking the need that brought you here.</p></article>
+              <article><span>2 · Non-negotiable</span><strong>Choose one must-have</strong><p>Pick the fit, format, size, comfort, or compatibility requirement that would make the purchase fail if it were wrong.</p></article>
+              <article><span>3 · Tradeoff</span><strong>Accept a downside on purpose</strong><p>Compare the recurring complaint attached to each option. A known compromise is easier to live with than a surprise after checkout.</p></article>
+              <article><span>4 · Verify</span><strong>Check the exact model</strong><p>Use a related buying guide to inspect product-specific sources, then confirm the seller, version, current price, and return terms at the retailer.</p></article>
+            </div>
+          </section>
 
 
 
+
+
+          <section class="research-source-panel supporting-sources supporting-sources--context" aria-labelledby="sources-heading">
+            <div>
+              <div class="section-kicker">Evidence trail</div>
+              <h2 id="sources-heading">Where to check the product evidence</h2>
+              <p>This explainer summarizes the decision factors used across Phavai's linked buying guides. Open a related roundup for product-specific expert reviews, owner feedback, specifications, and source dates.</p>
+            </div>
+            <div class="research-source-links">
+              <a href="/best-coffee-makers.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Coffee Makers<span>See source trail</span></a>
+              <a href="/methodology.html">Phavai research methodology<span>How evidence is handled</span></a>
+            </div>
+          </section>
 
 
 
@@ -229,9 +263,9 @@
           <p>Use these guides when you are ready to move from advice to a specific shortlist.</p>
           <div class="link-list compact">
 
-              <a href="/best-coffee-makers.html"><span>Best Coffee Makers</span><span>Guide</span></a>
+              <a href="/best-coffee-makers.html" data-guide-link data-guide-placement="supporting-related"><span>Best Coffee Makers</span><span>Guide</span></a>
 
-            <a href="/lifestyle.html"><span>All Lifestyle guides</span><span>Hub</span></a>
+            <a href="/lifestyle.html" data-guide-link data-guide-placement="supporting-related"><span>All Lifestyle guides</span><span>Hub</span></a>
           </div>
           <p class="disclosure">Editorial guidance is written to support clearer buying decisions. Retail links stay separate from pick order.</p>
         </aside>
@@ -240,19 +274,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/editorial-standards.html">Editorial Standards</a>
-        <a href="/methodology.html">Methodology</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

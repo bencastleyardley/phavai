@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,10 +63,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-        <a href="/outdoor.html">Outdoor</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
         <a href="/remote-work.html">Remote Work</a>
         <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/editorial-standards.html">Editorial Standards</a>
+        <a class="hide-small is-current" href="/methodology.html" aria-current="page">How it works</a>
       </div>
     </nav>
   </header>
@@ -76,7 +76,7 @@
       <div class="wrap">
         <a class="crumb" href="/">Phavai / Methodology</a>
         <h1>How Phavai Uses AI to Research Products</h1>
-        <p class="lede">Shoppers should not have to compare a dozen review pages, videos, owner threads, and product specs just to buy one thing. AI helps Phavai organize that work; a human editor checks the evidence, resolves conflicts, and approves what gets published.</p>
+        <p class="lede">Shoppers should not have to compare a dozen review pages, videos, owner threads, and product specs just to buy one thing. AI helps Phavai organize selected public evidence; a human editor reviews the synthesis, makes the editorial decision, and approves what gets published.</p>
         <div class="meta-row">
           <span class="meta-pill">AI-assisted synthesis</span>
           <span class="meta-pill">Human-reviewed</span>
@@ -99,7 +99,7 @@
           </article>
           <article class="method-step">
             <h3>What the human does</h3>
-            <p>Ben Yardley verifies source-to-product matches, checks important claims against linked evidence, removes weak sources, applies category context, and approves the final running and outdoor recommendation.</p>
+            <p>Ben Yardley reviews source-to-product matches and important claims, removes or demotes weak evidence, applies category context, and approves the final recommendation. Running and outdoor coverage also draws on his category experience; other categories rely more heavily on cited specialist evidence.</p>
           </article>
           <article class="method-step">
             <h3>What this is not</h3>
@@ -121,12 +121,12 @@
         </article>
         <article class="text-panel">
           <h2>3. Put the best evidence first</h2>
-          <p>Expert reviews set the strongest baseline. Product-specific video reviews show real use, setup, fit, and annoyances. Owner feedback catches recurring praise, buyer regret, durability complaints, and support problems.</p>
+          <p>When available, category-relevant expert reviews set the strongest baseline. Product-specific video reviews can show real use, setup, fit, and annoyances. Owner feedback can catch recurring praise, buyer regret, durability complaints, and support problems. Coverage varies by product, so a missing channel is treated as a limitation rather than implied evidence.</p>
           <p><strong>Channel formula:</strong> sum(evidence score x evidence quality weight) / sum(evidence quality weights).</p>
         </article>
         <article class="text-panel">
           <h2>4. Keep public sources curated</h2>
-          <p>Buying guides show the best 4-6 public sources for each product. Broader research notes can remain internal, but they are not shown publicly unless they have an exact, buyer-helpful URL.</p>
+          <p>Buying guides aim to show a compact set of exact, buyer-helpful public sources for each product. The number and mix vary, and some older or developing source sets remain thinner than the target. Broader discovery notes can remain internal, but they are not presented as public evidence until an exact useful URL is available.</p>
         </article>
         <article class="text-panel">
           <h2>5. Calculate the pick score</h2>
@@ -139,7 +139,7 @@
         </article>
         <article class="text-panel">
           <h2>7. Keep weak proof from looking stronger than it is</h2>
-          <p>We look at source count, source diversity, freshness, reviewer quality, sample strength, and channel coverage. Thin evidence should be obvious instead of hiding behind a clean score.</p>
+          <p>We look at source count, source diversity, freshness, reviewer quality, sample strength, and channel coverage. Not every guide has reached the same evidence depth yet. Thin evidence should be disclosed and improved over time instead of being hidden behind a clean score.</p>
         </article>
         <article class="text-panel">
           <h2>8. Match the shortlist to the buyer</h2>
@@ -161,6 +161,7 @@
         <article class="text-panel">
           <h2>What makes a recommendation fail</h2>
           <p>A recommendation fails if it hides meaningful tradeoffs, uses unverifiable evidence, overstates certainty, or ranks a product because the link is more convenient. Trust is the product.</p>
+          <p>Source coverage is an active editorial backlog. Readers can flag a missing, mismatched, or stronger source through the <a href="/contact.html">corrections process</a>.</p>
         </article>
         <aside class="text-panel">
           <h2>Related trust pages</h2>
@@ -175,17 +176,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-        <a href="/outdoor.html">Outdoor</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
         <a href="/remote-work.html">Remote Work</a>
         <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/editorial-standards.html">Editorial Standards</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
         <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-      </div>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

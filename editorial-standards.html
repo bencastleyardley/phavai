@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,10 +63,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-        <a href="/outdoor.html">Outdoor</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
         <a href="/remote-work.html">Remote Work</a>
         <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
+        <a class="hide-small is-current" href="/methodology.html" aria-current="location">How it works</a>
       </div>
     </nav>
   </header>
@@ -94,19 +94,19 @@
         </article>
         <article class="text-panel">
           <h2>Evidence quality</h2>
-          <p>We prioritize category-specific expertise, hands-on testing reported by cited third-party reviewers, exact video reviews, exact owner discussions, recency, and patterns that repeat across sources. One enthusiastic review is useful; it is not enough on its own.</p>
+          <p>We prioritize category-specific expertise, hands-on testing reported by cited third-party reviewers, exact video reviews, exact owner discussions, recency, and patterns that repeat across sources. One enthusiastic review is useful; it is not enough on its own. Evidence depth varies across the catalog, and a thinner source set should produce more cautious language.</p>
         </article>
         <article class="text-panel">
           <h2>AI use and human accountability</h2>
-          <p>AI may assist with source discovery, research organization, comparison, pattern detection, and drafting. It may not invent product use, quotes, sources, or certainty. A named human editor checks the evidence, resolves conflicts, and approves publication.</p>
+          <p>AI may assist with source discovery, research organization, comparison, pattern detection, and drafting. It may not invent product use, quotes, sources, or certainty. A named human editor reviews the synthesis, resolves material conflicts found in the selected evidence, makes the editorial decision, and approves publication.</p>
         </article>
         <article class="text-panel">
           <h2>Source hierarchy</h2>
-          <p>Public guides show the strongest evidence first: testing performed by cited expert sources, then product-specific video reviews, then owner discussion, then specs. Brand and specs pages are useful for facts, but they should not be the reason a product wins.</p>
+          <p>Public guides aim to lead with the strongest available evidence: testing performed by cited expert sources, then product-specific video reviews, owner discussion, and official specifications. Not every product currently has every evidence type. Brand and specification pages are useful for facts, but they should not be presented as independent proof that a product wins.</p>
         </article>
         <article class="text-panel">
           <h2>Public citations</h2>
-          <p>Generic search links and broad discovery notes stay internal until they can be replaced with exact, useful URLs. A visible source should answer a buyer question, not just prove that research happened.</p>
+          <p>Generic search links and broad discovery notes stay internal until they can be replaced with exact, useful URLs. A visible source should answer a buyer question, not just prove that research happened. Some source sets are still being expanded; the site should say so rather than imply complete internet coverage.</p>
         </article>
         <article class="text-panel">
           <h2>Visible tradeoffs</h2>
@@ -118,7 +118,7 @@
         </article>
         <article class="text-panel">
           <h2>Updates and corrections</h2>
-          <p>Pages show last-updated and source-checked dates where appropriate. If a product changes, a source becomes outdated, or better evidence appears, Phavai should update the affected guide instead of defending stale advice.</p>
+          <p>Pages show last-updated and source-checked dates where appropriate. If a product changes, a source becomes outdated, or better evidence appears, Phavai should update the affected guide instead of defending stale advice. Correction reports are reviewed according to materiality, with safety issues and recommendation-changing errors handled first.</p>
         </article>
         <article class="text-panel">
           <h2>Image use</h2>
@@ -133,16 +133,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

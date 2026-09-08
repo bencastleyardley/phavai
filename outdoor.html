@@ -1,7 +1,4 @@
 
-
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   {
@@ -241,13 +238,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="page">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -257,7 +251,10 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/">Phavai / Outdoor</a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <span aria-current="page">Outdoor</span>
+            </nav>
             <h1>Outdoor Buying Guides</h1>
             <p class="lede">Outdoor shopping gets noisy fast because every runner, trail, and race asks for a different compromise. Phavai pulls the best reviews together so the right pick, the wrong-fit warnings, and the real-world proof are easier to see.</p>
             <div class="meta-row">
@@ -268,216 +265,382 @@
             <p class="review-byline">AI-assisted research · Human review by <a href="/about.html#ben-yardley">Ben Yardley</a>, outdoor-media professional, trail runner, ultrarunner, and climber. Phavai organizes selected reviews, recurring tradeoffs, and product facts; it does not imply first-hand testing. <a href="/methodology.html">See the process</a>.</p>
           </div>
 
-          <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
-            <div class="quick-answer-main">
-              <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Start with <a href="/best-running-headphones.html">Best Running Headphones</a>.</h2>
-              <p>A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.</p>
-            </div>
-            <div class="quick-answer-actions">
-              <a class="button" href="/best-running-headphones.html">Open buying guide</a>
+          <section class="collection-start-panel" aria-labelledby="collection-start-heading">
+            <div class="section-kicker">Choose a starting point</div>
+            <h2 id="collection-start-heading">What are you comparing?</h2>
+            <p>Pick the guide closest to your actual purchase. The shortlist, tradeoffs, and retailer options live on the next page.</p>
+            <div class="collection-start-links">
 
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0D2HKCMBP?crid=T9DOW96216PO&amp;dib=eyJ2IjoiMSJ9.jFtumx73Pa_8w7y8J6xGqmu6n2fUiHaLxn2Hp2BifjVVQsENAvfnwoRqTdif_KUeNqtMCCxd46U7z0238so4u5gIwE-vYMLBZq76eOFsZ_-j8gF8wZpLl0N_hINpVmT3xlxcY2fhesPFTo4bE0buUgtGOZPDm5bdIAWezKqKZychi2OjcILGMtfPS04zSx4wf-kLxKVB4MD-hGuWVlTqHFovxXhFoJaDnEMz25W1PZY.KJIfJj6jSiUSAxUpiN0rtNL0hFd7fSIF76UURW4XO6w&amp;dib_tag=se&amp;keywords=shokz%2Bopenrun%2Bpro%2B2&amp;qid=1777559988&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=Shokz%2BOpenRun%2BPro%2B2%2Caps%2C245&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=eff9755d074b38d578676ce05898c754&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Shokz OpenRun Pro 2" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Headphones" data-section="Outdoor" data-product-name="Shokz OpenRun Pro 2" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="section-quick-answer">Check price at Amazon</a>
+                <a href="/best-running-headphones.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Running Headphones</strong>
+                </a>
+
+                <a href="/best-womens-trail-running-shoes.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Women&#39;s Trail Running Shoes</strong>
+                </a>
+
+                <a href="/best-running-belts.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Running Belts</strong>
+                </a>
 
             </div>
           </section>
 
         </div>
+        <nav class="page-jump-nav" aria-label="On this collection">
+          <span>Browse this collection</span>
+          <a href="#trail-shoes">Trail shoes</a><a href="#road-marathon">Road &amp; marathon shoes</a><a href="#hydration-carry">Hydration &amp; carry</a><a href="#fuel-electrolytes">Fuel &amp; electrolytes</a><a href="#watches-audio">Watches, audio &amp; accessories</a><a href="#recovery">Recovery</a>
+          <a href="#shopping-advice">How to choose</a>
+        </nav>
       </div>
     </section>
 
-    <section class="band" id="guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Outdoor buying guides</h2>
-          <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
+
+      <section class="band" id="trail-shoes">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Trail shoes</h2>
+            <p>Start with fit and terrain, then narrow by distance, cushioning, grip, and race intent.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--outdoor" href="/best-womens-trail-running-shoes.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 42c10 1 17-5 23-15l17 9c3 4 2 10-4 11H18c-4 0-7-2-7-5Z"/><path d="M28 30h8m-13 6h10"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Women&#39;s Trail Running Shoes</h3>
+                  <p>Women&#39;s trail running shoes compared by heel hold, forefoot room, grip, cushioning, terrain, and real-world fit tradeoffs.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-mens-trail-running-shoes.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 41c8 2 18-4 25-16l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-6Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Men&#39;s Trail Running Shoes</h3>
+                  <p>A practical guide to trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-100-miles.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Trail Shoes for 100 Miles</h3>
+                  <p>A long-distance trail shoe ranking for 100-mile races where protection, fit security, swelling room, and late-race comfort matter more than pure speed.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-beginners.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Trail Shoes for Beginners</h3>
+                  <p>A beginner-friendly trail shoe ranking for runners moving from road to dirt who need confidence, protection, and fit forgiveness without overbuying a specialist shoe.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-muddy-conditions.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Trail Shoes for Muddy Conditions</h3>
+                  <p>A mud-focused trail shoe ranking for soft ground, wet grass, sloppy singletrack, and races where outsole bite matters more than road comfort.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-technical-trails.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Trail Shoes for Technical Trails</h3>
+                  <p>A technical-terrain trail shoe ranking for rocky descents, off-camber footing, roots, and mountain routes where foothold matters as much as cushioning.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-wide-feet.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Trail Shoes for Wide Feet</h3>
+                  <p>A trail shoe ranking for runners who need forefoot room, swelling tolerance, or less sidewall pressure without losing heel security on uneven terrain.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-comfortable-trail-running-shoes.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Top 10 Most Comfortable Trail Shoes</h3>
+                  <p>A comfort-first trail shoe guide for runners who care about soft landings, secure fit, long-mile protection, and fewer regret purchases.</p>
+                </div>
+              </a>
+
+          </div>
         </div>
-        <div class="category-grid icon-card-grid">
+      </section>
 
-            <a class="category-card category-card--outdoor" href="/best-running-headphones.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 36V28a16 16 0 0 1 32 0v8"/><rect x="10" y="34" width="10" height="16" rx="5"/><rect x="44" y="34" width="10" height="16" rx="5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Headphones</h3>
-                <p>A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.</p>
-              </div>
-            </a>
+      <section class="band surface" id="road-marathon">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Road &amp; marathon shoes</h2>
+            <p>Training and race-day footwear organized by experience, body needs, comfort, and pace goals.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
 
-            <a class="category-card category-card--outdoor" href="/best-womens-trail-running-shoes.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 42c10 1 17-5 23-15l17 9c3 4 2 10-4 11H18c-4 0-7-2-7-5Z"/><path d="M28 30h8m-13 6h10"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Women&#39;s Trail Running Shoes</h3>
-                <p>Women&#39;s trail running shoes compared by heel hold, forefoot room, grip, cushioning, terrain, and real-world fit tradeoffs.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--outdoor" href="/best-carb-drink-mixes-for-ultramarathons.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Carb Drink Mixes for Ultramarathons</h3>
+                  <p>A long-run and race-day guide to high-carb drink mixes for ultramarathoners who need calories without chewing all day.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--outdoor" href="/best-running-belts.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c9-10 35-10 44 0-7 8-37 8-44 0Z"/><path d="M28 27h8v14h-8zM14 35h10m16 0h10"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Belts</h3>
-                <p>A practical guide to running belts and waist packs that carry phones, keys, fuel, soft flasks, and sometimes poles without turning every run into a bounce test.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--outdoor" href="/best-daily-trainers-for-marathon-training.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Daily Trainers for Marathon Training</h3>
+                  <p>A marathon-training daily trainer ranking for runners building weekly mileage who need durability, recovery-run comfort, long-run support, and enough versatility for workouts.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--outdoor" href="/best-gps-running-watches.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="18" width="20" height="28" rx="8"/><path d="M26 18V8h12v10M26 46v10h12V46m-6-19v7l5 4"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best GPS Running Watches</h3>
-                <p>A practical guide to GPS running watches for daily training, marathons, trail ultras, and value-focused runners.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--outdoor" href="/best-ultramarathon-fuel.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Food for Ultra Marathons</h3>
+                  <p>A practical guide to ultra marathon fuel for runners comparing drink mixes, gels, waffles, bars, and real-food options for long races.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--outdoor" href="/best-mens-trail-running-shoes.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 41c8 2 18-4 25-16l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-6Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Men&#39;s Trail Running Shoes</h3>
-                <p>A practical guide to trail shoes for technical terrain, daily dirt miles, fast efforts, and long ultras.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--outdoor" href="/best-marathon-shoes-for-heavy-runners.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Marathon Shoes for Heavy Runners</h3>
+                  <p>A marathon shoe ranking for heavier runners who need protective cushioning, stable geometry, durable foam, and confidence through long training blocks.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--outdoor" href="/best-carb-drink-mixes-for-ultramarathons.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Carb Drink Mixes for Ultramarathons</h3>
-                <p>A long-run and race-day guide to high-carb drink mixes for ultramarathoners who need calories without chewing all day.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--outdoor" href="/best-road-shoe-for-your-first-marathon.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Road Shoe for Your First Marathon</h3>
+                  <p>A first-marathon road shoe ranking for runners who need reliable comfort, predictable fit, and enough protection for long runs without choosing an unstable race shoe too soon.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--outdoor" href="/best-compression-boots-for-runners.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Compression Boots for Runners</h3>
-                <p>A runner-focused guide to compression boots for recovery days, marathon blocks, and athletes deciding whether premium pneumatic recovery is worth the money.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--outdoor" href="/best-running-gels-for-ultramarathons.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Gels for Ultramarathons</h3>
+                  <p>A runner-focused guide to ultramarathon gels, comparing carb delivery, texture, caffeine options, stomach tolerance, and race-day practicality.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--outdoor" href="/best-electrolyte-mixes-for-ultrarunning.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Electrolyte Mixes for Ultrarunning</h3>
-                <p>A practical guide to electrolyte mixes for ultrarunners comparing sodium, carbs, taste, stomach tolerance, and hot-weather usefulness.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-electrolytes-for-heavy-sweaters.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Electrolytes for Heavy Sweaters</h3>
-                <p>A runner-focused electrolyte guide for people who finish workouts with salt stains, cramps, headaches, or repeated heat-day hydration problems.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-ultramarathon-fuel.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Food for Ultra Marathons</h3>
-                <p>A practical guide to ultra marathon fuel for runners comparing drink mixes, gels, waffles, bars, and real-food options for long races.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-handheld-running-water-bottles.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M25 9h14v10l5 7v24a6 6 0 0 1-6 6H26a6 6 0 0 1-6-6V26l5-7V9Z"/><path d="M25 18h14M22 34h20"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Handheld Running Water Bottles</h3>
-                <p>A guide to handheld running bottles for runners who want simple hydration without committing to a vest, belt, or full pack.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-hydration-packs.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Hydration Packs</h3>
-                <p>Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-recovery-sandals.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 43c7-12 18-17 36-16 2 12-6 20-21 20-7 0-12-1-15-4Z"/><path d="M29 29c3 4 4 9 2 16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Recovery Sandals</h3>
-                <p>Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-running-chews.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Chews</h3>
-                <p>A practical guide to running chews for long runs, marathons, ultras, and runners who want a chewable alternative to gels.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-running-gels-for-ultramarathons.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Gels for Ultramarathons</h3>
-                <p>A runner-focused guide to ultramarathon gels, comparing carb delivery, texture, caffeine options, stomach tolerance, and race-day practicality.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-running-socks-for-long-runs.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 10h16v17c0 8 7 9 10 14 4 7-1 13-10 13H22c-7 0-10-5-7-11 3-6 9-8 9-16V10Z"/><path d="M24 24h16M20 45h22"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Socks for Long Runs</h3>
-                <p>A long-run sock guide for runners who want fewer blisters, better moisture control, and less foot irritation after the easy miles stop feeling easy.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-running-sunglasses-for-sweat-and-bounce.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 32c5-4 14-5 22 0 8-5 17-4 22 0"/><path d="M12 34h18l-4 12H15l-3-12Zm22 0h18l-3 12H38l-4-12Z"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Sunglasses for Sweat and Bounce</h3>
-                <p>A runner-first sunglasses guide for people who care about no-slip fit, sweat control, eye coverage, and lenses that work when light keeps changing.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-running-vests.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l7 16v24H15V28l7-16Z"/><path d="M25 12v40M39 12v40M25 31h14"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Running Vests</h3>
-                <p>Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-trail-running-poles.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 8v48M40 8v48M18 18h12M34 18h12M20 56h8m8 0h8"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Trail Running Poles</h3>
-                <p>Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-comfortable-trail-running-shoes.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Top 10 Most Comfortable Trail Shoes</h3>
-                <p>A comfort-first trail shoe guide for runners who care about soft landings, secure fit, long-mile protection, and fewer regret purchases.</p>
-              </div>
-            </a>
-
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="band" id="hydration-carry">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Hydration &amp; carry</h2>
+            <p>Vests, packs, bottles, belts, and poles for carrying what a run or race actually requires.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--outdoor" href="/best-running-belts.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 34c9-10 35-10 44 0-7 8-37 8-44 0Z"/><path d="M28 27h8v14h-8zM14 35h10m16 0h10"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Belts</h3>
+                  <p>A practical guide to running belts and waist packs that carry phones, keys, fuel, soft flasks, and sometimes poles without turning every run into a bounce test.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-handheld-running-water-bottles.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M25 9h14v10l5 7v24a6 6 0 0 1-6 6H26a6 6 0 0 1-6-6V26l5-7V9Z"/><path d="M25 18h14M22 34h20"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Handheld Running Water Bottles</h3>
+                  <p>A guide to handheld running bottles for runners who want simple hydration without committing to a vest, belt, or full pack.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-hydration-packs.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Hydration Packs</h3>
+                  <p>Hydration packs and trail vests ranked for bounce control, storage, fit, durability, and long-run comfort.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-hydration-vests-for-100k-and-100-mile-races.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Hydration Vests for 100K and 100 Mile Races</h3>
+                  <p>A race-vest ranking for long ultras where storage, bounce control, flask access, pole carry, and late-race comfort decide whether a vest works.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-running-vests.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l7 16v24H15V28l7-16Z"/><path d="M25 12v40M39 12v40M25 31h14"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Vests</h3>
+                  <p>Running vests ranked for low bounce, pocket access, short-to-medium distance storage, phone fit, and hot-weather comfort.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-trail-running-poles.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 8v48M40 8v48M18 18h12M34 18h12M20 56h8m8 0h8"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Trail Running Poles</h3>
+                  <p>Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="band surface" id="fuel-electrolytes">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Fuel &amp; electrolytes</h2>
+            <p>Compare format, carbohydrate delivery, sodium, flavor tolerance, and training practicality.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--outdoor" href="/best-electrolyte-mixes-for-ultrarunning.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Electrolyte Mixes for Ultrarunning</h3>
+                  <p>A practical guide to electrolyte mixes for ultrarunners comparing sodium, carbs, taste, stomach tolerance, and hot-weather usefulness.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-electrolytes-for-heavy-sweaters.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M22 12h20l5 10v30H17V22l5-10Z"/><path d="M22 12h20M23 29h18M24 40h16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Electrolytes for Heavy Sweaters</h3>
+                  <p>A runner-focused electrolyte guide for people who finish workouts with salt stains, cramps, headaches, or repeated heat-day hydration problems.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-running-chews.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Chews</h3>
+                  <p>A practical guide to running chews for long runs, marathons, ultras, and runners who want a chewable alternative to gels.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="band" id="watches-audio">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Watches, audio &amp; accessories</h2>
+            <p>Running technology and small essentials compared for route awareness, comfort, reliability, and daily use.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--outdoor" href="/best-running-headphones.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M16 36V28a16 16 0 0 1 32 0v8"/><rect x="10" y="34" width="10" height="16" rx="5"/><rect x="44" y="34" width="10" height="16" rx="5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Headphones</h3>
+                  <p>A practical guide to open-ear headphones, secure sport earbuds, and workout-ready audio for runners who need fit, awareness, and reliable controls.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-gps-running-watches.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="18" width="20" height="28" rx="8"/><path d="M26 18V8h12v10M26 46v10h12V46m-6-19v7l5 4"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best GPS Running Watches</h3>
+                  <p>A practical guide to GPS running watches for daily training, marathons, trail ultras, and value-focused runners.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-gps-watches-for-ultrarunning.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="18" width="20" height="28" rx="8"/><path d="M26 18V8h12v10M26 46v10h12V46m-6-19v7l5 4"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best GPS Watches for Ultrarunning</h3>
+                  <p>A GPS watch ranking for ultrarunners who need battery confidence, navigation, training metrics, and reliable tracking across long trail races.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-running-socks-for-long-runs.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 10h16v17c0 8 7 9 10 14 4 7-1 13-10 13H22c-7 0-10-5-7-11 3-6 9-8 9-16V10Z"/><path d="M24 24h16M20 45h22"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Socks for Long Runs</h3>
+                  <p>A long-run sock guide for runners who want fewer blisters, better moisture control, and less foot irritation after the easy miles stop feeling easy.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-running-sunglasses-for-sweat-and-bounce.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 32c5-4 14-5 22 0 8-5 17-4 22 0"/><path d="M12 34h18l-4 12H15l-3-12Zm22 0h18l-3 12H38l-4-12Z"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Running Sunglasses for Sweat and Bounce</h3>
+                  <p>A runner-first sunglasses guide for people who care about no-slip fit, sweat control, eye coverage, and lenses that work when light keeps changing.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="band surface" id="recovery">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Recovery</h2>
+            <p>Post-run tools and footwear assessed by comfort, repeat use, storage, and ownership friction.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--outdoor" href="/best-compression-boots-for-runners.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Compression Boots for Runners</h3>
+                  <p>A runner-focused guide to compression boots for recovery days, marathon blocks, and athletes deciding whether premium pneumatic recovery is worth the money.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--outdoor" href="/best-recovery-sandals.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 43c7-12 18-17 36-16 2 12-6 20-21 20-7 0-12-1-15-4Z"/><path d="M29 29c3 4 4 9 2 16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Recovery Sandals</h3>
+                  <p>Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
 
 
     <section class="band">
@@ -514,110 +677,6 @@
 
 
 
-    <section class="band surface" id="focused-guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Focused outdoor guides</h2>
-          <p>Use these narrower shortlists when your terrain, fit, distance, or buying situation needs a more specific answer.</p>
-        </div>
-        <div class="category-grid icon-card-grid">
-
-            <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-100-miles.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Trail Shoes for 100 Miles</h3>
-                <p>A long-distance trail shoe ranking for 100-mile races where protection, fit security, swelling room, and late-race comfort matter more than pure speed.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-technical-trails.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Trail Shoes for Technical Trails</h3>
-                <p>A technical-terrain trail shoe ranking for rocky descents, off-camber footing, roots, and mountain routes where foothold matters as much as cushioning.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-wide-feet.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Trail Shoes for Wide Feet</h3>
-                <p>A trail shoe ranking for runners who need forefoot room, swelling tolerance, or less sidewall pressure without losing heel security on uneven terrain.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-muddy-conditions.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Trail Shoes for Muddy Conditions</h3>
-                <p>A mud-focused trail shoe ranking for soft ground, wet grass, sloppy singletrack, and races where outsole bite matters more than road comfort.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-trail-shoes-for-beginners.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Trail Shoes for Beginners</h3>
-                <p>A beginner-friendly trail shoe ranking for runners moving from road to dirt who need confidence, protection, and fit forgiveness without overbuying a specialist shoe.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-gps-watches-for-ultrarunning.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="18" width="20" height="28" rx="8"/><path d="M26 18V8h12v10M26 46v10h12V46m-6-19v7l5 4"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best GPS Watches for Ultrarunning</h3>
-                <p>A GPS watch ranking for ultrarunners who need battery confidence, navigation, training metrics, and reliable tracking across long trail races.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-hydration-vests-for-100k-and-100-mile-races.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Hydration Vests for 100K and 100 Mile Races</h3>
-                <p>A race-vest ranking for long ultras where storage, bounce control, flask access, pole carry, and late-race comfort decide whether a vest works.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-road-shoe-for-your-first-marathon.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Road Shoe for Your First Marathon</h3>
-                <p>A first-marathon road shoe ranking for runners who need reliable comfort, predictable fit, and enough protection for long runs without choosing an unstable race shoe too soon.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-daily-trainers-for-marathon-training.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Daily Trainers for Marathon Training</h3>
-                <p>A marathon-training daily trainer ranking for runners building weekly mileage who need durability, recovery-run comfort, long-run support, and enough versatility for workouts.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--outdoor" href="/best-marathon-shoes-for-heavy-runners.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 40c9 2 18-4 25-15l16 11c4 3 4 9-2 11H19c-5 0-8-2-9-7Z"/><path d="M31 28l6 5m-12 0 7 5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3>Best Marathon Shoes for Heavy Runners</h3>
-                <p>A marathon shoe ranking for heavier runners who need protective cushioning, stable geometry, durable foam, and confidence through long training blocks.</p>
-              </div>
-            </a>
-
-        </div>
-      </div>
-    </section>
-
-
-
     <section class="band" id="shopping-advice">
       <div class="wrap">
         <div class="section-head">
@@ -626,7 +685,7 @@
         </div>
         <div class="category-grid">
 
-            <a class="category-card category-card--outdoor" href="/how-to-choose-trail-running-shoes.html">
+            <a class="category-card category-card--outdoor" href="/how-to-choose-trail-running-shoes.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">How to choose</span>
                 <h3>How to Choose Trail Running Shoes</h3>
@@ -634,7 +693,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--outdoor" href="/hydration-pack-vs-running-vest.html">
+            <a class="category-card category-card--outdoor" href="/hydration-pack-vs-running-vest.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Comparison</span>
                 <h3>Hydration Pack vs Running Vest: Which Should You Buy?</h3>
@@ -642,7 +701,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--outdoor" href="/gps-running-watch-features-that-matter.html">
+            <a class="category-card category-card--outdoor" href="/gps-running-watch-features-that-matter.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Feature explainer</span>
                 <h3>GPS Running Watch Features That Actually Matter</h3>
@@ -650,7 +709,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--outdoor" href="/shokz-openrun-pro-2-vs-openfit-2-for-running.html">
+            <a class="category-card category-card--outdoor" href="/shokz-openrun-pro-2-vs-openfit-2-for-running.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Product comparison</span>
                 <h3>Shokz OpenRun Pro 2 vs OpenFit 2 for Running</h3>
@@ -658,7 +717,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--outdoor" href="/open-ear-vs-sealed-earbuds-for-road-running.html">
+            <a class="category-card category-card--outdoor" href="/open-ear-vs-sealed-earbuds-for-road-running.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Format explainer</span>
                 <h3>Open-Ear vs Sealed Earbuds for Road Running</h3>
@@ -666,7 +725,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--outdoor" href="/hoka-speedgoat-7-vs-brooks-cascadia-19.html">
+            <a class="category-card category-card--outdoor" href="/hoka-speedgoat-7-vs-brooks-cascadia-19.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Product comparison</span>
                 <h3>HOKA Speedgoat 7 vs Brooks Cascadia 19</h3>
@@ -674,7 +733,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--outdoor" href="/garmin-forerunner-265-vs-coros-pace-3.html">
+            <a class="category-card category-card--outdoor" href="/garmin-forerunner-265-vs-coros-pace-3.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Product comparison</span>
                 <h3>Garmin Forerunner 265 vs COROS PACE 3</h3>
@@ -690,22 +749,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

@@ -21,7 +21,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
+  <script src="/affiliate-tracking.js" defer></script>
+  <script src="/spec-database.js" defer></script>
   <script type="application/ld+json">
   {
   "@context": "https://schema.org",
@@ -118,8 +120,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-        <a href="/outdoor.html">Outdoor</a><a href="/remote-work.html">Remote Work</a><a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -128,7 +132,11 @@
     <section class="page-hero section-hero">
       <div class="wrap page-grid">
         <div>
-          <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Open data</a>
+          <nav class="crumb" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+            <span aria-current="page">Open data</span>
+          </nav>
           <div class="section-kicker">Phavai open data</div>
           <h1>Running Headphone Specification Database</h1>
           <p class="lede">An AI-assisted, human-checked reference for comparing the four finalists in Phavai&#39;s running-headphone guide. Every normalized field links back to the manufacturer source so you can compare like with like before opening the ranked recommendations.</p>
@@ -140,7 +148,7 @@
           <p class="review-byline">AI-assisted data organization · Checked by <a href="/about.html#ben-yardley">Ben Yardley</a>, outdoor-media professional, trail runner, ultrarunner, and climber. Every row links to the manufacturer source used for its specifications.</p>
           <div class="hero-actions">
             <a class="button" href="/downloads/running-headphone-specifications.csv" download>Download CSV</a>
-            <a class="button secondary" href="/best-running-headphones.html">See ranked guide</a>
+            <a class="button secondary" href="/best-running-headphones.html" data-guide-link data-guide-placement="spec-database-hero">See ranked guide</a>
           </div>
         </div>
         <div class="data-resource-summary">
@@ -151,18 +159,24 @@
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="specifications">
       <div class="wrap">
         <div class="section-kicker">Normalized specifications</div>
         <h2>Running-headphone comparison table</h2>
         <p class="operator-section-copy">Every row links to the primary manufacturer document used for its specifications. A larger number is not automatically better; format and route remain the deciding variables.</p>
-        <div class="research-table-scroll">
+        <div class="spec-filter">
+          <label for="spec-search">Filter products or specifications</label>
+          <input id="spec-search" type="search" placeholder="Try “open ear”, “IP68”, or a product name" autocomplete="off" data-spec-search />
+          <span aria-live="polite" data-spec-results>4 products shown</span>
+        </div>
+        <p class="table-scroll-hint">Scroll sideways to compare every specification.</p>
+        <div class="research-table-scroll" tabindex="0" role="region" aria-label="Running headphone specifications table">
           <table class="research-table spec-database-table">
             <caption>Manufacturer specifications checked September 8, 2026</caption>
-            <thead><tr><th>Product</th><th>Format</th><th>Weight</th><th>Single-charge battery</th><th>Battery with case</th><th>Quick charge</th><th>Water resistance</th><th>Controls</th><th>Awareness approach</th><th>Best running context</th><th>Primary source</th></tr></thead>
+            <thead><tr><th scope="col">Product</th><th scope="col">Format</th><th scope="col">Weight</th><th scope="col">Single-charge battery</th><th scope="col">Battery with case</th><th scope="col">Quick charge</th><th scope="col">Water resistance</th><th scope="col">Controls</th><th scope="col">Awareness approach</th><th scope="col">Best running context</th><th scope="col">Verified</th><th scope="col">Primary source</th></tr></thead>
             <tbody>
 
-                <tr>
+                <tr data-spec-row data-search-text="Shokz OpenRun Pro 2 Connected open-ear neckband 30.3 g total Up to 12 hours Not applicable 5 minutes for up to 2.5 hours IP55 Physical multifunction and volume buttons Ear canal remains open Road or trail running when outside-sound awareness and one-piece simplicity matter https://uk.shokz.com/products/openrun-pro2">
                   <th scope="row">Shokz OpenRun Pro 2</th>
                   <td>Connected open-ear neckband</td>
                   <td>30.3 g total</td>
@@ -173,10 +187,11 @@
                   <td>Physical multifunction and volume buttons</td>
                   <td>Ear canal remains open</td>
                   <td>Road or trail running when outside-sound awareness and one-piece simplicity matter</td>
-                  <td><a href="https://uk.shokz.com/products/openrun-pro2" target="_blank" rel="noopener">Manufacturer specs</a></td>
+                  <td><time datetime="2026-09-08">September 8, 2026</time></td>
+                  <td><a href="https://uk.shokz.com/products/openrun-pro2" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Shokz OpenRun Pro 2 specifications" data-product-name="Shokz OpenRun Pro 2" data-guide="Running Headphone Specification Database">Manufacturer specs</a></td>
                 </tr>
 
-                <tr>
+                <tr data-spec-row data-search-text="Beats Powerbeats Pro 2 Sealed true-wireless earbuds with ear hooks 8.7 g each Up to 10 hours Up to 45 hours total 5 minutes for up to 1.5 hours IPX4 Physical button and volume controls Transparency mode uses microphones; ear canal is sealed Intervals, gym sessions, and runners prioritizing locked-in fit and fuller sound https://www.beatsbydre.com/earbuds/powerbeats-pro-2?pp=1">
                   <th scope="row">Beats Powerbeats Pro 2</th>
                   <td>Sealed true-wireless earbuds with ear hooks</td>
                   <td>8.7 g each</td>
@@ -187,10 +202,11 @@
                   <td>Physical button and volume controls</td>
                   <td>Transparency mode uses microphones; ear canal is sealed</td>
                   <td>Intervals, gym sessions, and runners prioritizing locked-in fit and fuller sound</td>
-                  <td><a href="https://www.beatsbydre.com/earbuds/powerbeats-pro-2?pp=1" target="_blank" rel="noopener">Manufacturer specs</a></td>
+                  <td><time datetime="2026-09-08">September 8, 2026</time></td>
+                  <td><a href="https://www.beatsbydre.com/earbuds/powerbeats-pro-2?pp=1" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Beats Powerbeats Pro 2 specifications" data-product-name="Beats Powerbeats Pro 2" data-guide="Running Headphone Specification Database">Manufacturer specs</a></td>
                 </tr>
 
-                <tr>
+                <tr data-spec-row data-search-text="Shokz OpenFit 2 Open-ear true-wireless ear hooks 9.4 g each Up to 11 hours Up to 48 hours total 10 minutes for up to 2 hours IP55 Physical multifunction buttons Ear canal remains open Outdoor running when an open-ear design is preferred without a neckband https://shokz.com/products/openfit2">
                   <th scope="row">Shokz OpenFit 2</th>
                   <td>Open-ear true-wireless ear hooks</td>
                   <td>9.4 g each</td>
@@ -201,10 +217,11 @@
                   <td>Physical multifunction buttons</td>
                   <td>Ear canal remains open</td>
                   <td>Outdoor running when an open-ear design is preferred without a neckband</td>
-                  <td><a href="https://shokz.com/products/openfit2" target="_blank" rel="noopener">Manufacturer specs</a></td>
+                  <td><time datetime="2026-09-08">September 8, 2026</time></td>
+                  <td><a href="https://shokz.com/products/openfit2" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Shokz OpenFit 2 specifications" data-product-name="Shokz OpenFit 2" data-guide="Running Headphone Specification Database">Manufacturer specs</a></td>
                 </tr>
 
-                <tr>
+                <tr data-spec-row data-search-text="Jabra Elite 8 Active Gen 2 Sealed true-wireless earbuds 5 g each Up to 8 hours with ANC; 14 hours with ANC off Up to 32 hours with ANC; 56 hours with ANC off 5 minutes for up to 1 hour IP68 earbuds; IP54 case Physical buttons HearThrough mode uses microphones; ear canal is sealed Wet or rough training when rugged sealed earbuds are preferred https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Elite-8-Active-Gen2/Technical-specifications/RevA/EN-Jabra-Elite-8-Active-G2-Tech-Specs-A4-WEB-240524.pdf">
                   <th scope="row">Jabra Elite 8 Active Gen 2</th>
                   <td>Sealed true-wireless earbuds</td>
                   <td>5 g each</td>
@@ -215,7 +232,8 @@
                   <td>Physical buttons</td>
                   <td>HearThrough mode uses microphones; ear canal is sealed</td>
                   <td>Wet or rough training when rugged sealed earbuds are preferred</td>
-                  <td><a href="https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Elite-8-Active-Gen2/Technical-specifications/RevA/EN-Jabra-Elite-8-Active-G2-Tech-Specs-A4-WEB-240524.pdf" target="_blank" rel="noopener">Manufacturer specs</a></td>
+                  <td><time datetime="2026-09-08">September 8, 2026</time></td>
+                  <td><a href="https://www.jabra.com/_/media/Jabra_VXi_Product-Documentation/Jabra-Elite-8-Active-Gen2/Technical-specifications/RevA/EN-Jabra-Elite-8-Active-G2-Tech-Specs-A4-WEB-240524.pdf" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Jabra Elite 8 Active Gen 2 specifications" data-product-name="Jabra Elite 8 Active Gen 2" data-guide="Running Headphone Specification Database">Manufacturer specs</a></td>
                 </tr>
 
             </tbody>
@@ -231,16 +249,20 @@
           <h2>How to use this database</h2>
           <ul class="method-list"><li>AI assists with organizing and normalizing the fields; Ben Yardley checks every row against the linked manufacturer document.</li><li>Manufacturer product pages and technical specifications supply the normalized fields.</li><li>Single-charge runtime stays separate from case-assisted total runtime.</li><li>An ear canal that remains open is labeled separately from microphone-based transparency modes.</li><li>The database describes products. Independent expert and owner evidence determines Phavai&#39;s ranking.</li></ul>
           <p class="research-limitations"><strong>Limits:</strong> This is a curated comparison of four guide finalists, not every running headphone on the market. These are manufacturer claims, not Phavai lab results. Battery varies with volume, calls, codecs, features, temperature, and device settings. Fit and sound are personal, and product availability can change.</p>
+          <div class="database-change-note">
+            <strong>Current release</strong>
+            <p>Product fields and manufacturer links were rechecked for the September 8, 2026 update. Future changes will retain the same columns so downloaded versions remain easy to compare.</p>
+          </div>
         </article>
         <aside class="sidebar">
           <h2>Continue the decision</h2>
           <div class="link-list compact">
 
-              <a href="/best-running-headphones.html"><span><strong>Best Running Headphones</strong><small>See the ranked picks, evidence, and buyer-specific tradeoffs.</small></span><span>Open</span></a>
+              <a href="/best-running-headphones.html" data-guide-link data-guide-placement="spec-database-related"><span><strong>Best Running Headphones</strong><small>See the ranked picks, evidence, and buyer-specific tradeoffs.</small></span><span>Open</span></a>
 
-              <a href="/shokz-openrun-pro-2-vs-openfit-2-for-running.html"><span><strong>OpenRun Pro 2 vs OpenFit 2</strong><small>Choose between a connected neckband and open-ear true wireless ear hooks.</small></span><span>Open</span></a>
+              <a href="/shokz-openrun-pro-2-vs-openfit-2-for-running.html" data-guide-link data-guide-placement="spec-database-related"><span><strong>OpenRun Pro 2 vs OpenFit 2</strong><small>Choose between a connected neckband and open-ear true wireless ear hooks.</small></span><span>Open</span></a>
 
-              <a href="/open-ear-vs-sealed-earbuds-for-road-running.html"><span><strong>Open-Ear vs Sealed Earbuds</strong><small>Match the listening format to road, trail, treadmill, and gym use.</small></span><span>Open</span></a>
+              <a href="/open-ear-vs-sealed-earbuds-for-road-running.html" data-guide-link data-guide-placement="spec-database-related"><span><strong>Open-Ear vs Sealed Earbuds</strong><small>Match the listening format to road, trail, treadmill, and gym use.</small></span><span>Open</span></a>
 
           </div>
         </aside>
@@ -249,9 +271,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div><a href="/">Home</a><a href="/outdoor.html">Outdoor</a><a href="/methodology.html">Methodology</a><a href="/about.html">About</a></div>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

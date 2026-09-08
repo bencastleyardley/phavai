@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -159,13 +159,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -173,9 +170,13 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Trail running gear</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Trail running gear</span>
+        </nav>
         <h1>Best Trail Running Poles</h1>
-        <p class="lede">Shopping for best trail running poles gets messy fast. Phavai uses AI-assisted research to organize recurring pros, cons, specifications, and buyer feedback so the tradeoffs are easier to see.</p>
+        <p class="lede">Trail running poles ranked for weight, packability, grip security, stiffness, durability, and race-day usability.</p>
         <div class="meta-row" aria-label="Page details">
           <span class="meta-pill">Last updated April 20, 2026</span>
           <span class="meta-pill">Sources checked Apr 20, 2026</span>
@@ -200,6 +201,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+          <a href="#fit-finder-heading">Find your fit</a>
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -211,15 +220,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,6 +238,7 @@
                     <td>#1</td>
                     <td><a href="#black-diamond-distance-carbon-z">Black Diamond Distance Carbon Z</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$190 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Black Diamond Distance Carbon Z">
 
@@ -244,6 +255,7 @@
                     <td>#2</td>
                     <td><a href="#leki-ultratrail-fx-one-superlite">Leki Ultratrail FX.One Superlite</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$220-$250 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Leki Ultratrail FX.One Superlite">
 
@@ -260,6 +272,7 @@
                     <td>#3</td>
                     <td><a href="#black-diamond-distance-z">Black Diamond Distance Z</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$140 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Black Diamond Distance Z">
 
@@ -276,6 +289,7 @@
                     <td>#4</td>
                     <td><a href="#gossamer-gear-lt5">Gossamer Gear LT5</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$195 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Gossamer Gear LT5">
 
@@ -343,12 +357,17 @@
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="black-diamond-distance-carbon-z" data-product-name="Black Diamond Distance Carbon Z" data-default-score="87" data-editorial-rank="1" data-channel-scores='{"Expert":91,"YouTube":84,"Reddit":83}' data-decision-tags='["performance","distance","durability","comfort"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":60},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":35},"grip":{"key":"grip","label":"Grip","score":59},"traction":{"key":"traction","label":"Traction","score":59},"lightweight":{"key":"lightweight","label":"Light feel","score":92},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":59},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":71},"raceFocus":{"key":"raceFocus","label":"Race focus","score":93},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":59},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":46},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"raceFocus","label":"Race focus","score":93},{"key":"lightweight","label":"Light feel","score":92},{"key":"distanceSuitability","label":"Long-distance fit","score":71}],"ownerSentimentSummary":"Very light. Fast to deploy.","expertSentimentSummary":"2 evidence items. Strongest signal: Trail Running Movement category testing supports Black Diamond Distance Carbon Z as a serious trail running pole option.","biggestStrength":"Very light","biggestComplaint":"Carbon can be fragile","confidenceLevel":"High","evidenceDepth":80,"recencyStrength":77,"decisionTags":["performance","distance","durability","comfort"]}' data-fit-profile="%7B%22id%22%3A%22black-diamond-distance-carbon-z%22%2C%22name%22%3A%22Black%20Diamond%20Distance%20Carbon%20Z%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A87%2C%22publicScoreLabel%22%3A%2287%22%2C%22tag%22%3A%22Best%20race-day%20pole%22%2C%22bestFor%22%3A%22Races%2C%20steep%20climbs%2C%20and%20runners%20who%20prioritize%20low%20weight%22%2C%22avoidIf%22%3A%22You%20are%20hard%20on%20gear%20or%20want%20adjustable%20length.%22%2C%22biggestStrength%22%3A%22Very%20light%22%2C%22biggestComplaint%22%3A%22Carbon%20can%20be%20fragile%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22durability%22%2C%22comfort%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A60%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A35%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A59%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A59%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A59%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A59%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A46%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Very%20light.%20Fast%20to%20deploy.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Black%20Diamond%20Distance%20Carbon%20Z%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22Very%20light%22%2C%22biggestComplaint%22%3A%22Carbon%20can%20be%20fragile%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A80%2C%22recencyStrength%22%3A77%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22durability%22%2C%22comfort%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FDIAMOND-Distance-Trekking-Foldable-Lightweight%2Fdp%2FB0DZXHTS71%3Fcrid%3D16PI7GSKKIMY7%26dib%3DeyJ2IjoiMSJ9.F16AKpEyNsL6vffjDqmUK095jdGRlj27LQ0bxKkHhZcnPnwR1iiHjk7Lyjz2QSCQY835fZdJUKlXKPUGw_hae1PvOlcyJ2trf4yaLRfnpcRXK8bk-JVChoHkGY2-ajsEyzOEQ0k1fNTuia9_1snYKxEUsdK3RvlVzl3A8BgUk9yxFcmT7bk5bKFwNn9AilDTy-DhC41s3xQ90lVkwjhagpRVWMpQVsXuLoQhnf0DJe8.nEZfsYrERoba9S7VLWYUrdU5ttcY9LsMYovNLfd12bI%26dib_tag%3Dse%26keywords%3DBlack%252BDiamond%252BDistance%252BCarbon%252BZ%26qid%3D1777561180%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dblack%252Bdiamond%252Bdistance%252Bcarbon%252Bz%252Caps%252C185%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D6ab66548a4f43e3283d2cf0d1107a6a5%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="black-diamond-distance-carbon-z" data-product-name="Black Diamond Distance Carbon Z" data-default-score="87" data-editorial-rank="1" data-channel-scores='{"Expert":91,"YouTube":84,"Reddit":83}' data-fit-profile="%7B%22id%22%3A%22black-diamond-distance-carbon-z%22%2C%22name%22%3A%22Black%20Diamond%20Distance%20Carbon%20Z%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A87%2C%22publicScoreLabel%22%3A%2287%22%2C%22tag%22%3A%22Best%20race-day%20pole%22%2C%22bestFor%22%3A%22Races%2C%20steep%20climbs%2C%20and%20runners%20who%20prioritize%20low%20weight%22%2C%22avoidIf%22%3A%22You%20are%20hard%20on%20gear%20or%20want%20adjustable%20length.%22%2C%22biggestStrength%22%3A%22Very%20light%22%2C%22biggestComplaint%22%3A%22Carbon%20can%20be%20fragile%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22comfort%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A60%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A35%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A59%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A59%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A59%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A59%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A46%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Very%20light.%20Fast%20to%20deploy.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Black%20Diamond%20Distance%20Carbon%20Z%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22Very%20light%22%2C%22biggestComplaint%22%3A%22Carbon%20can%20be%20fragile%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A84%2C%22recencyStrength%22%3A77%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22comfort%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FDIAMOND-Distance-Trekking-Foldable-Lightweight%2Fdp%2FB0DZXHTS71%3Fcrid%3D16PI7GSKKIMY7%26dib%3DeyJ2IjoiMSJ9.F16AKpEyNsL6vffjDqmUK095jdGRlj27LQ0bxKkHhZcnPnwR1iiHjk7Lyjz2QSCQY835fZdJUKlXKPUGw_hae1PvOlcyJ2trf4yaLRfnpcRXK8bk-JVChoHkGY2-ajsEyzOEQ0k1fNTuia9_1snYKxEUsdK3RvlVzl3A8BgUk9yxFcmT7bk5bKFwNn9AilDTy-DhC41s3xQ90lVkwjhagpRVWMpQVsXuLoQhnf0DJe8.nEZfsYrERoba9S7VLWYUrdU5ttcY9LsMYovNLfd12bI%26dib_tag%3Dse%26keywords%3DBlack%252BDiamond%252BDistance%252BCarbon%252BZ%26qid%3D1777561180%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dblack%252Bdiamond%252Bdistance%252Bcarbon%252Bz%252Caps%252C185%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D6ab66548a4f43e3283d2cf0d1107a6a5%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--outdoor product-visual--poles product-visual--folded-race">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Black Diamond Distance Carbon Z, Best race-day pole">
@@ -372,6 +391,9 @@
                 <div class="tagline">Best race-day pole</div>
                 <p class="product-verdict"><strong>Our take:</strong> Black Diamond Distance Carbon Z is the best race-day pole for shoppers who want races, steep climbs, and runners who prioritize low weight. It stands out for very light and fast to deploy.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$190 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Black Diamond Distance Carbon Z">
                     <li>Carbon build</li><li>Z-fold design</li><li>Fixed length</li><li>Foam grip</li>
@@ -385,9 +407,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Black Diamond Distance Carbon Z">
-                  <strong>87</strong>
-                  <span>Evidence score · 8 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Black Diamond Distance Carbon Z">
+
+                    <strong>87</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Black Diamond Distance Carbon Z">
@@ -399,17 +423,13 @@
                     <span>Avoid if</span>
                     <p>You are hard on gear or want adjustable length.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Carbon can be fragile</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Black Diamond Distance Carbon Z">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/DIAMOND-Distance-Trekking-Foldable-Lightweight/dp/B0DZXHTS71?crid=16PI7GSKKIMY7&amp;dib=eyJ2IjoiMSJ9.F16AKpEyNsL6vffjDqmUK095jdGRlj27LQ0bxKkHhZcnPnwR1iiHjk7Lyjz2QSCQY835fZdJUKlXKPUGw_hae1PvOlcyJ2trf4yaLRfnpcRXK8bk-JVChoHkGY2-ajsEyzOEQ0k1fNTuia9_1snYKxEUsdK3RvlVzl3A8BgUk9yxFcmT7bk5bKFwNn9AilDTy-DhC41s3xQ90lVkwjhagpRVWMpQVsXuLoQhnf0DJe8.nEZfsYrERoba9S7VLWYUrdU5ttcY9LsMYovNLfd12bI&amp;dib_tag=se&amp;keywords=Black%2BDiamond%2BDistance%2BCarbon%2BZ&amp;qid=1777561180&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=black%2Bdiamond%2Bdistance%2Bcarbon%2Bz%2Caps%2C185&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=6ab66548a4f43e3283d2cf0d1107a6a5&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Black Diamond Distance Carbon Z" data-product-rank="1" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/DIAMOND-Distance-Trekking-Foldable-Lightweight/dp/B0DZXHTS71?crid=16PI7GSKKIMY7&amp;dib=eyJ2IjoiMSJ9.F16AKpEyNsL6vffjDqmUK095jdGRlj27LQ0bxKkHhZcnPnwR1iiHjk7Lyjz2QSCQY835fZdJUKlXKPUGw_hae1PvOlcyJ2trf4yaLRfnpcRXK8bk-JVChoHkGY2-ajsEyzOEQ0k1fNTuia9_1snYKxEUsdK3RvlVzl3A8BgUk9yxFcmT7bk5bKFwNn9AilDTy-DhC41s3xQ90lVkwjhagpRVWMpQVsXuLoQhnf0DJe8.nEZfsYrERoba9S7VLWYUrdU5ttcY9LsMYovNLfd12bI&amp;dib_tag=se&amp;keywords=Black%2BDiamond%2BDistance%2BCarbon%2BZ&amp;qid=1777561180&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=black%2Bdiamond%2Bdistance%2Bcarbon%2Bz%2Caps%2C185&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=6ab66548a4f43e3283d2cf0d1107a6a5&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Black Diamond Distance Carbon Z" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Black Diamond Distance Carbon Z" data-product-rank="1" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -428,7 +448,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>91</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
                                   </div>
 
                               </div>
@@ -437,7 +457,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>84</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">RunLetters video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">RunLetters video</a></div>
                                   </div>
 
                               </div>
@@ -446,7 +466,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>83</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/ultrarunning/comments/1jxrry1/black_diamond_distance_carbon_zhelp/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z--HELP" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">r/ultrarunning thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/ultrarunning/comments/1jxrry1/black_diamond_distance_carbon_zhelp/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z--HELP" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">r/ultrarunning thread</a></div>
                                   </div>
 
                               </div>
@@ -454,8 +474,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Black Diamond Distance Carbon Z">
-                          <div><span>Proof base</span><strong>8 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>77/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
                         <div class="freshness-note"><span>current model</span><p>Current-model evidence is visible in the sources.</p></div>
@@ -469,14 +489,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Expert review / Best evidence</span>
                                     <b>trail running pole review context | Trail Running Movement</b>
                                     <small>Trail Running Movement - checked Apr 20, 2026</small>
                                     <em>Trail Running Movement category testing supports Black Diamond Distance Carbon Z as a serious trail running pole option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Expert review</span>
                                     <b>trail running pole comparison | Run Dream Achieve</b>
                                     <small>Run Dream Achieve - checked Apr 20, 2026</small>
@@ -490,14 +510,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!</b>
                                     <small>RunLetters - checked May 29, 2026</small>
                                     <em>RunLetters video review: Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=KT1lVzNp_gU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Trekking Poles Review" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=KT1lVzNp_gU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Trekking Poles Review" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Black Diamond Distance Carbon Z Trekking Poles Review</b>
                                     <small>AirLandandSea Blog Channel - checked May 29, 2026</small>
@@ -511,14 +531,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/Spliddit/comments/18yfowt/black_diamond_distance_carbon_z_poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z poles" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.reddit.com/r/Spliddit/comments/18yfowt/black_diamond_distance_carbon_z_poles/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z poles" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Black Diamond Distance Carbon Z poles</b>
                                     <small>r/Spliddit thread by Splitterboarder - checked Apr 22, 2026</small>
                                     <em>r/Spliddit thread adds owner feedback around Black Diamond Distance Carbon Z: Black Diamond Distance Carbon Z poles.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/hikinggear/comments/1d3dy5v/black_diamond_distance_carbon_z_trekking_poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z trekking poles - the tip got wedged and snapped off. Is there any way to fix this? " data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.reddit.com/r/hikinggear/comments/1d3dy5v/black_diamond_distance_carbon_z_trekking_poles/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z trekking poles - the tip got wedged and snapped off. Is there any way to fix this? " data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Black Diamond Distance Carbon Z trekking poles - the tip got wedged and snapped off. Is there any way to fix this? </b>
                                     <small>r/hikinggear thread by DynamiteWitLaserBeam - checked Apr 22, 2026</small>
@@ -540,7 +560,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/ultrarunning/comments/1jxrry1/black_diamond_distance_carbon_zhelp/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z--HELP" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.reddit.com/r/ultrarunning/comments/1jxrry1/black_diamond_distance_carbon_zhelp/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Carbon Z--HELP" data-product-name="Black Diamond Distance Carbon Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Black Diamond Distance Carbon Z--HELP</b>
                                     <small>r/ultrarunning thread by leaaaaaaaah - checked Apr 22, 2026</small>
@@ -557,7 +577,7 @@
               </div>
             </article>
 
-            <article class="product" id="leki-ultratrail-fx-one-superlite" data-product-name="Leki Ultratrail FX.One Superlite" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":89,"YouTube":84,"Reddit":79}' data-decision-tags='["performance","distance","budget","quiet"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":70},"traction":{"key":"traction","label":"Traction","score":70},"lightweight":{"key":"lightweight","label":"Light feel","score":96},"value":{"key":"value","label":"Price fit","score":58},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":70},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":71},"raceFocus":{"key":"raceFocus","label":"Race focus","score":96},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":35},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"lightweight","label":"Light feel","score":96},{"key":"raceFocus","label":"Race focus","score":96},{"key":"distanceSuitability","label":"Long-distance fit","score":71}],"ownerSentimentSummary":"Secure grip interface. Light and fast.","expertSentimentSummary":"2 evidence items. Strongest signal: Trail Running Movement category testing supports Leki Ultratrail FX.One Superlite as a serious trail running pole option.","biggestStrength":"Secure grip interface","biggestComplaint":"Expensive","confidenceLevel":"Solid","evidenceDepth":74,"recencyStrength":76,"decisionTags":["performance","distance","budget","quiet"]}' data-fit-profile="%7B%22id%22%3A%22leki-ultratrail-fx-one-superlite%22%2C%22name%22%3A%22Leki%20Ultratrail%20FX.One%20Superlite%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20grip%20system%22%2C%22bestFor%22%3A%22Runners%20who%20love%20Leki's%20shark%20grip%20and%20want%20race-focused%20speed%22%2C%22avoidIf%22%3A%22You%20dislike%20glove-style%20straps%20or%20want%20budget%20pricing.%22%2C%22biggestStrength%22%3A%22Secure%20grip%20interface%22%2C%22biggestComplaint%22%3A%22Expensive%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A70%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A70%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A96%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A58%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A70%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A35%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Secure%20grip%20interface.%20Light%20and%20fast.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Leki%20Ultratrail%20FX.One%20Superlite%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22Secure%20grip%20interface%22%2C%22biggestComplaint%22%3A%22Expensive%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A74%2C%22recencyStrength%22%3A76%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLEKI-Ultratrail-FX-One-Superlite-Black%2Fdp%2FB09RX14LJV%3Fcrid%3D759JG4DWJONI%26dib%3DeyJ2IjoiMSJ9.vFitd57ssuJE6H4BW8qr46tEKcsfuhPGAaHVU19KzgpePCf5bhOtXKxX0_WyCseSKyMuIZIBkQNVJ3uDV8MbDS4jpeo9i-7IjRXScQM13Vf4cXCA3eboPCOAZLVr1rfde7Qh3ndDFvT6iktXsPSjZ_OVtuAz3m-tiDPVXKcOUSbOIwMmnw2JZGZASBgb4SOA_ZSjaFvVGoiXOgsH0oE0XhPBxLcL1Wjs9yePAOyfO9o.V603QyqmOtvOsc0pGHohK63T8OJ1lCLyFgtNkytL7aw%26dib_tag%3Dse%26keywords%3DLeki%252BUltratrail%252BFX.One%252BSuperlite%26qid%3D1777561195%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dleki%252Bultratrail%252Bfx.one%252Bsuperlite%252Caps%252C170%26sr%3D8-3%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D247b460513d2e35e4d5864fb7360e08a%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="leki-ultratrail-fx-one-superlite" data-product-name="Leki Ultratrail FX.One Superlite" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":89,"YouTube":84,"Reddit":79}' data-fit-profile="%7B%22id%22%3A%22leki-ultratrail-fx-one-superlite%22%2C%22name%22%3A%22Leki%20Ultratrail%20FX.One%20Superlite%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20grip%20system%22%2C%22bestFor%22%3A%22Runners%20who%20love%20Leki's%20shark%20grip%20and%20want%20race-focused%20speed%22%2C%22avoidIf%22%3A%22You%20dislike%20glove-style%20straps%20or%20want%20budget%20pricing.%22%2C%22biggestStrength%22%3A%22Secure%20grip%20interface%22%2C%22biggestComplaint%22%3A%22Expensive%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A70%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A70%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A96%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A46%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A70%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A35%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Secure%20grip%20interface.%20Light%20and%20fast.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Leki%20Ultratrail%20FX.One%20Superlite%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22Secure%20grip%20interface%22%2C%22biggestComplaint%22%3A%22Expensive%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A80%2C%22recencyStrength%22%3A76%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLEKI-Ultratrail-FX-One-Superlite-Black%2Fdp%2FB09RX14LJV%3Fcrid%3D759JG4DWJONI%26dib%3DeyJ2IjoiMSJ9.vFitd57ssuJE6H4BW8qr46tEKcsfuhPGAaHVU19KzgpePCf5bhOtXKxX0_WyCseSKyMuIZIBkQNVJ3uDV8MbDS4jpeo9i-7IjRXScQM13Vf4cXCA3eboPCOAZLVr1rfde7Qh3ndDFvT6iktXsPSjZ_OVtuAz3m-tiDPVXKcOUSbOIwMmnw2JZGZASBgb4SOA_ZSjaFvVGoiXOgsH0oE0XhPBxLcL1Wjs9yePAOyfO9o.V603QyqmOtvOsc0pGHohK63T8OJ1lCLyFgtNkytL7aw%26dib_tag%3Dse%26keywords%3DLeki%252BUltratrail%252BFX.One%252BSuperlite%26qid%3D1777561195%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dleki%252Bultratrail%252Bfx.one%252Bsuperlite%252Caps%252C170%26sr%3D8-3%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D247b460513d2e35e4d5864fb7360e08a%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--outdoor product-visual--poles product-visual--grip-control">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Leki Ultratrail FX.One Superlite, Best grip system">
@@ -569,17 +589,20 @@
                 <div class="product-badge-row">
                   <span class="rank-badge">Rank <span data-rank>#2</span></span>
 
-                    <span class="decision-badge">Best Value</span>
-
                     <span class="decision-badge">Best for Distance</span>
 
                     <span class="decision-badge">Performance Pick</span>
+
+                    <span class="decision-badge">Quiet Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Leki Ultratrail FX.One Superlite</h2>
                 <div class="tagline">Best grip system</div>
                 <p class="product-verdict"><strong>Our take:</strong> Leki Ultratrail FX.One Superlite is the best grip system for shoppers who want runners who love leki&#39;s shark grip and want race-focused speed. It stands out for secure grip interface and light and fast.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$220-$250 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Leki Ultratrail FX.One Superlite">
@@ -594,9 +617,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Leki Ultratrail FX.One Superlite">
-                  <strong>85</strong>
-                  <span>Evidence score · 6 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Leki Ultratrail FX.One Superlite">
+
+                    <strong>85</strong>
+                    <span>Evidence score · 5 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Leki Ultratrail FX.One Superlite">
@@ -608,17 +633,13 @@
                     <span>Avoid if</span>
                     <p>You dislike glove-style straps or want budget pricing.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Expensive</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Leki Ultratrail FX.One Superlite">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/LEKI-Ultratrail-FX-One-Superlite-Black/dp/B09RX14LJV?crid=759JG4DWJONI&amp;dib=eyJ2IjoiMSJ9.vFitd57ssuJE6H4BW8qr46tEKcsfuhPGAaHVU19KzgpePCf5bhOtXKxX0_WyCseSKyMuIZIBkQNVJ3uDV8MbDS4jpeo9i-7IjRXScQM13Vf4cXCA3eboPCOAZLVr1rfde7Qh3ndDFvT6iktXsPSjZ_OVtuAz3m-tiDPVXKcOUSbOIwMmnw2JZGZASBgb4SOA_ZSjaFvVGoiXOgsH0oE0XhPBxLcL1Wjs9yePAOyfO9o.V603QyqmOtvOsc0pGHohK63T8OJ1lCLyFgtNkytL7aw&amp;dib_tag=se&amp;keywords=Leki%2BUltratrail%2BFX.One%2BSuperlite&amp;qid=1777561195&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=leki%2Bultratrail%2Bfx.one%2Bsuperlite%2Caps%2C170&amp;sr=8-3&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=247b460513d2e35e4d5864fb7360e08a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Leki Ultratrail FX.One Superlite" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/LEKI-Ultratrail-FX-One-Superlite-Black/dp/B09RX14LJV?crid=759JG4DWJONI&amp;dib=eyJ2IjoiMSJ9.vFitd57ssuJE6H4BW8qr46tEKcsfuhPGAaHVU19KzgpePCf5bhOtXKxX0_WyCseSKyMuIZIBkQNVJ3uDV8MbDS4jpeo9i-7IjRXScQM13Vf4cXCA3eboPCOAZLVr1rfde7Qh3ndDFvT6iktXsPSjZ_OVtuAz3m-tiDPVXKcOUSbOIwMmnw2JZGZASBgb4SOA_ZSjaFvVGoiXOgsH0oE0XhPBxLcL1Wjs9yePAOyfO9o.V603QyqmOtvOsc0pGHohK63T8OJ1lCLyFgtNkytL7aw&amp;dib_tag=se&amp;keywords=Leki%2BUltratrail%2BFX.One%2BSuperlite&amp;qid=1777561195&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=leki%2Bultratrail%2Bfx.one%2Bsuperlite%2Caps%2C170&amp;sr=8-3&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=247b460513d2e35e4d5864fb7360e08a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Leki Ultratrail FX.One Superlite" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Leki Ultratrail FX.One Superlite" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -637,7 +658,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>89</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
                                   </div>
 
                               </div>
@@ -646,7 +667,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>84</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=3zMjqG67Ikg" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">Wild Earth Australia video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=3zMjqG67Ikg" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">Wild Earth Australia video</a></div>
                                   </div>
 
                               </div>
@@ -655,7 +676,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>79</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/trailrunning/comments/12dv2nw/trailrunning_poles_buying_advice/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Trailrunning poles buying advice" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">r/trailrunning thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/trailrunning/comments/12dv2nw/trailrunning_poles_buying_advice/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Trailrunning poles buying advice" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">r/trailrunning thread</a></div>
                                   </div>
 
                               </div>
@@ -663,8 +684,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Leki Ultratrail FX.One Superlite">
-                          <div><span>Proof base</span><strong>6 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>76/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>5 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -678,14 +699,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
+                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
                                     <span>Expert review / Best evidence</span>
                                     <b>trail running pole review context | Trail Running Movement</b>
                                     <small>Trail Running Movement - checked Apr 20, 2026</small>
                                     <em>Trail Running Movement category testing supports Leki Ultratrail FX.One Superlite as a serious trail running pole option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
                                     <span>Expert review</span>
                                     <b>trail running pole comparison | Run Dream Achieve</b>
                                     <small>Run Dream Achieve - checked Apr 20, 2026</small>
@@ -699,14 +720,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=3zMjqG67Ikg" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=3zMjqG67Ikg" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️</b>
                                     <small>Wild Earth Australia - checked May 29, 2026</small>
                                     <em>Wild Earth Australia video review: Leki Ultratrail FX.One Superlite Trail Running Poles | Product Review 🏃🏼‍♂️</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=udfqojfk79k" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Leki TRAIL RUNNING Poles - Review of the Leki Ultratrail FX One Superlite - the BEST running poles" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=udfqojfk79k" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Leki TRAIL RUNNING Poles - Review of the Leki Ultratrail FX One Superlite - the BEST running poles" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Leki TRAIL RUNNING Poles - Review of the Leki Ultratrail FX One Superlite - the BEST running poles</b>
                                     <small>Seanna&#39;s World - checked May 29, 2026</small>
@@ -728,7 +749,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/trailrunning/comments/12dv2nw/trailrunning_poles_buying_advice/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Trailrunning poles buying advice" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.reddit.com/r/trailrunning/comments/12dv2nw/trailrunning_poles_buying_advice/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Trailrunning poles buying advice" data-product-name="Leki Ultratrail FX.One Superlite" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Trailrunning poles buying advice</b>
                                     <small>r/trailrunning thread by Da_CMD - checked Apr 22, 2026</small>
@@ -745,7 +766,7 @@
               </div>
             </article>
 
-            <article class="product" id="black-diamond-distance-z" data-product-name="Black Diamond Distance Z" data-default-score="83" data-editorial-rank="3" data-channel-scores='{"Expert":85,"YouTube":82,"Reddit":82.5}' data-decision-tags='["performance","distance","budget","durability"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":81},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":81},"value":{"key":"value","label":"Price fit","score":93},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":59},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":71},"raceFocus":{"key":"raceFocus","label":"Race focus","score":93},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":46},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"value","label":"Price fit","score":93},{"key":"raceFocus","label":"Race focus","score":93},{"key":"durability","label":"Long-term build","score":81}],"ownerSentimentSummary":"More durable than carbon. Good price-to-performance.","expertSentimentSummary":"2 evidence items. Strongest signal: Trail Running Movement category testing supports Black Diamond Distance Z as a serious trail running pole option.","biggestStrength":"More durable than carbon","biggestComplaint":"Heavier than carbon","confidenceLevel":"High","evidenceDepth":82,"recencyStrength":78,"decisionTags":["performance","distance","budget","durability"]}' data-fit-profile="%7B%22id%22%3A%22black-diamond-distance-z%22%2C%22name%22%3A%22Black%20Diamond%20Distance%20Z%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20durable%20value%20pole%22%2C%22bestFor%22%3A%22Runners%20who%20want%20a%20folding%20pole%20with%20more%20aluminum%20durability%22%2C%22avoidIf%22%3A%22You%20want%20the%20lightest%20possible%20carbon%20race%20pole.%22%2C%22biggestStrength%22%3A%22More%20durable%20than%20carbon%22%2C%22biggestComplaint%22%3A%22Heavier%20than%20carbon%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A81%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A81%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A59%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A46%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A81%7D%5D%2C%22ownerSentimentSummary%22%3A%22More%20durable%20than%20carbon.%20Good%20price-to-performance.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Black%20Diamond%20Distance%20Z%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22More%20durable%20than%20carbon%22%2C%22biggestComplaint%22%3A%22Heavier%20than%20carbon%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A82%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FBLACK-DIAMOND-Adjustable-FlickLock-Lightweight%2Fdp%2FB09N7WJB2R%3Fcrid%3D150WI2RJUPT73%26dib%3DeyJ2IjoiMSJ9.z1TmTFBr397vVCzY1it_xou0r2v175WvH0LA8zxbQNhU9YIlF_5oa74UKJDb-KEesE0poN-li_E0p27zwbfaDjg1gv8wLr5KHcO5R-UutjcpflKKsSfjnDL1uVdZbtAnTsWJpTtvHFtfC0hrEe_xOF22CXnfRVIOaIoWmO9kEzKhbcUpKi0HFPZg7PiBj5DfMqhlpz6Uxq8aoV1ut-dxpPqi2yXoo4hwV2jDldEGeAY.Peg9pgPCJaekA8Qs-aF7PSe9Eo4l4ufEKqpho038bgQ%26dib_tag%3Dse%26keywords%3DBlack%252BDiamond%252BDistance%252BZ%26qid%3D1777561257%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dblack%252Bdiamond%252Bdistance%252Bz%252Caps%252C183%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D12c04554b1a8063c06c2ce491dcd3ba3%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="black-diamond-distance-z" data-product-name="Black Diamond Distance Z" data-default-score="83" data-editorial-rank="3" data-channel-scores='{"Expert":85,"YouTube":82,"Reddit":82.5}' data-fit-profile="%7B%22id%22%3A%22black-diamond-distance-z%22%2C%22name%22%3A%22Black%20Diamond%20Distance%20Z%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20durable%20value%20pole%22%2C%22bestFor%22%3A%22Runners%20who%20want%20a%20folding%20pole%20with%20more%20aluminum%20durability%22%2C%22avoidIf%22%3A%22You%20want%20the%20lightest%20possible%20carbon%20race%20pole.%22%2C%22biggestStrength%22%3A%22More%20durable%20than%20carbon%22%2C%22biggestComplaint%22%3A%22Heavier%20than%20carbon%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A81%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A81%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A59%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A46%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A81%7D%5D%2C%22ownerSentimentSummary%22%3A%22More%20durable%20than%20carbon.%20Good%20price-to-performance.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Black%20Diamond%20Distance%20Z%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22More%20durable%20than%20carbon%22%2C%22biggestComplaint%22%3A%22Heavier%20than%20carbon%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A92%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FBLACK-DIAMOND-Adjustable-FlickLock-Lightweight%2Fdp%2FB09N7WJB2R%3Fcrid%3D150WI2RJUPT73%26dib%3DeyJ2IjoiMSJ9.z1TmTFBr397vVCzY1it_xou0r2v175WvH0LA8zxbQNhU9YIlF_5oa74UKJDb-KEesE0poN-li_E0p27zwbfaDjg1gv8wLr5KHcO5R-UutjcpflKKsSfjnDL1uVdZbtAnTsWJpTtvHFtfC0hrEe_xOF22CXnfRVIOaIoWmO9kEzKhbcUpKi0HFPZg7PiBj5DfMqhlpz6Uxq8aoV1ut-dxpPqi2yXoo4hwV2jDldEGeAY.Peg9pgPCJaekA8Qs-aF7PSe9Eo4l4ufEKqpho038bgQ%26dib_tag%3Dse%26keywords%3DBlack%252BDiamond%252BDistance%252BZ%26qid%3D1777561257%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dblack%252Bdiamond%252Bdistance%252Bz%252Caps%252C183%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D12c04554b1a8063c06c2ce491dcd3ba3%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--outdoor product-visual--poles product-visual--durable-value">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Black Diamond Distance Z, Best durable value pole">
@@ -769,6 +790,9 @@
                 <div class="tagline">Best durable value pole</div>
                 <p class="product-verdict"><strong>Our take:</strong> Black Diamond Distance Z is the best durable value pole for runners buyers who need a folding pole with more aluminum durability. It stands out for more durable than carbon and good price-to-performance.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$140 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Black Diamond Distance Z">
                     <li>Aluminum build</li><li>Z-fold design</li><li>Fixed length</li><li>Rubber tech tips</li>
@@ -782,9 +806,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Black Diamond Distance Z">
-                  <strong>83</strong>
-                  <span>Evidence score · 10 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Black Diamond Distance Z">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 9 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Black Diamond Distance Z">
@@ -796,17 +822,13 @@
                     <span>Avoid if</span>
                     <p>You want the lightest possible carbon race pole.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Heavier than carbon</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Black Diamond Distance Z">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/BLACK-DIAMOND-Adjustable-FlickLock-Lightweight/dp/B09N7WJB2R?crid=150WI2RJUPT73&amp;dib=eyJ2IjoiMSJ9.z1TmTFBr397vVCzY1it_xou0r2v175WvH0LA8zxbQNhU9YIlF_5oa74UKJDb-KEesE0poN-li_E0p27zwbfaDjg1gv8wLr5KHcO5R-UutjcpflKKsSfjnDL1uVdZbtAnTsWJpTtvHFtfC0hrEe_xOF22CXnfRVIOaIoWmO9kEzKhbcUpKi0HFPZg7PiBj5DfMqhlpz6Uxq8aoV1ut-dxpPqi2yXoo4hwV2jDldEGeAY.Peg9pgPCJaekA8Qs-aF7PSe9Eo4l4ufEKqpho038bgQ&amp;dib_tag=se&amp;keywords=Black%2BDiamond%2BDistance%2BZ&amp;qid=1777561257&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=black%2Bdiamond%2Bdistance%2Bz%2Caps%2C183&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=12c04554b1a8063c06c2ce491dcd3ba3&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Black Diamond Distance Z" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/BLACK-DIAMOND-Adjustable-FlickLock-Lightweight/dp/B09N7WJB2R?crid=150WI2RJUPT73&amp;dib=eyJ2IjoiMSJ9.z1TmTFBr397vVCzY1it_xou0r2v175WvH0LA8zxbQNhU9YIlF_5oa74UKJDb-KEesE0poN-li_E0p27zwbfaDjg1gv8wLr5KHcO5R-UutjcpflKKsSfjnDL1uVdZbtAnTsWJpTtvHFtfC0hrEe_xOF22CXnfRVIOaIoWmO9kEzKhbcUpKi0HFPZg7PiBj5DfMqhlpz6Uxq8aoV1ut-dxpPqi2yXoo4hwV2jDldEGeAY.Peg9pgPCJaekA8Qs-aF7PSe9Eo4l4ufEKqpho038bgQ&amp;dib_tag=se&amp;keywords=Black%2BDiamond%2BDistance%2BZ&amp;qid=1777561257&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=black%2Bdiamond%2Bdistance%2Bz%2Caps%2C183&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=12c04554b1a8063c06c2ce491dcd3ba3&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Black Diamond Distance Z" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Black Diamond Distance Z" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -825,7 +847,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>85</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
                                   </div>
 
                               </div>
@@ -834,7 +856,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">RunLetters video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">RunLetters video</a></div>
                                   </div>
 
                               </div>
@@ -843,7 +865,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>82.5</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultralight/comments/1rvmgr9/black_diamond_distance_z_poles_and_tents/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Z Poles and tents" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">r/Ultralight thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultralight/comments/1rvmgr9/black_diamond_distance_z_poles_and_tents/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Z Poles and tents" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">r/Ultralight thread</a></div>
                                   </div>
 
                               </div>
@@ -851,8 +873,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Black Diamond Distance Z">
-                          <div><span>Proof base</span><strong>10 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>78/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>9 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -866,14 +888,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Expert review / Best evidence</span>
                                     <b>trail running pole review context | Trail Running Movement</b>
                                     <small>Trail Running Movement - checked Apr 20, 2026</small>
                                     <em>Trail Running Movement category testing supports Black Diamond Distance Z as a serious trail running pole option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Expert review</span>
                                     <b>trail running pole comparison | Run Dream Achieve</b>
                                     <small>Run Dream Achieve - checked Apr 20, 2026</small>
@@ -887,14 +909,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=Kvp-qOSvhXk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!</b>
                                     <small>RunLetters - checked May 29, 2026</small>
                                     <em>RunLetters video review: Black Diamond Distance Carbon Z Running Poles Review: I Ran My First 50k With These!</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=BjJef4-_1k0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Z Trekking Poles Review!" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=BjJef4-_1k0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance Z Trekking Poles Review!" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Black Diamond Distance Z Trekking Poles Review!</b>
                                     <small>Nolan Sheahan - checked May 29, 2026</small>
@@ -908,14 +930,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/Ultralight/comments/1rvmgr9/black_diamond_distance_z_poles_and_tents/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Z Poles and tents" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.reddit.com/r/Ultralight/comments/1rvmgr9/black_diamond_distance_z_poles_and_tents/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Z Poles and tents" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Black Diamond Distance Z Poles and tents</b>
                                     <small>r/Ultralight thread by dread1961 - checked Apr 22, 2026</small>
                                     <em>r/Ultralight thread adds owner feedback around Black Diamond Distance Z: Black Diamond Distance Z Poles and tents.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/WildernessBackpacking/comments/oiiwf6/marmot_chew_off_the_rubber_of_my_black_diamond/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Marmot chew off the rubber of my Black Diamond Distance Z Trekking Poles, how to fix it?" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.reddit.com/r/WildernessBackpacking/comments/oiiwf6/marmot_chew_off_the_rubber_of_my_black_diamond/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Marmot chew off the rubber of my Black Diamond Distance Z Trekking Poles, how to fix it?" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Marmot chew off the rubber of my Black Diamond Distance Z Trekking Poles, how to fix it?</b>
                                     <small>r/WildernessBackpacking thread by hiacbanks - checked Apr 22, 2026</small>
@@ -937,7 +959,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=7McANl0ecs4" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance 15 Running Vest - An All Day Multisport Pack - Compared to Ultraspire Zygos" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=7McANl0ecs4" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Black Diamond Distance 15 Running Vest - An All Day Multisport Pack - Compared to Ultraspire Zygos" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Black Diamond Distance 15 Running Vest - An All Day Multisport Pack - Compared to Ultraspire Zygos</b>
                                     <small>Pagosa Creative - checked May 29, 2026</small>
@@ -951,14 +973,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/trailrunning/comments/1kmf5w9/black_diamond_distance_z_carbon_poles_stuck/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond distance Z carbon poles stuck" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.reddit.com/r/trailrunning/comments/1kmf5w9/black_diamond_distance_z_carbon_poles_stuck/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond distance Z carbon poles stuck" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Black Diamond distance Z carbon poles stuck</b>
                                     <small>r/trailrunning thread by DifficultShoe8254 - checked Apr 22, 2026</small>
                                     <em>r/trailrunning thread adds owner cautions around Black Diamond Distance Z: Black Diamond distance Z carbon poles stuck.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/Ultralight/comments/1k4jkk7/black_diamond_distance_z_vs_flz_for_xmid_pro_1/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Z vs FLZ for X-Mid Pro 1 – which is better for tent + trekking use?" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.reddit.com/r/Ultralight/comments/1k4jkk7/black_diamond_distance_z_vs_flz_for_xmid_pro_1/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Black Diamond Distance Z vs FLZ for X-Mid Pro 1 – which is better for tent + trekking use?" data-product-name="Black Diamond Distance Z" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Black Diamond Distance Z vs FLZ for X-Mid Pro 1 – which is better for tent + trekking use?</b>
                                     <small>r/Ultralight thread by Conscious_Oven4154 - checked Apr 22, 2026</small>
@@ -975,7 +997,7 @@
               </div>
             </article>
 
-            <article class="product" id="gossamer-gear-lt5" data-product-name="Gossamer Gear LT5" data-default-score="81" data-editorial-rank="4" data-channel-scores='{"Expert":82,"YouTube":81.3,"Reddit":78}' data-decision-tags='["performance","small-space","durability"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":70},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":59},"traction":{"key":"traction","label":"Traction","score":59},"lightweight":{"key":"lightweight","label":"Light feel","score":92},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":59},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":35},"raceFocus":{"key":"raceFocus","label":"Race focus","score":96},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"raceFocus","label":"Race focus","score":96},{"key":"lightweight","label":"Light feel","score":92},{"key":"stability","label":"Stability","score":70}],"ownerSentimentSummary":"Adjustable length. Great hiking crossover.","expertSentimentSummary":"2 evidence items. Strongest signal: Trail Running Movement category testing supports Gossamer Gear LT5 as a serious trail running pole option.","biggestStrength":"Adjustable length","biggestComplaint":"Does not fold as short","confidenceLevel":"Solid","evidenceDepth":74,"recencyStrength":79,"decisionTags":["performance","small-space","durability"]}' data-fit-profile="%7B%22id%22%3A%22gossamer-gear-lt5%22%2C%22name%22%3A%22Gossamer%20Gear%20LT5%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A81%2C%22publicScoreLabel%22%3A%2281%22%2C%22tag%22%3A%22Best%20adjustable%20crossover%22%2C%22bestFor%22%3A%22Fastpackers%20and%20hikers%20who%20want%20adjustability%20with%20low%20weight%22%2C%22avoidIf%22%3A%22You%20need%20compact%20Z-fold%20storage%20for%20racing.%22%2C%22biggestStrength%22%3A%22Adjustable%20length%22%2C%22biggestComplaint%22%3A%22Does%20not%20fold%20as%20short%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22small-space%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A59%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A59%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A59%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A35%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Adjustable%20length.%20Great%20hiking%20crossover.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Gossamer%20Gear%20LT5%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22Adjustable%20length%22%2C%22biggestComplaint%22%3A%22Does%20not%20fold%20as%20short%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A74%2C%22recencyStrength%22%3A79%2C%22decisionTags%22%3A%5B%22performance%22%2C%22small-space%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.gossamergear.com%2Fproducts%2Flt5-three-piece-carbon-trekking-poles-pair%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Gossamer%20Gear%22%2C%22retailerName%22%3A%22Gossamer%20Gear%22%7D">
+            <article class="product" id="gossamer-gear-lt5" data-product-name="Gossamer Gear LT5" data-default-score="81" data-editorial-rank="4" data-channel-scores='{"Expert":82,"YouTube":81.3,"Reddit":78}' data-fit-profile="%7B%22id%22%3A%22gossamer-gear-lt5%22%2C%22name%22%3A%22Gossamer%20Gear%20LT5%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A81%2C%22publicScoreLabel%22%3A%2281%22%2C%22tag%22%3A%22Best%20adjustable%20crossover%22%2C%22bestFor%22%3A%22Fastpackers%20and%20hikers%20who%20want%20adjustability%20with%20low%20weight%22%2C%22avoidIf%22%3A%22You%20need%20compact%20Z-fold%20storage%20for%20racing.%22%2C%22biggestStrength%22%3A%22Adjustable%20length%22%2C%22biggestComplaint%22%3A%22Does%20not%20fold%20as%20short%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A59%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A59%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A59%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A35%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Adjustable%20length.%20Great%20hiking%20crossover.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Trail%20Running%20Movement%20category%20testing%20supports%20Gossamer%20Gear%20LT5%20as%20a%20serious%20trail%20running%20pole%20option.%22%2C%22biggestStrength%22%3A%22Adjustable%20length%22%2C%22biggestComplaint%22%3A%22Does%20not%20fold%20as%20short%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A84%2C%22recencyStrength%22%3A79%2C%22decisionTags%22%3A%5B%22performance%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.gossamergear.com%2Fproducts%2Flt5-three-piece-carbon-trekking-poles-pair%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Gossamer%20Gear%22%2C%22retailerName%22%3A%22Gossamer%20Gear%22%7D">
               <div class="product-media product-media--outdoor product-visual--poles product-visual--telescoping-adjust">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Gossamer Gear LT5, Best adjustable crossover">
@@ -989,13 +1011,14 @@
 
                     <span class="decision-badge">Performance Pick</span>
 
-                    <span class="decision-badge">Small-Space Pick</span>
-
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Gossamer Gear LT5</h2>
                 <div class="tagline">Best adjustable crossover</div>
                 <p class="product-verdict"><strong>Our take:</strong> Gossamer Gear LT5 is the best adjustable crossover for fastpackers and hikers buyers who need adjustability with low weight. It stands out for adjustable length and great hiking crossover.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$195 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Gossamer Gear LT5">
@@ -1010,9 +1033,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Gossamer Gear LT5">
-                  <strong>81</strong>
-                  <span>Evidence score · 8 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Gossamer Gear LT5">
+
+                    <strong>81</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Gossamer Gear LT5">
@@ -1024,17 +1049,13 @@
                     <span>Avoid if</span>
                     <p>You need compact Z-fold storage for racing.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Does not fold as short</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Gossamer Gear LT5">
 
-                      <a class="button shopping-button" href="https://www.gossamergear.com/products/lt5-three-piece-carbon-trekking-poles-pair" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Gossamer Gear" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Gossamer Gear LT5" data-product-rank="4" data-product-score="81" data-shopping-label="Check price at Gossamer Gear" data-shopping-placement="product-card">Check price at Gossamer Gear</a>
+                      <a class="button shopping-button" href="https://www.gossamergear.com/products/lt5-three-piece-carbon-trekking-poles-pair" target="_blank" rel="sponsored noopener" aria-label="Check price at Gossamer Gear for Gossamer Gear LT5" data-product-cta data-affiliate-link data-retailer="Gossamer Gear" data-guide="Best Trail Running Poles" data-section="Outdoor" data-product-name="Gossamer Gear LT5" data-product-rank="4" data-product-score="81" data-shopping-label="Check price at Gossamer Gear" data-shopping-placement="product-card">Check price at Gossamer Gear</a>
 
                   </div>
 
@@ -1053,7 +1074,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>82</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">Trail Running Movement</a></div>
                                   </div>
 
                               </div>
@@ -1062,7 +1083,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>81.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=d78LzrkYkz0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Gossamer Gear LT5 Three Piece Carbon Trekking Poles Review" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">Bungzy&#39;s Ultralight video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=d78LzrkYkz0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Gossamer Gear LT5 Three Piece Carbon Trekking Poles Review" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">Bungzy&#39;s Ultralight video</a></div>
                                   </div>
 
                               </div>
@@ -1071,7 +1092,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>78</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultralight/comments/1sj17cf/zpacks_plex_solo_with_gossamer_gear_lt5s/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Zpacks Plex Solo with Gossamer Gear LT5’s" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">r/Ultralight thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultralight/comments/1sj17cf/zpacks_plex_solo_with_gossamer_gear_lt5s/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Zpacks Plex Solo with Gossamer Gear LT5’s" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">r/Ultralight thread</a></div>
                                   </div>
 
                               </div>
@@ -1079,9 +1100,9 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Gossamer Gear LT5">
-                          <div><span>Proof base</span><strong>8 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>79/100</strong><p>Page updates and source recency support this read.</p></div>
-                          <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
+                          <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
                       </section>
@@ -1094,14 +1115,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link best-source" href="https://trailrunningmovement.com/products-and-gear/best-trail-running-poles/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole review context | Trail Running Movement" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Expert review / Best evidence</span>
                                     <b>trail running pole review context | Trail Running Movement</b>
                                     <small>Trail Running Movement - checked Apr 20, 2026</small>
                                     <em>Trail Running Movement category testing supports Gossamer Gear LT5 as a serious trail running pole option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://rundreamachieve.com/trail-running-essentials/best-trekking-poles-for-trail-running/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="trail running pole comparison | Run Dream Achieve" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Expert review</span>
                                     <b>trail running pole comparison | Run Dream Achieve</b>
                                     <small>Run Dream Achieve - checked Apr 20, 2026</small>
@@ -1115,14 +1136,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=d78LzrkYkz0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Gossamer Gear LT5 Three Piece Carbon Trekking Poles Review" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=d78LzrkYkz0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Gossamer Gear LT5 Three Piece Carbon Trekking Poles Review" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Gossamer Gear LT5 Three Piece Carbon Trekking Poles Review</b>
                                     <small>Bungzy&#39;s Ultralight - checked May 29, 2026</small>
                                     <em>Bungzy&#39;s Ultralight video review: Gossamer Gear LT5 Three Piece Carbon Trekking Poles Review</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=MZuzaQhsZdI" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Gossamer Gear LT5 Trekking Poles Review!" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=MZuzaQhsZdI" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Gossamer Gear LT5 Trekking Poles Review!" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Gossamer Gear LT5 Trekking Poles Review!</b>
                                     <small>Kevin Graham - checked May 29, 2026</small>
@@ -1144,14 +1165,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=c6JQ1PksJGw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Is this 5 oz (142 g) trekking pole worth the hype!? Gossamer Gear LT5" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=c6JQ1PksJGw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Is this 5 oz (142 g) trekking pole worth the hype!? Gossamer Gear LT5" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Is this 5 oz (142 g) trekking pole worth the hype!? Gossamer Gear LT5</b>
                                     <small>Dan Becker - checked May 29, 2026</small>
                                     <em>Dan Becker video review: Is this 5 oz (142 g) trekking pole worth the hype!? Gossamer Gear LT5</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=TxzlPbdqlhk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Durston Gear Iceline Poles VS Gossamer Gear LT5" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=TxzlPbdqlhk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Durston Gear Iceline Poles VS Gossamer Gear LT5" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Video review</span>
                                     <b>Durston Gear Iceline Poles VS Gossamer Gear LT5</b>
                                     <small>Bryce Newbold - checked May 29, 2026</small>
@@ -1165,7 +1186,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/Ultralight/comments/1sj17cf/zpacks_plex_solo_with_gossamer_gear_lt5s/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Zpacks Plex Solo with Gossamer Gear LT5’s" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
+                                  <a class="source-link" href="https://www.reddit.com/r/Ultralight/comments/1sj17cf/zpacks_plex_solo_with_gossamer_gear_lt5s/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Zpacks Plex Solo with Gossamer Gear LT5’s" data-product-name="Gossamer Gear LT5" data-guide="Best Trail Running Poles">
                                     <span>Owner discussion</span>
                                     <b>Zpacks Plex Solo with Gossamer Gear LT5’s</b>
                                     <small>r/Ultralight thread by blue_indian - checked Apr 22, 2026</small>
@@ -1237,17 +1258,17 @@
             <h2 id="related-heading">Keep comparing in Outdoor</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/outdoor.html"><span>Back to Outdoor</span><span>Category hub</span></a>
+              <a href="/outdoor.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Outdoor</span><span>Category hub</span></a>
 
-                <a href="/best-running-headphones.html"><span>Best Running Headphones</span><span>Buying guide</span></a>
+                <a href="/best-running-belts.html" data-guide-link data-guide-placement="roundup-related"><span>Best Running Belts</span><span>Buying guide</span></a>
 
-                <a href="/best-womens-trail-running-shoes.html"><span>Best Women&#39;s Trail Running Shoes</span><span>Buying guide</span></a>
+                <a href="/best-handheld-running-water-bottles.html" data-guide-link data-guide-placement="roundup-related"><span>Best Handheld Running Water Bottles</span><span>Buying guide</span></a>
 
-                <a href="/best-running-belts.html"><span>Best Running Belts</span><span>Buying guide</span></a>
+                <a href="/best-hydration-packs.html" data-guide-link data-guide-placement="roundup-related"><span>Best Hydration Packs</span><span>Buying guide</span></a>
 
-                <a href="/best-gps-running-watches.html"><span>Best GPS Running Watches</span><span>Buying guide</span></a>
+                <a href="/best-running-vests.html" data-guide-link data-guide-placement="roundup-related"><span>Best Running Vests</span><span>Buying guide</span></a>
 
-                <a href="/best-mens-trail-running-shoes.html"><span>Best Men&#39;s Trail Running Shoes</span><span>Buying guide</span></a>
+                <a href="/best-electrolyte-mixes-for-ultrarunning.html" data-guide-link data-guide-placement="roundup-related"><span>Best Electrolyte Mixes for Ultrarunning</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1260,9 +1281,9 @@
             <p>Use these guides to understand the tradeoffs before you compare products: fit, features, durability, comfort, and the mistakes worth avoiding.</p>
             <div class="link-list">
 
-                <a href="/how-to-choose-trail-running-shoes.html"><span>How to Choose Trail Running Shoes</span><span>How to choose</span></a>
+                <a href="/how-to-choose-trail-running-shoes.html" data-guide-link data-guide-placement="roundup-supporting"><span>How to Choose Trail Running Shoes</span><span>How to choose</span></a>
 
-                <a href="/hydration-pack-vs-running-vest.html"><span>Hydration Pack vs Running Vest: Which Should You Buy?</span><span>Comparison</span></a>
+                <a href="/hydration-pack-vs-running-vest.html" data-guide-link data-guide-placement="roundup-supporting"><span>Hydration Pack vs Running Vest: Which Should You Buy?</span><span>Comparison</span></a>
 
             </div>
           </section>
@@ -1309,22 +1330,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

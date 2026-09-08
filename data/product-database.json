@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:29:15.549Z",
+  "generatedAt": "2026-09-08T19:06:56.578Z",
   "products": [
     {
       "id": "best-running-socks-for-long-runs::Darn Tough Run Coolmax No-Show Tab Ultra-Lightweight",
@@ -26,7 +26,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -59,12 +59,47 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Find one exact owner discussion thread.",
         "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-monitor-arms::Herman Miller Flo Monitor Arm",
+      "product": "Herman Miller Flo Monitor Arm",
+      "page": "best-monitor-arms",
+      "pageTitle": "Best Monitor Arms",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best premium design",
+      "bestFor": "Design-led workspaces that want a refined arm with smooth movement",
+      "avoidIf": "You want value pricing or heavy-monitor support above its range.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Herman%20Miller%20Flo%20Monitor%20Arm",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 1,
+        "reddit": 2,
+        "total": 5
+      },
+      "missingChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 46,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
+        "Add another exact YouTube review or comparison video.",
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -93,7 +128,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -127,7 +162,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -161,7 +196,7 @@
         "YouTube"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video.",
@@ -196,7 +231,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -231,7 +266,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -266,7 +301,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -301,7 +336,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -336,7 +371,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -371,13 +406,49 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
         "Raise public evidence depth to at least four useful sources.",
         "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-electrolyte-mixes-for-ultrarunning::Precision Hydration PH 1000",
+      "product": "Precision Hydration PH 1000",
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
+      "section": "outdoor",
+      "dataSource": "additions",
+      "rank": null,
+      "tag": "Best measured sodium packet",
+      "bestFor": "Runners who want a clear sodium target and plan carbs separately.",
+      "avoidIf": "You prefer one bottle that handles both calories and electrolytes.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Precision%20Hydration%20PH%201000",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 0,
+        "reddit": 2,
+        "total": 3
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "updated": "April 24, 2026",
+      "daysSinceUpdated": 138,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find an exact YouTube review with visible product use.",
+        "Add another owner discussion, ideally with long-term use or fit complaints.",
+        "Raise public evidence depth to at least four useful sources."
       ]
     },
     {
@@ -406,7 +477,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -439,7 +510,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -473,12 +544,78 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
         "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-commuter-backpacks-for-men::Osprey Nebula 32",
+      "product": "Osprey Nebula 32",
+      "page": "best-commuter-backpacks-for-men",
+      "pageTitle": "Best Commuter Backpacks for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best comfort value",
+      "bestFor": "Commuters who carry more gear and want backpack comfort over sleek office minimalism.",
+      "avoidIf": "You want a slim, executive-looking tech bag.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Osprey%20Nebula%2032",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 127,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-running-socks-for-long-runs::Swiftwick Flite XT Trail Mid-Crew",
+      "product": "Swiftwick Flite XT Trail Mid-Crew",
+      "page": "best-running-socks-for-long-runs",
+      "pageTitle": "Best Running Socks for Long Runs",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best secure long-run sock",
+      "bestFor": "Runners who want a locked-in sock for long road or trail efforts where slipping and bunching become problems.",
+      "avoidIf": "You prefer an ultrathin sock or dislike a more compressive fit around the arch and midfoot.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Swiftwick%20Flite%20XT%20Trail%20Mid-Crew",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 127,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -507,7 +644,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -542,7 +679,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -576,7 +713,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -610,7 +747,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -644,7 +781,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -678,7 +815,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -686,37 +823,68 @@
       ]
     },
     {
-      "id": "best-electrolyte-mixes-for-ultrarunning::Precision Hydration PH 1000",
-      "product": "Precision Hydration PH 1000",
-      "page": "best-electrolyte-mixes-for-ultrarunning",
-      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
-      "section": "outdoor",
-      "dataSource": "additions",
+      "id": "best-walking-pads::UREVO Strol 2E",
+      "product": "UREVO Strol 2E",
+      "page": "best-walking-pads",
+      "pageTitle": "Best Walking Pads",
+      "section": "remote-work",
+      "dataSource": "revenue",
       "rank": null,
-      "tag": "Best measured sodium packet",
-      "bestFor": "Runners who want a clear sodium target and plan carbs separately.",
-      "avoidIf": "You prefer one bottle that handles both calories and electrolytes.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Precision%20Hydration%20PH%201000",
+      "tag": "Best simple Amazon pick",
+      "bestFor": "Shoppers who want a straightforward under-desk treadmill that is easy to find on Amazon.",
+      "avoidIf": "You want premium build quality, a long deck, or a treadmill designed for serious running.",
+      "affiliateUrl": "https://www.amazon.com/s?k=UREVO%20Strol%202E%20walking%20pad",
       "affiliateStatus": "ready",
       "evidenceCounts": {
         "expert": 1,
-        "youtube": 0,
-        "reddit": 2,
-        "total": 3
+        "youtube": 3,
+        "reddit": 1,
+        "total": 5
       },
       "missingChannels": [
-        "YouTube"
+        "Reddit"
       ],
       "thinChannels": [
         "Expert"
       ],
-      "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
-      "opportunityScore": 36,
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 127,
+      "opportunityScore": 40,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
-        "Find an exact YouTube review with visible product use.",
-        "Raise public evidence depth to at least four useful sources."
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-monitor-arms::Amazon Basics Premium Monitor Stand",
+      "product": "Amazon Basics Premium Monitor Stand",
+      "page": "best-monitor-arms",
+      "pageTitle": "Best Monitor Arms",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best value if available",
+      "bestFor": "Shoppers who want Ergotron-like performance at a lower price",
+      "avoidIf": "You want current availability certainty or premium finish choices.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Amazon%20Basics%20Premium%20Monitor%20Stand",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 1,
+        "total": 6
+      },
+      "missingChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 38,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -743,7 +911,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -773,7 +941,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -804,7 +972,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use."
@@ -834,7 +1002,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use."
@@ -864,7 +1032,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -895,7 +1063,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 36,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -927,7 +1095,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -959,7 +1127,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -991,7 +1159,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1022,7 +1190,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -1053,7 +1221,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1085,7 +1253,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1117,7 +1285,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1149,7 +1317,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1181,7 +1349,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1213,7 +1381,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1244,7 +1412,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -1275,7 +1443,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -1306,7 +1474,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -1337,39 +1505,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
-      "opportunityScore": 34,
-      "recommendedActions": [
-        "Add a second expert source to support the recommendation.",
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "best-commuter-backpacks-for-men::Osprey Nebula 32",
-      "product": "Osprey Nebula 32",
-      "page": "best-commuter-backpacks-for-men",
-      "pageTitle": "Best Commuter Backpacks for Men",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "rank": null,
-      "tag": "Best comfort value",
-      "bestFor": "Commuters who carry more gear and want backpack comfort over sleek office minimalism.",
-      "avoidIf": "You want a slim, executive-looking tech bag.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Osprey%20Nebula%2032",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 2,
-        "reddit": 1,
-        "total": 4
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
-        "Reddit"
-      ],
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1400,7 +1536,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -1431,7 +1567,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -1462,43 +1598,11 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
         "Keep non-expert evidence visible while preserving expert-only scoring."
-      ]
-    },
-    {
-      "id": "best-running-socks-for-long-runs::Swiftwick Flite XT Trail Mid-Crew",
-      "product": "Swiftwick Flite XT Trail Mid-Crew",
-      "page": "best-running-socks-for-long-runs",
-      "pageTitle": "Best Running Socks for Long Runs",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "rank": null,
-      "tag": "Best secure long-run sock",
-      "bestFor": "Runners who want a locked-in sock for long road or trail efforts where slipping and bunching become problems.",
-      "avoidIf": "You prefer an ultrathin sock or dislike a more compressive fit around the arch and midfoot.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Swiftwick%20Flite%20XT%20Trail%20Mid-Crew",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 2,
-        "reddit": 1,
-        "total": 4
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
-        "Reddit"
-      ],
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
-      "opportunityScore": 34,
-      "recommendedActions": [
-        "Add a second expert source to support the recommendation.",
-        "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
@@ -1526,7 +1630,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1558,7 +1662,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1590,7 +1694,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1621,7 +1725,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -1652,7 +1756,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -1682,7 +1786,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -1713,7 +1817,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1744,7 +1848,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -1774,24 +1878,57 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 34,
       "recommendedActions": [
         "Find one exact owner discussion thread."
       ]
     },
     {
-      "id": "best-walking-pads::UREVO Strol 2E",
-      "product": "UREVO Strol 2E",
-      "page": "best-walking-pads",
-      "pageTitle": "Best Walking Pads",
+      "id": "best-desk-mats::Knodel Large Desk Mat",
+      "product": "Knodel Large Desk Mat",
+      "page": "best-desk-mats",
+      "pageTitle": "Best Desk Mats",
       "section": "remote-work",
-      "dataSource": "revenue",
+      "dataSource": "core",
       "rank": null,
-      "tag": "Best simple Amazon pick",
-      "bestFor": "Shoppers who want a straightforward under-desk treadmill that is easy to find on Amazon.",
-      "avoidIf": "You want premium build quality, a long deck, or a treadmill designed for serious running.",
-      "affiliateUrl": "https://www.amazon.com/s?k=UREVO%20Strol%202E%20walking%20pad",
+      "tag": "Best large value mat",
+      "bestFor": "People who want broad coverage for keyboard, mouse, and desk protection",
+      "avoidIf": "You want a refined premium material.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Knodel%20Large%20Desk%20Mat",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 0,
+        "total": 5
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 32,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-electrolyte-mixes-for-ultrarunning::Nuun Sport",
+      "product": "Nuun Sport",
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
+      "section": "outdoor",
+      "dataSource": "additions",
+      "rank": null,
+      "tag": "Best convenient tablet",
+      "bestFor": "Runners who want a light, easy tablet for short-to-medium training or backup hydration.",
+      "avoidIf": "You need high sodium, carbs, or race-day ultra fueling from the bottle.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Nuun%20Sport%20Electrolyte%20Tablets",
       "affiliateStatus": "ready",
       "evidenceCounts": {
         "expert": 1,
@@ -1799,17 +1936,18 @@
         "reddit": 1,
         "total": 5
       },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
+      "missingChannels": [
         "Reddit"
       ],
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "April 24, 2026",
+      "daysSinceUpdated": 138,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
-        "Add another owner discussion, ideally with long-term use or fit complaints."
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -1837,7 +1975,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1869,7 +2007,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1901,7 +2039,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1933,7 +2071,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1965,7 +2103,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -1996,7 +2134,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Find one exact owner discussion thread.",
@@ -2028,7 +2166,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video.",
@@ -2061,7 +2199,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2093,10 +2231,175 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 32,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-desk-mats::Logitech Studio Series Desk Mat",
+      "product": "Logitech Studio Series Desk Mat",
+      "page": "best-desk-mats",
+      "pageTitle": "Best Desk Mats",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best budget color mat",
+      "bestFor": "Simple home-office setups that want color and desk protection",
+      "avoidIf": "You want premium materials or a very large work surface.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20Studio%20Series%20Desk%20Mat",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 3,
+        "total": 8
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 30,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-monitor-arms::Fully Jarvis Monitor Arm",
+      "product": "Fully Jarvis Monitor Arm",
+      "page": "best-monitor-arms",
+      "pageTitle": "Best Monitor Arms",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best simple mainstream arm",
+      "bestFor": "Home-office users who want a clean, simple arm from a desk brand",
+      "avoidIf": "You need the strongest heavy-display support.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Fully%20Jarvis%20Monitor%20Arm",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 2,
+        "reddit": 6,
+        "total": 10
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 30,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-100-miles::Topo Athletic Ultraventure 4",
+      "product": "Topo Athletic Ultraventure 4",
+      "page": "best-trail-shoes-for-100-miles",
+      "pageTitle": "Best Trail Shoes for 100 Miles",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best for swelling feet",
+      "bestFor": "Ultra runners who need toe room without going fully zero-drop",
+      "avoidIf": "You want a sharp, fast, race-day feel.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Topo%20Athletic%20Ultraventure%204",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 1,
+        "total": 7
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 30,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-wide-feet::Topo Athletic Ultraventure 4",
+      "product": "Topo Athletic Ultraventure 4",
+      "page": "best-trail-shoes-for-wide-feet",
+      "pageTitle": "Best Trail Shoes for Wide Feet",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best overall for wide feet",
+      "bestFor": "Wide forefeet that still need midfoot and heel security",
+      "avoidIf": "You prefer narrow race-shoe precision.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Topo%20Athletic%20Ultraventure%204",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 1,
+        "total": 7
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 30,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-muddy-conditions::Inov-8 X-Talon Ultra 260 V2",
+      "product": "Inov-8 X-Talon Ultra 260 V2",
+      "page": "best-trail-shoes-for-muddy-conditions",
+      "pageTitle": "Best Trail Shoes for Muddy Conditions",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best specialist mud shoe",
+      "bestFor": "Steep, soft, technical mud where grip matters above all else",
+      "avoidIf": "You want a comfortable road-to-trail shoe.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Inov-8%20X-Talon%20Ultra%20260%20V2",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 1,
+        "total": 7
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 30,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
         "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
@@ -2124,37 +2427,7 @@
       ],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 26,
-      "recommendedActions": [
-        "Find one exact owner discussion thread."
-      ]
-    },
-    {
-      "id": "best-desk-mats::Knodel Large Desk Mat",
-      "product": "Knodel Large Desk Mat",
-      "page": "best-desk-mats",
-      "pageTitle": "Best Desk Mats",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best large value mat",
-      "bestFor": "People who want broad coverage for keyboard, mouse, and desk protection",
-      "avoidIf": "You want a refined premium material.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Knodel%20Large%20Desk%20Mat",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 2,
-        "reddit": 0,
-        "total": 5
-      },
-      "missingChannels": [
-        "Reddit"
-      ],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 26,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -2185,7 +2458,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2217,7 +2490,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2249,7 +2522,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2281,7 +2554,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2313,7 +2586,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2344,7 +2617,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -2374,7 +2647,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -2404,7 +2677,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -2434,7 +2707,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints.",
@@ -2465,7 +2738,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 26,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -2495,72 +2768,130 @@
       ],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 24,
       "recommendedActions": [
         "Find one exact owner discussion thread."
       ]
     },
     {
-      "id": "best-monitor-arms::Amazon Basics Premium Monitor Stand",
-      "product": "Amazon Basics Premium Monitor Stand",
-      "page": "best-monitor-arms",
-      "pageTitle": "Best Monitor Arms",
+      "id": "best-webcams-for-remote-work::Anker PowerConf C200",
+      "product": "Anker PowerConf C200",
+      "page": "best-webcams-for-remote-work",
+      "pageTitle": "Best Webcams for Remote Work",
       "section": "remote-work",
       "dataSource": "core",
       "rank": null,
-      "tag": "Best value if available",
-      "bestFor": "Shoppers who want Ergotron-like performance at a lower price",
-      "avoidIf": "You want current availability certainty or premium finish choices.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Amazon%20Basics%20Premium%20Monitor%20Stand",
+      "tag": "Best value webcam",
+      "bestFor": "Budget-focused remote workers who still want a clear image",
+      "avoidIf": "You want premium 4K quality or advanced tracking.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Anker%20PowerConf%20C200",
       "affiliateStatus": "ready",
       "evidenceCounts": {
-        "expert": 0,
+        "expert": 3,
         "youtube": 3,
-        "reddit": 1,
-        "total": 6
+        "reddit": 5,
+        "total": 12
       },
       "missingChannels": [
         "Reddit"
       ],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 24,
       "recommendedActions": [
         "Find one exact owner discussion thread."
       ]
     },
     {
-      "id": "best-monitor-arms::Herman Miller Flo Monitor Arm",
-      "product": "Herman Miller Flo Monitor Arm",
+      "id": "best-monitor-arms::Ergotron LX",
+      "product": "Ergotron LX",
       "page": "best-monitor-arms",
       "pageTitle": "Best Monitor Arms",
       "section": "remote-work",
       "dataSource": "core",
       "rank": null,
-      "tag": "Best premium design",
-      "bestFor": "Design-led workspaces that want a refined arm with smooth movement",
-      "avoidIf": "You want value pricing or heavy-monitor support above its range.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Herman%20Miller%20Flo%20Monitor%20Arm",
+      "tag": "Best overall monitor arm",
+      "bestFor": "Most single-monitor setups that need smooth adjustment and long-term reliability",
+      "avoidIf": "You need the cheapest possible arm.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Ergotron%20LX",
       "affiliateStatus": "ready",
       "evidenceCounts": {
         "expert": 0,
-        "youtube": 1,
-        "reddit": 2,
-        "total": 5
+        "youtube": 3,
+        "reddit": 6,
+        "total": 10
       },
-      "missingChannels": [],
-      "thinChannels": [
-        "YouTube",
-        "Reddit"
+      "missingChannels": [
+        "Expert"
       ],
+      "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 24,
       "recommendedActions": [
-        "Add another exact YouTube review or comparison video.",
-        "Add another owner discussion, ideally with long-term use or fit complaints."
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-carry-on-luggage::Travelpro Platinum Elite 21-inch",
+      "product": "Travelpro Platinum Elite 21-inch",
+      "page": "best-carry-on-luggage",
+      "pageTitle": "Best Carry-On Luggage",
+      "section": "lifestyle",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best carry-on for most travelers",
+      "bestFor": "Frequent flyers who want practical organization and dependable wheels",
+      "avoidIf": "You want a hard-shell minimalist look.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Travelpro%20Platinum%20Elite%2021-inch",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 3,
+        "reddit": 1,
+        "total": 7
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-coffee-makers::Ninja 12-Cup Programmable Brewer",
+      "product": "Ninja 12-Cup Programmable Brewer",
+      "page": "best-coffee-makers",
+      "pageTitle": "Best Coffee Makers",
+      "section": "lifestyle",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best budget family coffee maker",
+      "bestFor": "Families who want affordable programmable drip coffee",
+      "avoidIf": "You want specialty-grade consistency or premium materials.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Ninja%2012-Cup%20Programmable%20Brewer",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 3,
+        "reddit": 3,
+        "total": 9
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -2587,10 +2918,160 @@
       ],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 24,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-100-miles::Brooks Cascadia 19",
+      "product": "Brooks Cascadia 19",
+      "page": "best-trail-shoes-for-100-miles",
+      "pageTitle": "Best Trail Shoes for 100 Miles",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best stable ultra option",
+      "bestFor": "Runners who want a traditional protective shoe for rocky or uneven courses",
+      "avoidIf": "You want soft max cushion or a lively supertrainer feel.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-wide-feet::Altra Lone Peak 9",
+      "product": "Altra Lone Peak 9",
+      "page": "best-trail-shoes-for-wide-feet",
+      "pageTitle": "Best Trail Shoes for Wide Feet",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best natural toe box",
+      "bestFor": "Runners who want maximum toe splay and zero-drop trail feel",
+      "avoidIf": "You are not adapted to zero-drop shoes.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Altra%20Lone%20Peak%209",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-wide-feet::Brooks Cascadia 19",
+      "product": "Brooks Cascadia 19",
+      "page": "best-trail-shoes-for-wide-feet",
+      "pageTitle": "Best Trail Shoes for Wide Feet",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best traditional wide option",
+      "bestFor": "Runners who want stable, protective trail feel with conventional sizing options",
+      "avoidIf": "You want maximum toe splay.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-muddy-conditions::Salomon Speedcross 6",
+      "product": "Salomon Speedcross 6",
+      "page": "best-trail-shoes-for-muddy-conditions",
+      "pageTitle": "Best Trail Shoes for Muddy Conditions",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best overall for mud",
+      "bestFor": "Soft ground, wet grass, sloppy trails, and mud-heavy races",
+      "avoidIf": "You run lots of pavement or hardpack between muddy sections.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Salomon%20Speedcross%206",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-trail-shoes-for-beginners::Brooks Cascadia 19",
+      "product": "Brooks Cascadia 19",
+      "page": "best-trail-shoes-for-beginners",
+      "pageTitle": "Best Trail Shoes for Beginners",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best beginner trail shoe",
+      "bestFor": "Road runners who want a stable, protective first trail shoe",
+      "avoidIf": "You want a very soft or very fast-feeling trail shoe.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
       ]
     },
     {
@@ -2617,7 +3098,337 @@
       ],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-road-shoe-for-your-first-marathon::ASICS Novablast 5",
+      "product": "ASICS Novablast 5",
+      "page": "best-road-shoe-for-your-first-marathon",
+      "pageTitle": "Best Road Shoe for Your First Marathon",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best first marathon shoe for most runners",
+      "bestFor": "First-time marathoners who want cushioning, bounce, and training versatility",
+      "avoidIf": "You need a very stable traditional platform.",
+      "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Novablast%205",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-road-shoe-for-your-first-marathon::Brooks Ghost 17",
+      "product": "Brooks Ghost 17",
+      "page": "best-road-shoe-for-your-first-marathon",
+      "pageTitle": "Best Road Shoe for Your First Marathon",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best safe traditional choice",
+      "bestFor": "Runners who want predictable comfort and a familiar daily-trainer feel",
+      "avoidIf": "You want a lively modern foam sensation.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Ghost%2017",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-road-shoe-for-your-first-marathon::Saucony Ride 18",
+      "product": "Saucony Ride 18",
+      "page": "best-road-shoe-for-your-first-marathon",
+      "pageTitle": "Best Road Shoe for Your First Marathon",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best balanced trainer",
+      "bestFor": "First marathoners who want one shoe for most training and race day",
+      "avoidIf": "You want maximum cushion or a plated race feel.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Ride%2018",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-road-shoe-for-your-first-marathon::Nike Pegasus 41",
+      "product": "Nike Pegasus 41",
+      "page": "best-road-shoe-for-your-first-marathon",
+      "pageTitle": "Best Road Shoe for Your First Marathon",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best familiar Nike option",
+      "bestFor": "Runners who already like Nike fit and want an everyday trainer for the build",
+      "avoidIf": "Your long runs need softer protection.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Nike%20Pegasus%2041",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 5,
+        "total": 11
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-daily-trainers-for-marathon-training::ASICS Novablast 5",
+      "product": "ASICS Novablast 5",
+      "page": "best-daily-trainers-for-marathon-training",
+      "pageTitle": "Best Daily Trainers for Marathon Training",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best daily trainer for marathon training",
+      "bestFor": "Runners who want one shoe for daily miles, long runs, and some faster work",
+      "avoidIf": "You need a very grounded stable ride.",
+      "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Novablast%205",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-daily-trainers-for-marathon-training::Saucony Ride 18",
+      "product": "Saucony Ride 18",
+      "page": "best-daily-trainers-for-marathon-training",
+      "pageTitle": "Best Daily Trainers for Marathon Training",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best steady daily trainer",
+      "bestFor": "Runners who want a dependable shoe for most weekly mileage",
+      "avoidIf": "You want a dramatic, superfoam ride.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Ride%2018",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-daily-trainers-for-marathon-training::HOKA Clifton 10",
+      "product": "HOKA Clifton 10",
+      "page": "best-daily-trainers-for-marathon-training",
+      "pageTitle": "Best Daily Trainers for Marathon Training",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best lightweight cushioned option",
+      "bestFor": "Runners who like a rockered easy-day trainer for marathon mileage",
+      "avoidIf": "You disliked the changed Clifton geometry or need a very stable base.",
+      "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Clifton%2010",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-marathon-shoes-for-heavy-runners::ASICS Gel-Nimbus 27",
+      "product": "ASICS Gel-Nimbus 27",
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "pageTitle": "Best Marathon Shoes for Heavy Runners",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best overall for heavier marathon runners",
+      "bestFor": "Runners who want plush protection and stable comfort through long runs",
+      "avoidIf": "You want a lightweight race-day feel.",
+      "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Gel-Nimbus%2027",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-marathon-shoes-for-heavy-runners::Brooks Glycerin 22",
+      "product": "Brooks Glycerin 22",
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "pageTitle": "Best Marathon Shoes for Heavy Runners",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best premium traditional trainer",
+      "bestFor": "Runners who want soft comfort with a more conventional stable feel",
+      "avoidIf": "You want a bouncy modern ride.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Glycerin%2022",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-marathon-shoes-for-heavy-runners::HOKA Bondi 9",
+      "product": "HOKA Bondi 9",
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "pageTitle": "Best Marathon Shoes for Heavy Runners",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best max-cushion easy trainer",
+      "bestFor": "Runners who want maximum cushion for easy runs, recovery, and run-walk marathon plans",
+      "avoidIf": "You want one shoe for faster workouts too.",
+      "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Bondi%209",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 3,
+        "reddit": 6,
+        "total": 12
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 24,
+      "recommendedActions": [
+        "Find one exact hands-on expert review."
+      ]
+    },
+    {
+      "id": "best-comfortable-trail-running-shoes::Brooks Catamount 4",
+      "product": "Brooks Catamount 4",
+      "page": "best-comfortable-trail-running-shoes",
+      "pageTitle": "Top 10 Most Comfortable Trail Shoes",
+      "section": "outdoor",
+      "dataSource": "additions",
+      "rank": null,
+      "tag": "Best light comfort for faster days",
+      "bestFor": "Rolling singletrack, quicker trail days, and runners who want comfort without a bulky max-cushion feel.",
+      "avoidIf": "You need plush softness, deep mud grip, or a forgiving ultra shoe.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Catamount%204",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 5,
+        "reddit": 1,
+        "total": 8
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "April 24, 2026",
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Find one exact owner discussion thread."
@@ -2648,7 +3459,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2680,7 +3491,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2712,7 +3523,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2744,7 +3555,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2776,7 +3587,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2808,7 +3619,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2840,7 +3651,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2872,39 +3683,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
-      "opportunityScore": 24,
-      "recommendedActions": [
-        "Add a second expert source to support the recommendation.",
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "best-electrolyte-mixes-for-ultrarunning::Nuun Sport",
-      "product": "Nuun Sport",
-      "page": "best-electrolyte-mixes-for-ultrarunning",
-      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
-      "section": "outdoor",
-      "dataSource": "additions",
-      "rank": null,
-      "tag": "Best convenient tablet",
-      "bestFor": "Runners who want a light, easy tablet for short-to-medium training or backup hydration.",
-      "avoidIf": "You need high sodium, carbs, or race-day ultra fueling from the bottle.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Nuun%20Sport%20Electrolyte%20Tablets",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 3,
-        "reddit": 1,
-        "total": 5
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
-        "Reddit"
-      ],
-      "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -2935,7 +3714,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -2965,7 +3744,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -2996,7 +3775,7 @@
         "Reddit"
       ],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3028,7 +3807,7 @@
         "Reddit"
       ],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3060,7 +3839,7 @@
         "Reddit"
       ],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3091,7 +3870,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -3121,7 +3900,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -3151,7 +3930,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -3181,10 +3960,138 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 24,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-desk-mats::Orbitkey Desk Mat",
+      "product": "Orbitkey Desk Mat",
+      "page": "best-desk-mats",
+      "pageTitle": "Best Desk Mats",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best overall desk mat",
+      "bestFor": "Remote workers who want a polished mat with document storage and cable control",
+      "avoidIf": "You want the cheapest large mat possible.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Orbitkey%20Desk%20Mat",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 5,
+        "total": 10
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 22,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-desk-mats::Grovemade Wool Felt Desk Pad",
+      "product": "Grovemade Wool Felt Desk Pad",
+      "page": "best-desk-mats",
+      "pageTitle": "Best Desk Mats",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best premium material",
+      "bestFor": "Design-focused workspaces that prioritize texture and premium feel",
+      "avoidIf": "You need easy wipe-clean spill resistance.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Grovemade%20Wool%20Felt%20Desk%20Pad",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 1,
+        "reddit": 3,
+        "total": 8
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "YouTube",
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 22,
+      "recommendedActions": [
+        "Add another exact YouTube review or comparison video.",
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-daily-trainers-for-marathon-training::New Balance Fresh Foam X 1080v14",
+      "product": "New Balance Fresh Foam X 1080v14",
+      "page": "best-daily-trainers-for-marathon-training",
+      "pageTitle": "Best Daily Trainers for Marathon Training",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best comfort-focused daily trainer",
+      "bestFor": "Runners who prioritize softness, comfort, and available width options",
+      "avoidIf": "You want a firmer, more structured ride.",
+      "affiliateUrl": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%201080v14",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 1,
+        "reddit": 6,
+        "total": 11
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "YouTube"
+      ],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 22,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Add another exact YouTube review or comparison video."
+      ]
+    },
+    {
+      "id": "best-marathon-shoes-for-heavy-runners::New Balance Fresh Foam X 1080v14",
+      "product": "New Balance Fresh Foam X 1080v14",
+      "page": "best-marathon-shoes-for-heavy-runners",
+      "pageTitle": "Best Marathon Shoes for Heavy Runners",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best for wide-fit comfort",
+      "bestFor": "Heavier runners who need soft cushioning and width options",
+      "avoidIf": "You want a firmer, more structured ride.",
+      "affiliateUrl": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%201080v14",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 1,
+        "reddit": 6,
+        "total": 11
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Expert",
+        "YouTube"
+      ],
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "opportunityScore": 22,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Add another exact YouTube review or comparison video."
       ]
     },
     {
@@ -3209,10 +4116,70 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 18,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
+      ]
+    },
+    {
+      "id": "best-standing-desks::Vari Electric Standing Desk",
+      "product": "Vari Electric Standing Desk",
+      "page": "best-standing-desks",
+      "pageTitle": "Best Standing Desks",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best simple setup",
+      "bestFor": "Buyers who want a polished, easy-to-assemble desk without many decisions",
+      "avoidIf": "You want deep customization or the lowest possible price.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Vari%20Electric%20Standing%20Desk",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 2,
+        "reddit": 5,
+        "total": 11
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 16,
+      "recommendedActions": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-office-chairs::Branch Ergonomic Chair Pro",
+      "product": "Branch Ergonomic Chair Pro",
+      "page": "best-office-chairs",
+      "pageTitle": "Best Office Chairs",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best value ergonomic chair",
+      "bestFor": "Home-office buyers who want real ergonomic features below premium-chair pricing",
+      "avoidIf": "You want the longest warranty, premium materials, or a proven used-market icon.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Branch%20Ergonomic%20Chair%20Pro",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 3,
+        "reddit": 3,
+        "total": 9
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 16,
+      "recommendedActions": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
@@ -3239,10 +4206,40 @@
         "YouTube"
       ],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video."
+      ]
+    },
+    {
+      "id": "best-trail-running-poles::Leki Ultratrail FX.One Superlite",
+      "product": "Leki Ultratrail FX.One Superlite",
+      "page": "best-trail-running-poles",
+      "pageTitle": "Best Trail Running Poles",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best grip system",
+      "bestFor": "Runners who love Leki's shark grip and want race-focused speed",
+      "avoidIf": "You dislike glove-style straps or want budget pricing.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Leki%20Ultratrail%20FX.One%20Superlite",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 2,
+        "reddit": 2,
+        "total": 7
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 16,
+      "recommendedActions": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
@@ -3269,157 +4266,187 @@
         "Reddit"
       ],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
-      "id": "best-desk-mats::Grovemade Wool Felt Desk Pad",
-      "product": "Grovemade Wool Felt Desk Pad",
-      "page": "best-desk-mats",
-      "pageTitle": "Best Desk Mats",
+      "id": "best-recovery-sandals::Kane Revive",
+      "product": "Kane Revive",
+      "page": "best-recovery-sandals",
+      "pageTitle": "Best Recovery Sandals",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best active recovery shoe",
+      "bestFor": "People who want washable recovery footwear for errands, gym, and travel",
+      "avoidIf": "You want an open slide or maximum softness.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Kane%20Revive",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 3,
+        "reddit": 4,
+        "total": 11
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 16,
+      "recommendedActions": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-webcams-for-remote-work::Logitech MX Brio",
+      "product": "Logitech MX Brio",
+      "page": "best-webcams-for-remote-work",
+      "pageTitle": "Best Webcams for Remote Work",
       "section": "remote-work",
       "dataSource": "core",
       "rank": null,
-      "tag": "Best premium material",
-      "bestFor": "Design-focused workspaces that prioritize texture and premium feel",
-      "avoidIf": "You need easy wipe-clean spill resistance.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Grovemade%20Wool%20Felt%20Desk%20Pad",
+      "tag": "Best webcam for most remote workers",
+      "bestFor": "Professionals who want reliable 4K image quality with mainstream software support",
+      "avoidIf": "You want a budget webcam under $100.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20MX%20Brio",
       "affiliateStatus": "ready",
       "evidenceCounts": {
-        "expert": 2,
-        "youtube": 1,
-        "reddit": 3,
-        "total": 8
+        "expert": 3,
+        "youtube": 3,
+        "reddit": 5,
+        "total": 12
       },
       "missingChannels": [],
       "thinChannels": [
-        "YouTube"
+        "Reddit"
       ],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 16,
       "recommendedActions": [
-        "Add another exact YouTube review or comparison video."
+        "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
-      "id": "best-carry-on-luggage::Travelpro Platinum Elite 21-inch",
-      "product": "Travelpro Platinum Elite 21-inch",
-      "page": "best-carry-on-luggage",
-      "pageTitle": "Best Carry-On Luggage",
+      "id": "best-webcams-for-remote-work::Razer Kiyo Pro Ultra",
+      "product": "Razer Kiyo Pro Ultra",
+      "page": "best-webcams-for-remote-work",
+      "pageTitle": "Best Webcams for Remote Work",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best low-light webcam",
+      "bestFor": "Users in dim rooms who want a large sensor and strong image control",
+      "avoidIf": "You want a small unobtrusive work webcam.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Razer%20Kiyo%20Pro%20Ultra",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 3,
+        "reddit": 5,
+        "total": 12
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 16,
+      "recommendedActions": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-coffee-makers::Technivorm Moccamaster KBGV Select",
+      "product": "Technivorm Moccamaster KBGV Select",
+      "page": "best-coffee-makers",
+      "pageTitle": "Best Coffee Makers",
       "section": "lifestyle",
       "dataSource": "core",
       "rank": null,
-      "tag": "Best carry-on for most travelers",
-      "bestFor": "Frequent flyers who want practical organization and dependable wheels",
-      "avoidIf": "You want a hard-shell minimalist look.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Travelpro%20Platinum%20Elite%2021-inch",
+      "tag": "Best coffee maker for most enthusiasts",
+      "bestFor": "Daily drip drinkers who want simple, durable, excellent coffee",
+      "avoidIf": "You need programmability or a low price.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Technivorm%20Moccamaster%20KBGV%20Select",
       "affiliateStatus": "ready",
       "evidenceCounts": {
         "expert": 2,
         "youtube": 3,
-        "reddit": 1,
-        "total": 7
+        "reddit": 5,
+        "total": 11
       },
       "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
-      "id": "best-trail-shoes-for-100-miles::Topo Athletic Ultraventure 4",
-      "product": "Topo Athletic Ultraventure 4",
-      "page": "best-trail-shoes-for-100-miles",
-      "pageTitle": "Best Trail Shoes for 100 Miles",
-      "section": "outdoor",
+      "id": "best-massage-guns::Hyperice Hypervolt 2 Pro",
+      "product": "Hyperice Hypervolt 2 Pro",
+      "page": "best-massage-guns",
+      "pageTitle": "Best Massage Guns",
+      "section": "lifestyle",
       "dataSource": "core",
       "rank": null,
-      "tag": "Best for swelling feet",
-      "bestFor": "Ultra runners who need toe room without going fully zero-drop",
-      "avoidIf": "You want a sharp, fast, race-day feel.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Topo%20Athletic%20Ultraventure%204",
+      "tag": "Best quiet power",
+      "bestFor": "Users who want smooth power and quieter operation for regular use",
+      "avoidIf": "You want the most compact travel option.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Hyperice%20Hypervolt%202%20Pro",
       "affiliateStatus": "ready",
       "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 1,
-        "total": 7
+        "expert": 3,
+        "youtube": 2,
+        "reddit": 5,
+        "total": 11
       },
       "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
-      "id": "best-trail-shoes-for-wide-feet::Topo Athletic Ultraventure 4",
-      "product": "Topo Athletic Ultraventure 4",
-      "page": "best-trail-shoes-for-wide-feet",
-      "pageTitle": "Best Trail Shoes for Wide Feet",
-      "section": "outdoor",
+      "id": "best-air-purifiers::Coway Airmega AP-1512HH Mighty",
+      "product": "Coway Airmega AP-1512HH Mighty",
+      "page": "best-air-purifiers",
+      "pageTitle": "Best Air Purifiers",
+      "section": "lifestyle",
       "dataSource": "core",
       "rank": null,
-      "tag": "Best overall for wide feet",
-      "bestFor": "Wide forefeet that still need midfoot and heel security",
-      "avoidIf": "You prefer narrow race-shoe precision.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Topo%20Athletic%20Ultraventure%204",
+      "tag": "Best overall air purifier value",
+      "bestFor": "Bedrooms and medium rooms where proven performance and value matter",
+      "avoidIf": "You need smart app control or very large-room coverage.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Coway%20Airmega%20AP-1512HH%20Mighty",
       "affiliateStatus": "ready",
       "evidenceCounts": {
-        "expert": 0,
+        "expert": 2,
         "youtube": 3,
-        "reddit": 1,
-        "total": 7
+        "reddit": 5,
+        "total": 11
       },
       "missingChannels": [],
       "thinChannels": [
         "Reddit"
       ],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 16,
-      "recommendedActions": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "best-trail-shoes-for-muddy-conditions::Inov-8 X-Talon Ultra 260 V2",
-      "product": "Inov-8 X-Talon Ultra 260 V2",
-      "page": "best-trail-shoes-for-muddy-conditions",
-      "pageTitle": "Best Trail Shoes for Muddy Conditions",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best specialist mud shoe",
-      "bestFor": "Steep, soft, technical mud where grip matters above all else",
-      "avoidIf": "You want a comfortable road-to-trail shoe.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Inov-8%20X-Talon%20Ultra%20260%20V2",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 1,
-        "total": 7
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "Reddit"
-      ],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -3449,67 +4476,7 @@
         "YouTube"
       ],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 16,
-      "recommendedActions": [
-        "Add another exact YouTube review or comparison video."
-      ]
-    },
-    {
-      "id": "best-daily-trainers-for-marathon-training::New Balance Fresh Foam X 1080v14",
-      "product": "New Balance Fresh Foam X 1080v14",
-      "page": "best-daily-trainers-for-marathon-training",
-      "pageTitle": "Best Daily Trainers for Marathon Training",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best comfort-focused daily trainer",
-      "bestFor": "Runners who prioritize softness, comfort, and available width options",
-      "avoidIf": "You want a firmer, more structured ride.",
-      "affiliateUrl": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%201080v14",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 1,
-        "reddit": 6,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "YouTube"
-      ],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 16,
-      "recommendedActions": [
-        "Add another exact YouTube review or comparison video."
-      ]
-    },
-    {
-      "id": "best-marathon-shoes-for-heavy-runners::New Balance Fresh Foam X 1080v14",
-      "product": "New Balance Fresh Foam X 1080v14",
-      "page": "best-marathon-shoes-for-heavy-runners",
-      "pageTitle": "Best Marathon Shoes for Heavy Runners",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best for wide-fit comfort",
-      "bestFor": "Heavier runners who need soft cushioning and width options",
-      "avoidIf": "You want a firmer, more structured ride.",
-      "affiliateUrl": "https://www.amazon.com/s?k=New%20Balance%20Fresh%20Foam%20X%201080v14",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 1,
-        "reddit": 6,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "YouTube"
-      ],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video."
@@ -3539,7 +4506,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -3569,37 +4536,7 @@
         "Reddit"
       ],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
-      "opportunityScore": 16,
-      "recommendedActions": [
-        "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "best-comfortable-trail-running-shoes::Brooks Catamount 4",
-      "product": "Brooks Catamount 4",
-      "page": "best-comfortable-trail-running-shoes",
-      "pageTitle": "Top 10 Most Comfortable Trail Shoes",
-      "section": "outdoor",
-      "dataSource": "additions",
-      "rank": null,
-      "tag": "Best light comfort for faster days",
-      "bestFor": "Rolling singletrack, quicker trail days, and runners who want comfort without a bulky max-cushion feel.",
-      "avoidIf": "You need plush softness, deep mud grip, or a forgiving ultra shoe.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Catamount%204",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 5,
-        "reddit": 1,
-        "total": 8
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "Reddit"
-      ],
-      "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
@@ -3629,10 +4566,40 @@
         "Reddit"
       ],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 16,
       "recommendedActions": [
         "Add another owner discussion, ideally with long-term use or fit complaints."
+      ]
+    },
+    {
+      "id": "best-ergonomic-keyboards::Kinesis Freestyle2",
+      "product": "Kinesis Freestyle2",
+      "page": "best-ergonomic-keyboards",
+      "pageTitle": "Best Ergonomic Keyboards",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best true split for beginners",
+      "bestFor": "Users who want shoulder-width typing without going full enthusiast",
+      "avoidIf": "You want premium mechanical switches or compact travel size.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Kinesis%20Freestyle2",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 2,
+        "youtube": 3,
+        "reddit": 5,
+        "total": 11
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "updated": "September 5, 2026",
+      "daysSinceUpdated": 4,
+      "opportunityScore": 14,
+      "recommendedActions": [
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -3657,7 +4624,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3685,7 +4652,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3713,7 +4680,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3741,7 +4708,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3769,7 +4736,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3797,7 +4764,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3825,35 +4792,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-standing-desks::Vari Electric Standing Desk",
-      "product": "Vari Electric Standing Desk",
-      "page": "best-standing-desks",
-      "pageTitle": "Best Standing Desks",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best simple setup",
-      "bestFor": "Buyers who want a polished, easy-to-assemble desk without many decisions",
-      "avoidIf": "You want deep customization or the lowest possible price.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Vari%20Electric%20Standing%20Desk",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 2,
-        "reddit": 5,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3881,7 +4820,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3909,7 +4848,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3937,35 +4876,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-office-chairs::Branch Ergonomic Chair Pro",
-      "product": "Branch Ergonomic Chair Pro",
-      "page": "best-office-chairs",
-      "pageTitle": "Best Office Chairs",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best value ergonomic chair",
-      "bestFor": "Home-office buyers who want real ergonomic features below premium-chair pricing",
-      "avoidIf": "You want the longest warranty, premium materials, or a proven used-market icon.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Branch%20Ergonomic%20Chair%20Pro",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 3,
-        "reddit": 3,
-        "total": 9
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -3993,7 +4904,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4021,7 +4932,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4049,7 +4960,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4077,35 +4988,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-trail-running-poles::Leki Ultratrail FX.One Superlite",
-      "product": "Leki Ultratrail FX.One Superlite",
-      "page": "best-trail-running-poles",
-      "pageTitle": "Best Trail Running Poles",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best grip system",
-      "bestFor": "Runners who love Leki's shark grip and want race-focused speed",
-      "avoidIf": "You dislike glove-style straps or want budget pricing.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Leki%20Ultratrail%20FX.One%20Superlite",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 2,
-        "reddit": 2,
-        "total": 7
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4133,7 +5016,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4161,7 +5044,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4189,7 +5072,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4217,7 +5100,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4245,7 +5128,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4273,35 +5156,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-recovery-sandals::Kane Revive",
-      "product": "Kane Revive",
-      "page": "best-recovery-sandals",
-      "pageTitle": "Best Recovery Sandals",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best active recovery shoe",
-      "bestFor": "People who want washable recovery footwear for errands, gym, and travel",
-      "avoidIf": "You want an open slide or maximum softness.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Kane%20Revive",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 3,
-        "reddit": 4,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4329,35 +5184,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-webcams-for-remote-work::Logitech MX Brio",
-      "product": "Logitech MX Brio",
-      "page": "best-webcams-for-remote-work",
-      "pageTitle": "Best Webcams for Remote Work",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best webcam for most remote workers",
-      "bestFor": "Professionals who want reliable 4K image quality with mainstream software support",
-      "avoidIf": "You want a budget webcam under $100.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20MX%20Brio",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4385,175 +5212,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-webcams-for-remote-work::Razer Kiyo Pro Ultra",
-      "product": "Razer Kiyo Pro Ultra",
-      "page": "best-webcams-for-remote-work",
-      "pageTitle": "Best Webcams for Remote Work",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best low-light webcam",
-      "bestFor": "Users in dim rooms who want a large sensor and strong image control",
-      "avoidIf": "You want a small unobtrusive work webcam.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Razer%20Kiyo%20Pro%20Ultra",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-webcams-for-remote-work::Anker PowerConf C200",
-      "product": "Anker PowerConf C200",
-      "page": "best-webcams-for-remote-work",
-      "pageTitle": "Best Webcams for Remote Work",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best value webcam",
-      "bestFor": "Budget-focused remote workers who still want a clear image",
-      "avoidIf": "You want premium 4K quality or advanced tracking.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Anker%20PowerConf%20C200",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-desk-mats::Orbitkey Desk Mat",
-      "product": "Orbitkey Desk Mat",
-      "page": "best-desk-mats",
-      "pageTitle": "Best Desk Mats",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best overall desk mat",
-      "bestFor": "Remote workers who want a polished mat with document storage and cable control",
-      "avoidIf": "You want the cheapest large mat possible.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Orbitkey%20Desk%20Mat",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 2,
-        "reddit": 5,
-        "total": 10
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-desk-mats::Logitech Studio Series Desk Mat",
-      "product": "Logitech Studio Series Desk Mat",
-      "page": "best-desk-mats",
-      "pageTitle": "Best Desk Mats",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best budget color mat",
-      "bestFor": "Simple home-office setups that want color and desk protection",
-      "avoidIf": "You want premium materials or a very large work surface.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Logitech%20Studio%20Series%20Desk%20Mat",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 2,
-        "reddit": 3,
-        "total": 8
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-monitor-arms::Ergotron LX",
-      "product": "Ergotron LX",
-      "page": "best-monitor-arms",
-      "pageTitle": "Best Monitor Arms",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best overall monitor arm",
-      "bestFor": "Most single-monitor setups that need smooth adjustment and long-term reliability",
-      "avoidIf": "You need the cheapest possible arm.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Ergotron%20LX",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 10
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-monitor-arms::Fully Jarvis Monitor Arm",
-      "product": "Fully Jarvis Monitor Arm",
-      "page": "best-monitor-arms",
-      "pageTitle": "Best Monitor Arms",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best simple mainstream arm",
-      "bestFor": "Home-office users who want a clean, simple arm from a desk brand",
-      "avoidIf": "You need the strongest heavy-display support.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Fully%20Jarvis%20Monitor%20Arm",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 2,
-        "reddit": 6,
-        "total": 10
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4581,7 +5240,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4609,7 +5268,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4637,35 +5296,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-coffee-makers::Technivorm Moccamaster KBGV Select",
-      "product": "Technivorm Moccamaster KBGV Select",
-      "page": "best-coffee-makers",
-      "pageTitle": "Best Coffee Makers",
-      "section": "lifestyle",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best coffee maker for most enthusiasts",
-      "bestFor": "Daily drip drinkers who want simple, durable, excellent coffee",
-      "avoidIf": "You need programmability or a low price.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Technivorm%20Moccamaster%20KBGV%20Select",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4693,7 +5324,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4721,35 +5352,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-coffee-makers::Ninja 12-Cup Programmable Brewer",
-      "product": "Ninja 12-Cup Programmable Brewer",
-      "page": "best-coffee-makers",
-      "pageTitle": "Best Coffee Makers",
-      "section": "lifestyle",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best budget family coffee maker",
-      "bestFor": "Families who want affordable programmable drip coffee",
-      "avoidIf": "You want specialty-grade consistency or premium materials.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Ninja%2012-Cup%20Programmable%20Brewer",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 3,
-        "reddit": 3,
-        "total": 9
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4777,35 +5380,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-massage-guns::Hyperice Hypervolt 2 Pro",
-      "product": "Hyperice Hypervolt 2 Pro",
-      "page": "best-massage-guns",
-      "pageTitle": "Best Massage Guns",
-      "section": "lifestyle",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best quiet power",
-      "bestFor": "Users who want smooth power and quieter operation for regular use",
-      "avoidIf": "You want the most compact travel option.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Hyperice%20Hypervolt%202%20Pro",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 2,
-        "reddit": 5,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4833,35 +5408,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-air-purifiers::Coway Airmega AP-1512HH Mighty",
-      "product": "Coway Airmega AP-1512HH Mighty",
-      "page": "best-air-purifiers",
-      "pageTitle": "Best Air Purifiers",
-      "section": "lifestyle",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best overall air purifier value",
-      "bestFor": "Bedrooms and medium rooms where proven performance and value matter",
-      "avoidIf": "You need smart app control or very large-room coverage.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Coway%20Airmega%20AP-1512HH%20Mighty",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4889,7 +5436,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4917,7 +5464,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4945,7 +5492,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -4973,35 +5520,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-trail-shoes-for-100-miles::Brooks Cascadia 19",
-      "product": "Brooks Cascadia 19",
-      "page": "best-trail-shoes-for-100-miles",
-      "pageTitle": "Best Trail Shoes for 100 Miles",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best stable ultra option",
-      "bestFor": "Runners who want a traditional protective shoe for rocky or uneven courses",
-      "avoidIf": "You want soft max cushion or a lively supertrainer feel.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5029,7 +5548,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5057,7 +5576,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5085,7 +5604,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5113,7 +5632,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5141,35 +5660,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-trail-shoes-for-wide-feet::Altra Lone Peak 9",
-      "product": "Altra Lone Peak 9",
-      "page": "best-trail-shoes-for-wide-feet",
-      "pageTitle": "Best Trail Shoes for Wide Feet",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best natural toe box",
-      "bestFor": "Runners who want maximum toe splay and zero-drop trail feel",
-      "avoidIf": "You are not adapted to zero-drop shoes.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Altra%20Lone%20Peak%209",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5197,63 +5688,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-trail-shoes-for-wide-feet::Brooks Cascadia 19",
-      "product": "Brooks Cascadia 19",
-      "page": "best-trail-shoes-for-wide-feet",
-      "pageTitle": "Best Trail Shoes for Wide Feet",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best traditional wide option",
-      "bestFor": "Runners who want stable, protective trail feel with conventional sizing options",
-      "avoidIf": "You want maximum toe splay.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-trail-shoes-for-muddy-conditions::Salomon Speedcross 6",
-      "product": "Salomon Speedcross 6",
-      "page": "best-trail-shoes-for-muddy-conditions",
-      "pageTitle": "Best Trail Shoes for Muddy Conditions",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best overall for mud",
-      "bestFor": "Soft ground, wet grass, sloppy trails, and mud-heavy races",
-      "avoidIf": "You run lots of pavement or hardpack between muddy sections.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Salomon%20Speedcross%206",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5281,7 +5716,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5309,35 +5744,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-trail-shoes-for-beginners::Brooks Cascadia 19",
-      "product": "Brooks Cascadia 19",
-      "page": "best-trail-shoes-for-beginners",
-      "pageTitle": "Best Trail Shoes for Beginners",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best beginner trail shoe",
-      "bestFor": "Road runners who want a stable, protective first trail shoe",
-      "avoidIf": "You want a very soft or very fast-feeling trail shoe.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Cascadia%2019",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5365,7 +5772,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5393,7 +5800,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5421,7 +5828,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5449,7 +5856,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5477,7 +5884,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5505,7 +5912,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5533,7 +5940,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5561,7 +5968,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5589,287 +5996,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-road-shoe-for-your-first-marathon::ASICS Novablast 5",
-      "product": "ASICS Novablast 5",
-      "page": "best-road-shoe-for-your-first-marathon",
-      "pageTitle": "Best Road Shoe for Your First Marathon",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best first marathon shoe for most runners",
-      "bestFor": "First-time marathoners who want cushioning, bounce, and training versatility",
-      "avoidIf": "You need a very stable traditional platform.",
-      "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Novablast%205",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-road-shoe-for-your-first-marathon::Brooks Ghost 17",
-      "product": "Brooks Ghost 17",
-      "page": "best-road-shoe-for-your-first-marathon",
-      "pageTitle": "Best Road Shoe for Your First Marathon",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best safe traditional choice",
-      "bestFor": "Runners who want predictable comfort and a familiar daily-trainer feel",
-      "avoidIf": "You want a lively modern foam sensation.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Ghost%2017",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-road-shoe-for-your-first-marathon::Saucony Ride 18",
-      "product": "Saucony Ride 18",
-      "page": "best-road-shoe-for-your-first-marathon",
-      "pageTitle": "Best Road Shoe for Your First Marathon",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best balanced trainer",
-      "bestFor": "First marathoners who want one shoe for most training and race day",
-      "avoidIf": "You want maximum cushion or a plated race feel.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Ride%2018",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-road-shoe-for-your-first-marathon::Nike Pegasus 41",
-      "product": "Nike Pegasus 41",
-      "page": "best-road-shoe-for-your-first-marathon",
-      "pageTitle": "Best Road Shoe for Your First Marathon",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best familiar Nike option",
-      "bestFor": "Runners who already like Nike fit and want an everyday trainer for the build",
-      "avoidIf": "Your long runs need softer protection.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Nike%20Pegasus%2041",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-daily-trainers-for-marathon-training::ASICS Novablast 5",
-      "product": "ASICS Novablast 5",
-      "page": "best-daily-trainers-for-marathon-training",
-      "pageTitle": "Best Daily Trainers for Marathon Training",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best daily trainer for marathon training",
-      "bestFor": "Runners who want one shoe for daily miles, long runs, and some faster work",
-      "avoidIf": "You need a very grounded stable ride.",
-      "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Novablast%205",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-daily-trainers-for-marathon-training::Saucony Ride 18",
-      "product": "Saucony Ride 18",
-      "page": "best-daily-trainers-for-marathon-training",
-      "pageTitle": "Best Daily Trainers for Marathon Training",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best steady daily trainer",
-      "bestFor": "Runners who want a dependable shoe for most weekly mileage",
-      "avoidIf": "You want a dramatic, superfoam ride.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Saucony%20Ride%2018",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-daily-trainers-for-marathon-training::HOKA Clifton 10",
-      "product": "HOKA Clifton 10",
-      "page": "best-daily-trainers-for-marathon-training",
-      "pageTitle": "Best Daily Trainers for Marathon Training",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best lightweight cushioned option",
-      "bestFor": "Runners who like a rockered easy-day trainer for marathon mileage",
-      "avoidIf": "You disliked the changed Clifton geometry or need a very stable base.",
-      "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Clifton%2010",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-marathon-shoes-for-heavy-runners::ASICS Gel-Nimbus 27",
-      "product": "ASICS Gel-Nimbus 27",
-      "page": "best-marathon-shoes-for-heavy-runners",
-      "pageTitle": "Best Marathon Shoes for Heavy Runners",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best overall for heavier marathon runners",
-      "bestFor": "Runners who want plush protection and stable comfort through long runs",
-      "avoidIf": "You want a lightweight race-day feel.",
-      "affiliateUrl": "https://www.amazon.com/s?k=ASICS%20Gel-Nimbus%2027",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-marathon-shoes-for-heavy-runners::Brooks Glycerin 22",
-      "product": "Brooks Glycerin 22",
-      "page": "best-marathon-shoes-for-heavy-runners",
-      "pageTitle": "Best Marathon Shoes for Heavy Runners",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best premium traditional trainer",
-      "bestFor": "Runners who want soft comfort with a more conventional stable feel",
-      "avoidIf": "You want a bouncy modern ride.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Brooks%20Glycerin%2022",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
-      "opportunityScore": 10,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-marathon-shoes-for-heavy-runners::HOKA Bondi 9",
-      "product": "HOKA Bondi 9",
-      "page": "best-marathon-shoes-for-heavy-runners",
-      "pageTitle": "Best Marathon Shoes for Heavy Runners",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best max-cushion easy trainer",
-      "bestFor": "Runners who want maximum cushion for easy runs, recovery, and run-walk marathon plans",
-      "avoidIf": "You want one shoe for faster workouts too.",
-      "affiliateUrl": "https://www.amazon.com/s?k=HOKA%20Bondi%209",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 0,
-        "youtube": 3,
-        "reddit": 6,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5897,7 +6024,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5925,7 +6052,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5953,7 +6080,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -5981,7 +6108,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6009,7 +6136,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6037,7 +6164,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6065,10 +6192,40 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "opportunityScore": 10,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
+      ]
+    },
+    {
+      "id": "best-running-headphones::Beats Powerbeats Pro 2",
+      "product": "Beats Powerbeats Pro 2",
+      "page": "best-running-headphones",
+      "pageTitle": "Best Running Headphones",
+      "section": "outdoor",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best secure sport earbuds",
+      "bestFor": "Runners who want ear hooks, stronger sound, and sealed-ear workout performance",
+      "avoidIf": "You dislike bulky cases or need to hear traffic clearly without transparency mode.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Beats%20Powerbeats%20Pro%202",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 3,
+        "youtube": 3,
+        "reddit": 5,
+        "total": 12
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "updated": "September 5, 2026",
+      "daysSinceUpdated": 4,
+      "opportunityScore": 6,
+      "recommendedActions": [
+        "Add another owner discussion, ideally with long-term use or fit complaints."
       ]
     },
     {
@@ -6093,7 +6250,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6121,7 +6278,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6149,7 +6306,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6177,7 +6334,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6205,35 +6362,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
-      "opportunityScore": 0,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-running-headphones::Beats Powerbeats Pro 2",
-      "product": "Beats Powerbeats Pro 2",
-      "page": "best-running-headphones",
-      "pageTitle": "Best Running Headphones",
-      "section": "outdoor",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best secure sport earbuds",
-      "bestFor": "Runners who want ear hooks, stronger sound, and sealed-ear workout performance",
-      "avoidIf": "You dislike bulky cases or need to hear traffic clearly without transparency mode.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Beats%20Powerbeats%20Pro%202",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 3,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 12
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6261,7 +6390,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6289,7 +6418,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6317,7 +6446,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6345,7 +6474,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6373,7 +6502,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6401,7 +6530,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6429,35 +6558,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
-      "opportunityScore": 0,
-      "recommendedActions": [
-        "Monitor clicks and refresh if rankings or product availability change."
-      ]
-    },
-    {
-      "id": "best-ergonomic-keyboards::Kinesis Freestyle2",
-      "product": "Kinesis Freestyle2",
-      "page": "best-ergonomic-keyboards",
-      "pageTitle": "Best Ergonomic Keyboards",
-      "section": "remote-work",
-      "dataSource": "core",
-      "rank": null,
-      "tag": "Best true split for beginners",
-      "bestFor": "Users who want shoulder-width typing without going full enthusiast",
-      "avoidIf": "You want premium mechanical switches or compact travel size.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Kinesis%20Freestyle2",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 3,
-        "reddit": 5,
-        "total": 11
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6485,7 +6586,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."
@@ -6513,7 +6614,7 @@
       "missingChannels": [],
       "thinChannels": [],
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "opportunityScore": 0,
       "recommendedActions": [
         "Monitor clicks and refresh if rankings or product availability change."

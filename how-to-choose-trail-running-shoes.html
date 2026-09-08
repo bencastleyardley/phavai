@@ -6,6 +6,11 @@
 
 
 
+
+
+
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   {
@@ -115,13 +120,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -131,12 +133,17 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/outdoor.html">Phavai / Outdoor / How to choose</a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+              <span aria-current="page">How to choose</span>
+            </nav>
             <h1>How to Choose Trail Running Shoes</h1>
             <p class="lede">Trail running shoes are not just road shoes with lugs. The right pair depends on terrain, distance, weather, fit, and how much ground feel you want. This guide explains the decisions that matter before you compare specific ranked picks.</p>
             <div class="meta-row">
               <span class="meta-pill">How to choose</span>
               <span class="meta-pill">Updated April 20, 2026</span>
+
               <span class="meta-pill">Supports Outdoor buying guides</span>
             </div>
             <p class="review-byline">AI-assisted research · Human review by <a href="/about.html#ben-yardley">Ben Yardley</a>, outdoor-media professional, trail runner, ultrarunner, and climber. This is research synthesis, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
@@ -145,21 +152,25 @@
           <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
               <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Start with terrain.</h2>
-              <p>Smooth dirt paths reward lighter shoes with moderate lugs. Rocky, rooty, or off-camber trails usually need more protection, a secure upper, and an...</p>
+              <h2 id="quick-answer-heading">What to know first</h2>
+              <p>Trail running shoes are not just road shoes with lugs. The right pair depends on terrain, distance, weather, fit, and how much ground feel you want.</p>
             </div>
             <div class="quick-answer-actions">
 
-                <a class="button" href="/best-mens-trail-running-shoes.html">Open buying guide</a>
+                <a class="button" href="/best-mens-trail-running-shoes.html" data-guide-link data-guide-placement="supporting-quick-answer">Open buying guide</a>
 
-
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="https://www.amazon.com/Sportiva-Prodigio-Sneaker-Black-Yellow/dp/B0D68B4LD5?crid=2OCH0KYL18ZHK&amp;dib=eyJ2IjoiMSJ9.IPtJqAena_aFSZj9U3Y_eGSoO_XHilPJNhvWxJtIgRhD1b9iVNCAYjnEruipAZNel94NAIwzlSFGInQwHeOS3dfIYIzs4q_w8_qFeTMD4RnTbQvg34fkgSKufPvSndrc03CMUMSskFdLjHGaZ_vHRj2Nk6mlymgpF0pqEswqKU8KgHfIP8NADgQpvXnSBCyl-ho3zvqtK9wK-hScS6LAE6qZemZIxwhKsZ0-LYiq3_an_hByvkMahiIEkub3qV-ND7OMRh1It48E8bFdu_uCQSBN09QYDS-iCiG50vjhTQY.S9RLWVQevxM_hEbFHts9j45DEJTOT2TAnzrjCmUXLBU&amp;dib_tag=se&amp;keywords=la%2Bsportiva%2Bprodigio%2Bpro%2Bmen&amp;qid=1777559653&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=La%2BSportiva%2BProdigio%2BPro%2Caps%2C1276&amp;sr=8-5&amp;th=1&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=9b0f9085164be60149da2e7f4a49bd6e&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for La Sportiva Prodigio Pro" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Men&#39;s Trail Running Shoes" data-section="Outdoor" data-product-name="La Sportiva Prodigio Pro" data-product-rank="1" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="supporting-quick-answer">Check price at Amazon</a>
 
             </div>
           </section>
 
         </div>
+        <nav class="page-jump-nav" aria-label="On this article">
+          <span>In this article</span>
+          <a href="#section-1-start-with-terrain">Start with terrain</a><a href="#section-2-match-cushioning-to-distance">Match cushioning to distance</a><a href="#section-3-treat-fit-as-performance">Treat fit as performance</a><a href="#section-4-do-not-overbuy-race-tech">Do not overbuy race tech</a>
+
+          <a href="#decision-heading">Decision checklist</a>
+          <a href="#faq-heading">Questions</a>
+        </nav>
       </div>
     </section>
 
@@ -168,22 +179,22 @@
         <article class="content-column">
           <div class="supporting-body supporting-prose">
 
-              <section>
+              <section id="section-1-start-with-terrain">
                 <h2>Start with terrain</h2>
                 <p>Smooth dirt paths reward lighter shoes with moderate lugs. Rocky, rooty, or off-camber trails usually need more protection, a secure upper, and an outsole that grips wet rock and loose dirt. Mud-heavy routes need deeper, more widely spaced lugs.</p>
               </section>
 
-              <section>
+              <section id="section-2-match-cushioning-to-distance">
                 <h2>Match cushioning to distance</h2>
                 <p>Max-cushion shoes can protect tired legs over long efforts, but they may feel less precise on technical trails. Lower-stack shoes can feel nimble and stable, but may punish your feet during ultras or rocky descents.</p>
               </section>
 
-              <section>
+              <section id="section-3-treat-fit-as-performance">
                 <h2>Treat fit as performance</h2>
                 <p>A trail shoe should hold your midfoot and heel securely without crushing toes on descents. Wide feet, high volume feet, and steep downhill routes make fit more important than almost any spec sheet number.</p>
               </section>
 
-              <section>
+              <section id="section-4-do-not-overbuy-race-tech">
                 <h2>Do not overbuy race tech</h2>
                 <p>Plated or race-focused trail shoes can be fast, but they are not always the best daily trainer. Most runners should buy the shoe that works for 80 percent of their trail miles, then add a specialized race shoe later.</p>
               </section>
@@ -193,9 +204,32 @@
 
 
 
+          <section class="comparison-section" aria-labelledby="decision-heading">
+            <div class="section-kicker">Decision checklist</div>
+            <h2 id="decision-heading">Turn the advice into a shortlist</h2>
+            <div class="research-decision-grid">
+              <article><span>1 · Use case</span><strong>Name the job first</strong><p>Write down where, how often, and for how long you will use the product. That keeps attractive extras from outranking the need that brought you here.</p></article>
+              <article><span>2 · Non-negotiable</span><strong>Choose one must-have</strong><p>Pick the fit, format, size, comfort, or compatibility requirement that would make the purchase fail if it were wrong.</p></article>
+              <article><span>3 · Tradeoff</span><strong>Accept a downside on purpose</strong><p>Compare the recurring complaint attached to each option. A known compromise is easier to live with than a surprise after checkout.</p></article>
+              <article><span>4 · Verify</span><strong>Check the exact model</strong><p>Use a related buying guide to inspect product-specific sources, then confirm the seller, version, current price, and return terms at the retailer.</p></article>
+            </div>
+          </section>
 
 
 
+
+
+          <section class="research-source-panel supporting-sources supporting-sources--context" aria-labelledby="sources-heading">
+            <div>
+              <div class="section-kicker">Evidence trail</div>
+              <h2 id="sources-heading">Where to check the product evidence</h2>
+              <p>This explainer summarizes the decision factors used across Phavai's linked buying guides. Open a related roundup for product-specific expert reviews, owner feedback, specifications, and source dates.</p>
+            </div>
+            <div class="research-source-links">
+              <a href="/best-mens-trail-running-shoes.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Men&#39;s Trail Running Shoes<span>See source trail</span></a><a href="/best-womens-trail-running-shoes.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Women&#39;s Trail Running Shoes<span>See source trail</span></a><a href="/best-trail-running-poles.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Trail Running Poles<span>See source trail</span></a>
+              <a href="/methodology.html">Phavai research methodology<span>How evidence is handled</span></a>
+            </div>
+          </section>
 
 
 
@@ -229,13 +263,13 @@
           <p>Use these guides when you are ready to move from advice to a specific shortlist.</p>
           <div class="link-list compact">
 
-              <a href="/best-mens-trail-running-shoes.html"><span>Best Men&#39;s Trail Running Shoes</span><span>Guide</span></a>
+              <a href="/best-mens-trail-running-shoes.html" data-guide-link data-guide-placement="supporting-related"><span>Best Men&#39;s Trail Running Shoes</span><span>Guide</span></a>
 
-              <a href="/best-womens-trail-running-shoes.html"><span>Best Women&#39;s Trail Running Shoes</span><span>Guide</span></a>
+              <a href="/best-womens-trail-running-shoes.html" data-guide-link data-guide-placement="supporting-related"><span>Best Women&#39;s Trail Running Shoes</span><span>Guide</span></a>
 
-              <a href="/best-trail-running-poles.html"><span>Best Trail Running Poles</span><span>Guide</span></a>
+              <a href="/best-trail-running-poles.html" data-guide-link data-guide-placement="supporting-related"><span>Best Trail Running Poles</span><span>Guide</span></a>
 
-            <a href="/outdoor.html"><span>All Outdoor guides</span><span>Hub</span></a>
+            <a href="/outdoor.html" data-guide-link data-guide-placement="supporting-related"><span>All Outdoor guides</span><span>Hub</span></a>
           </div>
           <p class="disclosure">Editorial guidance is written to support clearer buying decisions. Retail links stay separate from pick order.</p>
         </aside>
@@ -244,19 +278,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/editorial-standards.html">Editorial Standards</a>
-        <a href="/methodology.html">Methodology</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

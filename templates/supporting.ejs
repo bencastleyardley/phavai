@@ -1,27 +1,32 @@
 <% const ogImage = page.image.startsWith("http") ? page.image : `https://www.phavai.com${page.image}`; %>
-<% const quickTake = page.sections?.[0]; %>
-<% const quickTakeCopy = quickTake?.body || page.intro; %>
-<% const quickTakeSummary = quickTakeCopy.length > 155 ? `${quickTakeCopy.slice(0, 152).replace(/\s+\S*$/, "")}...` : quickTakeCopy; %>
-<% const featuredReview = relatedReviews?.[0]; %>
-<% const featuredProduct = featuredReview?.products?.[0]; %>
-<% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
 <% const comparisonProducts = (page.comparisonProductNames || []).map((name) => relatedReviews.flatMap((review) => review.products || []).find((product) => product.name === name)).filter(Boolean).filter((product, index, list) => list.findIndex((item) => item.name === product.name) === index); %>
+<% const quickTakeCopy = page.quickAnswer || page.intro; %>
+<% const sentenceSummary = (value, maxLength = 220) => { const text = String(value || "").replace(/\s+/g, " ").trim(); if (text.length <= maxLength) return text; const excerpt = text.slice(0, maxLength + 1); const boundary = Math.max(excerpt.lastIndexOf(". "), excerpt.lastIndexOf("? "), excerpt.lastIndexOf("! ")); return boundary >= 80 ? excerpt.slice(0, boundary + 1) : `${excerpt.slice(0, maxLength - 1).replace(/\s+\S*$/, "").replace(/[,:;\-\s]+$/, "")}…`; }; %>
+<% const quickTakeSummary = page.quickAnswer ? quickTakeCopy : sentenceSummary(quickTakeCopy); %>
+<% const featuredReview = relatedReviews.find((review) => review.slug === page.primaryReviewSlug) || relatedReviews?.[0]; %>
+<% const allRelatedProducts = relatedReviews.flatMap((review) => review.products || []); %>
+<% const featuredProduct = comparisonProducts.find((product) => product.name === page.primaryProductName) || allRelatedProducts.find((product) => product.name === page.primaryProductName) || comparisonProducts[0] || featuredReview?.products?.[0]; %>
+<% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
+<% const hasDirectProductEvidence = Boolean(page.sources?.length || comparisonProducts.length); %>
+<% const sectionId = (heading, index) => `section-${index + 1}-${heading.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`; %>
+<% const pageTitle = page.metaTitle || `${page.title} | Phavai`; %>
+<% const pageDescription = page.metaDescription || page.description; %>
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title><%= page.title %> | Phavai</title>
-  <meta name="description" content="<%= page.description %>" />
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDescription %>" />
   <meta name="robots" content="max-image-preview:large" />
   <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="<%= page.title %> | Phavai" />
-  <meta property="og:description" content="<%= page.description %>" />
+  <meta property="og:title" content="<%= pageTitle %>" />
+  <meta property="og:description" content="<%= pageDescription %>" />
   <meta property="og:image" content="<%= ogImage %>" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="<%= page.title %> | Phavai" />
-  <meta name="twitter:description" content="<%= page.description %>" />
+  <meta name="twitter:title" content="<%= pageTitle %>" />
+  <meta name="twitter:description" content="<%= pageDescription %>" />
   <meta name="twitter:image" content="<%= ogImage %>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,7 +38,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": page.title,
-    "description": page.description,
+    "description": pageDescription,
     "datePublished": page.datePublished,
     "dateModified": page.dateModified,
     "image": ogImage,
@@ -99,30 +104,35 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/<%= section.slug %>.html">Phavai / <%= section.title %> / <%= page.type %></a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <a href="/<%= section.slug %>.html"><%= section.title %></a><span aria-hidden="true">/</span>
+              <span aria-current="page"><%= page.type %></span>
+            </nav>
             <h1><%= page.title %></h1>
             <p class="lede"><%= page.intro %></p>
             <div class="meta-row">
               <span class="meta-pill"><%= page.type %></span>
               <span class="meta-pill">Updated <%= page.updated %></span>
+              <% if (page.sources?.length) { %><span class="meta-pill"><%= page.sources.length %> primary source<%= page.sources.length === 1 ? "" : "s" %> linked</span><% } %>
               <span class="meta-pill">Supports <%= section.title %> buying guides</span>
             </div>
             <p class="review-byline">AI-assisted research · Human review by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.expertiseSections.includes(section.slug) ? editorialProfile.outdoorByline : editorialProfile.generalByline %>. This is research synthesis, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
           </div>
-          <% if (quickTake || featuredReview) { %>
+          <% if (quickTakeCopy || featuredReview) { %>
           <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
               <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading"><%= quickTake?.heading || `Start with ${featuredReview.title}` %>.</h2>
+              <h2 id="quick-answer-heading"><%= page.quickAnswerHeading || "What to know first" %></h2>
               <p><%= quickTakeSummary %></p>
             </div>
             <div class="quick-answer-actions">
               <% if (featuredReview) { %>
-                <a class="button" href="/<%= featuredReview.slug %>.html">Open buying guide</a>
+                <a class="button" href="/<%= featuredReview.slug %>.html" data-guide-link data-guide-placement="supporting-quick-answer">Open buying guide</a>
               <% } else { %>
-                <a class="button" href="/<%= section.slug %>.html">Browse guides</a>
+                <a class="button" href="/<%= section.slug %>.html" data-guide-link data-guide-placement="supporting-quick-answer">Browse guides</a>
               <% } %>
-              <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
+              <% if (affiliateConfig?.affiliateEnabled && hasDirectProductEvidence && featuredProduct && featuredLink) { %>
                 <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                 <a class="button secondary shopping-button supporting-retailer-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %> for <%= featuredProduct.name %>" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="supporting-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
               <% } %>
@@ -132,6 +142,13 @@
             <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
           <% } %>
         </div>
+        <nav class="page-jump-nav" aria-label="On this article">
+          <span>In this article</span>
+          <% page.sections.forEach((sectionBlock, index) => { %><a href="#<%= sectionId(sectionBlock.heading, index) %>"><%= sectionBlock.heading %></a><% }) %>
+          <% if (page.comparisonTable?.rows?.length) { %><a href="#supporting-comparison-heading">Comparison</a><% } %>
+          <a href="#decision-heading">Decision checklist</a>
+          <% if (page.faqs?.length) { %><a href="#faq-heading">Questions</a><% } %>
+        </nav>
       </div>
     </section>
 
@@ -139,8 +156,8 @@
       <div class="wrap ranking-layout">
         <article class="content-column">
           <div class="supporting-body supporting-prose">
-            <% page.sections.forEach((sectionBlock) => { %>
-              <section>
+            <% page.sections.forEach((sectionBlock, index) => { %>
+              <section id="<%= sectionId(sectionBlock.heading, index) %>">
                 <h2><%= sectionBlock.heading %></h2>
                 <p><%= sectionBlock.body %></p>
               </section>
@@ -151,10 +168,10 @@
           <section class="comparison-section supporting-comparison" aria-labelledby="supporting-comparison-heading">
             <div class="section-kicker">Direct comparison</div>
             <h2 id="supporting-comparison-heading"><%= page.comparisonHeading || "Compare the options before you choose" %></h2>
-            <div class="research-table-scroll">
+            <div class="research-table-scroll" tabindex="0" role="region" aria-label="Scrollable comparison table">
               <table class="research-table">
                 <% if (page.comparisonTable.caption) { %><caption><%= page.comparisonTable.caption %></caption><% } %>
-                <thead><tr><% page.comparisonTable.columns.forEach((column) => { %><th><%= column %></th><% }) %></tr></thead>
+                <thead><tr><% page.comparisonTable.columns.forEach((column) => { %><th scope="col"><%= column %></th><% }) %></tr></thead>
                 <tbody>
                   <% page.comparisonTable.rows.forEach((row) => { %>
                     <tr><% row.forEach((cell, index) => { %><% if (index === 0) { %><th scope="row"><%= cell %></th><% } else { %><td><%= cell %></td><% } %><% }) %></tr>
@@ -189,6 +206,17 @@
               <% }) %>
             </div>
           </section>
+          <% } else { %>
+          <section class="comparison-section" aria-labelledby="decision-heading">
+            <div class="section-kicker">Decision checklist</div>
+            <h2 id="decision-heading">Turn the advice into a shortlist</h2>
+            <div class="research-decision-grid">
+              <article><span>1 · Use case</span><strong>Name the job first</strong><p>Write down where, how often, and for how long you will use the product. That keeps attractive extras from outranking the need that brought you here.</p></article>
+              <article><span>2 · Non-negotiable</span><strong>Choose one must-have</strong><p>Pick the fit, format, size, comfort, or compatibility requirement that would make the purchase fail if it were wrong.</p></article>
+              <article><span>3 · Tradeoff</span><strong>Accept a downside on purpose</strong><p>Compare the recurring complaint attached to each option. A known compromise is easier to live with than a surprise after checkout.</p></article>
+              <article><span>4 · Verify</span><strong>Check the exact model</strong><p>Use a related buying guide to inspect product-specific sources, then confirm the seller, version, current price, and return terms at the retailer.</p></article>
+            </div>
+          </section>
           <% } %>
 
           <% if (page.resourceLinks?.length) { %>
@@ -196,7 +224,7 @@
             <div class="section-kicker">Continue comparing</div>
             <h2 id="resources-heading"><%= page.resourcesHeading || `Keep exploring ${section.title.toLowerCase()}` %></h2>
             <div class="link-list">
-              <% page.resourceLinks.forEach((link) => { %><a href="<%= link.url %>"><span><%= link.label %></span><span>Open</span></a><% }) %>
+              <% page.resourceLinks.forEach((link) => { %><a href="<%= link.url %>" data-guide-link data-guide-placement="supporting-resource"><span><%= link.label %></span><span>Open</span></a><% }) %>
             </div>
           </section>
           <% } %>
@@ -210,6 +238,18 @@
             </div>
             <div class="research-source-links">
               <% page.sources.forEach((source) => { %><a href="<%= source.url %>" target="_blank" rel="noopener"><%= source.label %><span>Open source</span></a><% }) %>
+            </div>
+          </section>
+          <% } else { %>
+          <section class="research-source-panel supporting-sources supporting-sources--context" aria-labelledby="sources-heading">
+            <div>
+              <div class="section-kicker">Evidence trail</div>
+              <h2 id="sources-heading">Where to check the product evidence</h2>
+              <p>This explainer summarizes the decision factors used across Phavai's linked buying guides. Open a related roundup for product-specific expert reviews, owner feedback, specifications, and source dates.</p>
+            </div>
+            <div class="research-source-links">
+              <% relatedReviews.slice(0, 3).forEach((review) => { %><a href="/<%= review.slug %>.html" data-guide-link data-guide-placement="supporting-evidence-trail"><%= review.title %><span>See source trail</span></a><% }) %>
+              <a href="/methodology.html">Phavai research methodology<span>How evidence is handled</span></a>
             </div>
           </section>
           <% } %>
@@ -235,9 +275,9 @@
           <p>Use these guides when you are ready to move from advice to a specific shortlist.</p>
           <div class="link-list compact">
             <% relatedReviews.forEach((review) => { %>
-              <a href="/<%= review.slug %>.html"><span><%= review.title %></span><span>Guide</span></a>
+              <a href="/<%= review.slug %>.html" data-guide-link data-guide-placement="supporting-related"><span><%= review.title %></span><span>Guide</span></a>
             <% }) %>
-            <a href="/<%= section.slug %>.html"><span>All <%= section.title %> guides</span><span>Hub</span></a>
+            <a href="/<%= section.slug %>.html" data-guide-link data-guide-placement="supporting-related"><span>All <%= section.title %> guides</span><span>Hub</span></a>
           </div>
           <p class="disclosure">Editorial guidance is written to support clearer buying decisions. Retail links stay separate from pick order.</p>
         </aside>

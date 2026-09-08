@@ -6,6 +6,11 @@
 
 
 
+
+
+
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   {
@@ -115,13 +120,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -131,12 +133,17 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Comparison</a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+              <span aria-current="page">Comparison</span>
+            </nav>
             <h1>Hydration Pack vs Running Vest: Which Should You Buy?</h1>
             <p class="lede">Hydration packs and running vests overlap, but they solve slightly different problems. The right choice depends on how much water, clothing, nutrition, and emergency gear you carry.</p>
             <div class="meta-row">
               <span class="meta-pill">Comparison</span>
               <span class="meta-pill">Updated April 20, 2026</span>
+
               <span class="meta-pill">Supports Outdoor buying guides</span>
             </div>
             <p class="review-byline">AI-assisted research · Human review by <a href="/about.html#ben-yardley">Ben Yardley</a>, outdoor-media professional, trail runner, ultrarunner, and climber. This is research synthesis, not implied hands-on testing. <a href="/methodology.html">How it works</a>.</p>
@@ -145,21 +152,25 @@
           <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
             <div class="quick-answer-main">
               <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Choose a running vest for shorter efforts.</h2>
-              <p>Running vests are usually lighter, closer fitting, and built around front flask access. They work well for road long runs, moderate trail runs, and...</p>
+              <h2 id="quick-answer-heading">What to know first</h2>
+              <p>Hydration packs and running vests overlap, but they solve slightly different problems. The right choice depends on how much water, clothing, nutrition, and emergency gear you carry.</p>
             </div>
             <div class="quick-answer-actions">
 
-                <a class="button" href="/best-hydration-packs.html">Open buying guide</a>
+                <a class="button" href="/best-hydration-packs.html" data-guide-link data-guide-placement="supporting-quick-answer">Open buying guide</a>
 
-
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="https://www.amazon.com/Salomon-Unisex-Hydration-Flask-Berry/dp/B0992F7C9P?crid=DT50O7NEG38C&amp;dib=eyJ2IjoiMSJ9.dCSv546GF3rhiavIYE07EIJOQfzPDnGNw-oqf_29vPewv9QR8ySXTvWPh0Yqf5UxEgAvH2Y45ulCdP2brDZP92ZGOrNAz0H3s5nP-B1kqDu7xdwS1q36YGTmw-8FkB9yqsopEE8DEvawEzDDMJ0XIa3LeqW_fUJFWDwu4u3BYK1lvBpTEL1SMbr_rZuaWM-9Y9KXsD-Voxe0DMw6F7MAM23uWvWFgBk8k4c1c3Z4m5uPcQiIDXSFgYmhb32oeSRY2uI97WMtnIMaK3ss6zRqaLoUohNjsH1wU7s8B6xYjGk.1oFxNiLuv57zcehBXFXGBPR9ifiK3uVO9_Ewb1uvofk&amp;dib_tag=se&amp;keywords=salomon%2Badv%2Bskin%2B12&amp;qid=1777560907&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=Salomon%2BADV%2BSkin%2B12%2Caps%2C254&amp;sr=8-4&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=e6a1fa042c4c0713080cf36375058a97&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Salomon ADV Skin 12" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Hydration Packs" data-section="Outdoor" data-product-name="Salomon ADV Skin 12" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="supporting-quick-answer">Check price at Amazon</a>
 
             </div>
           </section>
 
         </div>
+        <nav class="page-jump-nav" aria-label="On this article">
+          <span>In this article</span>
+          <a href="#section-1-choose-a-running-vest-for-shorter-efforts">Choose a running vest for shorter efforts</a><a href="#section-2-choose-a-hydration-pack-for-bigger-days">Choose a hydration pack for bigger days</a><a href="#section-3-flasks-vs-bladder-is-the-second-decision">Flasks vs bladder is the second decision</a><a href="#section-4-fit-beats-capacity">Fit beats capacity</a>
+
+          <a href="#decision-heading">Decision checklist</a>
+          <a href="#faq-heading">Questions</a>
+        </nav>
       </div>
     </section>
 
@@ -168,22 +179,22 @@
         <article class="content-column">
           <div class="supporting-body supporting-prose">
 
-              <section>
+              <section id="section-1-choose-a-running-vest-for-shorter-efforts">
                 <h2>Choose a running vest for shorter efforts</h2>
                 <p>Running vests are usually lighter, closer fitting, and built around front flask access. They work well for road long runs, moderate trail runs, and races where aid stations are frequent.</p>
               </section>
 
-              <section>
+              <section id="section-2-choose-a-hydration-pack-for-bigger-days">
                 <h2>Choose a hydration pack for bigger days</h2>
                 <p>Hydration packs carry more water, layers, food, and safety gear. They are better for unsupported routes, mountain weather, long ultras, and hikes where capacity matters more than race-light feel.</p>
               </section>
 
-              <section>
+              <section id="section-3-flasks-vs-bladder-is-the-second-decision">
                 <h2>Flasks vs bladder is the second decision</h2>
                 <p>Soft flasks are easier to refill and track. Bladders carry more water with less front bulk. Many trail runners use flasks for races and add a bladder when heat or distance demands it.</p>
               </section>
 
-              <section>
+              <section id="section-4-fit-beats-capacity">
                 <h2>Fit beats capacity</h2>
                 <p>A 12L pack that bounces is worse than a 5L vest that disappears on your body. Load the vest before judging fit, because empty packs can feel deceptively comfortable.</p>
               </section>
@@ -193,9 +204,32 @@
 
 
 
+          <section class="comparison-section" aria-labelledby="decision-heading">
+            <div class="section-kicker">Decision checklist</div>
+            <h2 id="decision-heading">Turn the advice into a shortlist</h2>
+            <div class="research-decision-grid">
+              <article><span>1 · Use case</span><strong>Name the job first</strong><p>Write down where, how often, and for how long you will use the product. That keeps attractive extras from outranking the need that brought you here.</p></article>
+              <article><span>2 · Non-negotiable</span><strong>Choose one must-have</strong><p>Pick the fit, format, size, comfort, or compatibility requirement that would make the purchase fail if it were wrong.</p></article>
+              <article><span>3 · Tradeoff</span><strong>Accept a downside on purpose</strong><p>Compare the recurring complaint attached to each option. A known compromise is easier to live with than a surprise after checkout.</p></article>
+              <article><span>4 · Verify</span><strong>Check the exact model</strong><p>Use a related buying guide to inspect product-specific sources, then confirm the seller, version, current price, and return terms at the retailer.</p></article>
+            </div>
+          </section>
 
 
 
+
+
+          <section class="research-source-panel supporting-sources supporting-sources--context" aria-labelledby="sources-heading">
+            <div>
+              <div class="section-kicker">Evidence trail</div>
+              <h2 id="sources-heading">Where to check the product evidence</h2>
+              <p>This explainer summarizes the decision factors used across Phavai's linked buying guides. Open a related roundup for product-specific expert reviews, owner feedback, specifications, and source dates.</p>
+            </div>
+            <div class="research-source-links">
+              <a href="/best-hydration-packs.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Hydration Packs<span>See source trail</span></a><a href="/best-running-vests.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Running Vests<span>See source trail</span></a><a href="/best-trail-running-poles.html" data-guide-link data-guide-placement="supporting-evidence-trail">Best Trail Running Poles<span>See source trail</span></a>
+              <a href="/methodology.html">Phavai research methodology<span>How evidence is handled</span></a>
+            </div>
+          </section>
 
 
 
@@ -229,13 +263,13 @@
           <p>Use these guides when you are ready to move from advice to a specific shortlist.</p>
           <div class="link-list compact">
 
-              <a href="/best-hydration-packs.html"><span>Best Hydration Packs</span><span>Guide</span></a>
+              <a href="/best-hydration-packs.html" data-guide-link data-guide-placement="supporting-related"><span>Best Hydration Packs</span><span>Guide</span></a>
 
-              <a href="/best-trail-running-poles.html"><span>Best Trail Running Poles</span><span>Guide</span></a>
+              <a href="/best-running-vests.html" data-guide-link data-guide-placement="supporting-related"><span>Best Running Vests</span><span>Guide</span></a>
 
-              <a href="/best-running-vests.html"><span>Best Running Vests</span><span>Guide</span></a>
+              <a href="/best-trail-running-poles.html" data-guide-link data-guide-placement="supporting-related"><span>Best Trail Running Poles</span><span>Guide</span></a>
 
-            <a href="/outdoor.html"><span>All Outdoor guides</span><span>Hub</span></a>
+            <a href="/outdoor.html" data-guide-link data-guide-placement="supporting-related"><span>All Outdoor guides</span><span>Hub</span></a>
           </div>
           <p class="disclosure">Editorial guidance is written to support clearer buying decisions. Retail links stay separate from pick order.</p>
         </aside>
@@ -244,19 +278,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/editorial-standards.html">Editorial Standards</a>
-        <a href="/methodology.html">Methodology</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -63,9 +63,9 @@
   "about": "Outdoor",
   "mentions": [
     "LMNT Zero-Sugar Electrolyte Mix",
+    "Precision Hydration PH 1500",
     "Skratch Labs Hydration Drink Mix",
-    "SaltStick Caps",
-    "Precision Hydration PH 1500"
+    "SaltStick Caps"
   ]
 }
   </script>
@@ -85,20 +85,20 @@
     {
       "@type": "ListItem",
       "position": 2,
+      "name": "Precision Hydration PH 1500",
+      "url": "https://www.phavai.com/best-electrolytes-for-heavy-sweaters.html#precision-hydration-ph-1500"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
       "name": "Skratch Labs Hydration Drink Mix",
       "url": "https://www.phavai.com/best-electrolytes-for-heavy-sweaters.html#skratch-labs-hydration-drink-mix"
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 4,
       "name": "SaltStick Caps",
       "url": "https://www.phavai.com/best-electrolytes-for-heavy-sweaters.html#saltstick-caps"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Precision Hydration PH 1500",
-      "url": "https://www.phavai.com/best-electrolytes-for-heavy-sweaters.html#precision-hydration-ph-1500"
     }
   ]
 }
@@ -159,13 +159,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -173,7 +170,11 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Hydration</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Hydration</span>
+        </nav>
         <h1>Best Electrolytes for Heavy Sweaters</h1>
         <p class="lede">Heavy sweaters do not need the same drink as someone jogging for thirty minutes in mild weather. The right electrolyte product depends on sodium needs, stomach tolerance, carbs, flavor, and whether you want hydration separate from fuel.</p>
         <div class="meta-row" aria-label="Page details">
@@ -200,6 +201,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -211,15 +220,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,6 +238,7 @@
                     <td>#1</td>
                     <td><a href="#lmnt-zero-sugar-electrolyte-mix">LMNT Zero-Sugar Electrolyte Mix</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$1.25-$1.75 per stick typical</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for LMNT Zero-Sugar Electrolyte Mix">
 
@@ -242,12 +253,30 @@
 
                   <tr>
                     <td>#2</td>
+                    <td><a href="#precision-hydration-ph-1500">Precision Hydration PH 1500</a></td>
+                    <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$1.25-$2.00 per serving typical</strong><small>Typical reference, not live</small></span>
+
+                        <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Precision Hydration PH 1500">
+
+                            <a class="button shopping-button" href="https://www.amazon.com/Precision-Hydration-Lite-Electrolyte-Drink/dp/B07L452157?crid=2EYNXZBKP1MAZ&amp;dib=eyJ2IjoiMSJ9.zVu1-Wup1ymUizX8qnLZXpA4Kf20Kw0zq30ifPAeSYYAhdVAeYYDXT4ebMOuNa7gbr3jHa4p0wUTZZt18vDcPg7nztgMvstLSXxmZIx4hy2if6MWrlvD7nbXzzsIg6oT9ngckWiOy8mAD8ATaaF_ng.zge4XU61cMwZzc8Bz9DLAgAAjQ_o3KJwLYE0MVMpScw&amp;dib_tag=se&amp;keywords=Precision%2BHydration%2BPH%2B1500&amp;qid=1778026688&amp;sprefix=precision%2Bhydration%2Bph%2B1500%2Caps%2C304&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=367467131c49d007ac369ccb798de86a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Precision Hydration PH 1500" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Precision Hydration PH 1500" data-product-rank="2" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
+
+                        </div>
+
+                    </td>
+                    <td>Heavy sweaters who want a specific high-sodium product for preloading or race-day hydration planning.</td>
+                    <td>You want a sweet sports drink or calories built into your hydration.</td>
+                  </tr>
+
+                  <tr>
+                    <td>#3</td>
                     <td><a href="#skratch-labs-hydration-drink-mix">Skratch Labs Hydration Drink Mix</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$1.00-$1.50 per serving typical</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Skratch Labs Hydration Drink Mix">
 
-                            <a class="button shopping-button" href="https://www.amazon.com/Hydration-Servings-Electrolyte-Developed-Performance/dp/B075NDRY1C?crid=8XVEV7KDDBDN&amp;dib=eyJ2IjoiMSJ9.6TDtWaBXEvrZ13-oW8NIVzGFXGCzDbnOCD5vzHvM2NxXv8bfWgQkT44NKym4Sqo_4V-DhbmQ_-6Lj9-4rP3-5-juLEkzirnQwmERB8hdlTCYKHWVddOJssSMxghusbTmUMyRVExXxpmr8OGMEwqFaqgQkNsBt3yiz2JWZu7nSpgw4lFK1qCB6mI9bXbXy1sJ9Z4NtQgYI2dv-1ZybGhAJ726_CrxRGY4Xl-2eweLJ8PrYLwZnCrSfcnjfG-6wmrYMfIoV0nJUERI8A5JPZKvRcOvme4m5w6TTDOzWvADKhk.oVTUpW98BlzuMq8ePbpWGfdL_NJHzKe388p9XwLdykk&amp;dib_tag=se&amp;keywords=Skratch%2BLabs%2BHydration%2BDrink%2BMix&amp;qid=1778026737&amp;sprefix=saltstick%2Bcaps%2Caps%2C321&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=19d8254f8823e84f901915a6485c21fe&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Skratch Labs Hydration Drink Mix" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Skratch Labs Hydration Drink Mix" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
+                            <a class="button shopping-button" href="https://www.amazon.com/Hydration-Servings-Electrolyte-Developed-Performance/dp/B075NDRY1C?crid=8XVEV7KDDBDN&amp;dib=eyJ2IjoiMSJ9.6TDtWaBXEvrZ13-oW8NIVzGFXGCzDbnOCD5vzHvM2NxXv8bfWgQkT44NKym4Sqo_4V-DhbmQ_-6Lj9-4rP3-5-juLEkzirnQwmERB8hdlTCYKHWVddOJssSMxghusbTmUMyRVExXxpmr8OGMEwqFaqgQkNsBt3yiz2JWZu7nSpgw4lFK1qCB6mI9bXbXy1sJ9Z4NtQgYI2dv-1ZybGhAJ726_CrxRGY4Xl-2eweLJ8PrYLwZnCrSfcnjfG-6wmrYMfIoV0nJUERI8A5JPZKvRcOvme4m5w6TTDOzWvADKhk.oVTUpW98BlzuMq8ePbpWGfdL_NJHzKe388p9XwLdykk&amp;dib_tag=se&amp;keywords=Skratch%2BLabs%2BHydration%2BDrink%2BMix&amp;qid=1778026737&amp;sprefix=saltstick%2Bcaps%2Caps%2C321&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=19d8254f8823e84f901915a6485c21fe&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Skratch Labs Hydration Drink Mix" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Skratch Labs Hydration Drink Mix" data-product-rank="3" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
 
                         </div>
 
@@ -257,13 +286,14 @@
                   </tr>
 
                   <tr>
-                    <td>#3</td>
+                    <td>#4</td>
                     <td><a href="#saltstick-caps">SaltStick Caps</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$0.20-$0.40 per capsule typical</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for SaltStick Caps">
 
-                            <a class="button shopping-button" href="https://www.amazon.com/SaltStick-Electrolyte-Replacement-Capsules-bottle/dp/B002IY96B0?crid=3FV2HSQOK041C&amp;dib=eyJ2IjoiMSJ9.MHEoii1-5_u1cG4labyQvsCoiHn17jkKQHyU6ZL8gozXHYZiUYuit1w3rDa0LJA2W9n8Y9i7lzHAr7jlEG4v5h-029FIS20lcpucqQDtr8yo0jR6pMrZoZWeDSNWSxOZqP6sA6UWFe5Wv2rbCe_VLlQxjqZaTHFgmi6twjsbTyn7RBR_HTJdm_GX2LiM0AFiDxk3iUZ-Kh_yE_zQmBrqqv7lPdtN0Ilh3bATZXFGgyPYqLb-YlIfdNkAuyzn6mXQ1L9ZBY8EWoPdDTbDbD-3md-Eyybo_z062QjKVgkVo34.FPScUJZ1FeIJorRxDc6N_x-9hMDi_VlzUbaW8X0Y-qo&amp;dib_tag=se&amp;keywords=SaltStick%2BCaps&amp;qid=1778026707&amp;sprefix=saltstick%2Bcaps%2Caps%2C251&amp;sr=8-6&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=e401ee81aa8060f7f798659efc60cc59&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for SaltStick Caps" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="SaltStick Caps" data-product-rank="3" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
+                            <a class="button shopping-button" href="https://www.amazon.com/SaltStick-Electrolyte-Replacement-Capsules-bottle/dp/B002IY96B0?crid=3FV2HSQOK041C&amp;dib=eyJ2IjoiMSJ9.MHEoii1-5_u1cG4labyQvsCoiHn17jkKQHyU6ZL8gozXHYZiUYuit1w3rDa0LJA2W9n8Y9i7lzHAr7jlEG4v5h-029FIS20lcpucqQDtr8yo0jR6pMrZoZWeDSNWSxOZqP6sA6UWFe5Wv2rbCe_VLlQxjqZaTHFgmi6twjsbTyn7RBR_HTJdm_GX2LiM0AFiDxk3iUZ-Kh_yE_zQmBrqqv7lPdtN0Ilh3bATZXFGgyPYqLb-YlIfdNkAuyzn6mXQ1L9ZBY8EWoPdDTbDbD-3md-Eyybo_z062QjKVgkVo34.FPScUJZ1FeIJorRxDc6N_x-9hMDi_VlzUbaW8X0Y-qo&amp;dib_tag=se&amp;keywords=SaltStick%2BCaps&amp;qid=1778026707&amp;sprefix=saltstick%2Bcaps%2Caps%2C251&amp;sr=8-6&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=e401ee81aa8060f7f798659efc60cc59&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for SaltStick Caps" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="SaltStick Caps" data-product-rank="4" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
 
                         </div>
 
@@ -272,83 +302,28 @@
                     <td>You dislike capsules or want hydration, sodium, and calories all in one drink.</td>
                   </tr>
 
-                  <tr>
-                    <td>#4</td>
-                    <td><a href="#precision-hydration-ph-1500">Precision Hydration PH 1500</a></td>
-                    <td class="comparison-shop-cell">
-
-                        <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Precision Hydration PH 1500">
-
-                            <a class="button shopping-button" href="https://www.amazon.com/Precision-Hydration-Lite-Electrolyte-Drink/dp/B07L452157?crid=2EYNXZBKP1MAZ&amp;dib=eyJ2IjoiMSJ9.zVu1-Wup1ymUizX8qnLZXpA4Kf20Kw0zq30ifPAeSYYAhdVAeYYDXT4ebMOuNa7gbr3jHa4p0wUTZZt18vDcPg7nztgMvstLSXxmZIx4hy2if6MWrlvD7nbXzzsIg6oT9ngckWiOy8mAD8ATaaF_ng.zge4XU61cMwZzc8Bz9DLAgAAjQ_o3KJwLYE0MVMpScw&amp;dib_tag=se&amp;keywords=Precision%2BHydration%2BPH%2B1500&amp;qid=1778026688&amp;sprefix=precision%2Bhydration%2Bph%2B1500%2Caps%2C304&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=367467131c49d007ac369ccb798de86a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Precision Hydration PH 1500" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Precision Hydration PH 1500" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="comparison">Check price at Amazon</a>
-
-                        </div>
-
-                    </td>
-                    <td>Heavy sweaters who want a specific high-sodium product for preloading or race-day hydration planning.</td>
-                    <td>You want a sweet sports drink or calories built into your hydration.</td>
-                  </tr>
-
               </tbody>
             </table>
           </div>
         </section>
 
 
-          <section class="fit-finder" data-fit-finder data-fit-options="%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%20first%22%2C%22help%22%3A%22A%20forgiving%20pick%20that%20is%20easier%20to%20live%20with.%22%2C%22weights%22%3A%7B%22comfort%22%3A1%2C%22cushioning%22%3A0.7%2C%22stability%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Comfort%22%2C%22Cushioning%22%5D%7D%2C%7B%22key%22%3A%22distance%22%2C%22label%22%3A%22Long%20days%22%2C%22help%22%3A%22Built%20around%20distance%2C%20durability%2C%20and%20fewer%20surprises.%22%2C%22weights%22%3A%7B%22distanceSuitability%22%3A1%2C%22durability%22%3A0.65%2C%22comfort%22%3A0.45%7D%2C%22attributeLabels%22%3A%5B%22Long-distance%20fit%22%2C%22Long-term%20build%22%5D%7D%2C%7B%22key%22%3A%22performance%22%2C%22label%22%3A%22Performance%22%2C%22help%22%3A%22Prioritizes%20speed%2C%20grip%2C%20and%20a%20lighter%20feel.%22%2C%22weights%22%3A%7B%22raceFocus%22%3A1%2C%22lightweight%22%3A0.75%2C%22traction%22%3A0.5%7D%2C%22attributeLabels%22%3A%5B%22Race%20focus%22%2C%22Light%20feel%22%5D%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Lower%20price%22%2C%22help%22%3A%22Strong%20fit%20without%20overpaying.%22%2C%22weights%22%3A%7B%22value%22%3A1%2C%22durability%22%3A0.45%2C%22dailyVersatility%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Price%20fit%22%2C%22Long-term%20build%22%5D%7D%5D" aria-labelledby="fit-finder-heading">
-            <div class="fit-finder-copy">
-              <div class="section-kicker">Find your fit</div>
-              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
-              <p>Choose up to two priorities. The editorial order stays intact while the closest buyer-specific match is highlighted.</p>
-            </div>
-            <div class="fit-finder-controls">
-              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
-
-                  <button class="fit-chip" type="button" data-fit-option="comfort" aria-pressed="false"><span>Comfort first</span><small>A forgiving pick that is easier to live with.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="distance" aria-pressed="false"><span>Long days</span><small>Built around distance, durability, and fewer surprises.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="performance" aria-pressed="false"><span>Performance</span><small>Prioritizes speed, grip, and a lighter feel.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="value" aria-pressed="false"><span>Lower price</span><small>Strong fit without overpaying.</small></button>
-
-                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false"><span>Reset</span><small>Editorial order</small></button>
-              </div>
-              <div class="fit-result" data-fit-result aria-live="polite">
-                <span data-fit-result-label>Choose a priority</span>
-                <strong data-fit-result-name>LMNT Zero-Sugar Electrolyte Mix</strong>
-                <p data-fit-result-reason>Start with the editorial winner, or select priorities above for a more specific match.</p>
-
-                  <div class="fit-result-actions">
-                    <a href="#lmnt-zero-sugar-electrolyte-mix" data-fit-result-link>Jump to current pick</a>
-
-                      <a class="button shopping-button fit-result-shop" href="https://www.amazon.com/LMNT-Zero-Sugar-Electrolytes-Lemonade/dp/B0F1BSR4VR?crid=3QDWMDYUWCT1Q&amp;dib=eyJ2IjoiMSJ9.svieAY1d8fgg1mJgXQzJQj5zCCWO0xecIs07ImuH7Ak_6z7C5SkfL9mfcddjb9tsnF9AB80zoaBlHPnP0myeSLq7XbIpbq48nsVleSH9cGlU77Gyh6FTLVtvkQP9eMjBae1AulKYPwdbg5EjichT-mrAskxyOvI73V7RMXSqhLRpWVcZfhCYLkSN_xp_7mdE7YF0V2gFvbZ9fjdwYOC8q0bia7QrdCDZ0YXPW2mjridD36KSg_ALQmaazwG7rYG0UUI-LlsmnLU52ZT-XCEVAEu4hzBBs3R4JejxWMjOA6g.xkoyTVkE3rln2NICqAMOQbFnm6sXcfEd_pPwdmN8P-Q&amp;dib_tag=se&amp;keywords=LMNT%2BZero-Sugar%2BElectrolyte%2BMix&amp;qid=1778026667&amp;sprefix=lmnt%2Bzero-sugar%2Belectrolyte%2Bmix%2Caps%2C412&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=dcbe08f2a0cad096b0216cc1674b2dd1&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, LMNT Zero-Sugar Electrolyte Mix" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="fit-finder">Check price for this match</a>
-
-                  </div>
-
-              </div>
-            </div>
-            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
-
-                <a class="fit-match-card" href="#lmnt-zero-sugar-electrolyte-mix" data-fit-card><span data-fit-card-rank>#1 editorial</span><strong data-fit-card-name>LMNT Zero-Sugar Electrolyte Mix</strong><small data-fit-card-reason>Best high-sodium low-carb mix</small></a>
-
-                <a class="fit-match-card" href="#skratch-labs-hydration-drink-mix" data-fit-card><span data-fit-card-rank>#2 editorial</span><strong data-fit-card-name>Skratch Labs Hydration Drink Mix</strong><small data-fit-card-reason>Best balanced flavor and stomach feel</small></a>
-
-                <a class="fit-match-card" href="#saltstick-caps" data-fit-card><span data-fit-card-rank>#3 editorial</span><strong data-fit-card-name>SaltStick Caps</strong><small data-fit-card-reason>Best capsule option</small></a>
-
-            </div>
-          </section>
-
 
 
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="lmnt-zero-sugar-electrolyte-mix" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-default-score="86" data-editorial-rank="1" data-channel-scores='{"Expert":88,"Reddit":81.7,"YouTube":81.5}' data-decision-tags='["distance"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":59},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":35},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":60},"raceFocus":{"key":"raceFocus","label":"Race focus","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":92},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"flavorTolerance","label":"Flavor tolerance","score":92},{"key":"distanceSuitability","label":"Long-distance fit","score":60},{"key":"comfort","label":"Comfort","score":59}],"ownerSentimentSummary":"Expert guides and runner discussion repeatedly point to LMNT when sodium replacement is the main job.","expertSentimentSummary":"3 evidence items. Strongest signal: Runner's World electrolyte coverage frames high-sodium products for runner hydration needs.","biggestStrength":"Expert guides and runner discussion repeatedly point to LMNT when sodium replacement is the main job.","biggestComplaint":"The taste and sodium level are polarizing; it is not a casual sports drink.","confidenceLevel":"Developing","evidenceDepth":28,"recencyStrength":78,"decisionTags":["distance"]}' data-fit-profile="%7B%22id%22%3A%22lmnt-zero-sugar-electrolyte-mix%22%2C%22name%22%3A%22LMNT%20Zero-Sugar%20Electrolyte%20Mix%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A86%2C%22publicScoreLabel%22%3A%2286%22%2C%22tag%22%3A%22Best%20high-sodium%20low-carb%20mix%22%2C%22bestFor%22%3A%22Heavy%20sweaters%20who%20want%20a%20salty%2C%20sugar-free%20electrolyte%20drink%20without%20adding%20carbs.%22%2C%22avoidIf%22%3A%22You%20dislike%20salty%20drinks%2C%20need%20calories%20in%20the%20bottle%2C%20or%20have%20sodium%20restrictions.%22%2C%22biggestStrength%22%3A%22Expert%20guides%20and%20runner%20discussion%20repeatedly%20point%20to%20LMNT%20when%20sodium%20replacement%20is%20the%20main%20job.%22%2C%22biggestComplaint%22%3A%22The%20taste%20and%20sodium%20level%20are%20polarizing%3B%20it%20is%20not%20a%20casual%20sports%20drink.%22%2C%22decisionTags%22%3A%5B%22distance%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A35%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A60%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A92%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A60%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%5D%2C%22ownerSentimentSummary%22%3A%22Expert%20guides%20and%20runner%20discussion%20repeatedly%20point%20to%20LMNT%20when%20sodium%20replacement%20is%20the%20main%20job.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Runner's%20World%20electrolyte%20coverage%20frames%20high-sodium%20products%20for%20runner%20hydration%20needs.%22%2C%22biggestStrength%22%3A%22Expert%20guides%20and%20runner%20discussion%20repeatedly%20point%20to%20LMNT%20when%20sodium%20replacement%20is%20the%20main%20job.%22%2C%22biggestComplaint%22%3A%22The%20taste%20and%20sodium%20level%20are%20polarizing%3B%20it%20is%20not%20a%20casual%20sports%20drink.%22%2C%22confidenceLevel%22%3A%22Developing%22%2C%22evidenceDepth%22%3A28%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22distance%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLMNT-Zero-Sugar-Electrolytes-Lemonade%2Fdp%2FB0F1BSR4VR%3Fcrid%3D3QDWMDYUWCT1Q%26dib%3DeyJ2IjoiMSJ9.svieAY1d8fgg1mJgXQzJQj5zCCWO0xecIs07ImuH7Ak_6z7C5SkfL9mfcddjb9tsnF9AB80zoaBlHPnP0myeSLq7XbIpbq48nsVleSH9cGlU77Gyh6FTLVtvkQP9eMjBae1AulKYPwdbg5EjichT-mrAskxyOvI73V7RMXSqhLRpWVcZfhCYLkSN_xp_7mdE7YF0V2gFvbZ9fjdwYOC8q0bia7QrdCDZ0YXPW2mjridD36KSg_ALQmaazwG7rYG0UUI-LlsmnLU52ZT-XCEVAEu4hzBBs3R4JejxWMjOA6g.xkoyTVkE3rln2NICqAMOQbFnm6sXcfEd_pPwdmN8P-Q%26dib_tag%3Dse%26keywords%3DLMNT%252BZero-Sugar%252BElectrolyte%252BMix%26qid%3D1778026667%26sprefix%3Dlmnt%252Bzero-sugar%252Belectrolyte%252Bmix%252Caps%252C412%26sr%3D8-1%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Ddcbe08f2a0cad096b0216cc1674b2dd1%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="lmnt-zero-sugar-electrolyte-mix" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-default-score="86" data-editorial-rank="1" data-channel-scores='{"Expert":88,"Reddit":81.7,"YouTube":81.5}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--tub">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing LMNT Zero-Sugar Electrolyte Mix, Best high-sodium low-carb mix">
@@ -370,6 +345,9 @@
                 <div class="tagline">Best high-sodium low-carb mix</div>
                 <p class="product-verdict"><strong>Our take:</strong> LMNT is the obvious high-sodium pick because it gives heavy sweaters a clear electrolyte tool without calories. It is too salty for some people, which is also the point.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$1.25-$1.75 per stick typical</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for LMNT Zero-Sugar Electrolyte Mix">
                     <li>1000 mg sodium</li><li>No sugar</li><li>Powder stick format</li><li>Strong salty flavor</li>
@@ -383,9 +361,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for LMNT Zero-Sugar Electrolyte Mix">
-                  <strong>86</strong>
-                  <span>Evidence score · 7 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for LMNT Zero-Sugar Electrolyte Mix">
+
+                    <strong>86</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for LMNT Zero-Sugar Electrolyte Mix">
@@ -397,17 +377,13 @@
                     <span>Avoid if</span>
                     <p>You dislike salty drinks, need calories in the bottle, or have sodium restrictions.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>The taste and sodium level are polarizing; it is not a casual sports drink.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for LMNT Zero-Sugar Electrolyte Mix">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/LMNT-Zero-Sugar-Electrolytes-Lemonade/dp/B0F1BSR4VR?crid=3QDWMDYUWCT1Q&amp;dib=eyJ2IjoiMSJ9.svieAY1d8fgg1mJgXQzJQj5zCCWO0xecIs07ImuH7Ak_6z7C5SkfL9mfcddjb9tsnF9AB80zoaBlHPnP0myeSLq7XbIpbq48nsVleSH9cGlU77Gyh6FTLVtvkQP9eMjBae1AulKYPwdbg5EjichT-mrAskxyOvI73V7RMXSqhLRpWVcZfhCYLkSN_xp_7mdE7YF0V2gFvbZ9fjdwYOC8q0bia7QrdCDZ0YXPW2mjridD36KSg_ALQmaazwG7rYG0UUI-LlsmnLU52ZT-XCEVAEu4hzBBs3R4JejxWMjOA6g.xkoyTVkE3rln2NICqAMOQbFnm6sXcfEd_pPwdmN8P-Q&amp;dib_tag=se&amp;keywords=LMNT%2BZero-Sugar%2BElectrolyte%2BMix&amp;qid=1778026667&amp;sprefix=lmnt%2Bzero-sugar%2Belectrolyte%2Bmix%2Caps%2C412&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=dcbe08f2a0cad096b0216cc1674b2dd1&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/LMNT-Zero-Sugar-Electrolytes-Lemonade/dp/B0F1BSR4VR?crid=3QDWMDYUWCT1Q&amp;dib=eyJ2IjoiMSJ9.svieAY1d8fgg1mJgXQzJQj5zCCWO0xecIs07ImuH7Ak_6z7C5SkfL9mfcddjb9tsnF9AB80zoaBlHPnP0myeSLq7XbIpbq48nsVleSH9cGlU77Gyh6FTLVtvkQP9eMjBae1AulKYPwdbg5EjichT-mrAskxyOvI73V7RMXSqhLRpWVcZfhCYLkSN_xp_7mdE7YF0V2gFvbZ9fjdwYOC8q0bia7QrdCDZ0YXPW2mjridD36KSg_ALQmaazwG7rYG0UUI-LlsmnLU52ZT-XCEVAEu4hzBBs3R4JejxWMjOA6g.xkoyTVkE3rln2NICqAMOQbFnm6sXcfEd_pPwdmN8P-Q&amp;dib_tag=se&amp;keywords=LMNT%2BZero-Sugar%2BElectrolyte%2BMix&amp;qid=1778026667&amp;sprefix=lmnt%2Bzero-sugar%2Belectrolyte%2Bmix%2Caps%2C412&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=dcbe08f2a0cad096b0216cc1674b2dd1&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for LMNT Zero-Sugar Electrolyte Mix" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -426,7 +402,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>88</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">Runner&#39;s World</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">Runner&#39;s World</a></div>
                                   </div>
 
                               </div>
@@ -435,7 +411,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>81.7</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">r/XXRunning thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">r/XXRunning thread</a></div>
                                   </div>
 
                               </div>
@@ -444,7 +420,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>81.5</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=ZMOICTZnzD0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="LMNT Zero-Sugar Electrolytes - Variety Salt - Hydration Powder Packets Keto &amp; Paleo Friendly Review" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">Robs Rave Reviews video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=ZMOICTZnzD0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="LMNT Zero-Sugar Electrolytes - Variety Salt - Hydration Powder Packets Keto &amp; Paleo Friendly Review" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">Robs Rave Reviews video</a></div>
                                   </div>
 
                               </div>
@@ -452,9 +428,9 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for LMNT Zero-Sugar Electrolyte Mix">
-                          <div><span>Proof base</span><strong>7 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>78/100</strong><p>Page updates and source recency support this read.</p></div>
-                          <div><span>Proof level</span><strong>Developing</strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
+                          <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
                       </section>
@@ -467,14 +443,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link best-source" href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Expert review / Best evidence</span>
                                     <b>Best Electrolyte Tablets, Chews, and Powders for Runners</b>
                                     <small>Runner&#39;s World - checked May 5, 2026</small>
                                     <em>Runner&#39;s World electrolyte coverage frames high-sodium products for runner hydration needs.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.active.com/fitness/articles/2026-best-hydration-electrolytes" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="The Electrolytes ACTIVE Uses to Stay Hydrated" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.active.com/fitness/articles/2026-best-hydration-electrolytes" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="The Electrolytes ACTIVE Uses to Stay Hydrated" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Expert review</span>
                                     <b>The Electrolytes ACTIVE Uses to Stay Hydrated</b>
                                     <small>ACTIVE - checked May 5, 2026</small>
@@ -488,7 +464,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=ZMOICTZnzD0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="LMNT Zero-Sugar Electrolytes - Variety Salt - Hydration Powder Packets Keto &amp; Paleo Friendly Review" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=ZMOICTZnzD0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="LMNT Zero-Sugar Electrolytes - Variety Salt - Hydration Powder Packets Keto &amp; Paleo Friendly Review" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Video review</span>
                                     <b>LMNT Zero-Sugar Electrolytes - Variety Salt - Hydration Powder Packets Keto &amp; Paleo Friendly Review</b>
                                     <small>Robs Rave Reviews - checked May 29, 2026</small>
@@ -502,14 +478,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Owner discussion</span>
                                     <b>What are the best electrolyte drinks?</b>
                                     <small>r/XXRunning thread - checked May 5, 2026</small>
                                     <em>Runner discussion mentions LMNT, Skratch, and Tailwind when comparing electrolyte options for long mileage.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/cycling/comments/1gbxzx6/thoughts_on_lmnt_electrolyte_drink_mix/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Thoughts on LMNT Electrolyte Drink Mix" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.reddit.com/r/cycling/comments/1gbxzx6/thoughts_on_lmnt_electrolyte_drink_mix/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Thoughts on LMNT Electrolyte Drink Mix" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Owner discussion</span>
                                     <b>Thoughts on LMNT Electrolyte Drink Mix</b>
                                     <small>r/cycling thread - checked May 29, 2026</small>
@@ -531,7 +507,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.forbes.com/health/supplements/lmnt-electrolyte-review/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="LMNT Electrolyte Review" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link" href="https://www.forbes.com/health/supplements/lmnt-electrolyte-review/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="LMNT Electrolyte Review" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Expert review</span>
                                     <b>LMNT Electrolyte Review</b>
                                     <small>Forbes Health - checked May 29, 2026</small>
@@ -545,7 +521,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=SFBsFN4zNQw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Honest Review of LMNT Zero-Sugar Electrolytes - Hot Chocolate Salt" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=SFBsFN4zNQw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Honest Review of LMNT Zero-Sugar Electrolytes - Hot Chocolate Salt" data-product-name="LMNT Zero-Sugar Electrolyte Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Video review</span>
                                     <b>Honest Review of LMNT Zero-Sugar Electrolytes - Hot Chocolate Salt</b>
                                     <small>Cole Schwartz - checked May 29, 2026</small>
@@ -562,7 +538,180 @@
               </div>
             </article>
 
-            <article class="product" id="skratch-labs-hydration-drink-mix" data-product-name="Skratch Labs Hydration Drink Mix" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":87,"Reddit":82,"YouTube":83.5}' data-decision-tags='["performance","distance","budget","everyday"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":59},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":46},"value":{"key":"value","label":"Price fit","score":71},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":82},"raceFocus":{"key":"raceFocus","label":"Race focus","score":58},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":59},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":79},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":70}},"highlights":[{"key":"distanceSuitability","label":"Long-distance fit","score":82},{"key":"flavorTolerance","label":"Flavor tolerance","score":79},{"key":"value","label":"Price fit","score":71}],"ownerSentimentSummary":"Expert and owner feedback often praise Skratch for taste and stomach friendliness.","expertSentimentSummary":"Runner-focused electrolyte guide names Skratch as a balanced option for runners who want sodium, carbs, and tolerable flavor.","biggestStrength":"Expert and owner feedback often praise Skratch for taste and stomach friendliness.","biggestComplaint":"The sodium level may be too modest for very salty sweaters in heat.","confidenceLevel":"Developing","evidenceDepth":24,"recencyStrength":81,"decisionTags":["performance","distance","budget","everyday"]}' data-fit-profile="%7B%22id%22%3A%22skratch-labs-hydration-drink-mix%22%2C%22name%22%3A%22Skratch%20Labs%20Hydration%20Drink%20Mix%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20balanced%20flavor%20and%20stomach%20feel%22%2C%22bestFor%22%3A%22Runners%20who%20want%20a%20better-tasting%20electrolyte%20drink%20with%20light%20carbs%20and%20easier%20daily%20drinkability.%22%2C%22avoidIf%22%3A%22You%20need%20a%20very%20high-sodium%20product%20or%20want%20zero%20sugar.%22%2C%22biggestStrength%22%3A%22Expert%20and%20owner%20feedback%20often%20praise%20Skratch%20for%20taste%20and%20stomach%20friendliness.%22%2C%22biggestComplaint%22%3A%22The%20sodium%20level%20may%20be%20too%20modest%20for%20very%20salty%20sweaters%20in%20heat.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A46%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A82%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A58%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A59%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A79%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A70%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A79%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Expert%20and%20owner%20feedback%20often%20praise%20Skratch%20for%20taste%20and%20stomach%20friendliness.%22%2C%22expertSentimentSummary%22%3A%22Runner-focused%20electrolyte%20guide%20names%20Skratch%20as%20a%20balanced%20option%20for%20runners%20who%20want%20sodium%2C%20carbs%2C%20and%20tolerable%20flavor.%22%2C%22biggestStrength%22%3A%22Expert%20and%20owner%20feedback%20often%20praise%20Skratch%20for%20taste%20and%20stomach%20friendliness.%22%2C%22biggestComplaint%22%3A%22The%20sodium%20level%20may%20be%20too%20modest%20for%20very%20salty%20sweaters%20in%20heat.%22%2C%22confidenceLevel%22%3A%22Developing%22%2C%22evidenceDepth%22%3A24%2C%22recencyStrength%22%3A81%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FHydration-Servings-Electrolyte-Developed-Performance%2Fdp%2FB075NDRY1C%3Fcrid%3D8XVEV7KDDBDN%26dib%3DeyJ2IjoiMSJ9.6TDtWaBXEvrZ13-oW8NIVzGFXGCzDbnOCD5vzHvM2NxXv8bfWgQkT44NKym4Sqo_4V-DhbmQ_-6Lj9-4rP3-5-juLEkzirnQwmERB8hdlTCYKHWVddOJssSMxghusbTmUMyRVExXxpmr8OGMEwqFaqgQkNsBt3yiz2JWZu7nSpgw4lFK1qCB6mI9bXbXy1sJ9Z4NtQgYI2dv-1ZybGhAJ726_CrxRGY4Xl-2eweLJ8PrYLwZnCrSfcnjfG-6wmrYMfIoV0nJUERI8A5JPZKvRcOvme4m5w6TTDOzWvADKhk.oVTUpW98BlzuMq8ePbpWGfdL_NJHzKe388p9XwLdykk%26dib_tag%3Dse%26keywords%3DSkratch%252BLabs%252BHydration%252BDrink%252BMix%26qid%3D1778026737%26sprefix%3Dsaltstick%252Bcaps%252Caps%252C321%26sr%3D8-1%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D19d8254f8823e84f901915a6485c21fe%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="precision-hydration-ph-1500" data-product-name="Precision Hydration PH 1500" data-default-score="83" data-editorial-rank="2" data-channel-scores='{"Expert":86.3,"Reddit":78}'>
+              <div class="product-media product-media--outdoor product-visual--nutrition product-visual--tub">
+
+                  <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Precision Hydration PH 1500, Best race-day sodium tool">
+                    <span class="product-visual-icon" aria-hidden="true"><svg viewBox="0 0 120 120" aria-hidden="true"><path stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M34 33c0-10 52-10 52 0v58c0 10-52 10-52 0V33Z"/><path stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M34 33c0 10 52 10 52 0"/><path stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".35" d="M43 55h34M43 73h34"/></svg></span>
+                  </div>
+
+              </div>
+              <div>
+                <div class="product-badge-row">
+                  <span class="rank-badge">Rank <span data-rank>#2</span></span>
+
+                    <span class="decision-badge">Best for Distance</span>
+
+                    <span class="decision-badge">Performance Pick</span>
+
+                    <span class="decision-badge">Quiet Pick</span>
+
+                  <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
+                </div>
+                <h2>Precision Hydration PH 1500</h2>
+                <div class="tagline">Best race-day sodium tool</div>
+                <p class="product-verdict"><strong>Our take:</strong> PH 1500 is the precision pick: less lifestyle hydration, more sodium tool. It is best for runners who already think in terms of sweat rate, heat, and race-day planning.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$1.25-$2.00 per serving typical</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
+
+                  <ul class="spec-list product-spec-list" aria-label="Key specifications for Precision Hydration PH 1500">
+                    <li>1500 mg sodium per liter when mixed as directed</li><li>Effervescent tablet format</li><li>Low-calorie hydration</li><li>Race-day sodium focus</li>
+                  </ul>
+
+
+
+                  <div class="product-pros-cons">
+                    <div><h3>Why it stands out</h3><ul><li>Clear sodium targeting</li><li>Good for preloading</li><li>Easy to separate fuel from hydration</li></ul></div>
+                    <div><h3>Know before buying</h3><ul><li>Not a carb source</li><li>Less casual flavor profile</li><li>Requires sodium planning</li></ul></div>
+                  </div>
+
+
+                <div class="product-score-summary" aria-label="Evidence status for Precision Hydration PH 1500">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 4 qualifying public sources</span>
+
+                </div>
+
+                <div class="mini-decision-grid" aria-label="Quick decision notes for Precision Hydration PH 1500">
+                  <div>
+                    <span>Best for</span>
+                    <p>Heavy sweaters who want a specific high-sodium product for preloading or race-day hydration planning.</p>
+                  </div>
+                  <div>
+                    <span>Avoid if</span>
+                    <p>You want a sweet sports drink or calories built into your hydration.</p>
+                  </div>
+                </div>
+
+
+                  <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
+                  <div class="shopping-button-group" aria-label="Shopping options for Precision Hydration PH 1500">
+
+                      <a class="button shopping-button" href="https://www.amazon.com/Precision-Hydration-Lite-Electrolyte-Drink/dp/B07L452157?crid=2EYNXZBKP1MAZ&amp;dib=eyJ2IjoiMSJ9.zVu1-Wup1ymUizX8qnLZXpA4Kf20Kw0zq30ifPAeSYYAhdVAeYYDXT4ebMOuNa7gbr3jHa4p0wUTZZt18vDcPg7nztgMvstLSXxmZIx4hy2if6MWrlvD7nbXzzsIg6oT9ngckWiOy8mAD8ATaaF_ng.zge4XU61cMwZzc8Bz9DLAgAAjQ_o3KJwLYE0MVMpScw&amp;dib_tag=se&amp;keywords=Precision%2BHydration%2BPH%2B1500&amp;qid=1778026688&amp;sprefix=precision%2Bhydration%2Bph%2B1500%2Caps%2C304&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=367467131c49d007ac369ccb798de86a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Precision Hydration PH 1500" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Precision Hydration PH 1500" data-product-rank="2" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+
+                  </div>
+
+
+                  <details class="evidence-drawer" data-source-dropdown data-source-type="all" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
+                    <summary>
+                      <span>Show the research</span>
+                      <small>Scores, sources, upside, and cautions</small>
+                    </summary>
+                    <div class="evidence-drawer-body">
+                      <section class="evidence-score-detail" aria-label="Scoring detail for Precision Hydration PH 1500">
+
+                          <div class="product-signal-grid" aria-label="Scoring signals for Precision Hydration PH 1500">
+
+                              <div class="product-signal product-signal--expert">
+                                <div class="signal-score-head"><span>Expert</span><strong>86.3</strong><small>Expert score</small></div>
+
+                                  <div class="signal-source-list">
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">Runner&#39;s World</a></div>
+                                  </div>
+
+                              </div>
+
+                              <div class="product-signal product-signal--reddit">
+                                <div class="signal-score-head"><span>Reddit</span><strong>78</strong><small>Reddit score</small></div>
+
+                                  <div class="signal-source-list">
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1gywzix" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Was it salt or caffeine?" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">r/Ultramarathon thread</a></div>
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                        <div class="proof-snapshot-grid" aria-label="Proof snapshot for Precision Hydration PH 1500">
+                          <div><span>Proof base</span><strong>4 qualifying sources</strong><p>Expert, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
+                          <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                        </div>
+
+                      </section>
+
+                        <section class="evidence-panel like-panel">
+                          <div class="source-section-label">What people like</div>
+                          <p>Expert guides often recommend Precision Hydration when sodium precision matters more than taste or calories.</p>
+
+                            <div class="source-group">
+                              <h3>Expert reviews</h3>
+                              <div class="source-link-list">
+
+                                  <a class="source-link best-source" href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
+                                    <span>Expert review / Best evidence</span>
+                                    <b>Best Electrolyte Tablets, Chews, and Powders for Runners</b>
+                                    <small>Runner&#39;s World - checked May 5, 2026</small>
+                                    <em>Runner&#39;s World electrolyte coverage helps frame high-sodium tablets for endurance runners.</em>
+                                  </a>
+
+                                  <a class="source-link " href="https://runbikecalc.com/blog/best-electrolytes-2026" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolytes 2026" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
+                                    <span>Expert review</span>
+                                    <b>Best Electrolytes 2026</b>
+                                    <small>RunBikeCalc - checked May 5, 2026</small>
+                                    <em>Endurance electrolyte guide specifically frames Precision Hydration as useful for dialing in sodium needs.</em>
+                                  </a>
+
+                              </div>
+                            </div>
+
+                        </section>
+
+
+
+                        <section class="evidence-panel caution-panel">
+                          <div class="source-section-label">What people caution</div>
+                          <p>It is a tool, not a general sports drink; use it when high sodium is actually needed.</p>
+
+                            <div class="source-group">
+                              <h3>Expert reviews</h3>
+                              <div class="source-link-list">
+
+                                  <a class="source-link" href="https://www.getevident.co/supplements/electrolytes/precision-hydration-ph-1500" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Precision Fuel &amp; Hydration PH 1500 Electrolyte Drink Mix Review" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
+                                    <span>Expert review</span>
+                                    <b>Precision Fuel &amp; Hydration PH 1500 Electrolyte Drink Mix Review</b>
+                                    <small>Evident Health - checked May 29, 2026</small>
+                                    <em>Evident Health review adds current product-specific context for Precision Hydration PH 1500 strength, certification, and use-case fit.</em>
+                                  </a>
+
+                              </div>
+                            </div>
+
+                            <div class="source-group">
+                              <h3>Reddit owner discussion</h3>
+                              <div class="source-link-list">
+
+                                  <a class="source-link" href="https://www.reddit.com/r/Ultramarathon/comments/1gywzix" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Was it salt or caffeine?" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
+                                    <span>Owner discussion</span>
+                                    <b>Was it salt or caffeine?</b>
+                                    <small>r/Ultramarathon thread - checked May 29, 2026</small>
+                                    <em>r/Ultramarathon thread adds owner cautions around using Precision Hydration PH 1500 in long-race hydration plans.</em>
+                                  </a>
+
+                              </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+                  </details>
+              </div>
+            </article>
+
+            <article class="product" id="skratch-labs-hydration-drink-mix" data-product-name="Skratch Labs Hydration Drink Mix" data-default-score="85" data-editorial-rank="3" data-channel-scores='{"Expert":87,"Reddit":82,"YouTube":83.5}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--tub">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Skratch Labs Hydration Drink Mix, Best balanced flavor and stomach feel">
@@ -572,9 +721,7 @@
               </div>
               <div>
                 <div class="product-badge-row">
-                  <span class="rank-badge">Rank <span data-rank>#2</span></span>
-
-                    <span class="decision-badge">Best Value</span>
+                  <span class="rank-badge">Rank <span data-rank>#3</span></span>
 
                     <span class="decision-badge">Best for Distance</span>
 
@@ -585,6 +732,9 @@
                 <h2>Skratch Labs Hydration Drink Mix</h2>
                 <div class="tagline">Best balanced flavor and stomach feel</div>
                 <p class="product-verdict"><strong>Our take:</strong> Skratch is the balanced pick because it tastes more like something you can actually drink often. Heavy sweaters may need more sodium, but many runners will stick with it longer.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$1.00-$1.50 per serving typical</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Skratch Labs Hydration Drink Mix">
@@ -599,9 +749,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Skratch Labs Hydration Drink Mix">
-                  <strong>85</strong>
-                  <span>Evidence score · 4 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Skratch Labs Hydration Drink Mix">
+
+                    <strong>85</strong>
+                    <span>Evidence score · 4 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Skratch Labs Hydration Drink Mix">
@@ -613,17 +765,13 @@
                     <span>Avoid if</span>
                     <p>You need a very high-sodium product or want zero sugar.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>The sodium level may be too modest for very salty sweaters in heat.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Skratch Labs Hydration Drink Mix">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Hydration-Servings-Electrolyte-Developed-Performance/dp/B075NDRY1C?crid=8XVEV7KDDBDN&amp;dib=eyJ2IjoiMSJ9.6TDtWaBXEvrZ13-oW8NIVzGFXGCzDbnOCD5vzHvM2NxXv8bfWgQkT44NKym4Sqo_4V-DhbmQ_-6Lj9-4rP3-5-juLEkzirnQwmERB8hdlTCYKHWVddOJssSMxghusbTmUMyRVExXxpmr8OGMEwqFaqgQkNsBt3yiz2JWZu7nSpgw4lFK1qCB6mI9bXbXy1sJ9Z4NtQgYI2dv-1ZybGhAJ726_CrxRGY4Xl-2eweLJ8PrYLwZnCrSfcnjfG-6wmrYMfIoV0nJUERI8A5JPZKvRcOvme4m5w6TTDOzWvADKhk.oVTUpW98BlzuMq8ePbpWGfdL_NJHzKe388p9XwLdykk&amp;dib_tag=se&amp;keywords=Skratch%2BLabs%2BHydration%2BDrink%2BMix&amp;qid=1778026737&amp;sprefix=saltstick%2Bcaps%2Caps%2C321&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=19d8254f8823e84f901915a6485c21fe&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Skratch Labs Hydration Drink Mix" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Hydration-Servings-Electrolyte-Developed-Performance/dp/B075NDRY1C?crid=8XVEV7KDDBDN&amp;dib=eyJ2IjoiMSJ9.6TDtWaBXEvrZ13-oW8NIVzGFXGCzDbnOCD5vzHvM2NxXv8bfWgQkT44NKym4Sqo_4V-DhbmQ_-6Lj9-4rP3-5-juLEkzirnQwmERB8hdlTCYKHWVddOJssSMxghusbTmUMyRVExXxpmr8OGMEwqFaqgQkNsBt3yiz2JWZu7nSpgw4lFK1qCB6mI9bXbXy1sJ9Z4NtQgYI2dv-1ZybGhAJ726_CrxRGY4Xl-2eweLJ8PrYLwZnCrSfcnjfG-6wmrYMfIoV0nJUERI8A5JPZKvRcOvme4m5w6TTDOzWvADKhk.oVTUpW98BlzuMq8ePbpWGfdL_NJHzKe388p9XwLdykk&amp;dib_tag=se&amp;keywords=Skratch%2BLabs%2BHydration%2BDrink%2BMix&amp;qid=1778026737&amp;sprefix=saltstick%2Bcaps%2Caps%2C321&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=19d8254f8823e84f901915a6485c21fe&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Skratch Labs Hydration Drink Mix" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Skratch Labs Hydration Drink Mix" data-product-rank="3" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -642,7 +790,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>87</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://gearuptofit.com/review/best-electrolyte-powders-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Powders for Runners" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">GearUpToFit</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://gearuptofit.com/review/best-electrolyte-powders-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Powders for Runners" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">GearUpToFit</a></div>
                                   </div>
 
                               </div>
@@ -651,7 +799,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>82</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">r/XXRunning thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">r/XXRunning thread</a></div>
                                   </div>
 
                               </div>
@@ -660,7 +808,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>83.5</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=uoPDdgAmO2Y" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Skratch Labs Exercise Hydration Mix Review. One of the Best Sports Drink Electrolyte Waters Around" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">Taren&#39;s MōTTIV Method video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=uoPDdgAmO2Y" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Skratch Labs Exercise Hydration Mix Review. One of the Best Sports Drink Electrolyte Waters Around" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">Taren&#39;s MōTTIV Method video</a></div>
                                   </div>
 
                               </div>
@@ -668,9 +816,9 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Skratch Labs Hydration Drink Mix">
-                          <div><span>Proof base</span><strong>4 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>81/100</strong><p>Page updates and source recency support this read.</p></div>
-                          <div><span>Proof level</span><strong>Developing</strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                          <div><span>Proof base</span><strong>4 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
+                          <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
                       </section>
@@ -683,7 +831,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://gearuptofit.com/review/best-electrolyte-powders-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Powders for Runners" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://gearuptofit.com/review/best-electrolyte-powders-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Powders for Runners" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Expert review</span>
                                     <b>Best Electrolyte Powders for Runners</b>
                                     <small>GearUpToFit - checked May 5, 2026</small>
@@ -697,14 +845,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=uoPDdgAmO2Y" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Skratch Labs Exercise Hydration Mix Review. One of the Best Sports Drink Electrolyte Waters Around" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=uoPDdgAmO2Y" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Skratch Labs Exercise Hydration Mix Review. One of the Best Sports Drink Electrolyte Waters Around" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Video review</span>
                                     <b>Skratch Labs Exercise Hydration Mix Review. One of the Best Sports Drink Electrolyte Waters Around</b>
                                     <small>Taren&#39;s MōTTIV Method - checked May 29, 2026</small>
                                     <em>Taren&#39;s MōTTIV Method video review: Skratch Labs Exercise Hydration Mix Review. One of the Best Sports Drink Electrolyte Waters Around</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=Ot-adHMzu_E" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="SKRATCH CLEAR Review | TRUE Tasteless Hydration mix?" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=Ot-adHMzu_E" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="SKRATCH CLEAR Review | TRUE Tasteless Hydration mix?" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Video review</span>
                                     <b>SKRATCH CLEAR Review | TRUE Tasteless Hydration mix?</b>
                                     <small>Saturday | Ride &amp; Run Faster - checked May 29, 2026</small>
@@ -718,7 +866,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.reddit.com/r/XXRunning/comments/1qmi97l/what_are_the_best_electrolyte_drinks/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="What are the best electrolyte drinks?" data-product-name="Skratch Labs Hydration Drink Mix" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Owner discussion</span>
                                     <b>What are the best electrolyte drinks?</b>
                                     <small>r/XXRunning thread - checked May 5, 2026</small>
@@ -743,7 +891,7 @@
               </div>
             </article>
 
-            <article class="product" id="saltstick-caps" data-product-name="SaltStick Caps" data-default-score="84" data-editorial-rank="3" data-channel-scores='{"Expert":84,"YouTube":84.5}' data-decision-tags='["performance","distance","small-space"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":59},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":57},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":60},"raceFocus":{"key":"raceFocus","label":"Race focus","score":82},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":96},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"flavorTolerance","label":"Flavor tolerance","score":96},{"key":"raceFocus","label":"Race focus","score":82},{"key":"distanceSuitability","label":"Long-distance fit","score":60}],"ownerSentimentSummary":"Capsules solve a real problem for runners who want to keep fuel, water, and electrolytes separate.","expertSentimentSummary":"Runner's World electrolyte coverage includes tablets, chews, powders, and related sodium formats for runners.","biggestStrength":"Capsules solve a real problem for runners who want to keep fuel, water, and electrolytes separate.","biggestComplaint":"They are less convenient if you prefer sipping everything from a bottle.","confidenceLevel":"Developing","evidenceDepth":26,"recencyStrength":75,"decisionTags":["performance","distance","small-space"]}' data-fit-profile="%7B%22id%22%3A%22saltstick-caps%22%2C%22name%22%3A%22SaltStick%20Caps%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A84%2C%22publicScoreLabel%22%3A%2284%22%2C%22tag%22%3A%22Best%20capsule%20option%22%2C%22bestFor%22%3A%22Runners%20who%20want%20electrolytes%20without%20changing%20the%20taste%20or%20carb%20concentration%20of%20their%20bottles.%22%2C%22avoidIf%22%3A%22You%20dislike%20capsules%20or%20want%20hydration%2C%20sodium%2C%20and%20calories%20all%20in%20one%20drink.%22%2C%22biggestStrength%22%3A%22Capsules%20solve%20a%20real%20problem%20for%20runners%20who%20want%20to%20keep%20fuel%2C%20water%2C%20and%20electrolytes%20separate.%22%2C%22biggestComplaint%22%3A%22They%20are%20less%20convenient%20if%20you%20prefer%20sipping%20everything%20from%20a%20bottle.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22small-space%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A57%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A60%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A96%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A60%7D%5D%2C%22ownerSentimentSummary%22%3A%22Capsules%20solve%20a%20real%20problem%20for%20runners%20who%20want%20to%20keep%20fuel%2C%20water%2C%20and%20electrolytes%20separate.%22%2C%22expertSentimentSummary%22%3A%22Runner's%20World%20electrolyte%20coverage%20includes%20tablets%2C%20chews%2C%20powders%2C%20and%20related%20sodium%20formats%20for%20runners.%22%2C%22biggestStrength%22%3A%22Capsules%20solve%20a%20real%20problem%20for%20runners%20who%20want%20to%20keep%20fuel%2C%20water%2C%20and%20electrolytes%20separate.%22%2C%22biggestComplaint%22%3A%22They%20are%20less%20convenient%20if%20you%20prefer%20sipping%20everything%20from%20a%20bottle.%22%2C%22confidenceLevel%22%3A%22Developing%22%2C%22evidenceDepth%22%3A26%2C%22recencyStrength%22%3A75%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22small-space%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FSaltStick-Electrolyte-Replacement-Capsules-bottle%2Fdp%2FB002IY96B0%3Fcrid%3D3FV2HSQOK041C%26dib%3DeyJ2IjoiMSJ9.MHEoii1-5_u1cG4labyQvsCoiHn17jkKQHyU6ZL8gozXHYZiUYuit1w3rDa0LJA2W9n8Y9i7lzHAr7jlEG4v5h-029FIS20lcpucqQDtr8yo0jR6pMrZoZWeDSNWSxOZqP6sA6UWFe5Wv2rbCe_VLlQxjqZaTHFgmi6twjsbTyn7RBR_HTJdm_GX2LiM0AFiDxk3iUZ-Kh_yE_zQmBrqqv7lPdtN0Ilh3bATZXFGgyPYqLb-YlIfdNkAuyzn6mXQ1L9ZBY8EWoPdDTbDbD-3md-Eyybo_z062QjKVgkVo34.FPScUJZ1FeIJorRxDc6N_x-9hMDi_VlzUbaW8X0Y-qo%26dib_tag%3Dse%26keywords%3DSaltStick%252BCaps%26qid%3D1778026707%26sprefix%3Dsaltstick%252Bcaps%252Caps%252C251%26sr%3D8-6%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3De401ee81aa8060f7f798659efc60cc59%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="saltstick-caps" data-product-name="SaltStick Caps" data-default-score="84" data-editorial-rank="4" data-channel-scores='{"Expert":84,"YouTube":84.5}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--tub">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing SaltStick Caps, Best capsule option">
@@ -753,7 +901,7 @@
               </div>
               <div>
                 <div class="product-badge-row">
-                  <span class="rank-badge">Rank <span data-rank>#3</span></span>
+                  <span class="rank-badge">Rank <span data-rank>#4</span></span>
 
                     <span class="decision-badge">Best for Distance</span>
 
@@ -766,6 +914,9 @@
                 <h2>SaltStick Caps</h2>
                 <div class="tagline">Best capsule option</div>
                 <p class="product-verdict"><strong>Our take:</strong> SaltStick is the flexible pick because it separates electrolytes from flavor and carbs. That matters when your bottles are already dedicated to fuel.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$0.20-$0.40 per capsule typical</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for SaltStick Caps">
@@ -780,9 +931,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for SaltStick Caps">
-                  <strong>84</strong>
-                  <span>Evidence score · 3 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for SaltStick Caps">
+
+                    <strong>84</strong>
+                    <span>Evidence score · 3 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for SaltStick Caps">
@@ -794,17 +947,13 @@
                     <span>Avoid if</span>
                     <p>You dislike capsules or want hydration, sodium, and calories all in one drink.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>They are less convenient if you prefer sipping everything from a bottle.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for SaltStick Caps">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/SaltStick-Electrolyte-Replacement-Capsules-bottle/dp/B002IY96B0?crid=3FV2HSQOK041C&amp;dib=eyJ2IjoiMSJ9.MHEoii1-5_u1cG4labyQvsCoiHn17jkKQHyU6ZL8gozXHYZiUYuit1w3rDa0LJA2W9n8Y9i7lzHAr7jlEG4v5h-029FIS20lcpucqQDtr8yo0jR6pMrZoZWeDSNWSxOZqP6sA6UWFe5Wv2rbCe_VLlQxjqZaTHFgmi6twjsbTyn7RBR_HTJdm_GX2LiM0AFiDxk3iUZ-Kh_yE_zQmBrqqv7lPdtN0Ilh3bATZXFGgyPYqLb-YlIfdNkAuyzn6mXQ1L9ZBY8EWoPdDTbDbD-3md-Eyybo_z062QjKVgkVo34.FPScUJZ1FeIJorRxDc6N_x-9hMDi_VlzUbaW8X0Y-qo&amp;dib_tag=se&amp;keywords=SaltStick%2BCaps&amp;qid=1778026707&amp;sprefix=saltstick%2Bcaps%2Caps%2C251&amp;sr=8-6&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=e401ee81aa8060f7f798659efc60cc59&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="SaltStick Caps" data-product-rank="3" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/SaltStick-Electrolyte-Replacement-Capsules-bottle/dp/B002IY96B0?crid=3FV2HSQOK041C&amp;dib=eyJ2IjoiMSJ9.MHEoii1-5_u1cG4labyQvsCoiHn17jkKQHyU6ZL8gozXHYZiUYuit1w3rDa0LJA2W9n8Y9i7lzHAr7jlEG4v5h-029FIS20lcpucqQDtr8yo0jR6pMrZoZWeDSNWSxOZqP6sA6UWFe5Wv2rbCe_VLlQxjqZaTHFgmi6twjsbTyn7RBR_HTJdm_GX2LiM0AFiDxk3iUZ-Kh_yE_zQmBrqqv7lPdtN0Ilh3bATZXFGgyPYqLb-YlIfdNkAuyzn6mXQ1L9ZBY8EWoPdDTbDbD-3md-Eyybo_z062QjKVgkVo34.FPScUJZ1FeIJorRxDc6N_x-9hMDi_VlzUbaW8X0Y-qo&amp;dib_tag=se&amp;keywords=SaltStick%2BCaps&amp;qid=1778026707&amp;sprefix=saltstick%2Bcaps%2Caps%2C251&amp;sr=8-6&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=e401ee81aa8060f7f798659efc60cc59&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for SaltStick Caps" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="SaltStick Caps" data-product-rank="4" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -823,7 +972,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>84</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">Runner&#39;s World</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">Runner&#39;s World</a></div>
                                   </div>
 
                               </div>
@@ -832,7 +981,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>84.5</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=6qMCGhTtVY0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="SaltStick Caps PLUS Review" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">SidsTips video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=6qMCGhTtVY0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="SaltStick Caps PLUS Review" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">SidsTips video</a></div>
                                   </div>
 
                               </div>
@@ -840,9 +989,9 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for SaltStick Caps">
-                          <div><span>Proof base</span><strong>3 public sources</strong><p>Expert, YouTube</p></div>
-                          <div><span>Freshness</span><strong>75/100</strong><p>Page updates and source recency support this read.</p></div>
-                          <div><span>Proof level</span><strong>Developing</strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                          <div><span>Proof base</span><strong>3 qualifying sources</strong><p>Expert, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
+                          <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
                       </section>
@@ -855,7 +1004,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link best-source" href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Expert review / Best evidence</span>
                                     <b>Best Electrolyte Tablets, Chews, and Powders for Runners</b>
                                     <small>Runner&#39;s World - checked May 5, 2026</small>
@@ -869,14 +1018,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=6qMCGhTtVY0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="SaltStick Caps PLUS Review" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=6qMCGhTtVY0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="SaltStick Caps PLUS Review" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Video review</span>
                                     <b>SaltStick Caps PLUS Review</b>
                                     <small>SidsTips - checked May 29, 2026</small>
                                     <em>SidsTips video review: SaltStick Caps PLUS Review</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=C2zbFzrHxuk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="SaltStick Caps PLUS Review for ElliptiGO Riders" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=C2zbFzrHxuk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="SaltStick Caps PLUS Review for ElliptiGO Riders" data-product-name="SaltStick Caps" data-guide="Best Electrolytes for Heavy Sweaters">
                                     <span>Video review</span>
                                     <b>SaltStick Caps PLUS Review for ElliptiGO Riders</b>
                                     <small>LoveTheGO - checked May 29, 2026</small>
@@ -894,178 +1043,6 @@
                           <div class="source-section-label">What people caution</div>
                           <p>They are less convenient if you prefer sipping everything from a bottle.</p>
                           <div class="source-review-note">Public caution links are under manual review. We do not show weak owner mentions as proof.</div>
-                        </section>
-
-                    </div>
-                  </details>
-              </div>
-            </article>
-
-            <article class="product" id="precision-hydration-ph-1500" data-product-name="Precision Hydration PH 1500" data-default-score="83" data-editorial-rank="4" data-channel-scores='{"Expert":86.3,"Reddit":78}' data-decision-tags='["performance","distance","quiet"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":59},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":59},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":46},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":60},"raceFocus":{"key":"raceFocus","label":"Race focus","score":82},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":59},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":96},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"flavorTolerance","label":"Flavor tolerance","score":96},{"key":"raceFocus","label":"Race focus","score":82},{"key":"distanceSuitability","label":"Long-distance fit","score":60}],"ownerSentimentSummary":"Expert guides often recommend Precision Hydration when sodium precision matters more than taste or calories.","expertSentimentSummary":"3 evidence items. Strongest signal: Runner's World electrolyte coverage helps frame high-sodium tablets for endurance runners.","biggestStrength":"Expert guides often recommend Precision Hydration when sodium precision matters more than taste or calories.","biggestComplaint":"It is a tool, not a general sports drink; use it when high sodium is actually needed.","confidenceLevel":"Developing","evidenceDepth":28,"recencyStrength":79,"decisionTags":["performance","distance","quiet"]}' data-fit-profile="%7B%22id%22%3A%22precision-hydration-ph-1500%22%2C%22name%22%3A%22Precision%20Hydration%20PH%201500%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20race-day%20sodium%20tool%22%2C%22bestFor%22%3A%22Heavy%20sweaters%20who%20want%20a%20specific%20high-sodium%20product%20for%20preloading%20or%20race-day%20hydration%20planning.%22%2C%22avoidIf%22%3A%22You%20want%20a%20sweet%20sports%20drink%20or%20calories%20built%20into%20your%20hydration.%22%2C%22biggestStrength%22%3A%22Expert%20guides%20often%20recommend%20Precision%20Hydration%20when%20sodium%20precision%20matters%20more%20than%20taste%20or%20calories.%22%2C%22biggestComplaint%22%3A%22It%20is%20a%20tool%2C%20not%20a%20general%20sports%20drink%3B%20use%20it%20when%20high%20sodium%20is%20actually%20needed.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A59%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A46%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A60%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A59%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A96%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A60%7D%5D%2C%22ownerSentimentSummary%22%3A%22Expert%20guides%20often%20recommend%20Precision%20Hydration%20when%20sodium%20precision%20matters%20more%20than%20taste%20or%20calories.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Runner's%20World%20electrolyte%20coverage%20helps%20frame%20high-sodium%20tablets%20for%20endurance%20runners.%22%2C%22biggestStrength%22%3A%22Expert%20guides%20often%20recommend%20Precision%20Hydration%20when%20sodium%20precision%20matters%20more%20than%20taste%20or%20calories.%22%2C%22biggestComplaint%22%3A%22It%20is%20a%20tool%2C%20not%20a%20general%20sports%20drink%3B%20use%20it%20when%20high%20sodium%20is%20actually%20needed.%22%2C%22confidenceLevel%22%3A%22Developing%22%2C%22evidenceDepth%22%3A28%2C%22recencyStrength%22%3A79%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FPrecision-Hydration-Lite-Electrolyte-Drink%2Fdp%2FB07L452157%3Fcrid%3D2EYNXZBKP1MAZ%26dib%3DeyJ2IjoiMSJ9.zVu1-Wup1ymUizX8qnLZXpA4Kf20Kw0zq30ifPAeSYYAhdVAeYYDXT4ebMOuNa7gbr3jHa4p0wUTZZt18vDcPg7nztgMvstLSXxmZIx4hy2if6MWrlvD7nbXzzsIg6oT9ngckWiOy8mAD8ATaaF_ng.zge4XU61cMwZzc8Bz9DLAgAAjQ_o3KJwLYE0MVMpScw%26dib_tag%3Dse%26keywords%3DPrecision%252BHydration%252BPH%252B1500%26qid%3D1778026688%26sprefix%3Dprecision%252Bhydration%252Bph%252B1500%252Caps%252C304%26sr%3D8-1%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D367467131c49d007ac369ccb798de86a%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
-              <div class="product-media product-media--outdoor product-visual--nutrition product-visual--tub">
-
-                  <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Precision Hydration PH 1500, Best race-day sodium tool">
-                    <span class="product-visual-icon" aria-hidden="true"><svg viewBox="0 0 120 120" aria-hidden="true"><path stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M34 33c0-10 52-10 52 0v58c0 10-52 10-52 0V33Z"/><path stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M34 33c0 10 52 10 52 0"/><path stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".35" d="M43 55h34M43 73h34"/></svg></span>
-                  </div>
-
-              </div>
-              <div>
-                <div class="product-badge-row">
-                  <span class="rank-badge">Rank <span data-rank>#4</span></span>
-
-                    <span class="decision-badge">Best for Distance</span>
-
-                    <span class="decision-badge">Performance Pick</span>
-
-                    <span class="decision-badge">Quiet Pick</span>
-
-                  <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
-                </div>
-                <h2>Precision Hydration PH 1500</h2>
-                <div class="tagline">Best race-day sodium tool</div>
-                <p class="product-verdict"><strong>Our take:</strong> PH 1500 is the precision pick: less lifestyle hydration, more sodium tool. It is best for runners who already think in terms of sweat rate, heat, and race-day planning.</p>
-
-
-                  <ul class="spec-list product-spec-list" aria-label="Key specifications for Precision Hydration PH 1500">
-                    <li>1500 mg sodium per liter when mixed as directed</li><li>Effervescent tablet format</li><li>Low-calorie hydration</li><li>Race-day sodium focus</li>
-                  </ul>
-
-
-
-                  <div class="product-pros-cons">
-                    <div><h3>Why it stands out</h3><ul><li>Clear sodium targeting</li><li>Good for preloading</li><li>Easy to separate fuel from hydration</li></ul></div>
-                    <div><h3>Know before buying</h3><ul><li>Not a carb source</li><li>Less casual flavor profile</li><li>Requires sodium planning</li></ul></div>
-                  </div>
-
-
-                <div class="product-score-summary" aria-label="Evidence score for Precision Hydration PH 1500">
-                  <strong>83</strong>
-                  <span>Evidence score · 4 public sources</span>
-                </div>
-
-                <div class="mini-decision-grid" aria-label="Quick decision notes for Precision Hydration PH 1500">
-                  <div>
-                    <span>Best for</span>
-                    <p>Heavy sweaters who want a specific high-sodium product for preloading or race-day hydration planning.</p>
-                  </div>
-                  <div>
-                    <span>Avoid if</span>
-                    <p>You want a sweet sports drink or calories built into your hydration.</p>
-                  </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>It is a tool, not a general sports drink; use it when high sodium is actually needed.</p>
-                  </div>
-                </div>
-
-
-                  <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                  <div class="shopping-button-group" aria-label="Shopping options for Precision Hydration PH 1500">
-
-                      <a class="button shopping-button" href="https://www.amazon.com/Precision-Hydration-Lite-Electrolyte-Drink/dp/B07L452157?crid=2EYNXZBKP1MAZ&amp;dib=eyJ2IjoiMSJ9.zVu1-Wup1ymUizX8qnLZXpA4Kf20Kw0zq30ifPAeSYYAhdVAeYYDXT4ebMOuNa7gbr3jHa4p0wUTZZt18vDcPg7nztgMvstLSXxmZIx4hy2if6MWrlvD7nbXzzsIg6oT9ngckWiOy8mAD8ATaaF_ng.zge4XU61cMwZzc8Bz9DLAgAAjQ_o3KJwLYE0MVMpScw&amp;dib_tag=se&amp;keywords=Precision%2BHydration%2BPH%2B1500&amp;qid=1778026688&amp;sprefix=precision%2Bhydration%2Bph%2B1500%2Caps%2C304&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=367467131c49d007ac369ccb798de86a&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Electrolytes for Heavy Sweaters" data-section="Outdoor" data-product-name="Precision Hydration PH 1500" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
-
-                  </div>
-
-
-                  <details class="evidence-drawer" data-source-dropdown data-source-type="all" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
-                    <summary>
-                      <span>Show the research</span>
-                      <small>Scores, sources, upside, and cautions</small>
-                    </summary>
-                    <div class="evidence-drawer-body">
-                      <section class="evidence-score-detail" aria-label="Scoring detail for Precision Hydration PH 1500">
-
-                          <div class="product-signal-grid" aria-label="Scoring signals for Precision Hydration PH 1500">
-
-                              <div class="product-signal product-signal--expert">
-                                <div class="signal-score-head"><span>Expert</span><strong>86.3</strong><small>Expert score</small></div>
-
-                                  <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">Runner&#39;s World</a></div>
-                                  </div>
-
-                              </div>
-
-                              <div class="product-signal product-signal--reddit">
-                                <div class="signal-score-head"><span>Reddit</span><strong>78</strong><small>Reddit score</small></div>
-
-                                  <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1gywzix" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Was it salt or caffeine?" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">r/Ultramarathon thread</a></div>
-                                  </div>
-
-                              </div>
-
-                          </div>
-
-                        <div class="proof-snapshot-grid" aria-label="Proof snapshot for Precision Hydration PH 1500">
-                          <div><span>Proof base</span><strong>4 public sources</strong><p>Expert, Reddit</p></div>
-                          <div><span>Freshness</span><strong>79/100</strong><p>Page updates and source recency support this read.</p></div>
-                          <div><span>Proof level</span><strong>Developing</strong><p>Open the cited sources below to inspect the evidence.</p></div>
-                        </div>
-
-                      </section>
-
-                        <section class="evidence-panel like-panel">
-                          <div class="source-section-label">What people like</div>
-                          <p>Expert guides often recommend Precision Hydration when sodium precision matters more than taste or calories.</p>
-
-                            <div class="source-group">
-                              <h3>Expert reviews</h3>
-                              <div class="source-link-list">
-
-                                  <a class="source-link best-source" href="https://www.runnersworld.com/gear/a33437569/best-electrolyte-tablets-for-runners/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolyte Tablets, Chews, and Powders for Runners" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
-                                    <span>Expert review / Best evidence</span>
-                                    <b>Best Electrolyte Tablets, Chews, and Powders for Runners</b>
-                                    <small>Runner&#39;s World - checked May 5, 2026</small>
-                                    <em>Runner&#39;s World electrolyte coverage helps frame high-sodium tablets for endurance runners.</em>
-                                  </a>
-
-                                  <a class="source-link " href="https://runbikecalc.com/blog/best-electrolytes-2026" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Electrolytes 2026" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
-                                    <span>Expert review</span>
-                                    <b>Best Electrolytes 2026</b>
-                                    <small>RunBikeCalc - checked May 5, 2026</small>
-                                    <em>Endurance electrolyte guide specifically frames Precision Hydration as useful for dialing in sodium needs.</em>
-                                  </a>
-
-                              </div>
-                            </div>
-
-                        </section>
-
-
-
-                        <section class="evidence-panel caution-panel">
-                          <div class="source-section-label">What people caution</div>
-                          <p>It is a tool, not a general sports drink; use it when high sodium is actually needed.</p>
-
-                            <div class="source-group">
-                              <h3>Expert reviews</h3>
-                              <div class="source-link-list">
-
-                                  <a class="source-link" href="https://www.getevident.co/supplements/electrolytes/precision-hydration-ph-1500" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Precision Fuel &amp; Hydration PH 1500 Electrolyte Drink Mix Review" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
-                                    <span>Expert review</span>
-                                    <b>Precision Fuel &amp; Hydration PH 1500 Electrolyte Drink Mix Review</b>
-                                    <small>Evident Health - checked May 29, 2026</small>
-                                    <em>Evident Health review adds current product-specific context for Precision Hydration PH 1500 strength, certification, and use-case fit.</em>
-                                  </a>
-
-                              </div>
-                            </div>
-
-                            <div class="source-group">
-                              <h3>Reddit owner discussion</h3>
-                              <div class="source-link-list">
-
-                                  <a class="source-link" href="https://www.reddit.com/r/Ultramarathon/comments/1gywzix" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Was it salt or caffeine?" data-product-name="Precision Hydration PH 1500" data-guide="Best Electrolytes for Heavy Sweaters">
-                                    <span>Owner discussion</span>
-                                    <b>Was it salt or caffeine?</b>
-                                    <small>r/Ultramarathon thread - checked May 29, 2026</small>
-                                    <em>r/Ultramarathon thread adds owner cautions around using Precision Hydration PH 1500 in long-race hydration plans.</em>
-                                  </a>
-
-                              </div>
-                            </div>
-
                         </section>
 
                     </div>
@@ -1128,17 +1105,17 @@
             <h2 id="related-heading">Keep comparing in Outdoor</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/outdoor.html"><span>Back to Outdoor</span><span>Category hub</span></a>
+              <a href="/outdoor.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Outdoor</span><span>Category hub</span></a>
 
-                <a href="/best-electrolyte-mixes-for-ultrarunning.html"><span>Best Electrolyte Mixes for Ultrarunning</span><span>Buying guide</span></a>
+                <a href="/best-electrolyte-mixes-for-ultrarunning.html" data-guide-link data-guide-placement="roundup-related"><span>Best Electrolyte Mixes for Ultrarunning</span><span>Buying guide</span></a>
 
-                <a href="/best-ultramarathon-fuel.html"><span>Best Food for Ultra Marathons</span><span>Buying guide</span></a>
+                <a href="/best-ultramarathon-fuel.html" data-guide-link data-guide-placement="roundup-related"><span>Best Food for Ultra Marathons</span><span>Buying guide</span></a>
 
-                <a href="/best-carb-drink-mixes-for-ultramarathons.html"><span>Best Carb Drink Mixes for Ultramarathons</span><span>Buying guide</span></a>
+                <a href="/best-carb-drink-mixes-for-ultramarathons.html" data-guide-link data-guide-placement="roundup-related"><span>Best Carb Drink Mixes for Ultramarathons</span><span>Buying guide</span></a>
 
-                <a href="/best-running-gels-for-ultramarathons.html"><span>Best Running Gels for Ultramarathons</span><span>Buying guide</span></a>
+                <a href="/best-running-gels-for-ultramarathons.html" data-guide-link data-guide-placement="roundup-related"><span>Best Running Gels for Ultramarathons</span><span>Buying guide</span></a>
 
-                <a href="/best-running-headphones.html"><span>Best Running Headphones</span><span>Buying guide</span></a>
+                <a href="/best-handheld-running-water-bottles.html" data-guide-link data-guide-placement="roundup-related"><span>Best Handheld Running Water Bottles</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1161,19 +1138,19 @@
               <strong>86</strong>
             </div>
 
+            <div class="mini-rank" data-mini-rank="Precision Hydration PH 1500">
+              <span>#2 Precision Hydration PH 1500</span>
+              <strong>83</strong>
+            </div>
+
             <div class="mini-rank" data-mini-rank="Skratch Labs Hydration Drink Mix">
-              <span>#2 Skratch Labs Hydration Drink Mix</span>
+              <span>#3 Skratch Labs Hydration Drink Mix</span>
               <strong>85</strong>
             </div>
 
             <div class="mini-rank" data-mini-rank="SaltStick Caps">
-              <span>#3 SaltStick Caps</span>
+              <span>#4 SaltStick Caps</span>
               <strong>84</strong>
-            </div>
-
-            <div class="mini-rank" data-mini-rank="Precision Hydration PH 1500">
-              <span>#4 Precision Hydration PH 1500</span>
-              <strong>83</strong>
             </div>
 
           <div class="editorial-card">
@@ -1187,22 +1164,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

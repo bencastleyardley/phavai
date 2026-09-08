@@ -1,7 +1,4 @@
 <% const ogImage = section.image.startsWith("http") ? section.image : `https://www.phavai.com${section.image}`; %>
-<% const featuredReview = coreReviews[0] || reviews[0]; %>
-<% const featuredProduct = featuredReview?.products?.[0]; %>
-<% const featuredLink = featuredProduct?.shoppingLinks?.[0]; %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -84,7 +81,10 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/index.html">Phavai / <%= section.title %></a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <span aria-current="page"><%= section.title %></span>
+            </nav>
             <h1><%= section.title %> Buying Guides</h1>
             <p class="lede"><%= section.intro %></p>
             <div class="meta-row">
@@ -94,48 +94,54 @@
             </div>
             <p class="review-byline">AI-assisted research · Human review by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a><% if (editorialProfile.expertiseSections.includes(section.slug)) { %>, <%= editorialProfile.outdoorByline %><% } %>. Phavai organizes selected reviews, recurring tradeoffs, and product facts; it does not imply first-hand testing. <a href="/methodology.html">See the process</a>.</p>
           </div>
-          <% if (featuredReview) { %>
-          <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
-            <div class="quick-answer-main">
-              <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Start with <a href="/<%= featuredReview.slug %>.html"><%= featuredReview.title %></a>.</h2>
-              <p><%= featuredReview.description %></p>
-            </div>
-            <div class="quick-answer-actions">
-              <a class="button" href="/<%= featuredReview.slug %>.html">Open buying guide</a>
-              <% if (affiliateConfig?.affiliateEnabled && featuredProduct && featuredLink) { %>
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="<%= featuredLink.url %>" target="_blank" rel="sponsored noopener" aria-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %> for <%= featuredProduct.name %>" data-product-cta data-affiliate-link data-retailer="<%= featuredLink.retailerName || "Retailer" %>" data-guide="<%= featuredReview.title %>" data-section="<%= section.title %>" data-product-name="<%= featuredProduct.name %>" data-product-rank="<%= featuredProduct.rank %>" data-product-score="<%= featuredProduct.bestPickScore %>" data-shopping-label="<%= featuredLink.displayLabel || featuredLink.label || "Check price" %>" data-shopping-placement="section-quick-answer"><%= featuredLink.displayLabel || featuredLink.label || "Check price" %></a>
-              <% } %>
+          <% if (startingGuides.length) { %>
+          <section class="collection-start-panel" aria-labelledby="collection-start-heading">
+            <div class="section-kicker">Choose a starting point</div>
+            <h2 id="collection-start-heading">What are you comparing?</h2>
+            <p>Pick the guide closest to your actual purchase. The shortlist, tradeoffs, and retailer options live on the next page.</p>
+            <div class="collection-start-links">
+              <% startingGuides.forEach((review) => { %>
+                <a href="/<%= review.slug %>.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong><%= review.title %></strong>
+                </a>
+              <% }) %>
             </div>
           </section>
           <% } else { %>
             <div class="section-icon section-icon--<%= section.slug %>" aria-hidden="true"><%- section.iconSvg %></div>
           <% } %>
         </div>
+        <nav class="page-jump-nav" aria-label="On this collection">
+          <span>Browse this collection</span>
+          <% reviewGroups.forEach((group) => { %><a href="#<%= group.id %>"><%= group.title %></a><% }) %>
+          <% if (supportingPages.length) { %><a href="#shopping-advice">How to choose</a><% } %>
+        </nav>
       </div>
     </section>
 
-    <section class="band" id="guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2><%= section.title %> buying guides</h2>
-          <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
+    <% reviewGroups.forEach((group, groupIndex) => { %>
+      <section class="band<%= groupIndex % 2 ? ' surface' : '' %>" id="<%= group.id %>">
+        <div class="wrap">
+          <div class="section-head">
+            <h2><%= group.title %></h2>
+            <p><%= group.description %></p>
+          </div>
+          <div class="category-grid icon-card-grid">
+            <% group.reviews.forEach((review) => { %>
+              <a class="category-card category-card--<%= section.slug %>" href="/<%= review.slug %>.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3><%= review.title %></h3>
+                  <p><%= review.description %></p>
+                </div>
+              </a>
+            <% }) %>
+          </div>
         </div>
-        <div class="category-grid icon-card-grid">
-          <% coreReviews.forEach((review) => { %>
-            <a class="category-card category-card--<%= section.slug %>" href="/<%= review.slug %>.html">
-              <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3><%= review.title %></h3>
-                <p><%= review.description %></p>
-              </div>
-            </a>
-          <% }) %>
-        </div>
-      </div>
-    </section>
+      </section>
+    <% }) %>
 
     <% if (section.matters?.length) { %>
     <section class="band">
@@ -156,29 +162,6 @@
     </section>
     <% } %>
 
-    <% if (focusedReviews.length) { %>
-    <section class="band surface" id="focused-guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Focused <%= section.title.toLowerCase() %> guides</h2>
-          <p>Use these narrower shortlists when your terrain, fit, distance, or buying situation needs a more specific answer.</p>
-        </div>
-        <div class="category-grid icon-card-grid">
-          <% focusedReviews.forEach((review) => { %>
-            <a class="category-card category-card--<%= section.slug %>" href="/<%= review.slug %>.html">
-              <span class="card-icon" aria-hidden="true"><%- review.iconSvg %></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Focused roundup</span>
-                <h3><%= review.title %></h3>
-                <p><%= review.description %></p>
-              </div>
-            </a>
-          <% }) %>
-        </div>
-      </div>
-    </section>
-    <% } %>
-
     <% if (supportingPages.length) { %>
     <section class="band" id="shopping-advice">
       <div class="wrap">
@@ -188,7 +171,7 @@
         </div>
         <div class="category-grid">
           <% supportingPages.forEach((page) => { %>
-            <a class="category-card category-card--<%= section.slug %>" href="/<%= page.slug %>.html">
+            <a class="category-card category-card--<%= section.slug %>" href="/<%= page.slug %>.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow"><%= page.type %></span>
                 <h3><%= page.title %></h3>

@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -166,13 +166,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -180,7 +177,11 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Ultra gels</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Ultra gels</span>
+        </nav>
         <h1>Best Running Gels for Ultramarathons</h1>
         <p class="lede">A good ultra gel is not just fast sugar. It has to open easily, go down when you are tired, fit your carb target, and avoid wrecking your stomach. This guide compares the gel options runners most often test for long races.</p>
         <div class="meta-row" aria-label="Page details">
@@ -207,6 +208,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -218,15 +227,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -235,6 +245,7 @@
                     <td>#1</td>
                     <td><a href="#maurten-gel-100">Maurten Gel 100</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$3-$4 per gel typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Maurten Gel 100">
 
@@ -251,6 +262,7 @@
                     <td>#2</td>
                     <td><a href="#precision-fuel-pf-30-gel">Precision Fuel PF 30 Gel</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$2-$4 per gel typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Precision Fuel PF 30 Gel">
 
@@ -267,6 +279,7 @@
                     <td>#3</td>
                     <td><a href="#sis-beta-fuel-gel">SiS Beta Fuel Gel</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$3-$4 per gel typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for SiS Beta Fuel Gel">
 
@@ -283,6 +296,7 @@
                     <td>#4</td>
                     <td><a href="#huma-chia-energy-gel">Huma Chia Energy Gel</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$2-$3 per gel typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Huma Chia Energy Gel">
 
@@ -299,6 +313,7 @@
                     <td>#5</td>
                     <td><a href="#gu-energy-gel">GU Energy Gel</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$1-$2 per gel typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for GU Energy Gel">
 
@@ -317,61 +332,22 @@
         </section>
 
 
-          <section class="fit-finder" data-fit-finder data-fit-options="%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%20first%22%2C%22help%22%3A%22A%20forgiving%20pick%20that%20is%20easier%20to%20live%20with.%22%2C%22weights%22%3A%7B%22comfort%22%3A1%2C%22cushioning%22%3A0.7%2C%22stability%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Comfort%22%2C%22Cushioning%22%5D%7D%2C%7B%22key%22%3A%22distance%22%2C%22label%22%3A%22Long%20days%22%2C%22help%22%3A%22Built%20around%20distance%2C%20durability%2C%20and%20fewer%20surprises.%22%2C%22weights%22%3A%7B%22distanceSuitability%22%3A1%2C%22durability%22%3A0.65%2C%22comfort%22%3A0.45%7D%2C%22attributeLabels%22%3A%5B%22Long-distance%20fit%22%2C%22Long-term%20build%22%5D%7D%2C%7B%22key%22%3A%22performance%22%2C%22label%22%3A%22Performance%22%2C%22help%22%3A%22Prioritizes%20speed%2C%20grip%2C%20and%20a%20lighter%20feel.%22%2C%22weights%22%3A%7B%22raceFocus%22%3A1%2C%22lightweight%22%3A0.75%2C%22traction%22%3A0.5%7D%2C%22attributeLabels%22%3A%5B%22Race%20focus%22%2C%22Light%20feel%22%5D%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Lower%20price%22%2C%22help%22%3A%22Strong%20fit%20without%20overpaying.%22%2C%22weights%22%3A%7B%22value%22%3A1%2C%22durability%22%3A0.45%2C%22dailyVersatility%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Price%20fit%22%2C%22Long-term%20build%22%5D%7D%5D" aria-labelledby="fit-finder-heading">
-            <div class="fit-finder-copy">
-              <div class="section-kicker">Find your fit</div>
-              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
-              <p>Choose up to two priorities. The editorial order stays intact while the closest buyer-specific match is highlighted.</p>
-            </div>
-            <div class="fit-finder-controls">
-              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
-
-                  <button class="fit-chip" type="button" data-fit-option="comfort" aria-pressed="false"><span>Comfort first</span><small>A forgiving pick that is easier to live with.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="distance" aria-pressed="false"><span>Long days</span><small>Built around distance, durability, and fewer surprises.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="performance" aria-pressed="false"><span>Performance</span><small>Prioritizes speed, grip, and a lighter feel.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="value" aria-pressed="false"><span>Lower price</span><small>Strong fit without overpaying.</small></button>
-
-                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false"><span>Reset</span><small>Editorial order</small></button>
-              </div>
-              <div class="fit-result" data-fit-result aria-live="polite">
-                <span data-fit-result-label>Choose a priority</span>
-                <strong data-fit-result-name>Maurten Gel 100</strong>
-                <p data-fit-result-reason>Start with the editorial winner, or select priorities above for a more specific match.</p>
-
-                  <div class="fit-result-actions">
-                    <a href="#maurten-gel-100" data-fit-result-link>Jump to current pick</a>
-
-                      <a class="button shopping-button fit-result-shop" href="https://www.amazon.com/MAURTEN-Energy-Carbohydrates-Stomach-Friendly-preservatives/dp/B07H319S3V?crid=3NDX85D8U8I4V&amp;dib=eyJ2IjoiMSJ9.fnfOV4HHDZ55GzjgTRArVVhqvMPU3KVgIEpd3cQe1u4J0UppNtftOJPvBhSwcFIb2BL6CqrgQnTnP-Cbb6X4AgBcTRzuVfIebtQFZNpsMVSQFOMSi46nBc9VamvbMGrmhDhF9k9UMzZQJNxtv_UierH3cpckwLbt3BTC9QcNDm1hlvE_XREVY2SjOkrlQaoj_kPffmtswturUO5OOtJf9ZWyTNHvB62LEBSNZ9RukaGInd90qil0wp7hr-oaQ3gPcJQfcfQXWV9PHQAtcAr1JWaavxjOBhsZBaDfWefEnPg.RnPVNg0cYDOzghUBTNIc9zeaY_MvUfcZn4rY_kOCs0U&amp;dib_tag=se&amp;keywords=Maurten%2BGel%2B100&amp;qid=1777572597&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=maurten%2Bgel%2B100%2Caps%2C288&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=3fa508587d5918cb4ef1606c1632b622&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, Maurten Gel 100" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Maurten Gel 100" data-product-rank="1" data-product-score="89" data-shopping-label="Check price at Amazon" data-shopping-placement="fit-finder">Check price for this match</a>
-
-                  </div>
-
-              </div>
-            </div>
-            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
-
-                <a class="fit-match-card" href="#maurten-gel-100" data-fit-card><span data-fit-card-rank>#1 editorial</span><strong data-fit-card-name>Maurten Gel 100</strong><small data-fit-card-reason>Best premium race gel</small></a>
-
-                <a class="fit-match-card" href="#precision-fuel-pf-30-gel" data-fit-card><span data-fit-card-rank>#2 editorial</span><strong data-fit-card-name>Precision Fuel PF 30 Gel</strong><small data-fit-card-reason>Best for carb math</small></a>
-
-                <a class="fit-match-card" href="#sis-beta-fuel-gel" data-fit-card><span data-fit-card-rank>#3 editorial</span><strong data-fit-card-name>SiS Beta Fuel Gel</strong><small data-fit-card-reason>Best high-carb gel</small></a>
-
-            </div>
-          </section>
-
 
 
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="maurten-gel-100" data-product-name="Maurten Gel 100" data-default-score="89" data-editorial-rank="1" data-channel-scores='{"Expert":90,"Reddit":88,"YouTube":82}' data-decision-tags='["performance","distance","budget","premium","quiet","wide-fit"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":59},"value":{"key":"value","label":"Price fit","score":69},"fitWidth":{"key":"fitWidth","label":"Fit room","score":59},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":93},"raceFocus":{"key":"raceFocus","label":"Race focus","score":93},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":68},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"distanceSuitability","label":"Long-distance fit","score":93},{"key":"raceFocus","label":"Race focus","score":93},{"key":"value","label":"Price fit","score":69}],"ownerSentimentSummary":"Maurten is the premium gel runners often reach for when stomach tolerance matters. The neutral taste helps reduce flavor fatigue.","expertSentimentSummary":"Guide highlights Maurten as a popular race gel among runners.","biggestStrength":"Maurten is the premium gel runners often reach for when stomach tolerance matters.","biggestComplaint":"Price and texture are the main reasons to test before committing.","confidenceLevel":"Solid","evidenceDepth":66,"recencyStrength":66,"decisionTags":["performance","distance","budget","premium","quiet","wide-fit"]}' data-fit-profile="%7B%22id%22%3A%22maurten-gel-100%22%2C%22name%22%3A%22Maurten%20Gel%20100%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A89%2C%22publicScoreLabel%22%3A%2289%22%2C%22tag%22%3A%22Best%20premium%20race%20gel%22%2C%22bestFor%22%3A%22Runners%20who%20want%20a%20premium%2C%20neutral%2C%20race-focused%20gel%20and%20are%20willing%20to%20pay%20for%20it.%22%2C%22avoidIf%22%3A%22You%20need%20a%20budget%20training%20gel%20or%20dislike%20hydrogel%20texture.%22%2C%22biggestStrength%22%3A%22Maurten%20is%20the%20premium%20gel%20runners%20often%20reach%20for%20when%20stomach%20tolerance%20matters.%22%2C%22biggestComplaint%22%3A%22Price%20and%20texture%20are%20the%20main%20reasons%20to%20test%20before%20committing.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22premium%22%2C%22quiet%22%2C%22wide-fit%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A69%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A59%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A93%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A68%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A69%7D%5D%2C%22ownerSentimentSummary%22%3A%22Maurten%20is%20the%20premium%20gel%20runners%20often%20reach%20for%20when%20stomach%20tolerance%20matters.%20The%20neutral%20taste%20helps%20reduce%20flavor%20fatigue.%22%2C%22expertSentimentSummary%22%3A%22Guide%20highlights%20Maurten%20as%20a%20popular%20race%20gel%20among%20runners.%22%2C%22biggestStrength%22%3A%22Maurten%20is%20the%20premium%20gel%20runners%20often%20reach%20for%20when%20stomach%20tolerance%20matters.%22%2C%22biggestComplaint%22%3A%22Price%20and%20texture%20are%20the%20main%20reasons%20to%20test%20before%20committing.%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A66%2C%22recencyStrength%22%3A66%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22premium%22%2C%22quiet%22%2C%22wide-fit%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FMAURTEN-Energy-Carbohydrates-Stomach-Friendly-preservatives%2Fdp%2FB07H319S3V%3Fcrid%3D3NDX85D8U8I4V%26dib%3DeyJ2IjoiMSJ9.fnfOV4HHDZ55GzjgTRArVVhqvMPU3KVgIEpd3cQe1u4J0UppNtftOJPvBhSwcFIb2BL6CqrgQnTnP-Cbb6X4AgBcTRzuVfIebtQFZNpsMVSQFOMSi46nBc9VamvbMGrmhDhF9k9UMzZQJNxtv_UierH3cpckwLbt3BTC9QcNDm1hlvE_XREVY2SjOkrlQaoj_kPffmtswturUO5OOtJf9ZWyTNHvB62LEBSNZ9RukaGInd90qil0wp7hr-oaQ3gPcJQfcfQXWV9PHQAtcAr1JWaavxjOBhsZBaDfWefEnPg.RnPVNg0cYDOzghUBTNIc9zeaY_MvUfcZn4rY_kOCs0U%26dib_tag%3Dse%26keywords%3DMaurten%252BGel%252B100%26qid%3D1777572597%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dmaurten%252Bgel%252B100%252Caps%252C288%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D3fa508587d5918cb4ef1606c1632b622%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="maurten-gel-100" data-product-name="Maurten Gel 100" data-default-score="89" data-editorial-rank="1" data-channel-scores='{"Expert":90,"Reddit":88,"YouTube":82}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--gel">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Maurten Gel 100, Best premium race gel">
@@ -385,15 +361,18 @@
 
                     <span class="decision-badge">Best Overall</span>
 
-                    <span class="decision-badge">Best Value</span>
-
                     <span class="decision-badge">Best for Distance</span>
+
+                    <span class="decision-badge">Performance Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Maurten Gel 100</h2>
                 <div class="tagline">Best premium race gel</div>
                 <p class="product-verdict"><strong>Our take:</strong> Maurten Gel 100 is the safest premium recommendation because it is widely used for racing and often discussed as stomach-friendly. It is expensive, so most runners should test it before buying a full race supply.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$3-$4 per gel typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Maurten Gel 100">
@@ -408,9 +387,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Maurten Gel 100">
-                  <strong>89</strong>
-                  <span>Evidence score · 5 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Maurten Gel 100">
+
+                    <strong>89</strong>
+                    <span>Evidence score · 5 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Maurten Gel 100">
@@ -422,17 +403,13 @@
                     <span>Avoid if</span>
                     <p>You need a budget training gel or dislike hydrogel texture.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Price and texture are the main reasons to test before committing.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Maurten Gel 100">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/MAURTEN-Energy-Carbohydrates-Stomach-Friendly-preservatives/dp/B07H319S3V?crid=3NDX85D8U8I4V&amp;dib=eyJ2IjoiMSJ9.fnfOV4HHDZ55GzjgTRArVVhqvMPU3KVgIEpd3cQe1u4J0UppNtftOJPvBhSwcFIb2BL6CqrgQnTnP-Cbb6X4AgBcTRzuVfIebtQFZNpsMVSQFOMSi46nBc9VamvbMGrmhDhF9k9UMzZQJNxtv_UierH3cpckwLbt3BTC9QcNDm1hlvE_XREVY2SjOkrlQaoj_kPffmtswturUO5OOtJf9ZWyTNHvB62LEBSNZ9RukaGInd90qil0wp7hr-oaQ3gPcJQfcfQXWV9PHQAtcAr1JWaavxjOBhsZBaDfWefEnPg.RnPVNg0cYDOzghUBTNIc9zeaY_MvUfcZn4rY_kOCs0U&amp;dib_tag=se&amp;keywords=Maurten%2BGel%2B100&amp;qid=1777572597&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=maurten%2Bgel%2B100%2Caps%2C288&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=3fa508587d5918cb4ef1606c1632b622&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Maurten Gel 100" data-product-rank="1" data-product-score="89" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/MAURTEN-Energy-Carbohydrates-Stomach-Friendly-preservatives/dp/B07H319S3V?crid=3NDX85D8U8I4V&amp;dib=eyJ2IjoiMSJ9.fnfOV4HHDZ55GzjgTRArVVhqvMPU3KVgIEpd3cQe1u4J0UppNtftOJPvBhSwcFIb2BL6CqrgQnTnP-Cbb6X4AgBcTRzuVfIebtQFZNpsMVSQFOMSi46nBc9VamvbMGrmhDhF9k9UMzZQJNxtv_UierH3cpckwLbt3BTC9QcNDm1hlvE_XREVY2SjOkrlQaoj_kPffmtswturUO5OOtJf9ZWyTNHvB62LEBSNZ9RukaGInd90qil0wp7hr-oaQ3gPcJQfcfQXWV9PHQAtcAr1JWaavxjOBhsZBaDfWefEnPg.RnPVNg0cYDOzghUBTNIc9zeaY_MvUfcZn4rY_kOCs0U&amp;dib_tag=se&amp;keywords=Maurten%2BGel%2B100&amp;qid=1777572597&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=maurten%2Bgel%2B100%2Caps%2C288&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=3fa508587d5918cb4ef1606c1632b622&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Maurten Gel 100" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Maurten Gel 100" data-product-rank="1" data-product-score="89" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -451,7 +428,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>90</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.self.com/story/best-energy-gels" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">SELF</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.self.com/story/best-energy-gels" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">SELF</a></div>
                                   </div>
 
                               </div>
@@ -460,7 +437,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>88</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">r/Ultramarathon thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">r/Ultramarathon thread</a></div>
                                   </div>
 
                               </div>
@@ -469,7 +446,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=cTN06TrAyVQ" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Maurten Gel 100: Unboxing &amp; Insider&#39;s Review [UPDATED]" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">The Feed video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=cTN06TrAyVQ" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Maurten Gel 100: Unboxing &amp; Insider&#39;s Review [UPDATED]" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">The Feed video</a></div>
                                   </div>
 
                               </div>
@@ -477,8 +454,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Maurten Gel 100">
-                          <div><span>Proof base</span><strong>5 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>66/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>5 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -492,7 +469,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.self.com/story/best-energy-gels" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link best-source" href="https://www.self.com/story/best-energy-gels" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Expert review / Best evidence</span>
                                     <b>7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF</b>
                                     <small>SELF - checked Apr 24, 2026</small>
@@ -506,14 +483,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=cTN06TrAyVQ" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Maurten Gel 100: Unboxing &amp; Insider&#39;s Review [UPDATED]" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=cTN06TrAyVQ" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Maurten Gel 100: Unboxing &amp; Insider&#39;s Review [UPDATED]" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Maurten Gel 100: Unboxing &amp; Insider&#39;s Review [UPDATED]</b>
                                     <small>The Feed  - checked May 29, 2026</small>
                                     <em>The Feed video review: Maurten Gel 100: Unboxing &amp; Insider&#39;s Review [UPDATED]</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=YGZ5WAADMSI" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Maurten Gel 100 // Energy Gel Taste Test" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=YGZ5WAADMSI" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Maurten Gel 100 // Energy Gel Taste Test" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Maurten Gel 100 // Energy Gel Taste Test</b>
                                     <small>Don&#39;t Get Dropped Cycling - checked May 29, 2026</small>
@@ -527,7 +504,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Owner discussion</span>
                                     <b>Favourite Gel</b>
                                     <small>r/Ultramarathon thread - checked Apr 24, 2026</small>
@@ -549,7 +526,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=8XMe8deQf6Y" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="The Ultimate Maurten Gels Review: Gel 100 vs 160 vs Caffeine | Running Gels" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=8XMe8deQf6Y" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="The Ultimate Maurten Gels Review: Gel 100 vs 160 vs Caffeine | Running Gels" data-product-name="Maurten Gel 100" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>The Ultimate Maurten Gels Review: Gel 100 vs 160 vs Caffeine | Running Gels</b>
                                     <small>RunLetters - checked May 29, 2026</small>
@@ -566,7 +543,7 @@
               </div>
             </article>
 
-            <article class="product" id="precision-fuel-pf-30-gel" data-product-name="Precision Fuel PF 30 Gel" data-default-score="87" data-editorial-rank="2" data-channel-scores='{"Expert":88,"Reddit":86,"YouTube":83.5}' data-decision-tags='["performance","distance","budget","premium"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":59},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":59},"value":{"key":"value","label":"Price fit","score":69},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":82},"raceFocus":{"key":"raceFocus","label":"Race focus","score":82},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":79},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"distanceSuitability","label":"Long-distance fit","score":82},{"key":"raceFocus","label":"Race focus","score":82},{"key":"flavorTolerance","label":"Flavor tolerance","score":79}],"ownerSentimentSummary":"Precision Fuel is easy to plan around because each serving is clear. It suits runners who want numbers, not flavor experiments.","expertSentimentSummary":"Endurance gel comparison provides context for structured race gels.","biggestStrength":"Precision Fuel is easy to plan around because each serving is clear.","biggestComplaint":"Caffeine and sodium still need separate planning.","confidenceLevel":"Solid","evidenceDepth":66,"recencyStrength":76,"decisionTags":["performance","distance","budget","premium"]}' data-fit-profile="%7B%22id%22%3A%22precision-fuel-pf-30-gel%22%2C%22name%22%3A%22Precision%20Fuel%20PF%2030%20Gel%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A87%2C%22publicScoreLabel%22%3A%2287%22%2C%22tag%22%3A%22Best%20for%20carb%20math%22%2C%22bestFor%22%3A%22Runners%20targeting%2060-90g%20carbs%20per%20hour%20who%20want%20each%20packet%20to%20count%20cleanly.%22%2C%22avoidIf%22%3A%22You%20want%20the%20cheapest%20gel%20or%20need%20strong%20flavor%20variety.%22%2C%22biggestStrength%22%3A%22Precision%20Fuel%20is%20easy%20to%20plan%20around%20because%20each%20serving%20is%20clear.%22%2C%22biggestComplaint%22%3A%22Caffeine%20and%20sodium%20still%20need%20separate%20planning.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22premium%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A69%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A82%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A79%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A79%7D%5D%2C%22ownerSentimentSummary%22%3A%22Precision%20Fuel%20is%20easy%20to%20plan%20around%20because%20each%20serving%20is%20clear.%20It%20suits%20runners%20who%20want%20numbers%2C%20not%20flavor%20experiments.%22%2C%22expertSentimentSummary%22%3A%22Endurance%20gel%20comparison%20provides%20context%20for%20structured%20race%20gels.%22%2C%22biggestStrength%22%3A%22Precision%20Fuel%20is%20easy%20to%20plan%20around%20because%20each%20serving%20is%20clear.%22%2C%22biggestComplaint%22%3A%22Caffeine%20and%20sodium%20still%20need%20separate%20planning.%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A66%2C%22recencyStrength%22%3A76%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22premium%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FPrecision-Fuel-Energy-Easy-Digest%2Fdp%2FB09HKYRT9C%3Fcrid%3DWITWRSEPM9IP%26dib%3DeyJ2IjoiMSJ9.EIgSTyqC9XI9af7wSah5scex6lYB6bMICJ3XD5aJVYDE0eRCuvMYQhkMcDzYyQSnW0ea9aXwTOnWNBdIh-Zn_blBh-cRq6Epx-sRcn4MXAcadq4U6aKXmyu6WnrnkGMQ4RJkDj0Ge4apkOul1NIzEnbW9VK5OtT207csxsJUKz8.Jt4gFwD142csqxFJXUc_vQIKaujOxdefLe9hZVjKM3Q%26dib_tag%3Dse%26keywords%3DPrecision%252BFuel%252BPF%252B30%252BGel%26qid%3D1777572534%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dprecision%252Bfuel%252Bpf%252B30%252Bgel%252Caps%252C318%26sr%3D8-1%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D5abdd33b45eb4db48ca315809a20e55e%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="precision-fuel-pf-30-gel" data-product-name="Precision Fuel PF 30 Gel" data-default-score="87" data-editorial-rank="2" data-channel-scores='{"Expert":88,"Reddit":86,"YouTube":83.5}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--gel">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Precision Fuel PF 30 Gel, Best for carb math">
@@ -590,6 +567,9 @@
                 <div class="tagline">Best for carb math</div>
                 <p class="product-verdict"><strong>Our take:</strong> The PF 30 is a strong ultra gel because it makes the math easy. That does not guarantee stomach success, but it reduces one of the biggest race-day mistakes: underfueling because you lost count.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$2-$4 per gel typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Precision Fuel PF 30 Gel">
                     <li>30g carbohydrate</li><li>Neutral flavor profile</li><li>Caffeinated options</li><li>Designed for structured fueling</li>
@@ -603,9 +583,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Precision Fuel PF 30 Gel">
-                  <strong>87</strong>
-                  <span>Evidence score · 4 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Precision Fuel PF 30 Gel">
+
+                    <strong>87</strong>
+                    <span>Evidence score · 4 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Precision Fuel PF 30 Gel">
@@ -617,17 +599,13 @@
                     <span>Avoid if</span>
                     <p>You want the cheapest gel or need strong flavor variety.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Caffeine and sodium still need separate planning.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Precision Fuel PF 30 Gel">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Precision-Fuel-Energy-Easy-Digest/dp/B09HKYRT9C?crid=WITWRSEPM9IP&amp;dib=eyJ2IjoiMSJ9.EIgSTyqC9XI9af7wSah5scex6lYB6bMICJ3XD5aJVYDE0eRCuvMYQhkMcDzYyQSnW0ea9aXwTOnWNBdIh-Zn_blBh-cRq6Epx-sRcn4MXAcadq4U6aKXmyu6WnrnkGMQ4RJkDj0Ge4apkOul1NIzEnbW9VK5OtT207csxsJUKz8.Jt4gFwD142csqxFJXUc_vQIKaujOxdefLe9hZVjKM3Q&amp;dib_tag=se&amp;keywords=Precision%2BFuel%2BPF%2B30%2BGel&amp;qid=1777572534&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=precision%2Bfuel%2Bpf%2B30%2Bgel%2Caps%2C318&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=5abdd33b45eb4db48ca315809a20e55e&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Precision Fuel PF 30 Gel" data-product-rank="2" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Precision-Fuel-Energy-Easy-Digest/dp/B09HKYRT9C?crid=WITWRSEPM9IP&amp;dib=eyJ2IjoiMSJ9.EIgSTyqC9XI9af7wSah5scex6lYB6bMICJ3XD5aJVYDE0eRCuvMYQhkMcDzYyQSnW0ea9aXwTOnWNBdIh-Zn_blBh-cRq6Epx-sRcn4MXAcadq4U6aKXmyu6WnrnkGMQ4RJkDj0Ge4apkOul1NIzEnbW9VK5OtT207csxsJUKz8.Jt4gFwD142csqxFJXUc_vQIKaujOxdefLe9hZVjKM3Q&amp;dib_tag=se&amp;keywords=Precision%2BFuel%2BPF%2B30%2BGel&amp;qid=1777572534&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=precision%2Bfuel%2Bpf%2B30%2Bgel%2Caps%2C318&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=5abdd33b45eb4db48ca315809a20e55e&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Precision Fuel PF 30 Gel" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Precision Fuel PF 30 Gel" data-product-rank="2" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -646,7 +624,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>88</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">220 Triathlon</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">220 Triathlon</a></div>
                                   </div>
 
                               </div>
@@ -655,7 +633,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>86</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/ultrarunning/comments/1kbhki2" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Caffeine Gels for 100k race" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">r/ultrarunning thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/ultrarunning/comments/1kbhki2" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Caffeine Gels for 100k race" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">r/ultrarunning thread</a></div>
                                   </div>
 
                               </div>
@@ -664,7 +642,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>83.5</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=AkIpbTU2SS0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Try it Tuesday: Precision Fuel and Hydration PF 30 Caffeinated Gel Review" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">Hart Adventure Racing video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=AkIpbTU2SS0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Try it Tuesday: Precision Fuel and Hydration PF 30 Caffeinated Gel Review" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">Hart Adventure Racing video</a></div>
                                   </div>
 
                               </div>
@@ -672,8 +650,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Precision Fuel PF 30 Gel">
-                          <div><span>Proof base</span><strong>4 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>76/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>4 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -687,7 +665,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link best-source" href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Expert review / Best evidence</span>
                                     <b>Best energy gels to fuel your run and triathlon workouts in 2026</b>
                                     <small>220 Triathlon - checked Apr 24, 2026</small>
@@ -701,14 +679,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=AkIpbTU2SS0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Try it Tuesday: Precision Fuel and Hydration PF 30 Caffeinated Gel Review" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=AkIpbTU2SS0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Try it Tuesday: Precision Fuel and Hydration PF 30 Caffeinated Gel Review" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Try it Tuesday: Precision Fuel and Hydration PF 30 Caffeinated Gel Review</b>
                                     <small>Hart Adventure Racing - checked May 29, 2026</small>
                                     <em>Hart Adventure Racing video review: Try it Tuesday: Precision Fuel and Hydration PF 30 Caffeinated Gel Review</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=4pEweCvdZxY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Precision Fuel 30g Gel Review: The Best Energy Gel?" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=4pEweCvdZxY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Precision Fuel 30g Gel Review: The Best Energy Gel?" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Precision Fuel 30g Gel Review: The Best Energy Gel?</b>
                                     <small>MarksTestLab - checked May 29, 2026</small>
@@ -722,7 +700,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/ultrarunning/comments/1kbhki2" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Caffeine Gels for 100k race" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.reddit.com/r/ultrarunning/comments/1kbhki2" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Caffeine Gels for 100k race" data-product-name="Precision Fuel PF 30 Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Owner discussion</span>
                                     <b>Caffeine Gels for 100k race</b>
                                     <small>r/ultrarunning thread - checked Apr 24, 2026</small>
@@ -747,7 +725,7 @@
               </div>
             </article>
 
-            <article class="product" id="sis-beta-fuel-gel" data-product-name="SiS Beta Fuel Gel" data-default-score="84" data-editorial-rank="3" data-channel-scores='{"Expert":86,"Reddit":82,"YouTube":84.3}' data-decision-tags='["performance","distance","beginner","quiet"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":59},"value":{"key":"value","label":"Price fit","score":35},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":93},"beginnerFriendliness":{"key":"beginnerFriendliness","label":"Beginner ease","score":71},"raceFocus":{"key":"raceFocus","label":"Race focus","score":82},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":57},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"distanceSuitability","label":"Long-distance fit","score":93},{"key":"raceFocus","label":"Race focus","score":82},{"key":"beginnerFriendliness","label":"Beginner ease","score":71}],"ownerSentimentSummary":"SiS Beta Fuel is useful when the goal is high carb intake with fewer packets. It fits runners who already know they tolerate bigger carb hits.","expertSentimentSummary":"Guide gives endurance context for SiS and other performance gels.","biggestStrength":"SiS Beta Fuel is useful when the goal is high carb intake with fewer packets.","biggestComplaint":"Gut training matters here more than brand reputation.","confidenceLevel":"Solid","evidenceDepth":66,"recencyStrength":70,"decisionTags":["performance","distance","beginner","quiet"]}' data-fit-profile="%7B%22id%22%3A%22sis-beta-fuel-gel%22%2C%22name%22%3A%22SiS%20Beta%20Fuel%20Gel%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A84%2C%22publicScoreLabel%22%3A%2284%22%2C%22tag%22%3A%22Best%20high-carb%20gel%22%2C%22bestFor%22%3A%22Runners%20chasing%20higher%20hourly%20carb%20targets%20with%20fewer%20packets.%22%2C%22avoidIf%22%3A%22You%20are%20new%20to%20fueling%20or%20have%20not%20trained%20your%20gut%20for%20high%20carb%20intake.%22%2C%22biggestStrength%22%3A%22SiS%20Beta%20Fuel%20is%20useful%20when%20the%20goal%20is%20high%20carb%20intake%20with%20fewer%20packets.%22%2C%22biggestComplaint%22%3A%22Gut%20training%20matters%20here%20more%20than%20brand%20reputation.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22beginner%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A35%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A93%7D%2C%22beginnerFriendliness%22%3A%7B%22key%22%3A%22beginnerFriendliness%22%2C%22label%22%3A%22Beginner%20ease%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A57%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22beginnerFriendliness%22%2C%22label%22%3A%22Beginner%20ease%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22SiS%20Beta%20Fuel%20is%20useful%20when%20the%20goal%20is%20high%20carb%20intake%20with%20fewer%20packets.%20It%20fits%20runners%20who%20already%20know%20they%20tolerate%20bigger%20carb%20hits.%22%2C%22expertSentimentSummary%22%3A%22Guide%20gives%20endurance%20context%20for%20SiS%20and%20other%20performance%20gels.%22%2C%22biggestStrength%22%3A%22SiS%20Beta%20Fuel%20is%20useful%20when%20the%20goal%20is%20high%20carb%20intake%20with%20fewer%20packets.%22%2C%22biggestComplaint%22%3A%22Gut%20training%20matters%20here%20more%20than%20brand%20reputation.%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A66%2C%22recencyStrength%22%3A70%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22beginner%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FScience-Sport-BETA-Fuel-Fast-Absorbing%2Fdp%2FB0GKBZ47CD%3Fcrid%3D2UYW57T545JU9%26dib%3DeyJ2IjoiMSJ9.fMmrBbptvPG9oZscSyMDv0Rt9x4ZSt6T2cSUZUMXA4cQJUpZbxBjyYwOILa-MMAzzrYKrO9fk_9rD5SauVbQrLEj2FX6WyPgLMjGtMA_89HZLDuvq-YxovGo-wMGTDVQ2GmJ1d91SxAvx-6mnL1yT9q1HpJpdUyIja4rKlcMr3XPD5Qfyhz2jES4hZjaMFILSlH9yHkZMf8wTi33ZEGoVKQ8aLMGQ3xkXSy6h5xnkZdvBaoSbq5wy2GI-tOdXykzEoLwTMGv-8wwJmAXFaTtwAiI-nopCppzKTt6PPhywyk.1OBvrQs3xtsGmzF2VIfydQr8i6oQNgKbA_8q15uB5jw%26dib_tag%3Dse%26keywords%3DSiS%2BBeta%2BFuel%2BGel%26qid%3D1777572613%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dsis%2Bbeta%2Bfuel%2Bgel%252Caps%252C196%26sr%3D8-7%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D826b1d40a7a48eb4729ad8548d9e0808%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="sis-beta-fuel-gel" data-product-name="SiS Beta Fuel Gel" data-default-score="84" data-editorial-rank="3" data-channel-scores='{"Expert":86,"Reddit":82,"YouTube":84.3}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--gel">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing SiS Beta Fuel Gel, Best high-carb gel">
@@ -771,6 +749,9 @@
                 <div class="tagline">Best high-carb gel</div>
                 <p class="product-verdict"><strong>Our take:</strong> SiS Beta Fuel is the high-output option. It can simplify wrapper math for trained stomachs, but it is not where most first-time ultra runners should start.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$3-$4 per gel typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for SiS Beta Fuel Gel">
                     <li>High-carb gel format</li><li>Designed for endurance racing</li><li>Fewer packets for high targets</li><li>Requires gut training</li>
@@ -784,9 +765,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for SiS Beta Fuel Gel">
-                  <strong>84</strong>
-                  <span>Evidence score · 5 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for SiS Beta Fuel Gel">
+
+                    <strong>84</strong>
+                    <span>Evidence score · 5 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for SiS Beta Fuel Gel">
@@ -798,17 +781,13 @@
                     <span>Avoid if</span>
                     <p>You are new to fueling or have not trained your gut for high carb intake.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Gut training matters here more than brand reputation.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for SiS Beta Fuel Gel">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Science-Sport-BETA-Fuel-Fast-Absorbing/dp/B0GKBZ47CD?crid=2UYW57T545JU9&amp;dib=eyJ2IjoiMSJ9.fMmrBbptvPG9oZscSyMDv0Rt9x4ZSt6T2cSUZUMXA4cQJUpZbxBjyYwOILa-MMAzzrYKrO9fk_9rD5SauVbQrLEj2FX6WyPgLMjGtMA_89HZLDuvq-YxovGo-wMGTDVQ2GmJ1d91SxAvx-6mnL1yT9q1HpJpdUyIja4rKlcMr3XPD5Qfyhz2jES4hZjaMFILSlH9yHkZMf8wTi33ZEGoVKQ8aLMGQ3xkXSy6h5xnkZdvBaoSbq5wy2GI-tOdXykzEoLwTMGv-8wwJmAXFaTtwAiI-nopCppzKTt6PPhywyk.1OBvrQs3xtsGmzF2VIfydQr8i6oQNgKbA_8q15uB5jw&amp;dib_tag=se&amp;keywords=SiS+Beta+Fuel+Gel&amp;qid=1777572613&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=sis+beta+fuel+gel%2Caps%2C196&amp;sr=8-7&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=826b1d40a7a48eb4729ad8548d9e0808&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="SiS Beta Fuel Gel" data-product-rank="3" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Science-Sport-BETA-Fuel-Fast-Absorbing/dp/B0GKBZ47CD?crid=2UYW57T545JU9&amp;dib=eyJ2IjoiMSJ9.fMmrBbptvPG9oZscSyMDv0Rt9x4ZSt6T2cSUZUMXA4cQJUpZbxBjyYwOILa-MMAzzrYKrO9fk_9rD5SauVbQrLEj2FX6WyPgLMjGtMA_89HZLDuvq-YxovGo-wMGTDVQ2GmJ1d91SxAvx-6mnL1yT9q1HpJpdUyIja4rKlcMr3XPD5Qfyhz2jES4hZjaMFILSlH9yHkZMf8wTi33ZEGoVKQ8aLMGQ3xkXSy6h5xnkZdvBaoSbq5wy2GI-tOdXykzEoLwTMGv-8wwJmAXFaTtwAiI-nopCppzKTt6PPhywyk.1OBvrQs3xtsGmzF2VIfydQr8i6oQNgKbA_8q15uB5jw&amp;dib_tag=se&amp;keywords=SiS+Beta+Fuel+Gel&amp;qid=1777572613&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=sis+beta+fuel+gel%2Caps%2C196&amp;sr=8-7&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=826b1d40a7a48eb4729ad8548d9e0808&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for SiS Beta Fuel Gel" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="SiS Beta Fuel Gel" data-product-rank="3" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -827,7 +806,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>86</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">220 Triathlon</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">220 Triathlon</a></div>
                                   </div>
 
                               </div>
@@ -836,7 +815,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>82</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">r/Ultramarathon thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">r/Ultramarathon thread</a></div>
                                   </div>
 
                               </div>
@@ -845,7 +824,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>84.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=Pi2mQGh2ocM" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Science In Sport Beta Fuel | Review Of The Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">Nutrition Triathlon video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=Pi2mQGh2ocM" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Science In Sport Beta Fuel | Review Of The Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">Nutrition Triathlon video</a></div>
                                   </div>
 
                               </div>
@@ -853,8 +832,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for SiS Beta Fuel Gel">
-                          <div><span>Proof base</span><strong>5 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>70/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>5 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -868,7 +847,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link best-source" href="https://www.220triathlon.com/gear/nutrition/energy-gels/best-energy-gels-reviewed" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best energy gels to fuel your run and triathlon workouts in 2026" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Expert review / Best evidence</span>
                                     <b>Best energy gels to fuel your run and triathlon workouts in 2026</b>
                                     <small>220 Triathlon - checked Apr 24, 2026</small>
@@ -882,21 +861,21 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=Pi2mQGh2ocM" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Science In Sport Beta Fuel | Review Of The Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=Pi2mQGh2ocM" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Science In Sport Beta Fuel | Review Of The Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Science In Sport Beta Fuel | Review Of The Gel</b>
                                     <small>Nutrition Triathlon - checked May 29, 2026</small>
                                     <em>Nutrition Triathlon video review: Science In Sport Beta Fuel | Review Of The Gel</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=9frS-w3OHk4" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Gel Review Ep. 1: Is SIS Beta Fuel the Best Fuel for Runners?" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=9frS-w3OHk4" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Gel Review Ep. 1: Is SIS Beta Fuel the Best Fuel for Runners?" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Gel Review Ep. 1: Is SIS Beta Fuel the Best Fuel for Runners?</b>
                                     <small>James Hudson - checked May 29, 2026</small>
                                     <em>James Hudson video review: Gel Review Ep. 1: Is SIS Beta Fuel the Best Fuel for Runners?</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=GI2yQXfmVdc" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Sport Scientist &amp; Dietitian Review SiS (Science in Sport) Beta Fuel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=GI2yQXfmVdc" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Sport Scientist &amp; Dietitian Review SiS (Science in Sport) Beta Fuel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Sport Scientist &amp; Dietitian Review SiS (Science in Sport) Beta Fuel</b>
                                     <small>Saturday | Ride &amp; Run Faster - checked May 29, 2026</small>
@@ -910,7 +889,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="SiS Beta Fuel Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Owner discussion</span>
                                     <b>Favourite Gel</b>
                                     <small>r/Ultramarathon thread - checked Apr 24, 2026</small>
@@ -935,7 +914,7 @@
               </div>
             </article>
 
-            <article class="product" id="huma-chia-energy-gel" data-product-name="Huma Chia Energy Gel" data-default-score="81" data-editorial-rank="4" data-channel-scores='{"Expert":82,"Reddit":80,"YouTube":81.7}' data-decision-tags='["performance","distance","small-space"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":48},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":35},"grip":{"key":"grip","label":"Grip","score":59},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":59},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":93},"raceFocus":{"key":"raceFocus","label":"Race focus","score":71},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":55},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48}},"highlights":[{"key":"distanceSuitability","label":"Long-distance fit","score":93},{"key":"raceFocus","label":"Race focus","score":71},{"key":"grip","label":"Grip","score":59}],"ownerSentimentSummary":"Huma is valuable for runners who need a break from sticky, syrupy gels. Its food-like feel can help with taste fatigue.","expertSentimentSummary":"Guide discusses real-food and sensitive-stomach gel formats.","biggestStrength":"Huma is valuable for runners who need a break from sticky, syrupy gels.","biggestComplaint":"The texture is not universal, and lower carb density means more packets.","confidenceLevel":"Solid","evidenceDepth":68,"recencyStrength":76,"decisionTags":["performance","distance","small-space"]}' data-fit-profile="%7B%22id%22%3A%22huma-chia-energy-gel%22%2C%22name%22%3A%22Huma%20Chia%20Energy%20Gel%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A81%2C%22publicScoreLabel%22%3A%2281%22%2C%22tag%22%3A%22Best%20real-food%20texture%20gel%22%2C%22bestFor%22%3A%22Runners%20who%20dislike%20traditional%20gel%20texture%20and%20want%20a%20more%20food-like%20option.%22%2C%22avoidIf%22%3A%22You%20need%20the%20most%20compact%20high-carb%20serving%20or%20dislike%20chia%20texture.%22%2C%22biggestStrength%22%3A%22Huma%20is%20valuable%20for%20runners%20who%20need%20a%20break%20from%20sticky%2C%20syrupy%20gels.%22%2C%22biggestComplaint%22%3A%22The%20texture%20is%20not%20universal%2C%20and%20lower%20carb%20density%20means%20more%20packets.%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22small-space%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A35%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A59%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A93%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A71%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A55%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A59%7D%5D%2C%22ownerSentimentSummary%22%3A%22Huma%20is%20valuable%20for%20runners%20who%20need%20a%20break%20from%20sticky%2C%20syrupy%20gels.%20Its%20food-like%20feel%20can%20help%20with%20taste%20fatigue.%22%2C%22expertSentimentSummary%22%3A%22Guide%20discusses%20real-food%20and%20sensitive-stomach%20gel%20formats.%22%2C%22biggestStrength%22%3A%22Huma%20is%20valuable%20for%20runners%20who%20need%20a%20break%20from%20sticky%2C%20syrupy%20gels.%22%2C%22biggestComplaint%22%3A%22The%20texture%20is%20not%20universal%2C%20and%20lower%20carb%20density%20means%20more%20packets.%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A68%2C%22recencyStrength%22%3A76%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22small-space%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FHuma-Chia-Energy-Gel-Variety%2Fdp%2FB00LXK8Y0E%3Fcrid%3D1RMNYUWHB466Z%26dib%3DeyJ2IjoiMSJ9.OLM_rffAR1tr9h2k-3dvvJQEcDrCKSkmUIzW9Xjf2SjjfBN746t10ykHtBGMwzRYeynMX5fQBAe8Nl1ic9QizKLnVyPeh8ax0pVu8lsP2tsowDV6B7olIRXg1uJ65WAlZijyTMIGELUTs_1TvLXme-bNk_BNhSVZfZ3lhG9nrdmJflHU1PjWoYnNkFA4qOHOMNbLMzD3PLg87Deer24d9AUEtkIJN8j3PLN4DQkDxuhQvK2MxqNd0z7TcgqnQOC7_dUK8PC123HHXpW7c4dAJ5PQkoeas6n-cMLLNfIK2TY.TZuunG1aCUKBrCFzmI0slpS5uj0B7nmHydjOF4xGRpM%26dib_tag%3Dse%26keywords%3Dhuma%252Bchia%252Benergy%252Bgel%26qid%3D1777572630%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3DHuma%252BChia%252BEnergy%252BGel%252Caps%252C158%26sr%3D8-1%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D463ae80050d36f22e17bbeb382fa9f6b%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="huma-chia-energy-gel" data-product-name="Huma Chia Energy Gel" data-default-score="81" data-editorial-rank="4" data-channel-scores='{"Expert":82,"Reddit":80,"YouTube":81.7}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--bar">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Huma Chia Energy Gel, Best real-food texture gel">
@@ -951,13 +930,14 @@
 
                     <span class="decision-badge">Performance Pick</span>
 
-                    <span class="decision-badge">Small-Space Pick</span>
-
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Huma Chia Energy Gel</h2>
                 <div class="tagline">Best real-food texture gel</div>
                 <p class="product-verdict"><strong>Our take:</strong> Huma is a strong alternative for runners who want gels to feel more like food. It is not as carb-dense as some race gels, but it may be easier to keep eating for people who hate standard gels.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$2-$3 per gel typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Huma Chia Energy Gel">
@@ -972,9 +952,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Huma Chia Energy Gel">
-                  <strong>81</strong>
-                  <span>Evidence score · 5 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Huma Chia Energy Gel">
+
+                    <strong>81</strong>
+                    <span>Evidence score · 5 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Huma Chia Energy Gel">
@@ -986,17 +968,13 @@
                     <span>Avoid if</span>
                     <p>You need the most compact high-carb serving or dislike chia texture.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>The texture is not universal, and lower carb density means more packets.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Huma Chia Energy Gel">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Huma-Chia-Energy-Gel-Variety/dp/B00LXK8Y0E?crid=1RMNYUWHB466Z&amp;dib=eyJ2IjoiMSJ9.OLM_rffAR1tr9h2k-3dvvJQEcDrCKSkmUIzW9Xjf2SjjfBN746t10ykHtBGMwzRYeynMX5fQBAe8Nl1ic9QizKLnVyPeh8ax0pVu8lsP2tsowDV6B7olIRXg1uJ65WAlZijyTMIGELUTs_1TvLXme-bNk_BNhSVZfZ3lhG9nrdmJflHU1PjWoYnNkFA4qOHOMNbLMzD3PLg87Deer24d9AUEtkIJN8j3PLN4DQkDxuhQvK2MxqNd0z7TcgqnQOC7_dUK8PC123HHXpW7c4dAJ5PQkoeas6n-cMLLNfIK2TY.TZuunG1aCUKBrCFzmI0slpS5uj0B7nmHydjOF4xGRpM&amp;dib_tag=se&amp;keywords=huma%2Bchia%2Benergy%2Bgel&amp;qid=1777572630&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=Huma%2BChia%2BEnergy%2BGel%2Caps%2C158&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=463ae80050d36f22e17bbeb382fa9f6b&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Huma Chia Energy Gel" data-product-rank="4" data-product-score="81" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Huma-Chia-Energy-Gel-Variety/dp/B00LXK8Y0E?crid=1RMNYUWHB466Z&amp;dib=eyJ2IjoiMSJ9.OLM_rffAR1tr9h2k-3dvvJQEcDrCKSkmUIzW9Xjf2SjjfBN746t10ykHtBGMwzRYeynMX5fQBAe8Nl1ic9QizKLnVyPeh8ax0pVu8lsP2tsowDV6B7olIRXg1uJ65WAlZijyTMIGELUTs_1TvLXme-bNk_BNhSVZfZ3lhG9nrdmJflHU1PjWoYnNkFA4qOHOMNbLMzD3PLg87Deer24d9AUEtkIJN8j3PLN4DQkDxuhQvK2MxqNd0z7TcgqnQOC7_dUK8PC123HHXpW7c4dAJ5PQkoeas6n-cMLLNfIK2TY.TZuunG1aCUKBrCFzmI0slpS5uj0B7nmHydjOF4xGRpM&amp;dib_tag=se&amp;keywords=huma%2Bchia%2Benergy%2Bgel&amp;qid=1777572630&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=Huma%2BChia%2BEnergy%2BGel%2Caps%2C158&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=463ae80050d36f22e17bbeb382fa9f6b&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Huma Chia Energy Gel" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="Huma Chia Energy Gel" data-product-rank="4" data-product-score="81" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -1015,7 +993,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>82</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://longrunlogic.com/articles/best-running-gels-guide" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Running Gels: A Complete Guide for Long Runs and Marathons" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">LongRunLogic</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://longrunlogic.com/articles/best-running-gels-guide" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Running Gels: A Complete Guide for Long Runs and Marathons" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">LongRunLogic</a></div>
                                   </div>
 
                               </div>
@@ -1024,7 +1002,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>80</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/firstmarathon/comments/1remyt8/gels_and_electrolytes/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Gels and electrolytes?" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">r/firstmarathon thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/firstmarathon/comments/1remyt8/gels_and_electrolytes/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Gels and electrolytes?" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">r/firstmarathon thread</a></div>
                                   </div>
 
                               </div>
@@ -1033,7 +1011,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>81.7</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=bziQrYEkNeM" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Grandma’s Marathon – Gels I tested this cycle (Huma, Spring Energy, SiS Review)" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">Sugar Runs video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=bziQrYEkNeM" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Grandma’s Marathon – Gels I tested this cycle (Huma, Spring Energy, SiS Review)" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">Sugar Runs video</a></div>
                                   </div>
 
                               </div>
@@ -1041,8 +1019,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Huma Chia Energy Gel">
-                          <div><span>Proof base</span><strong>5 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>76/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>5 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -1056,7 +1034,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://longrunlogic.com/articles/best-running-gels-guide" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Best Running Gels: A Complete Guide for Long Runs and Marathons" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://longrunlogic.com/articles/best-running-gels-guide" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Best Running Gels: A Complete Guide for Long Runs and Marathons" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Expert review</span>
                                     <b>Best Running Gels: A Complete Guide for Long Runs and Marathons</b>
                                     <small>LongRunLogic - checked Apr 24, 2026</small>
@@ -1070,14 +1048,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=bziQrYEkNeM" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Grandma’s Marathon – Gels I tested this cycle (Huma, Spring Energy, SiS Review)" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=bziQrYEkNeM" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Grandma’s Marathon – Gels I tested this cycle (Huma, Spring Energy, SiS Review)" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Grandma’s Marathon – Gels I tested this cycle (Huma, Spring Energy, SiS Review)</b>
                                     <small>Sugar Runs - checked May 29, 2026</small>
                                     <em>Sugar Runs video review: Grandma’s Marathon – Gels I tested this cycle (Huma, Spring Energy, SiS Review)</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=_iRztCT2_8c" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Huma - Strawberries, Chia Energy Gel" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=_iRztCT2_8c" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Huma - Strawberries, Chia Energy Gel" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Huma - Strawberries, Chia Energy Gel</b>
                                     <small>EnergyGelReviews - checked May 29, 2026</small>
@@ -1091,7 +1069,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/firstmarathon/comments/1remyt8/gels_and_electrolytes/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Gels and electrolytes?" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.reddit.com/r/firstmarathon/comments/1remyt8/gels_and_electrolytes/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Gels and electrolytes?" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Owner discussion</span>
                                     <b>Gels and electrolytes?</b>
                                     <small>r/firstmarathon thread - checked Apr 24, 2026</small>
@@ -1113,7 +1091,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=g3B7m3TIMz0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="HUMA ENERGY GELS - ARE THEY WORTH IT?" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=g3B7m3TIMz0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="HUMA ENERGY GELS - ARE THEY WORTH IT?" data-product-name="Huma Chia Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>HUMA ENERGY GELS - ARE THEY WORTH IT?</b>
                                     <small>Dan Runs - checked May 29, 2026</small>
@@ -1130,7 +1108,7 @@
               </div>
             </article>
 
-            <article class="product" id="gu-energy-gel" data-product-name="GU Energy Gel" data-default-score="79" data-editorial-rank="5" data-channel-scores='{"Expert":78,"Reddit":80,"YouTube":82}' data-decision-tags='["distance","budget","premium","wide-fit"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":59},"cushioning":{"key":"cushioning","label":"Cushioning","score":48},"stability":{"key":"stability","label":"Stability","score":48},"durability":{"key":"durability","label":"Long-term build","score":35},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":48},"value":{"key":"value","label":"Price fit","score":71},"fitWidth":{"key":"fitWidth","label":"Fit room","score":59},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":96},"raceFocus":{"key":"raceFocus","label":"Race focus","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":68},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"distanceSuitability","label":"Long-distance fit","score":96},{"key":"value","label":"Price fit","score":71},{"key":"flavorTolerance","label":"Flavor tolerance","score":68}],"ownerSentimentSummary":"GU is a practical starting point because you can actually afford to practice with it. Availability matters when you need backup fuel quickly.","expertSentimentSummary":"Guide compares common energy gels and emphasizes personal tolerability.","biggestStrength":"GU is a practical starting point because you can actually afford to practice with it.","biggestComplaint":"Texture and sweetness are polarizing.","confidenceLevel":"Solid","evidenceDepth":66,"recencyStrength":66,"decisionTags":["distance","budget","premium","wide-fit"]}' data-fit-profile="%7B%22id%22%3A%22gu-energy-gel%22%2C%22name%22%3A%22GU%20Energy%20Gel%22%2C%22rank%22%3A5%2C%22defaultScore%22%3A79%2C%22publicScoreLabel%22%3A%2279%22%2C%22tag%22%3A%22Best%20affordable%20baseline%22%2C%22bestFor%22%3A%22Runners%20who%20want%20a%20cheap%2C%20available%20gel%20to%20test%20during%20long%20training%20runs.%22%2C%22avoidIf%22%3A%22You%20dislike%20thick%20texture%20or%20want%20a%20premium%20neutral%20gel.%22%2C%22biggestStrength%22%3A%22GU%20is%20a%20practical%20starting%20point%20because%20you%20can%20actually%20afford%20to%20practice%20with%20it.%22%2C%22biggestComplaint%22%3A%22Texture%20and%20sweetness%20are%20polarizing.%22%2C%22decisionTags%22%3A%5B%22distance%22%2C%22budget%22%2C%22premium%22%2C%22wide-fit%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A59%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A35%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A59%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A96%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A68%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A68%7D%5D%2C%22ownerSentimentSummary%22%3A%22GU%20is%20a%20practical%20starting%20point%20because%20you%20can%20actually%20afford%20to%20practice%20with%20it.%20Availability%20matters%20when%20you%20need%20backup%20fuel%20quickly.%22%2C%22expertSentimentSummary%22%3A%22Guide%20compares%20common%20energy%20gels%20and%20emphasizes%20personal%20tolerability.%22%2C%22biggestStrength%22%3A%22GU%20is%20a%20practical%20starting%20point%20because%20you%20can%20actually%20afford%20to%20practice%20with%20it.%22%2C%22biggestComplaint%22%3A%22Texture%20and%20sweetness%20are%20polarizing.%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A66%2C%22recencyStrength%22%3A66%2C%22decisionTags%22%3A%5B%22distance%22%2C%22budget%22%2C%22premium%22%2C%22wide-fit%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FGU-Energy-Original-Nutrition-Caffeine-Free%2Fdp%2FB08HTSM5LR%3Fcrid%3D3JALGXOTZITC6%26dib%3DeyJ2IjoiMSJ9.EfgnJa7XauwCVXtDtFF7oad0NWHtvo4sMWEyLJmFo4YpIB_4Fj_RXOjacP8cQODP9EN065GQiDgPExByvAm14QXiC2H2a4Ywl8nNBz7pCyf-mJXGRuMTTivbRacRBGkywLspfGdANhjPtzDIiRbAZxgqlzGnnd8ksZewff-72U8KbY-jEnfQJoHcEXeXId1UXUnNpSlW_H9ldHocxW5aQky6n5OB-jIlG-Vxf7T52gEBHqYRWetXZ7o46o9q0iCw2lU6REe-gE9lC81vRVcnBEmQwZPyt3PAKc76apRon-A.a7F4qr1kveL__2mhpbAVgrWtuvoxr4n-MH34TZrhPYk%26dib_tag%3Dse%26keywords%3Dgu%252Benergy%252Bgel%26qid%3D1777572582%26rdc%3D1%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3DGU%252BEnergy%252BGel%252Caps%252C250%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D6ea233999f70beeb84ca3645b8ed1e48%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="gu-energy-gel" data-product-name="GU Energy Gel" data-default-score="79" data-editorial-rank="5" data-channel-scores='{"Expert":78,"Reddit":80,"YouTube":82}'>
               <div class="product-media product-media--outdoor product-visual--nutrition product-visual--gel">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing GU Energy Gel, Best affordable baseline">
@@ -1146,13 +1124,14 @@
 
                     <span class="decision-badge">Best for Distance</span>
 
-                    <span class="decision-badge">Premium Pick</span>
-
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>GU Energy Gel</h2>
                 <div class="tagline">Best affordable baseline</div>
                 <p class="product-verdict"><strong>Our take:</strong> GU is the baseline for a reason: it is easy to find and cheap enough to practice with. It ranks lower because texture and sweetness are common dealbreakers.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$1-$2 per gel typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for GU Energy Gel">
@@ -1167,9 +1146,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for GU Energy Gel">
-                  <strong>79</strong>
-                  <span>Evidence score · 5 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for GU Energy Gel">
+
+                    <strong>79</strong>
+                    <span>Evidence score · 5 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for GU Energy Gel">
@@ -1181,17 +1162,13 @@
                     <span>Avoid if</span>
                     <p>You dislike thick texture or want a premium neutral gel.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Texture and sweetness are polarizing.</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for GU Energy Gel">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/GU-Energy-Original-Nutrition-Caffeine-Free/dp/B08HTSM5LR?crid=3JALGXOTZITC6&amp;dib=eyJ2IjoiMSJ9.EfgnJa7XauwCVXtDtFF7oad0NWHtvo4sMWEyLJmFo4YpIB_4Fj_RXOjacP8cQODP9EN065GQiDgPExByvAm14QXiC2H2a4Ywl8nNBz7pCyf-mJXGRuMTTivbRacRBGkywLspfGdANhjPtzDIiRbAZxgqlzGnnd8ksZewff-72U8KbY-jEnfQJoHcEXeXId1UXUnNpSlW_H9ldHocxW5aQky6n5OB-jIlG-Vxf7T52gEBHqYRWetXZ7o46o9q0iCw2lU6REe-gE9lC81vRVcnBEmQwZPyt3PAKc76apRon-A.a7F4qr1kveL__2mhpbAVgrWtuvoxr4n-MH34TZrhPYk&amp;dib_tag=se&amp;keywords=gu%2Benergy%2Bgel&amp;qid=1777572582&amp;rdc=1&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=GU%2BEnergy%2BGel%2Caps%2C250&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=6ea233999f70beeb84ca3645b8ed1e48&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="GU Energy Gel" data-product-rank="5" data-product-score="79" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/GU-Energy-Original-Nutrition-Caffeine-Free/dp/B08HTSM5LR?crid=3JALGXOTZITC6&amp;dib=eyJ2IjoiMSJ9.EfgnJa7XauwCVXtDtFF7oad0NWHtvo4sMWEyLJmFo4YpIB_4Fj_RXOjacP8cQODP9EN065GQiDgPExByvAm14QXiC2H2a4Ywl8nNBz7pCyf-mJXGRuMTTivbRacRBGkywLspfGdANhjPtzDIiRbAZxgqlzGnnd8ksZewff-72U8KbY-jEnfQJoHcEXeXId1UXUnNpSlW_H9ldHocxW5aQky6n5OB-jIlG-Vxf7T52gEBHqYRWetXZ7o46o9q0iCw2lU6REe-gE9lC81vRVcnBEmQwZPyt3PAKc76apRon-A.a7F4qr1kveL__2mhpbAVgrWtuvoxr4n-MH34TZrhPYk&amp;dib_tag=se&amp;keywords=gu%2Benergy%2Bgel&amp;qid=1777572582&amp;rdc=1&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=GU%2BEnergy%2BGel%2Caps%2C250&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=6ea233999f70beeb84ca3645b8ed1e48&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for GU Energy Gel" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Running Gels for Ultramarathons" data-section="Outdoor" data-product-name="GU Energy Gel" data-product-rank="5" data-product-score="79" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -1210,7 +1187,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>78</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.self.com/story/best-energy-gels" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">SELF</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.self.com/story/best-energy-gels" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">SELF</a></div>
                                   </div>
 
                               </div>
@@ -1219,7 +1196,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>80</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">r/Ultramarathon thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">r/Ultramarathon thread</a></div>
                                   </div>
 
                               </div>
@@ -1228,7 +1205,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=CKTUmvLHxPo" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="GU Energy Roctane Ultra Endurance Energy Gel, 24-Count, Assorted Flavors Reviews" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">Ta Van Quyen video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=CKTUmvLHxPo" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="GU Energy Roctane Ultra Endurance Energy Gel, 24-Count, Assorted Flavors Reviews" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">Ta Van Quyen video</a></div>
                                   </div>
 
                               </div>
@@ -1236,8 +1213,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for GU Energy Gel">
-                          <div><span>Proof base</span><strong>5 public sources</strong><p>Expert, Reddit, YouTube</p></div>
-                          <div><span>Freshness</span><strong>66/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>5 qualifying sources</strong><p>Expert, Reddit, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -1251,7 +1228,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.self.com/story/best-energy-gels" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.self.com/story/best-energy-gels" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Expert review</span>
                                     <b>7 Best Energy Gels of 2025, Per Runners and Dietitians | SELF</b>
                                     <small>SELF - checked Apr 24, 2026</small>
@@ -1265,14 +1242,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=CKTUmvLHxPo" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="GU Energy Roctane Ultra Endurance Energy Gel, 24-Count, Assorted Flavors Reviews" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=CKTUmvLHxPo" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="GU Energy Roctane Ultra Endurance Energy Gel, 24-Count, Assorted Flavors Reviews" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>GU Energy Roctane Ultra Endurance Energy Gel, 24-Count, Assorted Flavors Reviews</b>
                                     <small>Ta Van Quyen - checked May 29, 2026</small>
                                     <em>Ta Van Quyen video review: GU Energy Roctane Ultra Endurance Energy Gel, 24-Count, Assorted Flavors Reviews</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=E9ZU-DZqkAg" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Sport Scientist &amp; Dietitian Review GU Energy Gels (Is It Enough?)" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=E9ZU-DZqkAg" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Sport Scientist &amp; Dietitian Review GU Energy Gels (Is It Enough?)" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Sport Scientist &amp; Dietitian Review GU Energy Gels (Is It Enough?)</b>
                                     <small>Saturday | Ride &amp; Run Faster - checked May 29, 2026</small>
@@ -1286,7 +1263,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link " href="https://www.reddit.com/r/Ultramarathon/comments/1f3dx4q/favourite_gel/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Favourite Gel" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Owner discussion</span>
                                     <b>Favourite Gel</b>
                                     <small>r/Ultramarathon thread - checked Apr 24, 2026</small>
@@ -1308,7 +1285,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=unZa3FFmNMU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Honest Review of GU Energy Roctane Ultra Endurance Energy Gel" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=unZa3FFmNMU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Honest Review of GU Energy Roctane Ultra Endurance Energy Gel" data-product-name="GU Energy Gel" data-guide="Best Running Gels for Ultramarathons">
                                     <span>Video review</span>
                                     <b>Honest Review of GU Energy Roctane Ultra Endurance Energy Gel</b>
                                     <small>Cole Schwartz - checked May 29, 2026</small>
@@ -1380,17 +1357,17 @@
             <h2 id="related-heading">Keep comparing in Outdoor</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/outdoor.html"><span>Back to Outdoor</span><span>Category hub</span></a>
+              <a href="/outdoor.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Outdoor</span><span>Category hub</span></a>
 
-                <a href="/best-ultramarathon-fuel.html"><span>Best Food for Ultra Marathons</span><span>Buying guide</span></a>
+                <a href="/best-ultramarathon-fuel.html" data-guide-link data-guide-placement="roundup-related"><span>Best Food for Ultra Marathons</span><span>Buying guide</span></a>
 
-                <a href="/best-electrolyte-mixes-for-ultrarunning.html"><span>Best Electrolyte Mixes for Ultrarunning</span><span>Buying guide</span></a>
+                <a href="/best-electrolyte-mixes-for-ultrarunning.html" data-guide-link data-guide-placement="roundup-related"><span>Best Electrolyte Mixes for Ultrarunning</span><span>Buying guide</span></a>
 
-                <a href="/best-hydration-vests-for-100k-and-100-mile-races.html"><span>Best Hydration Vests for 100K and 100 Mile Races</span><span>Buying guide</span></a>
+                <a href="/best-hydration-vests-for-100k-and-100-mile-races.html" data-guide-link data-guide-placement="roundup-related"><span>Best Hydration Vests for 100K and 100 Mile Races</span><span>Buying guide</span></a>
 
-                <a href="/best-gps-watches-for-ultrarunning.html"><span>Best GPS Watches for Ultrarunning</span><span>Buying guide</span></a>
+                <a href="/best-gps-watches-for-ultrarunning.html" data-guide-link data-guide-placement="roundup-related"><span>Best GPS Watches for Ultrarunning</span><span>Buying guide</span></a>
 
-                <a href="/best-running-headphones.html"><span>Best Running Headphones</span><span>Buying guide</span></a>
+                <a href="/best-carb-drink-mixes-for-ultramarathons.html" data-guide-link data-guide-placement="roundup-related"><span>Best Carb Drink Mixes for Ultramarathons</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1444,22 +1421,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

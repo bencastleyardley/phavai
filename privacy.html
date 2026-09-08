@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,10 +63,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-        <a href="/outdoor.html">Outdoor</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
         <a href="/remote-work.html">Remote Work</a>
         <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -76,7 +76,7 @@
       <div class="wrap">
         <a class="crumb" href="/">Phavai / Privacy</a>
         <h1>Privacy Policy</h1>
-        <p class="lede">Last updated April 20, 2026. Phavai is currently a public content site. We collect as little personal information as possible while building a useful recommendation experience.</p>
+        <p class="lede">Last updated September 8, 2026. Phavai is a public content site. This policy explains the limited information used to operate the site, remember on-device fit priorities, measure guide performance, and track outbound shopping clicks.</p>
       </div>
     </section>
 
@@ -87,20 +87,22 @@
           <p>If you email Phavai, we receive the information you choose to send, such as your name, email address, message, and any source links or corrections you include.</p>
         </article>
         <article class="text-panel">
-          <h2>Local scoring preferences</h2>
-          <p>Category pages let you save scoring weights in your browser. This preference is stored locally on your device using localStorage and is not sent to Phavai by the static site.</p>
+          <h2>Fit priorities saved on your device</h2>
+          <p>Some buying guides include a fit finder. When you select priorities, such as comfort or value, the selected option keys are saved in your browser's localStorage for that guide so the choices can be restored on a later visit. Phavai does not use this feature to save your name, email address, or a personal profile.</p>
+          <p>The locally stored value remains on your device until you clear browser storage or replace the selection. Using the fit finder may also send a separate analytics event containing the selected priority choices, the resulting product match, and a fit score, as described below.</p>
         </article>
         <article class="text-panel">
-          <h2>Analytics</h2>
-          <p>Phavai uses privacy-conscious analytics to understand page performance, content quality, and which shopping links readers choose. Affiliate click events include the guide, product name, product rank, retailer, and page path; they do not include names, emails, or payment information.</p>
+          <h2>Google Analytics 4</h2>
+          <p>On the public Phavai domain, Google Analytics 4 (GA4) measures visits and interactions so we can understand which guides are useful and where the site needs work. GA4 may process standard device, browser, approximate-location, referral, page, and interaction data under Google's terms and privacy practices. Phavai configures the tag with IP anonymization and does not intentionally send names, email addresses, payment details, or other directly identifying form data to GA4.</p>
+          <p>Custom events may record a page or guide title, site section, product name and rank, CTA placement, retailer or source domain, and selected fit priorities. An outbound shopping click is recorded before the browser opens the retailer. These events measure interest; they do not tell Phavai whether you completed a retailer purchase.</p>
         </article>
         <article class="text-panel">
           <h2>Shopping links</h2>
-          <p>Phavai may link to Amazon, brand stores, or other retailers for shopper convenience. Retailers may receive standard referral information when you click an outbound link. Link availability does not affect rankings.</p>
+          <p>Phavai may link to Amazon, brand stores, or other retailers for shopper convenience. When you follow one of these links, the retailer receives the request and may receive the referring page plus affiliate or campaign parameters included in the URL. The retailer then handles information under its own privacy policy. Link availability does not affect Phavai's rankings.</p>
         </article>
         <article class="text-panel">
           <h2>Data sharing</h2>
-          <p>Phavai does not sell personal information. We may share information if required by law, to protect the site, or to operate services such as hosting, email, and analytics.</p>
+          <p>Phavai does not sell personal information. Information may be processed by service providers needed for hosting, analytics, and email, or disclosed when required by law or necessary to protect the site. Outbound retailers operate independently and apply their own policies after you leave Phavai.</p>
         </article>
         <article class="text-panel">
           <h2>Contact</h2>
@@ -111,18 +113,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-        <a href="/outdoor.html">Outdoor</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
         <a href="/remote-work.html">Remote Work</a>
         <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
         <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/terms.html">Terms</a>
-      </div>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

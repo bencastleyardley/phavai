@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -159,13 +159,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html" class="is-current" aria-current="location">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -173,9 +170,13 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Recovery</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Recovery</span>
+        </nav>
         <h1>Best Recovery Sandals</h1>
-        <p class="lede">Shopping for best recovery sandals gets messy fast. Phavai uses AI-assisted research to organize recurring pros, cons, specifications, and buyer feedback so the tradeoffs are easier to see.</p>
+        <p class="lede">Recovery sandals ranked for cushion, arch support, durability, post-run comfort, and everyday wearability.</p>
         <div class="meta-row" aria-label="Page details">
           <span class="meta-pill">Last updated April 20, 2026</span>
           <span class="meta-pill">Sources checked Apr 20, 2026</span>
@@ -200,6 +201,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -211,15 +220,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,6 +238,7 @@
                     <td>#1</td>
                     <td><a href="#oofos-ooahh-slide">OOFOS OOahh Slide</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$60 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for OOFOS OOahh Slide">
 
@@ -244,6 +255,7 @@
                     <td>#2</td>
                     <td><a href="#hoka-ora-recovery-slide-3">HOKA Ora Recovery Slide 3</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$60 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for HOKA Ora Recovery Slide 3">
 
@@ -260,6 +272,7 @@
                     <td>#3</td>
                     <td><a href="#kane-revive">Kane Revive</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$80 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Kane Revive">
 
@@ -276,6 +289,7 @@
                     <td>#4</td>
                     <td><a href="#birkenstock-arizona-eva">Birkenstock Arizona EVA</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$50 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Birkenstock Arizona EVA">
 
@@ -294,61 +308,22 @@
         </section>
 
 
-          <section class="fit-finder" data-fit-finder data-fit-options="%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%20first%22%2C%22help%22%3A%22A%20forgiving%20pick%20that%20is%20easier%20to%20live%20with.%22%2C%22weights%22%3A%7B%22comfort%22%3A1%2C%22cushioning%22%3A0.7%2C%22stability%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Comfort%22%2C%22Cushioning%22%5D%7D%2C%7B%22key%22%3A%22distance%22%2C%22label%22%3A%22Long%20days%22%2C%22help%22%3A%22Built%20around%20distance%2C%20durability%2C%20and%20fewer%20surprises.%22%2C%22weights%22%3A%7B%22distanceSuitability%22%3A1%2C%22durability%22%3A0.65%2C%22comfort%22%3A0.45%7D%2C%22attributeLabels%22%3A%5B%22Long-distance%20fit%22%2C%22Long-term%20build%22%5D%7D%2C%7B%22key%22%3A%22performance%22%2C%22label%22%3A%22Performance%22%2C%22help%22%3A%22Prioritizes%20speed%2C%20grip%2C%20and%20a%20lighter%20feel.%22%2C%22weights%22%3A%7B%22raceFocus%22%3A1%2C%22lightweight%22%3A0.75%2C%22traction%22%3A0.5%7D%2C%22attributeLabels%22%3A%5B%22Race%20focus%22%2C%22Light%20feel%22%5D%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Lower%20price%22%2C%22help%22%3A%22Strong%20fit%20without%20overpaying.%22%2C%22weights%22%3A%7B%22value%22%3A1%2C%22durability%22%3A0.45%2C%22dailyVersatility%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Price%20fit%22%2C%22Long-term%20build%22%5D%7D%5D" aria-labelledby="fit-finder-heading">
-            <div class="fit-finder-copy">
-              <div class="section-kicker">Find your fit</div>
-              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
-              <p>Choose up to two priorities. The editorial order stays intact while the closest buyer-specific match is highlighted.</p>
-            </div>
-            <div class="fit-finder-controls">
-              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
-
-                  <button class="fit-chip" type="button" data-fit-option="comfort" aria-pressed="false"><span>Comfort first</span><small>A forgiving pick that is easier to live with.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="distance" aria-pressed="false"><span>Long days</span><small>Built around distance, durability, and fewer surprises.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="performance" aria-pressed="false"><span>Performance</span><small>Prioritizes speed, grip, and a lighter feel.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="value" aria-pressed="false"><span>Lower price</span><small>Strong fit without overpaying.</small></button>
-
-                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false"><span>Reset</span><small>Editorial order</small></button>
-              </div>
-              <div class="fit-result" data-fit-result aria-live="polite">
-                <span data-fit-result-label>Choose a priority</span>
-                <strong data-fit-result-name>OOFOS OOahh Slide</strong>
-                <p data-fit-result-reason>Start with the editorial winner, or select priorities above for a more specific match.</p>
-
-                  <div class="fit-result-actions">
-                    <a href="#oofos-ooahh-slide" data-fit-result-link>Jump to current pick</a>
-
-                      <a class="button shopping-button fit-result-shop" href="https://www.amazon.com/OOFOS-Unisex-Ooahh-Slide-Sandal/dp/B00BRC4MCW?crid=MU724WV53VUA&amp;dib=eyJ2IjoiMSJ9.nXVIMss0WyNz6xKEUTNSNrzkDE7SjVdtE_hBdLGYRTsuRsW2-Tm70BCG-JwRBK-vkLgc_8GRDeENWVN3icC2iuH_E98ufihRt2iiSFTAKZafZZ9xJokgLgRw1J3w813QEUk72nx3UURd5QPr5mbIkiERW0q3lGjUDEdq-y6zjDwL3iVVDtntdVh-cd-B4QoaPf-l7-Gy9zVaJMndYPE-884I-QdNqWUkc_Se2FSxyTGp2yndvgfQ1r8HY2jO6nakRw848Jp12C5MOKYUWGFy3q3-K0Rbv3Ze9Y9Sp2-uwpQ.bT4mCIkMum066udA79HqOr-O6-cF8FyGYbtvsZ8pX84&amp;dib_tag=se&amp;keywords=oofos%2Booahh%2Bslide&amp;qid=1777561379&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=OOFOS%2BOOahh%2BSlide%2Caps%2C283&amp;sr=8-1&amp;th=1&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=a12aa7166d4418fa630e37ea8e29cc14&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, OOFOS OOahh Slide" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="OOFOS OOahh Slide" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="fit-finder">Check price for this match</a>
-
-                  </div>
-
-              </div>
-            </div>
-            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
-
-                <a class="fit-match-card" href="#oofos-ooahh-slide" data-fit-card><span data-fit-card-rank>#1 editorial</span><strong data-fit-card-name>OOFOS OOahh Slide</strong><small data-fit-card-reason>Best plush recovery slide</small></a>
-
-                <a class="fit-match-card" href="#hoka-ora-recovery-slide-3" data-fit-card><span data-fit-card-rank>#2 editorial</span><strong data-fit-card-name>HOKA Ora Recovery Slide 3</strong><small data-fit-card-reason>Best rocker recovery sandal</small></a>
-
-                <a class="fit-match-card" href="#kane-revive" data-fit-card><span data-fit-card-rank>#3 editorial</span><strong data-fit-card-name>Kane Revive</strong><small data-fit-card-reason>Best active recovery shoe</small></a>
-
-            </div>
-          </section>
-
 
 
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="oofos-ooahh-slide" data-product-name="OOFOS OOahh Slide" data-default-score="85" data-editorial-rank="1" data-channel-scores='{"Expert":88.9,"YouTube":82,"Reddit":83.1}' data-decision-tags='["comfort","distance","budget"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":96},"cushioning":{"key":"cushioning","label":"Cushioning","score":79},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":70},"value":{"key":"value","label":"Price fit","score":71},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":71},"raceFocus":{"key":"raceFocus","label":"Race focus","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":79},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"comfort","label":"Comfort","score":96},{"key":"cushioning","label":"Cushioning","score":79},{"key":"recoveryFriendliness","label":"Recovery fit","score":79}],"ownerSentimentSummary":"Very soft underfoot. Easy post-run comfort.","expertSentimentSummary":"3 evidence items. Strongest signal: Sport Shoe World category testing supports OOFOS OOahh Slide as a serious recovery sandal option.","biggestStrength":"Very soft underfoot","biggestComplaint":"Polarizing squish","confidenceLevel":"High","evidenceDepth":82,"recencyStrength":71,"decisionTags":["comfort","distance","budget"]}' data-fit-profile="%7B%22id%22%3A%22oofos-ooahh-slide%22%2C%22name%22%3A%22OOFOS%20OOahh%20Slide%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20plush%20recovery%20slide%22%2C%22bestFor%22%3A%22Runners%20who%20want%20maximum%20soft%20cushioning%20after%20hard%20workouts%22%2C%22avoidIf%22%3A%22You%20prefer%20a%20firmer%20platform%20or%20more%20locked-in%20fit.%22%2C%22biggestStrength%22%3A%22Very%20soft%20underfoot%22%2C%22biggestComplaint%22%3A%22Polarizing%20squish%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22distance%22%2C%22budget%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A96%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A79%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A70%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A71%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A79%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A79%7D%2C%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A79%7D%5D%2C%22ownerSentimentSummary%22%3A%22Very%20soft%20underfoot.%20Easy%20post-run%20comfort.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Sport%20Shoe%20World%20category%20testing%20supports%20OOFOS%20OOahh%20Slide%20as%20a%20serious%20recovery%20sandal%20option.%22%2C%22biggestStrength%22%3A%22Very%20soft%20underfoot%22%2C%22biggestComplaint%22%3A%22Polarizing%20squish%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A82%2C%22recencyStrength%22%3A71%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22distance%22%2C%22budget%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FOOFOS-Unisex-Ooahh-Slide-Sandal%2Fdp%2FB00BRC4MCW%3Fcrid%3DMU724WV53VUA%26dib%3DeyJ2IjoiMSJ9.nXVIMss0WyNz6xKEUTNSNrzkDE7SjVdtE_hBdLGYRTsuRsW2-Tm70BCG-JwRBK-vkLgc_8GRDeENWVN3icC2iuH_E98ufihRt2iiSFTAKZafZZ9xJokgLgRw1J3w813QEUk72nx3UURd5QPr5mbIkiERW0q3lGjUDEdq-y6zjDwL3iVVDtntdVh-cd-B4QoaPf-l7-Gy9zVaJMndYPE-884I-QdNqWUkc_Se2FSxyTGp2yndvgfQ1r8HY2jO6nakRw848Jp12C5MOKYUWGFy3q3-K0Rbv3Ze9Y9Sp2-uwpQ.bT4mCIkMum066udA79HqOr-O6-cF8FyGYbtvsZ8pX84%26dib_tag%3Dse%26keywords%3Doofos%252Booahh%252Bslide%26qid%3D1777561379%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3DOOFOS%252BOOahh%252BSlide%252Caps%252C283%26sr%3D8-1%26th%3D1%26psc%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Da12aa7166d4418fa630e37ea8e29cc14%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="oofos-ooahh-slide" data-product-name="OOFOS OOahh Slide" data-default-score="85" data-editorial-rank="1" data-channel-scores='{"Expert":88.9,"YouTube":82,"Reddit":83.1}'>
               <div class="product-media product-media--outdoor product-visual--footwear product-visual--open-footbed">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing OOFOS OOahh Slide, Best plush recovery slide">
@@ -364,13 +339,16 @@
 
                     <span class="decision-badge">Best Value</span>
 
-                    <span class="decision-badge">Best for Distance</span>
+                    <span class="decision-badge">Comfort Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>OOFOS OOahh Slide</h2>
                 <div class="tagline">Best plush recovery slide</div>
                 <p class="product-verdict"><strong>Our take:</strong> OOFOS OOahh Slide is the best plush recovery slide for runners buyers who need maximum soft cushioning after hard workouts. It stands out for very soft underfoot and easy post-run comfort.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$60 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for OOFOS OOahh Slide">
@@ -385,9 +363,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for OOFOS OOahh Slide">
-                  <strong>85</strong>
-                  <span>Evidence score · 12 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for OOFOS OOahh Slide">
+
+                    <strong>85</strong>
+                    <span>Evidence score · 11 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for OOFOS OOahh Slide">
@@ -399,17 +379,13 @@
                     <span>Avoid if</span>
                     <p>You prefer a firmer platform or more locked-in fit.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Polarizing squish</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for OOFOS OOahh Slide">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/OOFOS-Unisex-Ooahh-Slide-Sandal/dp/B00BRC4MCW?crid=MU724WV53VUA&amp;dib=eyJ2IjoiMSJ9.nXVIMss0WyNz6xKEUTNSNrzkDE7SjVdtE_hBdLGYRTsuRsW2-Tm70BCG-JwRBK-vkLgc_8GRDeENWVN3icC2iuH_E98ufihRt2iiSFTAKZafZZ9xJokgLgRw1J3w813QEUk72nx3UURd5QPr5mbIkiERW0q3lGjUDEdq-y6zjDwL3iVVDtntdVh-cd-B4QoaPf-l7-Gy9zVaJMndYPE-884I-QdNqWUkc_Se2FSxyTGp2yndvgfQ1r8HY2jO6nakRw848Jp12C5MOKYUWGFy3q3-K0Rbv3Ze9Y9Sp2-uwpQ.bT4mCIkMum066udA79HqOr-O6-cF8FyGYbtvsZ8pX84&amp;dib_tag=se&amp;keywords=oofos%2Booahh%2Bslide&amp;qid=1777561379&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=OOFOS%2BOOahh%2BSlide%2Caps%2C283&amp;sr=8-1&amp;th=1&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=a12aa7166d4418fa630e37ea8e29cc14&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="OOFOS OOahh Slide" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/OOFOS-Unisex-Ooahh-Slide-Sandal/dp/B00BRC4MCW?crid=MU724WV53VUA&amp;dib=eyJ2IjoiMSJ9.nXVIMss0WyNz6xKEUTNSNrzkDE7SjVdtE_hBdLGYRTsuRsW2-Tm70BCG-JwRBK-vkLgc_8GRDeENWVN3icC2iuH_E98ufihRt2iiSFTAKZafZZ9xJokgLgRw1J3w813QEUk72nx3UURd5QPr5mbIkiERW0q3lGjUDEdq-y6zjDwL3iVVDtntdVh-cd-B4QoaPf-l7-Gy9zVaJMndYPE-884I-QdNqWUkc_Se2FSxyTGp2yndvgfQ1r8HY2jO6nakRw848Jp12C5MOKYUWGFy3q3-K0Rbv3Ze9Y9Sp2-uwpQ.bT4mCIkMum066udA79HqOr-O6-cF8FyGYbtvsZ8pX84&amp;dib_tag=se&amp;keywords=oofos%2Booahh%2Bslide&amp;qid=1777561379&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=OOFOS%2BOOahh%2BSlide%2Caps%2C283&amp;sr=8-1&amp;th=1&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=a12aa7166d4418fa630e37ea8e29cc14&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for OOFOS OOahh Slide" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="OOFOS OOahh Slide" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -428,7 +404,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>88.9</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
                                   </div>
 
                               </div>
@@ -437,7 +413,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=i7gj3WE0QKY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">Reviews Unscripted video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=i7gj3WE0QKY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">Reviews Unscripted video</a></div>
                                   </div>
 
                               </div>
@@ -446,7 +422,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>83.1</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/PlantarFasciitis/comments/1jpfzq0/where_can_i_buy_cheap_oofos_ooahh_slides/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Where can i buy cheap oofos ooahh slides?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">r/PlantarFasciitis thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/PlantarFasciitis/comments/1jpfzq0/where_can_i_buy_cheap_oofos_ooahh_slides/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Where can i buy cheap oofos ooahh slides?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">r/PlantarFasciitis thread</a></div>
                                   </div>
 
                               </div>
@@ -454,8 +430,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for OOFOS OOahh Slide">
-                          <div><span>Proof base</span><strong>12 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>71/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>11 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -469,21 +445,21 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Expert review / Best evidence</span>
                                     <b>recovery sandal review context | Sport Shoe World</b>
                                     <small>Sport Shoe World - checked Apr 20, 2026</small>
                                     <em>Sport Shoe World category testing supports OOFOS OOahh Slide as a serious recovery sandal option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>recovery sandal comparison | RunRepeat</b>
                                     <small>RunRepeat - checked Apr 20, 2026</small>
                                     <em>RunRepeat comparison coverage reinforces the product&#39;s fit, value, or performance tradeoffs.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.treelinereview.com/gearreviews/oofos-ooahh-slides-recovery-shoes-review" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="OOFOS OOahh Slides Review: The Most Cushioned Recovery Shoes We&#39;ve Tested" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.treelinereview.com/gearreviews/oofos-ooahh-slides-recovery-shoes-review" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="OOFOS OOahh Slides Review: The Most Cushioned Recovery Shoes We&#39;ve Tested" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>OOFOS OOahh Slides Review: The Most Cushioned Recovery Shoes We&#39;ve Tested</b>
                                     <small>Treeline Review - checked May 29, 2026</small>
@@ -497,14 +473,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=i7gj3WE0QKY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=i7gj3WE0QKY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review</b>
                                     <small>Reviews Unscripted - checked Apr 24, 2026</small>
                                     <em>Reviews Unscripted video review: OOFOS OOahh Sport Recovery Slide | 3-Year Long Term Review</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=0xyelpujHSI" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Oofos Ooahh Recovery Slides: Expert Review" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=0xyelpujHSI" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Oofos Ooahh Recovery Slides: Expert Review" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Oofos Ooahh Recovery Slides: Expert Review</b>
                                     <small>Run and Become - checked Apr 24, 2026</small>
@@ -518,21 +494,21 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/PlantarFasciitis/comments/1jpfzq0/where_can_i_buy_cheap_oofos_ooahh_slides/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Where can i buy cheap oofos ooahh slides?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.reddit.com/r/PlantarFasciitis/comments/1jpfzq0/where_can_i_buy_cheap_oofos_ooahh_slides/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Where can i buy cheap oofos ooahh slides?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Where can i buy cheap oofos ooahh slides?</b>
                                     <small>r/PlantarFasciitis thread by Insideoutside29 - checked Apr 22, 2026</small>
                                     <em>r/PlantarFasciitis thread adds owner feedback around OOFOS OOahh Slide: Where can i buy cheap oofos ooahh slides?.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/RHDiscussion/comments/1c8kt8c/housewife_highlightsdaily_shit_talk_april_20th/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Housewife highlights/Daily shit talk - April 20th, 2024" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.reddit.com/r/RHDiscussion/comments/1c8kt8c/housewife_highlightsdaily_shit_talk_april_20th/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Housewife highlights/Daily shit talk - April 20th, 2024" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Housewife highlights/Daily shit talk - April 20th, 2024</b>
                                     <small>r/RHDiscussion thread by mafiagirlsfashion - checked Apr 22, 2026</small>
                                     <em>r/RHDiscussion thread adds owner feedback around OOFOS OOahh Slide: Housewife highlights/Daily shit talk - April 20th, 2024.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/Ultralight/comments/lzywg9/appalachian_trail_nobo_janfeb_2022_shakedown/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Appalachian Trail NOBO Jan/Feb 2022 Shakedown" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.reddit.com/r/Ultralight/comments/lzywg9/appalachian_trail_nobo_janfeb_2022_shakedown/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Appalachian Trail NOBO Jan/Feb 2022 Shakedown" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Appalachian Trail NOBO Jan/Feb 2022 Shakedown</b>
                                     <small>r/Ultralight thread by snidbit - checked Apr 22, 2026</small>
@@ -554,7 +530,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=IaDhnjKJd5k" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Oofos Ooahh Recovery Slides Review - The BEST Slides On The Market (vs Crocs Mellow, Adidas)" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=IaDhnjKJd5k" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Oofos Ooahh Recovery Slides Review - The BEST Slides On The Market (vs Crocs Mellow, Adidas)" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Oofos Ooahh Recovery Slides Review - The BEST Slides On The Market (vs Crocs Mellow, Adidas)</b>
                                     <small>Fit Gear Hunter - checked Apr 24, 2026</small>
@@ -568,14 +544,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/PlantarFasciitis/comments/1i2my23/which_hoka_help_you_the_most/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Which Hoka help you the most?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/PlantarFasciitis/comments/1i2my23/which_hoka_help_you_the_most/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Which Hoka help you the most?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Which Hoka help you the most?</b>
                                     <small>r/PlantarFasciitis thread by bearontopofthecar - checked Apr 22, 2026</small>
                                     <em>r/PlantarFasciitis thread adds owner cautions around OOFOS OOahh Slide: Which Hoka help you the most?.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/trailrunning/comments/1dwf8t7/do_you_wear_recovery_shoes_outside/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Do you wear recovery shoes outside?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/trailrunning/comments/1dwf8t7/do_you_wear_recovery_shoes_outside/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Do you wear recovery shoes outside?" data-product-name="OOFOS OOahh Slide" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Do you wear recovery shoes outside?</b>
                                     <small>r/trailrunning thread by kaitlyn2004 - checked Apr 22, 2026</small>
@@ -592,7 +568,7 @@
               </div>
             </article>
 
-            <article class="product" id="hoka-ora-recovery-slide-3" data-product-name="HOKA Ora Recovery Slide 3" data-default-score="83" data-editorial-rank="2" data-channel-scores='{"Expert":86.8,"YouTube":82.3,"Reddit":79}' data-decision-tags='["comfort","everyday","wide-fit","durability"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":80},"cushioning":{"key":"cushioning","label":"Cushioning","score":57},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":59},"grip":{"key":"grip","label":"Grip","score":35},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":48},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":59},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":48},"raceFocus":{"key":"raceFocus","label":"Race focus","score":35},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":59},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":68},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"comfort","label":"Comfort","score":80},{"key":"recoveryFriendliness","label":"Recovery fit","score":68},{"key":"stability","label":"Stability","score":59}],"ownerSentimentSummary":"Stable rocker feel. Durable enough for daily use.","expertSentimentSummary":"3 evidence items. Strongest signal: Sport Shoe World category testing supports HOKA Ora Recovery Slide 3 as a serious recovery sandal option.","biggestStrength":"Stable rocker feel","biggestComplaint":"Chunky look","confidenceLevel":"High","evidenceDepth":82,"recencyStrength":77,"decisionTags":["comfort","everyday","wide-fit","durability"]}' data-fit-profile="%7B%22id%22%3A%22hoka-ora-recovery-slide-3%22%2C%22name%22%3A%22HOKA%20Ora%20Recovery%20Slide%203%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20rocker%20recovery%20sandal%22%2C%22bestFor%22%3A%22Runners%20who%20like%20HOKA%20cushioning%20and%20a%20firmer%20recovery%20feel%22%2C%22avoidIf%22%3A%22You%20want%20the%20softest%20possible%20sandal.%22%2C%22biggestStrength%22%3A%22Stable%20rocker%20feel%22%2C%22biggestComplaint%22%3A%22Chunky%20look%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22everyday%22%2C%22wide-fit%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A80%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A57%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A59%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A35%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A59%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A48%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A35%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A59%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A68%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A80%7D%2C%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A68%7D%2C%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%5D%2C%22ownerSentimentSummary%22%3A%22Stable%20rocker%20feel.%20Durable%20enough%20for%20daily%20use.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Sport%20Shoe%20World%20category%20testing%20supports%20HOKA%20Ora%20Recovery%20Slide%203%20as%20a%20serious%20recovery%20sandal%20option.%22%2C%22biggestStrength%22%3A%22Stable%20rocker%20feel%22%2C%22biggestComplaint%22%3A%22Chunky%20look%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A82%2C%22recencyStrength%22%3A77%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22everyday%22%2C%22wide-fit%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FUnisex-Recovery-Slide-Sandal-Twilight%2Fdp%2FB0CNWPK274%3Fcrid%3DGUWUAP9XUA1U%26dib%3DeyJ2IjoiMSJ9.I3aYJsE39mTeSlnB3Z9BJkUTSRioaC0mcUnPCXzv62RLn0g42_vOlH1ld_MDrBRQGpxSpluxBAYpOTLW3FjdPxsTuKzuxq-NJiRQfGhWjnSnbk765j3wcfbDqA3OiWmtjgRm4yXHNYwBE8TX6dU9gZaPKQVyPukTYwf-Ihuktdd7P0r-17NHbPA3WOBxm1RIkjXnGWAhRYhru71QaqdhaeySEBHMO3m5htcouV9xHPS9dKkLMNQ0sbz90RjxIPrQt1iHGkT3YnSDdSis94fymomzmzOSMLx_Qu-bXEKsGIc.ho3Yp5nSSBnyHtkjmgsW4Kp4FJpp3gQLPXkq-Hk0UuQ%26dib_tag%3Dse%26keywords%3DHOKA%252BOra%252BRecovery%252BSlide%252B3%26qid%3D1777561404%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dhoka%252Bora%252Brecovery%252Bslide%252B3%252Caps%252C218%26sr%3D8-1%26th%3D1%26psc%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D2e46bfece085480329704f90475dbedf%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="hoka-ora-recovery-slide-3" data-product-name="HOKA Ora Recovery Slide 3" data-default-score="83" data-editorial-rank="2" data-channel-scores='{"Expert":86.8,"YouTube":82.3,"Reddit":79}'>
               <div class="product-media product-media--outdoor product-visual--footwear product-visual--open-footbed">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing HOKA Ora Recovery Slide 3, Best rocker recovery sandal">
@@ -614,6 +590,9 @@
                 <div class="tagline">Best rocker recovery sandal</div>
                 <p class="product-verdict"><strong>Our take:</strong> HOKA Ora Recovery Slide 3 is the best rocker recovery sandal for shoppers who want runners who like hoka cushioning and a firmer recovery feel. It stands out for stable rocker feel and durable enough for daily use.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$60 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for HOKA Ora Recovery Slide 3">
                     <li>Dual-density geometry</li><li>Rocker shape</li><li>Ventilated strap</li><li>Slip-on design</li>
@@ -627,9 +606,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for HOKA Ora Recovery Slide 3">
-                  <strong>83</strong>
-                  <span>Evidence score · 9 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for HOKA Ora Recovery Slide 3">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 8 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for HOKA Ora Recovery Slide 3">
@@ -641,17 +622,13 @@
                     <span>Avoid if</span>
                     <p>You want the softest possible sandal.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Chunky look</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for HOKA Ora Recovery Slide 3">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Unisex-Recovery-Slide-Sandal-Twilight/dp/B0CNWPK274?crid=GUWUAP9XUA1U&amp;dib=eyJ2IjoiMSJ9.I3aYJsE39mTeSlnB3Z9BJkUTSRioaC0mcUnPCXzv62RLn0g42_vOlH1ld_MDrBRQGpxSpluxBAYpOTLW3FjdPxsTuKzuxq-NJiRQfGhWjnSnbk765j3wcfbDqA3OiWmtjgRm4yXHNYwBE8TX6dU9gZaPKQVyPukTYwf-Ihuktdd7P0r-17NHbPA3WOBxm1RIkjXnGWAhRYhru71QaqdhaeySEBHMO3m5htcouV9xHPS9dKkLMNQ0sbz90RjxIPrQt1iHGkT3YnSDdSis94fymomzmzOSMLx_Qu-bXEKsGIc.ho3Yp5nSSBnyHtkjmgsW4Kp4FJpp3gQLPXkq-Hk0UuQ&amp;dib_tag=se&amp;keywords=HOKA%2BOra%2BRecovery%2BSlide%2B3&amp;qid=1777561404&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=hoka%2Bora%2Brecovery%2Bslide%2B3%2Caps%2C218&amp;sr=8-1&amp;th=1&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=2e46bfece085480329704f90475dbedf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="HOKA Ora Recovery Slide 3" data-product-rank="2" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Unisex-Recovery-Slide-Sandal-Twilight/dp/B0CNWPK274?crid=GUWUAP9XUA1U&amp;dib=eyJ2IjoiMSJ9.I3aYJsE39mTeSlnB3Z9BJkUTSRioaC0mcUnPCXzv62RLn0g42_vOlH1ld_MDrBRQGpxSpluxBAYpOTLW3FjdPxsTuKzuxq-NJiRQfGhWjnSnbk765j3wcfbDqA3OiWmtjgRm4yXHNYwBE8TX6dU9gZaPKQVyPukTYwf-Ihuktdd7P0r-17NHbPA3WOBxm1RIkjXnGWAhRYhru71QaqdhaeySEBHMO3m5htcouV9xHPS9dKkLMNQ0sbz90RjxIPrQt1iHGkT3YnSDdSis94fymomzmzOSMLx_Qu-bXEKsGIc.ho3Yp5nSSBnyHtkjmgsW4Kp4FJpp3gQLPXkq-Hk0UuQ&amp;dib_tag=se&amp;keywords=HOKA%2BOra%2BRecovery%2BSlide%2B3&amp;qid=1777561404&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=hoka%2Bora%2Brecovery%2Bslide%2B3%2Caps%2C218&amp;sr=8-1&amp;th=1&amp;psc=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=2e46bfece085480329704f90475dbedf&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for HOKA Ora Recovery Slide 3" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="HOKA Ora Recovery Slide 3" data-product-rank="2" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -670,7 +647,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>86.8</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
                                   </div>
 
                               </div>
@@ -679,7 +656,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=k118evKM2_w" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">Hes Kicks video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=k118evKM2_w" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">Hes Kicks video</a></div>
                                   </div>
 
                               </div>
@@ -688,7 +665,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>79</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/PHitness/comments/1m8tkms/hoka_ora_recovery_slide_3_or_nike_reactx_rejuven8/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Hoka Ora Recovery Slide 3 or Nike ReactX Rejuven8 Slides?" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">r/PHitness thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/PHitness/comments/1m8tkms/hoka_ora_recovery_slide_3_or_nike_reactx_rejuven8/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Hoka Ora Recovery Slide 3 or Nike ReactX Rejuven8 Slides?" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">r/PHitness thread</a></div>
                                   </div>
 
                               </div>
@@ -696,8 +673,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for HOKA Ora Recovery Slide 3">
-                          <div><span>Proof base</span><strong>9 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>77/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>8 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -711,14 +688,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Expert review / Best evidence</span>
                                     <b>recovery sandal review context | Sport Shoe World</b>
                                     <small>Sport Shoe World - checked Apr 20, 2026</small>
                                     <em>Sport Shoe World category testing supports HOKA Ora Recovery Slide 3 as a serious recovery sandal option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>recovery sandal comparison | RunRepeat</b>
                                     <small>RunRepeat - checked Apr 20, 2026</small>
@@ -732,14 +709,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=k118evKM2_w" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=k118evKM2_w" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!</b>
                                     <small>Hes Kicks - checked Apr 24, 2026</small>
                                     <em>Hes Kicks video review: YOU WERE RIGHT ABOUT THESE! HOKA ORA Recovery 3 Slides Review!</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=DBCCDWFP1EY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Is it COMFY?! Hoka Ora Recovery Slide 3 Review!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=DBCCDWFP1EY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Is it COMFY?! Hoka Ora Recovery Slide 3 Review!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Is it COMFY?! Hoka Ora Recovery Slide 3 Review!</b>
                                     <small>The Sole Drop - checked Apr 24, 2026</small>
@@ -761,7 +738,7 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.outdoorgearlab.com/reviews/shoes-and-boots/sandals-womens/hoka-ora-recovery-slide-3" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Hoka Ora Recovery Slide 3 Review | Tested &amp; Rated" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.outdoorgearlab.com/reviews/shoes-and-boots/sandals-womens/hoka-ora-recovery-slide-3" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Hoka Ora Recovery Slide 3 Review | Tested &amp; Rated" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>Hoka Ora Recovery Slide 3 Review | Tested &amp; Rated</b>
                                     <small>OutdoorGearLab - checked May 29, 2026</small>
@@ -775,7 +752,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=uDWHi8JKtWY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Watch before you buy these Hoka Recovery Slides!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=uDWHi8JKtWY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Watch before you buy these Hoka Recovery Slides!" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Watch before you buy these Hoka Recovery Slides!</b>
                                     <small>Maslyk Product Reviews - checked Apr 24, 2026</small>
@@ -789,14 +766,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/PHitness/comments/1m8tkms/hoka_ora_recovery_slide_3_or_nike_reactx_rejuven8/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Hoka Ora Recovery Slide 3 or Nike ReactX Rejuven8 Slides?" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/PHitness/comments/1m8tkms/hoka_ora_recovery_slide_3_or_nike_reactx_rejuven8/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Hoka Ora Recovery Slide 3 or Nike ReactX Rejuven8 Slides?" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Hoka Ora Recovery Slide 3 or Nike ReactX Rejuven8 Slides?</b>
                                     <small>r/PHitness thread by Select_Tap7538 - checked Apr 22, 2026</small>
                                     <em>r/PHitness thread adds owner cautions around HOKA Ora Recovery Slide 3: Hoka Ora Recovery Slide 3 or Nike ReactX Rejuven8 Slides?.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/vegan/comments/1pz45fb/havent_bought_leather_in_56_years_too_sad_to_go/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Haven&#39;t bought leather in 5-6 years, too sad to go back" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/vegan/comments/1pz45fb/havent_bought_leather_in_56_years_too_sad_to_go/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Haven&#39;t bought leather in 5-6 years, too sad to go back" data-product-name="HOKA Ora Recovery Slide 3" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Haven&#39;t bought leather in 5-6 years, too sad to go back</b>
                                     <small>r/vegan thread by AccomplishedRow8448 - checked Apr 22, 2026</small>
@@ -813,7 +790,7 @@
               </div>
             </article>
 
-            <article class="product" id="kane-revive" data-product-name="Kane Revive" data-default-score="82" data-editorial-rank="3" data-channel-scores='{"Expert":84,"YouTube":82.3,"Reddit":80}' data-decision-tags='["comfort","everyday"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":93},"cushioning":{"key":"cushioning","label":"Cushioning","score":59},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":35},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":48},"value":{"key":"value","label":"Price fit","score":48},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":48},"raceFocus":{"key":"raceFocus","label":"Race focus","score":48},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":81},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"comfort","label":"Comfort","score":93},{"key":"recoveryFriendliness","label":"Recovery fit","score":81},{"key":"cushioning","label":"Cushioning","score":59}],"ownerSentimentSummary":"More secure than slides. Easy to clean.","expertSentimentSummary":"3 evidence items. Strongest signal: Sport Shoe World category testing supports Kane Revive as a serious recovery sandal option.","biggestStrength":"More secure than slides","biggestComplaint":"Less airy than slides","confidenceLevel":"Solid","evidenceDepth":78,"recencyStrength":70,"decisionTags":["comfort","everyday"]}' data-fit-profile="%7B%22id%22%3A%22kane-revive%22%2C%22name%22%3A%22Kane%20Revive%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A82%2C%22publicScoreLabel%22%3A%2282%22%2C%22tag%22%3A%22Best%20active%20recovery%20shoe%22%2C%22bestFor%22%3A%22People%20who%20want%20washable%20recovery%20footwear%20for%20errands%2C%20gym%2C%20and%20travel%22%2C%22avoidIf%22%3A%22You%20want%20an%20open%20slide%20or%20maximum%20softness.%22%2C%22biggestStrength%22%3A%22More%20secure%20than%20slides%22%2C%22biggestComplaint%22%3A%22Less%20airy%20than%20slides%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A93%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A59%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A35%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A48%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A48%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A81%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A59%7D%5D%2C%22ownerSentimentSummary%22%3A%22More%20secure%20than%20slides.%20Easy%20to%20clean.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Sport%20Shoe%20World%20category%20testing%20supports%20Kane%20Revive%20as%20a%20serious%20recovery%20sandal%20option.%22%2C%22biggestStrength%22%3A%22More%20secure%20than%20slides%22%2C%22biggestComplaint%22%3A%22Less%20airy%20than%20slides%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A78%2C%22recencyStrength%22%3A70%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fkanefootwear.com%2Fproducts%2Frevive-white-cream%3Ftw_source%3Dbing%26tw_campaign%3D519918489%26utm_term%3D1324913836281707%26tw_adid%3D82807341428879%26msclkid%3D454910665d7811fad97479953218fc2f%26utm_source%3Dbing%26utm_medium%3Dcpc%26utm_campaign%3DMicrosoft%2520%257C%2520Kane%2520%257C%2520Search%2520%257C%2520Brand%2520%257C%2520General%2520%257C%2520EN%2520%257C%2520US%26utm_content%3DBrand%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Kane%22%2C%22retailerName%22%3A%22Kane%22%7D">
+            <article class="product" id="kane-revive" data-product-name="Kane Revive" data-default-score="82" data-editorial-rank="3" data-channel-scores='{"Expert":84,"YouTube":82.3,"Reddit":80}'>
               <div class="product-media product-media--outdoor product-visual--footwear product-visual--open-footbed">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Kane Revive, Best active recovery shoe">
@@ -835,6 +812,9 @@
                 <div class="tagline">Best active recovery shoe</div>
                 <p class="product-verdict"><strong>Our take:</strong> Kane Revive is the best active recovery shoe for people buyers who need washable recovery footwear for errands, gym, and travel. It stands out for more secure than slides and easy to clean.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$80 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Kane Revive">
                     <li>Closed-toe recovery shoe</li><li>Washable</li><li>Raised footbed nodes</li><li>Ventilated design</li>
@@ -848,9 +828,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Kane Revive">
-                  <strong>82</strong>
-                  <span>Evidence score · 8 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Kane Revive">
+
+                    <strong>82</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Kane Revive">
@@ -862,17 +844,13 @@
                     <span>Avoid if</span>
                     <p>You want an open slide or maximum softness.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Less airy than slides</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Kane Revive">
 
-                      <a class="button shopping-button" href="https://kanefootwear.com/products/revive-white-cream?tw_source=bing&amp;tw_campaign=519918489&amp;utm_term=1324913836281707&amp;tw_adid=82807341428879&amp;msclkid=454910665d7811fad97479953218fc2f&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Microsoft%20%7C%20Kane%20%7C%20Search%20%7C%20Brand%20%7C%20General%20%7C%20EN%20%7C%20US&amp;utm_content=Brand" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Kane" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="Kane Revive" data-product-rank="3" data-product-score="82" data-shopping-label="Check price at Kane" data-shopping-placement="product-card">Check price at Kane</a>
+                      <a class="button shopping-button" href="https://kanefootwear.com/products/revive-white-cream?tw_source=bing&amp;tw_campaign=519918489&amp;utm_term=1324913836281707&amp;tw_adid=82807341428879&amp;msclkid=454910665d7811fad97479953218fc2f&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Microsoft%20%7C%20Kane%20%7C%20Search%20%7C%20Brand%20%7C%20General%20%7C%20EN%20%7C%20US&amp;utm_content=Brand" target="_blank" rel="sponsored noopener" aria-label="Check price at Kane for Kane Revive" data-product-cta data-affiliate-link data-retailer="Kane" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="Kane Revive" data-product-rank="3" data-product-score="82" data-shopping-label="Check price at Kane" data-shopping-placement="product-card">Check price at Kane</a>
 
                   </div>
 
@@ -891,7 +869,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>84</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
                                   </div>
 
                               </div>
@@ -900,7 +878,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=34CXGDrHlAA" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Active Recovery Shoes Review (+What to know about sizing!)" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">Becca video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=34CXGDrHlAA" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Active Recovery Shoes Review (+What to know about sizing!)" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">Becca video</a></div>
                                   </div>
 
                               </div>
@@ -909,7 +887,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>80</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/coys/comments/365zgr/match_thread_tottenham_vs_hull_city/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Match Thread: Tottenham vs. Hull City" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">r/coys thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/coys/comments/365zgr/match_thread_tottenham_vs_hull_city/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Match Thread: Tottenham vs. Hull City" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">r/coys thread</a></div>
                                   </div>
 
                               </div>
@@ -917,9 +895,9 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Kane Revive">
-                          <div><span>Proof base</span><strong>8 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>70/100</strong><p>Page updates and source recency support this read.</p></div>
-                          <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
+                          <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
                       </section>
@@ -932,21 +910,21 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Expert review / Best evidence</span>
                                     <b>recovery sandal review context | Sport Shoe World</b>
                                     <small>Sport Shoe World - checked Apr 20, 2026</small>
                                     <em>Sport Shoe World category testing supports Kane Revive as a serious recovery sandal option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>recovery sandal comparison | RunRepeat</b>
                                     <small>RunRepeat - checked Apr 20, 2026</small>
                                     <em>RunRepeat comparison coverage reinforces the product&#39;s fit, value, or performance tradeoffs.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.gearpatrol.com/fitness/a41195655/kane-revive-review/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Kane Revive Review: Can These Shoes Supplement Your Recovery Routine?" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.gearpatrol.com/fitness/a41195655/kane-revive-review/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Kane Revive Review: Can These Shoes Supplement Your Recovery Routine?" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>Kane Revive Review: Can These Shoes Supplement Your Recovery Routine?</b>
                                     <small>Gear Patrol - checked May 29, 2026</small>
@@ -960,14 +938,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=34CXGDrHlAA" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Active Recovery Shoes Review (+What to know about sizing!)" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=34CXGDrHlAA" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Active Recovery Shoes Review (+What to know about sizing!)" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Kane Revive Active Recovery Shoes Review (+What to know about sizing!)</b>
                                     <small>Becca - checked Apr 24, 2026</small>
                                     <em>Becca video review: Kane Revive Active Recovery Shoes Review (+What to know about sizing!)</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=HpRDmLyDcWk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Shoes - 1 Year Later review - Active Recovery Shoe" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=HpRDmLyDcWk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Shoes - 1 Year Later review - Active Recovery Shoe" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Kane Revive Shoes - 1 Year Later review - Active Recovery Shoe</b>
                                     <small>Engearment - checked Apr 24, 2026</small>
@@ -989,7 +967,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=Qae0QK_-T1c" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Sneakers: Marketing Gimmick... or The BEST Recovery Shoe? (Honest Review)" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=Qae0QK_-T1c" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Kane Revive Sneakers: Marketing Gimmick... or The BEST Recovery Shoe? (Honest Review)" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Kane Revive Sneakers: Marketing Gimmick... or The BEST Recovery Shoe? (Honest Review)</b>
                                     <small>Hes Kicks - checked Apr 24, 2026</small>
@@ -1003,7 +981,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/coys/comments/365zgr/match_thread_tottenham_vs_hull_city/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Match Thread: Tottenham vs. Hull City" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/coys/comments/365zgr/match_thread_tottenham_vs_hull_city/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Match Thread: Tottenham vs. Hull City" data-product-name="Kane Revive" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Match Thread: Tottenham vs. Hull City</b>
                                     <small>r/coys thread by jaredtabor - checked Apr 22, 2026</small>
@@ -1020,7 +998,7 @@
               </div>
             </article>
 
-            <article class="product" id="birkenstock-arizona-eva" data-product-name="Birkenstock Arizona EVA" data-default-score="81" data-editorial-rank="4" data-channel-scores='{"Expert":81,"YouTube":82.3,"Reddit":80.8}' data-decision-tags='["comfort","performance","budget","durability"]' data-decision-graph='{"attributes":{"comfort":{"key":"comfort","label":"Comfort","score":96},"cushioning":{"key":"cushioning","label":"Cushioning","score":70},"stability":{"key":"stability","label":"Stability","score":59},"durability":{"key":"durability","label":"Long-term build","score":48},"grip":{"key":"grip","label":"Grip","score":48},"traction":{"key":"traction","label":"Traction","score":48},"lightweight":{"key":"lightweight","label":"Light feel","score":70},"value":{"key":"value","label":"Price fit","score":93},"fitWidth":{"key":"fitWidth","label":"Fit room","score":48},"terrainSuitability":{"key":"terrainSuitability","label":"Terrain range","score":48},"distanceSuitability":{"key":"distanceSuitability","label":"Long-distance fit","score":48},"raceFocus":{"key":"raceFocus","label":"Race focus","score":71},"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"recoveryFriendliness":{"key":"recoveryFriendliness","label":"Recovery fit","score":81},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"adjustability":{"key":"adjustability","label":"Adjustability","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59}},"highlights":[{"key":"comfort","label":"Comfort","score":96},{"key":"value","label":"Price fit","score":93},{"key":"recoveryFriendliness","label":"Recovery fit","score":81}],"ownerSentimentSummary":"Affordable. Very light.","expertSentimentSummary":"2 evidence items. Strongest signal: Sport Shoe World category testing supports Birkenstock Arizona EVA as a serious recovery sandal option.","biggestStrength":"Affordable","biggestComplaint":"Less cushioned","confidenceLevel":"High","evidenceDepth":82,"recencyStrength":75,"decisionTags":["comfort","performance","budget","durability"]}' data-fit-profile="%7B%22id%22%3A%22birkenstock-arizona-eva%22%2C%22name%22%3A%22Birkenstock%20Arizona%20EVA%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A81%2C%22publicScoreLabel%22%3A%2281%22%2C%22tag%22%3A%22Best%20lightweight%20value%22%2C%22bestFor%22%3A%22Shoppers%20who%20want%20light%2C%20waterproof%20support%20at%20a%20lower%20price%22%2C%22avoidIf%22%3A%22You%20want%20plush%20foam%20recovery%20cushioning.%22%2C%22biggestStrength%22%3A%22Affordable%22%2C%22biggestComplaint%22%3A%22Less%20cushioned%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22budget%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A96%7D%2C%22cushioning%22%3A%7B%22key%22%3A%22cushioning%22%2C%22label%22%3A%22Cushioning%22%2C%22score%22%3A70%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22grip%22%3A%7B%22key%22%3A%22grip%22%2C%22label%22%3A%22Grip%22%2C%22score%22%3A48%7D%2C%22traction%22%3A%7B%22key%22%3A%22traction%22%2C%22label%22%3A%22Traction%22%2C%22score%22%3A48%7D%2C%22lightweight%22%3A%7B%22key%22%3A%22lightweight%22%2C%22label%22%3A%22Light%20feel%22%2C%22score%22%3A70%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%22fitWidth%22%3A%7B%22key%22%3A%22fitWidth%22%2C%22label%22%3A%22Fit%20room%22%2C%22score%22%3A48%7D%2C%22terrainSuitability%22%3A%7B%22key%22%3A%22terrainSuitability%22%2C%22label%22%3A%22Terrain%20range%22%2C%22score%22%3A48%7D%2C%22distanceSuitability%22%3A%7B%22key%22%3A%22distanceSuitability%22%2C%22label%22%3A%22Long-distance%20fit%22%2C%22score%22%3A48%7D%2C%22raceFocus%22%3A%7B%22key%22%3A%22raceFocus%22%2C%22label%22%3A%22Race%20focus%22%2C%22score%22%3A71%7D%2C%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22recoveryFriendliness%22%3A%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A81%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22adjustability%22%3A%7B%22key%22%3A%22adjustability%22%2C%22label%22%3A%22Adjustability%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A96%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22recoveryFriendliness%22%2C%22label%22%3A%22Recovery%20fit%22%2C%22score%22%3A81%7D%5D%2C%22ownerSentimentSummary%22%3A%22Affordable.%20Very%20light.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Sport%20Shoe%20World%20category%20testing%20supports%20Birkenstock%20Arizona%20EVA%20as%20a%20serious%20recovery%20sandal%20option.%22%2C%22biggestStrength%22%3A%22Affordable%22%2C%22biggestComplaint%22%3A%22Less%20cushioned%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A82%2C%22recencyStrength%22%3A75%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22budget%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.birkenstock.com%2Fus%2Fstyles%2Farizona%2F%3Fmsclkid%3D254bb36c4f8416fcb6afda9f200a4365%26utm_source%3Dbing%26utm_medium%3Dcpc%26utm_campaign%3DS_BR_STYLES-ARIZONA_BNG_US%26utm_term%3Dbirkenstock%2520arizona%2520eva%26utm_content%3Ds_br_styles-arizona_ggl_us_eva%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Birkenstock%22%2C%22retailerName%22%3A%22Birkenstock%22%7D">
+            <article class="product" id="birkenstock-arizona-eva" data-product-name="Birkenstock Arizona EVA" data-default-score="81" data-editorial-rank="4" data-channel-scores='{"Expert":81,"YouTube":82.3,"Reddit":80.8}'>
               <div class="product-media product-media--outdoor product-visual--footwear product-visual--open-footbed">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Birkenstock Arizona EVA, Best lightweight value">
@@ -1034,8 +1012,6 @@
 
                     <span class="decision-badge">Best Value</span>
 
-                    <span class="decision-badge">Comfort Pick</span>
-
                     <span class="decision-badge">Performance Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
@@ -1043,6 +1019,9 @@
                 <h2>Birkenstock Arizona EVA</h2>
                 <div class="tagline">Best lightweight value</div>
                 <p class="product-verdict"><strong>Our take:</strong> Birkenstock Arizona EVA is the best lightweight value for buyers who need light, waterproof support at a lower price. It stands out for affordable and very light.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$50 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Birkenstock Arizona EVA">
@@ -1057,9 +1036,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Birkenstock Arizona EVA">
-                  <strong>81</strong>
-                  <span>Evidence score · 9 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Birkenstock Arizona EVA">
+
+                    <strong>81</strong>
+                    <span>Evidence score · 8 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Birkenstock Arizona EVA">
@@ -1071,17 +1052,13 @@
                     <span>Avoid if</span>
                     <p>You want plush foam recovery cushioning.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Less cushioned</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Birkenstock Arizona EVA">
 
-                      <a class="button shopping-button" href="https://www.birkenstock.com/us/styles/arizona/?msclkid=254bb36c4f8416fcb6afda9f200a4365&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=S_BR_STYLES-ARIZONA_BNG_US&amp;utm_term=birkenstock%20arizona%20eva&amp;utm_content=s_br_styles-arizona_ggl_us_eva" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Birkenstock" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="Birkenstock Arizona EVA" data-product-rank="4" data-product-score="81" data-shopping-label="Check price at Birkenstock" data-shopping-placement="product-card">Check price at Birkenstock</a>
+                      <a class="button shopping-button" href="https://www.birkenstock.com/us/styles/arizona/?msclkid=254bb36c4f8416fcb6afda9f200a4365&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=S_BR_STYLES-ARIZONA_BNG_US&amp;utm_term=birkenstock%20arizona%20eva&amp;utm_content=s_br_styles-arizona_ggl_us_eva" target="_blank" rel="sponsored noopener" aria-label="Check price at Birkenstock for Birkenstock Arizona EVA" data-product-cta data-affiliate-link data-retailer="Birkenstock" data-guide="Best Recovery Sandals" data-section="Outdoor" data-product-name="Birkenstock Arizona EVA" data-product-rank="4" data-product-score="81" data-shopping-label="Check price at Birkenstock" data-shopping-placement="product-card">Check price at Birkenstock</a>
 
                   </div>
 
@@ -1100,7 +1077,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>81</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">Sport Shoe World</a></div>
                                   </div>
 
                               </div>
@@ -1109,7 +1086,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.3</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=UARQG4JGrcc" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">Savage Reviews video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=UARQG4JGrcc" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">Savage Reviews video</a></div>
                                   </div>
 
                               </div>
@@ -1118,7 +1095,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>80.8</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Birkenstocks/comments/1sihh0y/birkenstock_arizona_eva_sizing_help_41_vs_42_fit/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Birkenstock Arizona EVA sizing help – 41 vs 42 fit check (pics)" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">r/Birkenstocks thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/Birkenstocks/comments/1sihh0y/birkenstock_arizona_eva_sizing_help_41_vs_42_fit/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Birkenstock Arizona EVA sizing help – 41 vs 42 fit check (pics)" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">r/Birkenstocks thread</a></div>
                                   </div>
 
                               </div>
@@ -1126,8 +1103,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Birkenstock Arizona EVA">
-                          <div><span>Proof base</span><strong>9 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>75/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>8 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -1141,14 +1118,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link best-source" href="https://sportshoeworld.com/2026/01/14/best-recovery-sandals-plantar-fasciitis-2026/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal review context | Sport Shoe World" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Expert review / Best evidence</span>
                                     <b>recovery sandal review context | Sport Shoe World</b>
                                     <small>Sport Shoe World - checked Apr 20, 2026</small>
                                     <em>Sport Shoe World category testing supports Birkenstock Arizona EVA as a serious recovery sandal option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://runrepeat.com/guides/best-recovery-shoes" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="recovery sandal comparison | RunRepeat" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Expert review</span>
                                     <b>recovery sandal comparison | RunRepeat</b>
                                     <small>RunRepeat - checked Apr 20, 2026</small>
@@ -1162,14 +1139,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=UARQG4JGrcc" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=UARQG4JGrcc" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?</b>
                                     <small>Savage Reviews - checked Apr 24, 2026</small>
                                     <em>Savage Reviews video review: Birkenstock Arizona EVA Review: Best Budget Sandals in 2026?</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=5vn1CkbtMvQ" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Birkenstocks: Waterproof Arizona EVA Tested, Arch Pain &amp; Plantar Fasciitis Advice #birkenstocks" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=5vn1CkbtMvQ" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Birkenstocks: Waterproof Arizona EVA Tested, Arch Pain &amp; Plantar Fasciitis Advice #birkenstocks" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>Birkenstocks: Waterproof Arizona EVA Tested, Arch Pain &amp; Plantar Fasciitis Advice #birkenstocks</b>
                                     <small>Evelyn Everyday - checked Apr 24, 2026</small>
@@ -1183,7 +1160,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/frugalmalefashion/comments/1edtkfj/birkenstock_arizona_eva_khaki_2998/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Birkenstock Arizona EVA Khaki- 29.98. " data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link " href="https://www.reddit.com/r/frugalmalefashion/comments/1edtkfj/birkenstock_arizona_eva_khaki_2998/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Birkenstock Arizona EVA Khaki- 29.98. " data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Birkenstock Arizona EVA Khaki- 29.98. </b>
                                     <small>r/frugalmalefashion thread by Fantastic-Store2495 - checked Apr 22, 2026</small>
@@ -1205,7 +1182,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=gBZcOIjDP3g" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="1 YEAR LATER | Birkenstock Arizona EVA &amp; Leather Soft Bed Comparison/Review" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=gBZcOIjDP3g" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="1 YEAR LATER | Birkenstock Arizona EVA &amp; Leather Soft Bed Comparison/Review" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Video review</span>
                                     <b>1 YEAR LATER | Birkenstock Arizona EVA &amp; Leather Soft Bed Comparison/Review</b>
                                     <small>Clayton Bernabe - checked Apr 24, 2026</small>
@@ -1219,14 +1196,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/Birkenstocks/comments/1jdzm2t/eva_birkenstock_opinions/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="EVA Birkenstock Opinions" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/Birkenstocks/comments/1jdzm2t/eva_birkenstock_opinions/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="EVA Birkenstock Opinions" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>EVA Birkenstock Opinions</b>
                                     <small>r/Birkenstocks thread - checked May 29, 2026</small>
                                     <em>r/Birkenstocks adds owner evidence for Birkenstock Arizona EVA comfort, support, and lightweight-waterproof tradeoffs.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/Birkenstocks/comments/1sihh0y/birkenstock_arizona_eva_sizing_help_41_vs_42_fit/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Birkenstock Arizona EVA sizing help – 41 vs 42 fit check (pics)" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
+                                  <a class="source-link" href="https://www.reddit.com/r/Birkenstocks/comments/1sihh0y/birkenstock_arizona_eva_sizing_help_41_vs_42_fit/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Birkenstock Arizona EVA sizing help – 41 vs 42 fit check (pics)" data-product-name="Birkenstock Arizona EVA" data-guide="Best Recovery Sandals">
                                     <span>Owner discussion</span>
                                     <b>Birkenstock Arizona EVA sizing help – 41 vs 42 fit check (pics)</b>
                                     <small>r/Birkenstocks thread by Hot-Ad-8835 - checked Apr 22, 2026</small>
@@ -1298,17 +1275,17 @@
             <h2 id="related-heading">Keep comparing in Outdoor</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/outdoor.html"><span>Back to Outdoor</span><span>Category hub</span></a>
+              <a href="/outdoor.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Outdoor</span><span>Category hub</span></a>
 
-                <a href="/best-running-headphones.html"><span>Best Running Headphones</span><span>Buying guide</span></a>
+                <a href="/best-compression-boots-for-runners.html" data-guide-link data-guide-placement="roundup-related"><span>Best Compression Boots for Runners</span><span>Buying guide</span></a>
 
-                <a href="/best-womens-trail-running-shoes.html"><span>Best Women&#39;s Trail Running Shoes</span><span>Buying guide</span></a>
+                <a href="/best-womens-trail-running-shoes.html" data-guide-link data-guide-placement="roundup-related"><span>Best Women&#39;s Trail Running Shoes</span><span>Buying guide</span></a>
 
-                <a href="/best-running-belts.html"><span>Best Running Belts</span><span>Buying guide</span></a>
+                <a href="/best-mens-trail-running-shoes.html" data-guide-link data-guide-placement="roundup-related"><span>Best Men&#39;s Trail Running Shoes</span><span>Buying guide</span></a>
 
-                <a href="/best-gps-running-watches.html"><span>Best GPS Running Watches</span><span>Buying guide</span></a>
+                <a href="/best-daily-trainers-for-marathon-training.html" data-guide-link data-guide-placement="roundup-related"><span>Best Daily Trainers for Marathon Training</span><span>Buying guide</span></a>
 
-                <a href="/best-mens-trail-running-shoes.html"><span>Best Men&#39;s Trail Running Shoes</span><span>Buying guide</span></a>
+                <a href="/best-marathon-shoes-for-heavy-runners.html" data-guide-link data-guide-placement="roundup-related"><span>Best Marathon Shoes for Heavy Runners</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1321,7 +1298,7 @@
             <p>Use these guides to understand the tradeoffs before you compare products: fit, features, durability, comfort, and the mistakes worth avoiding.</p>
             <div class="link-list">
 
-                <a href="/gps-running-watch-features-that-matter.html"><span>GPS Running Watch Features That Actually Matter</span><span>Feature explainer</span></a>
+                <a href="/gps-running-watch-features-that-matter.html" data-guide-link data-guide-placement="roundup-supporting"><span>GPS Running Watch Features That Actually Matter</span><span>Feature explainer</span></a>
 
             </div>
           </section>
@@ -1368,22 +1345,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

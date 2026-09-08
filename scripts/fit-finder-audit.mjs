@@ -15,6 +15,14 @@ const categories = [
   ...readJson("data/revenue-roundups.json")
 ];
 
+const categoriesWithAuthoredFitFinder = new Set([
+  "best-mens-trail-running-shoes",
+  "best-womens-trail-running-shoes",
+  "best-trail-running-poles",
+  "best-standing-desks",
+  "best-carry-on-luggage"
+]);
+
 const issues = [];
 
 for (const category of categories) {
@@ -28,23 +36,27 @@ for (const category of categories) {
   const productCount = category.products?.length ?? 0;
   const fitProfileCount = (html.match(/data-fit-profile=/g) ?? []).length;
   const proofSnapshotCount = (html.match(/class="proof-snapshot-grid"/g) ?? []).length;
+  const expectsFitFinder = categoriesWithAuthoredFitFinder.has(category.slug);
 
   if (!html.includes('src="/fit-finder.js"')) {
     issues.push({ page: file, issue: "Missing fit-finder.js script" });
   }
-  if (!html.includes("data-fit-finder")) {
+  if (expectsFitFinder && !html.includes("data-fit-finder")) {
     issues.push({ page: file, issue: "Missing public fit finder" });
   }
-  if (!html.includes("Find your fit")) {
+  if (expectsFitFinder && !html.includes("Find your fit")) {
     issues.push({ page: file, issue: "Missing fit finder label" });
   }
-  if (fitProfileCount < productCount) {
+  if (expectsFitFinder && fitProfileCount !== productCount) {
     issues.push({ page: file, issue: `Expected ${productCount} fit profiles, found ${fitProfileCount}` });
+  }
+  if (!expectsFitFinder && (html.includes("data-fit-finder") || fitProfileCount > 0)) {
+    issues.push({ page: file, issue: "Generic fit finder or fit profiles are present without category-specific logic" });
   }
   if (proofSnapshotCount < productCount) {
     issues.push({ page: file, issue: `Expected ${productCount} proof snapshots, found ${proofSnapshotCount}` });
   }
-  if (productCount >= 3 && (html.match(/data-fit-card/g) ?? []).length < 3) {
+  if (expectsFitFinder && productCount >= 3 && (html.match(/data-fit-card/g) ?? []).length < 3) {
     issues.push({ page: file, issue: "Missing fit shortlist cards" });
   }
 }
@@ -57,4 +69,4 @@ if (issues.length) {
   process.exit(1);
 }
 
-console.log(`Fit finder audit passed for ${categories.length} roundup pages.`);
+console.log(`Fit finder audit passed for ${categories.length} roundup pages; ${categoriesWithAuthoredFitFinder.size} use category-specific fit logic.`);

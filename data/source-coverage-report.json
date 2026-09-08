@@ -1,13 +1,13 @@
 {
   "summary": {
-    "generatedAt": "2026-09-08T17:29:08.074Z",
+    "generatedAt": "2026-09-08T19:07:33.463Z",
     "pages": 51,
     "products": 218,
     "productsMissingYouTube": 10,
     "productsWithAtLeastTwoYouTubeSources": 199,
-    "productsMissingReddit": 37,
-    "productsWithAtLeastTwoRedditSources": 113,
-    "productsMissingExpert": 0
+    "productsMissingReddit": 48,
+    "productsWithAtLeastTwoRedditSources": 95,
+    "productsMissingExpert": 22
   },
   "products": [
     {
@@ -28,10 +28,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -84,10 +84,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -112,10 +112,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 7,
-          "positive": 3,
-          "caution": 4,
-          "exactUrls": 7
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -140,10 +140,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -168,10 +168,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -196,10 +196,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -224,10 +224,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 7,
-          "positive": 3,
-          "caution": 4,
-          "exactUrls": 7
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -268,10 +268,10 @@
       "product": "Shokz OpenRun Pro 2",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -280,10 +280,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 7,
-          "positive": 4,
+          "total": 6,
+          "positive": 3,
           "caution": 3,
-          "exactUrls": 7
+          "exactUrls": 6
         }
       },
       "missingChannels": [],
@@ -296,10 +296,10 @@
       "product": "Beats Powerbeats Pro 2",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -308,15 +308,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-running-headphones",
@@ -324,10 +326,10 @@
       "product": "Shokz OpenFit 2",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -336,10 +338,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 3,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 0,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -352,10 +354,10 @@
       "product": "Jabra Elite 8 Active Gen 2",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -364,10 +366,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -386,16 +388,16 @@
           "exactUrls": 3
         },
         "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
           "total": 4,
           "positive": 3,
           "caution": 1,
           "exactUrls": 4
-        },
-        "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -420,10 +422,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -464,10 +466,10 @@
       "product": "Polar Vantage V3",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 2,
+          "positive": 1,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -492,10 +494,10 @@
       "product": "Uplift V2 Standing Desk",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -504,10 +506,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 7,
-          "positive": 4,
-          "caution": 3,
-          "exactUrls": 7
+          "total": 2,
+          "positive": 0,
+          "caution": 2,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -520,10 +522,10 @@
       "product": "FlexiSpot E7 Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -532,10 +534,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -548,16 +550,74 @@
       "product": "Vari Electric Standing Desk",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 2,
           "positive": 1,
           "caution": 1,
           "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-standing-desks",
+      "title": "Best Standing Desks",
+      "product": "Branch Duo Standing Desk",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 0,
+          "caution": 2,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        }
+      },
+      "missingChannels": [],
+      "thinChannels": [],
+      "recommendation": "Good public source coverage."
+    },
+    {
+      "page": "best-office-chairs",
+      "title": "Best Office Chairs",
+      "product": "Steelcase Gesture",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         },
         "Reddit": {
           "total": 5,
@@ -571,71 +631,15 @@
       "recommendation": "Good public source coverage."
     },
     {
-      "page": "best-standing-desks",
-      "title": "Best Standing Desks",
-      "product": "Branch Duo Standing Desk",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 4,
-          "positive": 3,
-          "caution": 1,
-          "exactUrls": 4
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
-      "page": "best-office-chairs",
-      "title": "Best Office Chairs",
-      "product": "Steelcase Gesture",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 7,
-          "positive": 4,
-          "caution": 3,
-          "exactUrls": 7
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
       "page": "best-office-chairs",
       "title": "Best Office Chairs",
       "product": "Herman Miller Aeron",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -660,10 +664,10 @@
       "product": "Branch Ergonomic Chair Pro",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 2,
+          "total": 2,
+          "positive": 1,
           "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -672,15 +676,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 3,
-          "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-office-chairs",
@@ -688,10 +694,10 @@
       "product": "Haworth Fern",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -700,10 +706,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -716,10 +722,10 @@
       "product": "Salomon ADV Skin 12",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -744,10 +750,10 @@
       "product": "Nathan Pinnacle 12L",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 1,
@@ -756,10 +762,10 @@
           "exactUrls": 1
         },
         "Reddit": {
-          "total": 4,
+          "total": 3,
           "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "caution": 1,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -774,10 +780,10 @@
       "product": "Osprey Duro/Dyna 15",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -786,10 +792,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -802,10 +808,10 @@
       "product": "CamelBak Zephyr Pro",
       "channels": {
         "Expert": {
-          "total": 4,
+          "total": 3,
           "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "caution": 1,
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -832,10 +838,10 @@
       "product": "Black Diamond Distance Carbon Z",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -844,10 +850,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -860,10 +866,10 @@
       "product": "Leki Ultratrail FX.One Superlite",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -872,15 +878,17 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 2,
+          "total": 1,
           "positive": 0,
-          "caution": 2,
-          "exactUrls": 2
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-trail-running-poles",
@@ -888,10 +896,10 @@
       "product": "Black Diamond Distance Z",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
+          "caution": 0,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -900,10 +908,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -916,10 +924,10 @@
       "product": "Gossamer Gear LT5",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
+          "caution": 2,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 4,
@@ -946,10 +954,10 @@
       "product": "Salomon ADV Skin 5",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -958,10 +966,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -974,10 +982,10 @@
       "product": "Nathan Pinnacle 4L",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -1002,10 +1010,10 @@
       "product": "Ultimate Direction Race Vest 6.0",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -1032,10 +1040,10 @@
       "product": "Patagonia Slope Runner Vest",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
+          "caution": 2,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1060,10 +1068,10 @@
       "product": "OOFOS OOahh Slide",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1088,10 +1096,10 @@
       "product": "HOKA Ora Recovery Slide 3",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1100,10 +1108,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 2,
+          "positive": 0,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -1116,10 +1124,10 @@
       "product": "Kane Revive",
       "channels": {
         "Expert": {
-          "total": 4,
+          "total": 3,
           "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "caution": 1,
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1128,15 +1136,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 4,
-          "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-recovery-sandals",
@@ -1144,10 +1154,10 @@
       "product": "Birkenstock Arizona EVA",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
+          "caution": 2,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1156,10 +1166,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 6,
-          "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -1172,10 +1182,10 @@
       "product": "Logitech MX Brio",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1184,15 +1194,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-webcams-for-remote-work",
@@ -1200,10 +1212,10 @@
       "product": "Obsbot Tiny 3",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1212,10 +1224,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -1228,10 +1240,10 @@
       "product": "Razer Kiyo Pro Ultra",
       "channels": {
         "Expert": {
-          "total": 4,
+          "total": 3,
           "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "caution": 1,
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1240,15 +1252,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-webcams-for-remote-work",
@@ -1256,10 +1270,10 @@
       "product": "Anker PowerConf C200",
       "channels": {
         "Expert": {
-          "total": 4,
+          "total": 3,
           "positive": 1,
-          "caution": 3,
-          "exactUrls": 4
+          "caution": 2,
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1268,15 +1282,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Reddit"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-desk-mats",
@@ -1284,10 +1300,10 @@
       "product": "Orbitkey Desk Mat",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 1,
+          "positive": 1,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 1
         },
         "YouTube": {
           "total": 2,
@@ -1296,15 +1312,18 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-desk-mats",
@@ -1312,156 +1331,10 @@
       "product": "Grovemade Wool Felt Desk Pad",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
-          "caution": 0,
-          "exactUrls": 4
-        },
-        "YouTube": {
-          "total": 1,
-          "positive": 1,
-          "caution": 0,
-          "exactUrls": 1
-        },
-        "Reddit": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [
-        "YouTube"
-      ],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-desk-mats",
-      "title": "Best Desk Mats",
-      "product": "Logitech Studio Series Desk Mat",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
-        },
-        "YouTube": {
           "total": 2,
           "positive": 2,
           "caution": 0,
           "exactUrls": 2
-        },
-        "Reddit": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
-      "page": "best-desk-mats",
-      "title": "Best Desk Mats",
-      "product": "Knodel Large Desk Mat",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 2,
-          "positive": 2,
-          "caution": 0,
-          "exactUrls": 2
-        },
-        "Reddit": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        }
-      },
-      "missingChannels": [
-        "Reddit"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-monitor-arms",
-      "title": "Best Monitor Arms",
-      "product": "Ergotron LX",
-      "channels": {
-        "Expert": {
-          "total": 2,
-          "positive": 2,
-          "caution": 0,
-          "exactUrls": 2
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
-      "page": "best-monitor-arms",
-      "title": "Best Monitor Arms",
-      "product": "Amazon Basics Premium Monitor Stand",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 0,
-          "positive": 0,
-          "caution": 0,
-          "exactUrls": 0
-        }
-      },
-      "missingChannels": [
-        "Reddit"
-      ],
-      "thinChannels": [],
-      "recommendation": "Needs more source curation before this product is considered source-complete."
-    },
-    {
-      "page": "best-monitor-arms",
-      "title": "Best Monitor Arms",
-      "product": "Herman Miller Flo Monitor Arm",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
         },
         "YouTube": {
           "total": 1,
@@ -1471,8 +1344,8 @@
         },
         "Reddit": {
           "total": 1,
-          "positive": 1,
-          "caution": 0,
+          "positive": 0,
+          "caution": 1,
           "exactUrls": 1
         }
       },
@@ -1484,15 +1357,15 @@
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
-      "page": "best-monitor-arms",
-      "title": "Best Monitor Arms",
-      "product": "Fully Jarvis Monitor Arm",
+      "page": "best-desk-mats",
+      "title": "Best Desk Mats",
+      "product": "Logitech Studio Series Desk Mat",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
         },
         "YouTube": {
           "total": 2,
@@ -1501,26 +1374,62 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
-      "page": "best-ergonomic-keyboards",
-      "title": "Best Ergonomic Keyboards",
-      "product": "Logitech Ergo K860",
+      "page": "best-desk-mats",
+      "title": "Best Desk Mats",
+      "product": "Knodel Large Desk Mat",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Ergotron LX",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -1533,6 +1442,132 @@
           "positive": 3,
           "caution": 2,
           "exactUrls": 5
+        }
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Amazon Basics Premium Monitor Stand",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Herman Miller Flo Monitor Arm",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "YouTube": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        },
+        "Reddit": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        }
+      },
+      "missingChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "product": "Fully Jarvis Monitor Arm",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "YouTube": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "Reddit": {
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
+        }
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-ergonomic-keyboards",
+      "title": "Best Ergonomic Keyboards",
+      "product": "Logitech Ergo K860",
+      "channels": {
+        "Expert": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -1545,10 +1580,10 @@
       "product": "Kinesis Freestyle2",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1557,15 +1592,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Reddit"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-ergonomic-keyboards",
@@ -1573,10 +1610,10 @@
       "product": "Keychron Q11",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -1585,10 +1622,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -1601,10 +1638,10 @@
       "product": "ZSA Voyager",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
+          "caution": 2,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 4,
@@ -1613,10 +1650,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -1629,10 +1666,10 @@
       "product": "Travelpro Platinum Elite 21-inch",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1641,16 +1678,16 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 1,
-          "positive": 1,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [
+      "missingChannels": [
         "Reddit"
       ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -1659,10 +1696,10 @@
       "product": "Briggs & Riley Baseline Essential",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1671,10 +1708,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 3,
+          "positive": 1,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -1687,10 +1724,10 @@
       "product": "Away Bigger Carry-On",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1715,10 +1752,10 @@
       "product": "Monos Carry-On Pro",
       "channels": {
         "Expert": {
-          "total": 4,
+          "total": 3,
           "positive": 1,
-          "caution": 3,
-          "exactUrls": 4
+          "caution": 2,
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 4,
@@ -1727,10 +1764,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -1743,10 +1780,10 @@
       "product": "Technivorm Moccamaster KBGV Select",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1755,15 +1792,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 1,
+          "caution": 0,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-coffee-makers",
@@ -1771,10 +1810,10 @@
       "product": "Breville Precision Brewer",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1799,10 +1838,10 @@
       "product": "OXO Brew 9-Cup",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
+          "caution": 0,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1811,10 +1850,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 3,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 0,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -1827,10 +1866,10 @@
       "product": "Ninja 12-Cup Programmable Brewer",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 0,
-          "caution": 3,
-          "exactUrls": 3
+          "caution": 2,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1839,15 +1878,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Reddit"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-massage-guns",
@@ -1855,10 +1896,10 @@
       "product": "Therabody Theragun Prime Plus",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 4,
+          "total": 3,
+          "positive": 3,
           "caution": 0,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -1867,10 +1908,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 6,
-          "positive": 4,
-          "caution": 2,
-          "exactUrls": 6
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -1883,10 +1924,10 @@
       "product": "Hyperice Hypervolt 2 Pro",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 3,
+          "positive": 2,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 2,
@@ -1895,15 +1936,17 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-massage-guns",
@@ -1911,10 +1954,10 @@
       "product": "Ekrin B37",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
+          "caution": 0,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1923,10 +1966,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 4,
-          "positive": 3,
-          "caution": 1,
-          "exactUrls": 4
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -1939,10 +1982,10 @@
       "product": "Theragun Mini",
       "channels": {
         "Expert": {
-          "total": 5,
+          "total": 4,
           "positive": 2,
-          "caution": 3,
-          "exactUrls": 5
+          "caution": 2,
+          "exactUrls": 4
         },
         "YouTube": {
           "total": 0,
@@ -1951,10 +1994,10 @@
           "exactUrls": 0
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 2,
+          "positive": 2,
+          "caution": 0,
+          "exactUrls": 2
         }
       },
       "missingChannels": [
@@ -1969,10 +2012,10 @@
       "product": "Coway Airmega AP-1512HH Mighty",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -1981,15 +2024,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 1,
+          "positive": 0,
+          "caution": 1,
+          "exactUrls": 1
         }
       },
       "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "thinChannels": [
+        "Reddit"
+      ],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-air-purifiers",
@@ -1997,10 +2042,10 @@
       "product": "Levoit Vital 200S",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -2009,10 +2054,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 3,
+          "positive": 1,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -2025,10 +2070,10 @@
       "product": "Blueair Blue Pure 211i Max",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -2037,10 +2082,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -2053,10 +2098,10 @@
       "product": "Winix 5500-2",
       "channels": {
         "Expert": {
-          "total": 3,
+          "total": 2,
           "positive": 1,
-          "caution": 2,
-          "exactUrls": 3
+          "caution": 1,
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -2065,10 +2110,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -2093,10 +2138,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -2109,10 +2154,10 @@
       "product": "Topo Athletic Ultraventure 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2127,7 +2172,9 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [
         "Reddit"
       ],
@@ -2139,10 +2186,10 @@
       "product": "Brooks Cascadia 19",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2157,9 +2204,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-trail-shoes-for-100-miles",
@@ -2179,10 +2228,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -2235,10 +2284,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -2263,10 +2312,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 7,
-          "positive": 3,
-          "caution": 4,
-          "exactUrls": 7
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -2291,10 +2340,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -2307,10 +2356,10 @@
       "product": "Topo Athletic Ultraventure 4",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2325,7 +2374,9 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [
         "Reddit"
       ],
@@ -2337,10 +2388,10 @@
       "product": "Altra Lone Peak 9",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2355,9 +2406,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-trail-shoes-for-wide-feet",
@@ -2377,10 +2430,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -2393,10 +2446,10 @@
       "product": "Brooks Cascadia 19",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2411,9 +2464,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-trail-shoes-for-muddy-conditions",
@@ -2421,10 +2476,10 @@
       "product": "Salomon Speedcross 6",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2433,15 +2488,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 6,
-          "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "total": 3,
+          "positive": 1,
+          "caution": 2,
+          "exactUrls": 3
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-trail-shoes-for-muddy-conditions",
@@ -2449,10 +2506,10 @@
       "product": "Inov-8 X-Talon Ultra 260 V2",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2467,7 +2524,9 @@
           "exactUrls": 1
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [
         "Reddit"
       ],
@@ -2491,10 +2550,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 7,
-          "positive": 3,
-          "caution": 4,
-          "exactUrls": 7
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -2519,10 +2578,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -2535,10 +2594,10 @@
       "product": "Brooks Cascadia 19",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2553,9 +2612,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-trail-shoes-for-beginners",
@@ -2575,10 +2636,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
       "missingChannels": [],
@@ -2603,10 +2664,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 7,
-          "positive": 3,
-          "caution": 4,
-          "exactUrls": 7
+          "total": 3,
+          "positive": 0,
+          "caution": 3,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -2631,10 +2692,10 @@
           "exactUrls": 4
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
+          "total": 4,
+          "positive": 2,
           "caution": 2,
-          "exactUrls": 5
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -2659,10 +2720,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -2715,10 +2776,10 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 5,
+          "total": 4,
           "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "caution": 1,
+          "exactUrls": 4
         }
       },
       "missingChannels": [],
@@ -2731,10 +2792,10 @@
       "product": "Polar Vantage V3",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -2759,10 +2820,10 @@
       "product": "Salomon ADV Skin 12",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 3,
@@ -2787,10 +2848,10 @@
       "product": "Nathan Pinnacle 12L",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 1,
@@ -2799,10 +2860,10 @@
           "exactUrls": 1
         },
         "Reddit": {
-          "total": 4,
+          "total": 3,
           "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "caution": 1,
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
@@ -2817,10 +2878,10 @@
       "product": "Osprey Duro/Dyna 15",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 2,
@@ -2829,10 +2890,10 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 5,
-          "positive": 3,
-          "caution": 2,
-          "exactUrls": 5
+          "total": 2,
+          "positive": 1,
+          "caution": 1,
+          "exactUrls": 2
         }
       },
       "missingChannels": [],
@@ -2845,10 +2906,10 @@
       "product": "CamelBak Zephyr Pro",
       "channels": {
         "Expert": {
-          "total": 4,
+          "total": 3,
           "positive": 2,
-          "caution": 2,
-          "exactUrls": 4
+          "caution": 1,
+          "exactUrls": 3
         },
         "YouTube": {
           "total": 3,
@@ -2875,94 +2936,10 @@
       "product": "ASICS Novablast 5",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 6,
-          "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
-      "page": "best-road-shoe-for-your-first-marathon",
-      "title": "Best Road Shoe for Your First Marathon",
-      "product": "Brooks Ghost 17",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 6,
-          "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
-      "page": "best-road-shoe-for-your-first-marathon",
-      "title": "Best Road Shoe for Your First Marathon",
-      "product": "Saucony Ride 18",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 3,
-          "caution": 0,
-          "exactUrls": 3
-        },
-        "YouTube": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
-        },
-        "Reddit": {
-          "total": 6,
-          "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
-        }
-      },
-      "missingChannels": [],
-      "thinChannels": [],
-      "recommendation": "Good public source coverage."
-    },
-    {
-      "page": "best-road-shoe-for-your-first-marathon",
-      "title": "Best Road Shoe for Your First Marathon",
-      "product": "Nike Pegasus 41",
-      "channels": {
-        "Expert": {
-          "total": 3,
-          "positive": 2,
-          "caution": 1,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2977,9 +2954,101 @@
           "exactUrls": 5
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "Brooks Ghost 17",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "Saucony Ride 18",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 6,
+          "positive": 3,
+          "caution": 3,
+          "exactUrls": 6
+        }
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon",
+      "title": "Best Road Shoe for Your First Marathon",
+      "product": "Nike Pegasus 41",
+      "channels": {
+        "Expert": {
+          "total": 0,
+          "positive": 0,
+          "caution": 0,
+          "exactUrls": 0
+        },
+        "YouTube": {
+          "total": 3,
+          "positive": 2,
+          "caution": 1,
+          "exactUrls": 3
+        },
+        "Reddit": {
+          "total": 4,
+          "positive": 3,
+          "caution": 1,
+          "exactUrls": 4
+        }
+      },
+      "missingChannels": [
+        "Expert"
+      ],
+      "thinChannels": [],
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-daily-trainers-for-marathon-training",
@@ -2987,10 +3056,10 @@
       "product": "ASICS Novablast 5",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -2999,15 +3068,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-daily-trainers-for-marathon-training",
@@ -3015,10 +3086,10 @@
       "product": "Saucony Ride 18",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -3033,9 +3104,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-daily-trainers-for-marathon-training",
@@ -3043,10 +3116,10 @@
       "product": "New Balance Fresh Foam X 1080v14",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 1,
+          "positive": 0,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 1
         },
         "YouTube": {
           "total": 1,
@@ -3055,14 +3128,15 @@
           "exactUrls": 1
         },
         "Reddit": {
-          "total": 6,
-          "positive": 3,
+          "total": 3,
+          "positive": 0,
           "caution": 3,
-          "exactUrls": 6
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
       "thinChannels": [
+        "Expert",
         "YouTube"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -3073,10 +3147,10 @@
       "product": "HOKA Clifton 10",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -3085,15 +3159,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 6,
+          "total": 5,
           "positive": 3,
-          "caution": 3,
-          "exactUrls": 6
+          "caution": 2,
+          "exactUrls": 5
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-marathon-shoes-for-heavy-runners",
@@ -3101,10 +3177,10 @@
       "product": "ASICS Gel-Nimbus 27",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -3119,9 +3195,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-marathon-shoes-for-heavy-runners",
@@ -3129,10 +3207,10 @@
       "product": "Brooks Glycerin 22",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -3147,9 +3225,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-marathon-shoes-for-heavy-runners",
@@ -3157,10 +3237,10 @@
       "product": "New Balance Fresh Foam X 1080v14",
       "channels": {
         "Expert": {
-          "total": 4,
-          "positive": 3,
+          "total": 1,
+          "positive": 0,
           "caution": 1,
-          "exactUrls": 4
+          "exactUrls": 1
         },
         "YouTube": {
           "total": 1,
@@ -3169,14 +3249,15 @@
           "exactUrls": 1
         },
         "Reddit": {
-          "total": 6,
-          "positive": 3,
+          "total": 3,
+          "positive": 0,
           "caution": 3,
-          "exactUrls": 6
+          "exactUrls": 3
         }
       },
       "missingChannels": [],
       "thinChannels": [
+        "Expert",
         "YouTube"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
@@ -3187,10 +3268,10 @@
       "product": "HOKA Bondi 9",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 0
         },
         "YouTube": {
           "total": 3,
@@ -3205,9 +3286,11 @@
           "exactUrls": 6
         }
       },
-      "missingChannels": [],
+      "missingChannels": [
+        "Expert"
+      ],
       "thinChannels": [],
-      "recommendation": "Good public source coverage."
+      "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
       "page": "best-comfortable-trail-running-shoes",
@@ -3483,16 +3566,16 @@
           "exactUrls": 5
         },
         "Reddit": {
-          "total": 1,
-          "positive": 1,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [
+      "missingChannels": [
         "Reddit"
       ],
+      "thinChannels": [],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
     {
@@ -3916,17 +3999,18 @@
           "exactUrls": 0
         },
         "Reddit": {
-          "total": 2,
-          "positive": 1,
+          "total": 1,
+          "positive": 0,
           "caution": 1,
-          "exactUrls": 2
+          "exactUrls": 1
         }
       },
       "missingChannels": [
         "YouTube"
       ],
       "thinChannels": [
-        "Expert"
+        "Expert",
+        "Reddit"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -3948,16 +4032,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 1,
-          "positive": 1,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
+      "missingChannels": [
         "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -4040,16 +4125,17 @@
           "exactUrls": 3
         },
         "Reddit": {
-          "total": 1,
+          "total": 0,
           "positive": 0,
-          "caution": 1,
-          "exactUrls": 1
+          "caution": 0,
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
+      "missingChannels": [
         "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -4931,16 +5017,17 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 1,
-          "positive": 1,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
+      "missingChannels": [
         "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -5112,16 +5199,17 @@
           "exactUrls": 2
         },
         "Reddit": {
-          "total": 1,
-          "positive": 1,
+          "total": 0,
+          "positive": 0,
           "caution": 0,
-          "exactUrls": 1
+          "exactUrls": 0
         }
       },
-      "missingChannels": [],
-      "thinChannels": [
-        "Expert",
+      "missingChannels": [
         "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
       ],
       "recommendation": "Needs more source curation before this product is considered source-complete."
     },
@@ -5471,10 +5559,10 @@
       "product": "Amphipod Hydraform Ergo-Lite Handheld",
       "channels": {
         "Expert": {
-          "total": 3,
-          "positive": 3,
+          "total": 2,
+          "positive": 2,
           "caution": 0,
-          "exactUrls": 3
+          "exactUrls": 2
         },
         "YouTube": {
           "total": 1,

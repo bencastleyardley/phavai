@@ -1,7 +1,4 @@
 
-
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   {
@@ -146,13 +143,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html" class="is-current" aria-current="page">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -162,7 +156,10 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/">Phavai / Lifestyle</a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <span aria-current="page">Lifestyle</span>
+            </nav>
             <h1>Lifestyle Buying Guides</h1>
             <p class="lede">Lifestyle products often fail in small, irritating ways: luggage wheels that wobble, coffee makers that are annoying to clean, air purifiers with expensive filters, recovery tools that sit unused. Phavai pulls together the reviews and buyer feedback that make those problems easier to spot before checkout.</p>
             <div class="meta-row">
@@ -173,135 +170,187 @@
             <p class="review-byline">AI-assisted research · Human review by <a href="/about.html#ben-yardley">Ben Yardley</a>. Phavai organizes selected reviews, recurring tradeoffs, and product facts; it does not imply first-hand testing. <a href="/methodology.html">See the process</a>.</p>
           </div>
 
-          <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
-            <div class="quick-answer-main">
-              <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Start with <a href="/best-adjustable-dumbbells.html">Best Adjustable Dumbbells</a>.</h2>
-              <p>A home-gym guide to adjustable dumbbells for small spaces, progressive strength training, and buyers trying to avoid expensive regret.</p>
-            </div>
-            <div class="quick-answer-actions">
-              <a class="button" href="/best-adjustable-dumbbells.html">Open buying guide</a>
+          <section class="collection-start-panel" aria-labelledby="collection-start-heading">
+            <div class="section-kicker">Choose a starting point</div>
+            <h2 id="collection-start-heading">What are you comparing?</h2>
+            <p>Pick the guide closest to your actual purchase. The shortlist, tradeoffs, and retailer options live on the next page.</p>
+            <div class="collection-start-links">
 
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="https://www.amazon.com/PowerBlock-Adjustable-Dumbbells-Innovative-Expandable/dp/B00A21NRNO?crid=2SYFQMAAFI8IF&amp;dib=eyJ2IjoiMSJ9.3MylllJsVFN5m73ODxf98wgKCAJh_gffvUgTOE0VF3G8JLNgTJv2f-AZNmyXsBFlujQBCKfxeC9OyF7x7mY86KrBUBkfnfrAG6Yvpc9UPyU1U_jnj2aDeVvHZXA2idc8UUz-CxfZ4kVhpFMhLxphGy5X7WugOimszCHPQQNaCzGnumBaRuwl0iMtJ1l-lyk8oYMsHnxyV3bosjp5-sfR-TGX9O-hfzriEEMavJhan7Vbmm1PxTAZvtQp6yh3WXTOgPzWct-G2-jL220uH8iYkdCa6mVrL_DuuwCRH2aQJdM.TmWPPITnHngU92urRRYgQjK0hxNghMwae6bW6E5NdmA&amp;dib_tag=se&amp;keywords=PowerBlock+Elite+EXP&amp;qid=1778025657&amp;sprefix=nordictrack+select-a-weight+55+lb+dumbbells%2Caps%2C330&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=6bf8b4702ed7e8160bed562444ebcccc&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for PowerBlock Elite EXP" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Adjustable Dumbbells" data-section="Lifestyle" data-product-name="PowerBlock Elite EXP" data-product-rank="1" data-product-score="91" data-shopping-label="Check price at Amazon" data-shopping-placement="section-quick-answer">Check price at Amazon</a>
+                <a href="/best-carry-on-luggage.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Carry-On Luggage</strong>
+                </a>
+
+                <a href="/best-coffee-makers.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Coffee Makers</strong>
+                </a>
+
+                <a href="/best-air-purifiers.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Air Purifiers</strong>
+                </a>
 
             </div>
           </section>
 
         </div>
+        <nav class="page-jump-nav" aria-label="On this collection">
+          <span>Browse this collection</span>
+          <a href="#travel">Travel</a><a href="#grooming">Grooming</a><a href="#home">Home</a><a href="#fitness-nutrition">Fitness &amp; nutrition</a>
+          <a href="#shopping-advice">How to choose</a>
+        </nav>
       </div>
     </section>
 
-    <section class="band" id="guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Lifestyle buying guides</h2>
-          <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
+
+      <section class="band" id="travel">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Travel</h2>
+            <p>Carry and luggage choices organized around packing, durability, comfort, and trip friction.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--lifestyle" href="/best-carry-on-luggage.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="16" width="28" height="36" rx="6"/><path d="M26 16v-5h12v5M24 52v4m16-4v4M28 24h8"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Carry-On Luggage</h3>
+                  <p>Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--lifestyle" href="/best-commuter-backpacks-for-men.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Commuter Backpacks for Men</h3>
+                  <p>A men&#39;s commuter backpack guide for laptops, gym clothes, train rides, office days, and travel-adjacent work routines.</p>
+                </div>
+              </a>
+
+          </div>
         </div>
-        <div class="category-grid icon-card-grid">
+      </section>
 
-            <a class="category-card category-card--lifestyle" href="/best-adjustable-dumbbells.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Adjustable Dumbbells</h3>
-                <p>A home-gym guide to adjustable dumbbells for small spaces, progressive strength training, and buyers trying to avoid expensive regret.</p>
-              </div>
-            </a>
+      <section class="band surface" id="grooming">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Grooming</h2>
+            <p>Tools compared by comfort, cleanup, attachments, battery, and long-term ownership.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
 
-            <a class="category-card category-card--lifestyle" href="/best-air-purifiers.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="10" width="28" height="44" rx="8"/><path d="M25 22h14M25 30h14M25 38h14"/><circle cx="32" cy="47" r="2"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Air Purifiers</h3>
-                <p>Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--lifestyle" href="/best-beard-trimmers.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="10" width="20" height="44" rx="8"/><path d="M26 18h12M27 26h10M28 42h8"/><circle cx="32" cy="34" r="3"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Beard Trimmers</h3>
+                  <p>A men&#39;s grooming guide to beard trimmers for stubble, short beards, longer beards, travel, and low-irritation cleanup.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--lifestyle" href="/best-beard-trimmers.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="10" width="20" height="44" rx="8"/><path d="M26 18h12M27 26h10M28 42h8"/><circle cx="32" cy="34" r="3"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Beard Trimmers</h3>
-                <p>A men&#39;s grooming guide to beard trimmers for stubble, short beards, longer beards, travel, and low-irritation cleanup.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--lifestyle" href="/best-body-groomers-for-men.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="10" width="20" height="44" rx="8"/><path d="M26 18h12M27 26h10M28 42h8"/><circle cx="32" cy="34" r="3"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Body Groomers for Men</h3>
+                  <p>A body groomer guide for men who want safer trimming below the neck, fewer nicks, and a tool that makes sense for chest, back, underarm, and sensitive-area grooming.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--lifestyle" href="/best-body-groomers-for-men.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="10" width="20" height="44" rx="8"/><path d="M26 18h12M27 26h10M28 42h8"/><circle cx="32" cy="34" r="3"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Body Groomers for Men</h3>
-                <p>A body groomer guide for men who want safer trimming below the neck, fewer nicks, and a tool that makes sense for chest, back, underarm, and sensitive-area grooming.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--lifestyle" href="/best-electric-shavers-for-men.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="10" width="20" height="44" rx="8"/><path d="M26 18h12M27 26h10M28 42h8"/><circle cx="32" cy="34" r="3"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Electric Shavers for Men</h3>
+                  <p>A practical electric shaver guide for men choosing between close foil shaves, rotary comfort, sensitive skin, travel convenience, and budget-friendly daily cleanup.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--lifestyle" href="/best-carry-on-luggage.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="16" width="28" height="36" rx="6"/><path d="M26 16v-5h12v5M24 52v4m16-4v4M28 24h8"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Carry-On Luggage</h3>
-                <p>Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--lifestyle" href="/best-coffee-makers.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 22h28v14a12 12 0 0 1-24 0V22Z"/><path d="M46 27h4a6 6 0 0 1 0 12h-4M24 12v5m8-5v5m8-5v5"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Coffee Makers</h3>
-                <p>Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--lifestyle" href="/best-commuter-backpacks-for-men.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 12h18l6 14v26H17V26l6-14Z"/><path d="M24 28h16M24 38h16M32 12v40"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Commuter Backpacks for Men</h3>
-                <p>A men&#39;s commuter backpack guide for laptops, gym clothes, train rides, office days, and travel-adjacent work routines.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--lifestyle" href="/best-creatine.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 16h28l6 8v24H12V24l6-8Z"/><path d="M18 16l-6 8m34-8 6 8M20 33h24M24 42h16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Creatine</h3>
-                <p>A clean creatine guide for people who want proven creatine monohydrate, clear third-party testing signals, and fewer supplement-label distractions.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--lifestyle" href="/best-electric-shavers-for-men.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="22" y="10" width="20" height="44" rx="8"/><path d="M26 18h12M27 26h10M28 42h8"/><circle cx="32" cy="34" r="3"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Electric Shavers for Men</h3>
-                <p>A practical electric shaver guide for men choosing between close foil shaves, rotary comfort, sensitive skin, travel convenience, and budget-friendly daily cleanup.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--lifestyle" href="/best-massage-guns.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="26" y="11" width="16" height="28" rx="7" transform="rotate(35 34 25)"/><path d="M23 34 13 49m29-28 9-7M44 42l6 8"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Massage Guns</h3>
-                <p>Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--lifestyle" href="/best-protein-bars.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 16h28l6 8v24H12V24l6-8Z"/><path d="M18 16l-6 8m34-8 6 8M20 33h24M24 42h16"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Protein Bars</h3>
-                <p>A practical protein bar guide for people who want a convenient snack with enough protein, tolerable sugar alcohols, decent texture, and fewer regret bites.</p>
-              </div>
-            </a>
-
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="band" id="home">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Home</h2>
+            <p>Everyday appliances compared by maintenance, noise, reliability, and recurring cost.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--lifestyle" href="/best-coffee-makers.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 22h28v14a12 12 0 0 1-24 0V22Z"/><path d="M46 27h4a6 6 0 0 1 0 12h-4M24 12v5m8-5v5m8-5v5"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Coffee Makers</h3>
+                  <p>Coffee makers ranked for brew quality, consistency, ease of use, cleaning, durability, and morning reliability.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--lifestyle" href="/best-air-purifiers.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="10" width="28" height="44" rx="8"/><path d="M25 22h14M25 30h14M25 38h14"/><circle cx="32" cy="47" r="2"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Air Purifiers</h3>
+                  <p>Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="band surface" id="fitness-nutrition">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Fitness &amp; nutrition</h2>
+            <p>Training and nutrition products organized by repeat use, tolerance, storage, and value.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--lifestyle" href="/best-adjustable-dumbbells.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Adjustable Dumbbells</h3>
+                  <p>A home-gym guide to adjustable dumbbells for small spaces, progressive strength training, and buyers trying to avoid expensive regret.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--lifestyle" href="/best-creatine.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 16h28l6 8v24H12V24l6-8Z"/><path d="M18 16l-6 8m34-8 6 8M20 33h24M24 42h16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Creatine</h3>
+                  <p>A clean creatine guide for people who want proven creatine monohydrate, clear third-party testing signals, and fewer supplement-label distractions.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--lifestyle" href="/best-massage-guns.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="26" y="11" width="16" height="28" rx="7" transform="rotate(35 34 25)"/><path d="M23 34 13 49m29-28 9-7M44 42l6 8"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Massage Guns</h3>
+                  <p>Massage guns ranked for power, amplitude, ergonomics, noise, battery life, attachments, portability, and value.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--lifestyle" href="/best-protein-bars.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 16h28l6 8v24H12V24l6-8Z"/><path d="M18 16l-6 8m34-8 6 8M20 33h24M24 42h16"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Protein Bars</h3>
+                  <p>A practical protein bar guide for people who want a convenient snack with enough protein, tolerable sugar alcohols, decent texture, and fewer regret bites.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
 
 
     <section class="band">
@@ -333,8 +382,6 @@
 
 
 
-
-
     <section class="band" id="shopping-advice">
       <div class="wrap">
         <div class="section-head">
@@ -343,7 +390,7 @@
         </div>
         <div class="category-grid">
 
-            <a class="category-card category-card--lifestyle" href="/how-to-choose-air-purifier.html">
+            <a class="category-card category-card--lifestyle" href="/how-to-choose-air-purifier.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">How to choose</span>
                 <h3>How to Choose an Air Purifier</h3>
@@ -351,7 +398,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--lifestyle" href="/hard-shell-vs-soft-shell-carry-on.html">
+            <a class="category-card category-card--lifestyle" href="/hard-shell-vs-soft-shell-carry-on.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Comparison</span>
                 <h3>Hard-Shell vs Soft-Shell Carry-On Luggage</h3>
@@ -359,7 +406,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--lifestyle" href="/coffee-maker-features-that-matter.html">
+            <a class="category-card category-card--lifestyle" href="/coffee-maker-features-that-matter.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Feature explainer</span>
                 <h3>Coffee Maker Features That Actually Matter</h3>
@@ -375,22 +422,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

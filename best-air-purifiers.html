@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -159,13 +159,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html" class="is-current" aria-current="location">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -173,9 +170,13 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/lifestyle.html">Phavai / Lifestyle / Home air quality</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/lifestyle.html">Lifestyle</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Home air quality</span>
+        </nav>
         <h1>Best Air Purifiers</h1>
-        <p class="lede">Shopping for best air purifiers gets messy fast. Phavai uses AI-assisted research to organize recurring pros, cons, specifications, and buyer feedback so the tradeoffs are easier to see.</p>
+        <p class="lede">Air purifiers ranked for cleaning performance, room coverage, noise, filter cost, smart features, and owner satisfaction.</p>
         <div class="meta-row" aria-label="Page details">
           <span class="meta-pill">Last updated April 20, 2026</span>
           <span class="meta-pill">Sources checked Apr 20, 2026</span>
@@ -200,6 +201,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -211,15 +220,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,6 +238,7 @@
                     <td>#1</td>
                     <td><a href="#coway-airmega-ap-1512hh-mighty">Coway Airmega AP-1512HH Mighty</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$180-$230 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Coway Airmega AP-1512HH Mighty">
 
@@ -244,6 +255,7 @@
                     <td>#2</td>
                     <td><a href="#levoit-vital-200s">Levoit Vital 200S</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$190 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Levoit Vital 200S">
 
@@ -260,6 +272,7 @@
                     <td>#3</td>
                     <td><a href="#blueair-blue-pure-211i-max">Blueair Blue Pure 211i Max</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$349 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Blueair Blue Pure 211i Max">
 
@@ -276,6 +289,7 @@
                     <td>#4</td>
                     <td><a href="#winix-5500-2">Winix 5500-2</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$160-$200 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Winix 5500-2">
 
@@ -294,61 +308,22 @@
         </section>
 
 
-          <section class="fit-finder" data-fit-finder data-fit-options="%5B%7B%22key%22%3A%22everyday%22%2C%22label%22%3A%22Everyday%20use%22%2C%22help%22%3A%22Easy%20choices%20for%20normal%20daily%20life.%22%2C%22weights%22%3A%7B%22dailyVersatility%22%3A1%2C%22easeOfUse%22%3A0.7%2C%22value%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Daily%20versatility%22%2C%22Ease%20of%20use%22%5D%7D%2C%7B%22key%22%3A%22small-space%22%2C%22label%22%3A%22Small%20spaces%22%2C%22help%22%3A%22Better%20fit%20for%20apartments%2C%20travel%2C%20or%20tight%20kitchens.%22%2C%22weights%22%3A%7B%22smallSpace%22%3A1%2C%22portability%22%3A0.55%2C%22easeOfUse%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Small-space%20fit%22%2C%22Portability%22%5D%7D%2C%7B%22key%22%3A%22quiet%22%2C%22label%22%3A%22Quiet%20home%22%2C%22help%22%3A%22Lower%20noise%20and%20less%20friction%20at%20home.%22%2C%22weights%22%3A%7B%22quietUse%22%3A1%2C%22comfort%22%3A0.45%2C%22easeOfUse%22%3A0.35%7D%2C%22attributeLabels%22%3A%5B%22Quiet%20use%22%2C%22Comfort%22%5D%7D%2C%7B%22key%22%3A%22premium%22%2C%22label%22%3A%22Premium%20pick%22%2C%22help%22%3A%22A%20stronger%20build%20and%20more%20polished%20ownership%20feel.%22%2C%22weights%22%3A%7B%22premiumBuild%22%3A1%2C%22durability%22%3A0.65%2C%22easeOfUse%22%3A0.25%7D%2C%22attributeLabels%22%3A%5B%22Premium%20build%22%2C%22Long-term%20build%22%5D%7D%5D" aria-labelledby="fit-finder-heading">
-            <div class="fit-finder-copy">
-              <div class="section-kicker">Find your fit</div>
-              <h2 id="fit-finder-heading">Match this guide to your priorities</h2>
-              <p>Choose up to two priorities. The editorial order stays intact while the closest buyer-specific match is highlighted.</p>
-            </div>
-            <div class="fit-finder-controls">
-              <div class="fit-chip-row" role="group" aria-label="Buyer priorities">
-
-                  <button class="fit-chip" type="button" data-fit-option="everyday" aria-pressed="false"><span>Everyday use</span><small>Easy choices for normal daily life.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="small-space" aria-pressed="false"><span>Small spaces</span><small>Better fit for apartments, travel, or tight kitchens.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="quiet" aria-pressed="false"><span>Quiet home</span><small>Lower noise and less friction at home.</small></button>
-
-                  <button class="fit-chip" type="button" data-fit-option="premium" aria-pressed="false"><span>Premium pick</span><small>A stronger build and more polished ownership feel.</small></button>
-
-                <button class="fit-chip fit-chip--clear" type="button" data-fit-clear aria-pressed="false"><span>Reset</span><small>Editorial order</small></button>
-              </div>
-              <div class="fit-result" data-fit-result aria-live="polite">
-                <span data-fit-result-label>Choose a priority</span>
-                <strong data-fit-result-name>Coway Airmega AP-1512HH Mighty</strong>
-                <p data-fit-result-reason>Start with the editorial winner, or select priorities above for a more specific match.</p>
-
-                  <div class="fit-result-actions">
-                    <a href="#coway-airmega-ap-1512hh-mighty" data-fit-result-link>Jump to current pick</a>
-
-                      <a class="button shopping-button fit-result-shop" href="https://www.amazon.com/Coway-AP-1512HH-Mighty-Purifier-White/dp/B01728NLRG?dib=eyJ2IjoiMSJ9.nXvWE9dTvvwhdbqCaU6S4sBofdk5xmr8BhOy02qhOYl72pAYFhFXWRAv6b5qoduGxgVkRBzEJOf31GMPvnNvEeCcQPbMV9HKUP-mrW2CA7PvFCwkZMXxQ94yc2PL_PfFmT5ig_ba6HKGJoLrnGRZ_DYYf_JJdSlj50gMtdiP-pPqXIQpLXG699aFDG4vf85KbNw08m50jXjDUTXT8v3Qv7B0KoJwWlWU6X6k07gFwqI.NpPDCKlYSoFNdSm21dyoAw2ZvBsoUL0TU9OvxDNSPkk&amp;dib_tag=se&amp;keywords=Coway+Airmega+AP-1512HH+Mighty&amp;qid=1777570915&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=9a9a7ed8966e5a2b613db2e70ae97634&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" hidden aria-label="Check price for your fit match, Coway Airmega AP-1512HH Mighty" data-fit-result-shop data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Coway Airmega AP-1512HH Mighty" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="fit-finder">Check price for this match</a>
-
-                  </div>
-
-              </div>
-            </div>
-            <div class="fit-match-grid" data-fit-match-grid aria-label="Fit match shortlist">
-
-                <a class="fit-match-card" href="#coway-airmega-ap-1512hh-mighty" data-fit-card><span data-fit-card-rank>#1 editorial</span><strong data-fit-card-name>Coway Airmega AP-1512HH Mighty</strong><small data-fit-card-reason>Best overall air purifier value</small></a>
-
-                <a class="fit-match-card" href="#levoit-vital-200s" data-fit-card><span data-fit-card-rank>#2 editorial</span><strong data-fit-card-name>Levoit Vital 200S</strong><small data-fit-card-reason>Best smart value purifier</small></a>
-
-                <a class="fit-match-card" href="#blueair-blue-pure-211i-max" data-fit-card><span data-fit-card-rank>#3 editorial</span><strong data-fit-card-name>Blueair Blue Pure 211i Max</strong><small data-fit-card-reason>Best large-room purifier</small></a>
-
-            </div>
-          </section>
-
 
 
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="coway-airmega-ap-1512hh-mighty" data-product-name="Coway Airmega AP-1512HH Mighty" data-default-score="85" data-editorial-rank="1" data-channel-scores='{"Expert":91.1,"YouTube":83.5,"Reddit":79}' data-decision-tags='["performance","distance","budget","premium","small-space","quiet"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":71},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":71},"quietUse":{"key":"quietUse","label":"Quiet use","score":71},"portability":{"key":"portability","label":"Portability","score":48},"durability":{"key":"durability","label":"Long-term build","score":59},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":71},"packability":{"key":"packability","label":"Packability","score":48},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":81},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":48},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"airCleaning","label":"Air cleaning","score":81},{"key":"value","label":"Price fit","score":71},{"key":"smallSpace","label":"Small-space fit","score":71}],"ownerSentimentSummary":"Excellent long-term reputation. Strong value.","expertSentimentSummary":"2 evidence items. Strongest signal: RTINGS category testing supports Coway Airmega AP-1512HH Mighty as a serious air purifier option.","biggestStrength":"Excellent long-term reputation","biggestComplaint":"Older design","confidenceLevel":"Solid","evidenceDepth":78,"recencyStrength":79,"decisionTags":["performance","distance","budget","premium","small-space","quiet"]}' data-fit-profile="%7B%22id%22%3A%22coway-airmega-ap-1512hh-mighty%22%2C%22name%22%3A%22Coway%20Airmega%20AP-1512HH%20Mighty%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20overall%20air%20purifier%20value%22%2C%22bestFor%22%3A%22Bedrooms%20and%20medium%20rooms%20where%20proven%20performance%20and%20value%20matter%22%2C%22avoidIf%22%3A%22You%20need%20smart%20app%20control%20or%20very%20large-room%20coverage.%22%2C%22biggestStrength%22%3A%22Excellent%20long-term%20reputation%22%2C%22biggestComplaint%22%3A%22Older%20design%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22premium%22%2C%22small-space%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A71%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A71%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A59%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A48%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A81%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Excellent%20long-term%20reputation.%20Strong%20value.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20RTINGS%20category%20testing%20supports%20Coway%20Airmega%20AP-1512HH%20Mighty%20as%20a%20serious%20air%20purifier%20option.%22%2C%22biggestStrength%22%3A%22Excellent%20long-term%20reputation%22%2C%22biggestComplaint%22%3A%22Older%20design%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A78%2C%22recencyStrength%22%3A79%2C%22decisionTags%22%3A%5B%22performance%22%2C%22distance%22%2C%22budget%22%2C%22premium%22%2C%22small-space%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FCoway-AP-1512HH-Mighty-Purifier-White%2Fdp%2FB01728NLRG%3Fdib%3DeyJ2IjoiMSJ9.nXvWE9dTvvwhdbqCaU6S4sBofdk5xmr8BhOy02qhOYl72pAYFhFXWRAv6b5qoduGxgVkRBzEJOf31GMPvnNvEeCcQPbMV9HKUP-mrW2CA7PvFCwkZMXxQ94yc2PL_PfFmT5ig_ba6HKGJoLrnGRZ_DYYf_JJdSlj50gMtdiP-pPqXIQpLXG699aFDG4vf85KbNw08m50jXjDUTXT8v3Qv7B0KoJwWlWU6X6k07gFwqI.NpPDCKlYSoFNdSm21dyoAw2ZvBsoUL0TU9OvxDNSPkk%26dib_tag%3Dse%26keywords%3DCoway%2BAirmega%2BAP-1512HH%2BMighty%26qid%3D1777570915%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D8-1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D9a9a7ed8966e5a2b613db2e70ae97634%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="coway-airmega-ap-1512hh-mighty" data-product-name="Coway Airmega AP-1512HH Mighty" data-default-score="85" data-editorial-rank="1" data-channel-scores='{"Expert":91.1,"YouTube":83.5,"Reddit":79}'>
               <div class="product-media product-media--lifestyle product-visual--workspace product-visual--mat">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Coway Airmega AP-1512HH Mighty, Best overall air purifier value">
@@ -372,6 +347,9 @@
                 <div class="tagline">Best overall air purifier value</div>
                 <p class="product-verdict"><strong>Our take:</strong> Coway Airmega AP-1512HH Mighty is the best overall air purifier value for shoppers who want bedrooms and medium rooms where proven performance and value matter. It stands out for excellent long-term reputation and strong value.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$180-$230 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Coway Airmega AP-1512HH Mighty">
                     <li>True HEPA filtration</li><li>Eco mode</li><li>Air quality indicator</li><li>Medium-room coverage</li>
@@ -385,9 +363,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Coway Airmega AP-1512HH Mighty">
-                  <strong>85</strong>
-                  <span>Evidence score · 7 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Coway Airmega AP-1512HH Mighty">
+
+                    <strong>85</strong>
+                    <span>Evidence score · 6 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Coway Airmega AP-1512HH Mighty">
@@ -399,17 +379,13 @@
                     <span>Avoid if</span>
                     <p>You need smart app control or very large-room coverage.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Older design</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Coway Airmega AP-1512HH Mighty">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Coway-AP-1512HH-Mighty-Purifier-White/dp/B01728NLRG?dib=eyJ2IjoiMSJ9.nXvWE9dTvvwhdbqCaU6S4sBofdk5xmr8BhOy02qhOYl72pAYFhFXWRAv6b5qoduGxgVkRBzEJOf31GMPvnNvEeCcQPbMV9HKUP-mrW2CA7PvFCwkZMXxQ94yc2PL_PfFmT5ig_ba6HKGJoLrnGRZ_DYYf_JJdSlj50gMtdiP-pPqXIQpLXG699aFDG4vf85KbNw08m50jXjDUTXT8v3Qv7B0KoJwWlWU6X6k07gFwqI.NpPDCKlYSoFNdSm21dyoAw2ZvBsoUL0TU9OvxDNSPkk&amp;dib_tag=se&amp;keywords=Coway+Airmega+AP-1512HH+Mighty&amp;qid=1777570915&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=9a9a7ed8966e5a2b613db2e70ae97634&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Coway Airmega AP-1512HH Mighty" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Coway-AP-1512HH-Mighty-Purifier-White/dp/B01728NLRG?dib=eyJ2IjoiMSJ9.nXvWE9dTvvwhdbqCaU6S4sBofdk5xmr8BhOy02qhOYl72pAYFhFXWRAv6b5qoduGxgVkRBzEJOf31GMPvnNvEeCcQPbMV9HKUP-mrW2CA7PvFCwkZMXxQ94yc2PL_PfFmT5ig_ba6HKGJoLrnGRZ_DYYf_JJdSlj50gMtdiP-pPqXIQpLXG699aFDG4vf85KbNw08m50jXjDUTXT8v3Qv7B0KoJwWlWU6X6k07gFwqI.NpPDCKlYSoFNdSm21dyoAw2ZvBsoUL0TU9OvxDNSPkk&amp;dib_tag=se&amp;keywords=Coway+Airmega+AP-1512HH+Mighty&amp;qid=1777570915&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=9a9a7ed8966e5a2b613db2e70ae97634&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Coway Airmega AP-1512HH Mighty" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Coway Airmega AP-1512HH Mighty" data-product-rank="1" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -428,7 +404,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>91.1</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">RTINGS</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">RTINGS</a></div>
                                   </div>
 
                               </div>
@@ -437,7 +413,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>83.5</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=O_Mk9ITKyow" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="COWAY AIRMEGA AP-1512HH AIR PURIFIER REVIEW - I&#39;M IMPRESSED!" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">Vacuum Wars video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=O_Mk9ITKyow" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="COWAY AIRMEGA AP-1512HH AIR PURIFIER REVIEW - I&#39;M IMPRESSED!" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">Vacuum Wars video</a></div>
                                   </div>
 
                               </div>
@@ -446,7 +422,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>79</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1nuim3l/did_i_buy_the_wrong_air_purifier/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Did I buy the wrong air purifier?" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1nuim3l/did_i_buy_the_wrong_air_purifier/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Did I buy the wrong air purifier?" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
                                   </div>
 
                               </div>
@@ -454,8 +430,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Coway Airmega AP-1512HH Mighty">
-                          <div><span>Proof base</span><strong>7 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>79/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>6 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -469,14 +445,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
                                     <span>Expert review / Best evidence</span>
                                     <b>air purifier review context | RTINGS</b>
                                     <small>RTINGS - checked Apr 20, 2026</small>
                                     <em>RTINGS category testing supports Coway Airmega AP-1512HH Mighty as a serious air purifier option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
                                     <span>Expert review</span>
                                     <b>air purifier comparison | Tom&#39;s Guide</b>
                                     <small>Tom&#39;s Guide - checked Apr 20, 2026</small>
@@ -490,14 +466,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.youtube.com/watch?v=O_Mk9ITKyow" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="COWAY AIRMEGA AP-1512HH AIR PURIFIER REVIEW - I&#39;M IMPRESSED!" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.youtube.com/watch?v=O_Mk9ITKyow" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="COWAY AIRMEGA AP-1512HH AIR PURIFIER REVIEW - I&#39;M IMPRESSED!" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
                                     <span>Video review / Best evidence</span>
                                     <b>COWAY AIRMEGA AP-1512HH AIR PURIFIER REVIEW - I&#39;M IMPRESSED!</b>
                                     <small>Vacuum Wars - checked May 29, 2026</small>
                                     <em>Vacuum Wars video review: COWAY AIRMEGA AP-1512HH AIR PURIFIER REVIEW - I&#39;M IMPRESSED!</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=vWkf58twqVU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Coway Airmega AP-1512HH Mighty 🔥 Air Purifier Review" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=vWkf58twqVU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Coway Airmega AP-1512HH Mighty 🔥 Air Purifier Review" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Coway Airmega AP-1512HH Mighty 🔥 Air Purifier Review</b>
                                     <small>HouseFresh - checked May 29, 2026</small>
@@ -519,7 +495,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=JkZBpiCMGjY" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="What I Wish I Knew About The Coway Airmega AP-1512HH Before Buying (Quick &amp; Honest)" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=JkZBpiCMGjY" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="What I Wish I Knew About The Coway Airmega AP-1512HH Before Buying (Quick &amp; Honest)" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>What I Wish I Knew About The Coway Airmega AP-1512HH Before Buying (Quick &amp; Honest)</b>
                                     <small>Is It Worth It? (Product Reviews) - checked May 29, 2026</small>
@@ -533,7 +509,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1nuim3l/did_i_buy_the_wrong_air_purifier/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Did I buy the wrong air purifier?" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1nuim3l/did_i_buy_the_wrong_air_purifier/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Did I buy the wrong air purifier?" data-product-name="Coway Airmega AP-1512HH Mighty" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Did I buy the wrong air purifier?</b>
                                     <small>r/AirPurifiers thread by Narrow_Breadfruit825 - checked Apr 22, 2026</small>
@@ -550,7 +526,7 @@
               </div>
             </article>
 
-            <article class="product" id="levoit-vital-200s" data-product-name="Levoit Vital 200S" data-default-score="84" data-editorial-rank="2" data-channel-scores='{"Expert":87.1,"YouTube":82.9,"Reddit":81.1}' data-decision-tags='["distance","budget","everyday","quiet"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":71},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":48},"quietUse":{"key":"quietUse","label":"Quiet use","score":60},"portability":{"key":"portability","label":"Portability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":48},"packability":{"key":"packability","label":"Packability","score":48},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":59},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":48},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"value","label":"Price fit","score":71},{"key":"quietUse","label":"Quiet use","score":60},{"key":"airCleaning","label":"Air cleaning","score":59}],"ownerSentimentSummary":"Good smart features. Pet-friendly intake.","expertSentimentSummary":"2 evidence items. Strongest signal: RTINGS category testing supports Levoit Vital 200S as a serious air purifier option.","biggestStrength":"Good smart features","biggestComplaint":"Filter naming can be confusing","confidenceLevel":"High","evidenceDepth":84,"recencyStrength":83,"decisionTags":["distance","budget","everyday","quiet"]}' data-fit-profile="%7B%22id%22%3A%22levoit-vital-200s%22%2C%22name%22%3A%22Levoit%20Vital%20200S%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A84%2C%22publicScoreLabel%22%3A%2284%22%2C%22tag%22%3A%22Best%20smart%20value%20purifier%22%2C%22bestFor%22%3A%22Pet%20owners%20and%20smart-home%20users%20who%20want%20app%20control%20and%20good%20value%22%2C%22avoidIf%22%3A%22You%20want%20the%20longest%20expert-test%20track%20record.%22%2C%22biggestStrength%22%3A%22Good%20smart%20features%22%2C%22biggestComplaint%22%3A%22Filter%20naming%20can%20be%20confusing%22%2C%22decisionTags%22%3A%5B%22distance%22%2C%22budget%22%2C%22everyday%22%2C%22quiet%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A48%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A60%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A48%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A48%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A59%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A60%7D%2C%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A59%7D%5D%2C%22ownerSentimentSummary%22%3A%22Good%20smart%20features.%20Pet-friendly%20intake.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20RTINGS%20category%20testing%20supports%20Levoit%20Vital%20200S%20as%20a%20serious%20air%20purifier%20option.%22%2C%22biggestStrength%22%3A%22Good%20smart%20features%22%2C%22biggestComplaint%22%3A%22Filter%20naming%20can%20be%20confusing%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A84%2C%22recencyStrength%22%3A83%2C%22decisionTags%22%3A%5B%22distance%22%2C%22budget%22%2C%22everyday%22%2C%22quiet%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLEVOIT-Purifiers-Washable-Filters-Quality%2Fdp%2FB0BGPF71Q6%3Fdib%3DeyJ2IjoiMSJ9.f0szIAU3L-RTBUxjEkSNo4vYqIM-cA2rWYBKotTaoNzlm31YNU0ki08jh8ruwnN8-tkLL1h8tDgfQwI--nTyo8PxCui9Ymz-gHPf47iQJVTkHUl2N4-c2mlCbjXLR1YSeqilHTuRC05qzMqHGPxmNkezA3o97eEw4bXwh7MkNfLsJfdADxW--hYeZToXGd9XU4ps2h032wHMFOMqwnlsmVfgFv7sp4SxaqB_7irPkjE.v3zjQN6jK6iLO_EA12ou3clLlKdXp2skUaXMOfRd0c8%26dib_tag%3Dse%26keywords%3DLevoit%252BVital%252B200S%26qid%3D1777570938%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D8-1%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Dfbe4ee4aad8ee621ad0e3204fcc857be%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="levoit-vital-200s" data-product-name="Levoit Vital 200S" data-default-score="84" data-editorial-rank="2" data-channel-scores='{"Expert":87.1,"YouTube":82.9,"Reddit":81.1}'>
               <div class="product-media product-media--lifestyle product-visual--air product-visual--box">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Levoit Vital 200S, Best smart value purifier">
@@ -564,15 +540,16 @@
 
                     <span class="decision-badge">Best Value</span>
 
-                    <span class="decision-badge">Best for Distance</span>
-
-                    <span class="decision-badge">Quiet Pick</span>
+                    <span class="decision-badge">Frequently Recommended</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Levoit Vital 200S</h2>
                 <div class="tagline">Best smart value purifier</div>
                 <p class="product-verdict"><strong>Our take:</strong> Levoit Vital 200S is the best smart value purifier for pet owners and smart-home users buyers who need app control and good value. It stands out for good smart features and pet-friendly intake.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$190 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Levoit Vital 200S">
@@ -587,9 +564,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Levoit Vital 200S">
-                  <strong>84</strong>
-                  <span>Evidence score · 9 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Levoit Vital 200S">
+
+                    <strong>84</strong>
+                    <span>Evidence score · 8 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Levoit Vital 200S">
@@ -601,17 +580,13 @@
                     <span>Avoid if</span>
                     <p>You want the longest expert-test track record.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Filter naming can be confusing</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Levoit Vital 200S">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/LEVOIT-Purifiers-Washable-Filters-Quality/dp/B0BGPF71Q6?dib=eyJ2IjoiMSJ9.f0szIAU3L-RTBUxjEkSNo4vYqIM-cA2rWYBKotTaoNzlm31YNU0ki08jh8ruwnN8-tkLL1h8tDgfQwI--nTyo8PxCui9Ymz-gHPf47iQJVTkHUl2N4-c2mlCbjXLR1YSeqilHTuRC05qzMqHGPxmNkezA3o97eEw4bXwh7MkNfLsJfdADxW--hYeZToXGd9XU4ps2h032wHMFOMqwnlsmVfgFv7sp4SxaqB_7irPkjE.v3zjQN6jK6iLO_EA12ou3clLlKdXp2skUaXMOfRd0c8&amp;dib_tag=se&amp;keywords=Levoit%2BVital%2B200S&amp;qid=1777570938&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=fbe4ee4aad8ee621ad0e3204fcc857be&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Levoit Vital 200S" data-product-rank="2" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/LEVOIT-Purifiers-Washable-Filters-Quality/dp/B0BGPF71Q6?dib=eyJ2IjoiMSJ9.f0szIAU3L-RTBUxjEkSNo4vYqIM-cA2rWYBKotTaoNzlm31YNU0ki08jh8ruwnN8-tkLL1h8tDgfQwI--nTyo8PxCui9Ymz-gHPf47iQJVTkHUl2N4-c2mlCbjXLR1YSeqilHTuRC05qzMqHGPxmNkezA3o97eEw4bXwh7MkNfLsJfdADxW--hYeZToXGd9XU4ps2h032wHMFOMqwnlsmVfgFv7sp4SxaqB_7irPkjE.v3zjQN6jK6iLO_EA12ou3clLlKdXp2skUaXMOfRd0c8&amp;dib_tag=se&amp;keywords=Levoit%2BVital%2B200S&amp;qid=1777570938&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sr=8-1&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=fbe4ee4aad8ee621ad0e3204fcc857be&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Levoit Vital 200S" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Levoit Vital 200S" data-product-rank="2" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -630,7 +605,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>87.1</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">RTINGS</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">RTINGS</a></div>
                                   </div>
 
                               </div>
@@ -639,7 +614,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.9</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=sOq9l97Kcms" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Levoit Vital 200s Review - The Best Air Purifier under $200?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">HouseFresh video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=sOq9l97Kcms" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Levoit Vital 200s Review - The Best Air Purifier under $200?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">HouseFresh video</a></div>
                                   </div>
 
                               </div>
@@ -648,7 +623,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>81.1</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1o7pbj4/air_purifier_levoit_vital_200s_dries_my_nose/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Air Purifier / Levoit Vital 200S dries my nose, sinuses and throat. I&#39;m concerned." data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1o7pbj4/air_purifier_levoit_vital_200s_dries_my_nose/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Air Purifier / Levoit Vital 200S dries my nose, sinuses and throat. I&#39;m concerned." data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
                                   </div>
 
                               </div>
@@ -656,8 +631,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Levoit Vital 200S">
-                          <div><span>Proof base</span><strong>9 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>83/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>8 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -671,14 +646,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Expert review / Best evidence</span>
                                     <b>air purifier review context | RTINGS</b>
                                     <small>RTINGS - checked Apr 20, 2026</small>
                                     <em>RTINGS category testing supports Levoit Vital 200S as a serious air purifier option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Expert review</span>
                                     <b>air purifier comparison | Tom&#39;s Guide</b>
                                     <small>Tom&#39;s Guide - checked Apr 20, 2026</small>
@@ -692,14 +667,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=sOq9l97Kcms" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Levoit Vital 200s Review - The Best Air Purifier under $200?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=sOq9l97Kcms" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Levoit Vital 200s Review - The Best Air Purifier under $200?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Levoit Vital 200s Review - The Best Air Purifier under $200?</b>
                                     <small>HouseFresh - checked May 29, 2026</small>
                                     <em>HouseFresh video review: Levoit Vital 200s Review - The Best Air Purifier under $200?</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=TC5TdFFxNGM" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="LEVOIT Vital 200S-P Air Purifier for Large Rooms Full Review" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=TC5TdFFxNGM" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="LEVOIT Vital 200S-P Air Purifier for Large Rooms Full Review" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>LEVOIT Vital 200S-P Air Purifier for Large Rooms Full Review</b>
                                     <small>Fer&#39;s Reviews - checked May 29, 2026</small>
@@ -713,7 +688,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/AirPurifiers/comments/1rs7fhm/levoit_vital_200sp_is_it_time_to_replace_my/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="[Levoit Vital 200S-P] Is it time to replace my filter? If so, can I use a third-party one?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.reddit.com/r/AirPurifiers/comments/1rs7fhm/levoit_vital_200sp_is_it_time_to_replace_my/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="[Levoit Vital 200S-P] Is it time to replace my filter? If so, can I use a third-party one?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>[Levoit Vital 200S-P] Is it time to replace my filter? If so, can I use a third-party one?</b>
                                     <small>r/AirPurifiers thread by StockDunce - checked Apr 22, 2026</small>
@@ -735,7 +710,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=y9rEEX0QdIo" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Levoit Vital 200S-P Review - Is It a Bad Air Purifier?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=y9rEEX0QdIo" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Levoit Vital 200S-P Review - Is It a Bad Air Purifier?" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Levoit Vital 200S-P Review - Is It a Bad Air Purifier?</b>
                                     <small>Consumer Analysis - checked May 29, 2026</small>
@@ -749,14 +724,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1rmeme1/question_about_smells_levoit_vital_200s_purifier/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Question about smells (Levoit Vital 200S Purifier)" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1rmeme1/question_about_smells_levoit_vital_200s_purifier/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Question about smells (Levoit Vital 200S Purifier)" data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Question about smells (Levoit Vital 200S Purifier)</b>
                                     <small>r/AirPurifiers thread by strawberryoftheindie - checked Apr 22, 2026</small>
                                     <em>r/AirPurifiers thread adds owner cautions around Levoit Vital 200S: Question about smells (Levoit Vital 200S Purifier).</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1o7pbj4/air_purifier_levoit_vital_200s_dries_my_nose/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Air Purifier / Levoit Vital 200S dries my nose, sinuses and throat. I&#39;m concerned." data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1o7pbj4/air_purifier_levoit_vital_200s_dries_my_nose/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Air Purifier / Levoit Vital 200S dries my nose, sinuses and throat. I&#39;m concerned." data-product-name="Levoit Vital 200S" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Air Purifier / Levoit Vital 200S dries my nose, sinuses and throat. I&#39;m concerned.</b>
                                     <small>r/AirPurifiers thread by Grayoneverything - checked Apr 22, 2026</small>
@@ -773,7 +748,7 @@
               </div>
             </article>
 
-            <article class="product" id="blueair-blue-pure-211i-max" data-product-name="Blueair Blue Pure 211i Max" data-default-score="84" data-editorial-rank="3" data-channel-scores='{"Expert":86.1,"YouTube":83.8,"Reddit":82.5}' data-decision-tags='["budget","quiet","everyday"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":60},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":48},"quietUse":{"key":"quietUse","label":"Quiet use","score":71},"portability":{"key":"portability","label":"Portability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":48},"packability":{"key":"packability","label":"Packability","score":48},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":46},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":48},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"quietUse","label":"Quiet use","score":71},{"key":"value","label":"Price fit","score":60},{"key":"dailyVersatility","label":"Daily versatility","score":48}],"ownerSentimentSummary":"Strong room coverage. Attractive design.","expertSentimentSummary":"2 evidence items. Strongest signal: RTINGS category testing supports Blueair Blue Pure 211i Max as a serious air purifier option.","biggestStrength":"Strong room coverage","biggestComplaint":"Higher filter cost","confidenceLevel":"High","evidenceDepth":80,"recencyStrength":81,"decisionTags":["budget","quiet","everyday"]}' data-fit-profile="%7B%22id%22%3A%22blueair-blue-pure-211i-max%22%2C%22name%22%3A%22Blueair%20Blue%20Pure%20211i%20Max%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A84%2C%22publicScoreLabel%22%3A%2284%22%2C%22tag%22%3A%22Best%20large-room%20purifier%22%2C%22bestFor%22%3A%22Living%20rooms%20and%20larger%20spaces%20that%20need%20more%20airflow%22%2C%22avoidIf%22%3A%22You%20want%20the%20cheapest%20filter%20replacements.%22%2C%22biggestStrength%22%3A%22Strong%20room%20coverage%22%2C%22biggestComplaint%22%3A%22Higher%20filter%20cost%22%2C%22decisionTags%22%3A%5B%22budget%22%2C%22quiet%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A60%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A48%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A71%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A48%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A48%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A46%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A60%7D%2C%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%5D%2C%22ownerSentimentSummary%22%3A%22Strong%20room%20coverage.%20Attractive%20design.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20RTINGS%20category%20testing%20supports%20Blueair%20Blue%20Pure%20211i%20Max%20as%20a%20serious%20air%20purifier%20option.%22%2C%22biggestStrength%22%3A%22Strong%20room%20coverage%22%2C%22biggestComplaint%22%3A%22Higher%20filter%20cost%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A80%2C%22recencyStrength%22%3A81%2C%22decisionTags%22%3A%5B%22budget%22%2C%22quiet%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FBLUEAIR-Purifiers-HEPASilent-Allergies-Purifier%2Fdp%2FB0BN2MGV5H%3Fcrid%3D3U1LN572A7Y3%26dib%3DeyJ2IjoiMSJ9.EArUb18VwI8EaBKYnMi-O2Eo7bHN8mtOEg1O7QRiDcX46MrHO67X6hYmwc-_vxxX8YIXtaCqOkTcfhQ009FhQH6SSDyceMAwN0ITMewCvJGhvQTwUgtnRPYkh-4GnZ3hXWU5nSsxNcCTKD9GsagorBiiuu5EgbtZpETz6djVF-ot9uGBjxpUoYzmgf39uL833ISRyaMmza37-0158cmv86MS_n2bLrZFW5-uh3NPQ0Y.2saCyEVJQeGAkR00PlEX-nmwZ0WR9akt3WaYJVCMRZk%26dib_tag%3Dse%26keywords%3DBlueair%2BBlue%2BPure%2B211i%2BMax%26qid%3D1777570967%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dblueair%2Bblue%2Bpure%2B211i%2Bmax%252Caps%252C519%26sr%3D8-1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D02ea1ac71520de5a87e4307ebbc0f7aa%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="blueair-blue-pure-211i-max" data-product-name="Blueair Blue Pure 211i Max" data-default-score="84" data-editorial-rank="3" data-channel-scores='{"Expert":86.1,"YouTube":83.8,"Reddit":82.5}'>
               <div class="product-media product-media--lifestyle product-visual--air product-visual--box">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Blueair Blue Pure 211i Max, Best large-room purifier">
@@ -785,15 +760,18 @@
                 <div class="product-badge-row">
                   <span class="rank-badge">Rank <span data-rank>#3</span></span>
 
-                    <span class="decision-badge">Best Value</span>
-
                     <span class="decision-badge">Quiet Pick</span>
+
+                    <span class="decision-badge">Frequently Recommended</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Blueair Blue Pure 211i Max</h2>
                 <div class="tagline">Best large-room purifier</div>
                 <p class="product-verdict"><strong>Our take:</strong> Blueair Blue Pure 211i Max is the best large-room purifier for shoppers who want living rooms and larger spaces that need more airflow. It stands out for strong room coverage and attractive design.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$349 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Blueair Blue Pure 211i Max">
@@ -808,9 +786,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Blueair Blue Pure 211i Max">
-                  <strong>84</strong>
-                  <span>Evidence score · 8 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Blueair Blue Pure 211i Max">
+
+                    <strong>84</strong>
+                    <span>Evidence score · 7 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Blueair Blue Pure 211i Max">
@@ -822,17 +802,13 @@
                     <span>Avoid if</span>
                     <p>You want the cheapest filter replacements.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Higher filter cost</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Blueair Blue Pure 211i Max">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/BLUEAIR-Purifiers-HEPASilent-Allergies-Purifier/dp/B0BN2MGV5H?crid=3U1LN572A7Y3&amp;dib=eyJ2IjoiMSJ9.EArUb18VwI8EaBKYnMi-O2Eo7bHN8mtOEg1O7QRiDcX46MrHO67X6hYmwc-_vxxX8YIXtaCqOkTcfhQ009FhQH6SSDyceMAwN0ITMewCvJGhvQTwUgtnRPYkh-4GnZ3hXWU5nSsxNcCTKD9GsagorBiiuu5EgbtZpETz6djVF-ot9uGBjxpUoYzmgf39uL833ISRyaMmza37-0158cmv86MS_n2bLrZFW5-uh3NPQ0Y.2saCyEVJQeGAkR00PlEX-nmwZ0WR9akt3WaYJVCMRZk&amp;dib_tag=se&amp;keywords=Blueair+Blue+Pure+211i+Max&amp;qid=1777570967&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=blueair+blue+pure+211i+max%2Caps%2C519&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=02ea1ac71520de5a87e4307ebbc0f7aa&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Blueair Blue Pure 211i Max" data-product-rank="3" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/BLUEAIR-Purifiers-HEPASilent-Allergies-Purifier/dp/B0BN2MGV5H?crid=3U1LN572A7Y3&amp;dib=eyJ2IjoiMSJ9.EArUb18VwI8EaBKYnMi-O2Eo7bHN8mtOEg1O7QRiDcX46MrHO67X6hYmwc-_vxxX8YIXtaCqOkTcfhQ009FhQH6SSDyceMAwN0ITMewCvJGhvQTwUgtnRPYkh-4GnZ3hXWU5nSsxNcCTKD9GsagorBiiuu5EgbtZpETz6djVF-ot9uGBjxpUoYzmgf39uL833ISRyaMmza37-0158cmv86MS_n2bLrZFW5-uh3NPQ0Y.2saCyEVJQeGAkR00PlEX-nmwZ0WR9akt3WaYJVCMRZk&amp;dib_tag=se&amp;keywords=Blueair+Blue+Pure+211i+Max&amp;qid=1777570967&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=blueair+blue+pure+211i+max%2Caps%2C519&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=02ea1ac71520de5a87e4307ebbc0f7aa&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Blueair Blue Pure 211i Max" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Blueair Blue Pure 211i Max" data-product-rank="3" data-product-score="84" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -851,7 +827,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>86.1</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">RTINGS</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">RTINGS</a></div>
                                   </div>
 
                               </div>
@@ -860,7 +836,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>83.8</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=E1YGiWjOEsg" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Review - The Best Value Large Air Purifier?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">Consumer Analysis video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=E1YGiWjOEsg" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Review - The Best Value Large Air Purifier?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">Consumer Analysis video</a></div>
                                   </div>
 
                               </div>
@@ -869,7 +845,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>82.5</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1nw84bp/blueair_blue_pure_211i_max_a_good_option_for_our/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Blueair Blue Pure 211i Max a good option for our main living area?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1nw84bp/blueair_blue_pure_211i_max_a_good_option_for_our/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Blueair Blue Pure 211i Max a good option for our main living area?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
                                   </div>
 
                               </div>
@@ -877,8 +853,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Blueair Blue Pure 211i Max">
-                          <div><span>Proof base</span><strong>8 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>81/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>7 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -892,14 +868,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Expert review / Best evidence</span>
                                     <b>air purifier review context | RTINGS</b>
                                     <small>RTINGS - checked Apr 20, 2026</small>
                                     <em>RTINGS category testing supports Blueair Blue Pure 211i Max as a serious air purifier option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Expert review</span>
                                     <b>air purifier comparison | Tom&#39;s Guide</b>
                                     <small>Tom&#39;s Guide - checked Apr 20, 2026</small>
@@ -913,14 +889,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.youtube.com/watch?v=E1YGiWjOEsg" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Review - The Best Value Large Air Purifier?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.youtube.com/watch?v=E1YGiWjOEsg" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Review - The Best Value Large Air Purifier?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Video review / Best evidence</span>
                                     <b>Blue Pure 211i Max Review - The Best Value Large Air Purifier?</b>
                                     <small>Consumer Analysis - checked May 29, 2026</small>
                                     <em>Consumer Analysis video review: Blue Pure 211i Max Review - The Best Value Large Air Purifier?</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=FyL2aFWcpSM" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Air Purifier Review - Watch before ordering!" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=FyL2aFWcpSM" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Air Purifier Review - Watch before ordering!" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Blue Pure 211i Max Air Purifier Review - Watch before ordering!</b>
                                     <small>Spencer - checked May 29, 2026</small>
@@ -934,7 +910,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/moderatelygranolamoms/comments/1ql7zco/any_recommendations_for_a_good_air_purifier_for/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Any recommendations for a good air purifier for smoke at the moment?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.reddit.com/r/moderatelygranolamoms/comments/1ql7zco/any_recommendations_for_a_good_air_purifier_for/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Any recommendations for a good air purifier for smoke at the moment?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Any recommendations for a good air purifier for smoke at the moment?</b>
                                     <small>r/moderatelygranolamoms thread by EntrepreneurSad2091 - checked Apr 22, 2026</small>
@@ -956,7 +932,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=VaaV54F-Fhk" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Air Purifiers Review - After 8 Months Use! Still Good? Must Watch Before Buying!" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=VaaV54F-Fhk" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Blue Pure 211i Max Air Purifiers Review - After 8 Months Use! Still Good? Must Watch Before Buying!" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Blue Pure 211i Max Air Purifiers Review - After 8 Months Use! Still Good? Must Watch Before Buying!</b>
                                     <small>Gina&#39;s Family - checked May 29, 2026</small>
@@ -970,7 +946,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1nw84bp/blueair_blue_pure_211i_max_a_good_option_for_our/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Blueair Blue Pure 211i Max a good option for our main living area?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1nw84bp/blueair_blue_pure_211i_max_a_good_option_for_our/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Blueair Blue Pure 211i Max a good option for our main living area?" data-product-name="Blueair Blue Pure 211i Max" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Blueair Blue Pure 211i Max a good option for our main living area?</b>
                                     <small>r/AirPurifiers thread by Beth_33 - checked Apr 22, 2026</small>
@@ -987,7 +963,7 @@
               </div>
             </article>
 
-            <article class="product" id="winix-5500-2" data-product-name="Winix 5500-2" data-default-score="83" data-editorial-rank="4" data-channel-scores='{"Expert":83.1,"YouTube":83.4,"Reddit":83.3}' data-decision-tags='["performance","budget","premium","wide-fit","quiet","everyday"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":93},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":48},"quietUse":{"key":"quietUse","label":"Quiet use","score":60},"portability":{"key":"portability","label":"Portability","score":48},"durability":{"key":"durability","label":"Long-term build","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":71},"packability":{"key":"packability","label":"Packability","score":48},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":70},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":48},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"value","label":"Price fit","score":93},{"key":"premiumBuild","label":"Premium build","score":71},{"key":"airCleaning","label":"Air cleaning","score":70}],"ownerSentimentSummary":"Strong feature set for price. Good odor-control value.","expertSentimentSummary":"2 evidence items. Strongest signal: RTINGS category testing supports Winix 5500-2 as a serious air purifier option.","biggestStrength":"Strong feature set for price","biggestComplaint":"Older design","confidenceLevel":"High","evidenceDepth":84,"recencyStrength":82,"decisionTags":["performance","budget","premium","wide-fit","quiet","everyday"]}' data-fit-profile="%7B%22id%22%3A%22winix-5500-2%22%2C%22name%22%3A%22Winix%205500-2%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20budget%20odor-control%20pick%22%2C%22bestFor%22%3A%22Budget%20buyers%20who%20want%20HEPA%20filtration%20plus%20activated%20carbon%20value%22%2C%22avoidIf%22%3A%22You%20dislike%20ionizer%20features%20or%20want%20premium%20smart%20design.%22%2C%22biggestStrength%22%3A%22Strong%20feature%20set%20for%20price%22%2C%22biggestComplaint%22%3A%22Older%20design%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22budget%22%2C%22premium%22%2C%22wide-fit%22%2C%22quiet%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A48%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A60%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A48%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A48%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A70%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A93%7D%2C%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Strong%20feature%20set%20for%20price.%20Good%20odor-control%20value.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20RTINGS%20category%20testing%20supports%20Winix%205500-2%20as%20a%20serious%20air%20purifier%20option.%22%2C%22biggestStrength%22%3A%22Strong%20feature%20set%20for%20price%22%2C%22biggestComplaint%22%3A%22Older%20design%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A84%2C%22recencyStrength%22%3A82%2C%22decisionTags%22%3A%5B%22performance%22%2C%22budget%22%2C%22premium%22%2C%22wide-fit%22%2C%22quiet%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2F5510-Purifier-Generation-Deodorization-Allergies%2Fdp%2FB0DJG1731C%3Fcrid%3D32YXVXGVI2BF9%26dib%3DeyJ2IjoiMSJ9.KHgk7XAZjuR2qXi404gWWLh0mvpn5oLHOOvw7s-5JuTcyKKOv4jGHCvJQ2lLQXN-OkXYlGw076oSoh64OhaBZGvNhrXbwznZqXBl1Z5-_bwReK9krKr7C1lzBpptASIKAGW4jUkqNPW7ToYy3qNRZAMNFBXp1PnSlTvEQ4a1NzgH2VDPWoFSH7mVlm4lvUKDSSA2Go41PKBybkQ8aBfO4D5Ya7PcamTtvb3HhNOq4sw.9_0wGRmzZ3ka5W3Pq_sJ0Fmp3TKlOjKuW7AeyJOP8bA%26dib_tag%3Dse%26keywords%3DWinix%252B5500-2%26qid%3D1777571023%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dwinix%252B5500-2%252Caps%252C193%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Dadf141e886759efefbbc88b05c7cabe7%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="winix-5500-2" data-product-name="Winix 5500-2" data-default-score="83" data-editorial-rank="4" data-channel-scores='{"Expert":83.1,"YouTube":83.4,"Reddit":83.3}'>
               <div class="product-media product-media--lifestyle product-visual--air product-visual--cylinder">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Winix 5500-2, Best budget odor-control pick">
@@ -1003,13 +979,14 @@
 
                     <span class="decision-badge">Performance Pick</span>
 
-                    <span class="decision-badge">Quiet Pick</span>
-
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Winix 5500-2</h2>
                 <div class="tagline">Best budget odor-control pick</div>
                 <p class="product-verdict"><strong>Our take:</strong> Winix 5500-2 is the best budget odor-control pick for budget buyers buyers who need hepa filtration plus activated carbon value. It stands out for strong feature set for price and good odor-control value.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$160-$200 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Winix 5500-2">
@@ -1024,9 +1001,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Winix 5500-2">
-                  <strong>83</strong>
-                  <span>Evidence score · 9 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Winix 5500-2">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 8 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Winix 5500-2">
@@ -1038,17 +1017,13 @@
                     <span>Avoid if</span>
                     <p>You dislike ionizer features or want premium smart design.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Older design</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Winix 5500-2">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/5510-Purifier-Generation-Deodorization-Allergies/dp/B0DJG1731C?crid=32YXVXGVI2BF9&amp;dib=eyJ2IjoiMSJ9.KHgk7XAZjuR2qXi404gWWLh0mvpn5oLHOOvw7s-5JuTcyKKOv4jGHCvJQ2lLQXN-OkXYlGw076oSoh64OhaBZGvNhrXbwznZqXBl1Z5-_bwReK9krKr7C1lzBpptASIKAGW4jUkqNPW7ToYy3qNRZAMNFBXp1PnSlTvEQ4a1NzgH2VDPWoFSH7mVlm4lvUKDSSA2Go41PKBybkQ8aBfO4D5Ya7PcamTtvb3HhNOq4sw.9_0wGRmzZ3ka5W3Pq_sJ0Fmp3TKlOjKuW7AeyJOP8bA&amp;dib_tag=se&amp;keywords=Winix%2B5500-2&amp;qid=1777571023&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=winix%2B5500-2%2Caps%2C193&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=adf141e886759efefbbc88b05c7cabe7&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Winix 5500-2" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/5510-Purifier-Generation-Deodorization-Allergies/dp/B0DJG1731C?crid=32YXVXGVI2BF9&amp;dib=eyJ2IjoiMSJ9.KHgk7XAZjuR2qXi404gWWLh0mvpn5oLHOOvw7s-5JuTcyKKOv4jGHCvJQ2lLQXN-OkXYlGw076oSoh64OhaBZGvNhrXbwznZqXBl1Z5-_bwReK9krKr7C1lzBpptASIKAGW4jUkqNPW7ToYy3qNRZAMNFBXp1PnSlTvEQ4a1NzgH2VDPWoFSH7mVlm4lvUKDSSA2Go41PKBybkQ8aBfO4D5Ya7PcamTtvb3HhNOq4sw.9_0wGRmzZ3ka5W3Pq_sJ0Fmp3TKlOjKuW7AeyJOP8bA&amp;dib_tag=se&amp;keywords=Winix%2B5500-2&amp;qid=1777571023&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=winix%2B5500-2%2Caps%2C193&amp;sr=8-1-spons&amp;sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=adf141e886759efefbbc88b05c7cabe7&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Winix 5500-2" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Air Purifiers" data-section="Lifestyle" data-product-name="Winix 5500-2" data-product-rank="4" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -1067,7 +1042,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>83.1</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">RTINGS</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">RTINGS</a></div>
                                   </div>
 
                               </div>
@@ -1076,7 +1051,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>83.4</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=An1viLvI8Xw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Review" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">Consumer Analysis video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=An1viLvI8Xw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Review" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">Consumer Analysis video</a></div>
                                   </div>
 
                               </div>
@@ -1085,7 +1060,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>83.3</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1r5463x/winix_55002_class_action_lawsuit_alternatives/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Winix 5500-2- class action lawsuit- alternatives?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/AirPurifiers/comments/1r5463x/winix_55002_class_action_lawsuit_alternatives/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Winix 5500-2- class action lawsuit- alternatives?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">r/AirPurifiers thread</a></div>
                                   </div>
 
                               </div>
@@ -1093,8 +1068,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Winix 5500-2">
-                          <div><span>Proof base</span><strong>9 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>82/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>8 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -1108,14 +1083,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.rtings.com/air-purifier/reviews/best/air-purifiers" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier review context | RTINGS" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Expert review / Best evidence</span>
                                     <b>air purifier review context | RTINGS</b>
                                     <small>RTINGS - checked Apr 20, 2026</small>
                                     <em>RTINGS category testing supports Winix 5500-2 as a serious air purifier option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.tomsguide.com/best-picks/best-air-purifier" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="air purifier comparison | Tom&#39;s Guide" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Expert review</span>
                                     <b>air purifier comparison | Tom&#39;s Guide</b>
                                     <small>Tom&#39;s Guide - checked Apr 20, 2026</small>
@@ -1129,14 +1104,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.youtube.com/watch?v=An1viLvI8Xw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Review" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link best-source" href="https://www.youtube.com/watch?v=An1viLvI8Xw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Review" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Video review / Best evidence</span>
                                     <b>Winix 5500-2 Review</b>
                                     <small>Consumer Analysis - checked May 29, 2026</small>
                                     <em>Consumer Analysis video review: Winix 5500-2 Review</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=8QZB9-dm2hI" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Air Purifier: Can this $200 Machine Help You Breathe Better?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=8QZB9-dm2hI" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Air Purifier: Can this $200 Machine Help You Breathe Better?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Winix 5500-2 Air Purifier: Can this $200 Machine Help You Breathe Better?</b>
                                     <small>Reviewed - checked May 29, 2026</small>
@@ -1150,14 +1125,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/AirPurifiers/comments/1r5463x/winix_55002_class_action_lawsuit_alternatives/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Winix 5500-2- class action lawsuit- alternatives?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.reddit.com/r/AirPurifiers/comments/1r5463x/winix_55002_class_action_lawsuit_alternatives/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Winix 5500-2- class action lawsuit- alternatives?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Winix 5500-2- class action lawsuit- alternatives?</b>
                                     <small>r/AirPurifiers thread by googs185 - checked Apr 22, 2026</small>
                                     <em>r/AirPurifiers thread adds owner feedback around Winix 5500-2: Winix 5500-2- class action lawsuit- alternatives?.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/AirPurifiers/comments/1mss678/is_it_worth_getting_the_winix_55002_before_stock/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Is it worth getting the Winix 5500-2 before stock is unavailable?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link " href="https://www.reddit.com/r/AirPurifiers/comments/1mss678/is_it_worth_getting_the_winix_55002_before_stock/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Is it worth getting the Winix 5500-2 before stock is unavailable?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Is it worth getting the Winix 5500-2 before stock is unavailable?</b>
                                     <small>r/AirPurifiers thread by piercerson25 - checked Apr 22, 2026</small>
@@ -1179,7 +1154,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=2REsGL_5TEU" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Air Purifier Review 🔥 Is It Worth It in 2025?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=2REsGL_5TEU" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Winix 5500-2 Air Purifier Review 🔥 Is It Worth It in 2025?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Video review</span>
                                     <b>Winix 5500-2 Air Purifier Review 🔥 Is It Worth It in 2025?</b>
                                     <small>HouseFresh - checked May 29, 2026</small>
@@ -1193,7 +1168,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1o5p7kz/winix_55002_on_amazon_india/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Winix 5500-2 on amazon India?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
+                                  <a class="source-link" href="https://www.reddit.com/r/AirPurifiers/comments/1o5p7kz/winix_55002_on_amazon_india/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Winix 5500-2 on amazon India?" data-product-name="Winix 5500-2" data-guide="Best Air Purifiers">
                                     <span>Owner discussion</span>
                                     <b>Winix 5500-2 on amazon India?</b>
                                     <small>r/AirPurifiers thread by Realistic-Fix9766 - checked Apr 22, 2026</small>
@@ -1265,17 +1240,17 @@
             <h2 id="related-heading">Keep comparing in Lifestyle</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/lifestyle.html"><span>Back to Lifestyle</span><span>Category hub</span></a>
+              <a href="/lifestyle.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Lifestyle</span><span>Category hub</span></a>
 
-                <a href="/best-adjustable-dumbbells.html"><span>Best Adjustable Dumbbells</span><span>Buying guide</span></a>
+                <a href="/best-coffee-makers.html" data-guide-link data-guide-placement="roundup-related"><span>Best Coffee Makers</span><span>Buying guide</span></a>
 
-                <a href="/best-beard-trimmers.html"><span>Best Beard Trimmers</span><span>Buying guide</span></a>
+                <a href="/best-adjustable-dumbbells.html" data-guide-link data-guide-placement="roundup-related"><span>Best Adjustable Dumbbells</span><span>Buying guide</span></a>
 
-                <a href="/best-body-groomers-for-men.html"><span>Best Body Groomers for Men</span><span>Buying guide</span></a>
+                <a href="/best-carry-on-luggage.html" data-guide-link data-guide-placement="roundup-related"><span>Best Carry-On Luggage</span><span>Buying guide</span></a>
 
-                <a href="/best-carry-on-luggage.html"><span>Best Carry-On Luggage</span><span>Buying guide</span></a>
+                <a href="/best-beard-trimmers.html" data-guide-link data-guide-placement="roundup-related"><span>Best Beard Trimmers</span><span>Buying guide</span></a>
 
-                <a href="/best-coffee-makers.html"><span>Best Coffee Makers</span><span>Buying guide</span></a>
+                <a href="/best-body-groomers-for-men.html" data-guide-link data-guide-placement="roundup-related"><span>Best Body Groomers for Men</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1288,7 +1263,7 @@
             <p>Use these guides to understand the tradeoffs before you compare products: fit, features, durability, comfort, and the mistakes worth avoiding.</p>
             <div class="link-list">
 
-                <a href="/how-to-choose-air-purifier.html"><span>How to Choose an Air Purifier</span><span>How to choose</span></a>
+                <a href="/how-to-choose-air-purifier.html" data-guide-link data-guide-placement="roundup-supporting"><span>How to Choose an Air Purifier</span><span>How to choose</span></a>
 
             </div>
           </section>
@@ -1335,22 +1310,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

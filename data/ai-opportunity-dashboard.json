@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T17:29:15.549Z",
+  "generatedAt": "2026-09-08T19:06:56.578Z",
   "searchPerformance": {
     "imported_at": "2026-09-05T18:52:19.613Z",
     "files": {
@@ -77,25 +77,63 @@
     "productPlacements": 218,
     "uniqueProducts": 176,
     "readyAffiliateProducts": 218,
-    "productsMissingExpert": 0,
+    "productsMissingExpert": 22,
     "productsMissingYouTube": 10,
-    "productsMissingReddit": 37,
-    "highPriorityTasks": 20
+    "productsMissingReddit": 48,
+    "highPriorityTasks": 30
   },
   "topPages": [
+    {
+      "page": "best-monitor-arms",
+      "title": "Best Monitor Arms",
+      "section": "remote-work",
+      "dataSource": "core",
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "productCount": 4,
+      "sourceGapTotal": 8,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 7.8,
+      "contentMaintenanceScore": 35,
+      "searchSignal": {
+        "primaryQuery": "best monitor arms",
+        "impressions": 293,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 24.55,
+        "topQueries": [
+          {
+            "query": "best monitor arms",
+            "clicks": 0,
+            "impressions": 89,
+            "ctr": 0,
+            "position": 28.07,
+            "match_score": 1
+          }
+        ]
+      },
+      "searchOpportunityScore": 63,
+      "opportunityScore": 224,
+      "recommendedActions": [
+        "Prioritize this page: it already has meaningful impressions within striking distance of page one.",
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
     {
       "page": "best-running-headphones",
       "title": "Best Running Headphones",
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 12.5,
-      "contentMaintenanceScore": 0,
+      "contentMaintenanceScore": 2,
       "searchSignal": {
         "primaryQuery": "best running headphones",
         "impressions": 2844,
@@ -170,47 +208,10 @@
         ]
       },
       "searchOpportunityScore": 71,
-      "opportunityScore": 213,
-      "recommendedActions": [
-        "Prioritize this page: it already has meaningful impressions within striking distance of page one."
-      ]
-    },
-    {
-      "page": "best-monitor-arms",
-      "title": "Best Monitor Arms",
-      "section": "remote-work",
-      "dataSource": "core",
-      "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
-      "productCount": 4,
-      "sourceGapTotal": 3,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 2,
-      "averageEvidenceCount": 7.8,
-      "contentMaintenanceScore": 17,
-      "searchSignal": {
-        "primaryQuery": "best monitor arms",
-        "impressions": 293,
-        "clicks": 0,
-        "ctr": 0,
-        "position": 24.55,
-        "topQueries": [
-          {
-            "query": "best monitor arms",
-            "clicks": 0,
-            "impressions": 89,
-            "ctr": 0,
-            "position": 28.07,
-            "match_score": 1
-          }
-        ]
-      },
-      "searchOpportunityScore": 63,
-      "opportunityScore": 206,
+      "opportunityScore": 215,
       "recommendedActions": [
         "Prioritize this page: it already has meaningful impressions within striking distance of page one.",
-        "Run source curation on the highest-gap products.",
-        "Refresh intro, product availability, and changed-model notes."
+        "Run source curation on the highest-gap products."
       ]
     },
     {
@@ -219,7 +220,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 5,
       "sourceGapTotal": 8,
       "affiliateIssues": 0,
@@ -281,13 +282,13 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 4.3,
-      "contentMaintenanceScore": 34,
+      "contentMaintenanceScore": 36,
       "searchSignal": {
         "primaryQuery": "best walking pads",
         "impressions": 72,
@@ -322,7 +323,7 @@
         ]
       },
       "searchOpportunityScore": 50,
-      "opportunityScore": 194,
+      "opportunityScore": 196,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
@@ -334,7 +335,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -429,7 +430,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 5,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -457,7 +458,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -503,7 +504,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -556,7 +557,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -584,7 +585,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -678,7 +679,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -747,7 +748,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 5,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -779,12 +780,199 @@
       ]
     },
     {
+      "page": "best-commuter-backpacks-for-men",
+      "title": "Best Commuter Backpacks for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 127,
+      "productCount": 4,
+      "sourceGapTotal": 6,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 0,
+      "averageEvidenceCount": 4.5,
+      "contentMaintenanceScore": 34,
+      "searchSignal": {
+        "primaryQuery": "best commuter backpacks",
+        "impressions": 788,
+        "clicks": 1,
+        "ctr": 0.0013,
+        "position": 55.82,
+        "topQueries": [
+          {
+            "query": "best commuter backpacks",
+            "clicks": 0,
+            "impressions": 43,
+            "ctr": 0,
+            "position": 50.7,
+            "match_score": 0.873
+          },
+          {
+            "query": "commuter backpacks",
+            "clicks": 0,
+            "impressions": 31,
+            "ctr": 0,
+            "position": 51.32,
+            "match_score": 0.873
+          },
+          {
+            "query": "top commuter backpacks",
+            "clicks": 0,
+            "impressions": 22,
+            "ctr": 0,
+            "position": 64.23,
+            "match_score": 0.667
+          },
+          {
+            "query": "best commuter backpack men",
+            "clicks": 0,
+            "impressions": 17,
+            "ctr": 0,
+            "position": 56.82,
+            "match_score": 0.667
+          },
+          {
+            "query": "best commuter backpack for men",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr": 0,
+            "position": 71.5,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpack men",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 58.22,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpack for men",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 54.83,
+            "match_score": 0.667
+          },
+          {
+            "query": "commuter backpacks for men",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 65.75,
+            "match_score": 1
+          }
+        ]
+      },
+      "searchOpportunityScore": 41,
+      "opportunityScore": 167,
+      "recommendedActions": [
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles",
+      "title": "Best Trail Shoes for 100 Miles",
+      "section": "outdoor",
+      "dataSource": "core",
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
+      "productCount": 4,
+      "sourceGapTotal": 3,
+      "affiliateIssues": 0,
+      "sourceCompleteProducts": 2,
+      "averageEvidenceCount": 11,
+      "contentMaintenanceScore": 19,
+      "searchSignal": {
+        "primaryQuery": "best womens trail shoes",
+        "impressions": 51,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 26.45,
+        "topQueries": [
+          {
+            "query": "best womens trail shoes",
+            "clicks": 0,
+            "impressions": 216,
+            "ctr": 0,
+            "position": 47.41,
+            "match_score": 0.603
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.603
+          },
+          {
+            "query": "technical trail shoes",
+            "clicks": 0,
+            "impressions": 26,
+            "ctr": 0,
+            "position": 58.62,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes women",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 50.78,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes for beginners",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 48.33,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes for mud",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 52.5,
+            "match_score": 0.603
+          }
+        ]
+      },
+      "searchOpportunityScore": 49,
+      "opportunityScore": 166,
+      "recommendedActions": [
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
+      ]
+    },
+    {
       "page": "best-portable-monitors-for-remote-work",
       "title": "Best Portable Monitors for Remote Work",
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -874,112 +1062,18 @@
       ]
     },
     {
-      "page": "best-commuter-backpacks-for-men",
-      "title": "Best Commuter Backpacks for Men",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
-      "productCount": 4,
-      "sourceGapTotal": 6,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.5,
-      "contentMaintenanceScore": 32,
-      "searchSignal": {
-        "primaryQuery": "best commuter backpacks",
-        "impressions": 788,
-        "clicks": 1,
-        "ctr": 0.0013,
-        "position": 55.82,
-        "topQueries": [
-          {
-            "query": "best commuter backpacks",
-            "clicks": 0,
-            "impressions": 43,
-            "ctr": 0,
-            "position": 50.7,
-            "match_score": 0.873
-          },
-          {
-            "query": "commuter backpacks",
-            "clicks": 0,
-            "impressions": 31,
-            "ctr": 0,
-            "position": 51.32,
-            "match_score": 0.873
-          },
-          {
-            "query": "top commuter backpacks",
-            "clicks": 0,
-            "impressions": 22,
-            "ctr": 0,
-            "position": 64.23,
-            "match_score": 0.667
-          },
-          {
-            "query": "best commuter backpack men",
-            "clicks": 0,
-            "impressions": 17,
-            "ctr": 0,
-            "position": 56.82,
-            "match_score": 0.667
-          },
-          {
-            "query": "best commuter backpack for men",
-            "clicks": 0,
-            "impressions": 14,
-            "ctr": 0,
-            "position": 71.5,
-            "match_score": 0.667
-          },
-          {
-            "query": "commuter backpack men",
-            "clicks": 0,
-            "impressions": 9,
-            "ctr": 0,
-            "position": 58.22,
-            "match_score": 0.667
-          },
-          {
-            "query": "commuter backpack for men",
-            "clicks": 0,
-            "impressions": 6,
-            "ctr": 0,
-            "position": 54.83,
-            "match_score": 0.667
-          },
-          {
-            "query": "commuter backpacks for men",
-            "clicks": 0,
-            "impressions": 4,
-            "ctr": 0,
-            "position": 65.75,
-            "match_score": 1
-          }
-        ]
-      },
-      "searchOpportunityScore": 41,
-      "opportunityScore": 165,
-      "recommendedActions": [
-        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
-        "Run source curation on the highest-gap products.",
-        "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
       "page": "best-massage-guns",
       "title": "Best Massage Guns",
       "section": "lifestyle",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 1,
+      "sourceGapTotal": 2,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 3,
+      "sourceCompleteProducts": 2,
       "averageEvidenceCount": 11,
-      "contentMaintenanceScore": 14,
+      "contentMaintenanceScore": 15,
       "searchSignal": {
         "primaryQuery": "massage guns review",
         "impressions": 85,
@@ -998,103 +1092,104 @@
         ]
       },
       "searchOpportunityScore": 50,
-      "opportunityScore": 164,
+      "opportunityScore": 165,
       "recommendedActions": [
         "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
-      "page": "best-running-belts",
-      "title": "Best Running Belts",
+      "page": "best-trail-shoes-for-wide-feet",
+      "title": "Best Trail Shoes for Wide Feet",
       "section": "outdoor",
-      "dataSource": "revenue",
-      "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "dataSource": "core",
+      "updated": "April 21, 2026",
+      "daysSinceUpdated": 141,
       "productCount": 4,
-      "sourceGapTotal": 7,
+      "sourceGapTotal": 4,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 0,
-      "averageEvidenceCount": 4.3,
+      "sourceCompleteProducts": 1,
+      "averageEvidenceCount": 10.8,
       "contentMaintenanceScore": 22,
       "searchSignal": {
-        "primaryQuery": "best running belts",
-        "impressions": 1248,
-        "clicks": 1,
-        "ctr": 0.0008,
-        "position": 56.34,
+        "primaryQuery": "best womens trail shoes",
+        "impressions": 421,
+        "clicks": 0,
+        "ctr": 0,
+        "position": 45.96,
         "topQueries": [
           {
-            "query": "best running belts",
+            "query": "best womens trail shoes",
             "clicks": 0,
-            "impressions": 165,
+            "impressions": 216,
             "ctr": 0,
-            "position": 54.75,
+            "position": 47.41,
+            "match_score": 0.603
+          },
+          {
+            "query": "womens trail shoes reviews",
+            "clicks": 0,
+            "impressions": 166,
+            "ctr": 0,
+            "position": 53.13,
+            "match_score": 0.603
+          },
+          {
+            "query": "trail shoes women reviews",
+            "clicks": 0,
+            "impressions": 163,
+            "ctr": 0,
+            "position": 52.75,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail shoes for women",
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 71.05,
+            "match_score": 0.603
+          },
+          {
+            "query": "best trail running shoes for wide feet",
+            "clicks": 0,
+            "impressions": 121,
+            "ctr": 0,
+            "position": 47.27,
+            "match_score": 0.876
+          },
+          {
+            "query": "best trail shoes for wide feet",
+            "clicks": 0,
+            "impressions": 117,
+            "ctr": 0,
+            "position": 49.81,
             "match_score": 1
           },
           {
-            "query": "running belts",
+            "query": "best wide trail running shoes",
             "clicks": 0,
-            "impressions": 54,
+            "impressions": 48,
             "ctr": 0,
-            "position": 65.78,
-            "match_score": 1
+            "position": 49.94,
+            "match_score": 0.75
           },
           {
-            "query": "top rated running belts",
+            "query": "trail running shoes for wide feet",
             "clicks": 0,
-            "impressions": 24,
+            "impressions": 33,
             "ctr": 0,
-            "position": 55.25,
-            "match_score": 0.69
-          },
-          {
-            "query": "are running belts good",
-            "clicks": 0,
-            "impressions": 18,
-            "ctr": 0,
-            "position": 56.39,
-            "match_score": 0.793
-          },
-          {
-            "query": "best hydration belts for running",
-            "clicks": 0,
-            "impressions": 13,
-            "ctr": 0,
-            "position": 68.46,
-            "match_score": 0.793
-          },
-          {
-            "query": "best running belts and waistpacks",
-            "clicks": 0,
-            "impressions": 12,
-            "ctr": 0,
-            "position": 49.25,
-            "match_score": 0.793
-          },
-          {
-            "query": "best marathon running belts",
-            "clicks": 0,
-            "impressions": 6,
-            "ctr": 0,
-            "position": 58.83,
-            "match_score": 0.793
-          },
-          {
-            "query": "best running belts for marathon",
-            "clicks": 0,
-            "impressions": 5,
-            "ctr": 0,
-            "position": 62.6,
-            "match_score": 0.793
+            "position": 48.3,
+            "match_score": 0.876
           }
         ]
       },
-      "searchOpportunityScore": 43,
-      "opportunityScore": 161,
+      "searchOpportunityScore": 47,
+      "opportunityScore": 163,
       "recommendedActions": [
         "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
-        "Run source curation on the highest-gap products."
+        "Run source curation on the highest-gap products.",
+        "Refresh intro, product availability, and changed-model notes."
       ]
     },
     {
@@ -1103,13 +1198,13 @@
       "section": "lifestyle",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 11,
-      "contentMaintenanceScore": 10,
+      "contentMaintenanceScore": 12,
       "searchSignal": {
         "primaryQuery": "best air purifiers",
         "impressions": 68,
@@ -1119,101 +1214,10 @@
         "topQueries": []
       },
       "searchOpportunityScore": 50,
-      "opportunityScore": 160,
+      "opportunityScore": 162,
       "recommendedActions": [
+        "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
-      ]
-    },
-    {
-      "page": "best-womens-trail-running-shoes",
-      "title": "Best Women's Trail Running Shoes",
-      "section": "outdoor",
-      "dataSource": "core",
-      "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
-      "productCount": 4,
-      "sourceGapTotal": 0,
-      "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
-      "averageEvidenceCount": 13.8,
-      "contentMaintenanceScore": 0,
-      "searchSignal": {
-        "primaryQuery": "best women's trail running shoes",
-        "impressions": 2573,
-        "clicks": 0,
-        "ctr": 0,
-        "position": 57.62,
-        "topQueries": [
-          {
-            "query": "best women's trail running shoes",
-            "clicks": 0,
-            "impressions": 385,
-            "ctr": 0,
-            "position": 58.27,
-            "match_score": 0.937
-          },
-          {
-            "query": "best trail running shoes women",
-            "clicks": 0,
-            "impressions": 242,
-            "ctr": 0,
-            "position": 64.92,
-            "match_score": 0.873
-          },
-          {
-            "query": "best trail running shoes for women",
-            "clicks": 0,
-            "impressions": 221,
-            "ctr": 0,
-            "position": 66.14,
-            "match_score": 0.873
-          },
-          {
-            "query": "best womens trail shoes",
-            "clicks": 0,
-            "impressions": 216,
-            "ctr": 0,
-            "position": 47.41,
-            "match_score": 0.81
-          },
-          {
-            "query": "womens trail shoes reviews",
-            "clicks": 0,
-            "impressions": 166,
-            "ctr": 0,
-            "position": 53.13,
-            "match_score": 0.81
-          },
-          {
-            "query": "trail shoes women reviews",
-            "clicks": 0,
-            "impressions": 163,
-            "ctr": 0,
-            "position": 52.75,
-            "match_score": 0.81
-          },
-          {
-            "query": "best trail shoes for women",
-            "clicks": 0,
-            "impressions": 155,
-            "ctr": 0,
-            "position": 71.05,
-            "match_score": 0.81
-          },
-          {
-            "query": "best women's trail runners",
-            "clicks": 0,
-            "impressions": 151,
-            "ctr": 0,
-            "position": 44.6,
-            "match_score": 0.655
-          }
-        ]
-      },
-      "searchOpportunityScore": 53,
-      "opportunityScore": 159,
-      "recommendedActions": [
-        "Improve the title, opening answer, internal links, and original evidence for this visible search page."
       ]
     }
   ],
@@ -1224,13 +1228,13 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 12.5,
-      "contentMaintenanceScore": 0,
+      "contentMaintenanceScore": 2,
       "searchSignal": {
         "primaryQuery": "best running headphones",
         "impressions": 2844,
@@ -1305,9 +1309,10 @@
         ]
       },
       "searchOpportunityScore": 71,
-      "opportunityScore": 213,
+      "opportunityScore": 215,
       "recommendedActions": [
-        "Prioritize this page: it already has meaningful impressions within striking distance of page one."
+        "Prioritize this page: it already has meaningful impressions within striking distance of page one.",
+        "Run source curation on the highest-gap products."
       ]
     },
     {
@@ -1316,7 +1321,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1408,13 +1413,13 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 11,
-      "contentMaintenanceScore": 0,
+      "contentMaintenanceScore": 4,
       "searchSignal": {
         "primaryQuery": "best ergonomic keyboards",
         "impressions": 1412,
@@ -1489,9 +1494,10 @@
         ]
       },
       "searchOpportunityScore": 51,
-      "opportunityScore": 153,
+      "opportunityScore": 157,
       "recommendedActions": [
-        "Improve the title, opening answer, internal links, and original evidence for this visible search page."
+        "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products."
       ]
     },
     {
@@ -1500,7 +1506,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -1593,7 +1599,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "September 5, 2026",
-      "daysSinceUpdated": 3,
+      "daysSinceUpdated": 4,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -1685,13 +1691,13 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
       "sourceCompleteProducts": 0,
       "averageEvidenceCount": 4.5,
-      "contentMaintenanceScore": 32,
+      "contentMaintenanceScore": 34,
       "searchSignal": {
         "primaryQuery": "best commuter backpacks",
         "impressions": 788,
@@ -1766,7 +1772,7 @@
         ]
       },
       "searchOpportunityScore": 41,
-      "opportunityScore": 165,
+      "opportunityScore": 167,
       "recommendedActions": [
         "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
         "Run source curation on the highest-gap products.",
@@ -1779,7 +1785,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -1874,13 +1880,13 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 1,
+      "sourceGapTotal": 2,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 3,
+      "sourceCompleteProducts": 2,
       "averageEvidenceCount": 9,
-      "contentMaintenanceScore": 12,
+      "contentMaintenanceScore": 13,
       "searchSignal": {
         "primaryQuery": "trail running poles",
         "impressions": 557,
@@ -1955,7 +1961,7 @@
         ]
       },
       "searchOpportunityScore": 30,
-      "opportunityScore": 102,
+      "opportunityScore": 103,
       "recommendedActions": [
         "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
         "Run source curation on the highest-gap products.",
@@ -1968,7 +1974,7 @@
       "section": "outdoor",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -2014,13 +2020,13 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "productCount": 4,
-      "sourceGapTotal": 1,
+      "sourceGapTotal": 4,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 3,
+      "sourceCompleteProducts": 1,
       "averageEvidenceCount": 10.8,
-      "contentMaintenanceScore": 12,
+      "contentMaintenanceScore": 22,
       "searchSignal": {
         "primaryQuery": "best womens trail shoes",
         "impressions": 421,
@@ -2095,7 +2101,7 @@
         ]
       },
       "searchOpportunityScore": 47,
-      "opportunityScore": 153,
+      "opportunityScore": 163,
       "recommendedActions": [
         "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
         "Run source curation on the highest-gap products.",
@@ -2108,7 +2114,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
       "sourceGapTotal": 2,
       "affiliateIssues": 0,
@@ -2202,7 +2208,7 @@
       "section": "outdoor",
       "dataSource": "additions",
       "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
+      "daysSinceUpdated": 138,
       "productCount": 5,
       "sourceGapTotal": 10,
       "affiliateIssues": 0,
@@ -2280,13 +2286,13 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 3,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 1,
       "averageEvidenceCount": 12,
-      "contentMaintenanceScore": 10,
+      "contentMaintenanceScore": 17,
       "searchSignal": {
         "primaryQuery": "best monitors for remote work",
         "impressions": 342,
@@ -2353,9 +2359,10 @@
         ]
       },
       "searchOpportunityScore": 46,
-      "opportunityScore": 148,
+      "opportunityScore": 155,
       "recommendedActions": [
         "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -2365,13 +2372,13 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 11.8,
-      "contentMaintenanceScore": 10,
+      "contentMaintenanceScore": 12,
       "searchSignal": {
         "primaryQuery": "recovery sandals",
         "impressions": 308,
@@ -2446,9 +2453,10 @@
         ]
       },
       "searchOpportunityScore": 46,
-      "opportunityScore": 148,
+      "opportunityScore": 150,
       "recommendedActions": [
         "Improve the title, opening answer, internal links, and original evidence for this visible search page.",
+        "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -2458,7 +2466,7 @@
       "section": "remote-work",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 7,
       "affiliateIssues": 0,
@@ -2553,13 +2561,13 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 3,
+      "sourceGapTotal": 8,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 2,
+      "sourceCompleteProducts": 0,
       "averageEvidenceCount": 7.8,
-      "contentMaintenanceScore": 17,
+      "contentMaintenanceScore": 35,
       "searchSignal": {
         "primaryQuery": "best monitor arms",
         "impressions": 293,
@@ -2578,7 +2586,7 @@
         ]
       },
       "searchOpportunityScore": 63,
-      "opportunityScore": 206,
+      "opportunityScore": 224,
       "recommendedActions": [
         "Prioritize this page: it already has meaningful impressions within striking distance of page one.",
         "Run source curation on the highest-gap products.",
@@ -2591,7 +2599,7 @@
       "section": "lifestyle",
       "dataSource": "revenue",
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "productCount": 4,
       "sourceGapTotal": 6,
       "affiliateIssues": 0,
@@ -2685,13 +2693,13 @@
       "section": "remote-work",
       "dataSource": "core",
       "updated": "April 20, 2026",
-      "daysSinceUpdated": 141,
+      "daysSinceUpdated": 142,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 11.3,
-      "contentMaintenanceScore": 10,
+      "contentMaintenanceScore": 12,
       "searchSignal": {
         "primaryQuery": "best-rated standing desks on review sites",
         "impressions": 221,
@@ -2718,8 +2726,9 @@
         ]
       },
       "searchOpportunityScore": 37,
-      "opportunityScore": 121,
+      "opportunityScore": 123,
       "recommendedActions": [
+        "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     },
@@ -2729,7 +2738,7 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "productCount": 4,
       "sourceGapTotal": 0,
       "affiliateIssues": 0,
@@ -2821,13 +2830,13 @@
       "section": "outdoor",
       "dataSource": "core",
       "updated": "April 21, 2026",
-      "daysSinceUpdated": 140,
+      "daysSinceUpdated": 141,
       "productCount": 4,
-      "sourceGapTotal": 0,
+      "sourceGapTotal": 1,
       "affiliateIssues": 0,
-      "sourceCompleteProducts": 4,
+      "sourceCompleteProducts": 3,
       "averageEvidenceCount": 13,
-      "contentMaintenanceScore": 10,
+      "contentMaintenanceScore": 14,
       "searchSignal": {
         "primaryQuery": "best womens trail shoes",
         "impressions": 211,
@@ -2902,8 +2911,9 @@
         ]
       },
       "searchOpportunityScore": 45,
-      "opportunityScore": 145,
+      "opportunityScore": 149,
       "recommendedActions": [
+        "Run source curation on the highest-gap products.",
         "Refresh intro, product availability, and changed-model notes."
       ]
     }
@@ -2934,7 +2944,7 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -2967,12 +2977,47 @@
       ],
       "thinChannels": [],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 52,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Find one exact owner discussion thread.",
         "Raise public evidence depth to at least four useful sources."
+      ]
+    },
+    {
+      "id": "best-monitor-arms::Herman Miller Flo Monitor Arm",
+      "product": "Herman Miller Flo Monitor Arm",
+      "page": "best-monitor-arms",
+      "pageTitle": "Best Monitor Arms",
+      "section": "remote-work",
+      "dataSource": "core",
+      "rank": null,
+      "tag": "Best premium design",
+      "bestFor": "Design-led workspaces that want a refined arm with smooth movement",
+      "avoidIf": "You want value pricing or heavy-monitor support above its range.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Herman%20Miller%20Flo%20Monitor%20Arm",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 0,
+        "youtube": 1,
+        "reddit": 2,
+        "total": 5
+      },
+      "missingChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "thinChannels": [
+        "YouTube"
+      ],
+      "updated": "April 20, 2026",
+      "daysSinceUpdated": 142,
+      "opportunityScore": 46,
+      "recommendedActions": [
+        "Find one exact hands-on expert review.",
+        "Add another exact YouTube review or comparison video.",
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -3001,7 +3046,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3035,7 +3080,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3069,7 +3114,7 @@
         "YouTube"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add another exact YouTube review or comparison video.",
@@ -3104,7 +3149,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3139,7 +3184,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3174,7 +3219,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3209,7 +3254,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3244,7 +3289,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3279,13 +3324,49 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 44,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
         "Raise public evidence depth to at least four useful sources.",
         "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-electrolyte-mixes-for-ultrarunning::Precision Hydration PH 1000",
+      "product": "Precision Hydration PH 1000",
+      "page": "best-electrolyte-mixes-for-ultrarunning",
+      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
+      "section": "outdoor",
+      "dataSource": "additions",
+      "rank": null,
+      "tag": "Best measured sodium packet",
+      "bestFor": "Runners who want a clear sodium target and plan carbs separately.",
+      "avoidIf": "You prefer one bottle that handles both calories and electrolytes.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Precision%20Hydration%20PH%201000",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 0,
+        "reddit": 2,
+        "total": 3
+      },
+      "missingChannels": [
+        "YouTube"
+      ],
+      "thinChannels": [
+        "Expert",
+        "Reddit"
+      ],
+      "updated": "April 24, 2026",
+      "daysSinceUpdated": 138,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find an exact YouTube review with visible product use.",
+        "Add another owner discussion, ideally with long-term use or fit complaints.",
+        "Raise public evidence depth to at least four useful sources."
       ]
     },
     {
@@ -3314,7 +3395,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3347,7 +3428,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3381,12 +3462,78 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
         "Find one exact owner discussion thread.",
         "Keep non-expert evidence visible while preserving expert-only scoring."
+      ]
+    },
+    {
+      "id": "best-commuter-backpacks-for-men::Osprey Nebula 32",
+      "product": "Osprey Nebula 32",
+      "page": "best-commuter-backpacks-for-men",
+      "pageTitle": "Best Commuter Backpacks for Men",
+      "section": "lifestyle",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best comfort value",
+      "bestFor": "Commuters who carry more gear and want backpack comfort over sleek office minimalism.",
+      "avoidIf": "You want a slim, executive-looking tech bag.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Osprey%20Nebula%2032",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 127,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread."
+      ]
+    },
+    {
+      "id": "best-running-socks-for-long-runs::Swiftwick Flite XT Trail Mid-Crew",
+      "product": "Swiftwick Flite XT Trail Mid-Crew",
+      "page": "best-running-socks-for-long-runs",
+      "pageTitle": "Best Running Socks for Long Runs",
+      "section": "outdoor",
+      "dataSource": "revenue",
+      "rank": null,
+      "tag": "Best secure long-run sock",
+      "bestFor": "Runners who want a locked-in sock for long road or trail efforts where slipping and bunching become problems.",
+      "avoidIf": "You prefer an ultrathin sock or dislike a more compressive fit around the arch and midfoot.",
+      "affiliateUrl": "https://www.amazon.com/s?k=Swiftwick%20Flite%20XT%20Trail%20Mid-Crew",
+      "affiliateStatus": "ready",
+      "evidenceCounts": {
+        "expert": 1,
+        "youtube": 2,
+        "reddit": 1,
+        "total": 4
+      },
+      "missingChannels": [
+        "Reddit"
+      ],
+      "thinChannels": [
+        "Expert"
+      ],
+      "updated": "May 5, 2026",
+      "daysSinceUpdated": 127,
+      "opportunityScore": 42,
+      "recommendedActions": [
+        "Add a second expert source to support the recommendation.",
+        "Find one exact owner discussion thread."
       ]
     },
     {
@@ -3415,7 +3562,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3450,7 +3597,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3484,7 +3631,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3518,7 +3665,7 @@
         "Expert"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Add a second expert source to support the recommendation.",
@@ -3552,7 +3699,7 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
@@ -3586,136 +3733,11 @@
         "Reddit"
       ],
       "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
+      "daysSinceUpdated": 127,
       "opportunityScore": 42,
       "recommendedActions": [
         "Find an exact YouTube review with visible product use.",
         "Add another owner discussion, ideally with long-term use or fit complaints."
-      ]
-    },
-    {
-      "id": "best-electrolyte-mixes-for-ultrarunning::Precision Hydration PH 1000",
-      "product": "Precision Hydration PH 1000",
-      "page": "best-electrolyte-mixes-for-ultrarunning",
-      "pageTitle": "Best Electrolyte Mixes for Ultrarunning",
-      "section": "outdoor",
-      "dataSource": "additions",
-      "rank": null,
-      "tag": "Best measured sodium packet",
-      "bestFor": "Runners who want a clear sodium target and plan carbs separately.",
-      "avoidIf": "You prefer one bottle that handles both calories and electrolytes.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Precision%20Hydration%20PH%201000",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 1,
-        "youtube": 0,
-        "reddit": 2,
-        "total": 3
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [
-        "Expert"
-      ],
-      "updated": "April 24, 2026",
-      "daysSinceUpdated": 137,
-      "opportunityScore": 36,
-      "recommendedActions": [
-        "Add a second expert source to support the recommendation.",
-        "Find an exact YouTube review with visible product use.",
-        "Raise public evidence depth to at least four useful sources."
-      ]
-    },
-    {
-      "id": "best-walking-pads::DeerRun Q1 Mini",
-      "product": "DeerRun Q1 Mini",
-      "page": "best-walking-pads",
-      "pageTitle": "Best Walking Pads",
-      "section": "remote-work",
-      "dataSource": "revenue",
-      "rank": null,
-      "tag": "Best budget walking pad for most desks",
-      "bestFor": "Remote workers who want a compact, affordable pad for low-speed walking during calls and focus blocks.",
-      "avoidIf": "You need a wide running-style belt, heavy-duty daily mileage, or premium warranty support.",
-      "affiliateUrl": "https://www.amazon.com/s?k=DeerRun%20Q1%20Mini%20walking%20pad",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 2,
-        "reddit": 0,
-        "total": 4
-      },
-      "missingChannels": [
-        "Reddit"
-      ],
-      "thinChannels": [],
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
-      "opportunityScore": 36,
-      "recommendedActions": [
-        "Find one exact owner discussion thread."
-      ]
-    },
-    {
-      "id": "best-beard-trimmers::Braun All-in-One Series 9",
-      "product": "Braun All-in-One Series 9",
-      "page": "best-beard-trimmers",
-      "pageTitle": "Best Beard Trimmers",
-      "section": "lifestyle",
-      "dataSource": "revenue",
-      "rank": null,
-      "tag": "Best premium Braun kit",
-      "bestFor": "Men who want a premium all-in-one grooming kit from Braun with beard, body, and detail options.",
-      "avoidIf": "You prefer Philips' Multigroom ecosystem or want a simpler dedicated beard trimmer.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Braun%20All-in-One%20Series%209%20Trimmer",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 2,
-        "reddit": 0,
-        "total": 4
-      },
-      "missingChannels": [
-        "Reddit"
-      ],
-      "thinChannels": [],
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
-      "opportunityScore": 36,
-      "recommendedActions": [
-        "Find one exact owner discussion thread.",
-        "Keep non-expert evidence visible while preserving expert-only scoring."
-      ]
-    },
-    {
-      "id": "best-running-socks-for-long-runs::Drymax Extra Protection Hot Weather 1/4 Crew",
-      "product": "Drymax Extra Protection Hot Weather 1/4 Crew",
-      "page": "best-running-socks-for-long-runs",
-      "pageTitle": "Best Running Socks for Long Runs",
-      "section": "outdoor",
-      "dataSource": "revenue",
-      "rank": null,
-      "tag": "Best for hot long runs",
-      "bestFor": "Runners whose feet overheat or blister when sweat builds up in summer training.",
-      "avoidIf": "You want plush cushion or prefer soft merino-style comfort over a technical synthetic feel.",
-      "affiliateUrl": "https://www.amazon.com/s?k=Drymax%20Extra%20Protection%20Hot%20Weather%20Running%20Socks",
-      "affiliateStatus": "ready",
-      "evidenceCounts": {
-        "expert": 2,
-        "youtube": 0,
-        "reddit": 2,
-        "total": 4
-      },
-      "missingChannels": [
-        "YouTube"
-      ],
-      "thinChannels": [],
-      "updated": "May 5, 2026",
-      "daysSinceUpdated": 126,
-      "opportunityScore": 36,
-      "recommendedActions": [
-        "Find an exact YouTube review with visible product use."
       ]
     }
   ],

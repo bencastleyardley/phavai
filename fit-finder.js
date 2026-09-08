@@ -69,7 +69,7 @@
     const tagBoost = activeOptions.some((option) => (product.profile.decisionTags || []).includes(option.key)) ? 5 : 0;
     const editorialBonus = clamp(product.defaultScore, 0, 100) * 0.22;
     const fitScore = clamp(Math.round(attributeScore * 0.74 + editorialBonus + tagBoost), 0, 99);
-    const topSignals = contributors.slice(0, 2).map((row) => `${row.label} ${Math.round(row.score)}/100`);
+    const topSignals = contributors.slice(0, 2).map((row) => row.label);
     const signalText = topSignals.length ? `Strongest fit signals: ${topSignals.join(", ")}.` : "This is the closest fit from the available guide data.";
     const warning = product.profile.biggestComplaint ? ` Watch-out: ${product.profile.biggestComplaint}` : "";
 
@@ -170,7 +170,7 @@
           : `#${match.editorialRank} editorial`;
         card.querySelector("[data-fit-card-name]").textContent = match.profile.name;
         card.querySelector("[data-fit-card-reason]").textContent = hasActiveOptions
-          ? `${match.fitScore}/100 fit - ${match.profile.tag || match.profile.bestFor || "Strong match"}`
+          ? `Closest match · ${match.profile.tag || match.profile.bestFor || "Strong match"}`
           : (match.profile.tag || match.profile.bestFor || "Editorial starting point");
       });
     }
@@ -202,7 +202,7 @@
       if (resultReason) {
         const priorities = selectedOptions.map((option) => option.label.toLowerCase()).join(" + ");
         resultReason.textContent = hasActiveOptions
-          ? `${winner.fitScore}/100 fit for ${priorities}. ${winner.reason}`
+          ? `Closest match for ${priorities}. ${winner.reason}`
           : "Start with the editorial winner, or select priorities above to get a buyer-specific match from the same evidence.";
       }
       if (resultLink) {

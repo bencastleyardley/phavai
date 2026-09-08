@@ -22,7 +22,7 @@ const expectedPages = [
   ...categories.map((page) => ({ slug: page.slug, type: "roundup", needsShoppingCta: true })),
   ...sections.map((page) => ({ slug: page.slug, type: "section hub", needsShoppingCta: false })),
   ...supportingPages.map((page) => ({ slug: page.slug, type: "supporting guide", needsShoppingCta: false })),
-  ...(todaysPicks ? [{ slug: todaysPicks.slug, type: "today's picks", needsShoppingCta: true }] : [])
+  ...(todaysPicks?.indexable !== false ? [{ slug: todaysPicks.slug, type: "today's picks", needsShoppingCta: true }] : [])
 ];
 
 const seen = new Set();
@@ -43,6 +43,18 @@ for (const page of expectedPages) {
   }
 
   const html = readFileSync(path, "utf8");
+  if (page.type === "section hub") {
+    const startingPanel = html.match(/<section class="collection-start-panel"[\s\S]*?<\/section>/)?.[0] ?? "";
+    const guideLinkCount = (startingPanel.match(/data-guide-link/g) ?? []).length;
+    if (!startingPanel || guideLinkCount < 3) {
+      issues.push({ slug: page.slug, type: page.type, issue: "Missing three-guide starting panel" });
+    }
+    if (startingPanel.includes("data-affiliate-link")) {
+      issues.push({ slug: page.slug, type: page.type, issue: "Section starting panel should not make a universal retailer recommendation" });
+    }
+    continue;
+  }
+
   const quickAnswerIndex = html.indexOf("data-quick-answer");
   if (quickAnswerIndex === -1) {
     issues.push({ slug: page.slug, type: page.type, issue: "Missing data-quick-answer block" });
@@ -57,7 +69,7 @@ for (const page of expectedPages) {
 
   if (quickAnswerBlock.includes("data-affiliate-link")) {
     shoppingQuickAnswers += 1;
-  } else if (page.needsShoppingCta) {
+  } else if (page.needsShoppingCta && !quickAnswerBlock.includes("shopping-link-status")) {
     issues.push({ slug: page.slug, type: page.type, issue: "Quick answer block missing shopping CTA" });
   }
 }

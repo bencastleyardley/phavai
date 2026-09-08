@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:37:19.958Z",
+  "generated_at": "2026-09-08T19:16:29.060Z",
   "affiliate_enabled": true,
   "pages_checked": 77,
   "products_checked": 218,
@@ -5830,14 +5830,199 @@
   "ranking_copy_contradictions": [],
   "ranking_order_warnings": [
     {
+      "page": "best-adjustable-dumbbells.html",
+      "product": "Bowflex SelectTech 552",
+      "issue": "Ranked above PowerBlock Elite EXP despite a lower BestPick score."
+    },
+    {
+      "page": "best-beard-trimmers.html",
+      "product": "Braun All-in-One Series 9",
+      "issue": "Ranked above Philips Norelco OneBlade Pro despite a lower BestPick score."
+    },
+    {
+      "page": "best-beard-trimmers.html",
+      "product": "Braun All-in-One Series 9",
+      "issue": "Potential evidence-depth contradiction: ranked above Philips Norelco OneBlade Pro with much thinner public evidence."
+    },
+    {
+      "page": "best-carb-drink-mixes-for-ultramarathons.html",
+      "product": "Skratch Labs Super High-Carb",
+      "issue": "Ranked above Tailwind High Carb Fuel despite a lower BestPick score."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes.html",
+      "product": "HOKA Speedgoat 7",
+      "issue": "Ranked above Topo Athletic Ultraventure 4 despite a lower BestPick score."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes.html",
+      "product": "Saucony Peregrine 15",
+      "issue": "Ranked above La Sportiva Prodigio Pro despite a lower BestPick score."
+    },
+    {
+      "page": "best-comfortable-trail-running-shoes.html",
+      "product": "La Sportiva Prodigio Pro",
+      "issue": "Ranked above Brooks Catamount 4 despite a lower BestPick score."
+    },
+    {
+      "page": "best-compression-boots-for-runners.html",
+      "product": "Therabody JetBoots Prime",
+      "issue": "Ranked above Hyperice Normatec Elite despite a lower BestPick score."
+    },
+    {
+      "page": "best-creatine.html",
+      "product": "Optimum Nutrition Micronized Creatine Capsules",
+      "issue": "Ranked above Transparent Labs Creatine HMB despite a lower BestPick score."
+    },
+    {
+      "page": "best-daily-trainers-for-marathon-training.html",
+      "product": "New Balance Fresh Foam X 1080v14",
+      "issue": "Ranked above HOKA Clifton 10 despite a lower BestPick score."
+    },
+    {
+      "page": "best-electrolyte-mixes-for-ultrarunning.html",
+      "product": "Skratch Labs Hydration",
+      "issue": "Ranked above Tailwind Endurance Fuel despite a lower BestPick score."
+    },
+    {
+      "page": "best-electrolytes-for-heavy-sweaters.html",
+      "product": "Precision Hydration PH 1500",
+      "issue": "Ranked above Skratch Labs Hydration Drink Mix despite a lower BestPick score."
+    },
+    {
+      "page": "best-gps-running-watches.html",
+      "product": "Garmin Forerunner 265",
+      "issue": "Ranked above Garmin Forerunner 965 despite a lower BestPick score."
+    },
+    {
+      "page": "best-marathon-shoes-for-heavy-runners.html",
+      "product": "New Balance Fresh Foam X 1080v14",
+      "issue": "Ranked above HOKA Bondi 9 despite a lower BestPick score."
+    },
+    {
+      "page": "best-mens-trail-running-shoes.html",
+      "product": "HOKA Speedgoat 7",
+      "issue": "Ranked above La Sportiva Prodigio Pro despite a lower BestPick score."
+    },
+    {
+      "page": "best-mens-trail-running-shoes.html",
+      "product": "Saucony Peregrine 15",
+      "issue": "Ranked above The North Face VECTIV Enduris 4 despite a lower BestPick score."
+    },
+    {
       "page": "best-monitor-arms.html",
-      "product": "Fully Jarvis Monitor Arm",
-      "issue": "Potential evidence-depth contradiction: ranked above Ergotron LX with much thinner public evidence."
+      "product": "Amazon Basics Premium Monitor Stand",
+      "issue": "Ranked above Herman Miller Flo Monitor Arm despite a lower BestPick score."
+    },
+    {
+      "page": "best-office-chairs.html",
+      "product": "Branch Ergonomic Chair Pro",
+      "issue": "Ranked above Haworth Fern despite a lower BestPick score."
+    },
+    {
+      "page": "best-portable-monitors-for-remote-work.html",
+      "product": "ViewSonic TD1656-2K",
+      "issue": "Ranked above espresso Display 15 Touch despite a lower BestPick score."
+    },
+    {
+      "page": "best-protein-bars.html",
+      "product": "RXBAR Protein Bar",
+      "issue": "Ranked above ALOHA Organic Plant Based Protein Bar despite a lower BestPick score."
+    },
+    {
+      "page": "best-road-shoe-for-your-first-marathon.html",
+      "product": "Saucony Ride 18",
+      "issue": "Ranked above Nike Pegasus 41 despite a lower BestPick score."
+    },
+    {
+      "page": "best-running-sunglasses-for-sweat-and-bounce.html",
+      "product": "Zeal Boone",
+      "issue": "Ranked above Smith Shift Split Mag despite a lower BestPick score."
     },
     {
       "page": "best-running-vests.html",
       "product": "Ultimate Direction Race Vest 6.0",
       "issue": "Potential evidence-depth contradiction: ranked above Patagonia Slope Runner Vest with much thinner public evidence."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles.html",
+      "product": "Topo Athletic Ultraventure 4",
+      "issue": "Ranked above Brooks Cascadia 19 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles.html",
+      "product": "Topo Athletic Ultraventure 4",
+      "issue": "Potential evidence-depth contradiction: ranked above Brooks Cascadia 19 with much thinner public evidence."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles.html",
+      "product": "Brooks Cascadia 19",
+      "issue": "Ranked above The North Face VECTIV Enduris 4 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-100-miles.html",
+      "product": "Brooks Cascadia 19",
+      "issue": "Potential evidence-depth contradiction: ranked above The North Face VECTIV Enduris 4 with much thinner public evidence."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners.html",
+      "product": "Brooks Cascadia 19",
+      "issue": "Ranked above HOKA Speedgoat 7 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners.html",
+      "product": "Brooks Cascadia 19",
+      "issue": "Potential evidence-depth contradiction: ranked above HOKA Speedgoat 7 with much thinner public evidence."
+    },
+    {
+      "page": "best-trail-shoes-for-beginners.html",
+      "product": "Saucony Peregrine 15",
+      "issue": "Ranked above The North Face VECTIV Enduris 4 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-muddy-conditions.html",
+      "product": "Salomon Speedcross 6",
+      "issue": "Ranked above Inov-8 X-Talon Ultra 260 V2 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-muddy-conditions.html",
+      "product": "Saucony Peregrine 15",
+      "issue": "Ranked above HOKA Speedgoat 7 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-technical-trails.html",
+      "product": "Saucony Peregrine 15",
+      "issue": "Ranked above Brooks Catamount 4 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet.html",
+      "product": "Topo Athletic Ultraventure 4",
+      "issue": "Ranked above Altra Lone Peak 9 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet.html",
+      "product": "Topo Athletic Ultraventure 4",
+      "issue": "Potential evidence-depth contradiction: ranked above Altra Lone Peak 9 with much thinner public evidence."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet.html",
+      "product": "Altra Lone Peak 9",
+      "issue": "Ranked above HOKA Speedgoat 7 despite a lower BestPick score."
+    },
+    {
+      "page": "best-trail-shoes-for-wide-feet.html",
+      "product": "Altra Lone Peak 9",
+      "issue": "Potential evidence-depth contradiction: ranked above HOKA Speedgoat 7 with much thinner public evidence."
+    },
+    {
+      "page": "best-walking-pads.html",
+      "product": "UREVO Strol 2E",
+      "issue": "Ranked above LifeSpan TR1200-DT3 despite a lower BestPick score."
+    },
+    {
+      "page": "best-womens-trail-running-shoes.html",
+      "product": "Saucony Peregrine 15",
+      "issue": "Ranked above La Sportiva Prodigio Pro despite a lower BestPick score."
     }
   ],
   "source_drawer_warnings": [],
@@ -5866,24 +6051,6 @@
       "page": "best-running-socks-for-long-runs.html",
       "examples": [
         "around."
-      ]
-    },
-    {
-      "page": "how-to-choose-trail-running-shoes.html",
-      "examples": [
-        "an."
-      ]
-    },
-    {
-      "page": "hydration-pack-vs-running-vest.html",
-      "examples": [
-        "and."
-      ]
-    },
-    {
-      "page": "standing-desk-vs-office-chair-upgrade.html",
-      "examples": [
-        "the."
       ]
     }
   ],

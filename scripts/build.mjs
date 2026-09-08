@@ -58,7 +58,7 @@ const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260908b";
+const ASSET_VERSION = "20260908c";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -645,8 +645,7 @@ function cleanSnippet(value = "", maxLength = 150) {
   if (text.length <= maxLength) return text;
   const sentenceBoundary = Math.max(
     text.lastIndexOf(".", maxLength - 1),
-    text.lastIndexOf(";", maxLength - 1),
-    text.lastIndexOf(":", maxLength - 1)
+    text.lastIndexOf(";", maxLength - 1)
   );
   if (sentenceBoundary >= Math.min(54, maxLength - 28)) {
     return text.slice(0, sentenceBoundary + 1).trim();
@@ -737,8 +736,22 @@ function productHaystack(product, category) {
   ].join(" ").toLowerCase();
 }
 
+function productPositiveHaystack(product) {
+  return [
+    product.name,
+    product.tag,
+    product.verdict,
+    product.bestFor,
+    ...(product.specs ?? []),
+    ...(product.pros ?? []),
+    ...(product.positiveThemes ?? [])
+  ].join(" ").toLowerCase();
+}
+
 function decisionTagsForProduct(product, category) {
-  const haystack = productHaystack(product, category);
+  // Fit badges must only come from positive product claims. Mixing in avoid-if,
+  // cons, or caution text can turn "not for wide feet" into a wide-fit signal.
+  const haystack = productPositiveHaystack(product);
   const tags = DECISION_TAG_RULES
     .filter(([, terms]) => terms.some((term) => haystack.includes(term)))
     .map(([tag]) => tag);
@@ -993,6 +1006,7 @@ function attributeScore(haystack, key, options = {}) {
 }
 
 function confidenceLabel(product) {
+  if (product.evidenceReady === false) return "Developing";
   if (product.signal >= 4 && product.consensus >= 84) return "High";
   if (product.signal >= 3.1 && product.consensus >= 76) return "Solid";
   return "Developing";
@@ -1059,7 +1073,9 @@ function buildProductAttributeGraph(product, category, decisionTags = []) {
 }
 
 function categoryDecisionOptions(category) {
-  return CATEGORY_DECISION_OPTIONS[category.slug] ?? SECTION_DECISION_OPTIONS[category.sectionSlug] ?? SECTION_DECISION_OPTIONS.lifestyle;
+  // Only show the fit finder when its priorities were authored for this exact category.
+  // Section-wide fallbacks create convincing but irrelevant matches across unrelated products.
+  return CATEGORY_DECISION_OPTIONS[category.slug] ?? [];
 }
 
 function optionAttributeLabels(option) {
@@ -1114,7 +1130,7 @@ function decisionBadgesForProduct(product, category, rank) {
   const isBeginnerFriendly = /beginner|first|starter|approachable|easygoing|new runner|new trail/i.test(beginnerPositiveText) &&
     !/beginner|first trail|newer runner|new runner|starter/i.test(beginnerAvoidText);
 
-  if (rank === 1) add("Best Overall");
+  if (rank === 1) add(product.evidenceReady ? "Best Overall" : "Editorial Starting Point");
   if (tags.includes("budget")) add("Best Value");
   if (tags.includes("beginner") && isBeginnerFriendly) add("Beginner Friendly");
   if (tags.includes("distance")) add("Best for Distance");
@@ -1128,8 +1144,9 @@ function decisionBadgesForProduct(product, category, rank) {
   return badges.slice(0, 3);
 }
 
-function polishRankTag(tag = "", rank = 1) {
+function polishRankTag(tag = "", rank = 1, evidenceReady = true) {
   const text = polishBuyerCopy(tag);
+  if (rank === 1 && !evidenceReady && /^best overall/i.test(text)) return text.replace(/^best overall/i, "Leading candidate");
   if (rank > 1 && /^best overall by lab testing/i.test(text)) return "Lab-tested all-rounder";
   if (rank > 1 && /^best overall/i.test(text)) return text.replace(/^best overall/i, "Strong");
   return text;
@@ -1263,6 +1280,7 @@ function resolveAffiliateOverride(product, category) {
 function resolveAffiliateUrl(product, category) {
   const override = resolveAffiliateOverride(product, category);
 
+  if (override?.disabled) return "";
   return override?.url || product.affiliateUrl;
 }
 
@@ -1284,6 +1302,7 @@ function normalizeShoppingLink(link = {}, fallbackLabel = "Buy now") {
 
 function resolveShoppingLinks(product, category) {
   const override = resolveAffiliateOverride(product, category);
+  if (override?.disabled) return [];
   const rawLinks = override?.shoppingLinks?.length
     ? override.shoppingLinks
     : product.shoppingLinks?.length
@@ -1963,6 +1982,76 @@ function injectStylesheetVersion() {
   }
 }
 
+function currentSectionForFile(file) {
+  const pageSlug = file.replace(/\.html$/i, "");
+  const category = builtCategories.find((item) => item.slug === pageSlug);
+  if (category) return category.sectionSlug;
+
+  const supportingPage = supportingPages.find((item) => item.slug === pageSlug);
+  if (supportingPage) return supportingPage.sectionSlug;
+
+  if (["running-headphone-specification-database"].includes(pageSlug)) return "outdoor";
+  return sections.some((item) => item.slug === pageSlug) ? pageSlug : "";
+}
+
+function currentAttribute(isCurrent, currentValue = "page") {
+  return isCurrent ? ` class="is-current" aria-current="${currentValue}"` : "";
+}
+
+function renderGlobalHeader(file) {
+  const activeSection = currentSectionForFile(file);
+  const sectionLinks = sections.map((section) => {
+    const label = section.slug === "outdoor" ? "Running &amp; Outdoor" : escapeHtml(section.title);
+    const currentValue = file === `${section.slug}.html` ? "page" : "location";
+    return `<a href="/${section.slug}.html"${currentAttribute(activeSection === section.slug, currentValue)}>${label}</a>`;
+  }).join("\n        ");
+  const methodCurrent = file === "methodology.html" || file === "editorial-standards.html";
+  const methodCurrentValue = file === "methodology.html" ? "page" : "location";
+
+  return `<header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand${file === "index.html" ? " is-current" : ""}" href="/"${file === "index.html" ? ' aria-current="page"' : ""}><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        ${sectionLinks}
+        <a class="hide-small${methodCurrent ? " is-current" : ""}" href="/methodology.html"${methodCurrent ? ` aria-current="${methodCurrentValue}"` : ""}>How it works</a>
+      </div>
+    </nav>
+  </header>`;
+}
+
+function renderGlobalFooter() {
+  const affiliateDisclosure = AFFILIATE_CONFIG.affiliateEnabled
+    ? '<p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>'
+    : "";
+
+  return `<footer class="site-footer">
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        ${affiliateDisclosure}
+      </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
+    </div>
+  </footer>`;
+}
+
 function normalizeSiteNavigation() {
   const todaysPicksRetired = todaysPicks?.indexable === false;
   for (const file of readdirSync(".")) {
@@ -1972,6 +2061,8 @@ function normalizeSiteNavigation() {
     if (todaysPicksRetired) {
       nextHtml = nextHtml.replace(/\s*<a\b[^>]*href="\/todays-picks\.html"[^>]*>[\s\S]*?<\/a>/g, "");
     }
+    nextHtml = nextHtml.replace(/<header class="site-header">[\s\S]*?<\/header>/i, renderGlobalHeader(file));
+    nextHtml = nextHtml.replace(/<footer class="site-footer">[\s\S]*?<\/footer>/i, renderGlobalFooter());
     if (!/class="skip-link"/.test(nextHtml)) {
       nextHtml = nextHtml.replace(/<body([^>]*)>/i, '<body$1>\n  <a class="skip-link" href="#main-content">Skip to main content</a>');
     }
@@ -2149,8 +2240,12 @@ function computeProductScores(product, category) {
     }));
   const rawScore = scoreInputs.length ? weightedMean(scoreInputs) : 0;
   const disagreement = scoreInputs.length ? weightedStandardDeviation(scoreInputs, rawScore) : 0;
-  const signal = computeSignal(product, channelScores, category);
+  const signal = computeSignal(normalizedProduct, channelScores, category);
   const publicEvidenceCount = normalizedEvidence.filter((item) => item.is_public).length;
+  const qualifyingEvidence = normalizedEvidence.filter(isScoreEligibleEvidence);
+  const qualifyingExpertCount = qualifyingEvidence.filter((item) => item.source_type === "expert").length;
+  const qualifyingChannelCount = new Set(qualifyingEvidence.map((item) => item.channel)).size;
+  const evidenceReady = qualifyingExpertCount >= 1 && qualifyingEvidence.length >= 3 && qualifyingChannelCount >= 2;
   const publicProduct = {
     ...normalizedProduct,
     verdict: polishBuyerCopy(normalizedProduct.verdict),
@@ -2163,7 +2258,7 @@ function computeProductScores(product, category) {
   };
   const affiliateOverride = resolveAffiliateOverride(normalizedProduct, category);
   let shoppingLinks = resolveShoppingLinks(normalizedProduct, category);
-  const catalogAsin = String(affiliateOverride?.asin || shoppingLinks.map((link) => asinFromAmazonUrl(link.url)).find(Boolean) || "").toUpperCase();
+  const catalogAsin = String((affiliateOverride?.disabled ? "" : affiliateOverride?.asin) || shoppingLinks.map((link) => asinFromAmazonUrl(link.url)).find(Boolean) || "").toUpperCase();
   const catalogItem = AMAZON_CATALOG.get(catalogAsin);
   if (catalogItem?.detailPageURL && shoppingLinks[0] && /(^|\.)amazon\.com$/i.test(parseDomain(shoppingLinks[0].url))) {
     shoppingLinks = [{ ...shoppingLinks[0], url: withAmazonAffiliateTag(catalogItem.detailPageURL) }, ...shoppingLinks.slice(1)];
@@ -2186,7 +2281,11 @@ function computeProductScores(product, category) {
     internalEvidenceCount: normalizedEvidence.filter((item) => !item.is_public).length,
     rawBestPickScore: Number(rawScore.toFixed(1)),
     bestPickScore: Math.round(rawScore),
-    publicScoreLabel: channelScores.length ? String(Math.round(rawScore)) : "Reviewing",
+    publicScoreLabel: evidenceReady ? String(Math.round(rawScore)) : "Developing",
+    evidenceReady,
+    qualifyingEvidenceCount: qualifyingEvidence.length,
+    qualifyingExpertCount,
+    qualifyingChannelCount,
     consensus: Math.round(clamp(100 - disagreement * 4, 0, 100)),
     signal,
     recencyStrength: recencyStrength(publicProduct, category),
@@ -2203,20 +2302,11 @@ const supportBySection = new Map(
 );
 const builtCategories = categories.map((category) => {
   const sourceWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
-  const expertScoreFor = (product) => product.sourceScores.find((row) => row.source === "Expert")?.score ?? 0;
   const products = category.products
     .map((product) => computeProductScores(product, { ...category, sourceWeights }))
-    .sort((a, b) => {
-      if (b.bestPickScore !== a.bestPickScore) return b.bestPickScore - a.bestPickScore;
-      const expertDelta = expertScoreFor(b) - expertScoreFor(a);
-      if (Math.abs(expertDelta) >= 0.1) return expertDelta;
-      if (b.rawBestPickScore !== a.rawBestPickScore) return b.rawBestPickScore - a.rawBestPickScore;
-      if (b.consensus !== a.consensus) return b.consensus - a.consensus;
-      return b.signal - a.signal;
-    })
     .map((product, index) => {
       const rank = index + 1;
-      const tag = polishRankTag(product.tag, rank);
+      const tag = polishRankTag(product.tag, rank, product.evidenceReady);
       const publicProduct = { ...product, tag };
       const decisionTags = decisionTagsForProduct(publicProduct, category);
       const biggestStrength = biggestStrengthForProduct(product);
@@ -2263,7 +2353,7 @@ const builtCategories = categories.map((category) => {
       ? `/photos/generated/guide-${category.slug}-social.png`
       : "",
     description: polishBuyerCopy(category.description),
-    lede: polishBuyerCopy(category.lede ?? ""),
+    lede: polishBuyerCopy(category.lede ?? category.description ?? ""),
     metaDescription: conciseMetaDescription(polishBuyerCopy(category.metaDescription ?? category.description)),
     comparisonIntro: polishBuyerCopy(category.comparisonIntro ?? ""),
     finalRecommendation: polishBuyerCopy(category.finalRecommendation ?? ""),
@@ -2287,6 +2377,97 @@ const builtCategories = categories.map((category) => {
   };
 });
 
+const RELATED_TOKEN_STOPWORDS = new Set([
+  "best", "for", "the", "and", "with", "from", "your", "men", "mens", "women", "womens", "remote", "work"
+]);
+
+const RELATED_TOPIC_RULES = [
+  ["trail-footwear", /trail.*(?:shoe|trainer)|(?:shoe|trainer).*trail/],
+  ["road-footwear", /marathon|road.*shoe|daily.*trainer|first.*marathon/],
+  ["footwear", /shoe|trainer|sandal|slide/],
+  ["hydration-carry", /hydration|running.*vest|handheld|water.*bottle|running.*belt|trail.*pole/],
+  ["endurance-fuel", /running.*gel|electrolyte|carb.*drink|running.*chew|ultramarathon.*fuel/],
+  ["running-tech", /running.*headphone|gps.*watch|running.*watch/],
+  ["running-accessory", /running.*(?:sock|sunglass|belt|headphone|watch)|compression.*runner/],
+  ["recovery", /recovery|compression.*boot|massage.*gun/],
+  ["desk-furniture", /standing.*desk|office.*chair|walking.*pad/],
+  ["desk-technology", /monitor|keyboard|webcam|usb.*hub|laptop.*stand|desk.*mat/],
+  ["travel", /carry-on|luggage|commuter.*backpack/],
+  ["grooming", /shaver|beard.*trimmer|body.*groom/],
+  ["home", /coffee.*maker|air.*purifier/],
+  ["fitness-nutrition", /dumbbell|protein.*bar|creatine|massage.*gun/]
+];
+
+function relatedReviewText(review) {
+  return `${review.slug ?? ""} ${review.title ?? ""} ${review.eyebrow ?? ""}`.toLowerCase();
+}
+
+function relatedReviewTokens(review) {
+  return new Set(
+    relatedReviewText(review)
+      .replace(/[^a-z0-9]+/g, " ")
+      .split(/\s+/)
+      .filter((token) => token.length > 2 && !RELATED_TOKEN_STOPWORDS.has(token))
+  );
+}
+
+function relatedReviewSimilarity(current, candidate) {
+  const currentText = relatedReviewText(current);
+  const candidateText = relatedReviewText(candidate);
+  const currentTopics = new Set(RELATED_TOPIC_RULES.filter(([, pattern]) => pattern.test(currentText)).map(([topic]) => topic));
+  const candidateTopics = new Set(RELATED_TOPIC_RULES.filter(([, pattern]) => pattern.test(candidateText)).map(([topic]) => topic));
+  const sharedTopics = [...currentTopics].filter((topic) => candidateTopics.has(topic)).length;
+  const candidateTokens = relatedReviewTokens(candidate);
+  const sharedTokens = [...relatedReviewTokens(current)].filter((token) => candidateTokens.has(token)).length;
+  return sharedTopics * 20 + sharedTokens * 2;
+}
+
+const SECTION_REVIEW_GROUPS = {
+  outdoor: [
+    { id: "trail-shoes", title: "Trail shoes", description: "Start with fit and terrain, then narrow by distance, cushioning, grip, and race intent.", pattern: /trail.*shoe|shoe.*trail|comfortable-trail/ },
+    { id: "road-marathon", title: "Road & marathon shoes", description: "Training and race-day footwear organized by experience, body needs, comfort, and pace goals.", pattern: /marathon|road-shoe|daily-trainer/ },
+    { id: "hydration-carry", title: "Hydration & carry", description: "Vests, packs, bottles, belts, and poles for carrying what a run or race actually requires.", pattern: /hydration|running-vest|water-bottle|running-belt|trail-running-pole/ },
+    { id: "fuel-electrolytes", title: "Fuel & electrolytes", description: "Compare format, carbohydrate delivery, sodium, flavor tolerance, and training practicality.", pattern: /fuel|running-gel|electrolyte|carb-drink|running-chew/ },
+    { id: "watches-audio", title: "Watches, audio & accessories", description: "Running technology and small essentials compared for route awareness, comfort, reliability, and daily use.", pattern: /watch|headphone|running-sock|running-sunglass/ },
+    { id: "recovery", title: "Recovery", description: "Post-run tools and footwear assessed by comfort, repeat use, storage, and ownership friction.", pattern: /recovery|compression-boot/ }
+  ],
+  "remote-work": [
+    { id: "posture-movement", title: "Posture & movement", description: "Desks, chairs, stands, and walking pads for a more adjustable workday.", pattern: /standing-desk|office-chair|walking-pad|laptop-stand/ },
+    { id: "desk-setup", title: "Desk setup", description: "The accessories that organize connections, screens, input, and everyday desk comfort.", pattern: /monitor-arm|keyboard|desk-mat|usb-c-hub/ },
+    { id: "meetings-displays", title: "Meetings & displays", description: "Webcams and portable monitors compared for clarity, setup friction, portability, and reliability.", pattern: /webcam|portable-monitor/ }
+  ],
+  lifestyle: [
+    { id: "travel", title: "Travel", description: "Carry and luggage choices organized around packing, durability, comfort, and trip friction.", pattern: /carry-on|luggage|commuter-backpack/ },
+    { id: "grooming", title: "Grooming", description: "Tools compared by comfort, cleanup, attachments, battery, and long-term ownership.", pattern: /shaver|beard-trimmer|body-groomer/ },
+    { id: "home", title: "Home", description: "Everyday appliances compared by maintenance, noise, reliability, and recurring cost.", pattern: /coffee-maker|air-purifier/ },
+    { id: "fitness-nutrition", title: "Fitness & nutrition", description: "Training and nutrition products organized by repeat use, tolerance, storage, and value.", pattern: /dumbbell|massage-gun|protein-bar|creatine/ }
+  ]
+};
+
+function buildSectionReviewGroups(sectionSlug, reviews, featuredReviewOrder) {
+  const remaining = new Set(reviews.map((review) => review.slug));
+  const sortReviews = (items) => [...items].sort((a, b) => {
+    const aOrder = featuredReviewOrder.has(a.slug) ? featuredReviewOrder.get(a.slug) : 1000;
+    const bOrder = featuredReviewOrder.has(b.slug) ? featuredReviewOrder.get(b.slug) : 1000;
+    if (aOrder !== bOrder) return aOrder - bOrder;
+    return a.title.localeCompare(b.title);
+  });
+  const groups = [];
+
+  for (const group of SECTION_REVIEW_GROUPS[sectionSlug] ?? []) {
+    const matches = sortReviews(reviews.filter((review) => remaining.has(review.slug) && group.pattern.test(review.slug)));
+    if (!matches.length) continue;
+    matches.forEach((review) => remaining.delete(review.slug));
+    groups.push({ ...group, reviews: matches });
+  }
+
+  const unmatched = sortReviews(reviews.filter((review) => remaining.has(review.slug)));
+  if (unmatched.length) {
+    groups.push({ id: "more-guides", title: "More buying guides", description: "Additional shortlists for specific buying decisions.", reviews: unmatched });
+  }
+  return groups;
+}
+
 for (const category of builtCategories) {
   const configuredRelatedSlugs = [
     ...(relatedReviewOverrides[category.slug] ?? []),
@@ -2297,13 +2478,17 @@ for (const category of builtCategories) {
   const relatedReviews = builtCategories
     .filter((review) => review.sectionSlug === category.sectionSlug && review.slug !== category.slug)
     .sort((a, b) => {
-      const aOrder = relatedReviewOrder.has(a.slug)
-        ? relatedReviewOrder.get(a.slug)
-        : (sectionFeaturedOrder.has(a.slug) ? 100 + sectionFeaturedOrder.get(a.slug) : 1000);
-      const bOrder = relatedReviewOrder.has(b.slug)
-        ? relatedReviewOrder.get(b.slug)
-        : (sectionFeaturedOrder.has(b.slug) ? 100 + sectionFeaturedOrder.get(b.slug) : 1000);
-      if (aOrder !== bOrder) return aOrder - bOrder;
+      const aConfigured = relatedReviewOrder.has(a.slug);
+      const bConfigured = relatedReviewOrder.has(b.slug);
+      if (aConfigured !== bConfigured) return aConfigured ? -1 : 1;
+      if (aConfigured && bConfigured) return relatedReviewOrder.get(a.slug) - relatedReviewOrder.get(b.slug);
+
+      const relevanceDelta = relatedReviewSimilarity(category, b) - relatedReviewSimilarity(category, a);
+      if (relevanceDelta !== 0) return relevanceDelta;
+
+      const aFeatured = sectionFeaturedOrder.has(a.slug) ? sectionFeaturedOrder.get(a.slug) : 1000;
+      const bFeatured = sectionFeaturedOrder.has(b.slug) ? sectionFeaturedOrder.get(b.slug) : 1000;
+      if (aFeatured !== bFeatured) return aFeatured - bFeatured;
       return a.title.localeCompare(b.title);
     })
     .map(({ products, ...review }) => ({ ...review, products: products.slice(0, 1) }));
@@ -2335,6 +2520,13 @@ for (const section of sections) {
       return a.title.localeCompare(b.title);
     });
   const focusedReviews = reviews.filter((category) => !category.isCoreRoundup);
+  const reviewGroups = buildSectionReviewGroups(section.slug, reviews, featuredReviewOrder);
+  const configuredStartingGuides = (section.featuredReviewSlugs ?? [])
+    .map((slug) => reviews.find((review) => review.slug === slug))
+    .filter(Boolean);
+  const startingGuides = [...configuredStartingGuides, ...reviews]
+    .filter((review, index, list) => list.findIndex((item) => item.slug === review.slug) === index)
+    .slice(0, 3);
   const html = ejs.render(
     sectionTemplate,
     {
@@ -2342,6 +2534,8 @@ for (const section of sections) {
       reviews,
       coreReviews,
       focusedReviews,
+      reviewGroups,
+      startingGuides,
       supportingPages: supportBySection.get(section.slug) || [],
       sourceTrust: sourceGovernance.sections?.[section.slug],
       affiliateConfig: AFFILIATE_CONFIG,
@@ -2356,7 +2550,10 @@ for (const section of sections) {
 
 for (const page of supportingPages) {
   const section = { ...sectionsBySlug.get(page.sectionSlug), iconSvg: iconSvg(page.sectionSlug) };
-  const relatedReviews = builtCategories.filter((review) => page.relatedReviewSlugs.includes(review.slug));
+  const relatedReviews = (page.relatedReviewSlugs ?? [])
+    .map((slug) => builtCategories.find((review) => review.slug === slug))
+    .filter(Boolean)
+    .filter((review, index, list) => list.findIndex((item) => item.slug === review.slug) === index);
   const html = ejs.render(
     supportingTemplate,
     {

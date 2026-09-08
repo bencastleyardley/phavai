@@ -32,16 +32,11 @@
         { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
         { "key": "Cache-Control", "value": "private, no-store" }
       ]
-    },
-    {
-      "source": "/todays-picks.html",
-      "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, follow" }
-      ]
     }
   ],
   "redirects": [
     { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/todays-picks.html", "destination": "/outdoor.html", "permanent": true },
     { "source": "/best-mens-trail-running-shoes-v5.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true },
     { "source": "/best-mens-trail-running-shoes.v4.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true },
     { "source": "/best-mens-trail-running-shoes.v5.html", "destination": "/best-mens-trail-running-shoes.html", "permanent": true }

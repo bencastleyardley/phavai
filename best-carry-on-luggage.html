@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script src="/fit-finder.js" defer></script>
   <script type="application/ld+json">
@@ -159,13 +159,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html" class="is-current" aria-current="location">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -173,9 +170,13 @@
   <main id="main-content">
     <section class="page-hero">
       <div class="wrap">
-        <a class="crumb" href="/lifestyle.html">Phavai / Lifestyle / Travel</a>
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <a href="/lifestyle.html">Lifestyle</a><span aria-hidden="true">/</span>
+          <span aria-current="page">Travel</span>
+        </nav>
         <h1>Best Carry-On Luggage</h1>
-        <p class="lede">Shopping for best carry-on luggage gets messy fast. Phavai uses AI-assisted research to organize recurring pros, cons, specifications, and buyer feedback so the tradeoffs are easier to see.</p>
+        <p class="lede">Carry-on luggage ranked for wheels, durability, packing layout, warranty, weight, and overhead-bin practicality.</p>
         <div class="meta-row" aria-label="Page details">
           <span class="meta-pill">Last updated April 20, 2026</span>
           <span class="meta-pill">Sources checked Apr 20, 2026</span>
@@ -200,6 +201,14 @@
           </section>
 
 
+        <nav class="page-jump-nav" aria-label="On this buying guide">
+          <span>In this guide</span>
+          <a href="#comparison-heading">Compare picks</a>
+          <a href="#fit-finder-heading">Find your fit</a>
+          <a href="#recommendations-heading">Full recommendations</a>
+          <a href="#faq-heading">Common questions</a>
+        </nav>
+
         <section class="comparison-section comparison-section--priority" aria-labelledby="comparison-heading">
           <div class="section-kicker">Compare before you scroll</div>
           <h2 id="comparison-heading">Top picks at a glance</h2>
@@ -211,15 +220,16 @@
             </div>
 
           <p class="inline-affiliate-disclosure comparison-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-          <div class="comparison-scroll">
+          <p class="table-scroll-hint">Scroll sideways to compare every column.</p>
+          <div class="comparison-scroll" tabindex="0" role="region" aria-label="Product comparison table">
             <table class="comparison-table" aria-describedby="comparison-intro">
               <thead>
                 <tr>
-                  <th>Rank</th>
-                  <th>Pick</th>
-                  <th>Price &amp; options</th>
-                  <th>Best for</th>
-                  <th>Main tradeoff</th>
+                  <th scope="col">Rank</th>
+                  <th scope="col">Pick</th>
+                  <th scope="col">Price &amp; options</th>
+                  <th scope="col">Best for</th>
+                  <th scope="col">Main tradeoff</th>
                 </tr>
               </thead>
               <tbody>
@@ -228,6 +238,7 @@
                     <td>#1</td>
                     <td><a href="#travelpro-platinum-elite-21-inch">Travelpro Platinum Elite 21-inch</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$365 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Travelpro Platinum Elite 21-inch">
 
@@ -244,6 +255,7 @@
                     <td>#2</td>
                     <td><a href="#briggs-riley-baseline-essential">Briggs &amp; Riley Baseline Essential</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$699 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Briggs &amp; Riley Baseline Essential">
 
@@ -260,6 +272,7 @@
                     <td>#3</td>
                     <td><a href="#away-bigger-carry-on">Away Bigger Carry-On</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$295 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Away Bigger Carry-On">
 
@@ -276,6 +289,7 @@
                     <td>#4</td>
                     <td><a href="#monos-carry-on-pro">Monos Carry-On Pro</a></td>
                     <td class="comparison-shop-cell">
+                      <span class="price-reference"><strong>$295 typical retail</strong><small>Typical reference, not live</small></span>
 
                         <div class="shopping-button-group shopping-button-group--compact comparison-shopping-links" aria-label="Shopping options for Monos Carry-On Pro">
 
@@ -343,12 +357,17 @@
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="recommendations" aria-labelledby="recommendations-heading">
       <div class="wrap ranking-layout">
         <div class="content-column">
+          <div class="ranking-intro">
+            <div class="section-kicker">Ranked recommendations</div>
+            <h2 id="recommendations-heading">The full shortlist, with tradeoffs</h2>
+            <p>Start with the buyer match, then check the specifications, downsides, and linked research before opening a retailer.</p>
+          </div>
           <div data-product-list>
 
-            <article class="product" id="travelpro-platinum-elite-21-inch" data-product-name="Travelpro Platinum Elite 21-inch" data-default-score="87" data-editorial-rank="1" data-channel-scores='{"Expert":91,"YouTube":82}' data-decision-tags='["comfort","performance","premium","small-space","everyday"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":59},"value":{"key":"value","label":"Price fit","score":48},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":60},"quietUse":{"key":"quietUse","label":"Quiet use","score":48},"portability":{"key":"portability","label":"Portability","score":57},"durability":{"key":"durability","label":"Long-term build","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":82},"packability":{"key":"packability","label":"Packability","score":70},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":82},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"premiumBuild","label":"Premium build","score":82},{"key":"comfort","label":"Comfort","score":82},{"key":"packability","label":"Packability","score":70}],"ownerSentimentSummary":"Excellent practical layout. Strong travel reputation.","expertSentimentSummary":"2 evidence items. Strongest signal: Wirecutter category testing supports Travelpro Platinum Elite 21-inch as a serious carry-on luggage option.","biggestStrength":"Excellent practical layout","biggestComplaint":"Soft-shell look","confidenceLevel":"Solid","evidenceDepth":78,"recencyStrength":75,"decisionTags":["comfort","performance","premium","small-space","everyday"]}' data-fit-profile="%7B%22id%22%3A%22travelpro-platinum-elite-21-inch%22%2C%22name%22%3A%22Travelpro%20Platinum%20Elite%2021-inch%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A87%2C%22publicScoreLabel%22%3A%2287%22%2C%22tag%22%3A%22Best%20carry-on%20for%20most%20travelers%22%2C%22bestFor%22%3A%22Frequent%20flyers%20who%20want%20practical%20organization%20and%20dependable%20wheels%22%2C%22avoidIf%22%3A%22You%20want%20a%20hard-shell%20minimalist%20look.%22%2C%22biggestStrength%22%3A%22Excellent%20practical%20layout%22%2C%22biggestComplaint%22%3A%22Soft-shell%20look%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A57%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A70%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A82%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Excellent%20practical%20layout.%20Strong%20travel%20reputation.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Travelpro%20Platinum%20Elite%2021-inch%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Excellent%20practical%20layout%22%2C%22biggestComplaint%22%3A%22Soft-shell%20look%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A78%2C%22recencyStrength%22%3A75%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FTravelpro-Platinum-Hardside-Expandable-Polycarbonate%2Fdp%2FB09V3FFJF3%3Fcrid%3D1BTH4WB6M57EI%26dib%3DeyJ2IjoiMSJ9.ycARkFtfMdpNRJ7sJ34PoL4hjuR-PCFE4-2yGVN7CtRSNaiZmv3r080610fapLh3G2tCkjz05yrmM9rZ-pDwBj2AZWo0hKXHfpHrQ422UQaSkBy4_XVJ56AWAbGR7bvygsI1_EiN7Lt-CpqDnblI3AL7yXyicSHpPHH9YCgOPvSwdIDfECHPDKJmIP7MjuPCHMb9spfpcIU2cSPi2sdySJHMGGPM3wGuDazV2HiKmkijHLqHNHiZFLQim04DGHeBIpUTXCx9X0eGRm-slPeKnNMjN8VHS_0wavMOI5Lr7eg.6m9eomjNV83HWb-m5lxu9l2XhS9mJed0i08PZDsN2do%26dib_tag%3Dse%26keywords%3DTravelpro%252BPlatinum%252BElite%252B21-inch%26qid%3D1777570429%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtravelpro%252Bplatinum%252Belite%252B21-inch%252Caps%252C154%26sr%3D8-16%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D3770313e4b81d4e11c96fe7439a28b69%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="travelpro-platinum-elite-21-inch" data-product-name="Travelpro Platinum Elite 21-inch" data-default-score="87" data-editorial-rank="1" data-channel-scores='{"Expert":91,"YouTube":82}' data-fit-profile="%7B%22id%22%3A%22travelpro-platinum-elite-21-inch%22%2C%22name%22%3A%22Travelpro%20Platinum%20Elite%2021-inch%22%2C%22rank%22%3A1%2C%22defaultScore%22%3A87%2C%22publicScoreLabel%22%3A%2287%22%2C%22tag%22%3A%22Best%20carry-on%20for%20most%20travelers%22%2C%22bestFor%22%3A%22Frequent%20flyers%20who%20want%20practical%20organization%20and%20dependable%20wheels%22%2C%22avoidIf%22%3A%22You%20want%20a%20hard-shell%20minimalist%20look.%22%2C%22biggestStrength%22%3A%22Excellent%20practical%20layout%22%2C%22biggestComplaint%22%3A%22Soft-shell%20look%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A59%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A57%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A70%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A82%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Excellent%20practical%20layout.%20Strong%20travel%20reputation.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Travelpro%20Platinum%20Elite%2021-inch%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Excellent%20practical%20layout%22%2C%22biggestComplaint%22%3A%22Soft-shell%20look%22%2C%22confidenceLevel%22%3A%22Solid%22%2C%22evidenceDepth%22%3A80%2C%22recencyStrength%22%3A75%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FTravelpro-Platinum-Hardside-Expandable-Polycarbonate%2Fdp%2FB09V3FFJF3%3Fcrid%3D1BTH4WB6M57EI%26dib%3DeyJ2IjoiMSJ9.ycARkFtfMdpNRJ7sJ34PoL4hjuR-PCFE4-2yGVN7CtRSNaiZmv3r080610fapLh3G2tCkjz05yrmM9rZ-pDwBj2AZWo0hKXHfpHrQ422UQaSkBy4_XVJ56AWAbGR7bvygsI1_EiN7Lt-CpqDnblI3AL7yXyicSHpPHH9YCgOPvSwdIDfECHPDKJmIP7MjuPCHMb9spfpcIU2cSPi2sdySJHMGGPM3wGuDazV2HiKmkijHLqHNHiZFLQim04DGHeBIpUTXCx9X0eGRm-slPeKnNMjN8VHS_0wavMOI5Lr7eg.6m9eomjNV83HWb-m5lxu9l2XhS9mJed0i08PZDsN2do%26dib_tag%3Dse%26keywords%3DTravelpro%252BPlatinum%252BElite%252B21-inch%26qid%3D1777570429%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtravelpro%252Bplatinum%252Belite%252B21-inch%252Caps%252C154%26sr%3D8-16%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3D3770313e4b81d4e11c96fe7439a28b69%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--lifestyle product-visual--travel product-visual--soft">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Travelpro Platinum Elite 21-inch, Best carry-on for most travelers">
@@ -372,6 +391,9 @@
                 <div class="tagline">Best carry-on for most travelers</div>
                 <p class="product-verdict"><strong>Our take:</strong> Travelpro Platinum Elite 21-inch is the best carry-on for most travelers for frequent flyers buyers who need practical organization and dependable wheels. It stands out for excellent practical layout and strong travel reputation.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$365 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Travelpro Platinum Elite 21-inch">
                     <li>Soft-side spinner</li><li>Expandable design</li><li>Exterior pockets</li><li>Limited lifetime warranty</li>
@@ -385,9 +407,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Travelpro Platinum Elite 21-inch">
-                  <strong>87</strong>
-                  <span>Evidence score · 6 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Travelpro Platinum Elite 21-inch">
+
+                    <strong>87</strong>
+                    <span>Evidence score · 5 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Travelpro Platinum Elite 21-inch">
@@ -399,17 +423,13 @@
                     <span>Avoid if</span>
                     <p>You want a hard-shell minimalist look.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Soft-shell look</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Travelpro Platinum Elite 21-inch">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Travelpro-Platinum-Hardside-Expandable-Polycarbonate/dp/B09V3FFJF3?crid=1BTH4WB6M57EI&amp;dib=eyJ2IjoiMSJ9.ycARkFtfMdpNRJ7sJ34PoL4hjuR-PCFE4-2yGVN7CtRSNaiZmv3r080610fapLh3G2tCkjz05yrmM9rZ-pDwBj2AZWo0hKXHfpHrQ422UQaSkBy4_XVJ56AWAbGR7bvygsI1_EiN7Lt-CpqDnblI3AL7yXyicSHpPHH9YCgOPvSwdIDfECHPDKJmIP7MjuPCHMb9spfpcIU2cSPi2sdySJHMGGPM3wGuDazV2HiKmkijHLqHNHiZFLQim04DGHeBIpUTXCx9X0eGRm-slPeKnNMjN8VHS_0wavMOI5Lr7eg.6m9eomjNV83HWb-m5lxu9l2XhS9mJed0i08PZDsN2do&amp;dib_tag=se&amp;keywords=Travelpro%2BPlatinum%2BElite%2B21-inch&amp;qid=1777570429&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=travelpro%2Bplatinum%2Belite%2B21-inch%2Caps%2C154&amp;sr=8-16&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=3770313e4b81d4e11c96fe7439a28b69&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Travelpro Platinum Elite 21-inch" data-product-rank="1" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Travelpro-Platinum-Hardside-Expandable-Polycarbonate/dp/B09V3FFJF3?crid=1BTH4WB6M57EI&amp;dib=eyJ2IjoiMSJ9.ycARkFtfMdpNRJ7sJ34PoL4hjuR-PCFE4-2yGVN7CtRSNaiZmv3r080610fapLh3G2tCkjz05yrmM9rZ-pDwBj2AZWo0hKXHfpHrQ422UQaSkBy4_XVJ56AWAbGR7bvygsI1_EiN7Lt-CpqDnblI3AL7yXyicSHpPHH9YCgOPvSwdIDfECHPDKJmIP7MjuPCHMb9spfpcIU2cSPi2sdySJHMGGPM3wGuDazV2HiKmkijHLqHNHiZFLQim04DGHeBIpUTXCx9X0eGRm-slPeKnNMjN8VHS_0wavMOI5Lr7eg.6m9eomjNV83HWb-m5lxu9l2XhS9mJed0i08PZDsN2do&amp;dib_tag=se&amp;keywords=Travelpro%2BPlatinum%2BElite%2B21-inch&amp;qid=1777570429&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=travelpro%2Bplatinum%2Belite%2B21-inch%2Caps%2C154&amp;sr=8-16&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=3770313e4b81d4e11c96fe7439a28b69&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Travelpro Platinum Elite 21-inch" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Travelpro Platinum Elite 21-inch" data-product-rank="1" data-product-score="87" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -428,7 +448,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>91</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
                                   </div>
 
                               </div>
@@ -437,7 +457,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=ggUTeVlx0mo" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Travelpro Platinum Elite Expandable Carry On Spinner Review! Best Value Carry On Luggage!" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">Pre Travels video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=ggUTeVlx0mo" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Travelpro Platinum Elite Expandable Carry On Spinner Review! Best Value Carry On Luggage!" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">Pre Travels video</a></div>
                                   </div>
 
                               </div>
@@ -445,8 +465,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Travelpro Platinum Elite 21-inch">
-                          <div><span>Proof base</span><strong>6 public sources</strong><p>Expert, YouTube</p></div>
-                          <div><span>Freshness</span><strong>75/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>5 qualifying sources</strong><p>Expert, YouTube</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>Solid</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -460,14 +480,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
                                     <span>Expert review / Best evidence</span>
                                     <b>carry-on luggage review context | Wirecutter</b>
                                     <small>Wirecutter - checked Apr 20, 2026</small>
                                     <em>Wirecutter category testing supports Travelpro Platinum Elite 21-inch as a serious carry-on luggage option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
                                     <span>Expert review</span>
                                     <b>carry-on luggage comparison | Travel + Leisure</b>
                                     <small>Travel + Leisure - checked Apr 20, 2026</small>
@@ -481,14 +501,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=ggUTeVlx0mo" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Travelpro Platinum Elite Expandable Carry On Spinner Review! Best Value Carry On Luggage!" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=ggUTeVlx0mo" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Travelpro Platinum Elite Expandable Carry On Spinner Review! Best Value Carry On Luggage!" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Travelpro Platinum Elite Expandable Carry On Spinner Review! Best Value Carry On Luggage!</b>
                                     <small>Pre Travels - checked May 29, 2026</small>
                                     <em>Pre Travels video review: Travelpro Platinum Elite Expandable Carry On Spinner Review! Best Value Carry On Luggage!</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=TuMnr5Pevaw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Travelpro Platinum Elite Hardside Luggage Review" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=TuMnr5Pevaw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Travelpro Platinum Elite Hardside Luggage Review" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Travelpro Platinum Elite Hardside Luggage Review</b>
                                     <small>UpgradedPoints - checked May 29, 2026</small>
@@ -510,7 +530,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=M5QxKE2EdjI" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Comparison of Travelpro Maxlite 5 and Platinum Elite 21&#34; spinners" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=M5QxKE2EdjI" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Comparison of Travelpro Maxlite 5 and Platinum Elite 21&#34; spinners" data-product-name="Travelpro Platinum Elite 21-inch" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Comparison of Travelpro Maxlite 5 and Platinum Elite 21&#34; spinners</b>
                                     <small>Fred Ganter - checked May 29, 2026</small>
@@ -527,7 +547,7 @@
               </div>
             </article>
 
-            <article class="product" id="briggs-riley-baseline-essential" data-product-name="Briggs &amp; Riley Baseline Essential" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":89,"YouTube":81.7,"Reddit":81.5}' data-decision-tags='["comfort","budget","premium","small-space","everyday","durability"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":58},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":60},"quietUse":{"key":"quietUse","label":"Quiet use","score":48},"portability":{"key":"portability","label":"Portability","score":70},"durability":{"key":"durability","label":"Long-term build","score":70},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":71},"packability":{"key":"packability","label":"Packability","score":92},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":71},"stability":{"key":"stability","label":"Stability","score":59}},"highlights":[{"key":"packability","label":"Packability","score":92},{"key":"premiumBuild","label":"Premium build","score":71},{"key":"comfort","label":"Comfort","score":71}],"ownerSentimentSummary":"Outstanding warranty. Durable materials.","expertSentimentSummary":"2 evidence items. Strongest signal: Wirecutter category testing supports Briggs & Riley Baseline Essential as a serious carry-on luggage option.","biggestStrength":"Outstanding warranty","biggestComplaint":"Very expensive","confidenceLevel":"High","evidenceDepth":82,"recencyStrength":78,"decisionTags":["comfort","budget","premium","small-space","everyday","durability"]}' data-fit-profile="%7B%22id%22%3A%22briggs-riley-baseline-essential%22%2C%22name%22%3A%22Briggs%20%26%20Riley%20Baseline%20Essential%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20premium%20lifetime-warranty%20carry-on%22%2C%22bestFor%22%3A%22Travelers%20who%20want%20maximum%20durability%20and%20warranty%20confidence%22%2C%22avoidIf%22%3A%22You%20want%20a%20lower%20upfront%20price.%22%2C%22biggestStrength%22%3A%22Outstanding%20warranty%22%2C%22biggestComplaint%22%3A%22Very%20expensive%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22budget%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A58%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A70%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A92%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Outstanding%20warranty.%20Durable%20materials.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Briggs%20%26%20Riley%20Baseline%20Essential%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Outstanding%20warranty%22%2C%22biggestComplaint%22%3A%22Very%20expensive%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A82%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22budget%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FBriggs-Riley-Uprights-Baseline-Essential%2Fdp%2FB09Y282JQD%3Fcrid%3D3IP2VKWIPFUHJ%26dib%3DeyJ2IjoiMSJ9.zcmmJSDNCfPSbL-WnAtLR3kTCekOSkELmLTgA1eT1UYzJPqRhdBtVwEn1jhlrweZ0dbM0mOyzpO1e592JaT5u_r6JKErN3fQbW6-S3j534_VDKmQX8zMtt2Kqvf33wsaxWzeJMesGoFk5gvStF_HiYD3wJiaMxi9MP_gbGfwJNBKJ8NCbg0G6cbnAx1Xs5Zx9OmH1JcEgGea-cUZ_KxRgozmWLiMYfP5t6JfO8myDPa8VpQtYjRcfZlEr95akUDSW9XHB6eelKYZ8L8hC2L-MXZOeGhpOjCMkuCmvdi8CoM.FEkvM_EwXY2r0z9sRJEFCljJ-pbuHm8AYwsbDx4_btY%26dib_tag%3Dse%26keywords%3DBriggs%252B%2526%252BRiley%252BBaseline%252BEssential%26qid%3D1777570473%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbriggs%252B%2526%252Briley%252Bbaseline%252Bessential%252Caps%252C469%26sr%3D8-7%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Dbdef559f6c6638fa8aa2d2e0622fcade%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="briggs-riley-baseline-essential" data-product-name="Briggs &amp; Riley Baseline Essential" data-default-score="85" data-editorial-rank="2" data-channel-scores='{"Expert":89,"YouTube":81.7,"Reddit":81.5}' data-fit-profile="%7B%22id%22%3A%22briggs-riley-baseline-essential%22%2C%22name%22%3A%22Briggs%20%26%20Riley%20Baseline%20Essential%22%2C%22rank%22%3A2%2C%22defaultScore%22%3A85%2C%22publicScoreLabel%22%3A%2285%22%2C%22tag%22%3A%22Best%20premium%20lifetime-warranty%20carry-on%22%2C%22bestFor%22%3A%22Travelers%20who%20want%20maximum%20durability%20and%20warranty%20confidence%22%2C%22avoidIf%22%3A%22You%20want%20a%20lower%20upfront%20price.%22%2C%22biggestStrength%22%3A%22Outstanding%20warranty%22%2C%22biggestComplaint%22%3A%22Very%20expensive%22%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%2C%22durability%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A46%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A70%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A92%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A59%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A92%7D%2C%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A71%7D%2C%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A71%7D%5D%2C%22ownerSentimentSummary%22%3A%22Outstanding%20warranty.%20Durable%20materials.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Briggs%20%26%20Riley%20Baseline%20Essential%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Outstanding%20warranty%22%2C%22biggestComplaint%22%3A%22Very%20expensive%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A90%2C%22recencyStrength%22%3A78%2C%22decisionTags%22%3A%5B%22comfort%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%2C%22durability%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FBriggs-Riley-Uprights-Baseline-Essential%2Fdp%2FB09Y282JQD%3Fcrid%3D3IP2VKWIPFUHJ%26dib%3DeyJ2IjoiMSJ9.zcmmJSDNCfPSbL-WnAtLR3kTCekOSkELmLTgA1eT1UYzJPqRhdBtVwEn1jhlrweZ0dbM0mOyzpO1e592JaT5u_r6JKErN3fQbW6-S3j534_VDKmQX8zMtt2Kqvf33wsaxWzeJMesGoFk5gvStF_HiYD3wJiaMxi9MP_gbGfwJNBKJ8NCbg0G6cbnAx1Xs5Zx9OmH1JcEgGea-cUZ_KxRgozmWLiMYfP5t6JfO8myDPa8VpQtYjRcfZlEr95akUDSW9XHB6eelKYZ8L8hC2L-MXZOeGhpOjCMkuCmvdi8CoM.FEkvM_EwXY2r0z9sRJEFCljJ-pbuHm8AYwsbDx4_btY%26dib_tag%3Dse%26keywords%3DBriggs%252B%2526%252BRiley%252BBaseline%252BEssential%26qid%3D1777570473%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbriggs%252B%2526%252Briley%252Bbaseline%252Bessential%252Caps%252C469%26sr%3D8-7%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Dbdef559f6c6638fa8aa2d2e0622fcade%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--lifestyle product-visual--travel product-visual--pack">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Briggs &amp; Riley Baseline Essential, Best premium lifetime-warranty carry-on">
@@ -539,17 +559,20 @@
                 <div class="product-badge-row">
                   <span class="rank-badge">Rank <span data-rank>#2</span></span>
 
-                    <span class="decision-badge">Best Value</span>
-
                     <span class="decision-badge">Comfort Pick</span>
 
                     <span class="decision-badge">Small-Space Pick</span>
+
+                    <span class="decision-badge">Premium Pick</span>
 
                   <span class="recommended-badge" data-recommended-badge hidden>Recommended for you</span>
                 </div>
                 <h2>Briggs &amp; Riley Baseline Essential</h2>
                 <div class="tagline">Best premium lifetime-warranty carry-on</div>
                 <p class="product-verdict"><strong>Our take:</strong> Briggs &amp; Riley Baseline Essential is the best premium lifetime-warranty carry-on for travelers buyers who need maximum durability and warranty confidence. It stands out for outstanding warranty and durable materials.</p>
+
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$699 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
 
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Briggs &amp; Riley Baseline Essential">
@@ -564,9 +587,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Briggs &amp; Riley Baseline Essential">
-                  <strong>85</strong>
-                  <span>Evidence score · 9 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Briggs &amp; Riley Baseline Essential">
+
+                    <strong>85</strong>
+                    <span>Evidence score · 8 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Briggs &amp; Riley Baseline Essential">
@@ -578,17 +603,13 @@
                     <span>Avoid if</span>
                     <p>You want a lower upfront price.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Very expensive</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Briggs &amp; Riley Baseline Essential">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Briggs-Riley-Uprights-Baseline-Essential/dp/B09Y282JQD?crid=3IP2VKWIPFUHJ&amp;dib=eyJ2IjoiMSJ9.zcmmJSDNCfPSbL-WnAtLR3kTCekOSkELmLTgA1eT1UYzJPqRhdBtVwEn1jhlrweZ0dbM0mOyzpO1e592JaT5u_r6JKErN3fQbW6-S3j534_VDKmQX8zMtt2Kqvf33wsaxWzeJMesGoFk5gvStF_HiYD3wJiaMxi9MP_gbGfwJNBKJ8NCbg0G6cbnAx1Xs5Zx9OmH1JcEgGea-cUZ_KxRgozmWLiMYfP5t6JfO8myDPa8VpQtYjRcfZlEr95akUDSW9XHB6eelKYZ8L8hC2L-MXZOeGhpOjCMkuCmvdi8CoM.FEkvM_EwXY2r0z9sRJEFCljJ-pbuHm8AYwsbDx4_btY&amp;dib_tag=se&amp;keywords=Briggs%2B%26%2BRiley%2BBaseline%2BEssential&amp;qid=1777570473&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=briggs%2B%26%2Briley%2Bbaseline%2Bessential%2Caps%2C469&amp;sr=8-7&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=bdef559f6c6638fa8aa2d2e0622fcade&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Briggs &amp; Riley Baseline Essential" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Briggs-Riley-Uprights-Baseline-Essential/dp/B09Y282JQD?crid=3IP2VKWIPFUHJ&amp;dib=eyJ2IjoiMSJ9.zcmmJSDNCfPSbL-WnAtLR3kTCekOSkELmLTgA1eT1UYzJPqRhdBtVwEn1jhlrweZ0dbM0mOyzpO1e592JaT5u_r6JKErN3fQbW6-S3j534_VDKmQX8zMtt2Kqvf33wsaxWzeJMesGoFk5gvStF_HiYD3wJiaMxi9MP_gbGfwJNBKJ8NCbg0G6cbnAx1Xs5Zx9OmH1JcEgGea-cUZ_KxRgozmWLiMYfP5t6JfO8myDPa8VpQtYjRcfZlEr95akUDSW9XHB6eelKYZ8L8hC2L-MXZOeGhpOjCMkuCmvdi8CoM.FEkvM_EwXY2r0z9sRJEFCljJ-pbuHm8AYwsbDx4_btY&amp;dib_tag=se&amp;keywords=Briggs%2B%26%2BRiley%2BBaseline%2BEssential&amp;qid=1777570473&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=briggs%2B%26%2Briley%2Bbaseline%2Bessential%2Caps%2C469&amp;sr=8-7&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=bdef559f6c6638fa8aa2d2e0622fcade&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Briggs &amp; Riley Baseline Essential" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Briggs &amp; Riley Baseline Essential" data-product-rank="2" data-product-score="85" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -607,7 +628,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>89</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
                                   </div>
 
                               </div>
@@ -616,7 +637,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>81.7</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=g5Xfvzt8SsQ" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Briggs &amp; Riley Essential 22 Review | 21.Five Podcast" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">21Five Podcast video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=g5Xfvzt8SsQ" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Briggs &amp; Riley Essential 22 Review | 21.Five Podcast" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">21Five Podcast video</a></div>
                                   </div>
 
                               </div>
@@ -625,7 +646,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>81.5</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/HerOneBag/comments/1oyuudb/lightweight_carryon_spinner_comparison/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Lightweight carry-on spinner comparison" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">r/HerOneBag thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/HerOneBag/comments/1oyuudb/lightweight_carryon_spinner_comparison/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Lightweight carry-on spinner comparison" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">r/HerOneBag thread</a></div>
                                   </div>
 
                               </div>
@@ -633,8 +654,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Briggs &amp; Riley Baseline Essential">
-                          <div><span>Proof base</span><strong>9 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>78/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>8 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -648,14 +669,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Expert review / Best evidence</span>
                                     <b>carry-on luggage review context | Wirecutter</b>
                                     <small>Wirecutter - checked Apr 20, 2026</small>
                                     <em>Wirecutter category testing supports Briggs &amp; Riley Baseline Essential as a serious carry-on luggage option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Expert review</span>
                                     <b>carry-on luggage comparison | Travel + Leisure</b>
                                     <small>Travel + Leisure - checked Apr 20, 2026</small>
@@ -669,14 +690,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=g5Xfvzt8SsQ" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Briggs &amp; Riley Essential 22 Review | 21.Five Podcast" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=g5Xfvzt8SsQ" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Briggs &amp; Riley Essential 22 Review | 21.Five Podcast" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Briggs &amp; Riley Essential 22 Review | 21.Five Podcast</b>
                                     <small>21Five Podcast - checked May 29, 2026</small>
                                     <em>21Five Podcast video review: Briggs &amp; Riley Essential 22 Review | 21.Five Podcast</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=N6YwwEUm1T8" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Briggs &amp; Riley Uprights, Black, 22-inch Baseline Essential Carry-On (Review)" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=N6YwwEUm1T8" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Briggs &amp; Riley Uprights, Black, 22-inch Baseline Essential Carry-On (Review)" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Briggs &amp; Riley Uprights, Black, 22-inch Baseline Essential Carry-On (Review)</b>
                                     <small>KevRev Finds - checked May 29, 2026</small>
@@ -690,7 +711,7 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/ManyBaggers/comments/1p8ycbv/help_me_pick_a_new_carry_on/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Help Me Pick a New Carry On" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.reddit.com/r/ManyBaggers/comments/1p8ycbv/help_me_pick_a_new_carry_on/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Help Me Pick a New Carry On" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Help Me Pick a New Carry On</b>
                                     <small>r/ManyBaggers thread by blounsbury - checked Apr 22, 2026</small>
@@ -712,7 +733,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=QoyTll78vRw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Not Worth the Weight | Briggs and Riley Baseline Softside Suitcase Review (Large Check Luggage)" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=QoyTll78vRw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Not Worth the Weight | Briggs and Riley Baseline Softside Suitcase Review (Large Check Luggage)" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Not Worth the Weight | Briggs and Riley Baseline Softside Suitcase Review (Large Check Luggage)</b>
                                     <small>O&#39;Round the World - checked May 29, 2026</small>
@@ -726,14 +747,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/HerOneBag/comments/1oyuudb/lightweight_carryon_spinner_comparison/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Lightweight carry-on spinner comparison" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.reddit.com/r/HerOneBag/comments/1oyuudb/lightweight_carryon_spinner_comparison/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Lightweight carry-on spinner comparison" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Lightweight carry-on spinner comparison</b>
                                     <small>r/HerOneBag thread by embryoconcepts - checked Apr 22, 2026</small>
                                     <em>r/HerOneBag thread adds owner cautions around Briggs &amp; Riley Baseline Essential: Lightweight carry-on spinner comparison.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/onebag/comments/1bts7h9/best_carryon_for_suitshanging_clothesbusiness_trip/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Best Carryon for Suits/Hanging Clothes/Business Trip?" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.reddit.com/r/onebag/comments/1bts7h9/best_carryon_for_suitshanging_clothesbusiness_trip/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Best Carryon for Suits/Hanging Clothes/Business Trip?" data-product-name="Briggs &amp; Riley Baseline Essential" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Best Carryon for Suits/Hanging Clothes/Business Trip?</b>
                                     <small>r/onebag thread by robbjunk9999 - checked Apr 22, 2026</small>
@@ -750,7 +771,7 @@
               </div>
             </article>
 
-            <article class="product" id="away-bigger-carry-on" data-product-name="Away Bigger Carry-On" data-default-score="83" data-editorial-rank="3" data-channel-scores='{"Expert":84,"YouTube":82,"Reddit":82.6}' data-decision-tags='["performance","small-space","everyday"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":48},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":60},"quietUse":{"key":"quietUse","label":"Quiet use","score":48},"portability":{"key":"portability","label":"Portability","score":70},"durability":{"key":"durability","label":"Long-term build","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":59},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":48},"packability":{"key":"packability","label":"Packability","score":81},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":48},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"packability","label":"Packability","score":81},{"key":"portability","label":"Portability","score":70},{"key":"smallSpace","label":"Small-space fit","score":60}],"ownerSentimentSummary":"Clean design. Good direct-to-consumer experience.","expertSentimentSummary":"2 evidence items. Strongest signal: Wirecutter category testing supports Away Bigger Carry-On as a serious carry-on luggage option.","biggestStrength":"Clean design","biggestComplaint":"Size can be risky on some airlines","confidenceLevel":"High","evidenceDepth":84,"recencyStrength":83,"decisionTags":["performance","small-space","everyday"]}' data-fit-profile="%7B%22id%22%3A%22away-bigger-carry-on%22%2C%22name%22%3A%22Away%20Bigger%20Carry-On%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20hard-shell%20mainstream%20pick%22%2C%22bestFor%22%3A%22Travelers%20who%20want%20a%20polished%20hard%20shell%20and%20simple%20buying%20experience%22%2C%22avoidIf%22%3A%22You%20fly%20strict%20international%20carriers%20often.%22%2C%22biggestStrength%22%3A%22Clean%20design%22%2C%22biggestComplaint%22%3A%22Size%20can%20be%20risky%20on%20some%20airlines%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22small-space%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A48%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%5D%2C%22ownerSentimentSummary%22%3A%22Clean%20design.%20Good%20direct-to-consumer%20experience.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Away%20Bigger%20Carry-On%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Clean%20design%22%2C%22biggestComplaint%22%3A%22Size%20can%20be%20risky%20on%20some%20airlines%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A84%2C%22recencyStrength%22%3A83%2C%22decisionTags%22%3A%5B%22performance%22%2C%22small-space%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FAway-Lightweight-Hardside-Suitcase-Approved%2Fdp%2FB0DLJF5V75%3Fcrid%3D3GRQIKKT3DYN3%26dib%3DeyJ2IjoiMSJ9.pJ2D_j2VVYCuHs9U3ZziETnoQ9JaH3Vmw0vaEAWn68gvvHPV7CJynFgFTWT6MnnHqDuklZPc15rk9n93gawAiGMm155EePp_DDWrtEt9M0xUD8P6nW2n0Uo1cEzSwlSh_PZ7yyIXmnT7412UnnuP-IQHeBmAy2naZC3wir7WP0fKLqCaRDXGL9Zf4AvVp7fCRbdPA4yTGPCRjrDtNoeA9dYpDH1K3g6xNI8Allw0OiEYk24ojmX0HWvPIinWrwfRBbbYUQg1yoAzer03qQ9G_ok4sSBJqpJRfrJdTEwW1F4.TsoJs8pRr7naAAcKPdXuL5OhsCFDZxZ_AL6c77pzCAY%26dib_tag%3Dse%26keywords%3DAway%252BBigger%252BCarry-On%26qid%3D1777570508%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Daway%252Bbigger%252Bcarry-on%252Caps%252C208%26sr%3D8-7%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Df1453be0b39b83d2c6a0fb98d95d8eed%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="away-bigger-carry-on" data-product-name="Away Bigger Carry-On" data-default-score="83" data-editorial-rank="3" data-channel-scores='{"Expert":84,"YouTube":82,"Reddit":82.6}' data-fit-profile="%7B%22id%22%3A%22away-bigger-carry-on%22%2C%22name%22%3A%22Away%20Bigger%20Carry-On%22%2C%22rank%22%3A3%2C%22defaultScore%22%3A83%2C%22publicScoreLabel%22%3A%2283%22%2C%22tag%22%3A%22Best%20hard-shell%20mainstream%20pick%22%2C%22bestFor%22%3A%22Travelers%20who%20want%20a%20polished%20hard%20shell%20and%20simple%20buying%20experience%22%2C%22avoidIf%22%3A%22You%20fly%20strict%20international%20carriers%20often.%22%2C%22biggestStrength%22%3A%22Clean%20design%22%2C%22biggestComplaint%22%3A%22Size%20can%20be%20risky%20on%20some%20airlines%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22small-space%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A59%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A48%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%5D%2C%22ownerSentimentSummary%22%3A%22Clean%20design.%20Good%20direct-to-consumer%20experience.%22%2C%22expertSentimentSummary%22%3A%222%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Away%20Bigger%20Carry-On%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Clean%20design%22%2C%22biggestComplaint%22%3A%22Size%20can%20be%20risky%20on%20some%20airlines%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A94%2C%22recencyStrength%22%3A83%2C%22decisionTags%22%3A%5B%22performance%22%2C%22small-space%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FAway-Lightweight-Hardside-Suitcase-Approved%2Fdp%2FB0DLJF5V75%3Fcrid%3D3GRQIKKT3DYN3%26dib%3DeyJ2IjoiMSJ9.pJ2D_j2VVYCuHs9U3ZziETnoQ9JaH3Vmw0vaEAWn68gvvHPV7CJynFgFTWT6MnnHqDuklZPc15rk9n93gawAiGMm155EePp_DDWrtEt9M0xUD8P6nW2n0Uo1cEzSwlSh_PZ7yyIXmnT7412UnnuP-IQHeBmAy2naZC3wir7WP0fKLqCaRDXGL9Zf4AvVp7fCRbdPA4yTGPCRjrDtNoeA9dYpDH1K3g6xNI8Allw0OiEYk24ojmX0HWvPIinWrwfRBbbYUQg1yoAzer03qQ9G_ok4sSBJqpJRfrJdTEwW1F4.TsoJs8pRr7naAAcKPdXuL5OhsCFDZxZ_AL6c77pzCAY%26dib_tag%3Dse%26keywords%3DAway%252BBigger%252BCarry-On%26qid%3D1777570508%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Daway%252Bbigger%252Bcarry-on%252Caps%252C208%26sr%3D8-7%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Df1453be0b39b83d2c6a0fb98d95d8eed%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--lifestyle product-visual--travel product-visual--soft">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Away Bigger Carry-On, Best hard-shell mainstream pick">
@@ -772,6 +793,9 @@
                 <div class="tagline">Best hard-shell mainstream pick</div>
                 <p class="product-verdict"><strong>Our take:</strong> Away Bigger Carry-On is the best hard-shell mainstream pick for travelers buyers who need a polished hard shell and simple buying experience. It stands out for clean design and good direct-to-consumer experience.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$295 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Away Bigger Carry-On">
                     <li>Polycarbonate shell</li><li>Spinner wheels</li><li>Compression system</li><li>Laundry bag</li>
@@ -785,9 +809,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Away Bigger Carry-On">
-                  <strong>83</strong>
-                  <span>Evidence score · 11 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Away Bigger Carry-On">
+
+                    <strong>83</strong>
+                    <span>Evidence score · 10 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Away Bigger Carry-On">
@@ -799,17 +825,13 @@
                     <span>Avoid if</span>
                     <p>You fly strict international carriers often.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Size can be risky on some airlines</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Away Bigger Carry-On">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Away-Lightweight-Hardside-Suitcase-Approved/dp/B0DLJF5V75?crid=3GRQIKKT3DYN3&amp;dib=eyJ2IjoiMSJ9.pJ2D_j2VVYCuHs9U3ZziETnoQ9JaH3Vmw0vaEAWn68gvvHPV7CJynFgFTWT6MnnHqDuklZPc15rk9n93gawAiGMm155EePp_DDWrtEt9M0xUD8P6nW2n0Uo1cEzSwlSh_PZ7yyIXmnT7412UnnuP-IQHeBmAy2naZC3wir7WP0fKLqCaRDXGL9Zf4AvVp7fCRbdPA4yTGPCRjrDtNoeA9dYpDH1K3g6xNI8Allw0OiEYk24ojmX0HWvPIinWrwfRBbbYUQg1yoAzer03qQ9G_ok4sSBJqpJRfrJdTEwW1F4.TsoJs8pRr7naAAcKPdXuL5OhsCFDZxZ_AL6c77pzCAY&amp;dib_tag=se&amp;keywords=Away%2BBigger%2BCarry-On&amp;qid=1777570508&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=away%2Bbigger%2Bcarry-on%2Caps%2C208&amp;sr=8-7&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=f1453be0b39b83d2c6a0fb98d95d8eed&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Away Bigger Carry-On" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Away-Lightweight-Hardside-Suitcase-Approved/dp/B0DLJF5V75?crid=3GRQIKKT3DYN3&amp;dib=eyJ2IjoiMSJ9.pJ2D_j2VVYCuHs9U3ZziETnoQ9JaH3Vmw0vaEAWn68gvvHPV7CJynFgFTWT6MnnHqDuklZPc15rk9n93gawAiGMm155EePp_DDWrtEt9M0xUD8P6nW2n0Uo1cEzSwlSh_PZ7yyIXmnT7412UnnuP-IQHeBmAy2naZC3wir7WP0fKLqCaRDXGL9Zf4AvVp7fCRbdPA4yTGPCRjrDtNoeA9dYpDH1K3g6xNI8Allw0OiEYk24ojmX0HWvPIinWrwfRBbbYUQg1yoAzer03qQ9G_ok4sSBJqpJRfrJdTEwW1F4.TsoJs8pRr7naAAcKPdXuL5OhsCFDZxZ_AL6c77pzCAY&amp;dib_tag=se&amp;keywords=Away%2BBigger%2BCarry-On&amp;qid=1777570508&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=away%2Bbigger%2Bcarry-on%2Caps%2C208&amp;sr=8-7&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=f1453be0b39b83d2c6a0fb98d95d8eed&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Away Bigger Carry-On" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Away Bigger Carry-On" data-product-rank="3" data-product-score="83" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -828,7 +850,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>84</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
                                   </div>
 
                               </div>
@@ -837,7 +859,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=gDAJRR1XJ40" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="7 years and 500 flight review of the Away Travel Bigger Carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">Phone Case Guy video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=gDAJRR1XJ40" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="7 years and 500 flight review of the Away Travel Bigger Carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">Phone Case Guy video</a></div>
                                   </div>
 
                               </div>
@@ -846,7 +868,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>82.6</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/SouthwestAirlines/comments/1r2gadc/away_bigger_carry_on/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away bigger carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">r/SouthwestAirlines thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/SouthwestAirlines/comments/1r2gadc/away_bigger_carry_on/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away bigger carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">r/SouthwestAirlines thread</a></div>
                                   </div>
 
                               </div>
@@ -854,8 +876,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Away Bigger Carry-On">
-                          <div><span>Proof base</span><strong>11 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>83/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>10 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -869,14 +891,14 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Expert review / Best evidence</span>
                                     <b>carry-on luggage review context | Wirecutter</b>
                                     <small>Wirecutter - checked Apr 20, 2026</small>
                                     <em>Wirecutter category testing supports Away Bigger Carry-On as a serious carry-on luggage option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Expert review</span>
                                     <b>carry-on luggage comparison | Travel + Leisure</b>
                                     <small>Travel + Leisure - checked Apr 20, 2026</small>
@@ -890,14 +912,14 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=gDAJRR1XJ40" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="7 years and 500 flight review of the Away Travel Bigger Carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=gDAJRR1XJ40" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="7 years and 500 flight review of the Away Travel Bigger Carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>7 years and 500 flight review of the Away Travel Bigger Carry on</b>
                                     <small>Phone Case Guy - checked May 29, 2026</small>
                                     <em>Phone Case Guy video review: 7 years and 500 flight review of the Away Travel Bigger Carry on</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=Ji2is0ZXXn0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Away Topside Carry On Review! Is it a Hit or A Miss?? UNSPONSORED" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=Ji2is0ZXXn0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Away Topside Carry On Review! Is it a Hit or A Miss?? UNSPONSORED" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Away Topside Carry On Review! Is it a Hit or A Miss?? UNSPONSORED</b>
                                     <small>Joyful Living with Jen Lefforge - checked May 29, 2026</small>
@@ -911,21 +933,21 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/ManyBaggers/comments/1ppd27b/not_satisfied_with_away_bigger_carryon_any/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Not Satisfied with Away Bigger Carry-On. Any Alternative?" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.reddit.com/r/ManyBaggers/comments/1ppd27b/not_satisfied_with_away_bigger_carryon_any/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Not Satisfied with Away Bigger Carry-On. Any Alternative?" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Not Satisfied with Away Bigger Carry-On. Any Alternative?</b>
                                     <small>r/ManyBaggers thread by risoles - checked Apr 22, 2026</small>
                                     <em>r/ManyBaggers thread adds owner feedback around Away Bigger Carry-On: Not Satisfied with Away Bigger Carry-On. Any Alternative?.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/AerLingus/comments/1sq1606/away_bigger_carry_on_rdu_to_dublin/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away bigger Carry on RDU to Dublin" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.reddit.com/r/AerLingus/comments/1sq1606/away_bigger_carry_on_rdu_to_dublin/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away bigger Carry on RDU to Dublin" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Away bigger Carry on RDU to Dublin</b>
                                     <small>r/AerLingus thread by HokieMama89 - checked Apr 22, 2026</small>
                                     <em>r/AerLingus thread adds owner feedback around Away Bigger Carry-On: Away bigger Carry on RDU to Dublin.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/peakdesign/comments/1j42x5k/anyone_that_has_the_away_carryon_or_away_bigger/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Anyone that has the Away Carry-On or Away Bigger Carry-On have thoughts on how this bag seems to compare?" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.reddit.com/r/peakdesign/comments/1j42x5k/anyone_that_has_the_away_carryon_or_away_bigger/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Anyone that has the Away Carry-On or Away Bigger Carry-On have thoughts on how this bag seems to compare?" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Anyone that has the Away Carry-On or Away Bigger Carry-On have thoughts on how this bag seems to compare?</b>
                                     <small>r/peakdesign thread by nagol3 - checked Apr 22, 2026</small>
@@ -947,7 +969,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=yOQOAzq_5vw" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Away Bigger Carry On vs Regular Luggage - How to Choose" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=yOQOAzq_5vw" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Away Bigger Carry On vs Regular Luggage - How to Choose" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Away Bigger Carry On vs Regular Luggage - How to Choose</b>
                                     <small>Justin Reviews - checked May 29, 2026</small>
@@ -961,14 +983,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/SouthwestAirlines/comments/1r2gadc/away_bigger_carry_on/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away bigger carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.reddit.com/r/SouthwestAirlines/comments/1r2gadc/away_bigger_carry_on/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away bigger carry on" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Away bigger carry on</b>
                                     <small>r/SouthwestAirlines thread by devotion1023 - checked Apr 22, 2026</small>
                                     <em>r/SouthwestAirlines thread adds owner cautions around Away Bigger Carry-On: Away bigger carry on.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/americanairlines/comments/1mcywmq/away_bigger_carryon_ok_on_american_airlines_as/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away “Bigger Carry-On” OK on American Airlines as Carry-On?" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.reddit.com/r/americanairlines/comments/1mcywmq/away_bigger_carryon_ok_on_american_airlines_as/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Away “Bigger Carry-On” OK on American Airlines as Carry-On?" data-product-name="Away Bigger Carry-On" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Away “Bigger Carry-On” OK on American Airlines as Carry-On?</b>
                                     <small>r/americanairlines thread by ElectronicSink7 - checked Apr 22, 2026</small>
@@ -985,7 +1007,7 @@
               </div>
             </article>
 
-            <article class="product" id="monos-carry-on-pro" data-product-name="Monos Carry-On Pro" data-default-score="82" data-editorial-rank="4" data-channel-scores='{"Expert":82,"YouTube":82.8,"Reddit":82}' data-decision-tags='["performance","premium","small-space","everyday"]' data-decision-graph='{"attributes":{"dailyVersatility":{"key":"dailyVersatility","label":"Daily versatility","score":48},"value":{"key":"value","label":"Price fit","score":48},"smallSpace":{"key":"smallSpace","label":"Small-space fit","score":60},"quietUse":{"key":"quietUse","label":"Quiet use","score":48},"portability":{"key":"portability","label":"Portability","score":70},"durability":{"key":"durability","label":"Long-term build","score":48},"easeOfUse":{"key":"easeOfUse","label":"Ease of use","score":48},"premiumBuild":{"key":"premiumBuild","label":"Premium build","score":82},"packability":{"key":"packability","label":"Packability","score":81},"airCleaning":{"key":"airCleaning","label":"Air cleaning","score":48},"flavorTolerance":{"key":"flavorTolerance","label":"Flavor tolerance","score":48},"comfort":{"key":"comfort","label":"Comfort","score":48},"stability":{"key":"stability","label":"Stability","score":48}},"highlights":[{"key":"premiumBuild","label":"Premium build","score":82},{"key":"packability","label":"Packability","score":81},{"key":"portability","label":"Portability","score":70}],"ownerSentimentSummary":"Laptop-friendly front pocket. Premium look.","expertSentimentSummary":"3 evidence items. Strongest signal: Wirecutter category testing supports Monos Carry-On Pro as a serious carry-on luggage option.","biggestStrength":"Laptop-friendly front pocket","biggestComplaint":"Front pocket reduces capacity","confidenceLevel":"High","evidenceDepth":82,"recencyStrength":68,"decisionTags":["performance","premium","small-space","everyday"]}' data-fit-profile="%7B%22id%22%3A%22monos-carry-on-pro%22%2C%22name%22%3A%22Monos%20Carry-On%20Pro%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A82%2C%22publicScoreLabel%22%3A%2282%22%2C%22tag%22%3A%22Best%20hard%20shell%20with%20front%20pocket%22%2C%22bestFor%22%3A%22Laptop%20travelers%20who%20want%20a%20hard%20shell%20plus%20quick-access%20front%20storage%22%2C%22avoidIf%22%3A%22You%20need%20maximum%20interior%20capacity.%22%2C%22biggestStrength%22%3A%22Laptop-friendly%20front%20pocket%22%2C%22biggestComplaint%22%3A%22Front%20pocket%20reduces%20capacity%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Laptop-friendly%20front%20pocket.%20Premium%20look.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Monos%20Carry-On%20Pro%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Laptop-friendly%20front%20pocket%22%2C%22biggestComplaint%22%3A%22Front%20pocket%20reduces%20capacity%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A82%2C%22recencyStrength%22%3A68%2C%22decisionTags%22%3A%5B%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLuggage-Hardside-Spinner-Suitcase-Approved%2Fdp%2FB0DW9CJDN5%3Fcrid%3D3KUNZ8ZWMDBF4%26dib%3DeyJ2IjoiMSJ9.6G2Hs5tyZP0hlGncQeyMncCEcEOLP3Tj9PkZXxyPP8HVzXyn2RRH6xKG3NZLYjnD5xRNNJUTXdgYrhUiQV3gfToK4V_P0Takp-3yy3NOpEkI8G9mgVKk-b9UxhCCJAtckBbDaoYK4L0pP9sYLS9KuwlLxfzAhmWiaA_LC_Wh_BbgzP8sEDJpklV2WnS3tATns4bZb_esq2XhQtRohJMsHOvdTfptZLCNz9tnVUMj6IVzbr5trL_feBi8NoDPvAc_f7MIS86065F_gfD2dNjTzfjxcoQBSuy-VPUV4r1bH8A.uk5LbU_5UxhS70CYI5EC8I2Qp-hsn5u-VsrG41OzzGA%26dib_tag%3Dse%26keywords%3DMonos%252BCarry-On%252BPro%26qid%3D1777570531%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dmonos%252Bcarry-on%252Bpro%252Caps%252C415%26sr%3D8-7%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Da8f79c0bcc6a3a964eb9840bd8bb1657%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
+            <article class="product" id="monos-carry-on-pro" data-product-name="Monos Carry-On Pro" data-default-score="82" data-editorial-rank="4" data-channel-scores='{"Expert":82,"YouTube":82.8,"Reddit":82}' data-fit-profile="%7B%22id%22%3A%22monos-carry-on-pro%22%2C%22name%22%3A%22Monos%20Carry-On%20Pro%22%2C%22rank%22%3A4%2C%22defaultScore%22%3A82%2C%22publicScoreLabel%22%3A%2282%22%2C%22tag%22%3A%22Best%20hard%20shell%20with%20front%20pocket%22%2C%22bestFor%22%3A%22Laptop%20travelers%20who%20want%20a%20hard%20shell%20plus%20quick-access%20front%20storage%22%2C%22avoidIf%22%3A%22You%20need%20maximum%20interior%20capacity.%22%2C%22biggestStrength%22%3A%22Laptop-friendly%20front%20pocket%22%2C%22biggestComplaint%22%3A%22Front%20pocket%20reduces%20capacity%22%2C%22decisionTags%22%3A%5B%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%2C%22attributeGraph%22%3A%7B%22attributes%22%3A%7B%22dailyVersatility%22%3A%7B%22key%22%3A%22dailyVersatility%22%2C%22label%22%3A%22Daily%20versatility%22%2C%22score%22%3A48%7D%2C%22value%22%3A%7B%22key%22%3A%22value%22%2C%22label%22%3A%22Price%20fit%22%2C%22score%22%3A48%7D%2C%22smallSpace%22%3A%7B%22key%22%3A%22smallSpace%22%2C%22label%22%3A%22Small-space%20fit%22%2C%22score%22%3A60%7D%2C%22quietUse%22%3A%7B%22key%22%3A%22quietUse%22%2C%22label%22%3A%22Quiet%20use%22%2C%22score%22%3A48%7D%2C%22portability%22%3A%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%2C%22durability%22%3A%7B%22key%22%3A%22durability%22%2C%22label%22%3A%22Long-term%20build%22%2C%22score%22%3A48%7D%2C%22easeOfUse%22%3A%7B%22key%22%3A%22easeOfUse%22%2C%22label%22%3A%22Ease%20of%20use%22%2C%22score%22%3A48%7D%2C%22premiumBuild%22%3A%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%22packability%22%3A%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%22airCleaning%22%3A%7B%22key%22%3A%22airCleaning%22%2C%22label%22%3A%22Air%20cleaning%22%2C%22score%22%3A48%7D%2C%22flavorTolerance%22%3A%7B%22key%22%3A%22flavorTolerance%22%2C%22label%22%3A%22Flavor%20tolerance%22%2C%22score%22%3A48%7D%2C%22comfort%22%3A%7B%22key%22%3A%22comfort%22%2C%22label%22%3A%22Comfort%22%2C%22score%22%3A48%7D%2C%22stability%22%3A%7B%22key%22%3A%22stability%22%2C%22label%22%3A%22Stability%22%2C%22score%22%3A48%7D%7D%2C%22highlights%22%3A%5B%7B%22key%22%3A%22premiumBuild%22%2C%22label%22%3A%22Premium%20build%22%2C%22score%22%3A82%7D%2C%7B%22key%22%3A%22packability%22%2C%22label%22%3A%22Packability%22%2C%22score%22%3A81%7D%2C%7B%22key%22%3A%22portability%22%2C%22label%22%3A%22Portability%22%2C%22score%22%3A70%7D%5D%2C%22ownerSentimentSummary%22%3A%22Laptop-friendly%20front%20pocket.%20Premium%20look.%22%2C%22expertSentimentSummary%22%3A%223%20evidence%20items.%20Strongest%20signal%3A%20Wirecutter%20category%20testing%20supports%20Monos%20Carry-On%20Pro%20as%20a%20serious%20carry-on%20luggage%20option.%22%2C%22biggestStrength%22%3A%22Laptop-friendly%20front%20pocket%22%2C%22biggestComplaint%22%3A%22Front%20pocket%20reduces%20capacity%22%2C%22confidenceLevel%22%3A%22High%22%2C%22evidenceDepth%22%3A94%2C%22recencyStrength%22%3A68%2C%22decisionTags%22%3A%5B%22performance%22%2C%22premium%22%2C%22small-space%22%2C%22everyday%22%5D%7D%2C%22shoppingUrl%22%3A%22https%3A%2F%2Fwww.amazon.com%2FLuggage-Hardside-Spinner-Suitcase-Approved%2Fdp%2FB0DW9CJDN5%3Fcrid%3D3KUNZ8ZWMDBF4%26dib%3DeyJ2IjoiMSJ9.6G2Hs5tyZP0hlGncQeyMncCEcEOLP3Tj9PkZXxyPP8HVzXyn2RRH6xKG3NZLYjnD5xRNNJUTXdgYrhUiQV3gfToK4V_P0Takp-3yy3NOpEkI8G9mgVKk-b9UxhCCJAtckBbDaoYK4L0pP9sYLS9KuwlLxfzAhmWiaA_LC_Wh_BbgzP8sEDJpklV2WnS3tATns4bZb_esq2XhQtRohJMsHOvdTfptZLCNz9tnVUMj6IVzbr5trL_feBi8NoDPvAc_f7MIS86065F_gfD2dNjTzfjxcoQBSuy-VPUV4r1bH8A.uk5LbU_5UxhS70CYI5EC8I2Qp-hsn5u-VsrG41OzzGA%26dib_tag%3Dse%26keywords%3DMonos%252BCarry-On%252BPro%26qid%3D1777570531%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dmonos%252Bcarry-on%252Bpro%252Caps%252C415%26sr%3D8-7%26th%3D1%26linkCode%3Dll2%26tag%3Dphavai7311-20%26linkId%3Da8f79c0bcc6a3a964eb9840bd8bb1657%26language%3Den_US%26ref_%3Das_li_ss_tl%22%2C%22shoppingLabel%22%3A%22Check%20price%20at%20Amazon%22%2C%22retailerName%22%3A%22Amazon%22%7D">
               <div class="product-media product-media--lifestyle product-visual--travel product-visual--suitcase">
 
                   <div class="product-visual-frame" role="img" aria-label="Brand-neutral illustration representing Monos Carry-On Pro, Best hard shell with front pocket">
@@ -1009,6 +1031,9 @@
                 <div class="tagline">Best hard shell with front pocket</div>
                 <p class="product-verdict"><strong>Our take:</strong> Monos Carry-On Pro is the best hard shell with front pocket for laptop travelers buyers who need a hard shell plus quick-access front storage. It stands out for laptop-friendly front pocket and premium look.</p>
 
+                  <div class="product-price-reference"><span>Typical price reference</span><strong>$295 typical retail</strong><small>Stored reference only; confirm the current price, exact model, and returns at the retailer.</small></div>
+
+
 
                   <ul class="spec-list product-spec-list" aria-label="Key specifications for Monos Carry-On Pro">
                     <li>Polycarbonate shell</li><li>Front compartment</li><li>Spinner wheels</li><li>Compression straps</li>
@@ -1022,9 +1047,11 @@
                   </div>
 
 
-                <div class="product-score-summary" aria-label="Evidence score for Monos Carry-On Pro">
-                  <strong>82</strong>
-                  <span>Evidence score · 12 public sources</span>
+                <div class="product-score-summary" aria-label="Evidence status for Monos Carry-On Pro">
+
+                    <strong>82</strong>
+                    <span>Evidence score · 11 qualifying public sources</span>
+
                 </div>
 
                 <div class="mini-decision-grid" aria-label="Quick decision notes for Monos Carry-On Pro">
@@ -1036,17 +1063,13 @@
                     <span>Avoid if</span>
                     <p>You need maximum interior capacity.</p>
                   </div>
-                  <div>
-                    <span>Key tradeoff</span>
-                    <p>Front pocket reduces capacity</p>
-                  </div>
                 </div>
 
 
                   <p class="inline-affiliate-disclosure product-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
                   <div class="shopping-button-group" aria-label="Shopping options for Monos Carry-On Pro">
 
-                      <a class="button shopping-button" href="https://www.amazon.com/Luggage-Hardside-Spinner-Suitcase-Approved/dp/B0DW9CJDN5?crid=3KUNZ8ZWMDBF4&amp;dib=eyJ2IjoiMSJ9.6G2Hs5tyZP0hlGncQeyMncCEcEOLP3Tj9PkZXxyPP8HVzXyn2RRH6xKG3NZLYjnD5xRNNJUTXdgYrhUiQV3gfToK4V_P0Takp-3yy3NOpEkI8G9mgVKk-b9UxhCCJAtckBbDaoYK4L0pP9sYLS9KuwlLxfzAhmWiaA_LC_Wh_BbgzP8sEDJpklV2WnS3tATns4bZb_esq2XhQtRohJMsHOvdTfptZLCNz9tnVUMj6IVzbr5trL_feBi8NoDPvAc_f7MIS86065F_gfD2dNjTzfjxcoQBSuy-VPUV4r1bH8A.uk5LbU_5UxhS70CYI5EC8I2Qp-hsn5u-VsrG41OzzGA&amp;dib_tag=se&amp;keywords=Monos%2BCarry-On%2BPro&amp;qid=1777570531&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=monos%2Bcarry-on%2Bpro%2Caps%2C415&amp;sr=8-7&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=a8f79c0bcc6a3a964eb9840bd8bb1657&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Monos Carry-On Pro" data-product-rank="4" data-product-score="82" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
+                      <a class="button shopping-button" href="https://www.amazon.com/Luggage-Hardside-Spinner-Suitcase-Approved/dp/B0DW9CJDN5?crid=3KUNZ8ZWMDBF4&amp;dib=eyJ2IjoiMSJ9.6G2Hs5tyZP0hlGncQeyMncCEcEOLP3Tj9PkZXxyPP8HVzXyn2RRH6xKG3NZLYjnD5xRNNJUTXdgYrhUiQV3gfToK4V_P0Takp-3yy3NOpEkI8G9mgVKk-b9UxhCCJAtckBbDaoYK4L0pP9sYLS9KuwlLxfzAhmWiaA_LC_Wh_BbgzP8sEDJpklV2WnS3tATns4bZb_esq2XhQtRohJMsHOvdTfptZLCNz9tnVUMj6IVzbr5trL_feBi8NoDPvAc_f7MIS86065F_gfD2dNjTzfjxcoQBSuy-VPUV4r1bH8A.uk5LbU_5UxhS70CYI5EC8I2Qp-hsn5u-VsrG41OzzGA&amp;dib_tag=se&amp;keywords=Monos%2BCarry-On%2BPro&amp;qid=1777570531&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=monos%2Bcarry-on%2Bpro%2Caps%2C415&amp;sr=8-7&amp;th=1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=a8f79c0bcc6a3a964eb9840bd8bb1657&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Monos Carry-On Pro" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Carry-On Luggage" data-section="Lifestyle" data-product-name="Monos Carry-On Pro" data-product-rank="4" data-product-score="82" data-shopping-label="Check price at Amazon" data-shopping-placement="product-card">Check price at Amazon</a>
 
                   </div>
 
@@ -1065,7 +1088,7 @@
                                 <div class="signal-score-head"><span>Expert</span><strong>82</strong><small>Expert score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">Wirecutter</a></div>
                                   </div>
 
                               </div>
@@ -1074,7 +1097,7 @@
                                 <div class="signal-score-head"><span>YouTube</span><strong>82.8</strong><small>YouTube score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=bfInVc11cc0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Monos Expandable Carry-On Pro Review (2 Weeks of Use)" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">Pack Hacker Reviews video</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.youtube.com/watch?v=bfInVc11cc0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Monos Expandable Carry-On Pro Review (2 Weeks of Use)" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">Pack Hacker Reviews video</a></div>
                                   </div>
 
                               </div>
@@ -1083,7 +1106,7 @@
                                 <div class="signal-score-head"><span>Reddit</span><strong>82</strong><small>Reddit score</small></div>
 
                                   <div class="signal-source-list">
-                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/peakdesign/comments/1lkr6rf/peak_design_roller_vs_monos_carry_on_pro/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Peak Design Roller VS Monos Carry On Pro" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">r/peakdesign thread</a></div>
+                                    <div class="signal-source-row"><span>Best evidence</span><a href="https://www.reddit.com/r/peakdesign/comments/1lkr6rf/peak_design_roller_vs_monos_carry_on_pro/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Peak Design Roller VS Monos Carry On Pro" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">r/peakdesign thread</a></div>
                                   </div>
 
                               </div>
@@ -1091,8 +1114,8 @@
                           </div>
 
                         <div class="proof-snapshot-grid" aria-label="Proof snapshot for Monos Carry-On Pro">
-                          <div><span>Proof base</span><strong>12 public sources</strong><p>Expert, YouTube, Reddit</p></div>
-                          <div><span>Freshness</span><strong>68/100</strong><p>Page updates and source recency support this read.</p></div>
+                          <div><span>Proof base</span><strong>11 qualifying sources</strong><p>Expert, YouTube, Reddit</p></div>
+                          <div><span>Freshness</span><strong>Mixed</strong><p>Based on page updates and the dates available on public sources.</p></div>
                           <div><span>Proof level</span><strong>High</strong><p>Open the cited sources below to inspect the evidence.</p></div>
                         </div>
 
@@ -1106,21 +1129,21 @@
                               <h3>Expert reviews</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link best-source" href="https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage review context | Wirecutter" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Expert review / Best evidence</span>
                                     <b>carry-on luggage review context | Wirecutter</b>
                                     <small>Wirecutter - checked Apr 20, 2026</small>
                                     <em>Wirecutter category testing supports Monos Carry-On Pro as a serious carry-on luggage option.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.travelandleisure.com/best-carry-on-luggage-6823844" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="carry-on luggage comparison | Travel + Leisure" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Expert review</span>
                                     <b>carry-on luggage comparison | Travel + Leisure</b>
                                     <small>Travel + Leisure - checked Apr 20, 2026</small>
                                     <em>Travel + Leisure comparison coverage reinforces the product&#39;s fit, value, or performance tradeoffs.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://carryongearguide.com/monos-carry-on-pro-review/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Expert review" data-source-title="Monos Carry-On Pro Review (2026)" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://carryongearguide.com/monos-carry-on-pro-review/" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="Monos Carry-On Pro Review (2026)" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Expert review</span>
                                     <b>Monos Carry-On Pro Review (2026)</b>
                                     <small>Carry-On Gear Guide - checked May 29, 2026</small>
@@ -1134,21 +1157,21 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=bfInVc11cc0" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Monos Expandable Carry-On Pro Review (2 Weeks of Use)" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=bfInVc11cc0" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Monos Expandable Carry-On Pro Review (2 Weeks of Use)" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Monos Expandable Carry-On Pro Review (2 Weeks of Use)</b>
                                     <small>Pack Hacker Reviews - checked May 29, 2026</small>
                                     <em>Pack Hacker Reviews video review: Monos Expandable Carry-On Pro Review (2 Weeks of Use)</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=1hIAKuVOMdg" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Monos Carry on Pro Review | Best pro carry on bag?" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=1hIAKuVOMdg" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Monos Carry on Pro Review | Best pro carry on bag?" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Monos Carry on Pro Review | Best pro carry on bag?</b>
                                     <small>It&#39;s The Kellys - checked May 29, 2026</small>
                                     <em>It&#39;s The Kellys video review: Monos Carry on Pro Review | Best pro carry on bag?</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.youtube.com/watch?v=AY5qrY819Zs" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Monos Carry On Pro | 10,000 Mile Review" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.youtube.com/watch?v=AY5qrY819Zs" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Monos Carry On Pro | 10,000 Mile Review" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Monos Carry On Pro | 10,000 Mile Review</b>
                                     <small>Steven Foster - checked May 29, 2026</small>
@@ -1162,14 +1185,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link " href="https://www.reddit.com/r/travel/comments/17jr3xu/monos_carry_on_pro_ryanair/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Monos Carry On Pro - Ryanair" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.reddit.com/r/travel/comments/17jr3xu/monos_carry_on_pro_ryanair/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Monos Carry On Pro - Ryanair" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Monos Carry On Pro - Ryanair</b>
                                     <small>r/travel thread by andy1027 - checked Apr 22, 2026</small>
                                     <em>r/travel thread adds owner feedback around Monos Carry-On Pro: Monos Carry On Pro - Ryanair.</em>
                                   </a>
 
-                                  <a class="source-link " href="https://www.reddit.com/r/aircanada/comments/14hxj8x/monos_carry_on_pro_plus/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="MONOS CARRY ON PRO PLUS!" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link " href="https://www.reddit.com/r/aircanada/comments/14hxj8x/monos_carry_on_pro_plus/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="MONOS CARRY ON PRO PLUS!" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>MONOS CARRY ON PRO PLUS!</b>
                                     <small>r/aircanada thread by Due-Produce-184 - checked Apr 22, 2026</small>
@@ -1191,7 +1214,7 @@
                               <h3>YouTube testing</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.youtube.com/watch?v=OLoi2eB3tt8" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Video review" data-source-title="Monos Carry-On Pro vs Expandable – Which One Is Worth It?" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.youtube.com/watch?v=OLoi2eB3tt8" target="_blank" rel="noopener" data-source-link data-source-type="Video review" data-source-title="Monos Carry-On Pro vs Expandable – Which One Is Worth It?" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Video review</span>
                                     <b>Monos Carry-On Pro vs Expandable – Which One Is Worth It?</b>
                                     <small>Lizbeth V. Hernandez  - checked May 29, 2026</small>
@@ -1205,14 +1228,14 @@
                               <h3>Reddit owner discussion</h3>
                               <div class="source-link-list">
 
-                                  <a class="source-link" href="https://www.reddit.com/r/peakdesign/comments/1lkr6rf/peak_design_roller_vs_monos_carry_on_pro/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="Peak Design Roller VS Monos Carry On Pro" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.reddit.com/r/peakdesign/comments/1lkr6rf/peak_design_roller_vs_monos_carry_on_pro/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="Peak Design Roller VS Monos Carry On Pro" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>Peak Design Roller VS Monos Carry On Pro</b>
                                     <small>r/peakdesign thread by OkReturn312 - checked Apr 22, 2026</small>
                                     <em>r/peakdesign thread adds owner cautions around Monos Carry-On Pro: Peak Design Roller VS Monos Carry On Pro.</em>
                                   </a>
 
-                                  <a class="source-link" href="https://www.reddit.com/r/travel/comments/yp12j1/monos_carryon_pro_plus_airline_experience/" target="_blank" rel="nofollow noopener" data-source-link data-source-type="Owner discussion" data-source-title="monos carry-on pro plus airline experience" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
+                                  <a class="source-link" href="https://www.reddit.com/r/travel/comments/yp12j1/monos_carryon_pro_plus_airline_experience/" target="_blank" rel="noopener" data-source-link data-source-type="Owner discussion" data-source-title="monos carry-on pro plus airline experience" data-product-name="Monos Carry-On Pro" data-guide="Best Carry-On Luggage">
                                     <span>Owner discussion</span>
                                     <b>monos carry-on pro plus airline experience</b>
                                     <small>r/travel thread by cassv2173 - checked Apr 22, 2026</small>
@@ -1284,17 +1307,17 @@
             <h2 id="related-heading">Keep comparing in Lifestyle</h2>
             <p>Most buying decisions are connected. These nearby guides help you compare the adjacent choice before you commit.</p>
             <div class="link-list">
-              <a href="/lifestyle.html"><span>Back to Lifestyle</span><span>Category hub</span></a>
+              <a href="/lifestyle.html" data-guide-link data-guide-placement="roundup-related"><span>Back to Lifestyle</span><span>Category hub</span></a>
 
-                <a href="/best-adjustable-dumbbells.html"><span>Best Adjustable Dumbbells</span><span>Buying guide</span></a>
+                <a href="/best-commuter-backpacks-for-men.html" data-guide-link data-guide-placement="roundup-related"><span>Best Commuter Backpacks for Men</span><span>Buying guide</span></a>
 
-                <a href="/best-air-purifiers.html"><span>Best Air Purifiers</span><span>Buying guide</span></a>
+                <a href="/best-coffee-makers.html" data-guide-link data-guide-placement="roundup-related"><span>Best Coffee Makers</span><span>Buying guide</span></a>
 
-                <a href="/best-beard-trimmers.html"><span>Best Beard Trimmers</span><span>Buying guide</span></a>
+                <a href="/best-air-purifiers.html" data-guide-link data-guide-placement="roundup-related"><span>Best Air Purifiers</span><span>Buying guide</span></a>
 
-                <a href="/best-body-groomers-for-men.html"><span>Best Body Groomers for Men</span><span>Buying guide</span></a>
+                <a href="/best-adjustable-dumbbells.html" data-guide-link data-guide-placement="roundup-related"><span>Best Adjustable Dumbbells</span><span>Buying guide</span></a>
 
-                <a href="/best-coffee-makers.html"><span>Best Coffee Makers</span><span>Buying guide</span></a>
+                <a href="/best-beard-trimmers.html" data-guide-link data-guide-placement="roundup-related"><span>Best Beard Trimmers</span><span>Buying guide</span></a>
 
             </div>
           </section>
@@ -1307,7 +1330,7 @@
             <p>Use these guides to understand the tradeoffs before you compare products: fit, features, durability, comfort, and the mistakes worth avoiding.</p>
             <div class="link-list">
 
-                <a href="/hard-shell-vs-soft-shell-carry-on.html"><span>Hard-Shell vs Soft-Shell Carry-On Luggage</span><span>Comparison</span></a>
+                <a href="/hard-shell-vs-soft-shell-carry-on.html" data-guide-link data-guide-placement="roundup-supporting"><span>Hard-Shell vs Soft-Shell Carry-On Luggage</span><span>Comparison</span></a>
 
             </div>
           </section>
@@ -1354,22 +1377,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

@@ -53,16 +53,25 @@
   }
 
   document.addEventListener("click", function (event) {
+    const guideLink = event.target.closest("a[data-guide-link]");
+    if (guideLink) {
+      track("internal_guide_click", {
+        event_category: "navigation",
+        event_label: guideLink.textContent.trim(),
+        destination: guideLink.getAttribute("href") || "",
+        placement: guideLink.dataset.guidePlacement || guideLink.dataset.placement || "unspecified"
+      });
+    }
+
     const productCta = event.target.closest("[data-product-cta]");
     if (productCta) {
       const payload = productPayload(productCta);
+      track("product_cta_click", payload);
       if (productCta.matches("[data-affiliate-link]")) {
         track("outbound_retailer_click", {
           ...payload,
           event_category: "outbound_retailer"
         });
-      } else {
-        track("product_cta_click", payload);
       }
       return;
     }

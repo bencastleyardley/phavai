@@ -1,7 +1,4 @@
 
-
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles.css?v=20260908b" />
+  <link rel="stylesheet" href="/styles.css?v=20260908c" />
   <script src="/affiliate-tracking.js" defer></script>
   <script type="application/ld+json">
   {
@@ -141,13 +138,10 @@
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a class="hide-small" href="/methodology.html">Methodology</a>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html" class="is-current" aria-current="page">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
       </div>
     </nav>
   </header>
@@ -157,7 +151,10 @@
       <div class="wrap">
         <div class="page-grid">
           <div>
-            <a class="crumb" href="/">Phavai / Remote Work</a>
+            <nav class="crumb" aria-label="Breadcrumb">
+              <a href="/">Home</a><span aria-hidden="true">/</span>
+              <span aria-current="page">Remote Work</span>
+            </nav>
             <h1>Remote Work Buying Guides</h1>
             <p class="lede">Home-office research can turn into a maze of ergonomic claims, desk-setup videos, and owner complaints. Phavai pulls the useful reviews together so it is easier to see which upgrades actually make work calmer.</p>
             <div class="meta-row">
@@ -168,126 +165,166 @@
             <p class="review-byline">AI-assisted research · Human review by <a href="/about.html#ben-yardley">Ben Yardley</a>. Phavai organizes selected reviews, recurring tradeoffs, and product facts; it does not imply first-hand testing. <a href="/methodology.html">See the process</a>.</p>
           </div>
 
-          <section class="quick-answer-panel quick-answer-panel--lean" aria-labelledby="quick-answer-heading" data-quick-answer>
-            <div class="quick-answer-main">
-              <div class="section-kicker">Quick answer</div>
-              <h2 id="quick-answer-heading">Start with <a href="/best-ergonomic-keyboards.html">Best Ergonomic Keyboards</a>.</h2>
-              <p>Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort.</p>
-            </div>
-            <div class="quick-answer-actions">
-              <a class="button" href="/best-ergonomic-keyboards.html">Open buying guide</a>
+          <section class="collection-start-panel" aria-labelledby="collection-start-heading">
+            <div class="section-kicker">Choose a starting point</div>
+            <h2 id="collection-start-heading">What are you comparing?</h2>
+            <p>Pick the guide closest to your actual purchase. The shortlist, tradeoffs, and retailer options live on the next page.</p>
+            <div class="collection-start-links">
 
-                <p class="inline-affiliate-disclosure">Phavai may earn a commission from qualifying purchases, at no extra cost to you.</p>
-                <a class="button secondary shopping-button supporting-retailer-button" href="https://www.amazon.com/Logitech-Wireless-Ergonomic-Keyboard-Wrist/dp/B07ZWK2TQT?crid=1OPXTXDVQ967O&amp;dib=eyJ2IjoiMSJ9.x9Gio1VRS5bfkh3LkahzM7qqj20E7dpiYOXZ_EWp3mw7mYJWfkV1yXuv5tgR9Ajo7kkUOVOjVXEmHG5tLVdmO3b7JiZOrk72VeL6dhl2UqDRULKavpIRroPQ1SY4j4nCN0V3QTkwJ-qBc79A1RfLvTGsacXRPTYlxLUFztXy6pcdGA1BmIJYd7QFtTMsCWGJV_XfgvECvJ7nCivP-_bcQURhLTZfNuVPV5vLeF2UpIk.LSQ833opdaTa5Hr5Jl3_QgUeq85_NnLRcdBwJxr-6-8&amp;dib_tag=se&amp;keywords=Logitech+Ergo+K860&amp;qid=1777570300&amp;sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&amp;sprefix=logitech+ergo+k860%2Caps%2C192&amp;sr=8-1&amp;linkCode=ll2&amp;tag=phavai7311-20&amp;linkId=c57246f847586e3a81b50209bd43aade&amp;language=en_US&amp;ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" aria-label="Check price at Amazon for Logitech Ergo K860" data-product-cta data-affiliate-link data-retailer="Amazon" data-guide="Best Ergonomic Keyboards" data-section="Remote Work" data-product-name="Logitech Ergo K860" data-product-rank="1" data-product-score="86" data-shopping-label="Check price at Amazon" data-shopping-placement="section-quick-answer">Check price at Amazon</a>
+                <a href="/best-ergonomic-keyboards.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Ergonomic Keyboards</strong>
+                </a>
+
+                <a href="/best-monitor-arms.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Monitor Arms</strong>
+                </a>
+
+                <a href="/best-standing-desks.html" data-guide-link data-guide-placement="section-starting-point">
+                  <span>Buying guide</span>
+                  <strong>Best Standing Desks</strong>
+                </a>
 
             </div>
           </section>
 
         </div>
+        <nav class="page-jump-nav" aria-label="On this collection">
+          <span>Browse this collection</span>
+          <a href="#posture-movement">Posture &amp; movement</a><a href="#desk-setup">Desk setup</a><a href="#meetings-displays">Meetings &amp; displays</a>
+          <a href="#shopping-advice">How to choose</a>
+        </nav>
       </div>
     </section>
 
-    <section class="band" id="guides">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Remote Work buying guides</h2>
-          <p>Start with the polished roundup closest to what you are buying. These are the core guides Phavai is keeping sharp first.</p>
+
+      <section class="band" id="posture-movement">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Posture &amp; movement</h2>
+            <p>Desks, chairs, stands, and walking pads for a more adjustable workday.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--remote-work" href="/best-standing-desks.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 26h44M16 26v28m32-28v28M20 14h24v12"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Standing Desks</h3>
+                  <p>A practical guide to electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--remote-work" href="/best-office-chairs.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 10h18l2 26H21l2-26ZM18 36h28v8H18zM32 44v12m-11 0h22"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Office Chairs</h3>
+                  <p>A practical guide to ergonomic office chairs for long workdays, home offices, posture support, and durable comfort.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--remote-work" href="/best-laptop-stands-for-remote-work.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Laptop Stands for Remote Work</h3>
+                  <p>A remote-work guide to laptop stands that improve screen height, desk posture, portability, and everyday work comfort.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--remote-work" href="/best-walking-pads.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Walking Pads</h3>
+                  <p>A practical guide to under-desk walking pads for remote workers who want more movement without turning their office into a gym.</p>
+                </div>
+              </a>
+
+          </div>
         </div>
-        <div class="category-grid icon-card-grid">
+      </section>
 
-            <a class="category-card category-card--remote-work" href="/best-ergonomic-keyboards.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="20" width="44" height="26" rx="5"/><path d="M18 29h4m7 0h4m7 0h4M18 37h28"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Ergonomic Keyboards</h3>
-                <p>Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort.</p>
-              </div>
-            </a>
+      <section class="band surface" id="desk-setup">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Desk setup</h2>
+            <p>The accessories that organize connections, screens, input, and everyday desk comfort.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
 
-            <a class="category-card category-card--remote-work" href="/best-monitor-arms.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="36" height="28" rx="4"/><path d="M46 26h8v20H34m-6-6v10"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Monitor Arms</h3>
-                <p>Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--remote-work" href="/best-ergonomic-keyboards.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="20" width="44" height="26" rx="5"/><path d="M18 29h4m7 0h4m7 0h4M18 37h28"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Ergonomic Keyboards</h3>
+                  <p>Ergonomic keyboards ranked for wrist position, learning curve, split design, key feel, software, and daily typing comfort.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--remote-work" href="/best-standing-desks.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 26h44M16 26v28m32-28v28M20 14h24v12"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Standing Desks</h3>
-                <p>A practical guide to electric standing desks for home offices, hybrid work, stability, value, and long-term ergonomics.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--remote-work" href="/best-monitor-arms.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="36" height="28" rx="4"/><path d="M46 26h8v20H34m-6-6v10"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Monitor Arms</h3>
+                  <p>Monitor arms ranked for adjustability, stability, monitor weight support, cable management, desk compatibility, and long-term value.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--remote-work" href="/best-office-chairs.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M23 10h18l2 26H21l2-26ZM18 36h28v8H18zM32 44v12m-11 0h22"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Office Chairs</h3>
-                <p>A practical guide to ergonomic office chairs for long workdays, home offices, posture support, and durable comfort.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--remote-work" href="/best-desk-mats.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="18" width="40" height="28" rx="5"/><path d="M20 26h24M20 34h18"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Desk Mats</h3>
+                  <p>Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--remote-work" href="/best-desk-mats.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="18" width="40" height="28" rx="5"/><path d="M20 26h24M20 34h18"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Desk Mats</h3>
-                <p>Desk mats ranked for surface feel, keyboard stability, mouse tracking, cleaning, material quality, and desk protection.</p>
-              </div>
-            </a>
+              <a class="category-card category-card--remote-work" href="/best-usb-c-hubs-for-remote-work.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="18" width="28" height="28" rx="6"/><path d="M32 8v10m0 28v10M8 32h10m28 0h10M23 23h18M24 32h16M25 41h14"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best USB-C Hubs for Remote Work</h3>
+                  <p>A remote-work USB-C hub guide for people who need fewer dongle headaches, cleaner desk connections, and enough ports for real work.</p>
+                </div>
+              </a>
 
-            <a class="category-card category-card--remote-work" href="/best-laptop-stands-for-remote-work.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Laptop Stands for Remote Work</h3>
-                <p>A remote-work guide to laptop stands that improve screen height, desk posture, portability, and everyday work comfort.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--remote-work" href="/best-portable-monitors-for-remote-work.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="36" height="28" rx="4"/><path d="M46 26h8v20H34m-6-6v10"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Portable Monitors for Remote Work</h3>
-                <p>A guide to portable monitors for remote workers who want a second screen without building a permanent desk setup.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--remote-work" href="/best-usb-c-hubs-for-remote-work.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="18" width="28" height="28" rx="6"/><path d="M32 8v10m0 28v10M8 32h10m28 0h10M23 23h18M24 32h16M25 41h14"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best USB-C Hubs for Remote Work</h3>
-                <p>A remote-work USB-C hub guide for people who need fewer dongle headaches, cleaner desk connections, and enough ports for real work.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--remote-work" href="/best-walking-pads.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="14" y="14" width="36" height="36" rx="8"/><path d="M23 28h18M23 36h12"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Walking Pads</h3>
-                <p>A practical guide to under-desk walking pads for remote workers who want more movement without turning their office into a gym.</p>
-              </div>
-            </a>
-
-            <a class="category-card category-card--remote-work" href="/best-webcams-for-remote-work.html">
-              <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="16" y="16" width="32" height="24" rx="8"/><circle cx="32" cy="28" r="6"/><path d="M24 50h16m-8-10v10"/></svg></span>
-              <div class="category-card-body">
-                <span class="eyebrow">Roundup guide</span>
-                <h3>Best Webcams for Remote Work</h3>
-                <p>Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability.</p>
-              </div>
-            </a>
-
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="band" id="meetings-displays">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Meetings &amp; displays</h2>
+            <p>Webcams and portable monitors compared for clarity, setup friction, portability, and reliability.</p>
+          </div>
+          <div class="category-grid icon-card-grid">
+
+              <a class="category-card category-card--remote-work" href="/best-portable-monitors-for-remote-work.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="36" height="28" rx="4"/><path d="M46 26h8v20H34m-6-6v10"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Portable Monitors for Remote Work</h3>
+                  <p>A guide to portable monitors for remote workers who want a second screen without building a permanent desk setup.</p>
+                </div>
+              </a>
+
+              <a class="category-card category-card--remote-work" href="/best-webcams-for-remote-work.html" data-guide-link data-guide-placement="section-topic-group">
+                <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="16" y="16" width="32" height="24" rx="8"/><circle cx="32" cy="28" r="6"/><path d="M24 50h16m-8-10v10"/></svg></span>
+                <div class="category-card-body">
+                  <span class="eyebrow">Buying guide</span>
+                  <h3>Best Webcams for Remote Work</h3>
+                  <p>Webcams ranked for video quality, low-light performance, autofocus, microphones, privacy, and meeting reliability.</p>
+                </div>
+              </a>
+
+          </div>
+        </div>
+      </section>
+
 
 
     <section class="band">
@@ -319,8 +356,6 @@
 
 
 
-
-
     <section class="band" id="shopping-advice">
       <div class="wrap">
         <div class="section-head">
@@ -329,7 +364,7 @@
         </div>
         <div class="category-grid">
 
-            <a class="category-card category-card--remote-work" href="/how-to-build-ergonomic-home-office.html">
+            <a class="category-card category-card--remote-work" href="/how-to-build-ergonomic-home-office.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">How to choose</span>
                 <h3>How to Build an Ergonomic Home Office</h3>
@@ -337,7 +372,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--remote-work" href="/standing-desk-vs-office-chair-upgrade.html">
+            <a class="category-card category-card--remote-work" href="/standing-desk-vs-office-chair-upgrade.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">Comparison</span>
                 <h3>Standing Desk vs Office Chair: Which Upgrade Matters More?</h3>
@@ -345,7 +380,7 @@
               </div>
             </a>
 
-            <a class="category-card category-card--remote-work" href="/how-to-choose-webcam-for-remote-work.html">
+            <a class="category-card category-card--remote-work" href="/how-to-choose-webcam-for-remote-work.html" data-guide-link data-guide-placement="section-advice-grid">
               <div class="category-card-body">
                 <span class="eyebrow">How to choose</span>
                 <h3>How to Choose a Webcam for Remote Work</h3>
@@ -361,22 +396,29 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div>AI-assisted product research. Human-reviewed. Sources linked.</div>
-      <div>
-        <a href="/">Home</a>
-
-          <a href="/outdoor.html">Outdoor</a>
-
-          <a href="/remote-work.html">Remote Work</a>
-
-          <a href="/lifestyle.html">Lifestyle</a>
-        <a href="/methodology.html">Methodology</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
       </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
     </div>
   </footer>
 </body>

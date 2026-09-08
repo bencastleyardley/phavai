@@ -22,6 +22,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
+  <script src="/affiliate-tracking.js" defer></script>
+  <script src="/spec-database.js" defer></script>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -69,7 +71,11 @@
     <section class="page-hero section-hero">
       <div class="wrap page-grid">
         <div>
-          <a class="crumb" href="/outdoor.html">Phavai / Outdoor / Open data</a>
+          <nav class="crumb" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span>
+            <a href="/outdoor.html">Outdoor</a><span aria-hidden="true">/</span>
+            <span aria-current="page">Open data</span>
+          </nav>
           <div class="section-kicker"><%= page.eyebrow %></div>
           <h1><%= page.title %></h1>
           <p class="lede"><%= page.intro %></p>
@@ -81,7 +87,7 @@
           <p class="review-byline">AI-assisted data organization · Checked by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.outdoorByline %>. Every row links to the manufacturer source used for its specifications.</p>
           <div class="hero-actions">
             <a class="button" href="<%= page.downloadPath %>" download>Download CSV</a>
-            <a class="button secondary" href="/best-running-headphones.html">See ranked guide</a>
+            <a class="button secondary" href="/best-running-headphones.html" data-guide-link data-guide-placement="spec-database-hero">See ranked guide</a>
           </div>
         </div>
         <div class="data-resource-summary">
@@ -92,18 +98,24 @@
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="specifications">
       <div class="wrap">
         <div class="section-kicker">Normalized specifications</div>
         <h2>Running-headphone comparison table</h2>
         <p class="operator-section-copy">Every row links to the primary manufacturer document used for its specifications. A larger number is not automatically better; format and route remain the deciding variables.</p>
-        <div class="research-table-scroll">
+        <div class="spec-filter">
+          <label for="spec-search">Filter products or specifications</label>
+          <input id="spec-search" type="search" placeholder="Try “open ear”, “IP68”, or a product name" autocomplete="off" data-spec-search />
+          <span aria-live="polite" data-spec-results><%= page.records.length %> products shown</span>
+        </div>
+        <p class="table-scroll-hint">Scroll sideways to compare every specification.</p>
+        <div class="research-table-scroll" tabindex="0" role="region" aria-label="Running headphone specifications table">
           <table class="research-table spec-database-table">
             <caption>Manufacturer specifications checked <%= page.updated %></caption>
-            <thead><tr><% page.columns.forEach((column) => { %><th><%= column %></th><% }) %><th>Primary source</th></tr></thead>
+            <thead><tr><% page.columns.forEach((column) => { %><th scope="col"><%= column %></th><% }) %><th scope="col">Verified</th><th scope="col">Primary source</th></tr></thead>
             <tbody>
               <% page.records.forEach((record) => { %>
-                <tr>
+                <tr data-spec-row data-search-text="<%= Object.values(record).join(' ') %>">
                   <th scope="row"><%= record.product %></th>
                   <td><%= record.format %></td>
                   <td><%= record.weight %></td>
@@ -114,7 +126,8 @@
                   <td><%= record.controls %></td>
                   <td><%= record.awareness %></td>
                   <td><%= record.bestUse %></td>
-                  <td><a href="<%= record.primarySource %>" target="_blank" rel="noopener">Manufacturer specs</a></td>
+                  <td><time datetime="<%= page.dateModified %>"><%= page.updated %></time></td>
+                  <td><a href="<%= record.primarySource %>" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="<%= record.product %> specifications" data-product-name="<%= record.product %>" data-guide="<%= page.title %>">Manufacturer specs</a></td>
                 </tr>
               <% }) %>
             </tbody>
@@ -130,12 +143,16 @@
           <h2>How to use this database</h2>
           <ul class="method-list"><% page.method.forEach((item) => { %><li><%= item %></li><% }) %></ul>
           <p class="research-limitations"><strong>Limits:</strong> <%= page.limitations %></p>
+          <div class="database-change-note">
+            <strong>Current release</strong>
+            <p>Product fields and manufacturer links were rechecked for the <%= page.updated %> update. Future changes will retain the same columns so downloaded versions remain easy to compare.</p>
+          </div>
         </article>
         <aside class="sidebar">
           <h2>Continue the decision</h2>
           <div class="link-list compact">
             <% page.relatedLinks.forEach((link) => { %>
-              <a href="<%= link.url %>"><span><strong><%= link.label %></strong><small><%= link.description %></small></span><span>Open</span></a>
+              <a href="<%= link.url %>" data-guide-link data-guide-placement="spec-database-related"><span><strong><%= link.label %></strong><small><%= link.description %></small></span><span>Open</span></a>
             <% }) %>
           </div>
         </aside>

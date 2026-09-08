@@ -119,6 +119,11 @@
       "body groomers"
     ],
     "trust": "We look for the gap between polished reviews and real ownership: upkeep, noise, storage, warranty pain, replacement costs, and whether people still like the product months later.",
+    "featuredReviewSlugs": [
+      "best-carry-on-luggage",
+      "best-coffee-makers",
+      "best-air-purifiers"
+    ],
     "matters": [
       {
         "heading": "Daily friction matters",
