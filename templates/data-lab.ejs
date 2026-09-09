@@ -1,0 +1,151 @@
+<% const ogImage = "https://www.phavai.com/photos/generated/phavai-running-gear-social.png"; %>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= page.metaTitle %> | Phavai</title>
+  <meta name="description" content="<%= page.description %>" />
+  <meta name="robots" content="max-image-preview:large" />
+  <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta property="og:description" content="<%= page.description %>" />
+  <meta property="og:image" content="<%= ogImage %>" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta name="twitter:description" content="<%= page.description %>" />
+  <meta name="twitter:image" content="<%= ogImage %>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/affiliate-tracking.js" defer></script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": page.title,
+    "description": page.description,
+    "url": `https://www.phavai.com/${page.slug}.html`,
+    "datePublished": page.datePublished,
+    "dateModified": page.dateModified,
+    "isAccessibleForFree": true,
+    "publisher": { "@type": "Organization", "@id": "https://www.phavai.com/#organization", "name": "Phavai", "url": "https://www.phavai.com/" },
+    "editor": { "@type": "Person", "@id": editorialProfile.id, "name": editorialProfile.name, "url": editorialProfile.id },
+    "hasPart": page.resources.map((resource) => ({
+      "@type": resource.type.includes("planner") ? "WebApplication" : "Dataset",
+      "name": resource.title,
+      "url": `https://www.phavai.com${resource.url}`,
+      "description": resource.description
+    }))
+  }, null, 2) %>
+  </script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Phavai Data Lab resources",
+    "numberOfItems": page.resources.length,
+    "itemListElement": page.resources.map((resource, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": resource.title,
+      "url": `https://www.phavai.com${resource.url}`
+    }))
+  }, null, 2) %>
+  </script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phavai.com/" },
+      { "@type": "ListItem", "position": 2, "name": page.title, "item": `https://www.phavai.com/${page.slug}.html` }
+    ]
+  }, null, 2) %>
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation"><a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a></nav>
+  </header>
+
+  <main>
+    <section class="page-hero data-lab-hero">
+      <div class="wrap page-grid">
+        <div>
+          <nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span aria-current="page">Data Lab</span></nav>
+          <div class="section-kicker"><%= page.eyebrow %></div>
+          <h1>Turn product research into a decision.</h1>
+          <p class="lede"><%= page.intro %></p>
+          <div class="meta-row">
+            <span class="meta-pill">Free · no sign-up</span>
+            <span class="meta-pill">Sources linked</span>
+            <span class="meta-pill">Updated <%= page.updated %></span>
+          </div>
+          <p class="review-byline">AI-assisted data organization · Checked by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.outdoorByline %>. The tools expose their assumptions and do not imply hands-on testing.</p>
+        </div>
+        <aside class="data-lab-manifesto" aria-label="How Data Lab resources work">
+          <span>Open research</span>
+          <strong>Input → evidence → limitation → next step</strong>
+          <p>No account wall, hidden score, or retailer-funded result. Change the inputs, inspect the source trail, and download the underlying table where available.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="tools-heading">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">Working tools</span>
+          <h2 id="tools-heading">Use the research, not just the conclusion.</h2>
+          <p>Each resource handles a different part of the purchase: race-day battery planning, terrain-and-fit shortlisting, or like-for-like specification comparison.</p>
+        </div>
+        <div class="data-lab-card-grid">
+          <% page.resources.forEach((resource, index) => { %>
+            <article class="data-lab-card<%= index === 0 ? ' data-lab-card--featured' : '' %>">
+              <div class="data-lab-card__number" aria-hidden="true">0<%= index + 1 %></div>
+              <div>
+                <span class="eyebrow"><%= resource.type %></span>
+                <h3><%= resource.title %></h3>
+                <p><%= resource.description %></p>
+              </div>
+              <div class="data-lab-card__footer">
+                <small><%= resource.proof %></small>
+                <a class="button<%= index === 0 ? '' : ' secondary' %>" href="<%= resource.url %>" data-guide-link data-guide-placement="data-lab-card"><%= resource.action %></a>
+              </div>
+            </article>
+          <% }) %>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface" aria-labelledby="principles-heading">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">The contract</span>
+          <h2 id="principles-heading">What a Phavai tool must show.</h2>
+        </div>
+        <div class="research-finding-grid">
+          <% page.principles.forEach((principle) => { %><article><strong><%= principle.title %></strong><p><%= principle.body %></p></article><% }) %>
+        </div>
+        <div class="data-lab-method-grid">
+          <div>
+            <h3>How these resources are built</h3>
+            <ol class="method-list"><% page.method.forEach((item) => { %><li><%= item %></li><% }) %></ol>
+          </div>
+          <div class="data-lab-limit">
+            <span>Read before using</span>
+            <p><%= page.limitations %></p>
+            <a href="/methodology.html" data-guide-link data-guide-placement="data-lab-method">Read the full methodology</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-grid"><div>AI-assisted product research. Human-reviewed. Sources linked.</div></div></footer>
+</body>
+</html>

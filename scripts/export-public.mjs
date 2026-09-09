@@ -13,7 +13,7 @@ mkdirSync(outputRoot, { recursive: true });
 
 const publicExtensions = new Set([".css", ".html", ".js", ".svg", ".txt", ".xml"]);
 const privateRootFiles = new Set(["operator-dashboard.html", "todays-picks.html"]);
-const publicRootScripts = new Set(["affiliate-tracking.js", "fit-finder.js", "spec-database.js"]);
+const publicRootScripts = new Set(["affiliate-tracking.js", "fit-finder.js", "spec-database.js", "data-lab.js"]);
 
 for (const entry of readdirSync(projectRoot, { withFileTypes: true })) {
   if (!entry.isFile()) continue;

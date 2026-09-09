@@ -1,0 +1,195 @@
+<%
+  const ogImage = "https://www.phavai.com/photos/generated/phavai-running-gear-social.png";
+  const labelClass = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+%>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= page.metaTitle %> | Phavai</title>
+  <meta name="description" content="<%= page.description %>" />
+  <meta name="robots" content="max-image-preview:large" />
+  <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta property="og:description" content="<%= page.description %>" />
+  <meta property="og:image" content="<%= ogImage %>" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta name="twitter:description" content="<%= page.description %>" />
+  <meta name="twitter:image" content="<%= ogImage %>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/affiliate-tracking.js" defer></script>
+  <script src="/data-lab.js" defer></script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": page.title,
+    "description": page.description,
+    "url": `https://www.phavai.com/${page.slug}.html`,
+    "datePublished": page.datePublished,
+    "dateModified": page.dateModified,
+    "creator": { "@type": "Organization", "@id": "https://www.phavai.com/#organization", "name": "Phavai", "url": "https://www.phavai.com/" },
+    "editor": { "@type": "Person", "@id": editorialProfile.id, "name": editorialProfile.name, "url": editorialProfile.id },
+    "variableMeasured": ["Terrain match", "Forefoot shape", "Midfoot and heel hold", "Cushion and protection", "Heel-to-toe drop", "Distance bias"],
+    "distribution": { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": `https://www.phavai.com${page.downloadPath}` }
+  }, null, 2) %>
+  </script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phavai.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Phavai Data Lab", "item": "https://www.phavai.com/data-lab.html" },
+      { "@type": "ListItem", "position": 3, "name": page.title, "item": `https://www.phavai.com/${page.slug}.html` }
+    ]
+  }, null, 2) %>
+  </script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav" aria-label="Primary navigation"><a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a></nav></header>
+
+  <main>
+    <section class="page-hero data-tool-hero">
+      <div class="wrap page-grid">
+        <div>
+          <nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/data-lab.html">Data Lab</a><span aria-hidden="true">/</span><span aria-current="page">Trail-shoe matrix</span></nav>
+          <div class="section-kicker"><%= page.eyebrow %></div>
+          <h1><%= page.title %></h1>
+          <p class="lede"><%= page.intro %></p>
+          <div class="meta-row"><span class="meta-pill"><%= page.products.length %> rated models</span><span class="meta-pill">No universal score</span><span class="meta-pill">Updated <%= page.updated %></span></div>
+          <p class="review-byline">AI-assisted evidence organization · Checked by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.outdoorByline %>. Phavai did not hands-on test these shoes.</p>
+        </div>
+        <aside class="data-resource-summary">
+          <span>Use this as a shortlist</span>
+          <strong>Terrain narrows the field. Your foot makes the call.</strong>
+          <p>Choose the conditions you actually run, then inspect forefoot shape, hold, cushion, distance bias, and the cited fit caveat before trying anything on.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="matrix-heading" data-trail-matrix>
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div><span class="section-kicker">Filter the evidence</span><h2 id="matrix-heading">Build a terrain-and-fit shortlist.</h2></div>
+          <a class="button secondary" href="<%= page.downloadPath %>" download>Download matrix CSV</a>
+        </div>
+        <form class="matrix-filter" data-matrix-form>
+          <label class="tool-field"><span>Terrain</span><select name="terrain" data-matrix-filter="terrain"><option value="any">Any terrain</option><% page.terrainColumns.forEach((terrain) => { %><option value="<%= terrain.id %>"><%= terrain.label %></option><% }) %></select></label>
+          <label class="tool-field"><span>Forefoot shape</span><select name="forefoot" data-matrix-filter="forefoot"><option value="any">Any shape</option><option value="roomy-anatomical">Roomy / anatomical</option><option value="conventional">Conventional</option><option value="tapered">Tapered</option></select></label>
+          <label class="tool-field"><span>Cushion / protection</span><select name="cushion" data-matrix-filter="cushion"><option value="any">Any cushion</option><option value="moderate">Moderate</option><option value="protective">Protective</option><option value="high-plush">High / plush</option></select></label>
+          <label class="tool-field"><span>Distance bias</span><select name="distance" data-matrix-filter="distance"><option value="any">Any distance</option><option value="short-fast">Short / fast</option><option value="daily-mixed">Daily / mixed</option><option value="long-ultra">Long / ultra</option></select></label>
+          <label class="tool-field"><span>Drop preference</span><select name="drop" data-matrix-filter="drop"><option value="any">Any drop</option><option value="zero">Zero drop only</option><option value="nonzero">More than zero</option></select></label>
+          <button class="button secondary matrix-reset" type="reset" data-matrix-reset>Clear filters</button>
+        </form>
+        <div class="matrix-result-bar" aria-live="polite"><strong data-matrix-count><%= page.products.length %> models shown</strong><span data-matrix-context>Showing the full evidence set. “Capable” is included as a terrain match; “Limited” is not.</span></div>
+        <div class="matrix-zero" data-matrix-zero hidden>
+          <strong>No exact shortlist matches those filters.</strong>
+          <p>Clear one filter or inspect the full matrix. A zero result is more honest than forcing a weak match.</p>
+        </div>
+
+        <h3>Terrain matrix</h3>
+        <p class="table-scroll-hint">Scroll sideways to compare every terrain signal.</p>
+        <div class="research-table-scroll" tabindex="0" role="region" aria-label="Trail-shoe terrain matrix">
+          <table class="research-table terrain-matrix-table">
+            <caption>Terrain labels synthesize selected exact-model evidence; definitions appear below.</caption>
+            <thead><tr><th scope="col">Shoe</th><% page.terrainColumns.forEach((terrain) => { %><th scope="col"><%= terrain.label %></th><% }) %><th scope="col">Model status</th></tr></thead>
+            <tbody>
+              <% page.products.forEach((product) => { %>
+                <tr data-matrix-row="<%= product.id %>" data-terrain-runnable="<%= labelClass(product.terrains.runnable) %>" data-terrain-mixed="<%= labelClass(product.terrains.mixed) %>" data-terrain-technical="<%= labelClass(product.terrains.technical) %>" data-terrain-mud="<%= labelClass(product.terrains.mud) %>" data-forefoot="<%= labelClass(product.forefoot) %>" data-cushion="<%= labelClass(product.cushion) %>" data-distance="<%= labelClass(product.distance) %>" data-drop="<%= product.zeroDrop ? 'zero' : 'nonzero' %>">
+                  <th scope="row"><a href="#evidence-<%= product.id %>"><%= product.product %></a></th>
+                  <% page.terrainColumns.forEach((terrain) => { const label = product.terrains[terrain.id]; %><td><span class="matrix-label matrix-label--<%= labelClass(label) %>"><%= label %></span></td><% }) %>
+                  <td><%= product.modelStatus %></td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Fit and ride matrix</h3>
+        <p class="table-scroll-hint">Scroll sideways to compare every fit signal.</p>
+        <div class="research-table-scroll" tabindex="0" role="region" aria-label="Trail-shoe fit and ride matrix">
+          <table class="research-table fit-matrix-table">
+            <caption>Fit is a source synthesis, not a guarantee for an individual foot.</caption>
+            <thead><tr><th scope="col">Shoe</th><th scope="col">Forefoot</th><th scope="col">Midfoot / heel</th><th scope="col">Cushion / protection</th><th scope="col">Drop</th><th scope="col">Distance bias</th><th scope="col">Main fit caveat</th><th scope="col">Evidence</th></tr></thead>
+            <tbody>
+              <% page.products.forEach((product) => { %>
+                <tr data-matrix-row="<%= product.id %>" data-terrain-runnable="<%= labelClass(product.terrains.runnable) %>" data-terrain-mixed="<%= labelClass(product.terrains.mixed) %>" data-terrain-technical="<%= labelClass(product.terrains.technical) %>" data-terrain-mud="<%= labelClass(product.terrains.mud) %>" data-forefoot="<%= labelClass(product.forefoot) %>" data-cushion="<%= labelClass(product.cushion) %>" data-distance="<%= labelClass(product.distance) %>" data-drop="<%= product.zeroDrop ? 'zero' : 'nonzero' %>">
+                  <th scope="row"><%= product.product %></th>
+                  <td><%= product.forefoot %></td><td><%= product.hold %></td><td><%= product.cushion %></td><td><%= product.drop %></td><td><%= product.distance %></td><td><%= product.fitCaveat %></td>
+                  <td><a href="#evidence-<%= product.id %>">Why this label</a></td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface" aria-labelledby="labels-heading">
+      <div class="wrap">
+        <div class="section-head"><span class="section-kicker">Read the labels</span><h2 id="labels-heading">What each terrain signal means.</h2></div>
+        <div class="matrix-legend"><% page.labelDefinitions.forEach((definition) => { %><div><span class="matrix-label matrix-label--<%= labelClass(definition.label) %>"><%= definition.label %></span><p><%= definition.meaning %></p></div><% }) %></div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="evidence-heading">
+      <div class="wrap ranking-layout">
+        <article class="content-column">
+          <div class="section-kicker">Evidence ledger</div>
+          <h2 id="evidence-heading">Why each model has these labels.</h2>
+          <div class="matrix-evidence-list">
+            <% page.products.forEach((product) => { %>
+              <details id="evidence-<%= product.id %>">
+                <summary><span><strong><%= product.product %></strong><small><%= product.confidence %> confidence · checked <%= product.checkedDate %></small></span><span>Open evidence</span></summary>
+                <div>
+                  <p><%= product.basis %></p>
+                  <p><strong>Main caveat:</strong> <%= product.fitCaveat %></p>
+                  <div class="research-source-links">
+                    <a href="<%= product.sourceUrl %>" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="<%= product.sourceLabel %>" data-product-name="<%= product.product %>" data-guide="<%= page.title %>"><%= product.sourceLabel %><span>Primary evidence</span></a>
+                    <a href="<%= product.secondarySourceUrl %>" target="_blank" rel="noopener" data-source-link data-source-type="Expert review" data-source-title="<%= product.secondarySourceLabel %>" data-product-name="<%= product.product %>" data-guide="<%= page.title %>"><%= product.secondarySourceLabel %><span>Corroboration</span></a>
+                    <a href="<%= product.guideUrl %>" data-guide-link data-guide-placement="trail-matrix-evidence"><%= product.product %> in a Phavai guide<span>Full source trail</span></a>
+                  </div>
+                </div>
+              </details>
+            <% }) %>
+          </div>
+
+          <section class="comparison-section" aria-labelledby="held-heading">
+            <div class="section-kicker">Not forced into the table</div>
+            <h2 id="held-heading">Models held until the evidence improves.</h2>
+            <div class="held-model-list"><% page.heldModels.forEach((model) => { %><div><strong><%= model.product %></strong><p><%= model.reason %></p></div><% }) %></div>
+          </section>
+
+          <section class="comparison-section" aria-labelledby="method-heading">
+            <div class="section-kicker">Method</div>
+            <h2 id="method-heading">How labels are assigned</h2>
+            <ul class="method-list"><% page.method.forEach((item) => { %><li><%= item %></li><% }) %></ul>
+            <p class="research-limitations"><strong>Limits:</strong> <%= page.limitations %></p>
+          </section>
+        </article>
+        <aside class="sidebar">
+          <h2>Continue the decision</h2>
+          <div class="link-list compact">
+            <a href="/how-to-choose-trail-running-shoes.html" data-guide-link data-guide-placement="trail-matrix-related"><span>How to Choose Trail Running Shoes</span><span>Explainer</span></a>
+            <a href="/best-mens-trail-running-shoes.html" data-guide-link data-guide-placement="trail-matrix-related"><span>Men's Trail Running Shoes</span><span>Guide</span></a>
+            <a href="/best-womens-trail-running-shoes.html" data-guide-link data-guide-placement="trail-matrix-related"><span>Women's Trail Running Shoes</span><span>Guide</span></a>
+            <a href="/best-trail-shoes-for-100-miles.html" data-guide-link data-guide-placement="trail-matrix-related"><span>Trail Shoes for 100 Miles</span><span>Guide</span></a>
+            <a href="/best-trail-shoes-for-wide-feet.html" data-guide-link data-guide-placement="trail-matrix-related"><span>Trail Shoes for Wide Feet</span><span>Guide</span></a>
+            <a href="/data-lab.html" data-guide-link data-guide-placement="trail-matrix-related"><span>All Data Lab tools</span><span>Hub</span></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-grid"><div>AI-assisted product research. Human-reviewed. Sources linked.</div></div></footer>
+</body>
+</html>

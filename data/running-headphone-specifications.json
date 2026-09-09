@@ -83,7 +83,15 @@
     "The database describes products. Independent expert and owner evidence determines Phavai's ranking."
   ],
   "limitations": "This is a curated comparison of four guide finalists, not every running headphone on the market. These are manufacturer claims, not Phavai lab results. Battery varies with volume, calls, codecs, features, temperature, and device settings. Fit and sound are personal, and product availability can change.",
+  "sectionSlugs": ["outdoor"],
+  "relatedReviewSlugs": ["best-running-headphones"],
+  "relatedSupportingSlugs": ["shokz-openrun-pro-2-vs-openfit-2-for-running", "open-ear-vs-sealed-earbuds-for-road-running"],
   "relatedLinks": [
+    {
+      "label": "Phavai Data Lab",
+      "description": "Open every free research tool and downloadable comparison.",
+      "url": "/data-lab.html"
+    },
     {
       "label": "Best Running Headphones",
       "description": "See the ranked picks, evidence, and buyer-specific tradeoffs.",

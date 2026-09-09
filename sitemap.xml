@@ -415,6 +415,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.phavai.com/data-lab.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/gps-battery-planner.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.phavai.com/trail-shoe-matrix.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.phavai.com/methodology.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T19:16:33.050Z",
-  "pages_checked": 77,
-  "public_pages": 75,
+  "generated_at": "2026-09-09T00:02:13.605Z",
+  "pages_checked": 80,
+  "public_pages": 78,
   "private_pages": 2,
   "errors": [],
   "warnings": [],
@@ -651,6 +651,18 @@
       ]
     },
     {
+      "file": "data-lab.html",
+      "title": "Phavai Data Lab: Free Running Gear Research Tools | Phavai",
+      "description_length": 146,
+      "canonical": "https://www.phavai.com/data-lab.html",
+      "h1": "Turn product research into a decision.",
+      "structured_data_types": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ]
+    },
+    {
       "file": "editorial-standards.html",
       "title": "Editorial Standards | Phavai",
       "description_length": 146,
@@ -668,6 +680,17 @@
       "h1": "Garmin Forerunner 265 vs COROS PACE 3",
       "structured_data_types": [
         "Article",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "gps-battery-planner.html",
+      "title": "GPS Watch Battery Planner for Ultramarathons | Phavai",
+      "description_length": 139,
+      "canonical": "https://www.phavai.com/gps-battery-planner.html",
+      "h1": "Ultramarathon GPS Watch Battery Planner",
+      "structured_data_types": [
+        "WebApplication",
         "BreadcrumbList"
       ]
     },
@@ -890,6 +913,17 @@
       "h1": "Today&#39;s Picks",
       "structured_data_types": [
         "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "file": "trail-shoe-matrix.html",
+      "title": "Trail Shoe Terrain &amp; Fit Matrix: Compare 10 Models | Phavai",
+      "description_length": 145,
+      "canonical": "https://www.phavai.com/trail-shoe-matrix.html",
+      "h1": "Trail Shoe Terrain &amp; Fit Matrix",
+      "structured_data_types": [
+        "Dataset",
         "BreadcrumbList"
       ]
     }

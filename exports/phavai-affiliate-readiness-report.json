@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T19:07:31.449Z",
+  "generated_at": "2026-09-08T23:55:07.132Z",
   "purpose": "Checks built public pages for active shopping links. Non-Amazon retailer links are counted as valid retailer links and are not treated as Amazon affiliate cleanup work.",
-  "pages_checked": 77,
+  "pages_checked": 80,
   "active_shopping_links": 601,
   "amazon_product_links": 579,
   "amazon_links_needing_exact_product_url": 0,

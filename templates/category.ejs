@@ -574,6 +574,17 @@
             </div>
           </section>
           <% } %>
+
+          <% if (relatedDataTools?.length) { %>
+          <section class="comparison-section data-tool-inline" aria-labelledby="data-tools-heading">
+            <div class="section-kicker">Free tools &amp; source data</div>
+            <h2 id="data-tools-heading">Put this guide into practice</h2>
+            <p>Change the assumptions, filter the evidence, or download the normalized comparison before you choose a product.</p>
+            <div class="link-list">
+              <% relatedDataTools.forEach((tool) => { %><a href="<%= tool.url %>" data-guide-link data-guide-placement="roundup-data-tool"><span><strong><%= tool.title %></strong><small><%= tool.description %></small></span><span><%= tool.type %></span></a><% }) %>
+            </div>
+          </section>
+          <% } %>
           <% if (affiliateEnabled) { %>
             <p class="disclosure affiliate-disclosure guide-bottom-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect Phavai rankings.</p>
           <% } else { %>

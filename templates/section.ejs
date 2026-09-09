@@ -143,6 +143,20 @@
       </section>
     <% }) %>
 
+    <% if (relatedDataTools?.length) { %>
+    <section class="band surface" id="data-lab-tools">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div><span class="section-kicker">Phavai Data Lab</span><h2>Use the running research tools.</h2><p>Plan battery headroom, filter trail shoes by terrain and fit, or inspect normalized source data.</p></div>
+          <a class="button secondary" href="/data-lab.html" data-guide-link data-guide-placement="section-data-lab">Open Data Lab</a>
+        </div>
+        <div class="data-tool-strip">
+          <% relatedDataTools.forEach((tool) => { %><a href="<%= tool.url %>" data-guide-link data-guide-placement="section-data-tool"><span><%= tool.type %></span><strong><%= tool.title %></strong><small><%= tool.description %></small></a><% }) %>
+        </div>
+      </div>
+    </section>
+    <% } %>
+
     <% if (section.matters?.length) { %>
     <section class="band">
       <div class="wrap">

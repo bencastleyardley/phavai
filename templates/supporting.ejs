@@ -229,6 +229,16 @@
           </section>
           <% } %>
 
+          <% if (relatedDataTools?.length) { %>
+          <section class="comparison-section data-tool-inline" aria-labelledby="data-tools-heading">
+            <div class="section-kicker">Free tools &amp; source data</div>
+            <h2 id="data-tools-heading">Use the evidence interactively</h2>
+            <div class="link-list">
+              <% relatedDataTools.forEach((tool) => { %><a href="<%= tool.url %>" data-guide-link data-guide-placement="supporting-data-tool"><span><strong><%= tool.title %></strong><small><%= tool.description %></small></span><span><%= tool.type %></span></a><% }) %>
+            </div>
+          </section>
+          <% } %>
+
           <% if (page.sources?.length) { %>
           <section class="research-source-panel supporting-sources" aria-labelledby="sources-heading">
             <div>

@@ -165,4 +165,20 @@
       fit_score: asNumber(event.detail?.fitScore)
     });
   });
+
+  document.addEventListener("phavai:data_tool_interaction", function (event) {
+    const allowedTools = new Set(["gps_battery_planner", "trail_shoe_matrix"]);
+    const allowedActions = new Set(["calculate", "filter", "reset"]);
+    const allowedBands = new Set(["fits", "tight", "recharge", "invalid", "all_results", "filtered_results", "zero_results"]);
+    const toolName = allowedTools.has(event.detail?.toolName) ? event.detail.toolName : "unknown_tool";
+    const toolAction = allowedActions.has(event.detail?.toolAction) ? event.detail.toolAction : "unknown_action";
+    const resultBand = allowedBands.has(event.detail?.resultBand) ? event.detail.resultBand : "unknown_result";
+    track("data_tool_interaction", {
+      event_category: "research_tool",
+      tool_name: toolName,
+      tool_action: toolAction,
+      result_band: resultBand,
+      visible_results: asNumber(event.detail?.visibleResults)
+    });
+  });
 })();

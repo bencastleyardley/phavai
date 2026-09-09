@@ -1,0 +1,202 @@
+<%
+  const ogImage = "https://www.phavai.com/photos/generated/phavai-running-gear-social.png";
+  const defaults = page.defaults;
+  const initialMode = page.modes.find((mode) => mode.id === defaults.modeId) || page.modes[0];
+  const initialRaceHours = defaults.hours + (defaults.minutes / 60);
+  const initialBufferedHours = initialRaceHours * (1 + defaults.contingency / 100);
+  const initialUsableHours = initialMode.officialHours * ((defaults.startingCharge - defaults.reserve) / 100);
+  const initialHeadroom = initialUsableHours - initialBufferedHours;
+  const initialFinishCharge = defaults.startingCharge - (initialRaceHours / initialMode.officialHours * 100);
+  const initialMinimumCharge = defaults.reserve + (initialBufferedHours / initialMode.officialHours * 100);
+  const initialBand = initialRaceHours > initialMode.officialHours * defaults.startingCharge / 100 ? "recharge" : initialHeadroom < 0 ? "tight" : "fits";
+  const initialLabel = initialBand === "recharge" ? "Recharge plan needed" : initialBand === "tight" ? "Fits only without the full buffer" : "Fits selected assumptions";
+  const modeStatus = (mode) => {
+    const unbufferedFits = initialRaceHours <= mode.officialHours * defaults.startingCharge / 100;
+    const bufferedFits = initialBufferedHours <= mode.officialHours * ((defaults.startingCharge - defaults.reserve) / 100);
+    return !unbufferedFits ? "Recharge plan" : !bufferedFits ? "Tight" : "Fits assumptions";
+  };
+%>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><%= page.metaTitle %> | Phavai</title>
+  <meta name="description" content="<%= page.description %>" />
+  <meta name="robots" content="max-image-preview:large" />
+  <link rel="canonical" href="https://www.phavai.com/<%= page.slug %>.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta property="og:description" content="<%= page.description %>" />
+  <meta property="og:image" content="<%= ogImage %>" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= page.metaTitle %> | Phavai" />
+  <meta name="twitter:description" content="<%= page.description %>" />
+  <meta name="twitter:image" content="<%= ogImage %>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/affiliate-tracking.js" defer></script>
+  <script src="/data-lab.js" defer></script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": page.title,
+    "description": page.description,
+    "url": `https://www.phavai.com/${page.slug}.html`,
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript for recalculation; the default scenario is server-rendered.",
+    "isAccessibleForFree": true,
+    "datePublished": page.datePublished,
+    "dateModified": page.dateModified,
+    "author": { "@type": "Person", "@id": editorialProfile.id, "name": editorialProfile.name, "url": editorialProfile.id },
+    "publisher": { "@type": "Organization", "@id": "https://www.phavai.com/#organization", "name": "Phavai", "url": "https://www.phavai.com/" },
+    "hasPart": {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": `https://www.phavai.com${page.downloadPath}`
+    }
+  }, null, 2) %>
+  </script>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.phavai.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Phavai Data Lab", "item": "https://www.phavai.com/data-lab.html" },
+      { "@type": "ListItem", "position": 3, "name": page.title, "item": `https://www.phavai.com/${page.slug}.html` }
+    ]
+  }, null, 2) %>
+  </script>
+  <script id="gps-planner-data" type="application/json"><%- JSON.stringify(page.modes).replace(/</g, "\\u003c") %></script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav" aria-label="Primary navigation"><a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a></nav></header>
+
+  <main>
+    <section class="page-hero data-tool-hero">
+      <div class="wrap">
+        <nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/data-lab.html">Data Lab</a><span aria-hidden="true">/</span><span aria-current="page">GPS battery planner</span></nav>
+        <div class="section-kicker"><%= page.eyebrow %></div>
+        <h1><%= page.title %></h1>
+        <p class="lede"><%= page.intro %></p>
+        <p class="review-byline">AI-assisted data organization · Formula and source check by <a href="<%= editorialProfile.path %>"><%= editorialProfile.name %></a>, <%= editorialProfile.outdoorByline %>. Phavai did not physically test these watches.</p>
+
+        <div class="tool-workspace" data-gps-planner>
+          <form class="tool-controls" data-gps-form>
+            <div class="tool-panel-heading">
+              <span>01 · Your scenario</span>
+              <h2>Set the race assumptions</h2>
+            </div>
+            <label class="tool-field tool-field--full">
+              <span>Watch and GPS mode</span>
+              <select name="mode" data-gps-mode>
+                <% page.modes.forEach((mode) => { %><option value="<%= mode.id %>"<%= mode.id === defaults.modeId ? ' selected' : '' %>><%= mode.watchName %> — <%= mode.modeLabel %> (<%= mode.officialHours %> h)</option><% }) %>
+              </select>
+            </label>
+            <div class="tool-field-grid tool-field-grid--time">
+              <label class="tool-field"><span>Expected hours</span><input name="hours" type="number" min="0" max="168" step="1" value="<%= defaults.hours %>" inputmode="numeric" data-gps-hours /></label>
+              <label class="tool-field"><span>Minutes</span><input name="minutes" type="number" min="0" max="59" step="1" value="<%= defaults.minutes %>" inputmode="numeric" data-gps-minutes /></label>
+            </div>
+            <div class="tool-field-grid">
+              <label class="tool-field"><span>Starting charge</span><span class="tool-input-suffix"><input name="startingCharge" type="number" min="1" max="100" step="1" value="<%= defaults.startingCharge %>" inputmode="numeric" data-gps-start />%</span></label>
+              <label class="tool-field"><span>Finish reserve</span><span class="tool-input-suffix"><input name="reserve" type="number" min="0" max="80" step="1" value="<%= defaults.reserve %>" inputmode="numeric" data-gps-reserve />%</span></label>
+              <label class="tool-field"><span>Time contingency</span><span class="tool-input-suffix"><input name="contingency" type="number" min="0" max="100" step="1" value="<%= defaults.contingency %>" inputmode="numeric" data-gps-contingency />%</span></label>
+            </div>
+            <fieldset class="tool-risk-factors">
+              <legend>Factors that may reduce runtime</legend>
+              <p>These create a warning only. Phavai does not invent a drain percentage.</p>
+              <div>
+                <% page.warningFactors.forEach((factor, index) => { %><label><input type="checkbox" value="factor-<%= index + 1 %>" data-gps-factor /><span><%= factor %></span></label><% }) %>
+              </div>
+            </fieldset>
+            <p class="tool-error" role="alert" data-gps-error hidden></p>
+            <div class="tool-actions">
+              <button class="button" type="submit">Calculate plan</button>
+              <button class="button secondary" type="reset" data-gps-reset>Reset</button>
+            </div>
+          </form>
+
+          <section class="planner-output planner-output--<%= initialBand %>" aria-labelledby="planner-result-heading" aria-live="polite" data-gps-output>
+            <div class="tool-panel-heading">
+              <span>02 · Claim-based result</span>
+              <h2 id="planner-result-heading" data-gps-status><%= initialLabel %></h2>
+            </div>
+            <p class="planner-result-summary" data-gps-summary><%= initialMode.watchName %> in <%= initialMode.modeLabel %> is listed for up to <%= initialMode.officialHours %> hours. Your 24-hour scenario fits the published ceiling, but not the full contingency and reserve.</p>
+            <div class="planner-metrics">
+              <div><span>Manufacturer ceiling</span><strong data-gps-ceiling><%= initialMode.officialHours.toFixed(1) %> h</strong></div>
+              <div><span>Buffered race time</span><strong data-gps-buffered><%= initialBufferedHours.toFixed(1) %> h</strong></div>
+              <div><span>Claim-based finish charge</span><strong data-gps-finish><%= Math.max(0, initialFinishCharge).toFixed(1) %>%</strong></div>
+              <div><span>Buffered headroom</span><strong data-gps-headroom><%= `${initialHeadroom >= 0 ? '+' : ''}${initialHeadroom.toFixed(1)} h` %></strong></div>
+              <div><span>Minimum starting charge</span><strong data-gps-minimum><%= initialMinimumCharge.toFixed(1) %>%</strong></div>
+              <div><span>Mode fidelity</span><strong data-gps-fidelity><%= initialMode.fidelityLabel %></strong></div>
+            </div>
+            <div class="planner-advisory" data-gps-advisory>
+              <strong>Before race day</strong>
+              <p>Rehearse this exact mode and feature setup on a long effort. Published maxima are not a safety guarantee.</p>
+            </div>
+            <a class="source-proof-link" href="<%= initialMode.sourceUrl %>" target="_blank" rel="noopener" data-source-link data-gps-source data-source-type="Manufacturer specifications" data-source-title="<%= initialMode.sourceLabel %>" data-product-name="<%= initialMode.watchName %>" data-guide="<%= page.title %>">Check the manufacturer claim</a>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="all-modes-heading">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div><span class="section-kicker">Same assumptions, every mode</span><h2 id="all-modes-heading">Compare headroom without mixing GPS modes.</h2></div>
+          <a class="button secondary" href="<%= page.downloadPath %>" download>Download source CSV</a>
+        </div>
+        <p class="operator-section-copy">A longer number can come from lower-fidelity or reduced-recording behavior. The table keeps each mode and its limitation separate; it does not automatically recommend the largest value.</p>
+        <p class="table-scroll-hint">Scroll sideways to compare every mode.</p>
+        <div class="research-table-scroll" tabindex="0" role="region" aria-label="GPS watch battery mode comparison">
+          <table class="research-table gps-mode-table">
+            <caption>Manufacturer-published maxima checked <%= page.updated %>; calculated status uses the scenario above.</caption>
+            <thead><tr><th scope="col">Watch</th><th scope="col">Mode</th><th scope="col">Published max</th><th scope="col">Mode fidelity</th><th scope="col">Scenario status</th><th scope="col">Buffered headroom</th><th scope="col">Source</th></tr></thead>
+            <tbody>
+              <% page.modes.forEach((mode) => { const rowHeadroom = mode.officialHours * ((defaults.startingCharge - defaults.reserve) / 100) - initialBufferedHours; %>
+                <tr data-gps-mode-row data-mode-id="<%= mode.id %>" data-hours="<%= mode.officialHours %>">
+                  <th scope="row"><%= mode.watchName %></th>
+                  <td><%= mode.modeLabel %></td>
+                  <td><%= mode.officialHours %> h</td>
+                  <td><%= mode.fidelityLabel %></td>
+                  <td><span class="matrix-label" data-gps-row-status><%= modeStatus(mode) %></span></td>
+                  <td data-gps-row-headroom><%= `${rowHeadroom >= 0 ? '+' : ''}${rowHeadroom.toFixed(1)} h` %></td>
+                  <td><a href="<%= mode.sourceUrl %>" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="<%= mode.sourceLabel %>" data-product-name="<%= mode.watchName %>" data-guide="<%= page.title %>">Official claim</a></td>
+                </tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface" aria-labelledby="formula-heading">
+      <div class="wrap ranking-layout">
+        <article class="content-column">
+          <div class="section-kicker">Transparent math</div>
+          <h2 id="formula-heading">What the planner calculates</h2>
+          <div class="formula-grid"><% page.formula.forEach((item) => { %><div><span><%= item.label %></span><code><%= item.value %></code></div><% }) %></div>
+          <p class="research-limitations"><strong>Limits:</strong> <%= page.limitations %></p>
+        </article>
+        <aside class="sidebar">
+          <h2>Continue the decision</h2>
+          <div class="link-list compact">
+            <a href="/best-gps-watches-for-ultrarunning.html" data-guide-link data-guide-placement="gps-planner-related"><span>Best GPS Watches for Ultrarunning</span><span>Guide</span></a>
+            <a href="/best-gps-running-watches.html" data-guide-link data-guide-placement="gps-planner-related"><span>Best GPS Running Watches</span><span>Guide</span></a>
+            <a href="/garmin-forerunner-265-vs-coros-pace-3.html" data-guide-link data-guide-placement="gps-planner-related"><span>Forerunner 265 vs PACE 3</span><span>Compare</span></a>
+            <a href="/data-lab.html" data-guide-link data-guide-placement="gps-planner-related"><span>All Data Lab tools</span><span>Hub</span></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-grid"><div>AI-assisted product research. Human-reviewed. Sources linked.</div></div></footer>
+</body>
+</html>

@@ -18,6 +18,9 @@ const amazonCatalogCache = readOptionalJson(".cache/amazon-creators.json", null)
 const productIntelligence = readOptionalJson("data/ai-opportunity-dashboard.json", null);
 const maintenanceQueue = readOptionalJson("data/ai-maintenance-queue.json", null);
 const runningHeadphoneSpecifications = readOptionalJson("data/running-headphone-specifications.json", null);
+const dataLab = readOptionalJson("data/data-lab.json", null);
+const gpsBatteryPlanner = readOptionalJson("data/gps-battery-planner.json", null);
+const trailShoeMatrix = readOptionalJson("data/trail-shoe-matrix.json", null);
 const relatedReviewOverrides = readOptionalJson("data/related-review-overrides.json", {});
 const searchExperiments = readOptionalJson("data/search-experiments.json", { experiments: [] });
 const editorialProfile = readOptionalJson("data/editorial-profile.json", {
@@ -35,6 +38,9 @@ const supportingTemplate = readFileSync("templates/supporting.ejs", "utf8");
 const todaysPicksTemplate = readFileSync("templates/todays-picks.ejs", "utf8");
 const operatorDashboardTemplate = readFileSync("templates/operator-dashboard.ejs", "utf8");
 const specificationDatabaseTemplate = readFileSync("templates/spec-database.ejs", "utf8");
+const dataLabTemplate = readFileSync("templates/data-lab.ejs", "utf8");
+const gpsBatteryPlannerTemplate = readFileSync("templates/gps-battery-planner.ejs", "utf8");
+const trailShoeMatrixTemplate = readFileSync("templates/trail-shoe-matrix.ejs", "utf8");
 
 function readOptionalJson(path, fallback) {
   try {
@@ -58,7 +64,7 @@ const DEFAULT_MEASUREMENT_CONFIG = {
   ga4MeasurementId: "G-YD9YDB3YGT",
   bingSiteVerification: "2B9DC6FC5FA254DDA867340D39C066E1"
 };
-const ASSET_VERSION = "20260908c";
+const ASSET_VERSION = "20260908d";
 
 const analyticsConfig = {
   ga4MeasurementId: firstEnv("PHAVAI_GA4_MEASUREMENT_ID", "GA4_MEASUREMENT_ID", "GOOGLE_ANALYTICS_ID") || DEFAULT_MEASUREMENT_CONFIG.ga4MeasurementId,
@@ -1990,7 +1996,7 @@ function currentSectionForFile(file) {
   const supportingPage = supportingPages.find((item) => item.slug === pageSlug);
   if (supportingPage) return supportingPage.sectionSlug;
 
-  if (["running-headphone-specification-database"].includes(pageSlug)) return "outdoor";
+  if (["data-lab", "gps-battery-planner", "trail-shoe-matrix", "running-headphone-specification-database"].includes(pageSlug)) return "data-lab";
   return sections.some((item) => item.slug === pageSlug) ? pageSlug : "";
 }
 
@@ -2007,12 +2013,15 @@ function renderGlobalHeader(file) {
   }).join("\n        ");
   const methodCurrent = file === "methodology.html" || file === "editorial-standards.html";
   const methodCurrentValue = file === "methodology.html" ? "page" : "location";
+  const dataLabCurrent = activeSection === "data-lab";
+  const dataLabCurrentValue = file === "data-lab.html" ? "page" : "location";
 
   return `<header class="site-header">
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand${file === "index.html" ? " is-current" : ""}" href="/"${file === "index.html" ? ' aria-current="page"' : ""}><span class="brand-mark">P</span> Phavai</a>
       <div class="nav-links">
         ${sectionLinks}
+        <a href="/data-lab.html"${currentAttribute(dataLabCurrent, dataLabCurrentValue)}>Data Lab</a>
         <a class="hide-small${methodCurrent ? " is-current" : ""}" href="/methodology.html"${methodCurrent ? ` aria-current="${methodCurrentValue}"` : ""}>How it works</a>
       </div>
     </nav>
@@ -2036,6 +2045,7 @@ function renderGlobalFooter() {
         <a href="/outdoor.html">Running &amp; Outdoor</a>
         <a href="/remote-work.html">Remote Work</a>
         <a href="/lifestyle.html">Lifestyle</a>
+        <a href="/data-lab.html">Data Lab</a>
       </nav>
       <nav class="footer-nav" aria-label="About Phavai">
         <strong>Trust &amp; support</strong>
@@ -2300,6 +2310,35 @@ const supportBySection = new Map(
     supportingPages.filter((page) => page.sectionSlug === section.slug)
   ])
 );
+const dataLabTools = [
+  gpsBatteryPlanner ? {
+    title: gpsBatteryPlanner.title,
+    description: gpsBatteryPlanner.description,
+    url: `/${gpsBatteryPlanner.slug}.html`,
+    type: "Interactive planner",
+    sectionSlugs: gpsBatteryPlanner.sectionSlugs || [],
+    relatedReviewSlugs: gpsBatteryPlanner.relatedReviewSlugs || [],
+    relatedSupportingSlugs: gpsBatteryPlanner.relatedSupportingSlugs || []
+  } : null,
+  trailShoeMatrix ? {
+    title: trailShoeMatrix.title,
+    description: trailShoeMatrix.description,
+    url: `/${trailShoeMatrix.slug}.html`,
+    type: "Filterable matrix",
+    sectionSlugs: trailShoeMatrix.sectionSlugs || [],
+    relatedReviewSlugs: trailShoeMatrix.relatedReviewSlugs || [],
+    relatedSupportingSlugs: trailShoeMatrix.relatedSupportingSlugs || []
+  } : null,
+  runningHeadphoneSpecifications ? {
+    title: runningHeadphoneSpecifications.title,
+    description: runningHeadphoneSpecifications.description,
+    url: `/${runningHeadphoneSpecifications.slug}.html`,
+    type: "Specification database",
+    sectionSlugs: runningHeadphoneSpecifications.sectionSlugs || [],
+    relatedReviewSlugs: runningHeadphoneSpecifications.relatedReviewSlugs || [],
+    relatedSupportingSlugs: runningHeadphoneSpecifications.relatedSupportingSlugs || []
+  } : null
+].filter(Boolean);
 const builtCategories = categories.map((category) => {
   const sourceWeights = category.sourceWeights ?? DEFAULT_SOURCE_WEIGHTS;
   const products = category.products
@@ -2500,7 +2539,8 @@ for (const category of builtCategories) {
       editorialProfile,
       allSections: sections,
       relatedReviews,
-      supportingPages: supportingPages.filter((page) => page.relatedReviewSlugs?.includes(category.slug))
+      supportingPages: supportingPages.filter((page) => page.relatedReviewSlugs?.includes(category.slug)),
+      relatedDataTools: dataLabTools.filter((tool) => tool.relatedReviewSlugs.includes(category.slug))
     },
     { rmWhitespace: false }
   );
@@ -2537,6 +2577,7 @@ for (const section of sections) {
       reviewGroups,
       startingGuides,
       supportingPages: supportBySection.get(section.slug) || [],
+      relatedDataTools: dataLabTools.filter((tool) => tool.sectionSlugs.includes(section.slug)),
       sourceTrust: sourceGovernance.sections?.[section.slug],
       affiliateConfig: AFFILIATE_CONFIG,
       editorialProfile,
@@ -2566,7 +2607,8 @@ for (const page of supportingPages) {
       relatedReviews,
       allSections: sections,
       editorialProfile,
-      affiliateConfig: AFFILIATE_CONFIG
+      affiliateConfig: AFFILIATE_CONFIG,
+      relatedDataTools: dataLabTools.filter((tool) => tool.relatedSupportingSlugs.includes(page.slug))
     },
     { rmWhitespace: false }
   );
@@ -2618,6 +2660,55 @@ if (runningHeadphoneSpecifications) {
   writeFileSync("exports/running-headphone-specifications.csv", specificationCsv, "utf8");
   console.log(`Built: ${page.slug}.html`);
   console.log("Built: downloads/running-headphone-specifications.csv");
+}
+
+if (dataLab) {
+  const page = {
+    ...dataLab,
+    datePublished: toIsoDate(dataLab.published || dataLab.updated),
+    dateModified: toIsoDate(dataLab.updated)
+  };
+  const html = ejs.render(dataLabTemplate, { page, editorialProfile, allSections: sections }, { rmWhitespace: false });
+  writeFileSync(`${page.slug}.html`, trimLineEndWhitespace(html), "utf8");
+  console.log(`Built: ${page.slug}.html`);
+}
+
+if (gpsBatteryPlanner) {
+  const page = {
+    ...gpsBatteryPlanner,
+    datePublished: toIsoDate(gpsBatteryPlanner.published || gpsBatteryPlanner.updated),
+    dateModified: toIsoDate(gpsBatteryPlanner.updated)
+  };
+  const html = ejs.render(gpsBatteryPlannerTemplate, { page, editorialProfile, allSections: sections }, { rmWhitespace: false });
+  writeFileSync(`${page.slug}.html`, trimLineEndWhitespace(html), "utf8");
+  const csvColumns = ["Watch", "Mode", "Published maximum hours", "Mode fidelity", "Claim type", "Checked date", "Source label", "Source URL", "Important note"];
+  const csvRows = page.modes.map((mode) => [mode.watchName, mode.modeLabel, mode.officialHours, mode.fidelityLabel, mode.claimType, mode.checkedDate, mode.sourceLabel, mode.sourceUrl, mode.note]);
+  const csv = [csvColumns, ...csvRows].map((row) => row.map(csvCell).join(",")).join("\n") + "\n";
+  mkdirSync("downloads", { recursive: true });
+  mkdirSync("exports", { recursive: true });
+  writeFileSync("downloads/ultramarathon-gps-watch-battery-specifications.csv", csv, "utf8");
+  writeFileSync("exports/ultramarathon-gps-watch-battery-specifications.csv", csv, "utf8");
+  console.log(`Built: ${page.slug}.html`);
+  console.log("Built: downloads/ultramarathon-gps-watch-battery-specifications.csv");
+}
+
+if (trailShoeMatrix) {
+  const page = {
+    ...trailShoeMatrix,
+    datePublished: toIsoDate(trailShoeMatrix.published || trailShoeMatrix.updated),
+    dateModified: toIsoDate(trailShoeMatrix.updated)
+  };
+  const html = ejs.render(trailShoeMatrixTemplate, { page, editorialProfile, allSections: sections }, { rmWhitespace: false });
+  writeFileSync(`${page.slug}.html`, trimLineEndWhitespace(html), "utf8");
+  const csvColumns = ["Product", "Model status", "Runnable / dry", "Mixed trail", "Rocky / technical", "Soft ground / mud", "Forefoot shape", "Midfoot / heel hold", "Cushion / protection", "Drop", "Distance bias", "Main fit caveat", "Confidence", "Primary evidence", "Primary source URL", "Secondary evidence", "Secondary source URL", "Checked date", "Phavai guide"];
+  const csvRows = page.products.map((product) => [product.product, product.modelStatus, product.terrains.runnable, product.terrains.mixed, product.terrains.technical, product.terrains.mud, product.forefoot, product.hold, product.cushion, product.drop, product.distance, product.fitCaveat, product.confidence, product.sourceLabel, product.sourceUrl, product.secondarySourceLabel, product.secondarySourceUrl, product.checkedDate, `https://www.phavai.com${product.guideUrl}`]);
+  const csv = [csvColumns, ...csvRows].map((row) => row.map(csvCell).join(",")).join("\n") + "\n";
+  mkdirSync("downloads", { recursive: true });
+  mkdirSync("exports", { recursive: true });
+  writeFileSync("downloads/trail-shoe-terrain-fit-matrix.csv", csv, "utf8");
+  writeFileSync("exports/trail-shoe-terrain-fit-matrix.csv", csv, "utf8");
+  console.log(`Built: ${page.slug}.html`);
+  console.log("Built: downloads/trail-shoe-terrain-fit-matrix.csv");
 }
 
 if (todaysPicks) {
@@ -2674,6 +2765,24 @@ const urls = [
     changefreq: "monthly",
     priority: "0.8",
     lastmod: toIsoDate(runningHeadphoneSpecifications.updated)
+  }] : []),
+  ...(dataLab ? [{
+    loc: `https://www.phavai.com/${dataLab.slug}.html`,
+    changefreq: "weekly",
+    priority: "0.8",
+    lastmod: toIsoDate(dataLab.updated)
+  }] : []),
+  ...(gpsBatteryPlanner ? [{
+    loc: `https://www.phavai.com/${gpsBatteryPlanner.slug}.html`,
+    changefreq: "monthly",
+    priority: "0.8",
+    lastmod: toIsoDate(gpsBatteryPlanner.updated)
+  }] : []),
+  ...(trailShoeMatrix ? [{
+    loc: `https://www.phavai.com/${trailShoeMatrix.slug}.html`,
+    changefreq: "monthly",
+    priority: "0.8",
+    lastmod: toIsoDate(trailShoeMatrix.updated)
   }] : []),
   ...(todaysPicks?.indexable !== false ? [{
     loc: `https://www.phavai.com/${todaysPicks.slug}.html`,

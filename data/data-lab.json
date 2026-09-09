@@ -1,0 +1,57 @@
+{
+  "slug": "data-lab",
+  "title": "Phavai Data Lab",
+  "metaTitle": "Phavai Data Lab: Free Running Gear Research Tools",
+  "description": "Use free, source-linked running gear tools for GPS battery planning, trail-shoe fit and terrain matching, and headphone specification comparisons.",
+  "eyebrow": "Free research tools",
+  "published": "September 8, 2026",
+  "updated": "September 8, 2026",
+  "intro": "Interactive tools that turn scattered specifications and review evidence into a clearer next step. AI organizes the data; Ben Yardley checks the sources, assumptions, and limits before publication.",
+  "resources": [
+    {
+      "title": "Ultramarathon GPS Watch Battery Planner",
+      "type": "Interactive planner",
+      "description": "Test race time, starting charge, finish reserve, and contingency against separate manufacturer-published GPS modes.",
+      "url": "/gps-battery-planner.html",
+      "action": "Plan watch battery",
+      "proof": "4 watches · 11 GPS modes · transparent formula"
+    },
+    {
+      "title": "Trail Shoe Terrain & Fit Matrix",
+      "type": "Filterable evidence matrix",
+      "description": "Narrow ten researched trail shoes by terrain, forefoot shape, cushion, distance bias, and drop—without turning fit into a fake universal score.",
+      "url": "/trail-shoe-matrix.html",
+      "action": "Explore the matrix",
+      "proof": "10 models · 2 comparison tables · CSV download"
+    },
+    {
+      "title": "Running Headphone Specification Database",
+      "type": "Normalized specification data",
+      "description": "Compare fit format, weight, single-charge battery, case totals, resistance rating, controls, and awareness approach.",
+      "url": "/running-headphone-specification-database.html",
+      "action": "Compare specifications",
+      "proof": "4 finalists · manufacturer links · CSV download"
+    }
+  ],
+  "principles": [
+    {
+      "title": "Inputs stay visible",
+      "body": "Every output shows the assumptions that produced it, so you can change the decision instead of trusting a black-box answer."
+    },
+    {
+      "title": "Claims stay attached to sources",
+      "body": "Manufacturer facts, independent tests, and owner observations are labeled separately rather than blended into one unsupported claim."
+    },
+    {
+      "title": "Uncertainty stays on the page",
+      "body": "Conflicting measurements, older generations, and evidence gaps remain visible. The tools narrow research; they do not manufacture certainty."
+    }
+  ],
+  "method": [
+    "AI assists with organizing source material, normalizing fields, and checking internal consistency.",
+    "Ben Yardley reviews the published inputs, calculations, evidence labels, cautions, and links.",
+    "Interactive results run locally in the browser. No account, upload, or personal profile is required.",
+    "Retail links stay outside the tools so a commercial destination cannot change the result."
+  ],
+  "limitations": "These are decision aids, not hands-on product tests, medical guidance, or safety guarantees. Manufacturer specifications can change, personal fit varies, and real-world battery life depends on settings and conditions. Follow the linked source trail and verify the exact model before buying."
+}

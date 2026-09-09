@@ -1,0 +1,371 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GPS Watch Battery Planner for Ultramarathons | Phavai</title>
+  <meta name="description" content="Estimate ultramarathon GPS watch headroom using race time, starting charge, reserve, contingency, and manufacturer-published battery modes." />
+  <meta name="robots" content="max-image-preview:large" />
+  <link rel="canonical" href="https://www.phavai.com/gps-battery-planner.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="GPS Watch Battery Planner for Ultramarathons | Phavai" />
+  <meta property="og:description" content="Estimate ultramarathon GPS watch headroom using race time, starting charge, reserve, contingency, and manufacturer-published battery modes." />
+  <meta property="og:image" content="https://www.phavai.com/photos/generated/phavai-running-gear-social.png" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GPS Watch Battery Planner for Ultramarathons | Phavai" />
+  <meta name="twitter:description" content="Estimate ultramarathon GPS watch headroom using race time, starting charge, reserve, contingency, and manufacturer-published battery modes." />
+  <meta name="twitter:image" content="https://www.phavai.com/photos/generated/phavai-running-gear-social.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css?v=20260908d" />
+  <script src="/affiliate-tracking.js" defer></script>
+  <script src="/data-lab.js" defer></script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Ultramarathon GPS Watch Battery Planner",
+  "description": "Estimate ultramarathon GPS watch headroom using race time, starting charge, reserve, contingency, and manufacturer-published battery modes.",
+  "url": "https://www.phavai.com/gps-battery-planner.html",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript for recalculation; the default scenario is server-rendered.",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-09-08",
+  "dateModified": "2026-09-08",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.phavai.com/about.html#ben-yardley",
+    "name": "Ben Yardley",
+    "url": "https://www.phavai.com/about.html#ben-yardley"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.phavai.com/#organization",
+    "name": "Phavai",
+    "url": "https://www.phavai.com/"
+  },
+  "hasPart": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://www.phavai.com/downloads/ultramarathon-gps-watch-battery-specifications.csv"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.phavai.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Phavai Data Lab",
+      "item": "https://www.phavai.com/data-lab.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ultramarathon GPS Watch Battery Planner",
+      "item": "https://www.phavai.com/gps-battery-planner.html"
+    }
+  ]
+}
+  </script>
+  <script id="gps-planner-data" type="application/json">[{"id":"garmin-forerunner-265-gps-only","watchId":"garmin-forerunner-265","watchName":"Garmin Forerunner 265","modeLabel":"GPS Only GNSS","officialHours":20,"fidelityLabel":"Single-system GPS","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Garmin Forerunner 265 battery modes","sourceUrl":"https://www8.garmin.com/manuals/webhelp/GUID-F41EAFB3-6CC9-42DE-9C6C-9E358DBB0671/EN-US/GUID-1BE364B2-ADAB-4A92-A444-5C13277B4A44.html","note":"Longest listed standard GPS mode in this comparison; it is not equivalent to multi-band accuracy."},{"id":"garmin-forerunner-265-auto-select","watchId":"garmin-forerunner-265","watchName":"Garmin Forerunner 265","modeLabel":"All Systems + Auto Select","officialHours":16,"fidelityLabel":"SatIQ automatic mode selection","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Garmin Forerunner 265 battery modes","sourceUrl":"https://www8.garmin.com/manuals/webhelp/GUID-F41EAFB3-6CC9-42DE-9C6C-9E358DBB0671/EN-US/GUID-1BE364B2-ADAB-4A92-A444-5C13277B4A44.html","note":"SatIQ switches satellite behavior automatically; it is not the same mode as GPS-only or continuous multi-band."},{"id":"garmin-forerunner-265-multiband","watchId":"garmin-forerunner-265","watchName":"Garmin Forerunner 265","modeLabel":"All Systems + Multi-Band","officialHours":14,"fidelityLabel":"Higher-accuracy multi-band","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Garmin Forerunner 265 battery modes","sourceUrl":"https://www8.garmin.com/manuals/webhelp/GUID-F41EAFB3-6CC9-42DE-9C6C-9E358DBB0671/EN-US/GUID-1BE364B2-ADAB-4A92-A444-5C13277B4A44.html","note":"Higher satellite fidelity trades away runtime."},{"id":"garmin-forerunner-965-gps-only","watchId":"garmin-forerunner-965","watchName":"Garmin Forerunner 965","modeLabel":"GPS Only GNSS","officialHours":31,"fidelityLabel":"Single-system GPS","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Garmin Forerunner 965 battery modes","sourceUrl":"https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html","note":"Longest listed standard GPS mode here; navigation, music, display use, and conditions can shorten runtime."},{"id":"garmin-forerunner-965-auto-select","watchId":"garmin-forerunner-965","watchName":"Garmin Forerunner 965","modeLabel":"All Systems + Auto Select","officialHours":22,"fidelityLabel":"SatIQ automatic mode selection","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Garmin Forerunner 965 battery modes","sourceUrl":"https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html","note":"SatIQ balances satellite accuracy and battery automatically; behavior differs from a fixed mode."},{"id":"garmin-forerunner-965-multiband","watchId":"garmin-forerunner-965","watchName":"Garmin Forerunner 965","modeLabel":"All Systems + Multi-Band","officialHours":19,"fidelityLabel":"Higher-accuracy multi-band","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Garmin Forerunner 965 battery modes","sourceUrl":"https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html","note":"Higher satellite fidelity trades away runtime."},{"id":"coros-pace-3-standard-gps","watchId":"coros-pace-3","watchName":"COROS PACE 3","modeLabel":"Standard Full GPS","officialHours":38,"fidelityLabel":"Standard GPS","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"COROS PACE 3 battery specifications","sourceUrl":"https://support.coros.com/hc/en-us/articles/23476623096980-Battery-Specifications","note":"COROS lists a separate, shorter dual-frequency mode; do not treat the two modes as equivalent."},{"id":"coros-pace-3-all-systems","watchId":"coros-pace-3","watchName":"COROS PACE 3","modeLabel":"All Systems On","officialHours":25,"fidelityLabel":"Multiple satellite systems","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"COROS PACE 3 battery specifications","sourceUrl":"https://support.coros.com/hc/en-us/articles/23476623096980-Battery-Specifications","note":"This multi-constellation mode sits between standard GPS and dual-frequency runtime."},{"id":"coros-pace-3-dual-frequency","watchId":"coros-pace-3","watchName":"COROS PACE 3","modeLabel":"Dual Frequency","officialHours":15,"fidelityLabel":"Higher-accuracy dual-frequency","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"COROS PACE 3 battery specifications","sourceUrl":"https://support.coros.com/hc/en-us/articles/23476623096980-Battery-Specifications","note":"Higher satellite fidelity trades away runtime."},{"id":"polar-vantage-v3-performance","watchId":"polar-vantage-v3","watchName":"Polar Vantage V3","modeLabel":"Performance Training","officialHours":43,"fidelityLabel":"Dual-frequency GPS, optical heart rate, 1-second recording","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Polar Vantage V3 battery lifetime","sourceUrl":"https://support.polar.com/us-en/battery-lifetime-and-operational-time-vantage-v3","note":"Polar's performance-mode estimate includes dual-frequency GPS and optical heart rate under its stated configuration."},{"id":"polar-vantage-v3-eco","watchId":"polar-vantage-v3","watchName":"Polar Vantage V3","modeLabel":"Eco Training","officialHours":140,"fidelityLabel":"Reduced logging: single-frequency GPS, optical heart rate off, 2-minute recording","claimType":"Manufacturer maximum","checkedDate":"2026-09-08","sourceLabel":"Polar Vantage V3 battery lifetime","sourceUrl":"https://support.polar.com/us-en/battery-lifetime-and-operational-time-vantage-v3","note":"This reduced-recording eco mode is not directly comparable with 1-second performance modes."}]</script>
+
+  <!-- Phavai measurement and webmaster tags: generated at build time from site config and environment variables. -->
+  <meta name="msvalidate.01" content="2B9DC6FC5FA254DDA867340D39C066E1" />
+  <script>
+    if (["www.phavai.com", "phavai.com"].includes(window.location.hostname)) {
+      var gaScript = document.createElement("script");
+      gaScript.async = true;
+      gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-YD9YDB3YGT";
+      document.head.appendChild(gaScript);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){window.dataLayer.push(arguments);};
+      window.gtag("js", new Date());
+      window.gtag("config", "G-YD9YDB3YGT", {
+        anonymize_ip: true,
+        transport_type: "beacon"
+      });
+    }
+  </script>
+
+  <!-- Phavai site identity tags: generated at build time. -->
+  <meta property="og:site_name" content="Phavai" />
+  <meta property="og:url" content="https://www.phavai.com/gps-battery-planner.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="/"><span class="brand-mark">P</span> Phavai</a>
+      <div class="nav-links">
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a href="/data-lab.html" class="is-current" aria-current="location">Data Lab</a>
+        <a class="hide-small" href="/methodology.html">How it works</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero data-tool-hero">
+      <div class="wrap">
+        <nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/data-lab.html">Data Lab</a><span aria-hidden="true">/</span><span aria-current="page">GPS battery planner</span></nav>
+        <div class="section-kicker">Phavai Data Lab</div>
+        <h1>Ultramarathon GPS Watch Battery Planner</h1>
+        <p class="lede">See whether a specific watch mode fits your expected elapsed time and chosen reserve. Results are claim-based planning estimates—not promises about race-day battery life.</p>
+        <p class="review-byline">AI-assisted data organization · Formula and source check by <a href="/about.html#ben-yardley">Ben Yardley</a>, outdoor-media professional, trail runner, ultrarunner, and climber. Phavai did not physically test these watches.</p>
+
+        <div class="tool-workspace" data-gps-planner>
+          <form class="tool-controls" data-gps-form>
+            <div class="tool-panel-heading">
+              <span>01 · Your scenario</span>
+              <h2>Set the race assumptions</h2>
+            </div>
+            <label class="tool-field tool-field--full">
+              <span>Watch and GPS mode</span>
+              <select name="mode" data-gps-mode>
+                <option value="garmin-forerunner-265-gps-only">Garmin Forerunner 265 — GPS Only GNSS (20 h)</option><option value="garmin-forerunner-265-auto-select">Garmin Forerunner 265 — All Systems + Auto Select (16 h)</option><option value="garmin-forerunner-265-multiband">Garmin Forerunner 265 — All Systems + Multi-Band (14 h)</option><option value="garmin-forerunner-965-gps-only" selected>Garmin Forerunner 965 — GPS Only GNSS (31 h)</option><option value="garmin-forerunner-965-auto-select">Garmin Forerunner 965 — All Systems + Auto Select (22 h)</option><option value="garmin-forerunner-965-multiband">Garmin Forerunner 965 — All Systems + Multi-Band (19 h)</option><option value="coros-pace-3-standard-gps">COROS PACE 3 — Standard Full GPS (38 h)</option><option value="coros-pace-3-all-systems">COROS PACE 3 — All Systems On (25 h)</option><option value="coros-pace-3-dual-frequency">COROS PACE 3 — Dual Frequency (15 h)</option><option value="polar-vantage-v3-performance">Polar Vantage V3 — Performance Training (43 h)</option><option value="polar-vantage-v3-eco">Polar Vantage V3 — Eco Training (140 h)</option>
+              </select>
+            </label>
+            <div class="tool-field-grid tool-field-grid--time">
+              <label class="tool-field"><span>Expected hours</span><input name="hours" type="number" min="0" max="168" step="1" value="24" inputmode="numeric" data-gps-hours /></label>
+              <label class="tool-field"><span>Minutes</span><input name="minutes" type="number" min="0" max="59" step="1" value="0" inputmode="numeric" data-gps-minutes /></label>
+            </div>
+            <div class="tool-field-grid">
+              <label class="tool-field"><span>Starting charge</span><span class="tool-input-suffix"><input name="startingCharge" type="number" min="1" max="100" step="1" value="100" inputmode="numeric" data-gps-start />%</span></label>
+              <label class="tool-field"><span>Finish reserve</span><span class="tool-input-suffix"><input name="reserve" type="number" min="0" max="80" step="1" value="20" inputmode="numeric" data-gps-reserve />%</span></label>
+              <label class="tool-field"><span>Time contingency</span><span class="tool-input-suffix"><input name="contingency" type="number" min="0" max="100" step="1" value="20" inputmode="numeric" data-gps-contingency />%</span></label>
+            </div>
+            <fieldset class="tool-risk-factors">
+              <legend>Factors that may reduce runtime</legend>
+              <p>These create a warning only. Phavai does not invent a drain percentage.</p>
+              <div>
+                <label><input type="checkbox" value="factor-1" data-gps-factor /><span>On-watch music</span></label><label><input type="checkbox" value="factor-2" data-gps-factor /><span>Course navigation or maps</span></label><label><input type="checkbox" value="factor-3" data-gps-factor /><span>Bright or always-on display</span></label><label><input type="checkbox" value="factor-4" data-gps-factor /><span>Extra paired sensors</span></label><label><input type="checkbox" value="factor-5" data-gps-factor /><span>Cold weather</span></label><label><input type="checkbox" value="factor-6" data-gps-factor /><span>Aged battery</span></label>
+              </div>
+            </fieldset>
+            <p class="tool-error" role="alert" data-gps-error hidden></p>
+            <div class="tool-actions">
+              <button class="button" type="submit">Calculate plan</button>
+              <button class="button secondary" type="reset" data-gps-reset>Reset</button>
+            </div>
+          </form>
+
+          <section class="planner-output planner-output--tight" aria-labelledby="planner-result-heading" aria-live="polite" data-gps-output>
+            <div class="tool-panel-heading">
+              <span>02 · Claim-based result</span>
+              <h2 id="planner-result-heading" data-gps-status>Fits only without the full buffer</h2>
+            </div>
+            <p class="planner-result-summary" data-gps-summary>Garmin Forerunner 965 in GPS Only GNSS is listed for up to 31 hours. Your 24-hour scenario fits the published ceiling, but not the full contingency and reserve.</p>
+            <div class="planner-metrics">
+              <div><span>Manufacturer ceiling</span><strong data-gps-ceiling>31.0 h</strong></div>
+              <div><span>Buffered race time</span><strong data-gps-buffered>28.8 h</strong></div>
+              <div><span>Claim-based finish charge</span><strong data-gps-finish>22.6%</strong></div>
+              <div><span>Buffered headroom</span><strong data-gps-headroom>-4.0 h</strong></div>
+              <div><span>Minimum starting charge</span><strong data-gps-minimum>112.9%</strong></div>
+              <div><span>Mode fidelity</span><strong data-gps-fidelity>Single-system GPS</strong></div>
+            </div>
+            <div class="planner-advisory" data-gps-advisory>
+              <strong>Before race day</strong>
+              <p>Rehearse this exact mode and feature setup on a long effort. Published maxima are not a safety guarantee.</p>
+            </div>
+            <a class="source-proof-link" href="https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html" target="_blank" rel="noopener" data-source-link data-gps-source data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 965 battery modes" data-product-name="Garmin Forerunner 965" data-guide="Ultramarathon GPS Watch Battery Planner">Check the manufacturer claim</a>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="all-modes-heading">
+      <div class="wrap">
+        <div class="section-head section-head--split">
+          <div><span class="section-kicker">Same assumptions, every mode</span><h2 id="all-modes-heading">Compare headroom without mixing GPS modes.</h2></div>
+          <a class="button secondary" href="/downloads/ultramarathon-gps-watch-battery-specifications.csv" download>Download source CSV</a>
+        </div>
+        <p class="operator-section-copy">A longer number can come from lower-fidelity or reduced-recording behavior. The table keeps each mode and its limitation separate; it does not automatically recommend the largest value.</p>
+        <p class="table-scroll-hint">Scroll sideways to compare every mode.</p>
+        <div class="research-table-scroll" tabindex="0" role="region" aria-label="GPS watch battery mode comparison">
+          <table class="research-table gps-mode-table">
+            <caption>Manufacturer-published maxima checked September 8, 2026; calculated status uses the scenario above.</caption>
+            <thead><tr><th scope="col">Watch</th><th scope="col">Mode</th><th scope="col">Published max</th><th scope="col">Mode fidelity</th><th scope="col">Scenario status</th><th scope="col">Buffered headroom</th><th scope="col">Source</th></tr></thead>
+            <tbody>
+
+                <tr data-gps-mode-row data-mode-id="garmin-forerunner-265-gps-only" data-hours="20">
+                  <th scope="row">Garmin Forerunner 265</th>
+                  <td>GPS Only GNSS</td>
+                  <td>20 h</td>
+                  <td>Single-system GPS</td>
+                  <td><span class="matrix-label" data-gps-row-status>Recharge plan</span></td>
+                  <td data-gps-row-headroom>-12.8 h</td>
+                  <td><a href="https://www8.garmin.com/manuals/webhelp/GUID-F41EAFB3-6CC9-42DE-9C6C-9E358DBB0671/EN-US/GUID-1BE364B2-ADAB-4A92-A444-5C13277B4A44.html" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 265 battery modes" data-product-name="Garmin Forerunner 265" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="garmin-forerunner-265-auto-select" data-hours="16">
+                  <th scope="row">Garmin Forerunner 265</th>
+                  <td>All Systems + Auto Select</td>
+                  <td>16 h</td>
+                  <td>SatIQ automatic mode selection</td>
+                  <td><span class="matrix-label" data-gps-row-status>Recharge plan</span></td>
+                  <td data-gps-row-headroom>-16.0 h</td>
+                  <td><a href="https://www8.garmin.com/manuals/webhelp/GUID-F41EAFB3-6CC9-42DE-9C6C-9E358DBB0671/EN-US/GUID-1BE364B2-ADAB-4A92-A444-5C13277B4A44.html" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 265 battery modes" data-product-name="Garmin Forerunner 265" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="garmin-forerunner-265-multiband" data-hours="14">
+                  <th scope="row">Garmin Forerunner 265</th>
+                  <td>All Systems + Multi-Band</td>
+                  <td>14 h</td>
+                  <td>Higher-accuracy multi-band</td>
+                  <td><span class="matrix-label" data-gps-row-status>Recharge plan</span></td>
+                  <td data-gps-row-headroom>-17.6 h</td>
+                  <td><a href="https://www8.garmin.com/manuals/webhelp/GUID-F41EAFB3-6CC9-42DE-9C6C-9E358DBB0671/EN-US/GUID-1BE364B2-ADAB-4A92-A444-5C13277B4A44.html" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 265 battery modes" data-product-name="Garmin Forerunner 265" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="garmin-forerunner-965-gps-only" data-hours="31">
+                  <th scope="row">Garmin Forerunner 965</th>
+                  <td>GPS Only GNSS</td>
+                  <td>31 h</td>
+                  <td>Single-system GPS</td>
+                  <td><span class="matrix-label" data-gps-row-status>Tight</span></td>
+                  <td data-gps-row-headroom>-4.0 h</td>
+                  <td><a href="https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 965 battery modes" data-product-name="Garmin Forerunner 965" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="garmin-forerunner-965-auto-select" data-hours="22">
+                  <th scope="row">Garmin Forerunner 965</th>
+                  <td>All Systems + Auto Select</td>
+                  <td>22 h</td>
+                  <td>SatIQ automatic mode selection</td>
+                  <td><span class="matrix-label" data-gps-row-status>Recharge plan</span></td>
+                  <td data-gps-row-headroom>-11.2 h</td>
+                  <td><a href="https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 965 battery modes" data-product-name="Garmin Forerunner 965" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="garmin-forerunner-965-multiband" data-hours="19">
+                  <th scope="row">Garmin Forerunner 965</th>
+                  <td>All Systems + Multi-Band</td>
+                  <td>19 h</td>
+                  <td>Higher-accuracy multi-band</td>
+                  <td><span class="matrix-label" data-gps-row-status>Recharge plan</span></td>
+                  <td data-gps-row-headroom>-13.6 h</td>
+                  <td><a href="https://www8.garmin.com/manuals/webhelp/GUID-0221611A-992D-495E-8DED-1DD448F7A066/EN-US/GUID-1C7A8FCE-5C49-4938-BF3B-6ABF9585E3BD.html" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Garmin Forerunner 965 battery modes" data-product-name="Garmin Forerunner 965" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="coros-pace-3-standard-gps" data-hours="38">
+                  <th scope="row">COROS PACE 3</th>
+                  <td>Standard Full GPS</td>
+                  <td>38 h</td>
+                  <td>Standard GPS</td>
+                  <td><span class="matrix-label" data-gps-row-status>Fits assumptions</span></td>
+                  <td data-gps-row-headroom>+1.6 h</td>
+                  <td><a href="https://support.coros.com/hc/en-us/articles/23476623096980-Battery-Specifications" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="COROS PACE 3 battery specifications" data-product-name="COROS PACE 3" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="coros-pace-3-all-systems" data-hours="25">
+                  <th scope="row">COROS PACE 3</th>
+                  <td>All Systems On</td>
+                  <td>25 h</td>
+                  <td>Multiple satellite systems</td>
+                  <td><span class="matrix-label" data-gps-row-status>Tight</span></td>
+                  <td data-gps-row-headroom>-8.8 h</td>
+                  <td><a href="https://support.coros.com/hc/en-us/articles/23476623096980-Battery-Specifications" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="COROS PACE 3 battery specifications" data-product-name="COROS PACE 3" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="coros-pace-3-dual-frequency" data-hours="15">
+                  <th scope="row">COROS PACE 3</th>
+                  <td>Dual Frequency</td>
+                  <td>15 h</td>
+                  <td>Higher-accuracy dual-frequency</td>
+                  <td><span class="matrix-label" data-gps-row-status>Recharge plan</span></td>
+                  <td data-gps-row-headroom>-16.8 h</td>
+                  <td><a href="https://support.coros.com/hc/en-us/articles/23476623096980-Battery-Specifications" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="COROS PACE 3 battery specifications" data-product-name="COROS PACE 3" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="polar-vantage-v3-performance" data-hours="43">
+                  <th scope="row">Polar Vantage V3</th>
+                  <td>Performance Training</td>
+                  <td>43 h</td>
+                  <td>Dual-frequency GPS, optical heart rate, 1-second recording</td>
+                  <td><span class="matrix-label" data-gps-row-status>Fits assumptions</span></td>
+                  <td data-gps-row-headroom>+5.6 h</td>
+                  <td><a href="https://support.polar.com/us-en/battery-lifetime-and-operational-time-vantage-v3" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Polar Vantage V3 battery lifetime" data-product-name="Polar Vantage V3" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+                <tr data-gps-mode-row data-mode-id="polar-vantage-v3-eco" data-hours="140">
+                  <th scope="row">Polar Vantage V3</th>
+                  <td>Eco Training</td>
+                  <td>140 h</td>
+                  <td>Reduced logging: single-frequency GPS, optical heart rate off, 2-minute recording</td>
+                  <td><span class="matrix-label" data-gps-row-status>Fits assumptions</span></td>
+                  <td data-gps-row-headroom>+83.2 h</td>
+                  <td><a href="https://support.polar.com/us-en/battery-lifetime-and-operational-time-vantage-v3" target="_blank" rel="noopener" data-source-link data-source-type="Manufacturer specifications" data-source-title="Polar Vantage V3 battery lifetime" data-product-name="Polar Vantage V3" data-guide="Ultramarathon GPS Watch Battery Planner">Official claim</a></td>
+                </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="band surface" aria-labelledby="formula-heading">
+      <div class="wrap ranking-layout">
+        <article class="content-column">
+          <div class="section-kicker">Transparent math</div>
+          <h2 id="formula-heading">What the planner calculates</h2>
+          <div class="formula-grid"><div><span>Buffered race time</span><code>Expected elapsed time × (1 + contingency %)</code></div><div><span>Usable hours after reserve</span><code>Published mode hours × (starting charge % − finish reserve %)</code></div><div><span>Buffered headroom</span><code>Usable hours after reserve − buffered race time</code></div><div><span>Minimum starting charge</span><code>Finish reserve % + buffered race time ÷ published mode hours</code></div></div>
+          <p class="research-limitations"><strong>Limits:</strong> Manufacturer figures are maxima, not guarantees. Firmware, satellites, temperature, display use, sensors, navigation, music, and battery age can shorten runtime. The toggles flag those risks but do not apply invented drain percentages. Fully charge the watch, rehearse the exact settings on a long training effort, and keep a verified charging contingency when navigation or safety depends on it.</p>
+        </article>
+        <aside class="sidebar">
+          <h2>Continue the decision</h2>
+          <div class="link-list compact">
+            <a href="/best-gps-watches-for-ultrarunning.html" data-guide-link data-guide-placement="gps-planner-related"><span>Best GPS Watches for Ultrarunning</span><span>Guide</span></a>
+            <a href="/best-gps-running-watches.html" data-guide-link data-guide-placement="gps-planner-related"><span>Best GPS Running Watches</span><span>Guide</span></a>
+            <a href="/garmin-forerunner-265-vs-coros-pace-3.html" data-guide-link data-guide-placement="gps-planner-related"><span>Forerunner 265 vs PACE 3</span><span>Compare</span></a>
+            <a href="/data-lab.html" data-guide-link data-guide-placement="gps-planner-related"><span>All Data Lab tools</span><span>Hub</span></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid footer-grid--expanded">
+      <div class="footer-intro">
+        <a class="footer-brand-link" href="/">Phavai</a>
+        <p>AI-assisted product research, checked by a named human editor. Sources and meaningful tradeoffs stay visible.</p>
+        <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases. Retail links never affect our rankings.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Guide collections">
+        <strong>Explore</strong>
+        <a href="/outdoor.html">Running &amp; Outdoor</a>
+        <a href="/remote-work.html">Remote Work</a>
+        <a href="/lifestyle.html">Lifestyle</a>
+        <a href="/data-lab.html">Data Lab</a>
+      </nav>
+      <nav class="footer-nav" aria-label="About Phavai">
+        <strong>Trust &amp; support</strong>
+        <a href="/methodology.html">How it works</a>
+        <a href="/editorial-standards.html">Editorial standards</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Corrections &amp; contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phavai</span>
+      <span><a href="/privacy.html">Privacy</a> <a href="/terms.html">Terms</a> <a href="#main-content">Back to top</a></span>
+    </div>
+  </footer>
+</body>
+</html>
